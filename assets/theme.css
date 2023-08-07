@@ -4250,7 +4250,8 @@ split-lines {
 .announcement-bar__static-list .announcement-bar__text {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  column-gap: 1rem;
+  justify-content: center;
 }
 
 .announcement-bar__static-list .announcement-bar__text a {
@@ -9898,4 +9899,42 @@ split-lines {
   -webkit-box-orient: vertical;
   display: -webkit-box;
   overflow: hidden;
+}
+
+.topbar {
+  padding: var(--spacing-2) 0;
+}
+
+.topbar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+  .topbar__wrapper {
+    justify-content: space-between;
+  }
+}
+
+.topbar__text {
+  color: rgb(var(--text-color));
+}
+
+.topbar__menu {
+  color: rgb(var(--text-color));
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-3);
+}
+
+.topbar__menu-link:hover {
+  text-decoration: underline;
+}
+
+.topbar__menu-separator {
+  width: 1px;
+  height: 16px;
+  background-color: rgb(var(--text-color));
+  opacity: .3;
 }
