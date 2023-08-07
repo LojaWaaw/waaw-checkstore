@@ -43,6 +43,17 @@
       <scroll-carousel selector="product-card" id="{{ scroll_area_id }}" class="scroll-area bleed {% if section.settings.products_count > section.settings.products_per_row_desktop %}is-scrollable{% endif %}">
         <reveal-items selector=".product-list > *">
           <product-list class="product-list">
+            {% if section.settings.banner != blank %}
+              <div class="product-list__banner">
+                {% if section.settings.banner_link != blank %}
+                  <a href="{{ section.settings.banner_link }}" class="product-list__banner-link">
+                {% endif %}
+                {{ section.settings.banner | image_url: width: 500 | image_tag: class: 'product-list__banner-image' }}
+                {% if section.settings.banner_link != blank %}
+                  </a>
+                {% endif %}
+              </div>
+            {% endif %}
             {%- assign products = section.settings.products | default: section.settings.collection.products -%}
 
             {%- for product in products limit: section.settings.products_count -%}
@@ -87,6 +98,18 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "banner",
+      "label": "Banner",
+      "info": "The banner is be displayed has first card in the carousel."
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Banner link",
+      "info": "Destination link to the banner."
+    },
     {
       "type": "collection",
       "id": "collection",
