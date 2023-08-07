@@ -8318,6 +8318,17 @@ split-lines {
   background: rgb(var(--slideshow-controls-color));
 }
 
+.slideshow__controls--dots {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: auto !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  margin-top: var(--spacing-4);
+}
+
 .slideshow__cursor.is-half-start .icon-chevron-right {
   transform: rotate(180deg);
 }

@@ -26,6 +26,8 @@ CSS
       {%- if section.settings.controls_type == 'filled_arrows' -%}
         {%- assign controls_background = block.settings.button_background -%}
         {%- assign controls_color = block.settings.button_text_color -%}
+      {%- elsif section.settings.controls_type == 'dots' -%}
+        {%- assign controls_color = section.settings.dots_color -%}
       {%- else -%}
         {%- assign controls_color = block.settings.text_color -%}
       {%- endif -%}
@@ -117,7 +119,7 @@ LIQUID
     {%- endfor -%}
 
     {%- if section.blocks.size > 1 and section.settings.controls_type != 'none' -%}
-      <div class="slideshow__controls">
+      <div class="slideshow__controls{% if section.settings.controls_type == 'dots' %} slideshow__controls--dots{% endif %}">
         {%- case section.settings.controls_type -%}
           {%- when 'filled_arrows' or 'outline_arrows' -%}
             <div class="prev-next-buttons">
@@ -239,6 +241,12 @@ LIQUID
         }
       ],
       "default": "dots"
+    },
+    {
+      "type": "color",
+      "id": "dots_color",
+      "label": "Dots color",
+      "default": "#000000"
     },
     {
       "type": "select",
