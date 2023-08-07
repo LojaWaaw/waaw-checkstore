@@ -42,7 +42,7 @@
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
-            "background": "",
+            "background": "rgba(0,0,0,0)",
             "background_gradient": ""
           }
         }
@@ -62,6 +62,35 @@
         "cycle_speed": 6,
         "background": "#f2f2f2",
         "background_gradient": ""
+      }
+    },
+    "a17ec046-c828-412b-92fa-e109251e7f77": {
+      "type": "featured-collection",
+      "settings": {
+        "banner": "shopify:\/\/shop_images\/Captura_de_Tela_2023-08-07_as_16.12.04.png",
+        "banner_link": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
+        "collection": "vitrine-home-2",
+        "products": [
+
+        ],
+        "full_width": false,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Destaques WAAW",
+        "content": "",
+        "link_url": "shopify:\/\/collections\/all",
+        "link_text": "Ver todos",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
       }
     },
     "image-link-blocks": {
@@ -241,6 +270,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
+        "banner_link": "",
         "collection": "dia-dos-pais",
         "products": [
 
@@ -1211,6 +1241,7 @@
   },
   "order": [
     "slideshow",
+    "a17ec046-c828-412b-92fa-e109251e7f77",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
