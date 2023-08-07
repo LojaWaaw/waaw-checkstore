@@ -19,6 +19,11 @@
       .shopify-section--header ~ #shopify-section-{{ section.id }} {
         top: calc(var(--sticky-header-enabled, 0) * var(--header-height, 0px));
       }
+    {% else %}
+      #shopify-section-{{ section.id }} {
+        position: relative;
+        z-index: 1;
+      }
     {%- endif -%}
   </style>
 
@@ -63,11 +68,15 @@
 
             <announcement-bar swipeable id="announcement-bar" class="announcement-bar__static-list">
               {%- for block in section.blocks -%}
-                <p class="bold {{ section.settings.text_size }} {% unless forloop.first %}reveal-invisible{% endunless %}" {{ block.shopify_attributes }}>
-                  {%- if block.settings.url != blank -%}
-                    <a href="{{ block.settings.url }}">{{ block.settings.text | escape }}</a>
-                  {%- else -%}
-                    {{ block.settings.text | escape }}
+                <p class="announcement-bar__text {{ section.settings.text_size }} {% unless forloop.first %}reveal-invisible{% endunless %}" {{ block.shopify_attributes }}>
+                  {%- if block.settings.title != blank -%}
+                    <span class="bold">{{ block.settings.title }}</span>
+                  {%- endif -%}
+                  {%- if block.settings.text -%}
+                    <span>{{ block.settings.text }}</span>
+                  {%- endif -%}
+                  {%- if block.settings.url != blank and block.settings.cta != blank -%}
+                    <a href="{{ block.settings.url }}">{{ block.settings.cta | escape }}</a>
                   {%- endif -%}
                 </p>
               {%- endfor -%}
@@ -102,9 +111,21 @@
       "settings": [
         {
           "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Announcement"
+        },
+        {
+          "type": "text",
           "id": "text",
           "label": "Text",
           "default": "Announce something here"
+        },
+        {
+          "type": "text",
+          "id": "cta",
+          "label": "CTA",
+          "default": "Shop now"
         },
         {
           "type": "url",

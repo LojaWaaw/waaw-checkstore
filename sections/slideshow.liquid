@@ -17,7 +17,7 @@ CSS
     --slideshow-controls-color: {{ controls_color.rgb }};
 
     {%- if section.settings.allow_transparent_header -%}
-      margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first));
+      margin-block-start: calc(-1 * var(--header-height) * var(--section-is-first) + var(--announcement-bar-height) + 15px);
     {%- endif -%}
   }
 

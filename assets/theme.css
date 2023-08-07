@@ -4228,7 +4228,7 @@ split-lines {
 
 .announcement-bar__wrapper {
   gap: var(--spacing-4);
-  max-width: 450px;
+  max-width: 750px;
   margin-inline-start: auto;
   margin-inline-end: auto;
   display: flex;
@@ -4245,6 +4245,16 @@ split-lines {
   text-align: center;
   place-items: center;
   display: grid;
+}
+
+.announcement-bar__static-list .announcement-bar__text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.announcement-bar__static-list .announcement-bar__text a {
+  text-decoration: underline;
 }
 
 .announcement-bar__static-list > * {
