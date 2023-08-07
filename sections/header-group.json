@@ -7,8 +7,8 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify:\/\/shop_images\/LOGO-SITE-1_1.gif",
-        "logo_max_width": 120,
+        "logo": "shopify:\/\/shop_images\/Logo-Waaw.svg",
+        "logo_max_width": 135,
         "logo_mobile_max_width": 100,
         "menu": "main-menu",
         "sidebar_menu": "",
