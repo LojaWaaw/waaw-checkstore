@@ -1,0 +1,82 @@
+<height-observer variable="topbar">
+  <div {% render 'surface', class: 'topbar', background_gradient: section.settings.background_gradient, background: section.settings.background, text_color: section.settings.text_color %}>
+    <div class="container {{ section.settings.text_size }}">
+      <div class="topbar__wrapper">
+        <div class="topbar__text hidden md:block">
+          {{ section.settings.text }}
+        </div>
+        <nav class="topbar__menu">
+          {% for link in section.settings.menu.links %}
+            <a href="{{ link.url }}" class="topbar__menu-link">{{ link.title }}</a>
+            {%- unless forloop.index == forloop.length -%}<span class="topbar__menu-separator"></span>{%- endunless -%}
+          {% endfor %}
+        </nav>
+      </div>
+    </div>
+  </div>
+</height-observer>
+
+<script>
+  document.documentElement.style.setProperty('--topbar-height', Math.round(document.getElementById('shopify-section-{{ section.id }}').clientHeight) + 'px');
+</script>
+
+{% schema %}
+  {
+    "name": "Top Bar",
+    "settings": [
+      {
+        "type": "inline_richtext",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "link_list",
+        "id": "menu",
+        "label": "Menu"
+      },
+      {
+        "type": "select",
+        "id": "text_size",
+        "label": "Text size",
+        "options": [
+          {
+            "value": "text-xxs",
+            "label": "X-Small"
+          },
+          {
+            "value": "text-xs",
+            "label": "Small"
+          },
+          {
+            "value": "text-base",
+            "label": "Medium"
+          },
+          {
+            "value": "text-lg",
+            "label": "Large"
+          }
+        ],
+        "default": "text-xs"
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color"
+      },
+      {
+        "type": "color_background",
+        "id": "background_gradient",
+        "label": "Background Gradient"
+      }
+    ]
+  }
+{% endschema %}
