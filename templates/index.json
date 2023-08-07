@@ -22,12 +22,11 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "rgba(0,0,0,0)",
-            "background_gradient": "linear-gradient(45deg, rgba(54, 55, 6, 1), rgba(127, 124, 111, 1) 97%)"
+            "background_gradient": ""
           }
         },
         "slide-2": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/02.1600x700-Banner-loja-waaw-dia-do-rock.png",
             "content_max_width": 780,
@@ -44,7 +43,7 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "",
-            "background_gradient": "linear-gradient(228deg, rgba(107, 111, 80, 1) 14%, rgba(154, 254, 48, 1) 83%)"
+            "background_gradient": ""
           }
         }
       },
@@ -56,12 +55,12 @@
         "full_width": false,
         "allow_transparent_header": true,
         "image_size": "auto",
-        "controls_type": "numbers",
+        "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
+        "background_gradient": ""
       }
     },
     "image-link-blocks": {

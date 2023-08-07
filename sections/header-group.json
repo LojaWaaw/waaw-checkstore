@@ -2,55 +2,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "message": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "text": "Announce something here",
-            "url": ""
-          }
-        },
-        "6fe1c68e-21af-42e3-8a36-ea44512e7e6b": {
-          "type": "message",
-          "settings": {
-            "text": "5% de desconto no PIX",
-            "url": ""
-          }
-        },
-        "89491dac-e7d8-45c3-a28a-802bcb221fec": {
-          "type": "message",
-          "settings": {
-            "text": "7% de desconto no Boleto",
-            "url": ""
-          }
-        },
-        "ec68faa7-d375-4623-8fcb-b925fcaf7a27": {
-          "type": "message",
-          "settings": {
-            "text": "Frete Grátis a acima de R$199,99",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "message",
-        "6fe1c68e-21af-42e3-8a36-ea44512e7e6b",
-        "89491dac-e7d8-45c3-a28a-802bcb221fec",
-        "ec68faa7-d375-4623-8fcb-b925fcaf7a27"
-      ],
-      "settings": {
-        "enable_sticky": false,
-        "text_size": "text-xs",
-        "navigation_mode": "scrolling",
-        "scrolling_speed": 10,
-        "background": "#1a1a1a",
-        "background_gradient": "",
-        "text_color": "#ffffff"
-      }
-    },
     "header": {
       "type": "header",
       "settings": {
@@ -70,15 +21,71 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": false,
-        "transparent_header_text_color": "#ffffff",
+        "transparent_header_text_color": "#000000",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
       }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message": {
+          "type": "message",
+          "settings": {
+            "title": "Announcement",
+            "text": "Announce something here",
+            "cta": "Shop now",
+            "url": "#"
+          }
+        },
+        "6fe1c68e-21af-42e3-8a36-ea44512e7e6b": {
+          "type": "message",
+          "settings": {
+            "title": "Announcement",
+            "text": "5% de desconto no PIX",
+            "cta": "Shop now",
+            "url": "#"
+          }
+        },
+        "89491dac-e7d8-45c3-a28a-802bcb221fec": {
+          "type": "message",
+          "settings": {
+            "title": "Announcement",
+            "text": "7% de desconto no Boleto",
+            "cta": "Shop now",
+            "url": "#"
+          }
+        },
+        "ec68faa7-d375-4623-8fcb-b925fcaf7a27": {
+          "type": "message",
+          "settings": {
+            "title": "Announcement",
+            "text": "Frete Grátis a acima de R$199,99",
+            "cta": "Shop now",
+            "url": "#"
+          }
+        }
+      },
+      "block_order": [
+        "message",
+        "6fe1c68e-21af-42e3-8a36-ea44512e7e6b",
+        "89491dac-e7d8-45c3-a28a-802bcb221fec",
+        "ec68faa7-d375-4623-8fcb-b925fcaf7a27"
+      ],
+      "settings": {
+        "enable_sticky": false,
+        "text_size": "text-xs",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 10,
+        "background": "#e0e621",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
     }
   },
   "order": [
-    "announcement-bar",
-    "header"
+    "header",
+    "announcement-bar"
   ]
 }
