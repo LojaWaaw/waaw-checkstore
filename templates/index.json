@@ -177,7 +177,7 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -193,7 +193,7 @@
         "text_style": "fill",
         "scrolling_mode": "auto",
         "scrolling_speed": 5,
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "text_gradient": ""
@@ -251,15 +251,15 @@
         "collection-3"
       ],
       "settings": {
-        "full_width": true,
-        "stack_collections": false,
+        "full_width": false,
+        "stack_collections": true,
         "collections_per_row": 3,
         "show_progress_bar": false,
         "subheading": "",
         "title": "",
         "content": "",
         "link_url": "",
-        "link_text": "Ver todos",
+        "link_text": "",
         "background": "",
         "background_gradient": "",
         "text_color": "",
@@ -301,11 +301,11 @@
         "1664424181b38582d5-0": {
           "type": "item",
           "settings": {
-            "title": "Headfone",
+            "title": "Gamer",
             "subheading": "",
             "content": "<h5>Fone de ouvido intra-auricular, microfone destacável, conector P3<\/h5>",
-            "button_text": "",
-            "button_url": "",
+            "button_text": "Ver produto",
+            "button_url": "shopify:\/\/products\/fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
             "animate_impact_text": false,
             "animate_impact_text_duration": 2
           }
@@ -427,210 +427,31 @@
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "product": "fone-de-ouvido-tws-bluetooth-mob-100eb",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "free_scroll",
+        "enable_video_autoplay": false,
         "enable_video_looping": false,
         "enable_image_zoom": true,
         "max_image_zoom_level": 3,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
     },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "blocks": {
-        "1664424230c4756b0e-0": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "1664424230c4756b0e-1": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "1664424230c4756b0e-2": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424230c4756b0e-0",
-        "1664424230c4756b0e-1",
-        "1664424230c4756b0e-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/04.1600x700-Desktop-banner-loja-semana-do-consumidor.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "media-grid": {
-      "type": "media-grid",
-      "disabled": true,
-      "blocks": {
-        "item-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_5.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fone-de-ouvido-energy-10ewg_04.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "8f6bb5b3-7061-45dc-b21e-ca973a301460": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ENERGY10-EWG-7899831311620-09_30954057-6a4e-4e0e-8215-12ad99d5d1e4.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/controle-em-suas-maos.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-3": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fone-de-ouvido-energy-10ewg_07_5c5802fb-ab41-47b2-ae86-a6231b368761.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "8f6bb5b3-7061-45dc-b21e-ca973a301460",
-        "29246d34-c6e0-4373-84f6-b15e57736a00",
-        "item-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
     "563409fc-7ba0-4299-b2d2-61b1fe553205": {
       "type": "media-grid",
       "blocks": {
-        "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-1": {
-          "type": "image",
+        "d69dbe9f-d309-4789-90bf-d54b5bfb8165": {
+          "type": "video",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alok_2_73e3e7a4-c56e-4c77-bbb5-024eabdf475b.png",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -695,7 +516,7 @@
         }
       },
       "block_order": [
-        "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-1",
+        "d69dbe9f-d309-4789-90bf-d54b5bfb8165",
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2",
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0"
       ],
@@ -704,7 +525,7 @@
         "reduce_width": false,
         "desktop_row_height": 250,
         "mobile_row_height": 150,
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
     },
@@ -723,7 +544,7 @@
         "before_text": "Before",
         "after_text": "After",
         "drag_initial_position": 50,
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "before_text_color": "#ffffff",
@@ -863,149 +684,6 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "multiple-images-with-text": {
-      "type": "multiple-images-with-text",
-      "disabled": true,
-      "blocks": {
-        "1664424486a2b084ab-0": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Heading 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        },
-        "1664424486a2b084ab-1": {
-          "type": "item",
-          "settings": {
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Heading 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664424486a2b084ab-0",
-        "1664424486a2b084ab-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "images_layout": "scattered",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "featured-product": {
-      "type": "featured-product",
-      "disabled": true,
-      "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "badges": {
-          "type": "badges",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "collapse_content": true
-          }
-        },
-        "variant-picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy-buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "vendor",
-        "title",
-        "badges",
-        "price",
-        "rating",
-        "separator",
-        "description",
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
-    },
     "8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b": {
       "type": "media-with-text",
       "blocks": {
@@ -1036,7 +714,7 @@
         "template--15950778237103__8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b-16892720748cc7aed6-0"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "spacing": "none"
       }
     },
@@ -1173,14 +851,14 @@
         "view_product": "Ver Produto",
         "viewing_product": "",
         "show_product_swatch": true,
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "chart_background": "",
+        "chart_background": "#ffffff",
         "chart_text_color": "",
         "chart_true_false_color": ""
       }
@@ -1227,14 +905,14 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
-        "accordion_background": "",
+        "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
     }
@@ -1248,14 +926,10 @@
     "featured-collection",
     "impact-text",
     "003d4475-eb16-480d-9f28-9ed37ac8435a",
-    "image-with-text-overlay",
-    "media-grid",
     "563409fc-7ba0-4299-b2d2-61b1fe553205",
     "before-after-image",
     "press",
     "hot-spots",
-    "multiple-images-with-text",
-    "featured-product",
     "8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b",
     "feature-chart",
     "faq"
