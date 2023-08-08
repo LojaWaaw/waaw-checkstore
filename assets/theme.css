@@ -6909,7 +6909,7 @@ split-lines {
 .multi-column {
   --multi-column-list-column-max-gap: var(--grid-gutter);
   --multi-column-list-row-min-gap: var(--grid-gutter);
-  --multi-column-item-gap: var(--spacing-6);
+  --multi-column-item-gap: var(--grid-gutter);
   grid: var(--multi-column-grid);
   gap: max(var(--multi-column-list-gap), var(--multi-column-list-row-min-gap)) min(var(--multi-column-list-column-max-gap), var(--multi-column-list-gap));
   display: grid;
@@ -6924,14 +6924,14 @@ split-lines {
 
 @media screen and (min-width: 700px) {
   .multi-column {
-    --multi-column-list-column-max-gap: var(--spacing-16);
+    --multi-column-list-column-max-gap: var(--grid-gutter);
     grid: auto / auto-flow 38vw;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .multi-column {
-    --multi-column-list-row-min-gap: var(--spacing-16);
+    --multi-column-list-row-min-gap: var(--grid-gutter);
     grid: auto / repeat(12, minmax(0, 1fr));
   }
 
@@ -6942,7 +6942,7 @@ split-lines {
 
 @media screen and (min-width: 1400px) {
   .multi-column {
-    --multi-column-list-column-max-gap: var(--multi-column-list-gap);
+    --multi-column-list-column-max-gap: var(--grid-gutter);
   }
 }
 

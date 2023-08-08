@@ -53,6 +53,38 @@
 
             {%- when 'spacer' -%}
               <div class="multi-column__item hidden md:block" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}></div>
+            {%- when 'product_with_banner' -%}
+              <div class="multi-column__item" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+                {%- if block.settings.banner_image != blank and block.settings.banner_position == 'above' -%}
+                  <div class="multi-column__item__banner">
+                    {%- if block.settings.banner_link -%}
+                      <a href="{{ block.settings.banner_link }}">
+                    {%- endif -%}
+                    {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
+                    {{- block.settings.banner_image | image_url: width: block.settings.banner_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
+                    {%- if block.settings.banner_link -%}
+                      </a>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              
+                {%- if block.settings.product != blank -%}
+                  {%- render 'product-card', product: block.settings.product, stacked: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+                {%- endif -%}
+
+                {%- if block.settings.banner_image != blank and block.settings.banner_position == 'bellow' -%}
+                  <div class="multi-column__item__banner">
+                    {%- if block.settings.banner_link -%}
+                      <a href="{{ block.settings.banner_link }}">
+                    {%- endif -%}
+                    {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
+                    {{- block.settings.banner_image | image_url: width: block.settings.banner_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
+                    {%- if block.settings.banner_link -%}
+                      </a>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              </div>
           {%- endcase -%}
         {%- endfor -%}
       </div>
@@ -163,6 +195,16 @@
       "type": "color",
       "id": "text_color",
       "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "product_card_background",
+      "label": "Product card background"
+    },
+    {
+      "type": "color",
+      "id": "product_card_text_color",
+      "label": "Product card text"
     }
   ],
   "blocks": [
@@ -309,6 +351,76 @@
             }
           ],
           "default": "12"
+        }
+      ]
+    },
+    {
+      "type": "product_with_banner",
+      "name": "Product with Banner",
+      "settings": [
+        {
+          "type": "select",
+          "id": "column_size",
+          "label": "Desktop item size",
+          "options": [
+            {
+              "value": "4",
+              "label": "25%"
+            },
+            {
+              "value": "3",
+              "label": "33%"
+            },
+            {
+              "value": "2",
+              "label": "50%"
+            },
+            {
+              "value": "1.5",
+              "label": "66%"
+            }
+          ],
+          "default": "4"
+        },
+        {
+          "type": "header",
+          "content": "Banner"
+        },
+        {
+          "type": "image_picker",
+          "id": "banner_image",
+          "label": "Image",
+          "info": "1400 x 1400px .jpg recommended"
+        },
+        {
+          "type": "url",
+          "id": "banner_link",
+          "label": "Link URL"
+        },
+        {
+          "type": "select",
+          "id": "banner_position",
+          "label": "Banner Position",
+          "options": [
+            {
+              "value": "above",
+              "label": "Above Product"
+            },
+            {
+              "value": "bellow",
+              "label": "Bellow Product"
+            }
+          ],
+          "default": "above"
+        },
+        {
+          "type": "header",
+          "content": "Product"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select a Product"
         }
       ]
     }
