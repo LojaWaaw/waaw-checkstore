@@ -915,6 +915,71 @@
         "accordion_background": "#ffffff",
         "accordion_text_color": ""
       }
+    },
+    "9ed2683d-0f72-46b3-8471-cdd7ece52232": {
+      "type": "multi-column",
+      "blocks": {
+        "33c6d0b9-4ad0-41f5-9a2f-2122ce7f124d": {
+          "type": "product_with_banner",
+          "settings": {
+            "column_size": "4",
+            "banner_image": "shopify:\/\/shop_images\/7899831311620-ENERGY10-04.png",
+            "banner_link": "shopify:\/\/products\/fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
+            "banner_position": "above",
+            "product": "fone-de-ouvido-tws-bluetooth-mob-100eb"
+          }
+        },
+        "8fe46647-9a8e-43cb-9541-136c052adf00": {
+          "type": "product_with_banner",
+          "settings": {
+            "column_size": "4",
+            "banner_image": "shopify:\/\/shop_images\/auricular.png",
+            "banner_link": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
+            "banner_position": "bellow",
+            "product": "waaw-boom-100sb-caixa-de-som"
+          }
+        },
+        "25e5f063-cfbe-456e-9910-06043e33e9e1": {
+          "type": "product_with_banner",
+          "settings": {
+            "column_size": "4",
+            "banner_image": "shopify:\/\/shop_images\/ENERGY10-EWG-7899831311620-12_fbbce77c-229a-465d-8f45-1c2e725c400d.png",
+            "banner_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
+            "banner_position": "above",
+            "product": "fone-bluetooth-cancelamento-ruido-sense-300hbnc"
+          }
+        },
+        "fee73b17-6699-4797-a9b9-2607cba29836": {
+          "type": "product_with_banner",
+          "settings": {
+            "column_size": "4",
+            "banner_image": "shopify:\/\/shop_images\/fone-de-ouvido-energy-10ewg_08.png",
+            "banner_link": "shopify:\/\/products\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws",
+            "banner_position": "bellow",
+            "product": "waaw-energy-100ebg-fone-de-ouvido-gamer-tws"
+          }
+        }
+      },
+      "block_order": [
+        "33c6d0b9-4ad0-41f5-9a2f-2122ce7f124d",
+        "8fe46647-9a8e-43cb-9541-136c052adf00",
+        "25e5f063-cfbe-456e-9910-06043e33e9e1",
+        "fee73b17-6699-4797-a9b9-2607cba29836"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -932,6 +997,7 @@
     "hot-spots",
     "8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b",
     "feature-chart",
-    "faq"
+    "faq",
+    "9ed2683d-0f72-46b3-8471-cdd7ece52232"
   ]
 }
