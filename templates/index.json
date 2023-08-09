@@ -879,22 +879,25 @@
             "link_style": "link"
           }
         },
-        "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-2": {
-          "type": "item",
+        "8ec64172-7bd0-45c0-afad-e70ef406136c": {
+          "type": "newsletter",
           "settings": {
-            "column_size": "3",
-            "title": "Column title",
-            "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
+            "icon": "picto-envelope",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Newsletter",
+            "content": "<p>Sign up for our newsletter and be the first to know about coupons and special promotions.<\/p>",
+            "consent_label": "<p>I agree to receive your newsletter and accept the <a href=\"#\">privacy policy<\/a>.<\/p>",
+            "column_size": "3"
           }
         }
       },
       "block_order": [
         "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1",
-        "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-2"
+        "8ec64172-7bd0-45c0-afad-e70ef406136c"
       ],
       "settings": {
         "full_width": false,
@@ -908,7 +911,9 @@
         "background_gradient": "",
         "text_color": "",
         "product_card_background": "",
-        "product_card_text_color": ""
+        "product_card_text_color": "",
+        "newsletter_background_color": "#ffffff",
+        "newsletter_text_color": "#1a1a1a"
       }
     },
     "5707dfc9-797a-4b73-b0c7-a8da84710061": {
@@ -1007,7 +1012,9 @@
         "background_gradient": "",
         "text_color": "",
         "product_card_background": "#ffffff",
-        "product_card_text_color": "rgba(0,0,0,0)"
+        "product_card_text_color": "rgba(0,0,0,0)",
+        "newsletter_background_color": "",
+        "newsletter_text_color": ""
       }
     },
     "6d15fe12-458d-4518-b504-d5f0e8c7b38f": {
