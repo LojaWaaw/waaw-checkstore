@@ -84,22 +84,13 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "background_card_color": "#ffffff",
+        "background_card_color": "#f0f0f0",
         "text_card_color": ""
       }
     },
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter": {
-          "type": "newsletter",
-          "settings": {
-            "image_width": 150,
-            "heading_size": "h3",
-            "title": "",
-            "content": "<p><strong>Conecte-se com a gente! Receba as novidades. <\/strong><\/p>"
-          }
-        },
         "links": {
           "type": "links",
           "settings": {
@@ -113,20 +104,44 @@
             "menu": "menu-institucional",
             "show_menu_title": true
           }
+        },
+        "350b39ad-5799-4f75-8d60-be85c87a47ba": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "e6621e14-3d49-49ef-a9aa-d0c2dabdf748": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
+          }
+        },
+        "f505ae98-251d-4ede-a6de-1c60380de164": {
+          "type": "text",
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
+            "enable_follow_on_shop": true
+          }
         }
       },
       "block_order": [
-        "newsletter",
         "links",
-        "e7fc61d8-48e1-4ccf-9f87-c12df2ef4c66"
+        "e7fc61d8-48e1-4ccf-9f87-c12df2ef4c66",
+        "350b39ad-5799-4f75-8d60-be85c87a47ba",
+        "e6621e14-3d49-49ef-a9aa-d0c2dabdf748",
+        "f505ae98-251d-4ede-a6de-1c60380de164"
       ],
       "settings": {
         "show_social_media": true,
         "show_payment_icons": true,
-        "show_country_selector": true,
-        "show_country_flag": true,
-        "show_country_name": true,
-        "show_locale_selector": true
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": false
       }
     }
   },
