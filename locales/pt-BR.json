@@ -30,6 +30,7 @@
       "info": "{{ rating_value }} de {{ rating_max }} estrelas"
     },
     "newsletter": {
+      "name": "Nome",
       "email": "E-mail",
       "subscribe": "Assinar",
       "notify_me": "Me avise",
