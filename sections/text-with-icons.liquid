@@ -40,6 +40,11 @@
         }
       }
     {%- endif -%}
+
+    .text-with-icons__item--boxed {
+      background-color: {{ section.settings.background_card_color }};
+      color: {{ section.settings.text_card_color }};
+    }
   </style>
 
   <div {% render 'section-properties' %}>
@@ -53,7 +58,7 @@
       <div class="text-with-icons">
         <scroll-carousel class="text-with-icons__list scroll-area full-bleed {% if section.blocks.size <= 3 %}md:unbleed{% else %}lg:unbleed{% endif %}" id="carousel-{{ section.id }}" role="region">
           {%- for block in section.blocks -%}
-            <div id="block-{{ section.id }}-{{ block.id }}" class="text-with-icons__item snap-center" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
+            <div id="block-{{ section.id }}-{{ block.id }}" class="text-with-icons__item{% if section.settings.columns_boxed == true %} text-with-icons__item--boxed rounded{% endif %} snap-center" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
               {%- capture icon -%}
                 {%- if block.settings.custom_icon != blank -%}
                   {%- capture sizes -%}{{ block.settings.icon_width }}px{%- endcapture -%}
@@ -82,10 +87,14 @@
               <div class="text-with-icons__text-wrapper">
                 <div class="prose">
                   {%- if block.settings.title != blank -%}
-                    <p class="{{ section.settings.heading_tag }}">{{ block.settings.title | escape }}</p>
+                    <h3 class="{{ section.settings.heading_tag }}">{{ block.settings.title | escape }}</h3>
                   {%- endif -%}
 
                   {{- block.settings.content -}}
+
+                  {%- if block.settings.link != blank and block.settings.link_text != blank -%}
+                    <a href="{{ block.settings.link }}">{{ block.settings.link_text | escape }}</a>
+                  {%- endif -%}
                 </div>
               </div>
             </div>
@@ -451,6 +460,17 @@
           "id": "content",
           "label": "Content",
           "default": "<p>Short content about your store</p>"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text",
+          "default": "Read more"
         }
       ]
     }
@@ -546,6 +566,12 @@
       "default": "medium"
     },
     {
+      "type": "checkbox",
+      "id": "columns_boxed",
+      "label": "Columns boxed",
+      "default": false
+    },
+    {
       "type": "header",
       "content": "Colors",
       "info": "Gradient replaces solid colors when set."
@@ -564,6 +590,16 @@
       "type": "color",
       "id": "text_color",
       "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "background_card_color",
+      "label": "Card background"
+    },
+    {
+      "type": "color",
+      "id": "text_card_color",
+      "label": "Card text color"
     }
   ],
   "presets": [

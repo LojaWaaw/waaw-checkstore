@@ -8588,7 +8588,7 @@ split-lines {
   grid: auto / var(--text-with-icons-template);
   row-gap: var(--spacing-6);
   min-width: 0;
-  align-items: start;
+  align-items: stretch;
   display: grid;
 }
 
@@ -8609,12 +8609,33 @@ split-lines {
     padding-inline-start: 0;
     padding-inline-end: 0;
   }
+
+  :not(.is-scrollable) .text-with-icons__item.text-with-icons__item--boxed {
+    padding: var(--spacing-6);
+  }
 }
 
 @media screen and (min-width: 1400px) {
   :not(.is-scrollable) .text-with-icons__list {
-    gap: var(--spacing-10);
+    gap: var(--spacing-6);
   }
+}
+
+.text-with-icons__text-wrapper .prose {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.text-with-icons__text-wrapper .prose p {
+  flex: 1;
+  margin-block-start: 0;
+  margin-bottom: 16px;
+}
+
+.text-with-icons__text-wrapper .prose a {
+  font-weight: bold;
 }
 
 .timeline {
