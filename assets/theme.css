@@ -6732,6 +6732,18 @@ split-lines {
   justify-content: end;
 }
 
+.impact-text--align-top {
+  align-items: start;
+}
+
+.impact-text--align-bottom {
+  align-items: end;
+}
+
+.impact-text--align-center {
+  align-items: center;
+}
+
 .impact-text__text {
   font-size: var(--impact-text-font-size);
   letter-spacing: 0;
@@ -6746,6 +6758,12 @@ split-lines {
   max-width: 750px;
 }
 
+.impact-text__content--no-margins {
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+}
+
 .impact-text--center .impact-text__content {
   margin-inline-start: auto;
   margin-inline-end: auto;
@@ -6753,6 +6771,11 @@ split-lines {
 
 .impact-text--end .impact-text__content {
   margin-inline-start: auto;
+}
+
+.impact-text .product__image {
+  border-radius: var(--rounded);
+  overflow: hidden;
 }
 
 @media screen and (min-width: 700px) {

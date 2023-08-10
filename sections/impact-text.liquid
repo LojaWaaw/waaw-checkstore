@@ -29,33 +29,51 @@
 
   <div {% render 'section-properties' %}>
     <div {% unless section.settings.stack_mobile %}class="scroll-area bleed {% if section.blocks.size < 3 %}sm:unbleed{% else %}md:unbleed{% endif %}"{% endunless %}>
-      <div class="impact-text impact-text--{{ section.settings.text_alignment }} {% unless section.settings.stack_mobile %}impact-text--scroll{% endunless %}">
+      <div class="impact-text impact-text--{{ section.settings.text_alignment }} impact-text--align-{{ section.settings.grid_alignment }} {% unless section.settings.stack_mobile %}impact-text--scroll{% endunless %}">
           {%- for block in section.blocks -%}
-            <div class="snap-center" {{ block.shopify_attributes }}>
-              {%- if block.settings.title != blank -%}
-                <h2 class="impact-text__text heading break-all">
-                  <impact-text {% if block.settings.animate_impact_text %}count-up="{{ block.settings.animate_impact_text_duration }}"{% endif %} reveal-js>
-                    {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_text_color, gradient: section.settings.heading_gradient, style: section.settings.impact_text_style -%}
-                  </impact-text>
-                </h2>
-              {%- endif -%}
+            {%- case block.type -%}
+              {%- when 'item' -%}
+                <div class="snap-center" {{ block.shopify_attributes }}>
+                  {%- if block.settings.title != blank -%}
+                    <h2 class="impact-text__text heading break-all">
+                      <impact-text {% if block.settings.animate_impact_text %}count-up="{{ block.settings.animate_impact_text_duration }}"{% endif %} reveal-js>
+                        {%- render 'styled-text', content: block.settings.title, text_color: section.settings.heading_text_color, gradient: section.settings.heading_gradient, style: section.settings.impact_text_style -%}
+                      </impact-text>
+                    </h2>
+                  {%- endif -%}
 
-              {%- if block.settings.subheading != blank or block.settings.content != blank or block.settings.button_text != blank -%}
-                <div class="impact-text__content">
-                  <div class="prose">
-                    {%- if block.settings.subheading != blank -%}
-                      <h3 class="h4">{{ block.settings.subheading | escape }}</h3>
-                    {%- endif -%}
+                  {%- if block.settings.subheading != blank or block.settings.content != blank or block.settings.button_text != blank -%}
+                    <div class="impact-text__content{% if block.settings.reduce_margins == true %} impact-text__content--no-margins{% endif %}">
+                      <div class="prose">
+                        {%- if block.settings.subheading != blank -%}
+                          <h3 class="h2">{{ block.settings.subheading | escape }}</h3>
+                        {%- endif -%}
 
-                    {{- block.settings.content -}}
+                        {{- block.settings.content -}}
 
-                    {%- if block.settings.button_text != blank -%}
-                      {%- render 'button', content: block.settings.button_text, href: block.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                        {%- if block.settings.button_text != blank -%}
+                          {%- render 'button', content: block.settings.button_text, href: block.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+                        {%- endif -%}
+                      </div>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- when 'product' -%}
+                <div class="snap-center" {{ block.shopify_attributes }}>
+                  <div class="product">
+                    {%- if block.settings.product != blank -%}
+                      {% assign onlyModels = block.settings.product.media | where: 'media_type', 'model' %}
+                      {%- if onlyModels -%}
+                        {%- for model in onlyModels -%}
+                          <model-media class="product__image" {% if group != blank %}group="{{ group | escape }}"{% endif %} handle="{{ product.handle }}" style="aspect-ratio: {{ media.preview_image.aspect_ratio }}">
+                            {{- model | model_viewer_tag: image_size: '2048x', reveal: 'interaction', toggleable: true -}}
+                          </model-media>
+                        {%- endfor -%}
+                      {%- endif -%}
                     {%- endif -%}
                   </div>
                 </div>
-              {%- endif -%}
-            </div>
+            {%- endcase -%}
 
             {%- unless forloop.last or section.settings.text_divider == 'none' -%}
               {%- case section.settings.text_divider -%}
@@ -96,6 +114,12 @@
           "label": "Impact text",
           "info": "For best results, keep this text short and impactful.",
           "default": "100%"
+        },
+        {
+          "type": "checkbox",
+          "id": "reduce_margins",
+          "label": "Reduce margins",
+          "default": false
         },
         {
           "type": "text",
@@ -143,6 +167,21 @@
           "default": 2
         }
       ]
+    },
+    {
+      "type": "product",
+      "name": "Product 360",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Product"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Select a Product"
+        }
+      ]
     }
   ],
   "settings": [
@@ -157,6 +196,26 @@
       "id": "stack_mobile",
       "label": "Stack on mobile",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "grid_alignment",
+      "label": "Grid alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "top"
     },
     {
       "type": "select",
