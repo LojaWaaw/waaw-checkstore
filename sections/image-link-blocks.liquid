@@ -23,14 +23,14 @@ CSS
 
   @media screen and (min-width: 1000px) {
     #shopify-section-{{ section.id }} .image-link-blocks {
-      --image-link-blocks-items-per-row: {% if block_size == 'small' %}6{% elsif block_size == 'medium' %}5{% else %}4{% endif %};
+      --image-link-blocks-items-per-row: {% if block_size == 'small' %}6{% elsif block_size == 'medium' %}4{% else %}3{% endif %};
       --image-link-blocks-grid: auto / auto-flow calc(var(--container-inner-width) / var(--image-link-blocks-items-per-row) - (var(--grid-gutter) / var(--image-link-blocks-items-per-row) * (var(--image-link-blocks-items-per-row) - 1)));
     }
   }
 
   @media screen and (min-width: 1400px) {
     #shopify-section-{{ section.id }} .image-link-blocks {
-      --image-link-blocks-items-per-row: {% if block_size == 'small' %}7{% elsif block_size == 'medium' %}6{% else %}5{% endif %};
+      --image-link-blocks-items-per-row: {% if block_size == 'small' %}6{% elsif block_size == 'medium' %}4{% else %}3{% endif %};
     }
   }
 </style>
@@ -48,7 +48,7 @@ LIQUID
     <div class="floating-controls-container">
       {%- assign scroll_area_id = 'scroll-area-' | append: section.id -%}
 
-      <image-link-blocks id="{{ scroll_area_id }}" class="image-link-blocks scroll-area bleed md:unbleed">
+      <image-link-blocks id="{{ scroll_area_id }}" class="image-link-blocks image-link-blocks--{{ section.settings.vertical_alignment }} scroll-area bleed md:unbleed">
         {%- for block in section.blocks -%}
           <div {% render 'surface', class: 'image-link-blocks__item group rounded', background: block.settings.background, text_color: block.settings.text_color, background_fallback: 'bg-secondary' %} {{ block.shopify_attributes }}>
             {%- if block.settings.stretch_image -%}
@@ -62,7 +62,12 @@ LIQUID
                 {%- if block.settings.link_text != blank -%}
                   <div class="place-self-end-start w-full bold">
                     <div class="h-stack justify-between gap-2">
-                      {{ block.settings.link_text | escape }}
+                      <div>
+                        {%- if block.settings.title != blank -%}
+                          <p class="image-link-blocks__title-link w-full block" style="--title-color: {{ block.settings.title_color }};">{{ block.settings.title | escape }}</p>
+                        {%- endif -%}
+                        {{ block.settings.link_text | escape }}
+                      </div>
 
                       {%- if block.settings.link_url != blank -%}
                         {%- if block.settings.stretch_image -%}
@@ -76,7 +81,7 @@ LIQUID
                 {%- endif -%}
               {%- endcapture -%}
 
-              <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media rounded" style="--content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
+              <a {% if block.settings.link_url %}href="{{ block.settings.link_url }}"{% endif %} class="content-over-media rounded" style="--content-over-media-overlay: {{ block.settings.overlay_color }}">
                 {{- item_content -}}
               </a>
             {%- else -%}
@@ -89,7 +94,12 @@ LIQUID
 
                 {%- if block.settings.link_text != blank -%}
                   <p class="image-link-blocks__title {% if block.settings.link_url != blank %}image-link-blocks__title--animate{% endif %} text-center bold">
-                    {{- block.settings.link_text | escape -}}
+                    <div>
+                      {%- if block.settings.title != blank -%}
+                        <p class="image-link-blocks__title-link w-full block" style="--title-color: {{ block.settings.title_color }};">{{ block.settings.title | escape }}</p>
+                      {%- endif -%}
+                      {{ block.settings.link_text | escape }}
+                    </div>
 
                     {%- if block.settings.link_url != blank -%}
                       {%- if block.settings.stretch_image -%}
@@ -147,6 +157,11 @@ LIQUID
         },
         {
           "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
           "id": "link_text",
           "label": "Link text"
         },
@@ -167,25 +182,20 @@ LIQUID
         },
         {
           "type": "color",
+          "id": "title_color",
+          "label": "Title color",
+          "default": "#E0E621"
+        },
+        {
+          "type": "color",
           "id": "text_color",
           "label": "Text",
           "default": "#ffffff"
         },
         {
-          "type": "color",
+          "type": "color_background",
           "id": "overlay_color",
-          "label": "Overlay",
-          "default": "#000000"
-        },
-        {
-          "type": "range",
-          "id": "overlay_opacity",
-          "label": "Overlay opacity",
-          "min": 0,
-          "max": 100,
-          "step": 1,
-          "unit": "%",
-          "default": 0
+          "label": "Overlay"
         }
       ]
     }
@@ -216,6 +226,26 @@ LIQUID
         }
       ],
       "default": "medium"
+    },
+    {
+      "type": "select",
+      "id": "vertical_alignment",
+      "label": "Vertical alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center"
     },
     {
       "type": "text",
