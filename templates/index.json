@@ -302,6 +302,7 @@
           "type": "item",
           "settings": {
             "title": "Gamer",
+            "reduce_margins": false,
             "subheading": "",
             "content": "<h5>Fone de ouvido intra-auricular, microfone destacável, conector P3<\/h5>",
             "button_text": "Ver produto",
@@ -317,6 +318,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
+        "grid_alignment": "top",
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
@@ -596,6 +598,50 @@
         "newsletter_text_color": ""
       }
     },
+    "a9181c20-ce96-4fa8-824c-3423ebf2a320": {
+      "type": "impact-text",
+      "blocks": {
+        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "SPEAKERS",
+            "reduce_margins": true,
+            "subheading": "CAIXAS DE SOM",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet diam. Proin mattis sapien non vestibulum sodales. Mauris eget consectetur ex, id feugiat purus. Nulla nunc sapien, tristique eget neque vel, pretium laoreet quam. Duis egestas porta elit, non faucibus elit mollis ut. Nunc nec arcu a lacus consequat ultricies.<\/p>",
+            "button_text": "Compre caixas de Som",
+            "button_url": "shopify:\/\/collections\/caixas-de-som",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "de60dfa5-d95a-4815-9efd-ac61ce334cfe": {
+          "type": "product",
+          "settings": {
+            "product": "caixa-de-som-bluetooth-us-100sb"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1",
+        "de60dfa5-d95a-4815-9efd-ac61ce334cfe"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "grid_alignment": "center",
+        "text_alignment": "start",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.9,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "rgba(0,0,0,0)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "8417acb4-b17b-4688-bb0a-243e90e46732": {
       "type": "media-with-text",
       "blocks": {
@@ -603,14 +649,14 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/SD5A6853_1.png",
-            "media_width": 60,
+            "media_width": 65,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1.png",
-            "icon_width": 120,
+            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1_1.png",
+            "icon_width": 200,
             "subheading": "",
-            "title": "Respeita o som com a galera.",
+            "title": "RESPEITA O SOM COM A GALERA.",
             "content": "<p>Escuta a batida que vem de fora.<\/p><p><strong>Caixa de Som WAAW<br\/>US100<\/strong><\/p>",
             "link_text": "Descubra",
             "link_url": "shopify:\/\/products\/caixa-de-som-bluetooth-us-100sb",
@@ -783,6 +829,7 @@
     "003d4475-eb16-480d-9f28-9ed37ac8435a",
     "563409fc-7ba0-4299-b2d2-61b1fe553205",
     "9ed2683d-0f72-46b3-8471-cdd7ece52232",
+    "a9181c20-ce96-4fa8-824c-3423ebf2a320",
     "8417acb4-b17b-4688-bb0a-243e90e46732",
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
     "5707dfc9-797a-4b73-b0c7-a8da84710061",
