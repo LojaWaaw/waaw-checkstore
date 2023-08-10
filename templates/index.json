@@ -529,427 +529,6 @@
         "background_gradient": ""
       }
     },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Sense 200360 vs 300HBNC",
-        "content": "<p>Fones de ouvido Over Ear WAAW<\/p>",
-        "before_image": "shopify:\/\/shop_images\/Sense200360_web.webp",
-        "after_image": "shopify:\/\/shop_images\/SENSE300HBNC_360_web.webp",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Gameland Magazine",
-            "content": "Qualidade indescritível",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 100,
-            "author": "Rolling Stones",
-            "content": "Até 25 horas de autonomia",
-            "show_rating": false,
-            "rating": 4
-          }
-        },
-        "b59402eb-bf54-4afb-878c-e4dca2ce62f1": {
-          "type": "quote",
-          "settings": {
-            "logo_width": 50,
-            "author": "Contigo",
-            "content": "Design arrojado e qualidade de material",
-            "show_rating": false,
-            "rating": 0
-          }
-        },
-        "ceadc90e-e763-4b6d-bfae-00a4d60e9222": {
-          "type": "quote",
-          "disabled": true,
-          "settings": {
-            "logo_width": 100,
-            "author": "",
-            "content": "Compatível com assistente de voz",
-            "show_rating": false,
-            "rating": 4
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1",
-        "b59402eb-bf54-4afb-878c-e4dca2ce62f1",
-        "ceadc90e-e763-4b6d-bfae-00a4d60e9222"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
-      }
-    },
-    "hot-spots": {
-      "type": "hot-spots",
-      "blocks": {
-        "1664424434f5b7d0e0-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 51,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Fone de ouvido esportivo WAAW MOVE 100EBS",
-            "content": "<p>Fone de ouvido intra-auricular, resistente à água, até 14 horas de bateria.<\/p>"
-          }
-        },
-        "1664424434f5b7d0e0-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 52,
-            "vertical_position": 86,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Fone de ouvido bluetooth WAAW MOB 200EB",
-            "content": "<p>Fone de ouvido auricular, TWS, até 16 horas de bateria, modo gamer.<\/p>"
-          }
-        },
-        "1664424434f5b7d0e0-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Fone de ouvido Bluetooth WAAW SENSE 200HB",
-            "content": "<p>Fone de ouvido Over Ear, até 25 horas de bateria, microfone integrado, conexão P2, Hands Free.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424434f5b7d0e0-0",
-        "1664424434f5b7d0e0-1",
-        "1664424434f5b7d0e0-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "image": "shopify:\/\/shop_images\/produto_2_28d61e95-3516-4d2c-bd71-5dcd331f1f82.png",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "radial-gradient(rgba(154, 254, 48, 1), rgba(240, 196, 23, 1) 100%)",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
-    "8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--15950778237103__8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b-16892720748cc7aed6-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/alok_d3d91537-4b85-4ca7-bffc-1834f80f306c.png",
-            "media_width": 35,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "",
-            "content": "<p>Do abrir ao fechar dos olhos, a WAAW acompanha o ritmo da sua vida.<br\/>Transformamos o som em movimento e atitude.<br\/>Ouça do seu jeito: em casa, na academia, no ônibus, sozinho, com os amigos, no trabalho, em momentos de lazer.<br\/>Na hora e onde você quiser! A WAAW by Alok traz todas as sensações para você curtir do seu jeito.<br\/>Oferecemos uma linha completa com diferentes modelos de fone de ouvido, headphones e caixas de som com estilo e design moderno.<br\/>Seja para ouvir músicas no intervalo do almoço, disputar horas de jogos online, fazer aquela festa ou simplesmente escutar seu podcast preferido.<br\/>A WAAW by Alok te deixa conectado ao que realmente importa para você.<br\/>Conheça uma experiência singular na forma de ouvir e ser ouvido.<br\/><strong>Faça parte do mundo WAAW by Alok!<\/strong><\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "#ffffff",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15950778237103__8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b-16892720748cc7aed6-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "none"
-      }
-    },
-    "feature-chart": {
-      "type": "feature-chart",
-      "blocks": {
-        "16644246508f6fa13a-0": {
-          "type": "headings",
-          "settings": {
-            "heading_1": "Autonomia",
-            "heading_2": "Proteção",
-            "heading_3": "",
-            "heading_4": "",
-            "heading_5": "",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
-          }
-        },
-        "16644246508f6fa13a-1": {
-          "type": "values",
-          "settings": {
-            "product": "waaw-boom-100sb-caixa-de-som",
-            "value_1": "<p>Até 24 horas<\/p>",
-            "value_2": "<p>IPX7<\/p>",
-            "value_3": "<p>No<\/p>",
-            "value_4": "<p>No<\/p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "01d46b60-0389-42ba-89a8-7a64382e2e5f": {
-          "type": "values",
-          "settings": {
-            "product": "caixa-de-som-bluetooth-me-100sb",
-            "value_1": "<p>Até 12 horas<\/p>",
-            "value_2": "<p>IPX6<\/p>",
-            "value_3": "",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
-        "16644246508f6fa13a-2": {
-          "type": "values",
-          "settings": {
-            "product": "caixa-de-som-bluetooth-us-100sb",
-            "value_1": "<p>Até 10 horas<\/p>",
-            "value_2": "<p>IPX6<\/p>",
-            "value_3": "<p>Yes<\/p>",
-            "value_4": "<p>No<\/p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "16644246508f6fa13a-0",
-        "16644246508f6fa13a-1",
-        "01d46b60-0389-42ba-89a8-7a64382e2e5f",
-        "16644246508f6fa13a-2"
-      ],
-      "settings": {
-        "full_width": true,
-        "subheading": "Compare",
-        "title": "Compare os Modelos",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "max_rows": 2,
-        "view_all_text": "Expandir",
-        "view_less_text": "Recolher",
-        "view_product": "Ver Produto",
-        "viewing_product": "",
-        "show_product_swatch": true,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "chart_background": "#ffffff",
-        "chart_text_color": "",
-        "chart_true_false_color": ""
-      }
-    },
-    "3eeb7804-8889-479a-a643-3fc7d2f522b6": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Group_2562.png",
-            "column_size": "1.5",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "8ec64172-7bd0-45c0-afad-e70ef406136c": {
-          "type": "newsletter",
-          "settings": {
-            "icon": "picto-envelope",
-            "mobile_icon_width": 24,
-            "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
-            "icon_color": "",
-            "title": "Newsletter",
-            "content": "<p>Sign up for our newsletter and be the first to know about coupons and special promotions.<\/p>",
-            "consent_label": "<p>I agree to receive your newsletter and accept the <a href=\"#\">privacy policy<\/a>.<\/p>",
-            "column_size": "3"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1",
-        "8ec64172-7bd0-45c0-afad-e70ef406136c"
-      ],
-      "settings": {
-        "full_width": false,
-        "stack_on_mobile": true,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "newsletter_background_color": "#ffffff",
-        "newsletter_text_color": "#1a1a1a"
-      }
-    },
-    "5707dfc9-797a-4b73-b0c7-a8da84710061": {
-      "type": "blog-posts",
-      "blocks": {
-        "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1": {
-          "type": "blog",
-          "settings": {
-            "blog": "",
-            "posts_count": 3,
-            "stack_items": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "show_excerpt": true,
-        "show_date": false,
-        "show_author": false,
-        "show_comments_count": false,
-        "show_category": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "9ed2683d-0f72-46b3-8471-cdd7ece52232": {
       "type": "multi-column",
       "blocks": {
@@ -1017,6 +596,129 @@
         "newsletter_text_color": ""
       }
     },
+    "8417acb4-b17b-4688-bb0a-243e90e46732": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SD5A6853_1.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1.png",
+            "icon_width": 120,
+            "subheading": "",
+            "title": "Respeita o som com a galera.",
+            "content": "<p>Escuta a batida que vem de fora.<\/p><p><strong>Caixa de Som WAAW<br\/>US100<\/strong><\/p>",
+            "link_text": "Descubra",
+            "link_url": "shopify:\/\/products\/caixa-de-som-bluetooth-us-100sb",
+            "background": "#e0e621",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "3eeb7804-8889-479a-a643-3fc7d2f522b6": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2562.png",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "8ec64172-7bd0-45c0-afad-e70ef406136c": {
+          "type": "newsletter",
+          "settings": {
+            "icon": "picto-envelope",
+            "mobile_icon_width": 24,
+            "icon_width": 24,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Newsletter",
+            "content": "<p>Sign up for our newsletter and be the first to know about coupons and special promotions.<\/p>",
+            "button_text": "Subscribe",
+            "consent_label": "<p>I agree to receive your newsletter and accept the <a href=\"#\">privacy policy<\/a>.<\/p>",
+            "column_size": "3"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1",
+        "8ec64172-7bd0-45c0-afad-e70ef406136c"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "newsletter_background_color": "#ffffff",
+        "newsletter_text_color": "#1a1a1a"
+      }
+    },
+    "5707dfc9-797a-4b73-b0c7-a8da84710061": {
+      "type": "blog-posts",
+      "blocks": {
+        "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1": {
+          "type": "blog",
+          "settings": {
+            "blog": "",
+            "posts_count": 3,
+            "stack_items": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "6d15fe12-458d-4518-b504-d5f0e8c7b38f": {
       "type": "faq",
       "blocks": {
@@ -1080,14 +782,10 @@
     "impact-text",
     "003d4475-eb16-480d-9f28-9ed37ac8435a",
     "563409fc-7ba0-4299-b2d2-61b1fe553205",
-    "before-after-image",
-    "press",
-    "hot-spots",
-    "8f3aa7e2-3fbe-4285-833f-14d4dbeaba8b",
-    "feature-chart",
+    "9ed2683d-0f72-46b3-8471-cdd7ece52232",
+    "8417acb4-b17b-4688-bb0a-243e90e46732",
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
     "5707dfc9-797a-4b73-b0c7-a8da84710061",
-    "9ed2683d-0f72-46b3-8471-cdd7ece52232",
     "6d15fe12-458d-4518-b504-d5f0e8c7b38f"
   ]
 }
