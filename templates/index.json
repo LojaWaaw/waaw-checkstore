@@ -93,233 +93,6 @@
         "product_card_text_color": ""
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "1664424046b00c932c-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/waaw-by-alok-boom-100sb-caixa-de-som_03_6243401e-aaec-41a5-8d54-b87254640469.png",
-            "stretch_image": true,
-            "title": "",
-            "link_text": "Caixa de Som",
-            "link_url": "",
-            "background": "#ffffff",
-            "title_color": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        },
-        "1664424046b00c932c-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-01_76c1b1d4-6fef-4aa8-936e-920a4d29d27a.png",
-            "stretch_image": true,
-            "title": "",
-            "link_text": "Fone de Ouvido",
-            "link_url": "",
-            "background": "#ffffff",
-            "title_color": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        },
-        "1664424046b00c932c-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOVE-100EBS-01_48caa553-0979-45e2-b637-0283b1cf9a48.png",
-            "stretch_image": true,
-            "title": "",
-            "link_text": "Fone com Fio",
-            "link_url": "",
-            "background": "#ffffff",
-            "title_color": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        },
-        "1664424046b00c932c-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ENERGY-100EBG-01_b56285cc-3aa9-4e45-be3d-623bb3346cb9.png",
-            "stretch_image": true,
-            "title": "",
-            "link_text": "Fone de Ouvido",
-            "link_url": "",
-            "background": "#ffffff",
-            "title_color": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOB-100EB-01_529de7d6-b906-4c53-b08f-49e9de4431aa.png",
-            "stretch_image": true,
-            "title": "",
-            "link_text": "Bluetooth",
-            "link_url": "",
-            "background": "#ffffff",
-            "title_color": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-1",
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac"
-      ],
-      "settings": {
-        "full_width": true,
-        "block_size": "large",
-        "vertical_alignment": "center",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "settings": {
-        "full_width": true,
-        "text": "WAAW by Alok",
-        "text_size": "small",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "boom-e-move",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "duo-e-sense-100",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "gol-de-ofertas",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "settings": {
-        "full_width": false,
-        "stack_collections": true,
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "banner_link": "",
-        "collection": "dia-dos-pais",
-        "products": [
-
-        ],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_count": 6,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": ""
-      }
-    },
-    "impact-text": {
-      "type": "impact-text",
-      "settings": {
-        "full_width": true,
-        "stack_mobile": true,
-        "grid_alignment": "top",
-        "text_alignment": "center",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 0.9,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "heading_text_color": "",
-        "heading_gradient": "linear-gradient(180deg, rgba(26, 26, 26, 0.2), rgba(26, 26, 26, 0) 100%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "563409fc-7ba0-4299-b2d2-61b1fe553205": {
       "type": "media-grid",
       "blocks": {
@@ -403,6 +176,78 @@
         "mobile_row_height": 150,
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
+      }
+    },
+    "a9181c20-ce96-4fa8-824c-3423ebf2a320": {
+      "type": "impact-text",
+      "blocks": {
+        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "FONES",
+            "reduce_margins": true,
+            "subheading": "FONES DE OUVIDO",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet diam. Proin mattis sapien non vestibulum sodales. Mauris eget consectetur ex, id feugiat purus. Nulla nunc sapien, tristique eget neque vel, pretium laoreet quam. Duis egestas porta elit, non faucibus elit mollis ut. Nunc nec arcu a lacus consequat ultricies.<\/p>",
+            "button_text": "Compre Fones de Ouvido",
+            "button_url": "shopify:\/\/collections\/fones-de-ouvido",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "de60dfa5-d95a-4815-9efd-ac61ce334cfe": {
+          "type": "product",
+          "settings": {
+            "product": "fone-de-ouvido-bluetooth-sense-200hb"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1",
+        "de60dfa5-d95a-4815-9efd-ac61ce334cfe"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "grid_alignment": "center",
+        "text_alignment": "start",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.9,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "rgba(0,0,0,0)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "banner_link": "",
+        "collection": "dia-dos-pais",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
       }
     },
     "88abb4a5-7746-4b34-b167-389da820abb6": {
@@ -595,10 +440,10 @@
         "background_gradient": ""
       }
     },
-    "a9181c20-ce96-4fa8-824c-3423ebf2a320": {
+    "fe17a1e4-42dc-485f-a993-97816c3ac84b": {
       "type": "impact-text",
       "blocks": {
-        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1": {
+        "1212c689-605b-4d10-b7ea-db0cbfd58ea2": {
           "type": "item",
           "settings": {
             "title": "SPEAKERS",
@@ -611,7 +456,7 @@
             "animate_impact_text_duration": 2
           }
         },
-        "de60dfa5-d95a-4815-9efd-ac61ce334cfe": {
+        "4556e719-c0b2-4413-a9fe-20af45e3bb11": {
           "type": "product",
           "settings": {
             "product": "caixa-de-som-bluetooth-us-100sb"
@@ -619,8 +464,8 @@
         }
       },
       "block_order": [
-        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1",
-        "de60dfa5-d95a-4815-9efd-ac61ce334cfe"
+        "1212c689-605b-4d10-b7ea-db0cbfd58ea2",
+        "4556e719-c0b2-4413-a9fe-20af45e3bb11"
       ],
       "settings": {
         "full_width": false,
@@ -885,16 +730,13 @@
   "order": [
     "slideshow",
     "a17ec046-c828-412b-92fa-e109251e7f77",
-    "image-link-blocks",
-    "scrolling-text",
-    "collection-list",
-    "featured-collection",
-    "impact-text",
     "563409fc-7ba0-4299-b2d2-61b1fe553205",
+    "a9181c20-ce96-4fa8-824c-3423ebf2a320",
+    "featured-collection",
     "88abb4a5-7746-4b34-b167-389da820abb6",
     "003d4475-eb16-480d-9f28-9ed37ac8435a",
     "901cf5c6-524e-4c15-a997-0dcfab0e5c7c",
-    "a9181c20-ce96-4fa8-824c-3423ebf2a320",
+    "fe17a1e4-42dc-485f-a993-97816c3ac84b",
     "9ed2683d-0f72-46b3-8471-cdd7ece52232",
     "8417acb4-b17b-4688-bb0a-243e90e46732",
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
