@@ -101,12 +101,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/waaw-by-alok-boom-100sb-caixa-de-som_03_6243401e-aaec-41a5-8d54-b87254640469.png",
             "stretch_image": true,
+            "title": "",
             "link_text": "Caixa de Som",
             "link_url": "",
             "background": "#ffffff",
+            "title_color": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
+            "overlay_color": "#000000"
           }
         },
         "1664424046b00c932c-1": {
@@ -114,12 +115,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SENSE-300HBNC-01_76c1b1d4-6fef-4aa8-936e-920a4d29d27a.png",
             "stretch_image": true,
+            "title": "",
             "link_text": "Fone de Ouvido",
             "link_url": "",
             "background": "#ffffff",
+            "title_color": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
+            "overlay_color": "#000000"
           }
         },
         "1664424046b00c932c-2": {
@@ -127,12 +129,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/MOVE-100EBS-01_48caa553-0979-45e2-b637-0283b1cf9a48.png",
             "stretch_image": true,
+            "title": "",
             "link_text": "Fone com Fio",
             "link_url": "",
             "background": "#ffffff",
+            "title_color": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
+            "overlay_color": "#000000"
           }
         },
         "1664424046b00c932c-3": {
@@ -140,12 +143,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/ENERGY-100EBG-01_b56285cc-3aa9-4e45-be3d-623bb3346cb9.png",
             "stretch_image": true,
+            "title": "",
             "link_text": "Fone de Ouvido",
             "link_url": "",
             "background": "#ffffff",
+            "title_color": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
+            "overlay_color": "#000000"
           }
         },
         "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
@@ -153,12 +157,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/MOB-100EB-01_529de7d6-b906-4c53-b08f-49e9de4431aa.png",
             "stretch_image": true,
+            "title": "",
             "link_text": "Bluetooth",
             "link_url": "",
             "background": "#ffffff",
+            "title_color": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
+            "overlay_color": "#000000"
           }
         }
       },
@@ -172,6 +177,7 @@
       "settings": {
         "full_width": true,
         "block_size": "large",
+        "vertical_alignment": "center",
         "subheading": "",
         "title": "",
         "content": "",
@@ -297,24 +303,6 @@
     },
     "impact-text": {
       "type": "impact-text",
-      "blocks": {
-        "1664424181b38582d5-0": {
-          "type": "item",
-          "settings": {
-            "title": "Gamer",
-            "reduce_margins": false,
-            "subheading": "",
-            "content": "<h5>Fone de ouvido intra-auricular, microfone destacável, conector P3<\/h5>",
-            "button_text": "Ver produto",
-            "button_url": "shopify:\/\/products\/fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        }
-      },
-      "block_order": [
-        "1664424181b38582d5-0"
-      ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -330,120 +318,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "003d4475-eb16-480d-9f28-9ed37ac8435a": {
-      "type": "featured-product",
-      "blocks": {
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-0": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-1": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h2"
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2": {
-          "type": "badges",
-          "settings": {
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-3": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-4": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-5": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-6": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "da86959c-d277-4bbe-843d-3180c5b7d6f5": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Seja um jogador de primeira linha com o fone de ouvido para jogos WAAW ENERGY 100EBG. Ouça cada passo dos inimigos e detalhes dos efeitos sonoros em seus jogos favoritos com clareza. Esse é o seu #momentoWAAW!<\/p>"
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-7": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-8": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10": {
-          "type": "pickup_availability",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-0",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-1",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-3",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-4",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-5",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-6",
-        "da86959c-d277-4bbe-843d-3180c5b7d6f5",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-7",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-8",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10"
-      ],
-      "settings": {
-        "full_width": false,
-        "product": "fone-de-ouvido-tws-bluetooth-mob-100eb",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
-        "mobile_carousel_control": "free_scroll",
-        "enable_video_autoplay": false,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
       }
     },
     "563409fc-7ba0-4299-b2d2-61b1fe553205": {
@@ -531,6 +405,240 @@
         "background_gradient": ""
       }
     },
+    "88abb4a5-7746-4b34-b167-389da820abb6": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_1.png",
+            "stretch_image": true,
+            "title": "Mob 100",
+            "link_text": "Fones de ouvido de qualidade",
+            "link_url": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-100eb",
+            "background": "",
+            "title_color": "#e0e621",
+            "text_color": "#ffffff",
+            "overlay_color": "linear-gradient(180deg, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%)"
+          }
+        },
+        "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_3.png",
+            "stretch_image": true,
+            "title": "Sense 200",
+            "link_text": "O fone que o Alok usa em seus shows.",
+            "link_url": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
+            "background": "",
+            "title_color": "#e0e621",
+            "text_color": "#ffffff",
+            "overlay_color": "linear-gradient(180deg, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%)"
+          }
+        },
+        "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_2.png",
+            "stretch_image": true,
+            "title": "Energy 100",
+            "link_text": "Fone com baixa latência. Respeita o seu game",
+            "link_url": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-200eb",
+            "background": "",
+            "title_color": "#e0e621",
+            "text_color": "#ffffff",
+            "overlay_color": "linear-gradient(180deg, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-1",
+        "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-2",
+        "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "large",
+        "vertical_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "003d4475-eb16-480d-9f28-9ed37ac8435a": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "d58b202e-f3f9-4e38-9f78-ba819504c6ab": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gamer<\/p>"
+          }
+        },
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-1": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "da86959c-d277-4bbe-843d-3180c5b7d6f5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seja um jogador de primeira linha com o fone de ouvido para jogos WAAW ENERGY 100EBG. Ouça cada passo dos inimigos e detalhes dos efeitos sonoros em seus jogos favoritos com clareza. Esse é o seu #momentoWAAW!<\/p>"
+          }
+        },
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-3": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "c3bb387c-183b-4b7d-b32e-5b922a6367f0": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#000000",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10": {
+          "type": "pickup_availability",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2",
+        "d58b202e-f3f9-4e38-9f78-ba819504c6ab",
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-1",
+        "da86959c-d277-4bbe-843d-3180c5b7d6f5",
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-3",
+        "c3bb387c-183b-4b7d-b32e-5b922a6367f0",
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9",
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
+        "desktop_media_width": 65,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "free_scroll",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "901cf5c6-524e-4c15-a997-0dcfab0e5c7c": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15963751350447__901cf5c6-524e-4c15-a997-0dcfab0e5c7c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group.png",
+            "content_max_width": 700,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Respeita sua batida",
+            "title": "Ninguém melhor que você para saber como chegar lá",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__901cf5c6-524e-4c15-a997-0dcfab0e5c7c-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "image_size": "auto",
+        "controls_type": "none",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "a9181c20-ce96-4fa8-824c-3423ebf2a320": {
+      "type": "impact-text",
+      "blocks": {
+        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "SPEAKERS",
+            "reduce_margins": true,
+            "subheading": "CAIXAS DE SOM",
+            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet diam. Proin mattis sapien non vestibulum sodales. Mauris eget consectetur ex, id feugiat purus. Nulla nunc sapien, tristique eget neque vel, pretium laoreet quam. Duis egestas porta elit, non faucibus elit mollis ut. Nunc nec arcu a lacus consequat ultricies.<\/p>",
+            "button_text": "Compre caixas de Som",
+            "button_url": "shopify:\/\/collections\/caixas-de-som",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "de60dfa5-d95a-4815-9efd-ac61ce334cfe": {
+          "type": "product",
+          "settings": {
+            "product": "caixa-de-som-bluetooth-us-100sb"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1",
+        "de60dfa5-d95a-4815-9efd-ac61ce334cfe"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_mobile": true,
+        "grid_alignment": "center",
+        "text_alignment": "start",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.9,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "rgba(0,0,0,0)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "9ed2683d-0f72-46b3-8471-cdd7ece52232": {
       "type": "multi-column",
       "blocks": {
@@ -596,50 +704,6 @@
         "product_card_text_color": "rgba(0,0,0,0)",
         "newsletter_background_color": "",
         "newsletter_text_color": ""
-      }
-    },
-    "a9181c20-ce96-4fa8-824c-3423ebf2a320": {
-      "type": "impact-text",
-      "blocks": {
-        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1": {
-          "type": "item",
-          "settings": {
-            "title": "SPEAKERS",
-            "reduce_margins": true,
-            "subheading": "CAIXAS DE SOM",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet diam. Proin mattis sapien non vestibulum sodales. Mauris eget consectetur ex, id feugiat purus. Nulla nunc sapien, tristique eget neque vel, pretium laoreet quam. Duis egestas porta elit, non faucibus elit mollis ut. Nunc nec arcu a lacus consequat ultricies.<\/p>",
-            "button_text": "Compre caixas de Som",
-            "button_url": "shopify:\/\/collections\/caixas-de-som",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 2
-          }
-        },
-        "de60dfa5-d95a-4815-9efd-ac61ce334cfe": {
-          "type": "product",
-          "settings": {
-            "product": "caixa-de-som-bluetooth-us-100sb"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1",
-        "de60dfa5-d95a-4815-9efd-ac61ce334cfe"
-      ],
-      "settings": {
-        "full_width": false,
-        "stack_mobile": true,
-        "grid_alignment": "center",
-        "text_alignment": "start",
-        "impact_text_style": "fill",
-        "text_divider": "none",
-        "impact_text_size_ratio": 0.9,
-        "background": "",
-        "background_gradient": "",
-        "heading_text_color": "rgba(0,0,0,0)",
-        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "8417acb4-b17b-4688-bb0a-243e90e46732": {
@@ -826,10 +890,12 @@
     "collection-list",
     "featured-collection",
     "impact-text",
-    "003d4475-eb16-480d-9f28-9ed37ac8435a",
     "563409fc-7ba0-4299-b2d2-61b1fe553205",
-    "9ed2683d-0f72-46b3-8471-cdd7ece52232",
+    "88abb4a5-7746-4b34-b167-389da820abb6",
+    "003d4475-eb16-480d-9f28-9ed37ac8435a",
+    "901cf5c6-524e-4c15-a997-0dcfab0e5c7c",
     "a9181c20-ce96-4fa8-824c-3423ebf2a320",
+    "9ed2683d-0f72-46b3-8471-cdd7ece52232",
     "8417acb4-b17b-4688-bb0a-243e90e46732",
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
     "5707dfc9-797a-4b73-b0c7-a8da84710061",
