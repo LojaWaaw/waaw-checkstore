@@ -136,7 +136,7 @@
         "f505ae98-251d-4ede-a6de-1c60380de164"
       ],
       "settings": {
-        "show_social_media": true,
+        "show_social_media": false,
         "show_payment_icons": true,
         "show_country_selector": false,
         "show_country_flag": false,
