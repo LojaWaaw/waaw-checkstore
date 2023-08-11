@@ -8657,6 +8657,10 @@ split-lines {
   display: grid;
 }
 
+.text-with-icons__item--boxed {
+  padding: var(--spacing-6);
+}
+
 @media screen and (min-width: 1000px) {
   :not(.is-scrollable) .text-with-icons__list {
     gap: var(--spacing-6);
@@ -8692,7 +8696,27 @@ split-lines {
 }
 
 .text-with-icons__text-wrapper .prose a {
+  position: relative;
   font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 10px;
+  background: none
+}
+
+.text-with-icons__text-wrapper .prose a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 7px;
+  border-radius: 14px;
+  background-color: #E0E621;
+}
+
+.text-with-icons .page-dots {
+  display: none;
 }
 
 .timeline {

@@ -56,7 +56,7 @@
       {%- endif -%}
 
       <div class="text-with-icons">
-        <scroll-carousel class="text-with-icons__list scroll-area full-bleed {% if section.blocks.size <= 3 %}md:unbleed{% else %}lg:unbleed{% endif %}" id="carousel-{{ section.id }}" role="region">
+        <scroll-carousel class="text-with-icons__list scroll-area {% if section.blocks.size <= 3 %}md:unbleed{% else %}lg:unbleed{% endif %}" id="carousel-{{ section.id }}" role="region">
           {%- for block in section.blocks -%}
             <div id="block-{{ section.id }}-{{ block.id }}" class="text-with-icons__item{% if section.settings.columns_boxed == true %} text-with-icons__item--boxed rounded{% endif %} snap-center" role="group" aria-label="{{ 'general.accessibility.item_nth_of_count' | t: index: forloop.index, count: section.blocks.size }}" {{ block.shopify_attributes }}>
               {%- capture icon -%}
