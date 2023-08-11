@@ -99,7 +99,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "border_color": "#E2E2E2"
+        "border_color": "#e2e2e2"
       }
     },
     "footer": {
@@ -133,12 +133,15 @@
             "show_menu_title": true
           }
         },
-        "f505ae98-251d-4ede-a6de-1c60380de164": {
-          "type": "text",
+        "b3f52a3f-86dc-4834-9981-edb33d4d7a83": {
+          "type": "contact",
           "settings": {
-            "title": "About our store",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.<\/p>",
-            "enable_follow_on_shop": true
+            "title": "Atendimento",
+            "phone": "(00) 0000-0000",
+            "email": "ajuda@waaw.com.br",
+            "service_time": "Monday to Friday, 8am to 6pm",
+            "show_social": true,
+            "social_title": "Follow us"
           }
         }
       },
@@ -147,7 +150,7 @@
         "e7fc61d8-48e1-4ccf-9f87-c12df2ef4c66",
         "350b39ad-5799-4f75-8d60-be85c87a47ba",
         "e6621e14-3d49-49ef-a9aa-d0c2dabdf748",
-        "f505ae98-251d-4ede-a6de-1c60380de164"
+        "b3f52a3f-86dc-4834-9981-edb33d4d7a83"
       ],
       "settings": {
         "show_social_media": false,
@@ -160,13 +163,34 @@
     },
     "6f7e21e0-3dc9-4405-9788-8cf3b0395334": {
       "type": "footer-ending",
+      "blocks": {
+        "2ff10fab-6c86-4cbb-915a-4f9a6a392daa": {
+          "type": "partner",
+          "settings": {
+            "title": "Wap",
+            "image": "shopify:\/\/shop_images\/logo-wap-preta.png"
+          }
+        },
+        "cfd4c1bc-0ca1-4f02-b1b5-265dacdc21f8": {
+          "type": "partner",
+          "settings": {
+            "title": "Alok",
+            "image": "shopify:\/\/shop_images\/alok.svg"
+          }
+        }
+      },
+      "block_order": [
+        "2ff10fab-6c86-4cbb-915a-4f9a6a392daa",
+        "cfd4c1bc-0ca1-4f02-b1b5-265dacdc21f8"
+      ],
       "settings": {
+        "business_infos": "<p>© Copyright 2023 - WAAW | Todos os Direitos Reservados. WAAW by ALOK - FRESNOMAQ INDÚSTRIA DE MÁQUINAS S.A. - CNPJ 06.337.280\/0001-04 R. Antonio Singer, 200 - São Marcos, São José dos Pinhais - PR, 83090-362<\/p>",
         "full_width": true,
         "stack_on_mobile": false,
-        "background": "#fff",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
-        "border_color": "#E2E2E2"
+        "border_color": "#e2e2e2"
       }
     }
   },
