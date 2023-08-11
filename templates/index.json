@@ -99,7 +99,7 @@
         "d69dbe9f-d309-4789-90bf-d54b5bfb8165": {
           "type": "video",
           "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=Y5B27hvM0T0",
             "show_video_controls": false,
             "title": "",
             "heading_tag": "h4",
@@ -646,7 +646,7 @@
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1": {
           "type": "blog",
           "settings": {
-            "blog": "",
+            "blog": "blog-de-teste",
             "posts_count": 3,
             "stack_items": false
           }
