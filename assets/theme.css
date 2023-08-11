@@ -2009,6 +2009,11 @@ scroll-carousel {
   padding-block-end: var(--calculated-section-spacing-block-end);
 }
 
+.section--less-spacing {
+  padding-block-start: calc(var(--background-differs-from-previous) * var(--calculated-section-spacing-block-start) / 2);
+  padding-block-end: calc(var(--calculated-section-spacing-block-end) / 2);
+}
+
 @media screen and (min-width: 700px) {
   .section--tight {
     --calculated-section-spacing-block-start: min(48px, var(--section-spacing-block-start, var(--section-spacing-block, var(--context-section-spacing-block-start, 0px))));
@@ -5521,7 +5526,6 @@ split-lines {
 }
 
 .footer__wrapper {
-  gap: var(--footer-part-gap);
   display: grid;
 }
 
@@ -10051,25 +10055,6 @@ split-lines {
   max-width: var(--footer-logo-width);
 }
 
-.footer-logo::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-  background-color: var(--border-color);
-}
-
-@media screen and (min-width: 1400px) {
-  .footer-logo::after {
-    bottom: 1rem;
-    max-width: var(--container-max-width);
-    margin-inline-start: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
-    margin-inline-end: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
-  }
-}
-
 .footer-logo__image {
   width: 100%;
   height: auto;
@@ -10087,4 +10072,29 @@ split-lines {
 .footer-logo--center {
   margin-inline-start: auto;
   margin-inline-end: auto;
+}
+
+.shopify-section--footer-logo {
+  margin-bottom: 1px;
+}
+
+.shopify-section--footer-ending {
+  margin-top: 1px;
+}
+
+@media screen and (max-width: 700px) { 
+  .footer-ending__item {
+    justify-items: center;
+  }
+
+  .footer-ending__item:not(:last-child) {
+    margin-bottom: var(--spacing-4);
+  }
+}
+
+.business-infos {
+  text-align: center;
+  padding: var(--spacing-3) 0;
+  font-size: var(--text-xs);
+  opacity: .6;
 }

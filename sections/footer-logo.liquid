@@ -1,5 +1,5 @@
 {%- if section.settings.footer_logo != blank -%}
-  <div {% render 'section-properties' %}>
+  <div {% render 'section-properties' less_spacing: true %}>
     <div class="footer-logo footer-logo--{{ section.settings.logo_alignment }}" style="--footer-logo-width: {{ section.settings.footer_logo_width | append: 'px' }}; --border-color: {{ section.settings.border_color }};">
       {{ section.settings.footer_logo | image_url: width: section.settings.footer_logo.width, height: section.settings.footer_logo.height | image_tag: class: 'footer-logo__image' }}
     </div>

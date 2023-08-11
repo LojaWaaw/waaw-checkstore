@@ -1,0 +1,127 @@
+<div {% render 'section-properties' less_spacing: true %}>
+  <div class="multi-column bleed lg:unbleed">
+    <div class="multi-column__item footer-ending__item h-stack justify-items-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: 3 | round }}">
+      <div class="footer-block">
+        <div class="footer__badges h-stack wrap gap-2">
+          <a target="_blank" href="https://checkstore.com.br/empresa-verificada/?utm_campaign=seal">
+            <img class="item checkstore-badge" loading="lazy" src="{{ 'checkstore-warranty-badge.svg' | asset_url }}" width="" height="" alt="Desenvolvido por Checkstore">
+          </a>
+          <a target="_blank" href="https://www.shopify.com/security/pci-compliant?utm_medium=shop&utm_source=secure" rel="nofollow">
+            <img class="item shopify-badge" loading="lazy" src="{{ 'shopify-secure-badge.svg' | asset_url }}" width="" height="" alt="Image Shopify">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="multi-column__item footer-ending__item h-stack justify-items-center" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: 3 | round }}">
+      <div class="footer-block">
+        <div class="footer__partner-icons h-stack wrap justify-center gap-2">
+          {%- for block in section.blocks -%}
+            {{ block.settings.image | image_url: height: 30 | image_tag: class: 'footer__partner-icon', alt: block.settings.title }}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+    <div class="multi-column__item footer-ending__item h-stack justify-items-end" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: 3 | round }}">
+      <div class="footer-block">
+        <div class="footer__payment-icons h-stack wrap gap-2">
+          {%- for type in shop.enabled_payment_types -%}
+            {{- type | payment_type_svg_tag -}}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% if section.settings.business_infos != blank %}
+  <div class="container business-infos">
+    {{ section.settings.business_infos }}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Footer Ending",
+  "class": "shopify-section--footer-ending",
+  "tag": "section",
+  "enabled_on": {
+    "groups": [
+      "footer"
+    ]
+  },
+  "blocks": [
+    {
+      "name": "Partner",
+      "type": "partner",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Partner"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "business_infos",
+      "label": "Business infos",
+      "default": "<p>© Copyright 2023 - WAAW | Todos os Direitos Reservados. WAAW by ALOK - FRESNOMAQ INDÚSTRIA DE MÁQUINAS S.A. - CNPJ 06.337.280/0001-04 R. Antonio Singer, 200 - São Marcos, São José dos Pinhais - PR, 83090-362</p>"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stack on mobile",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#E2E2E2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Footer Ending"
+    }
+  ]
+}
+{% endschema %}

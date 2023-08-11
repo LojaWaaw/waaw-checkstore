@@ -88,6 +88,20 @@
         "text_card_color": ""
       }
     },
+    "3094fc0b-40c1-4b38-992c-47d4c23363a9": {
+      "type": "footer-logo",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "footer_logo": "shopify:\/\/shop_images\/Logo-Waaw_1.svg",
+        "footer_logo_width": 200,
+        "logo_alignment": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "border_color": "#E2E2E2"
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -137,16 +151,29 @@
       ],
       "settings": {
         "show_social_media": false,
-        "show_payment_icons": true,
+        "show_payment_icons": false,
         "show_country_selector": false,
         "show_country_flag": false,
         "show_country_name": false,
         "show_locale_selector": false
       }
+    },
+    "6f7e21e0-3dc9-4405-9788-8cf3b0395334": {
+      "type": "footer-ending",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "background": "#fff",
+        "background_gradient": "",
+        "text_color": "",
+        "border_color": "#E2E2E2"
+      }
     }
   },
   "order": [
     "text-with-icons",
-    "footer"
+    "3094fc0b-40c1-4b38-992c-47d4c23363a9",
+    "footer",
+    "6f7e21e0-3dc9-4405-9788-8cf3b0395334"
   ]
 }
