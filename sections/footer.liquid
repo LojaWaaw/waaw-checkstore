@@ -48,6 +48,44 @@
                   </div>
                 {%- endif -%}
 
+                {%- when 'contact' -%}
+                  {%- if block.settings.title != blank -%}
+                    <div class="footer__block footer__block--text" {{ block.shopify_attributes }}>
+                      {%- if block.settings.title != blank -%}
+                        <p class="bold">{{ block.settings.title | escape }}</p>
+                      {%- endif -%}
+  
+                      <div class="h-stack wrap gap-2">
+                        {%- if block.settings.phone != blank -%}
+                          <div class="w-full prose text-subdued h-stack gap-2">
+                            {% render 'icon' with 'picto-phone', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.phone }}
+                          </div>
+                        {%- endif -%}
+
+                        {%- if block.settings.email != blank -%}
+                          <div class="w-full prose text-subdued h-stack gap-2">
+                            {% render 'icon' with 'picto-envelope', width: block.settings.icon_width, height: block.settings.icon_width %}{{ block.settings.email }}
+                          </div>
+                        {%- endif -%}
+
+                        {%- if block.settings.service_time != blank -%}
+                          <div class="w-full prose text-subdued h-stack gap-2">
+                            {% render 'icon' with 'picto-customer-support', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.service_time }}
+                          </div>
+                        {%- endif -%}
+                      </div>
+
+                      {%- if block.settings.social_title != blank -%}
+                        <p class="bold">{{ block.settings.social_title | escape }}</p>
+                      {%- endif -%}
+
+                      {%- if block.settings.show_social -%}
+                        {%- render 'social-media' -%}
+                      {%- endif -%}
+  
+                    </div>
+                  {%- endif -%}
+
               {%- when 'links' -%}
                 {%- if block.settings.menu != blank -%}
                   <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
@@ -255,6 +293,48 @@
           "label": "Show Follow on Shop",
           "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)",
           "default": true
+        }
+      ]
+    },
+    {
+      "type": "contact",
+      "name": "Contact Info",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "About our store"
+        },
+        {
+          "type": "text",
+          "id": "phone",
+          "label": "Phone number",
+          "default": "(00) 0000-0000"
+        },
+        {
+          "type": "text",
+          "id": "email",
+          "label": "Email",
+          "default": "ajuda@waaw.com.br"
+        },
+        {
+          "type": "text",
+          "id": "service_time",
+          "label": "Service time",
+          "default": "Monday to Friday, 8am to 6pm"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_social",
+          "label": "Show social media",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "social_title",
+          "label": "Social media heading",
+          "default": "Follow us"
         }
       ]
     },
