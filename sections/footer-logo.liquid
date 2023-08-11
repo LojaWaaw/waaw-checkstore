@@ -1,0 +1,100 @@
+{%- if section.settings.footer_logo != blank -%}
+  <div {% render 'section-properties' %}>
+    <div class="footer-logo footer-logo--{{ section.settings.logo_alignment }}" style="--footer-logo-width: {{ section.settings.footer_logo_width | append: 'px' }}; --border-color: {{ section.settings.border_color }};">
+      {{ section.settings.footer_logo | image_url: width: section.settings.footer_logo.width, height: section.settings.footer_logo.height | image_tag: class: 'footer-logo__image' }}
+    </div>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Footer Logo",
+  "class": "shopify-section--footer-logo",
+  "tag": "section",
+  "enabled_on": {
+    "groups": [
+      "footer"
+    ]
+  },
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "stack_on_mobile",
+      "label": "Stack on mobile",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "footer_logo",
+      "label": "Footer Logo"
+    },
+    {
+      "type": "range",
+      "id": "footer_logo_width",
+      "label": "Logo Width",
+      "min": 100,
+      "max": 300,
+      "step": 10,
+      "default": 200,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "logo_alignment",
+      "label": "Logo Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#E2E2E2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Footer Logo"
+    }
+  ]
+}
+{% endschema %}

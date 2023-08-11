@@ -10045,3 +10045,46 @@ split-lines {
 .shopify-section--multi-column:has(+ .shopify-section--blog-posts) .section {
   padding-block-end: var(--spacing-6);
 }
+
+.footer-logo {
+  width: 100%;
+  max-width: var(--footer-logo-width);
+}
+
+.footer-logo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--border-color);
+}
+
+@media screen and (min-width: 1400px) {
+  .footer-logo::after {
+    bottom: 1rem;
+    max-width: var(--container-max-width);
+    margin-inline-start: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+    margin-inline-end: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+  }
+}
+
+.footer-logo__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.footer-logo--left {
+  margin-inline-end: auto;
+}
+
+.footer-logo--right {
+  margin-inline-start: auto;
+}
+
+.footer-logo--center {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
