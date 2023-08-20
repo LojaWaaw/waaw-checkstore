@@ -214,7 +214,7 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 0.9,
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
         "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
@@ -400,6 +400,18 @@
         "input_text_color": ""
       }
     },
+    "96137545-d7a9-444f-9162-ae9574a14bd0": {
+      "type": "revealed-image-on-scroll",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_group.png",
+        "mobile_image": "shopify:\/\/shop_images\/Rectangle_1087.png",
+        "subheading": "Respeita sua batida",
+        "title": "Ninguém melhor que você para   saber como chegar lá",
+        "background": "",
+        "text_color_inside": "#ffffff",
+        "text_color_outside": "#000000"
+      }
+    },
     "901cf5c6-524e-4c15-a997-0dcfab0e5c7c": {
       "type": "slideshow",
       "blocks": {
@@ -429,6 +441,7 @@
       "block_order": [
         "template--15963751350447__901cf5c6-524e-4c15-a997-0dcfab0e5c7c-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -477,7 +490,7 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 0.9,
-        "background": "",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
         "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
@@ -739,6 +752,7 @@
     "featured-collection",
     "88abb4a5-7746-4b34-b167-389da820abb6",
     "003d4475-eb16-480d-9f28-9ed37ac8435a",
+    "96137545-d7a9-444f-9162-ae9574a14bd0",
     "901cf5c6-524e-4c15-a997-0dcfab0e5c7c",
     "fe17a1e4-42dc-485f-a993-97816c3ac84b",
     "9ed2683d-0f72-46b3-8471-cdd7ece52232",
