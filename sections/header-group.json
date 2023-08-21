@@ -7,6 +7,7 @@
       "settings": {
         "text": "RESPEITA SUA BATIDA",
         "menu": "menu-top-bar",
+        "text_size": "text-xs",
         "background": "#f3f3f3",
         "text_color": "#3d3935",
         "background_gradient": ""
@@ -92,11 +93,23 @@
         "background_gradient": "",
         "text_color": "#000000"
       }
+    },
+    "c9a4616d-48a5-4e88-a93f-1a9f86dfef71": {
+      "type": "breadcrumbs",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
     "topbar",
     "header",
-    "announcement-bar"
+    "announcement-bar",
+    "c9a4616d-48a5-4e88-a93f-1a9f86dfef71"
   ]
 }

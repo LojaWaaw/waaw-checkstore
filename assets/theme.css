@@ -10169,3 +10169,23 @@ split-lines {
     margin-top: -64px;
   }
 }
+
+.shopify-section--breadcrumbs {
+  padding-top: 30px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-size: var(--text-xs);
+  opacity: .7;
+}
+
+.breadcrumb * {
+  text-transform: uppercase;
+}
+
+.breadcrumb span:last-child {
+  font-weight: bold;
+}
