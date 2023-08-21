@@ -71,14 +71,25 @@
         {%- endif -%}
 
       {%- when 'payment_terms' -%}
-        <payment-terms class="product-info__payment-terms" form="{{ product_form_id }}" {{ block.shopify_attributes }}>
-          {%- capture product_installment_form_id -%}product-installment-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
-
-          {%- form 'product', product, id: product_installment_form_id -%}
-            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-            {{- form | payment_terms -}}
-          {%- endform -%}
-        </payment-terms>
+        <div class="product-info__installments">
+          {% if block.settings.min_installment_price != blank and block.settings.installments_max != blank %}
+            {% assign product_price = product.price | money_without_trailing_zeros | replace: 'R$', '' | replace: '$', '' | replace: '.', '' %}
+            {% assign min_installment_price = block.settings.min_installment_price %}
+            {% assign installments = product_price | divided_by: min_installment_price %}
+            {% assign installments_max = block.settings.installments_max | times: 1 %}
+            {% if installments > installments_max %}
+              {% assign installments = installments_max %}
+            {% elsif installments < 1 %}
+              {% assign installments = 1 %}
+            {% endif %}
+            {% assign price_installment = product.price | divided_by: installments %}
+            {% assign price_installment_money = price_installment | money %}
+            {% assign installment_text_with_variables = block.settings.installments_text | replace: '[installment]', installments | replace: '[price_installment]', price_installment_money %}
+            {% if installments > 1 %}
+              <span>{{ installment_text_with_variables }}</span>
+            {% endif %}
+          {% endif %}
+        </div>
 
       {%- when 'separator' -%}
         <hr class="product-info__separator" {{ block.shopify_attributes }}>
@@ -220,7 +231,7 @@
 
       {%- when 'text' -%}
         {%- if block.settings.text != blank -%}
-          <div class="product-info__text" {{ block.shopify_attributes }}>
+          <div class="product-info__text{% if block.settings.highlight == true %} product-info__text--highlight{% endif %}" {{ block.shopify_attributes }}>
             <div class="prose">
               {{- block.settings.text -}}
             </div>
@@ -264,7 +275,7 @@
               {%- assign carousel_id = 'carousel-' | append: block.id -%}
 
               {%- if block.settings.title != blank or block.settings.stack_products == false and recommendations.products_count > 1 -%}
-                <div class="h-stack justify-between gap-4">
+                <div class="h-stack justify-between bold gap-4">
                   {%- if block.settings.title != blank -%}
                     <p>{{ block.settings.title | escape }}</p>
                   {%- endif -%}

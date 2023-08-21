@@ -2825,12 +2825,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   display: grid;
 }
 
-.product-card--blends .product-card__info {
-  padding-block-end: 0;
-  padding-inline-start: 0;
-  padding-inline-end: 0;
-}
-
 .product-card__info--center {
   text-align: center;
   justify-content: center;
@@ -7003,6 +6997,10 @@ split-lines {
   object-position: center;
 }
 
+.multi-column__item > img {
+  margin: auto;
+}
+
 .multiple-images-with-text {
   grid-template-columns: var(--multiple-images-with-text-grid-template-columns, none);
   gap: var(--section-stack-spacing-block) var(--multiple-images-with-text-column-gap, 0px);
@@ -7062,7 +7060,7 @@ split-lines {
 }
 
 .multiple-images-with-text__image-list[layout="stacked"] {
-  --multiple-images-with-text-image-max-width: 520px;
+  --multiple-images-with-text-image-max-width: 620px;
 }
 
 .multiple-images-with-text__image-list[layout="collage"] {
@@ -7084,7 +7082,7 @@ split-lines {
 
 @media screen and (min-width: 1150px) {
   .multiple-images-with-text {
-    --multiple-images-with-text-image-max-width: 500px;
+    --multiple-images-with-text-image-max-width: 600px;
   }
 }
 
@@ -7453,6 +7451,39 @@ split-lines {
 
 .product-info__sku {
   display: block;
+  opacity: .6;
+}
+
+.product-info__separator + .product-info__sku {
+  display: inline-block;
+  width: 50%;
+  margin-top: -20px;
+}
+
+.product-info__sku + .product-info__rating {
+  display: inline-flex;
+  width: 50%;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
+
+.product-info__text--highlight {
+  opacity: .6;
+  font-size: 18px;
+}
+
+.product-info__title + .product-info__text--highlight {
+  margin-top: 0;
+}
+
+
+.product-info__text .prose ul {
+  row-gap: 0;
+}
+
+.product-info__text ul li {
+  font-size: 14px;
+  opacity: .8; 
 }
 
 .product-info__badge-list {
@@ -7473,6 +7504,11 @@ split-lines {
 
 .product-info__price .rating {
   margin-inline-start: auto;
+}
+
+.product-info__price + .product-info__installments {
+  margin-top: -15px;
+  font-size: 14px;
 }
 
 .product-info__offer-list {
@@ -9107,7 +9143,8 @@ split-lines {
 }
 
 .text-on-sale {
-  color: rgb(var(--on-sale-text));
+  color: rgb(var(--text-color));
+  font-weight: bold;
 }
 
 .text-stroke {
@@ -10121,4 +10158,14 @@ split-lines {
   padding: var(--spacing-3) 0;
   font-size: var(--text-xs);
   opacity: .6;
+}
+
+.shopify-section--video + .shopify-section--media-grid {
+  margin-top: -48px;
+}
+
+@media screen and (min-width: 1300px) {
+  .shopify-section--video + .shopify-section--media-grid {
+    margin-top: -64px;
+  }
 }

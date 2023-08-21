@@ -218,8 +218,23 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "limit": 1,
       "settings": [
         {
-          "type": "paragraph",
-          "content": "To display payment installments, your store needs to support Shop Pay Installments. [Learn more](https://help.shopify.com/en/manual/payments/shop-pay-installments)"
+          "type": "text",
+          "id": "installments_text",
+          "label": "Text",
+          "default": "or [installment]x of [price_installment]",
+          "info": "Use [installment] and [price_installment] to display the number of installments and the price of each installment"
+        },
+        {
+          "type": "number",
+          "id": "installments_max",
+          "label": "Max number of installments",
+          "default": 10
+        },
+        {
+          "type": "text",
+          "id": "min_installment_price",
+          "label": "Min parcel amount",
+          "default": "50"
         }
       ]
     },
@@ -520,6 +535,12 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "type": "text",
       "name": "Text",
       "settings": [
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Highlight",
+          "default": false
+        },
         {
           "type": "richtext",
           "id": "text",
