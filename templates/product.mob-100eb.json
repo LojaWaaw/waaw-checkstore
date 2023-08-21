@@ -3,32 +3,40 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h1"
+            "heading_tag": "h2"
           }
         },
-        "61e70313-5f08-4a75-a2ae-551f489780d2": {
+        "390bcd4c-f65f-41cd-963c-cdc903702e58": {
           "type": "text",
           "settings": {
-            "text": "<p>Tenha suas músicas favoritas a um toque de distância. O MOB 100 é o fone de ouvido intra-auricular com um som estéreo HD de detalhes claros e ricos para você aproveitar o melhor do seu #momentoWAAW.<\/p>"
+            "highlight": true,
+            "text": "<p>Fone de ouvido Gamer<\/p>"
           }
         },
-        "03dc667b-efcf-4414-820e-ea1c5d5477b9": {
+        "8bbde357-2065-4d19-b265-1c2b7741a439": {
+          "type": "text",
+          "settings": {
+            "highlight": false,
+            "text": "<p>Seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer, seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer. <\/p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "8f0bf539-c3e9-4008-b6d5-822565908784": {
           "type": "sku",
           "settings": {
           }
         },
-        "badges": {
-          "type": "badges",
+        "rating": {
+          "type": "rating",
           "settings": {
+            "show_empty": true
           }
         },
         "price": {
@@ -37,37 +45,12 @@
             "show_taxes_notice": false
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
+            "installments_text": "ou [installment]x de [price_installment] sem juros",
+            "installments_max": 10,
+            "min_installment_price": "50"
           }
         },
         "quantity_selector": {
@@ -79,43 +62,52 @@
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
-            "show_gift_card_recipient": true,
+            "show_gift_card_recipient": false,
             "atc_button_background": "#e0e621",
             "atc_button_text_color": "#1a1a1a",
-            "payment_button_background": "#e0e621",
+            "payment_button_background": "",
             "payment_button_text_color": ""
           }
         },
-        "9fd4a6c8-6e51-40b4-9b08-91160e2cc035": {
+        "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>O que você precisa saber sobre este produto<\/strong><\/p><ul><li>Você tem o dia inteiro de muita música, pois são 25 horas reprodução sem parar<\/li><li>Possui conexão multipontos permite que o fone de ouvido Bluetooth se conecte em dois aparelhos simultaneamente<\/li><li>Pode ser utilizado com entrada auxiliar P2, dessa forma, mesmo que acabe a bateria do fone você pode continuar usando através do cabo de áudio destacável<\/li><li>OVER EAR ideal para uso prolongado<\/li><\/ul>"
+            "highlight": false,
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><\/ul>"
+          }
+        },
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Compre junto",
+            "stack_products": true,
+            "products_count": 1,
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "61e70313-5f08-4a75-a2ae-551f489780d2",
-        "03dc667b-efcf-4414-820e-ea1c5d5477b9",
-        "badges",
-        "price",
-        "rating",
-        "payment_terms",
+        "390bcd4c-f65f-41cd-963c-cdc903702e58",
+        "8bbde357-2065-4d19-b265-1c2b7741a439",
         "separator",
-        "description",
-        "variant_picker",
+        "8f0bf539-c3e9-4008-b6d5-822565908784",
+        "rating",
+        "price",
+        "payment_terms",
         "quantity_selector",
         "buy_buttons",
-        "9fd4a6c8-6e51-40b4-9b08-91160e2cc035"
+        "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
         "full_width": false,
         "show_fixed_add_to_cart": true,
-        "desktop_media_width": 45,
+        "desktop_media_width": 60,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
-        "mobile_carousel_control": "floating_dots",
+        "mobile_carousel_control": "thumbnails",
         "enable_video_autoplay": false,
         "enable_video_looping": true,
         "enable_image_zoom": true,
@@ -127,13 +119,13 @@
         "input_text_color": ""
       }
     },
-    "1dd18f4a-61d6-43f8-91ef-e0a15a7af642": {
+    "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "html": "<style>\n        @import url(\"https:\/\/use.typekit.net\/aow1azr.css\");\n        \n        :root {\n            --font-paragraf: 1.5rem;\n            --font-title: 3rem;\n            --font-sub-title-produto: 2rem;\n            --font-title-produto: 5rem;\n            --font-title-hover: 2rem;\n        \n            --margin-bottom-logo: 8%;\n            --width-div-logo: 50%;\n            --margin-left-div-logo: 25%;\n            --max-width-logo: 300px;\n        \n            --width-icon: 70px;\n        \n            --color-yellow-title: #e0e621;\n            --color-font-green-black: #2d2a26;\n        }\n        \n        \n        \n        @media screen and (max-width:1200px) {\n        \n            :root {\n                --font-paragraf: 1.3rem;\n                --font-title: 2.6rem;\n                --font-sub-title-produto: 2rem;\n                --font-title-produto: 5rem;\n                --font-title-hover: 2rem;\n        \n                --margin-bottom-logo: 8%;\n                --width-div-logo: 50%;\n                --margin-left-div-logo: 25%;\n                --max-width-logo: 200px;\n        \n                --width-icon: 50px;\n            }\n        \n        }\n        \n        @media screen and (max-width:768px) {\n            :root {\n                --width-div-logo: 100%;\n                --margin-left-div-logo: 0%;\n               \n            }\n        }\n        \n        \n        .html_product {\n            color: var(--color-font-green-black) !important;\n            background-color: #FFF;\n            width: 100%;\n            float: left;\n        }\n        \n        .html_product * {\n            font-family: 'proxima-nova-condensed';\n            line-height: calc(0.9 + 0.1);\n        }\n        \n        .html_product p {\n            font-weight: 100;\n        }\n        \n        .text_usb_typec {\n            width: 100%;\n            float: left;\n        }\n        \n        .text_usb_typec span {\n            font-family: proxima-nova-extra-condensed;\n            font-weight: 600;\n            font-style: normal;\n            font-size: 1.5rem !important;\n            float: left;\n            width: 23%;\n            color: #e0e727;\n        }\n        \n        \n        .html_product img {\n            max-width: fit-content !important;\n        }\n        .section_ponterias_desktop{\n            display: inline-block;\n            width: 100%;\n            height: 560px;\n            text-align: center;\n            background-color: #191919;\n        }\n        .section_ponterias_desktop .text-desktop{\n            width: 100%;\n            position: absolute;\n            margin-top: 29px;\n            z-index: 1;\n        }\n        .section_ponterias_desktop .text-desktop h2{\n            color:#E1EA40;\n            font-size:var(--font-title);\n            text-transform: uppercase;\n            letter-spacing: 2px;\n            font-weight: bold;\n            font-family: 'proxima-nova-condensed';\n        }\n        .section_ponterias_desktop .text-desktop p{\n            color: #FFF;\n            font-size: var(--font-paragraf);\n            letter-spacing: 2px;\n            margin-top: -30px;\n            font-family: 'proxima-nova-condensed';\n        }\n\n        .section_ponterias_mobile{\n            display: none;\n        }\n        .section_ponterias_desktop img{\n            width: 100%;\n            margin-top: -204px;\n            margin-bottom: -270px;\n            \n        }\n        .section_ponterias_desktop img.bck_desk{\n            position: absolute;\n        }\n\n        .section_50 {\n            position: relative;\n            margin: auto;\n            width: 50%;\n            float: left;\n        }\n        \n        \n        .card_conectividade {\n            width: 50%;\n            position: relative;\n            margin: auto;\n            float: left;\n            margin-left: 20%;\n            margin-top: 10%;\n        }\n        \n        .card_conectividade span {\n            font-size: var(--font-title);\n            font-weight: 900;\n            color: #e0e727;\n        }\n        \n        .card_conectividade p {\n            font-size: var(--font-paragraf);\n            margin: 0;\n            padding: 0;\n        }\n        \n        .section_50 .fone_1 {\n            width: 35%;\n            float: left;\n            margin-top: 18%;\n            max-width: 357px;\n        }\n        \n        .section_50 .fone_2 {\n            width: 50%;\n            float: right;\n            margin-bottom: 30%;\n            margin-right: 20%;\n            margin-top: -10%;\n            max-width: 552px;\n        }\n        \n        .section_50_right {\n            position: relative;\n            margin: auto;\n            margin-top: 15px;\n            width: 50%;\n            float: right;\n        }\n        \n        \n        .logo {\n            position: relative;\n            width: var(--width-div-logo);\n            float: left;\n            margin: auto;\n            margin-left: var(--margin-left-div-logo);\n            margin-top: 25%;\n            text-align: center;\n            margin-bottom: var(--margin-bottom-logo);\n        }\n        \n        .logo img {\n            width: 100%;\n            max-width: var(--max-width-logo)!important;\n        }\n        \n        .title_product {\n            width: 100%;\n            position: relative;\n            margin: auto;\n            text-align: center;\n            color: #FFF;\n            float: left;\n        }\n        \n        .title_product img {\n            margin-bottom: 15%;\n            width: 35%;\n            max-width: 311px;\n        }\n        \n        \n        .card_title {\n            font-size: 2.5rem;\n            width: 100%;\n            margin: auto;\n            position: relative;\n            float: left;\n        }\n        \n        .card_title span {\n            float: right;\n            width: 75%;\n            margin: auto;\n            margin-top: 40%;\n            margin-right: 10%;\n            line-height: 1;\n            font-weight: 900;\n            font-size: var(--font-title);\n        \n        }\n        \n        .mg_90 {\n            top: 90% !important;\n        }\n        \n        \n        .card_text_estereo .icon img {\n            width: 100%;\n        }\n        \n        .section_phones .icon {\n            position: absolute;\n            top: 61%;\n            left: 45%;\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/\/desc_desc_fone-de-ouvido-tws-bluetooth-mob-100eb_19.png);\n            background-repeat: no-repeat;\n            background-size: 100% 100%;\n            width: 6rem;\n            height: 6rem;\n        }\n        \n        \n        .list_techical {\n            width: 75%;\n            height: auto;\n            margin: auto;\n            margin-top: 20px;\n            background-color: #FFF;\n        }\n        \n        .fone_4 {\n            position: relative;\n            margin: auto;\n            margin-left: 40%;\n            margin-top: 15%;\n        }\n        \n        \n        .mg_25 {\n            margin-top: 25%;\n        }\n        \n        .line_vertical {\n            position: absolute;\n            width: 1px;\n            height: auto;\n            margin: auto;\n            min-height: 170px;\n            margin-left: 20%;\n            background-color: black;\n        }\n        \n        .content_effect span {\n            color: #e0e727;\n            font-size: 3rem;\n            font-weight: bold;\n        \n        }\n        \n        .card_m span {\n            float: left;\n            width: 100%;\n        }\n        \n        .content_effect label {\n            font-size: 1.5rem;\n        \n        }\n        \n        .content_effect {\n            position: relative;\n            margin: auto;\n            width: 50%;\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_20.png);\n            background-repeat: no-repeat;\n            background-size: 100%;\n            height: 546px;\n            float: left;\n            margin-top: 50%;\n        }\n        \n        \n        .card_bluetooth .p_icon {\n            width: 15%;\n        }\n        \n        \n        .card_toque .icon {\n            width: 15%;\n        }\n        \n        \n        \n        \n        .section_phones .icon img {\n            margin-left: 15%;\n            margin-top: 15%;\n            width: 70%;\n        }\n        \n        .mg_5 {\n            margin-top: 12% !important;\n        }\n        \n        .central img {\n            width: 80%;\n            max-width: 1077px;\n        }\n        \n        .section_phones {\n            position: relative;\n            margin: auto;\n            float: left;\n            width: 100%;\n            height: 747px;\n            margin-top: 5%;\n            margin-bottom: 5%;\n        }\n        \n        .section_videos {\n            position: relative;\n            margin: auto;\n            float: left;\n            width: 100%;\n        }\n        \n        .section_left .fone_2,\n        .section_right .fone_1 {\n            width: 50%;\n        }\n        \n        .card_bluetooth .icon img {\n            width: auto;\n        }\n        \n        .card_text {\n            width: 60%;\n            margin: auto;\n            position: relative;\n            float: right;\n            text-align: center;\n            margin-top: -62%;\n        }\n        \n        .card_text label {\n            font-size: 1.5rem;\n        }\n        \n        .card_bluetooth span {\n            font-size: var(--font-title);\n            font-weight: bold;\n            color: #e0e727;\n            text-transform: uppercase;\n        \n        }\n        \n        .card_text_plus {\n            width: 20%;\n            float: left;\n            margin-left: 40%;\n            text-align: center;\n        }\n        \n        \n        .img_central {\n            width: 100%;\n            margin: auto;\n            margin-top: 3%;\n            margin-bottom: 3%;\n            float: left;\n            text-align: center;\n        }\n        \n        \n        .card_text_plus label {\n            font-size: 2.5rem;\n            float: left;\n            width: 100%;\n            font-weight: 900;\n            color: #e0e727;\n        }\n        \n        .card_text_plus span {\n            width: 100%;\n            margin: auto;\n            font-size: 1.7rem;\n        }\n        \n        \n        .img_card_toque {\n            width: 90% !important;\n            margin-top: 5%;\n        }\n        \n        .sub_card_text {\n            width: 40%;\n            float: left;\n            margin-left: 30%;\n        }\n        \n        .sub_card_text p {\n            font-size: var(--font-paragraf);\n            text-align: center;\n            width: 75%;\n            margin: auto;\n        }\n        \n        \n        .card_bluetooth p {\n            font-size: var(--font-paragraf);\n            margin: 0;\n            padding: 0;\n        \n        }\n        \n        .card_hands_free p {\n            font-size: var(--font-paragraf);\n            margin: 0;\n            padding: 0;\n        }\n        \n        .card_text_design {\n            width: 65%;\n        }\n        \n        .card_text_conforto {\n            width: 85%;\n            \n        }\n        \n        .card_text_design p,\n        .card_text_conforto p {\n            float: left;\n            text-align: left;\n            width: 70%;\n        }\n        \n        .card_text_design span,\n        .card_text_conforto span {\n            float: left;\n        }\n        \n        .card_text_conforto span {\n            text-align: left;\n        }\n        \n        .card_text_phones {\n            width: 55%;\n            float: left;\n            margin-right: 30%;\n            margin-left: 20%;\n            font-size: 1.2rem;\n        }\n        \n        \n        .section_30 {\n            width: 30%;\n            float: left;\n            margin: auto;\n            margin-top: 5%;\n            margin-bottom: 5%;\n        }\n        \n        \n        .img_product_1 {\n            width: 80%;\n            margin-top: 27%;\n            float: right;\n            text-align: right;\n            margin-right: 20%;\n        }\n        \n        \n        .card_text_estereo .row_auto {\n            float: left;\n            margin-top: 8%;\n        }\n        \n        .card_text_estereo .row_auto .icon {\n            float: left;\n            margin-right: 5%;\n        }\n        \n        .card_text_estereo .row_auto p {\n            width: 70%;\n        }\n        \n        .card_text_estereo {\n            position: relative;\n            margin: auto;\n            float: right;\n            width: 60%;\n            margin-top: 25%;\n            margin-left: 25%;\n        }\n        \n        .card_text_estereo p {\n            position: relative;\n            margin: auto;\n            float: left;\n        }\n        \n        .card_text_estereo span {\n            font-size: 2rem;\n            font-weight: bold;\n        }\n        \n        .card_reproducao .row_auto {\n            float: left;\n        }\n        \n        .img_product_1 img {\n            width: 80%;\n            max-width: 484px;\n        }\n        \n        .html_product .line {\n            position: relative;\n            margin: auto;\n            width: 100%;\n            height: 1px;\n            float: left;\n            background-color: #404040;\n            display: block;\n        }\n        \n        .exib_img {\n            width: 70%;\n            position: relative;\n            margin: auto;\n            float: left;\n            margin-top: 20%;\n            text-align: center;\n            margin-left: 2%;\n        }\n        \n        .exib_img img {\n            width: 80% !important;\n            max-width: 586px;\n        }\n        \n        .card_sub_title {\n            width: 75%;\n            float: left;\n            margin-bottom: 8%;\n        }\n        \n        .card_sub_batery {\n            width: 70%;\n            float: left;\n            margin-top: 10%;\n            color: #FFF;\n        }\n        \n        .card_central {\n            text-align: center;\n        }\n        \n        .card_sub_batery span,\n        .card_sub_batery label {\n            width: 100%;\n            float: left;\n            text-align: center;\n        }\n        \n        .card_sub_batery span {\n            font-size: 2.5rem;\n            text-align: center;\n            font-weight: 900;\n        }\n        \n        .card_central img {\n            margin-top: 10%;\n           \n        }\n        \n        \n        .card_sub_batery .card_left {\n            width: 30%;\n            float: left;\n            margin-left: 10%;\n        }\n        \n        .card_sub_batery .card_central {\n            width: 20%;\n            float: left;\n        }\n        \n        .card_sub_batery .card_right {\n            width: 30%;\n            float: left;\n            margin-left: 3%;\n        }\n        \n        .card_reproducao {\n            position: relative;\n            margin: auto;\n            float: right;\n            width: 65%;\n            color: #FFF;\n            margin-top: 15%;\n            margin-bottom: 15%;\n        }\n        \n        .card_reproducao label {\n            font-weight: bold;\n        }\n        \n        .card_reproducao .row_auto span {\n            font-size: 1.3rem;\n            margin-left: 2%;\n        }\n        \n        .card_reproducao span {\n            font-size: 2rem;\n        }\n        \n        \n        .sub_title_calv {\n            position: relative;\n            margin: auto;\n            width: 100%;\n            text-align: center;\n            color: #FFF;\n            margin-top: 25%;\n        }\n        \n        .sub_title_calv span {\n            font-size: 1.5rem;\n            float: left;\n            width: 100%;\n        }\n        \n        .sub_title_calv label {\n            font-size: 3rem;\n        }\n        \n        .font-yellow {\n            color: #e0e727;\n        }\n        \n        .card_reproducao label {\n            font-size: 4.5rem;\n        }\n        \n        .card_text span {\n            font-size: var(--font-title);\n            font-weight: bold;\n            color: #e0e727;\n            width: 95% !important;\n        }\n        \n        \n        .card_text_design p,\n        .card_text_conforto p {\n            font-size: var(--font-paragraf);\n            margin: 0;\n            padding: 0;\n        }\n        \n        .mg_10 {\n            margin-top: 10%;\n        }\n        \n        .title_product label,\n        .title_product span {\n            width: 100%;\n            position: relative;\n            margin: auto;\n            float: left;\n        }\n        \n        .title_product label {\n            font-size: var(--font-sub-title-produto);\n        }\n        \n        .title_product span {\n            font-size: var(--font-title-produto);\n        }\n        \n        .container {\n            width: 100%;\n            margin: auto;\n        }\n        \n        .img_caixa img {\n            width: 100%;\n        }\n        \n        .row_section {\n            position: relative;\n            margin: auto;\n            width: 100%;\n            float: left;\n        }\n        \n        .bg_format_yellow {\n            width: 100%;\n            position: relative;\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_22.png);\n            background-size: 100%;\n            background-repeat: no-repeat;\n            height: 614px;\n            text-align: right;\n        \n        }\n        \n        .card_toque {\n            position: relative;\n            margin: auto;\n            float: left;\n            width: 70%;\n            margin-top: 10%;\n            margin-left: 5%;\n        }\n        \n        .card_toque p {\n            font-size: var(--font-paragraf);\n            width: 85%;\n            margin: 0;\n            padding: 0;\n        }\n        \n        \n        .card_hands_free {\n            width: 50%;\n            position: relative;\n            margin: auto;\n            float: left;\n            margin-left: 20%;\n            margin-top: 10%;\n        }\n        \n        .card_hands_free .p_icon,\n        .card_hands_free .p_icon {\n            width: 15%;\n        }\n        \n        \n        .card_hands_free span {\n            font-size: var(--font-title);\n            color: #e0e727;\n            text-transform: uppercase;\n            font-weight: 900;\n        }\n        \n        .central {\n            position: relative;\n            margin: auto;\n            float: left;\n            width: 100%;\n            text-align: center;\n        }\n        \n        .show_img_limit img {\n            width: 100%;\n            max-width: 801px;\n        }\n        \n        .mg_10 {\n            margin-top: 10%;\n        }\n        \n        \n        \n        .section_30 {\n            width: 30%;\n            float: left;\n        }\n        \n        .m-l-20 {\n            margin-left: 20%;\n        }\n        \n        .m-l-5 {\n            margin-left: 5%;\n        }\n        \n        .img_show_finish_1 img {\n            margin-left: 5%;\n            width: 80%;\n            max-width: 625px;\n        }\n        \n        .img_show_finish_1 {\n            text-align: right;\n        }\n        \n        \n        .img_show_finish img {\n            margin-left: 5%;\n            width: 80%;\n            max-width: 625px;\n        }\n        \n        \n        .exib_1 {\n            position: relative;\n            margin: auto;\n            width: 60% !important;\n            margin-left: 5%;\n            background-color: #2d2a26;\n            float: left;\n        }\n        \n        .exib_2 {\n            position: relative;\n            margin: auto;\n            width: 40% !important;\n            margin-left: 5%;\n            float: left;\n        \n        }\n        \n        \n        .show_finish_2 {\n            margin-top: 10%;\n        }\n        \n        .show_finish_1 {\n            margin-top: 10%;\n            margin-bottom: 5%;\n        }\n        \n        .content_img {\n            text-align: right;\n        }\n        \n        .content_img img {\n            width: 90%;\n            max-width: 778px;\n        }\n        \n        \n        .card_reproducao p {\n            float: left;\n            margin-top: 10%;\n        }\n        \n        .card_toque span {\n            font-size: var(--font-title);\n            font-weight: bold;\n            color: #e0e727;\n        }\n        \n        .card_bluetooth {\n            position: relative;\n            margin: auto;\n            float: left;\n            width: 50%;\n            margin-left: 20%;\n            margin-top: 20%;\n        }\n        \n        .bg_format_yellow img {\n            width: 70%;\n            position: relative;\n            margin: auto;\n            right: -15%;\n        }\n        \n        \n        \n        .img_caixa {\n            position: relative;\n            margin: auto;\n            float: left;\n            width: 50%;\n        }\n        \n        \n        .list_techical p {\n            margin-top: 10%;\n            font-size: 0.7rem;\n        }\n        \n        \n        \n        .fone_3,\n        .fone_4 {\n            width: 50% !important;\n        }\n        \n        .bg_green {\n            background-color: #f8f8f8;\n        \n        }\n        \n        .bg_black_header {\n            background-color: black;\n            \/*height: auto;*\/\n        }\n        \n        .content_alok_2 {\n            height: 1010px;\n        }\n        \n        .img_exib_alok {\n            height: auto;\n            line-height: 0;\n        }\n        \n        .img_exib_alok img {\n            width: 100%;\n            max-width: 1001px;\n        }\n        \n        .section_calv {\n            position: relative;\n            margin: auto;\n            width: 100%;\n            float: left;\n            height: 970px;\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_24.png);\n            background-repeat: no-repeat;\n            background-size: 100%;\n        }\n        \n        \n        .section_left {\n            position: relative;\n            margin: auto;\n            width: 50%;\n            float: left;\n        }\n        \n        .section_left_40 {\n            position: relative;\n            margin: auto;\n            width: 40%;\n            float: left;\n        }\n        \n        \n        .section_right {\n            position: relative;\n            margin: auto;\n            width: 50%;\n            float: right;\n        }\n        \n        .section_right img {\n            width: 100%;\n            max-width: 605px;\n        }\n        \n        .section {\n            position: relative;\n            width: 100%;\n            margin: auto;\n            float: left;\n        }\n        \n        .section_tecnichal {\n            position: relative;\n            width: 100%;\n            float: left;\n            height: auto;\n            margin: auto;\n            margin-top: 15%;\n        \n        }\n        \n        .mg_20 {\n            margin-top: 20%;\n        }\n        \n        \n        \n        .bg_black {\n            background-color: #000;\n            min-height: 280px;\n            float: left;\n        }\n        \n        .card_reproducao .p_icon {\n            width: 15%;\n        }\n        \n        \n        \n        .section_tecnichal {\n            height: 30rem;\n        }\n        \n        \n        .card_text .row_auto .p_icon {\n            float: left;\n            width: 100%;\n            text-align: left;\n        }\n        \n        .card_title p {\n            position: relative;\n            margin: auto;\n            float: right;\n            width: 75%;\n            margin-right: 10%;\n            font-size: var(--font-paragraf);\n            margin-top: 5%;\n        }\n        \n        .p_icon img {\n            width: var(--width-icon)!important;\n        }\n        \n        \n        \n        .techical {\n            width: 50%;\n            margin: auto;\n            float: right;\n            background-color: #FFF;\n            height: 100%;\n        }\n        \n        .row_auto {\n            position: relative;\n            width: 100%;\n            padding: 5px;\n            margin: auto;\n            height: auto;\n        }\n        \n        \n        .alternate_color {\n            background-color: #CCC;\n        }\n        \n        \n        \n        .list_techical {\n            width: 75%;\n            height: 25rem;\n            margin: auto;\n            margin-top: 20px;\n            background-color: #FFF;\n        }\n        \n        \/* media query max width 768 *\/\n        \n        @media screen and (min-width: 769px) and (max-width:1100px) {\n       \n            .card_sub_batery {\n                width: 90%;\n                margin-top: 25%;\n            }\n\n            .section_ponterias_desktop{\n            display: none;\n            }\n            .section_ponterias_mobile{\n                display: inline-block;\n                background-color: #191919;\n        \n\n            }\n            .section_ponterias_mobile .text-mobile{\n                width: 100%;\n                text-align: center;\n                position: absolute;\n                margin-top:2px;\n            }\n            .section_ponterias_mobile .text-mobile h2{\n                text-transform: uppercase;\n                color: #e0e621;\n                font-size: var(--font-title);\n                letter-spacing: 2px;\n\n            }\n            .section_ponterias_mobile .text-mobile p{\n                color: #FFF;\n                font-size: var(--font-paragraf);\n                margin-top: -30px;\n            }\n\n            .section_ponterias_mobile img{\n                width: 100%;\n                margin-left: -30px;\n                margin-top: 70px;\n                margin-bottom: -70px;\n            }\n        \n            .central img {\n                width: 85%;\n            }\n        \n            .sub_card_text {\n                width: 30%;\n                margin-left: 35%;\n            }\n        \n            .card_text_conforto {\n                width: 85%;\n            }\n        \n            .card_text_plus {\n                width: 30%;\n                margin-left: 35%;\n            }\n        \n            .card_title p {\n                width: 75%;\n            }\n        \n            .card_title span {\n                width: 75%;\n            }\n        \n            .img_product_1 {\n                margin-top: 5%;\n            }\n        \n        }\n        \n        \n        \n        @media screen and (max-width:768px) {\n        \n            .card_text_conforto {\n                text-align: center;\n            }\n            .section_ponterias_desktop{\n            display: none;\n            }\n            .section_ponterias_mobile{\n                display: inline-block;\n                background-color: #191919;\n        \n\n            }\n            .section_ponterias_mobile .text-mobile{\n                width: 100%;\n                text-align: center;\n                position: absolute;\n                margin-top:19px;\n            }\n            .section_ponterias_mobile .text-mobile h2{\n                text-transform: uppercase;\n                color: #e0e621;\n                font-size: var(--font-title);\n                letter-spacing: 2px;\n\n            }\n            .section_ponterias_mobile .text-mobile p{\n                color: #FFF;\n                font-size: var(--font-paragraf);\n                margin-top: -30px;\n            }\n\n            .section_ponterias_mobile img{\n                width: 100%;\n                margin-left: -30px;\n                margin-top: 70px;\n                margin-bottom: -70px;\n            }\n            .bg_black{\n                margin-top: -23px!important;\n            }\n            img.show_finish_2 {\n                margin-bottom: 5%;\n            }\n        \n            .card_toque .row_auto {\n                padding-left: 0;\n                padding-right: 0;\n                padding-top: 8%;\n                padding-bottom: 8%;\n            }\n        \n            .card_text span {\n                width: 100%!important;\n                text-align: center;\n            }\n        \n            .img_central img {\n                width: 90%;\n            }\n        \n            .img_product_1 img {\n                width: 90%;\n            }\n        \n            .bg_black_header {\n                height: 850px;\n            }\n        \n            .title_product label {\n                display: none;\n            }\n        \n            .text_usb_typec span {\n                width: 30%;\n                margin-left: 28%;\n            }\n        \n            .section_50 .fone_1 {\n                width: 45%;\n            }\n        \n            .section_50 .fone_2 {\n                width: 60%;\n                margin-top: 5%;\n                margin-right: 5%;\n            }\n        \n            .card_sub_batery label {\n                font-size: 0.8rem;\n                text-align: center;\n            }\n        \n            .central {\n                margin-top: 100%;\n            }\n        \n            .bg_green {\n                height: calc(1.9 * 100vh);\n                background-color: initial;\n            }\n        \n            .bg_green_Android {\n                \/*height: calc(1.3 * 99vh);*\/\n                background-color: initial;\n            }\n        \n            .central_Android_Top {\n                margin-top: 70%;\n            }\n        \n            .img_exib_alok img {\n                margin-top: 75%;\n            }\n        \n            .card_reproducao .row_auto {\n                text-align: center;\n            }\n        \n            .line {\n                margin-bottom: 6%;\n                margin-top: 6%;\n            }\n        \n            .card_reproducao p {\n                text-align: center;\n                width: 80%;\n                margin-left: 10%;\n            }\n        \n            .p_icon {\n                width: 100% !important;\n                float: left;\n                text-align: center;\n            }\n        \n            .card_sub_title {\n                width: 80%;\n                text-align: center;\n                margin-left: 10%;\n            }\n        \n            .card_sub_batery {\n                margin-top: 5%;\n                margin-bottom: 15%;\n                width: 100%;\n                margin-left: 0;\n            }\n        \n            .section_50_right {\n                width: 100%;\n            }\n        \n            .sub_card_text p {\n                width: 80%;\n                float: left;\n                margin-left: 10%;\n            }\n        \n            .card_title p {\n                width: 90%;\n                margin-right: 5%;\n                text-align: center;\n            }\n        \n            .img_show_finish_1 {\n                text-align: center;\n            }\n        \n            .img_show_finish img {\n                width: 90%;\n            }\n        \n            .img_show_finish_1 img {\n                margin-left: 0;\n                width: 90%;\n            }\n        \n            .img_show_finish_2 img {\n                width: 90%;\n            }\n        \n            .card_toque .icon img {\n                width: 20%;\n            }\n        \n            .card_text .row_auto .p_icon {\n                float: left;\n                width: 100%;\n                text-align: center;\n            }\n        \n            .card_text .row_auto .p_icon img {\n                width: 20%;\n            }\n        \n            .card_text_plus {\n                width: 90%;\n                margin-left: 5%;\n                margin-bottom: 15%;\n            }\n        \n            .sub_card_text {\n                width: 90%;\n                margin-left: 5%;\n            }\n        \n            .central img {\n                width: 90%;\n            }\n        \n            .section_phones {\n                margin-top: -57%;\n                height: 644px;\n            }\n        \n            .m-l-5 {\n                margin-left: 0;\n            }\n        \n            .card_toque img {\n                width: 90%;\n                margin-left: 5%;\n            }\n        \n            .mg_10 {\n                margin-top: 0;\n            }\n        \n            .m-l-20 {\n                margin-left: 0%;\n            }\n        \n            .section_30 {\n                width: 90%;\n            }\n        \n            .title_product {\n                width: 100%;\n            }\n        \n            .title_product img {\n                width: 60%;\n            }\n        \n        \n            .section_50 .fone_1 {\n                margin-left: 10%;\n            }\n        \n            .section_50 {\n                width: 100%;\n            }\n        \n            .card_text_estereo .row_auto {\n                margin-top: 12%;\n            }\n        \n            .card_text_phones p {\n                font-size: 1.8rem;\n            }\n        \n            .card_toque .icon {\n                width: 100%;\n                float: left;\n                text-align: center;\n                margin-top: 5%;\n            }\n        \n            .card_toque p {\n                font-size: 1.3rem;\n                width: 90%;\n                margin-left: 5%;\n                text-align: center;\n            }\n        \n            .show_finish_1 {\n                margin-top: 0;\n            }\n        \n            .mg-mobile {\n                margin-top: 5%;\n            }\n        \n            .show_finish_2 {\n                margin-top: 0;\n            }\n        \n            .card_toque span {\n                float: left;\n                text-align: center;\n                width: 100%;\n            }\n        \n        \n            .section_videos {\n                margin-top: 195%;\n            }\n        \n            .card_m_absolute {\n                position: absolute;\n                margin-top: 350%;\n                margin-left: 5%;\n            }\n        \n            .section_phones .icon {\n                top: 60%;\n                left: 5%;\n            }\n        \n            .card_m label {\n                font-size: 1.2rem;\n            }\n        \n            .title_product span {\n                position: absolute;\n                left: 0;\n                margin-top: 125%;\n                margin-bottom: 8%;\n            }\n        \n            .title_product label {\n                margin-top: 80%;\n            }\n        \n            .margin_mobile {\n                margin-top: 100%;\n            }\n        \n            .card_m {\n                position: absolute;\n                margin-top: 230%;\n                text-align: left;\n                margin-left: 5%;\n            }\n        \n            .fone_3 {\n                position: relative;\n                width: 50%;\n                margin-top: -3%;\n                float: left;\n            }\n        \n            .fone_4 {\n                position: relative;\n                width: 50% !important;\n                float: left;\n            }\n        \n            .card_text_phones {\n                width: 90%;\n                float: left;\n                margin-left: 5%;\n                font-size: 1.6rem;\n            }\n        \n            .card_title {\n                margin-top: 20%;\n            }\n        \n            .card_m span,\n            .card_m label {\n                width: 100%;\n                float: left;\n            }\n        \n            .content_effect {\n                display: none;\n            }\n        \n            .line_vertical {\n                min-height: 132px;\n                margin-left: 5%;\n                margin-top: 35%;\n            }\n        \n            .bg_format_yellow {\n                height: 400px;\n                background-size: 140% auto;\n                text-align: center;\n            }\n        \n            .fone_1 {\n                float: left;\n                width: 60%;\n            }\n        \n            .fone_2 {\n                width: 90%;\n                margin-top: 5%;\n                float: right;\n            }\n        \n            .bg_format_yellow img {\n                right: 0 !important;\n            }\n        \n            .bg_yellow {\n                width: 100%;\n                background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_26.png);\n                background-repeat: no-repeat;\n                background-size: 100% 100%;\n            }\n        \n            .card_title span {\n                width: 95%;\n                margin-right: 2.5%;\n                margin-top: 0%;\n                text-align: center;\n            }\n        \n            .card_text_design p,\n            .card_text_conforto p {\n                width: 100%;\n                text-align: center;\n            }\n        \n          \n        \n            .img_product_1 {\n                width: 100%;\n                position: absolute;\n                z-index: 1;\n                width: 90%;\n                margin-top: 235%;\n                margin-left: 5%;\n                text-align: center;\n            }\n        \n            .card_hands_free {\n                width: 90%;\n                margin-left: 5%;\n                text-align: center;\n            }\n        \n            .card_conectividade {\n                width: 90%;\n                text-align: center;\n                margin-left: 5%;\n            }\n        \n            .section_left {\n                width: 100%;\n            }\n        \n            .section_right_60 {\n                width: 100%;\n            }\n        \n            .exib_img {\n                margin-bottom: 10%;\n                width: 100%;\n                margin-top: 0;\n        \n            }\n        \n            .exib_img img {\n                float: initial;\n            }\n        \n            .card_sub_batery span {\n                font-size: 1.8rem;\n            }\n        \n            .exib_2 {\n                width: 45%;\n                margin-top: 5%;\n            }\n        \n            .exib_1 {\n                width: 90% !important;\n                margin-left: 5%;\n                margin-top: 84%;\n            }\n        \n            .content_img img {\n                width: 100%;\n            }\n        \n            .section_right {\n                width: 100%;\n            }\n        \n        \n            .card_text_estereo {\n                width: 90%;\n                margin-left: 5%;\n            }\n        \n            .bg_black_header .section_50:nth-of-type(2) {\n                position: absolute;\n                top: 25%;\n            }\n        \n            .card_bluetooth {\n                width: 90%;\n                margin-left: 5%;\n                margin-top: 10%;\n                text-align: center;\n            }\n        \n            .img_card_toque {\n                margin-left: 20%;\n               \n            }\n        \n            .card_toque {\n                position: absolute;\n                width: 90%;\n                margin-top: -50%;\n                background-color: #f2f2f2;\n            }\n        \n            .section_calv {\n                background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_27.png);\n                background-repeat: no-repeat;\n                background-size: 100%;\n                height: 850px;\n            }\n        \n            .card_text {\n                width: 90%;\n            }\n        \n            .img_caixa {\n                width: 100%;\n            }\n        \n            .techical {\n                width: 100%;\n            }\n        \n            .section_left_40 {\n                width: 100%;\n            }\n        \n            .list_techical {\n                width: 90%;\n            }\n        \n            .card_reproducao {\n                width: 90%;\n                float: left;\n                margin-left: 5%;\n            }\n        \n        }\n        \n         @media screen and (max-width:1367px) {\n            \n            .section_ponterias_desktop{\n                height:433px;\n            }\n\n            .section_ponterias_desktop img{\n                margin-top: -121px;\n                margin-bottom: -10px;\n            }\n\n            .bg_black{\n                margin-top: -170px;\n            }\n            .section_phones{\n                margin-top: -4%;\n            }\n\n             \/*.card_text_design span,\n            .card_text_conforto span {\n                width: 85%;\n                text-align: left;\n            }\n        \n            .card_text_design p,\n            .card_text_conforto p {\n                width: 85%;\n                text-align: left;\n            }\n        \n            .card_m {\n                margin-top: -9%;\n            }\n        \n            .line_vertical {\n                margin-top: 3%;\n            }\n        \n            .section_phones .icon {\n                top: 70%\n            }\n        \n            .mg_10 {\n                margin-top: -40%;\n            }\n        \n            .content_effect {\n                margin-top: 5%;\n            }*\/\n        \n        } \n        \n        @media screen and (min-width:1920px) {\n        \n            .card_bluetooth {\n                margin-top: 20%;\n            }\n        \n            .section_50 .fone_2 {\n                margin-bottom: 20%;\n            }\n        \n            .text_usb_typec span {\n                width: 19%;\n            }\n        \n            .card_sub_batery {\n                margin-top: 5%;\n            }\n        \n            .exib_img {\n                margin-top: 10%;\n            }\n        \n            .logo {\n                margin-top: 30%;\n            }\n        \n            .img_product_1 {\n                margin-top: 50%;\n            }\n        \n            .height-min-screen {\n                min-height: 1650px;\n            }\n        \n            .mg_10 {\n                margin-top: 10%;\n            }\n        \n            .section_phones .icon {\n                top: 91%;\n            }\n        \n            .content_effect {\n                margin-top: 0%;\n            }\n        \n        \n        \n            .alok_2 {\n                width: 100% !important;\n            }\n        \n            .fone_4,\n            .fone_3 {\n                width: 50% !important;\n                margin-top: 15%;\n            }\n        \n            .bg_green {\n                top: 0;\n            }\n        \n        \n        \n            .line_vertical {\n                margin-top: 8%\n            }\n        \n        \n            .section_calv {\n                height: 1360px;\n            }\n        \n        \n        \n        }\n        \n        \n        \n        <\/style>\n        \n        \n            <div class=\"html_product\">\n                <div class=\"section bg_black_header\">\n                    <div class=\"section_50\">\n        \n                        <div class=\"logo\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_32.png\">\n                        <\/div>\n        \n                        <div class=\"title_product\">\n                            <label>FONE DE OUVIDO BLUETOOTH<\/label>\n                            <span> <b>MOB<\/b>100<\/span>\n        \n        \n                        <\/div>\n        \n                    <\/div>\n        \n                    <div class=\"section_50\">\n                        <img class=\"fone_1\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_1.png\">\n        \n                        <img class=\"fone_2\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_2.png\">\n                    <\/div>\n        \n                <\/div>\n        \n                <div id=\"bg_green\" class=\"section bg_green\">\n                    <div class=\"section_left_40 height-min-screen\">\n                        <div class=\"card_title\">\n                            <span>Você no controle da música.<\/span>\n                            <p>Realize os comandos no próprio fone de ouvido e tenha mais liberdade para se movimentar.<\/p>\n                        <\/div>\n                        <div class=\"row_section\">\n        \n        \n                            <div class=\"card_text_conforto card_text mg_5 card_m_absolute\">\n                                <div class=\"row_auto\">\n                                    <div class=\"p_icon\">\n                                        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_4.png\">\n        \n                                    <\/div>\n                                    <span style=\"text-transform: uppercase;\">Conforto para horas de uso<\/span>\n                                    <p>O fone intra-auricular acompanha 3 tamanhos de borrachinha para que se adapte ao seu ouvido. Conta com design ergonômico para uma melhor experiência. <\/p>\n                                <\/div>\n                            <\/div>\n        \n                            <div class=\"img_product_1\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_5.png\">\n                            <\/div>\n                        <\/div>\n        \n        \n                    <\/div>\n                    <div class=\"section_50_right\">\n                        <div class=\"img_exib_alok\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_6.png\">\n                        <\/div>\n                    <\/div>\n                    \n                <\/div>\n                <div class=\"section_ponterias_desktop\">\n                    <div class=\"text-desktop\">\n                        <h2>Conforto Waaw<\/h2>\n                        <p>Escolha entre três eartips que se acomodam dentro de suas orelhas.<\/p>\n                    <\/div>\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/ponteiras_desktop.png?v=1684413618\" alt=\"Acompanha 3 tamanhos de ponteiras, para que possa se adaptar melhor ao seu ouvido P M G \">\n                <\/div>\n                <div class=\"section_ponterias_mobile\">\n                    <div class=\"text-mobile\">\n                        <h2>Conforto Waaw<\/h2>\n                        <p>Escolha entre três eartips que se <br> acomodam dentro de suas orelhas.<\/p>\n                    <\/div>\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/ponteriras_mobile.png?v=1684413618\" alt=\"Acompanha 3 tamanhos de ponteiras, para que possa se adaptar melhor ao seu ouvido P M G \">\n                <\/div>\n               \n        \n        \n                <div class=\"section_phones\">\n        \n                    <div id=\"central\" class=\"central\">\n                        <div class=\"card_text_plus\">\n                            <label>WAAW PLUS<\/label>\n                            <span>Tecnologia TWS<\/span>\n                        <\/div>\n        \n                        <div class=\"img_central\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_39.png\">\n        \n                        <\/div>\n        \n                        <div class=\"sub_card_text\">\n                            <p> Os fones de ouvido podem funcionar ​​em conjunto, para criar um som estéreo de alta qualidade, ou de forma independente. Você decide como usar.<\/p>\n                        <\/div>\n                    <\/div>\n        \n                <\/div>\n                \n                <div class=\"section bg_black\">\n                    <div class=\"section_left\">\n                        <div class=\"card_reproducao\">\n                            <div class=\"row_auto\">\n                                <div class=\"p_icon\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_8.png\">\n                                <\/div>\n                            <\/div>\n                            <span class=\"card_sub_title\">Reproduza seus áudios sem preocupação<\/span>\n                            <div class=\"row_auto\">\n                                <label>8h<\/label> <span>do fone<\/span>\n                                <div class=\"line\"><\/div>\n                            <\/div>\n                            <div class=\"row_auto\">\n                                <label>13h<\/label> <span>do case<\/span>\n                                <div class=\"line\"><\/div>\n                            <\/div>\n                            <div class=\"row_auto\">\n                                <label class=\"font-yellow\">21h<\/label> <span>Total de reprodução*<\/span>\n                            <\/div>\n        \n                            <p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>\n        \n                            <div class=\"text_usb_typec\">\n                                <span>USB TYPE-C<\/span>\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_43.png\">\n                            <\/div>\n        \n                        <\/div>\n                    <\/div>\n        \n                    <div class=\"section_right\">\n                        <div class=\"exib_img\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_9.png\">\n                        <\/div>\n                        <div class=\"card_sub_batery\">\n                            <div class=\"card_left\">\n                                <span>15min<\/span>\n                                <label>de carregamento<\/label>\n                            <\/div>\n                            <div class=\"card_central\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_42.png\">\n                            <\/div>\n                            <div class=\"card_right\">\n                                <span>1h40min<\/span>\n                                <label>de muita música<\/label>\n                            <\/div>\n                        <\/div>\n        \n                    <\/div>\n        \n                <\/div>\n        \n                <div class=\"section_show mg_10\">\n        \n                    <div class=\"row_section mg_10\">\n                        <div class=\"section_left content_img\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_33.png\">\n                        <\/div>\n                        <div class=\"section_right\">\n                            <div class=\"exib_1\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_41.png\">\n                            <\/div>\n        \n                            <div class=\"card_toque\">\n                                <div class=\"row_auto\">\n                                    <div class=\"p_icon\">\n                                        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_17.png\">\n                                    <\/div>\n                                    <span>CONTROLE TOUCH<\/span>\n                                    <p>Através do controle touch do fone de ouvido é possível atender chamadas, reproduzir,\n                                        pausar, avançar ou voltar músicas, além de acionar a assistente de voz do seu\n                                        smartphone.\n                                    <\/p>\n                                    <img class=\"img_card_toque\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_40.png\">\n                                <\/div>\n        \n                            <\/div>\n        \n                        <\/div>\n        \n                    <\/div>\n        \n                    <div class=\"row_section\">\n        \n                        <div class=\"section_50\">\n        \n                            <div class=\"card_bluetooth\">\n                                <div class=\"p_icon\">\n                                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_13.png\">\n                                <\/div>\n                                <span>Bluetooth 5.0<\/span>\n                                <p>Se conecta a dispositivos de forma mais rápida e estável, sem perda de qualidade de som.<\/p>\n                            <\/div>\n                            <div class=\"card_hands_free\">\n                                <div class=\"p_icon\">\n                                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_38.png\">\n                                <\/div>\n                                <span>HANDS FREE<\/span>\n                                <p>Com microfone embutido, permite que você fique com as mãos livres enquanto conversa.<\/p>\n                            <\/div>\n        \n        \n                            <div class=\"card_conectividade\">\n                                <div class=\"p_icon\">\n                                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_10.png\">\n                                <\/div>\n                                <span>DRIVER DINÂMICO<\/span>\n                                <p>Com driver de 6mm, oferece melhor percepção de áudio e um som equilibrado.<\/p>\n                            <\/div>\n        \n                        <\/div>\n        \n                        <div class=\"section_50 show_img_limit\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_14.png\">\n                        <\/div>\n        \n        \n                    <\/div>\n        \n                    <div class=\"row_section mg-mobile\">\n                        <div class=\"section_50 img_show_finish_1\">\n                            <img class=\"show_finish_1\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_35.png\">\n                        <\/div>\n                        <div class=\"section_50 img_show_finish\">\n                            <img class=\"show_finish_2\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-tws-bluetooth-mob-100eb_34.png\">\n                        <\/div>\n                    <\/div>\n        \n        \n                <\/div>\n            <\/div>\n        \n        \n            <script>\n        \n        function iOS() {\n                return [\n                    'iPad Simulator',\n                    'iPhone Simulator',\n                    'iPod Simulator',\n                    'iPad',\n                    'iPhone',\n                    'iPod'\n                ].includes(navigator.platform)\n                    \/\/ iPad on iOS 13 detection\n                    || (navigator.userAgent.includes(\"Mac\") && \"ontouchend\" in document)\n            }\n        \n        \n            function LoadPage() {\n                var isIOS = iOS();\n                var className = \"\";\n        \n                if (!isIOS) {\n                    className = \"section bg_green bg_green_Android\";\n                    \/\/\n                    document.getElementById(\"bg_green\").setAttribute(\"class\", className);\n                    className = \"central_Android_Top\";\n                    document.getElementById(\"central\").setAttribute(\"class\", className);\n        \n                } else {\n                    className = \"central\";\n                    document.getElementById(\"central\").setAttribute(\"class\", className);\n                }\n            }\n        \n            window.load = LoadPage();\n        \n        \n        \n            <\/script>",
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -167,35 +159,6 @@
             "heading_20": ""
           }
         },
-        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-1": {
-          "type": "values",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "value_1": "",
-            "value_2": "",
-            "value_3": "",
-            "value_4": "",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
-            "view_button_background": "",
-            "view_button_text_color": ""
-          }
-        },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
           "type": "values",
           "settings": {
@@ -227,24 +190,23 @@
       },
       "block_order": [
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0",
-        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-1",
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
         "full_width": true,
-        "subheading": "",
+        "subheading": "Descrição",
         "title": "Experimente a imersão total nos seus jogos favoritos!",
-        "content": "<p>Ouça seus jogos nos mínimos detalhes com o fone de ouvido gamer ENERGY 10EWG . Compatível com diversas plataformas, possui microfone destacável e ganchos auriculares, ideal para oferecer uma experiência imersiva.O fone de ouvido gamer WAAW ENERGY 10EWG é a escolha ideal para quem deseja levar a imersão dos jogos para qualquer lugar. Com case de transporte, você protege seu fone de possíveis arranhões, impactos e sujeiras.O botão de volume deslizante, silenciamento de microfone e botão multifuncional tornam qualquer comando bem mais simples, permitindo gerenciar chamadas e ouvir músicas. Também possui microfone extra e destacável , otimizado para partidas multijogador.O fone intra-auricular acompanha 3 tamanhos de borrachinhas P, M e G, e ganchos auriculares que se adaptam ao formato do seu ouvido, proporcionando maior conforto durante o uso.Com cabo de 1,2 metros que não entrelaça e conector P3 em 90 graus é otimizado para jogos em dispositivos móveis, para ter mais liberdade de movimento sem a preocupação com dobras que podem danificar o cabo e podem prejudicar a sua jogabilidade.Ouça seus amigos e oponentes como nunca. Com graves, médios e agudos claros do ENERGY 10EWG , você estará totalmente no controle de seus jogos favoritos.<\/p>",
+        "content": "<p>Ouça seus jogos nos mínimos detalhes com o fone de ouvido gamer <strong>ENERGY 10EWG<\/strong>. Compatível com diversas plataformas, possui microfone destacável e ganchos auriculares, ideal para oferecer uma experiência imersiva.<\/p><p>O fone de ouvido gamer <strong>WAAW ENERGY 10EWG<\/strong> é a escolha ideal para quem deseja levar a imersão dos jogos para qualquer lugar. Com case de transporte, você protege seu fone de possíveis arranhões, impactos e sujeiras.O botão de volume deslizante, silenciamento de microfone e botão multifuncional tornam qualquer comando bem mais simples, permitindo gerenciar chamadas e ouvir músicas. Também possui microfone extra e destacável , otimizado para partidas multijogador.<\/p><p>O fone intra-auricular acompanha 3 tamanhos de borrachinhas P, M e G, e ganchos auriculares que se adaptam ao formato do seu ouvido, proporcionando maior conforto durante o uso.Com cabo de 1,2 metros que não entrelaça e conector P3 em 90 graus é otimizado para jogos em dispositivos móveis, para ter mais liberdade de movimento sem a preocupação com dobras que podem danificar o cabo e podem prejudicar a sua jogabilidade.<\/p><p>Ouça seus amigos e oponentes como nunca. Com graves, médios e agudos claros do ENERGY 10EWG , você estará totalmente no controle de seus jogos favoritos.<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 5,
+        "max_rows": 10,
         "view_all_text": "View all",
         "view_less_text": "View less",
         "view_product": "View",
         "viewing_product": "",
-        "show_product_swatch": true,
-        "background": "#ffffff",
+        "show_product_swatch": false,
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
@@ -495,19 +457,19 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
       "settings": {
-        "full_width": true,
-        "stack_testimonials": true,
+        "full_width": false,
+        "stack_testimonials": false,
         "subheading": "",
         "title": "Avaliações recentes",
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "#ffffff",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "#000000",
         "heading_gradient": "",
-        "testimonial_card_background": "#ffffff",
+        "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
       }
     },
@@ -526,24 +488,108 @@
         "subheading": "",
         "title": "Veja também",
         "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
+    },
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
+      "type": "faq",
+      "blocks": {
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Ficou com alguma dúvida?",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "product_card_background": "",
-        "product_card_text_color": ""
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Ainda tem dúvidas? Veja como funciona",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "#",
+            "button_text": "Baixe o manual de instruções"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "1dd18f4a-61d6-43f8-91ef-e0a15a7af642",
+    "3e1a8b69-7217-4431-9836-f7b25dc653ff",
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
-    "related-products"
+    "related-products",
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
   ]
 }
