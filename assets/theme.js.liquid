@@ -4290,3 +4290,41 @@ export {
   throttle,
   waitForEvent
 };
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Função para adicionar o estilo de desfoque
+  function addBlurStyle() {
+    const mainElement = document.querySelector('#main');
+    mainElement.style.filter = 'blur(10px)';
+  }
+
+  // Função para remover o estilo de desfoque
+  function removeBlurStyle() {
+    const mainElement = document.querySelector('#main');
+    mainElement.style.filter = 'blur(0px)';
+  }
+
+  // Função de callback para o MutationObserver
+  function handleMutation(mutationsList, observer) {
+    const openDetails = document.querySelectorAll('.shopify-section--header details[open]');
+    if (openDetails.length > 0) {
+      addBlurStyle();
+    } else {
+      removeBlurStyle();
+    }
+  }
+
+  // Configuração do MutationObserver
+  const observerConfig = { attributes: true, attributeFilter: ['open'], subtree: true };
+  const detailsObserver = new MutationObserver(handleMutation);
+
+  // Elemento alvo para observação
+  const targetElements = document.querySelectorAll('.shopify-section--header details');
+
+  // Inicia a observação para cada elemento
+  if (targetElements.length > 0) {
+    targetElements.forEach(element => {
+      detailsObserver.observe(element, observerConfig);
+    });
+  }
+});

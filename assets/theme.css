@@ -10189,3 +10189,8 @@ split-lines {
 .breadcrumb span:last-child {
   font-weight: bold;
 }
+
+#main {
+  filter: blur(0px);
+  transition: filter .3s ease-in-out;
+}
