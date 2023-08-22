@@ -6,6 +6,8 @@
         "totals": {
           "type": "totals",
           "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": true
           }
         },
         "cart_note": {
@@ -17,14 +19,31 @@
           "type": "checkout_button",
           "settings": {
           }
+        },
+        "eb3cea8c-ed57-4616-8a22-d0e802345194": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "title": "Shipping",
+            "content": "<p>Short content about your shipping rates or discounts.<\/p>",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "totals",
         "cart_note",
-        "checkout_button"
+        "checkout_button",
+        "eb3cea8c-ed57-4616-8a22-d0e802345194"
       ],
       "settings": {
+        "show_shipping_estimator": true,
+        "show_payment_icons": true
       }
     }
   },

@@ -156,7 +156,12 @@
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
-            "heading_20": ""
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -183,6 +188,11 @@
             "value_18": "",
             "value_19": "",
             "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -253,6 +263,30 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
       "type": "media-grid",
       "blocks": {
+        "e7723ac3-03a0-40a8-9a16-843711ad4bed": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 4,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
@@ -321,6 +355,7 @@
         }
       },
       "block_order": [
+        "e7723ac3-03a0-40a8-9a16-843711ad4bed",
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"

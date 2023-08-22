@@ -121,6 +121,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -156,7 +157,12 @@
             "heading_17": "Controle com botões",
             "heading_18": "Reprodução automática \/ pause",
             "heading_19": "Conectividade APP",
-            "heading_20": "Peso Bruto da Embalagem (g)"
+            "heading_20": "Peso Bruto da Embalagem (g)",
+            "heading_21": "Dimensões da Embalagem C x L x A (cm)",
+            "heading_22": "Cubagem da Embalagem (m³)",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -183,6 +189,11 @@
             "value_18": "<p>Não<\/p>",
             "value_19": "<p>Não<\/p>",
             "value_20": "<p>40g<\/p>",
+            "value_21": "<p>11 x 3 x 11 cm<\/p>",
+            "value_22": "<p>0,000363 m³<\/p>",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -243,8 +254,9 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
+        "video": "shopify:\/\/files\/videos\/vib100.mp4",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/VIB-100EW-03.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -278,7 +290,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_75.png",
+            "image": "shopify:\/\/shop_images\/desc_fone-de-ouvido-estereo-vib-100ew_11.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -340,7 +352,7 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/15.Icone-material-flexivel-e-emborachado-ou-tamanho-do-cabo.png",
             "column_size": "4",
             "title": "Microfone extra e destacável;",
             "heading_tag": "h6",
@@ -396,6 +408,7 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -527,6 +540,7 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",
@@ -560,7 +574,7 @@
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "#",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/VIB-100EW\/VIB-100EW-Manual.pdf",
             "button_text": "Baixe o manual de instruções"
           }
         }

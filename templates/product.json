@@ -80,8 +80,8 @@
           "type": "associated_products",
           "settings": {
             "title": "Compre junto",
-            "stack_products": true,
-            "products_count": 1,
+            "stack_products": false,
+            "products_count": 4,
             "background": "",
             "text_color": ""
           }
@@ -156,7 +156,12 @@
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
-            "heading_20": ""
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -183,6 +188,11 @@
             "value_18": "",
             "value_19": "",
             "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -200,10 +210,10 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
-        "view_product": "View",
+        "max_rows": 15,
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
+        "view_product": "Ver",
         "viewing_product": "",
         "show_product_swatch": false,
         "background": "rgba(0,0,0,0)",
