@@ -13,14 +13,14 @@
           "type": "text",
           "settings": {
             "highlight": true,
-            "text": "<p>Fone de ouvido Gamer<\/p>"
+            "text": "<p>Caixa de som compacta, até 12 horas de bateria, 5W RMS, proteção IPX6, TWS.<\/p>"
           }
         },
         "8bbde357-2065-4d19-b265-1c2b7741a439": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p>Seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer, seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer. <\/p>"
+            "text": "<p>A caixa de som Bluetooth ME 100 oferece uma experiência de som de alta qualidade em um tamanho portátil e fácil de transportar, permitindo que você aproveite seu #momentoWAAW em qualquer lugar.<\/p>"
           }
         },
         "separator": {
@@ -73,7 +73,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><\/ul>"
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>5W de Potência!<\/strong><\/li><li><strong>12 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Classificação <strong>IPX6 resistente a água;<\/strong><\/li><li><strong>Bluetooth 5.0<\/strong> e entrada para cartão de memória (<strong>MICRO SD<\/strong>);<\/li><li>Prática, compacta e portátil;<\/li><li><strong>SKIN WAAW<\/strong> toque emborrachado.<\/li><\/ul>"
           }
         },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
@@ -121,6 +121,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -156,7 +157,12 @@
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
-            "heading_20": ""
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -183,6 +189,11 @@
             "value_18": "",
             "value_19": "",
             "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -192,11 +203,14 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0",
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "full_width": true,
         "subheading": "Descrição",
-        "title": "Experimente a imersão total nos seus jogos favoritos!",
-        "content": "<p>Ouça seus jogos nos mínimos detalhes com o fone de ouvido gamer <strong>ENERGY 10EWG<\/strong>. Compatível com diversas plataformas, possui microfone destacável e ganchos auriculares, ideal para oferecer uma experiência imersiva.<\/p><p>O fone de ouvido gamer <strong>WAAW ENERGY 10EWG<\/strong> é a escolha ideal para quem deseja levar a imersão dos jogos para qualquer lugar. Com case de transporte, você protege seu fone de possíveis arranhões, impactos e sujeiras.O botão de volume deslizante, silenciamento de microfone e botão multifuncional tornam qualquer comando bem mais simples, permitindo gerenciar chamadas e ouvir músicas. Também possui microfone extra e destacável , otimizado para partidas multijogador.<\/p><p>O fone intra-auricular acompanha 3 tamanhos de borrachinhas P, M e G, e ganchos auriculares que se adaptam ao formato do seu ouvido, proporcionando maior conforto durante o uso.Com cabo de 1,2 metros que não entrelaça e conector P3 em 90 graus é otimizado para jogos em dispositivos móveis, para ter mais liberdade de movimento sem a preocupação com dobras que podem danificar o cabo e podem prejudicar a sua jogabilidade.<\/p><p>Ouça seus amigos e oponentes como nunca. Com graves, médios e agudos claros do ENERGY 10EWG , você estará totalmente no controle de seus jogos favoritos.<\/p>",
+        "title": "Leve a sua música a qualquer lugar com a caixa de som portátil ME 100SB. ",
+        "content": "<p>A caixa de som portátil <strong>WAAW ME 100SB<\/strong> é a melhor opção para quem busca qualidade de som em um formato compacto e portátil. Com 5W de potência e até 12 horas de reprodução e pode ser usada em qualquer momento do dia.<\/p><p>Com conectividade bluetooth 5.0 ouça suas músicas preferidas a partir de seu smartphone, tablet, computador, ou através da entrada de cartão de memória (micro SD) para reproduzir suas músicas diretamente da caixa de som. Além disso, a tecnologia TWS permite o uso simultâneo de duas caixas de som <strong>WAAW ME 100SB<\/strong>, o que proporciona uma experiência sonora ainda mais imersiva.<\/p><p><\/p><p>Com proteção IPX6, é uma caixa de som resistente a água, sendo ideal para atividades ao ar livre e dias de praia. O toque emborrachado e resistente proporciona uma sensação agradável ao toque e protege a caixa de som contra arranhões e danos. A alça de borracha torna fácil transportar a caixa de som para onde quer que vá.<\/p><p>A caixa de som <strong>ME 100SB<\/strong> também possui um microfone embutido, o que significa que você pode usá-la para fazer chamadas telefônicas sem precisar segurar o telefone. O design moderno e elegante da caixa de som combina perfeitamente com qualquer ambiente, seja em casa ou ao ar livre.<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -243,8 +257,8 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=rjw2BrSo4yU",
+        "poster": "shopify:\/\/shop_images\/ME_100SB_-_7899831310012_-_02.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -256,7 +270,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_05.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -278,7 +292,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_75.png",
+            "image": "shopify:\/\/shop_images\/MODELO-FESTA-ME-100SB_01.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -300,7 +314,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_06.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
