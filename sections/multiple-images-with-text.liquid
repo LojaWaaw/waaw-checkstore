@@ -60,29 +60,30 @@ LIQUID
 <div {% render 'section-properties', narrow: is_narrow %}>
   <multiple-images-with-text class="multiple-images-with-text">
     <multiple-images-with-text-image-list reversed swipeable="false" layout="{{ section.settings.images_layout }}" class="multiple-images-with-text__image-list">
-      {%- if visible_images_count == 0 -%}
-        {{- 'collection-1' | placeholder_svg_tag: 'placeholder' -}}
+      {%- comment -%}We have to reverse the images when they are stacked so that the image of the first block appears at the top of the stack{%- endcomment -%}
+      {%- if section.settings.images_layout == 'stacked' -%}
+        {%- assign section_blocks = section.blocks | reverse -%}
       {%- else -%}
-        {%- comment -%}We have to reverse the images when they are stacked so that the image of the first block appears at the top of the stack{%- endcomment -%}
-        {%- if section.settings.images_layout == 'stacked' -%}
-          {%- assign section_blocks = section.blocks | reverse -%}
-        {%- else -%}
-          {%- assign section_blocks = section.blocks -%}
-        {%- endif -%}
-
-        {%- for block in section_blocks -%}
-          {%- if block.settings.image != blank -%}
-            {%- if section.settings.images_layout == 'scattered' -%}
-              {%- capture style -%}--image-rotation: {{ block.settings.image_rotation_degrees }}deg;{%- endcapture -%}
-            {%- endif -%}
-
-            {%- capture image_id -%}image-{{ block.id }}{%- endcapture -%}
-            {%- capture image_class -%}rounded-sm shadow-sm {% unless section.settings.images_layout == 'stacked' %}reveal{% endunless %}{%- endcapture -%}
-
-            {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: image_id, loading: 'lazy', style: style, sizes: 'min(100vw, 500px)', widths: '200,300,400,500,600,700,800,900,1000', class: image_class -}}
-          {%- endif -%}
-        {%- endfor -%}
+        {%- assign section_blocks = section.blocks -%}
       {%- endif -%}
+
+      {%- for block in section_blocks -%}
+        {%- if block.settings.image != blank and block.settings.video == blank -%}
+          {%- if section.settings.images_layout == 'scattered' -%}
+            {%- capture style -%}--image-rotation: {{ block.settings.image_rotation_degrees }}deg;{%- endcapture -%}
+          {%- endif -%}
+
+          {%- capture image_id -%}image-{{ block.id }}{%- endcapture -%}
+          {%- capture image_class -%}rounded-sm shadow-sm {% unless section.settings.images_layout == 'stacked' %}reveal{% endunless %}{%- endcapture -%}
+
+          {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: image_id, loading: 'lazy', style: style, sizes: 'min(100vw, 500px)', widths: '200,300,400,500,600,700,800,900,1000', class: image_class -}}
+        {%- endif -%}
+        {%- if block.settings.video != blank and block.settings.image == blank -%}
+          <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
+            {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
+          </video-media>
+        {%- endif -%}
+      {%- endfor -%}
     </multiple-images-with-text-image-list>
 
     <div class="multiple-images-with-text__content-with-nav">
@@ -240,6 +241,12 @@ LIQUID
           "label": "Image rotation",
           "info": "Only applicable when images layout is set to \"Scattered\".",
           "default": 0
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Video",
+          "info": "Video are muted automatically and will autoplay."
         },
         {
           "type": "text",
