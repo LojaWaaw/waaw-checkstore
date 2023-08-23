@@ -188,7 +188,7 @@
             "title": "FONES",
             "reduce_margins": true,
             "subheading": "FONES DE OUVIDO",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet diam. Proin mattis sapien non vestibulum sodales. Mauris eget consectetur ex, id feugiat purus. Nulla nunc sapien, tristique eget neque vel, pretium laoreet quam. Duis egestas porta elit, non faucibus elit mollis ut. Nunc nec arcu a lacus consequat ultricies.<\/p>",
+            "content": "<p>Existem vários tipos de fone de ouvido com diferentes características e funcionalidades. Dentre as variedades, podemos encontrar fones de ouvido sem fio, com fio, dobráveis, intra auriculares, com microfone ou estilo headphone.<\/p><p>Confira os melhores modelos da WAAW!<\/p>",
             "button_text": "Compre Fones de Ouvido",
             "button_url": "shopify:\/\/collections\/fones-de-ouvido",
             "animate_impact_text": false,
@@ -464,7 +464,7 @@
             "title": "SPEAKERS",
             "reduce_margins": true,
             "subheading": "CAIXAS DE SOM",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac laoreet diam. Proin mattis sapien non vestibulum sodales. Mauris eget consectetur ex, id feugiat purus. Nulla nunc sapien, tristique eget neque vel, pretium laoreet quam. Duis egestas porta elit, non faucibus elit mollis ut. Nunc nec arcu a lacus consequat ultricies.<\/p>",
+            "content": "<p>As <strong>caixas de som do Alok <\/strong>levam música para qualquer lugar. Desenvolvidas por quem entende de música, entregam um <strong>som com potência e qualidade <\/strong>incomparáveis.<\/p>",
             "button_text": "Compre caixas de Som",
             "button_url": "shopify:\/\/collections\/caixas-de-som",
             "animate_impact_text": false,
@@ -628,9 +628,9 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Newsletter",
-            "content": "<p>Sign up for our newsletter and be the first to know about coupons and special promotions.<\/p>",
-            "button_text": "Subscribe",
-            "consent_label": "<p>I agree to receive your newsletter and accept the <a href=\"#\">privacy policy<\/a>.<\/p>",
+            "content": "<p>Faça parte do clube WAAW e ganhe 10% de desconto na sua primeira compra.<\/p>",
+            "button_text": "Enviar",
+            "consent_label": "<p>Concordo em receber a newsletter e aceito a <a href=\"#\">política de privacidade<\/a>.<\/p>",
             "column_size": "3"
           }
         }

@@ -13,14 +13,14 @@
           "type": "text",
           "settings": {
             "highlight": true,
-            "text": "<p>Fone de ouvido Gamer<\/p>"
+            "text": "<p>Caixa de som 2 em 1, proteção IPX6, até 14 horas de bateria, TWS.<\/p>"
           }
         },
         "8bbde357-2065-4d19-b265-1c2b7741a439": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p>Seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer, seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer. <\/p>"
+            "text": "<p>Entre em sintonia sem sair do seu ritmo. A caixa de som US 200 DUO pode reproduzir som separadas ou como uma única caixa de som, ideal para mergulhar nas suas playlists com a sensação do som 360° e ter seu #momentoWAAW.<\/p>"
           }
         },
         "separator": {
@@ -73,7 +73,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><\/ul>"
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>14 horas <\/strong>de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Classificação <strong>IPX6 resistente a água;<\/strong><\/li><li>Tecnologia <strong>Bluetooth 5.0;<\/strong><\/li><li>Pode ser usada de <strong>forma separada<\/strong>;<\/li><li>Tecido <strong>resistente<\/strong> e acabamento <strong>metálico<\/strong>.<\/li><\/ul>"
           }
         },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
@@ -156,7 +156,27 @@
             "heading_17": "",
             "heading_18": "",
             "heading_19": "",
-            "heading_20": ""
+            "heading_20": "",
+            "heading_21": "",
+            "heading_22": "",
+            "heading_23": "",
+            "heading_24": "",
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -183,6 +203,26 @@
             "value_18": "",
             "value_19": "",
             "value_20": "",
+            "value_21": "",
+            "value_22": "",
+            "value_23": "",
+            "value_24": "",
+            "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }

@@ -73,7 +73,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Controles no <strong>botão<\/strong> ;<\/li><li><strong>HandsFree<\/strong> mãos livres nas chamadas;<\/li><li>Som de <strong>alta qualidade<\/strong> ;<\/li><li><strong>Conforto WAAW <\/strong>design leve e confortável;<\/li><\/ul>"
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Controles no <strong>botão<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li>Som de <strong>alta qualidade<\/strong>;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
@@ -162,7 +162,22 @@
             "heading_22": "Cubagem da Embalagem (m³)",
             "heading_23": "",
             "heading_24": "",
-            "heading_25": ""
+            "heading_25": "",
+            "heading_26": "",
+            "heading_27": "",
+            "heading_28": "",
+            "heading_29": "",
+            "heading_30": "",
+            "heading_31": "",
+            "heading_32": "",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -194,6 +209,21 @@
             "value_23": "",
             "value_24": "",
             "value_25": "",
+            "value_26": "",
+            "value_27": "",
+            "value_28": "",
+            "value_29": "",
+            "value_30": "",
+            "value_31": "",
+            "value_32": "",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -268,7 +298,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "image": "shopify:\/\/shop_images\/VIB-100EW-01.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -277,7 +307,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -312,7 +342,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "image": "shopify:\/\/shop_images\/VIB-100EW-03.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -321,7 +351,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -408,7 +438,6 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
@@ -435,10 +464,10 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 5,
-            "author": "John S.",
+            "rating": 3,
+            "author": "MATHEUS M.",
             "title": "",
-            "content": "<p>Ótimo produto recomendo a todos interessados um som de altíssima qualidade<\/p>"
+            "content": "<p>Bom, o fone faz o som entrar na sua cabeça, os fios seriam bom serem mais grossos, pois são bem finos, apesar de dobrarem com o tempo.<\/p><p><\/p>"
           }
         },
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
@@ -447,9 +476,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
+            "author": "Edvaldo V.",
             "title": "",
-            "content": "<p>Caixa de som de excelente qualidade! Super recomendo, um ótimo custo benefício, vale muito a pena! Amei! (;<\/p>"
+            "content": "<p>Muita qualidade em relação ao que esperava.<\/p>"
           }
         },
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
@@ -458,7 +487,7 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 3,
-            "author": "Joshua A.",
+            "author": "AKIRA",
             "title": "",
             "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
           }
