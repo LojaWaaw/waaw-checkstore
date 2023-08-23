@@ -589,62 +589,34 @@
         "accordion_text_color": ""
       }
     },
-    "3eb328d8-6105-4a13-9c63-21d0c384643c": {
-      "type": "multi-column",
+    "1d462150-b3c4-4f34-9aa2-9a7848e01b81": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "template--15963751579823__3eb328d8-6105-4a13-9c63-21d0c384643c-item-1": {
+        "template--15963751579823__1d462150-b3c4-4f34-9aa2-9a7848e01b81-item-2": {
           "type": "item",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/energy100.mp4",
-            "column_size": "2",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "34572e59-d3f7-46a1-be49-2231e0839fff": {
-          "type": "spacer",
-          "settings": {
-            "column_size": "12"
-          }
-        },
-        "template--15963751579823__3eb328d8-6105-4a13-9c63-21d0c384643c-item-2": {
-          "type": "item",
-          "settings": {
-            "column_size": "3",
+            "image_rotation_degrees": 1.5,
+            "video": "shopify:\/\/files\/videos\/MOVE-100EBS.mp4",
+            "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "heading_tag": "h2",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_url": "#",
-            "link_text": "Baixe o manual de instruções",
-            "link_style": "button"
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "button_url": "#",
+            "button_text": "Baixe o manual de Instruções"
           }
         }
       },
       "block_order": [
-        "template--15963751579823__3eb328d8-6105-4a13-9c63-21d0c384643c-item-1",
-        "34572e59-d3f7-46a1-be49-2231e0839fff",
-        "template--15963751579823__3eb328d8-6105-4a13-9c63-21d0c384643c-item-2"
+        "template--15963751579823__1d462150-b3c4-4f34-9aa2-9a7848e01b81-item-2"
       ],
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
-        "hide_on_mobile": false,
-        "gap": "medium",
-        "text_alignment": "start",
-        "subheading": "",
-        "title": "",
-        "content": "",
+        "images_layout": "collage",
+        "collage_images_alignment": "middle",
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "newsletter_background_color": "",
-        "newsletter_text_color": ""
+        "button_background": "",
+        "button_text_color": ""
       }
     }
   },
@@ -658,6 +630,6 @@
     "bac92a01-ed39-4116-9357-048e21326ec5",
     "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "3eb328d8-6105-4a13-9c63-21d0c384643c"
+    "1d462150-b3c4-4f34-9aa2-9a7848e01b81"
   ]
 }
