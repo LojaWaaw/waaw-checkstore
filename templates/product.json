@@ -596,7 +596,7 @@
           "type": "item",
           "settings": {
             "image_rotation_degrees": 1.5,
-            "video": "shopify:\/\/files\/videos\/MOVE-100EBS.mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=86Rbec-mrLc",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
