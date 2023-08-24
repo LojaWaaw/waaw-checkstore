@@ -13,14 +13,14 @@
           "type": "text",
           "settings": {
             "highlight": true,
-            "text": "<p>Fone de ouvido Gamer<\/p>"
+            "text": "<p>Fone de ouvido com cancelamento ativo de ruído, Modo Ambiente, até 60 horas de bateria, microfone integrado.<\/p>"
           }
         },
         "8bbde357-2065-4d19-b265-1c2b7741a439": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p>Seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer, seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer. <\/p>"
+            "text": "<p>Nada melhor do que um fone de ouvido que te deixa realmente imerso ao que está ouvindo. Com o headphone WAAW SENSE 300HBNC você fica livre de fios, com total liberdade para aproveitar cada #momentoWAAW.<\/p>"
           }
         },
         "separator": {
@@ -73,7 +73,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><\/ul>"
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>Até 60 horas<\/strong> de reprodução;<\/li><li><strong>Cancelamento<\/strong> ativo de ruído;<\/li><li>Controle de <strong>toque inteligente<\/strong>;<\/li><li><strong>Bluetooth 5.0<\/strong> de conexão rápida;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
@@ -137,52 +137,92 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0": {
           "type": "headings",
           "settings": {
-            "heading_1": "Potência",
-            "heading_2": "Reprodução",
-            "heading_3": "Bluetooth",
-            "heading_4": "Resistente a aguá",
-            "heading_5": "",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
+            "heading_1": "Versão do Bluetooth:",
+            "heading_2": "Tamanho do driver:",
+            "heading_3": "Tempo de reprodução de música (h):",
+            "heading_4": "Tempo máx. de reprodução de música com ANC ligado (h):",
+            "heading_5": "Autonomia após 15 min de carga:",
+            "heading_6": "Bateria (mAh):",
+            "heading_7": "Tempo de carregamento:",
+            "heading_8": "Tipo de conexão do cabo de carregamento:",
+            "heading_9": "Sensibilidade do Driver a 1kHz1mW:",
+            "heading_10": "Impedância do Speaker (ohms):",
+            "heading_11": "Resposta de Frequência (Hz):",
+            "heading_12": "Possui entrada auxiliar:",
+            "heading_13": "Perfis bluetooth:",
+            "heading_14": "Alcance máximo:",
+            "heading_15": "Desligamento automático:",
+            "heading_16": "Certificado ANATEL:",
+            "heading_17": "Dimensões do produto (CxLxA):",
+            "heading_18": "Acessórios:",
+            "heading_19": "Peso líquido:",
+            "heading_20": "Garantia:",
+            "heading_21": "Cor:",
+            "heading_22": "Potência de Saída (mW) (RMS):",
+            "heading_23": "Acompanha cabo P2 (m):",
+            "heading_24": "Conexão TWS:",
+            "heading_25": "Rotação de 90º das conchas:",
+            "heading_26": "Dobráveis:",
+            "heading_27": "Regulagem de altura:",
+            "heading_28": "Cancelamento Ativo de Ruído:",
+            "heading_29": "Over-ear (Envolvendo a orelha):",
+            "heading_30": "On-ear (Sobre a orelha):",
+            "heading_31": "Controle sensível ao toque:",
+            "heading_32": "Controle com botões:",
+            "heading_33": "Microfone integrado:",
+            "heading_34": "Compativel com assistente de voz:",
+            "heading_35": "Reprodução automática \/ pause:",
+            "heading_36": "Conectividade APP:",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>5W<\/p>",
-            "value_2": "<p>12 Horas<\/p>",
-            "value_3": "<p>Sim<\/p>",
-            "value_4": "<p>Sim<\/p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
+            "value_1": "<p> 5.0<\/p>",
+            "value_2": "<p>40mm<\/p>",
+            "value_3": "<p>Até 60h Com ANC desligado<br\/>Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "value_4": "<p>50h Com ANC ligado<\/p>",
+            "value_5": "<p>8h<\/p>",
+            "value_6": "<p>1200 mAh<\/p>",
+            "value_7": "<p>Até 2 horas<\/p>",
+            "value_8": "<p>USB-C<\/p>",
+            "value_9": "<p>104dB +\/- 3dB<\/p>",
+            "value_10": "<p>32 ohms<\/p>",
+            "value_11": "<p>20Hz – 20kHz<\/p>",
+            "value_12": "<p>Não<\/p>",
+            "value_13": "<p>A2DP \/ AVRCP \/ HSP \/ HFP<\/p>",
+            "value_14": "<p>10m<br\/>O alcance máximo do Bluetooth depende de um ambiente sem obstruções para funcionar dentro do raio indicado.<\/p>",
+            "value_15": "<p>Sim (em modo de conexão)<\/p>",
+            "value_16": "<p>17071-21-10632<\/p>",
+            "value_17": "<p>20 x 17,5 x 8,3 cm<\/p>",
+            "value_18": "<p>Cabo USB-C<\/p>",
+            "value_19": "<p>234 g<\/p>",
+            "value_20": "<p>01 ANO (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante)<\/p>",
+            "value_21": "<p>Preto e Verde<\/p>",
+            "value_22": "<p>15mW<\/p>",
+            "value_23": "<p>Não<\/p>",
+            "value_24": "<p>Não<\/p>",
+            "value_25": "<p>Sim<\/p>",
+            "value_26": "<p>Sim<\/p>",
+            "value_27": "<p>Sim<\/p>",
+            "value_28": "<p>Sim<\/p>",
+            "value_29": "<p>Sim<\/p>",
+            "value_30": "<p>Não<\/p>",
+            "value_31": "<p>Sim<\/p>",
+            "value_32": "<p>Sim<\/p>",
+            "value_33": "<p>Sim<\/p>",
+            "value_34": "<p>Sim<\/p>",
+            "value_35": "<p>Não<\/p>",
+            "value_36": "<p>Não<\/p>",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -195,14 +235,14 @@
       "settings": {
         "full_width": true,
         "subheading": "Descrição",
-        "title": "Experimente a imersão total nos seus jogos favoritos!",
-        "content": "<p>Ouça seus jogos nos mínimos detalhes com o fone de ouvido gamer <strong>ENERGY 10EWG<\/strong>. Compatível com diversas plataformas, possui microfone destacável e ganchos auriculares, ideal para oferecer uma experiência imersiva.<\/p><p>O fone de ouvido gamer <strong>WAAW ENERGY 10EWG<\/strong> é a escolha ideal para quem deseja levar a imersão dos jogos para qualquer lugar. Com case de transporte, você protege seu fone de possíveis arranhões, impactos e sujeiras.O botão de volume deslizante, silenciamento de microfone e botão multifuncional tornam qualquer comando bem mais simples, permitindo gerenciar chamadas e ouvir músicas. Também possui microfone extra e destacável , otimizado para partidas multijogador.<\/p><p>O fone intra-auricular acompanha 3 tamanhos de borrachinhas P, M e G, e ganchos auriculares que se adaptam ao formato do seu ouvido, proporcionando maior conforto durante o uso.Com cabo de 1,2 metros que não entrelaça e conector P3 em 90 graus é otimizado para jogos em dispositivos móveis, para ter mais liberdade de movimento sem a preocupação com dobras que podem danificar o cabo e podem prejudicar a sua jogabilidade.<\/p><p>Ouça seus amigos e oponentes como nunca. Com graves, médios e agudos claros do ENERGY 10EWG , você estará totalmente no controle de seus jogos favoritos.<\/p>",
+        "title": "Com até 60 horas de autonomia, você pode esquecer os fios e ter a liberdade para aproveitar cada momento.",
+        "content": "<p>Esteja imerso e focado ao que está ouvindo com o headphone <strong>SENSE 300HBNC<\/strong>. São até 60 horas de reprodução com o cancelamento de ruído desligado e até 50 horas de autonomia com o cancelamento de ruído ligado. Com a carga de apenas 15 minutos, você tem até 8 horas de autonomia para muita música. <\/p><p>Possui a tecnologia de cancelamento ativo de ruído, que contribui na redução dos sons externos, utilizando os próprios microfones para emitir uma frequência contrária ao ruído. Ideal para a concentração no trabalho, em exercícios ou até nos momentos de relaxamento. <\/p><p>Já com o Modo Ambiente você pode ouvir o ambiente externo enquanto escuta sua música, podcast, ligação ou enquanto conversa. Útil quando se está conversando ou em situações em que é importante estar ciente do que está acontecendo ao seu redor. <\/p><p>O fone de ouvido ainda é Over Ear que se encaixa ao redor das orelhas para um ajuste confortável, ideal para uso prolongado. Com Bluetooth 5.0 permite uma conexão mais rápida e com menos interrupções.  <\/p><p>Com controle touch pad direito, é possível controlar músicas, chamadas e alternar entre cancelamento de ruído e Modo Ambiente. Também é compatível com assistentes de voz do seu dispositivo através do botão no fone, além de ser HandsFree, que permite manter as mãos livres durante as conversas. <\/p><p>Com conchas articuláveis e design dobrável, é perfeito para guardar na mochila e levar suas playlists para onde for. <\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
+        "view_all_text": "Ver Mais",
+        "view_less_text": "Ver Menos",
         "view_product": "View",
         "viewing_product": "",
         "show_product_swatch": false,
@@ -243,8 +283,8 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
+        "external_video_url": "https:\/\/youtu.be\/g5RH-pfhK_M",
+        "poster": "shopify:\/\/shop_images\/waaw-by-alok-sense-300HBNC-02.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -256,7 +296,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "image": "shopify:\/\/shop_images\/desc_fone-bluetooth-cancelamento-ruido-sense-300hbnc_15.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -278,7 +318,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_75.png",
+            "image": "shopify:\/\/shop_images\/waaw-by-alok-sense-300HBNC-06.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -300,7 +340,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-06.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -340,9 +380,9 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/18.Icone-cancelamento-de-ruido-Grande.png",
             "column_size": "4",
-            "title": "Microfone extra e destacável;",
+            "title": "Cancelamento Ativo de Ruído",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -353,9 +393,9 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
             "column_size": "4",
-            "title": "Jogos com áudio imersivo",
+            "title": "Até 60 horas de autonomia",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -366,9 +406,9 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/11.Icone-controle-por-botao-ou-touch-Grande.png",
             "column_size": "4",
-            "title": "Botão de volume deslizante, silenciamento de microfone e botão multifuncional ;",
+            "title": "Controle touch",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -379,9 +419,9 @@
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/12.Icone-assistente-de-voz-Grande.png",
             "column_size": "4",
-            "title": "Compatível com diversos dispositivos",
+            "title": "Compatível com assistente de voz",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -423,9 +463,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "John S.",
+            "author": "Luccas K.",
             "title": "",
-            "content": "<p>Ótimo produto recomendo a todos interessados um som de altíssima qualidade<\/p>"
+            "content": "<p>Conforto, Tecnológico, Leve e Qualidade. Estou adorando meus novos fones, o cancelamento de ruído é muito bom. Agora é testar na academia!!!!<\/p>"
           }
         },
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
@@ -433,10 +473,10 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
+            "rating": 4,
+            "author": "Paulo d.",
             "title": "",
-            "content": "<p>Caixa de som de excelente qualidade! Super recomendo, um ótimo custo benefício, vale muito a pena! Amei! (;<\/p>"
+            "content": "<p>Faltou uma capinha na caixa pra guardar o fone. Senti a falta de uma capinha pro fone na caixa, mas de resto superou minhas expectativas, é um produto excelente.<\/p>"
           }
         },
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
@@ -444,10 +484,10 @@
           "settings": {
             "round_avatar": true,
             "show_rating": true,
-            "rating": 3,
-            "author": "Joshua A.",
+            "rating": 5,
+            "author": "Eduardo P.",
             "title": "",
-            "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
+            "content": "<p>Amei o fone é muito bom!<\/p>"
           }
         }
       },

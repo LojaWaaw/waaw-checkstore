@@ -50,7 +50,7 @@
             "icon_color": "",
             "title": "Atendimento ao Cliente",
             "content": "<p>Segunda a Sábado<\/p>",
-            "link": "shopify:\/\/pages\/contato",
+            "link": "https:\/\/api.whatsapp.com\/send?phone=554130127282&text=Ol%C3%A1",
             "link_text": "Chamar no Whats"
           }
         },

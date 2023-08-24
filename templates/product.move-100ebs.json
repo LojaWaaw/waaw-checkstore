@@ -13,14 +13,14 @@
           "type": "text",
           "settings": {
             "highlight": true,
-            "text": "<p>Fone de ouvido Gamer<\/p>"
+            "text": "<p>Fone de ouvido intra-auricular, resistente à água, até 14 horas de bateria.<\/p>"
           }
         },
         "8bbde357-2065-4d19-b265-1c2b7741a439": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p>Seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer, seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer. <\/p>"
+            "text": "<p>O fone de ouvido para esportes MOVE 100 é a escolha perfeita para quem procura conforto durante atividades físicas. Com material flexível e à prova de suor, você tem seu #momentoWAAW sem perder a performance durante exercícios!<\/p>"
           }
         },
         "separator": {
@@ -73,7 +73,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><\/ul>"
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>14 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li>Material <strong>flexível e emborrachado;<\/strong><\/li><li>Classificação<strong> IPX4 resistente a suor;<\/strong><\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável;<\/li><li>Som de<strong> alta qualidade;<\/strong><\/li><li>Conexão <strong>multipontos.<\/strong><\/li><\/ul>"
           }
         },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
@@ -137,52 +137,92 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0": {
           "type": "headings",
           "settings": {
-            "heading_1": "Potência",
-            "heading_2": "Reprodução",
-            "heading_3": "Bluetooth",
-            "heading_4": "Resistente a aguá",
-            "heading_5": "",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
+            "heading_1": "Modelo",
+            "heading_2": "Tipo de conexão do cabo de carregamento",
+            "heading_3": "Desligamento Automático",
+            "heading_4": "Cor",
+            "heading_5": "Grau de Proteção",
+            "heading_6": "Perfis bluetooth",
+            "heading_7": "Tamanho do driver (mm)",
+            "heading_8": "Versão do Bluetooth",
+            "heading_9": "Autonomia da bateria dos fones (h)",
+            "heading_10": "Bateria (mAh)",
+            "heading_11": "Potência de Saída (mW) (RMS)",
+            "heading_12": "Impedância do Speaker (ohms)",
+            "heading_13": "Acessórios",
+            "heading_14": "Resposta de Frequência (Hz)",
+            "heading_15": "Dimensões do produto C x L x A (cm)",
+            "heading_16": "Tempo de carregamento (h)",
+            "heading_17": "Autonomia após 15 min de carga",
+            "heading_18": "Certificado ANATEL",
+            "heading_19": "Tempo de reprodução de música (h)",
+            "heading_20": "Alcance máximo (m)",
+            "heading_21": "Sensibilidade do Driver a 1kHz1mW (dB)",
+            "heading_22": "Garantia",
+            "heading_23": "Peso líquido (g)",
+            "heading_24": "Estojo para transporte",
+            "heading_25": "Controle sensível ao toque",
+            "heading_26": "Microfone integrado",
+            "heading_27": "Compativel com assistente de voz",
+            "heading_28": "Cancelamento Ativo de Ruído",
+            "heading_29": "Controle com botões",
+            "heading_30": "Reprodução automática \/ pause",
+            "heading_31": "Conectividade APP",
+            "heading_32": "Peso Bruto da Embalagem (g)",
+            "heading_33": "Dimensões da Embalagem C x L x A (cm)",
+            "heading_34": "Cubagem da Embalagem (m³)",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>5W<\/p>",
-            "value_2": "<p>12 Horas<\/p>",
-            "value_3": "<p>Sim<\/p>",
-            "value_4": "<p>Sim<\/p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
+            "value_1": "<p>WAAW MOVE 100EBS<\/p>",
+            "value_2": "<p>USB-C<\/p>",
+            "value_3": "<p>Sim (em modo de conexão)<\/p>",
+            "value_4": "<p>Preto e Verde<\/p>",
+            "value_5": "<p>IPX4<\/p>",
+            "value_6": "<p>AVRCP \/ HSP \/ HFP<\/p>",
+            "value_7": "<p>10.7mm<\/p>",
+            "value_8": "<p>5.0<\/p>",
+            "value_9": "<p>Até 14h; Tempo de autonomia de reprodução depende do tipo de música e volume<\/p>",
+            "value_10": "<p>130 mAh<\/p>",
+            "value_11": "<p>2mW<\/p>",
+            "value_12": "<p>32 ohms<\/p>",
+            "value_13": "<p>3 Tamanhos de borrachinhas auriculares (P, M, G) + Cabo USB-C<\/p>",
+            "value_14": "<p>20Hz – 20kHz<\/p>",
+            "value_15": "<p>14 x 17,5 x 5 cm<\/p>",
+            "value_16": "<p>2h<\/p>",
+            "value_17": "<p>2h e 30min<\/p>",
+            "value_18": "<p>17072-21-10632<\/p>",
+            "value_19": "<p>14h Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "value_20": "<p>10m O alcance máximo do Bluetooth depende de um ambiente sem obstruções para funcionar dentro do raio indicado.<\/p>",
+            "value_21": "<p>108dB +\/- 3dB<\/p>",
+            "value_22": "<p>01 ANO (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante)<\/p>",
+            "value_23": "<p>23g<\/p>",
+            "value_24": "<p>Não<\/p>",
+            "value_25": "<p>Não<\/p>",
+            "value_26": "<p>Sim<\/p>",
+            "value_27": "<p>Sim<\/p>",
+            "value_28": "<p>Não<\/p>",
+            "value_29": "<p>Sim<\/p>",
+            "value_30": "<p>Não<\/p>",
+            "value_31": "<p>Não<\/p>",
+            "value_32": "<p>225g<\/p>",
+            "value_33": "<p>16,2 x 4 x 20 cm<\/p>",
+            "value_34": "<p>0,001296 m³<\/p>",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -195,14 +235,14 @@
       "settings": {
         "full_width": true,
         "subheading": "Descrição",
-        "title": "Experimente a imersão total nos seus jogos favoritos!",
-        "content": "<p>Ouça seus jogos nos mínimos detalhes com o fone de ouvido gamer <strong>ENERGY 10EWG<\/strong>. Compatível com diversas plataformas, possui microfone destacável e ganchos auriculares, ideal para oferecer uma experiência imersiva.<\/p><p>O fone de ouvido gamer <strong>WAAW ENERGY 10EWG<\/strong> é a escolha ideal para quem deseja levar a imersão dos jogos para qualquer lugar. Com case de transporte, você protege seu fone de possíveis arranhões, impactos e sujeiras.O botão de volume deslizante, silenciamento de microfone e botão multifuncional tornam qualquer comando bem mais simples, permitindo gerenciar chamadas e ouvir músicas. Também possui microfone extra e destacável , otimizado para partidas multijogador.<\/p><p>O fone intra-auricular acompanha 3 tamanhos de borrachinhas P, M e G, e ganchos auriculares que se adaptam ao formato do seu ouvido, proporcionando maior conforto durante o uso.Com cabo de 1,2 metros que não entrelaça e conector P3 em 90 graus é otimizado para jogos em dispositivos móveis, para ter mais liberdade de movimento sem a preocupação com dobras que podem danificar o cabo e podem prejudicar a sua jogabilidade.<\/p><p>Ouça seus amigos e oponentes como nunca. Com graves, médios e agudos claros do ENERGY 10EWG , você estará totalmente no controle de seus jogos favoritos.<\/p>",
+        "title": "O fone de ouvido esportivo MOVE 100 é ideal para quem tem um estilo de vida ativo.",
+        "content": "<p>O fone de ouvido esportivo <strong>MOVE 100EBS<\/strong> é a escolha perfeita para quem procura conforto para ouvir músicas enquanto pratica atividades físicas. Possui uma bateria de longa duração de até 14 horas, você pode se concentrar no que realmente importa. <\/p><p>Com sua proteção IPX4, o <strong>MOVE 100EBS<\/strong> é resistente à água e ao suor, permitindo que você se exercite ao ar livre ou em ambientes com condições adversas. Tenha liberdade para treinar em ambientes internos ou externos. <\/p><p>Seu acabamento emborrachado oferece maior aderência e conforto, e o material flexível se ajusta facilmente aos contornos de suas orelhas, proporcionando um encaixe seguro e confortável.  <\/p><p>Através da tecnologia Bluetooth 5.0, oferece uma conexão mais rápida e estável com seus dispositivos. Além disso, a conexão multipontos permite que você se conecte simultaneamente a dois aparelhos, para que possa ouvir músicas em seu notebook e ainda atender chamadas em seu smartphone sem interromper sua experiência sonora. <\/p><p>Com o recurso Hands Free, é possível atender chamadas com um simples toque no controle do fone de ouvido. Além disso, o <strong>MOVE 100EBS<\/strong> é um fone de ouvido compatível com assistentes de voz do seu dispositivo, permitindo realizar comandos com mais facilidade. <\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
         "view_product": "View",
         "viewing_product": "",
         "show_product_swatch": false,
@@ -243,8 +283,8 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=X6X61Xf4rkk&t=98s",
+        "poster": "shopify:\/\/shop_images\/MOVE-100EBS-7899831310111-02.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -256,7 +296,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_02.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -278,7 +318,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_75.png",
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_01.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -300,7 +340,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_06.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -340,9 +380,9 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
             "column_size": "4",
-            "title": "Microfone extra e destacável;",
+            "title": "Até 14 horas de autonomia",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -353,9 +393,9 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/15.Icone-material-flexivel-e-emborachado-ou-tamanho-do-cabo-Grande.png",
             "column_size": "4",
-            "title": "Jogos com áudio imersivo",
+            "title": "Material Flexível e Emborrachado",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -366,9 +406,9 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/06.Icone-protecao-grande.png",
             "column_size": "4",
-            "title": "Botão de volume deslizante, silenciamento de microfone e botão multifuncional ;",
+            "title": "Proteção IPX4",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -379,9 +419,9 @@
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/16.Icone-conexao-multipontos-Grande.png",
             "column_size": "4",
-            "title": "Compatível com diversos dispositivos",
+            "title": "Conexão Multipontos",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
