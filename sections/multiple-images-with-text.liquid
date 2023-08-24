@@ -47,6 +47,10 @@ CSS
       --multiple-images-with-text-column-gap: var(--spacing-28);
     }
   }
+
+  #shopify-section-{{ section.id }} video-media {
+    border-radius: var(--rounded-lg);
+  }
 </style>
 
 {%- comment -%}
@@ -68,7 +72,7 @@ LIQUID
       {%- endif -%}
 
       {%- for block in section_blocks -%}
-        {%- if block.settings.image != blank and block.settings.video == blank -%}
+        {%- if block.settings.image != blank and block.settings.video == blank and block.settings.external_video_url == blank -%}
           {%- if section.settings.images_layout == 'scattered' -%}
             {%- capture style -%}--image-rotation: {{ block.settings.image_rotation_degrees }}deg;{%- endcapture -%}
           {%- endif -%}
@@ -78,9 +82,20 @@ LIQUID
 
           {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: id: image_id, loading: 'lazy', style: style, sizes: 'min(100vw, 500px)', widths: '200,300,400,500,600,700,800,900,1000', class: image_class -}}
         {%- endif -%}
-        {%- if block.settings.video != blank and block.settings.image == blank -%}
+        {%- if block.settings.video != blank and block.settings.external_video_url == blank and block.settings.image == blank -%}
           <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
             {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
+          </video-media>
+        {%- endif -%}
+        {%- if block.settings.external_video_url != blank and block.settings.video == blank and block.settings.image == blank -%}
+          <video-media host="{{ block.settings.external_video_url.type }}" autoplay class="pointer-events-none">
+            <template>
+              {%- if block.settings.external_video_url.type == 'youtube' -%}
+                <iframe src="https://www.youtube.com/embed/{{ block.settings.external_video_url.id }}?playsinline=1&autoplay=1&controls=0&mute=1&loop=1&playlist={{ block.settings.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+              {%- elsif block.settings.external_video_url.type == 'vimeo' -%}
+                <iframe src="https://player.vimeo.com/video/{{ block.settings.external_video_url.id }}?autopause=1&background=1&autoplay=1&loop=1&muted=1&transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+              {%- endif -%}
+            </template>
           </video-media>
         {%- endif -%}
       {%- endfor -%}
@@ -247,6 +262,13 @@ LIQUID
           "id": "video",
           "label": "Video",
           "info": "Video are muted automatically and will autoplay."
+        },
+        {
+          "type": "video_url",
+          "id": "external_video_url",
+          "accept": ["vimeo", "youtube"],
+          "label": "Video URL",
+          "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
         },
         {
           "type": "text",
