@@ -6966,10 +6966,22 @@ split-lines {
   display: grid;
 }
 
+.shopify-section--multi-column .multi-column__item {
+  box-shadow: none;
+  box-shadow: inset 0 0 0 1px rgb(var(--border-color));
+  border-radius: var(--rounded);
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
 @media screen and (min-width: 700px) {
   .multi-column {
     --multi-column-list-column-max-gap: var(--grid-gutter);
     grid: auto / auto-flow 38vw;
+  }
+
+  .shopify-section--multi-column .multi-column__item {
+    box-shadow: none;
   }
 }
 
@@ -8749,10 +8761,6 @@ split-lines {
   height: 7px;
   border-radius: 14px;
   background-color: #E0E621;
-}
-
-.text-with-icons .page-dots {
-  display: none;
 }
 
 .timeline {
