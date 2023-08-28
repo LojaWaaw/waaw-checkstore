@@ -283,7 +283,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/g5RH-pfhK_M",
+        "external_video_url": "https:\/\/youtu.be\/hatNR87DHq8",
         "poster": "shopify:\/\/shop_images\/waaw-by-alok-sense-300HBNC-02.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -296,7 +296,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desc_fone-bluetooth-cancelamento-ruido-sense-300hbnc_15.png",
+            "image": "shopify:\/\/shop_images\/waaw-by-alok-sense-300HBNC-04.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -318,7 +318,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/waaw-by-alok-sense-300HBNC-06.png",
+            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-06.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -327,7 +327,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "#e0e621",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -340,7 +340,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-06.png",
+            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-02.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -349,7 +349,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 1,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -595,11 +595,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/g5RH-pfhK_M",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Explore uma dimensão sensorial inédita com o Fone de Ouvido WAAW SENSE 300. Sinta cada nota de forma única, mergulhando completamente na experiência sonora. Consulte o Manual de Instruções para explorar suas funcionalidades. Assista ao vídeo informativo e clique agora para vivenciar a verdadeira essência sonora!<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

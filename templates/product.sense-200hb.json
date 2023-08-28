@@ -544,22 +544,22 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Como conectar meu fone ao bluetooth do meu dispositivo?",
+            "content": "<p>Para conectar o bluetooth do fone com seu dispositivo, ao ligar o headphone o modo de pareamento já será acionado.<br\/>Selecione os fones no seu dispositivo e já estará conectado.<br\/>Todas as vezes que você ligar o fone, ele irá parear automaticamente com o último dispositivo conectado.<br\/>Para conectar a um novo dispositivo que ainda não foi pareado, basta desconectar o fone do aparelho anterior. Assim ele ficará em modo de pareamento novamente.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "Como conectar dois dispositivos simultâneos?",
+            "content": "<p>Para fazer a conexão em dois aparelhos ao mesmo tempo, você precisa fazer a conexão no primeiro dispositivo, e desativar o bluetooth desse aparelho.<br\/>Em seguida, você faz essa mesma conexão no segundo dispositivo que quer parear, e ativa o bluetooth de ambos os aparelhos.<br\/>Assim, é possível usar o fone nos dois dispositivos de maneira simultânea.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Qual a autonomia do fone?",
+            "content": "<p>Total de até 25h de reprodução de música.<\/p>"
           }
         }
       },
@@ -572,7 +572,7 @@
         "full_width": false,
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "content": "<p>Veja algumas das perguntas frequentes entre nossos usuários<\/p>",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",
@@ -596,11 +596,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/M1HTCjJR2uc",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Quer saber mais sobre como o headphone WAAW SENSE 200HB pode aprimorar sua experiência auditiva? Clique no botão abaixo para acessar o Manual de Instruções e confira um vídeo detalhado sobre o produto, explorando todas as suas funcionalidades extraordinárias.<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

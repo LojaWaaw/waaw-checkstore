@@ -721,6 +721,7 @@
         "template--15963751350447__6d15fe12-458d-4518-b504-d5f0e8c7b38f-item-2",
         "template--15963751350447__6d15fe12-458d-4518-b504-d5f0e8c7b38f-item-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",

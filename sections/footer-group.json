@@ -124,20 +124,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "menu-footer-bloco-pol-ticas",
-            "show_menu_title": true
-          }
-        },
-        "e7fc61d8-48e1-4ccf-9f87-c12df2ef4c66": {
-          "type": "links",
-          "settings": {
-            "menu": "menu-institucional",
-            "show_menu_title": true
-          }
-        },
         "350b39ad-5799-4f75-8d60-be85c87a47ba": {
           "type": "links",
           "settings": {
@@ -148,7 +134,21 @@
         "ad7e83db-ae94-4706-9763-0108270bb888": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "caixas-de-som",
+            "show_menu_title": true
+          }
+        },
+        "e7fc61d8-48e1-4ccf-9f87-c12df2ef4c66": {
+          "type": "links",
+          "settings": {
+            "menu": "menu-institucional",
+            "show_menu_title": true
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "menu-footer-bloco-pol-ticas",
             "show_menu_title": true
           }
         },
@@ -160,15 +160,15 @@
             "email": "ajuda@waaw.com.br",
             "service_time": "Segunda a Sábado (exceto feriados) 08:00 às 20:00",
             "show_social": true,
-            "social_title": "Follow us"
+            "social_title": "Conecte-se com a gente"
           }
         }
       },
       "block_order": [
-        "links",
-        "e7fc61d8-48e1-4ccf-9f87-c12df2ef4c66",
         "350b39ad-5799-4f75-8d60-be85c87a47ba",
         "ad7e83db-ae94-4706-9763-0108270bb888",
+        "e7fc61d8-48e1-4ccf-9f87-c12df2ef4c66",
+        "links",
         "b3f52a3f-86dc-4834-9981-edb33d4d7a83"
       ],
       "settings": {

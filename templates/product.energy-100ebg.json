@@ -121,6 +121,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -283,7 +284,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/Vd1D8ia7QuI",
+        "external_video_url": "https:\/\/youtu.be\/OysW0Al-U-w",
         "poster": "shopify:\/\/shop_images\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws_6.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -592,6 +593,7 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",
@@ -620,11 +622,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/Vd1D8ia7QuI",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Eleve sua jornada nos games com o Fone de Ouvido Gamer Energy 100 WAAW. Descubra cada detalhe sonoro em uma imersão única. Detalhes no Manual e vídeo explicativo. Clique já e mergulhe na experiência auditiva definitiva!<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

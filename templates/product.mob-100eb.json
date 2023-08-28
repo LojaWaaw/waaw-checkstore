@@ -595,11 +595,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/lIkArW_MJYU",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Experimente a revolução da mobilidade sonora com o WAAW MOB 100EB! Liberte-se das limitações e mergulhe em novas possibilidades sonoras. Quer obter o máximo desempenho? Não perca tempo! Consulte o nosso Manual e além disso, assista ao Vídeo Guia e desbloqueie dicas de especialistas, o fone de ouvido que redefine sua experiência auditiva. Transforme cada melodia em uma aventura emocionante. Acesse agora e amplie seus sentidos!<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

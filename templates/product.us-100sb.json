@@ -283,7 +283,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/wO6nKED0KSE",
+        "external_video_url": "https:\/\/youtu.be\/dkApSJeiDy4",
         "poster": "shopify:\/\/shop_images\/US-100SB-05.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -595,11 +595,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/wO6nKED0KSE",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Desperte os seus sentidos e experimente a revolução sonora com a Caixa de Som US 100SB By Alok. Quer explorar ainda mais sobre a caixa de som? Acesse o Manual de Instruções e desfrute de um vídeo informativo e detalhado sobre o produto. Eleve sua música, eleve sua vida. Clique para descobrir a diferença!<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

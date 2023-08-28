@@ -595,11 +595,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/NMM0hyUAeWs",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Mergulhe em um universo sonoro requintado com o fone de ouvido Sense 100HW da WAAW! Dê adeus às distrações e envolva-se completamente na pureza do áudio. Está pronto para elevar sua experiência auditiva a outro nível? Não espere mais! Acesse nosso Manual e explore também nosso Vídeo Guia e domine o Sense 100HW, o fone que transforma cada melodia em uma obra-prima sonora. Deixe cada nota tocar sua alma. Clique agora e sinta a verdadeira essência do som!<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

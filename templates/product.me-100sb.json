@@ -599,11 +599,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/yTtnT300mAo",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Descubra a melhor experiência sonora com a Caixa de Som ME 100SB! Quer aproveitar ao máximo todas as funcionalidades? Não perca tempo! Veja nosso Manual de Instruções e além disso, assista ao Vídeo Informativo para dicas pro e mergulhe na qualidade do som ME 100SB. Sinta cada batida, faça cada nota valer a pena. Acesse agora!<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

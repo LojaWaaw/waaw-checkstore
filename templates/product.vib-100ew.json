@@ -598,11 +598,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/AJJmpSwOqx0",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Quer descobrir como o Fone de Ouvido WAAW VIB 100EW pode transformar sua percepção sonora? Clique no botão abaixo para acessar o Manual de Instruções e veja um vídeo explicativo sobre o produto, mostrando todas as suas características inovadoras.<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/VIB-100EW\/VIB-100EW-Manual.pdf",
             "button_text": "Baixe o manual de instruções"
           }

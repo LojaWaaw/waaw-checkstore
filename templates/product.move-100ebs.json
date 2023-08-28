@@ -595,11 +595,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/X6X61Xf4rkk",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Abra uma nova dimensão de som enquanto se movimenta com o fone de ouvido esportivo Move 100ESB da WAAW! Liberte-se dos fios e mergulhe em sua trilha sonora, onde quer que você vá. Pronto para aprimorar sua experiência auditiva? Não perca tempo! Consulte nosso Manual de Instruções e assista também ao Vídeo Guia: adquira dicas exclusivas de especialistas e domine o Move 100ESB, o fone que reescreve suas sessões de treino. Faça cada batida impulsionar sua energia. Conecte-se agora e mergulhe no som em movimento!<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

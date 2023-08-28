@@ -283,7 +283,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/5AiQLefwCGA",
+        "external_video_url": "https:\/\/youtu.be\/AdS5tKO_8vA",
         "poster": "shopify:\/\/shop_images\/desc_caixa-de-som-bluetooth-us-200sb-duo_3.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -595,11 +595,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/5AiQLefwCGA",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Quer explorar mais sobre como a Caixa de Som US 200SB Duo pode redefinir o que é possível em termos de reprodução sonora? Clique no botão disponibilizado abaixo para acessar o Manual de Instruções completo e assista a um vídeo informativo detalhado sobre o produto que destacam todas as suas características únicas.<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

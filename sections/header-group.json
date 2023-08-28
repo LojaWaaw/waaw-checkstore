@@ -101,32 +101,33 @@
         "message": {
           "type": "message",
           "settings": {
-            "title": "Announcement",
-            "text": "Announce something here",
-            "cta": "Shop now",
-            "url": "#"
+            "title": "Frete Grátis",
+            "text": "Para compras acima de R$199,99",
+            "cta": "Consulte Regiões",
+            "url": "https:\/\/waaw.com.br\/pages\/cupons-e-descontos"
           }
         },
         "6fe1c68e-21af-42e3-8a36-ea44512e7e6b": {
           "type": "message",
           "settings": {
-            "title": "Announcement",
-            "text": "5% de desconto no PIX",
-            "cta": "Shop now",
+            "title": "Pix",
+            "text": "com 5% de desconto",
+            "cta": "",
             "url": "#"
           }
         },
         "89491dac-e7d8-45c3-a28a-802bcb221fec": {
           "type": "message",
           "settings": {
-            "title": "Announcement",
-            "text": "7% de desconto no Boleto",
-            "cta": "Shop now",
+            "title": "Boleto",
+            "text": "com 7% de desconto",
+            "cta": "",
             "url": "#"
           }
         },
         "ec68faa7-d375-4623-8fcb-b925fcaf7a27": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "title": "Announcement",
             "text": "Frete Grátis a acima de R$199,99",
