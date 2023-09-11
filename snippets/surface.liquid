@@ -32,6 +32,11 @@ Supported variables
   {%- capture style -%}{{ style }} --backdrop-blur: {{ background_blur_radius }}px;{%- endcapture -%}
 {%- endif -%}
 
+{% if hover_text_color != blank %}
+  {%- capture style -%}{{ style }} --hover-text-color: {{ hover_text_color.rgb }};{%- endcapture -%}
+{%endif%}
+
+
 {%- unless text_color == 'rgba(0,0,0,0)' or text_color == blank -%}
   {%- capture class -%}{{ class }} text-custom {%- endcapture -%}
   {%- capture style -%}{{ style }} --text-color: {{ text_color.rgb }};{%- endcapture -%}

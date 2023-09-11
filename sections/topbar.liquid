@@ -1,5 +1,5 @@
 <height-observer variable="topbar">
-  <div {% render 'surface', class: 'topbar', background_gradient: section.settings.background_gradient, background: section.settings.background, text_color: section.settings.text_color %}>
+  <div {% render 'surface', class: 'topbar', background_gradient: section.settings.background_gradient, background: section.settings.background, text_color: section.settings.text_color, hover_text_color: section.settings.hover_text_color %}>
     <div class="container {{ section.settings.text_size }}">
       <div class="topbar__wrapper">
         <div class="topbar__text hidden md:block">
@@ -71,6 +71,11 @@
         "type": "color",
         "id": "text_color",
         "label": "Text Color"
+      },
+      {
+        "type": "color",
+        "id": "hover_text_color",
+        "label": "Hover Text Color"
       },
       {
         "type": "color_background",

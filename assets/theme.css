@@ -16,6 +16,7 @@ html {
 body {
   --background: var(--background-primary);
   --text-color: var(--text-primary);
+  --hover-text-color: var(--text-color);
   background: rgb(var(--background));
   color: rgb(var(--text-color));
   font: var(--text-font-style) var(--text-font-weight) var(--text-base) / 1.6 var(--text-font-family);
@@ -1482,8 +1483,8 @@ scroll-carousel {
   height: var(--size);
   min-width: min-content;
   border-radius: var(--rounded-full);
-  background: rgb(var(--button-background-primary));
-  color: rgb(var(--button-text-primary));
+  background: rgb(var(--highlight_color));  
+  color: rgb(var(--text-color));
   place-items: center;
   padding-inline-start: var(--spacing-1);
   padding-inline-end: var(--spacing-1);
@@ -2742,6 +2743,21 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   display: block;
   position: relative;
 }
+
+.product-card__figure .link-product-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.product-card__figure .link-product-card .product-card__image{
+  max-width: 230px;
+  max-height: 230px;
+  left: auto;
+  top: auto;
+}
+
 
 .product-card__badge-list {
   gap: var(--spacing-2);
@@ -5905,6 +5921,7 @@ split-lines {
 .header__link-list .icon-chevron-bottom {
   position: relative;
   top: 1px;
+  color: rgb(var(--highlight_color));
 }
 
 .header__icon-list {
@@ -8472,8 +8489,8 @@ split-lines {
 .slideshow--boxed {
   --content-over-media-gap: var(--section-inner-spacing-inline);
   background: var(--slideshow-background);
-  padding-block-start: var(--section-inner-max-spacing-block);
-  padding-block-end: var(--section-inner-max-spacing-block);
+  padding-block-start: var(--slideshow_margin_top);
+  padding-block-end: var(--slideshow_margin_bottom);
   padding-inline-start: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
   padding-inline-end: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
 }
@@ -10072,18 +10089,18 @@ split-lines {
   color: rgb(var(--text-color));
   display: flex;
   align-items: center;
-  gap: var(--spacing-3);
+  gap: var(--spacing-6);
 }
 
 .topbar__menu-link:hover {
-  text-decoration: underline;
+  color: rgb(var(--hover-text-color));
 }
 
 .topbar__menu-separator {
   width: 1px;
   height: 16px;
   background-color: rgb(var(--text-color));
-  opacity: .3;
+  opacity: .5;
 }
 
 .multi-column__newsletter {

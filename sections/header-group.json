@@ -10,6 +10,7 @@
         "text_size": "text-xs",
         "background": "#f3f3f3",
         "text_color": "#3d3935",
+        "hover_text_color": "#000000",
         "background_gradient": ""
       }
     },
@@ -92,7 +93,8 @@
         "transparent_header_text_color": "#000000",
         "reduce_padding": true,
         "background_opacity": 100,
-        "background_blur_radius": 0
+        "background_blur_radius": 0,
+        "highlight_color": "#e0e621"
       }
     },
     "announcement-bar": {
@@ -151,23 +153,11 @@
         "background_gradient": "",
         "text_color": "#000000"
       }
-    },
-    "c9a4616d-48a5-4e88-a93f-1a9f86dfef71": {
-      "type": "breadcrumbs",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "background": "#f5f5f5",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "topbar",
     "header",
-    "announcement-bar",
-    "c9a4616d-48a5-4e88-a93f-1a9f86dfef71"
+    "announcement-bar"
   ]
 }
