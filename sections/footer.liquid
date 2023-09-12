@@ -57,19 +57,19 @@
   
                       <div class="h-stack wrap gap-2">
                         {%- if block.settings.phone != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2">
+                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
                             {% render 'icon' with 'picto-phone', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.phone }}
                           </div>
                         {%- endif -%}
 
                         {%- if block.settings.email != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2">
+                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
                             {% render 'icon' with 'picto-envelope', width: block.settings.icon_width, height: block.settings.icon_width %}{{ block.settings.email }}
                           </div>
                         {%- endif -%}
 
                         {%- if block.settings.service_time != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2">
+                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
                             {% render 'icon' with 'picto-customer-support', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.service_time }}
                           </div>
                         {%- endif -%}

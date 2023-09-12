@@ -208,7 +208,7 @@
         "stack_on_mobile": false,
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#3d3935",
         "border_color": "#e2e2e2"
       }
     }

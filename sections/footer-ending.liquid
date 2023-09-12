@@ -3,6 +3,7 @@
     <div class="multi-column__item footer-ending__item h-stack justify-items-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: 3 | round }}">
       <div class="footer-block">
         <div class="footer__badges h-stack wrap gap-2">
+          <span class="footer__badges__text">Selos</span>
           <a target="_blank" href="https://checkstore.com.br/empresa-verificada/?utm_campaign=seal">
             <img class="item checkstore-badge" loading="lazy" src="{{ 'checkstore-warranty-badge.svg' | asset_url }}" width="" height="" alt="Desenvolvido por Checkstore">
           </a>
@@ -15,6 +16,7 @@
     <div class="multi-column__item footer-ending__item h-stack justify-items-center" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: 3 | round }}">
       <div class="footer-block">
         <div class="footer__partner-icons h-stack wrap justify-center gap-2">
+          <span class="footer__badges__text">Parceiros</span>
           {%- for block in section.blocks -%}
             {{ block.settings.image | image_url: height: 30 | image_tag: class: 'footer__partner-icon', alt: block.settings.title }}
           {%- endfor -%}
@@ -24,6 +26,7 @@
     <div class="multi-column__item footer-ending__item h-stack justify-items-end" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: 3 | round }}">
       <div class="footer-block">
         <div class="footer__payment-icons h-stack wrap gap-2">
+          <span class="footer__badges__text">Métodos de pagamento</span>
           {%- for type in shop.enabled_payment_types -%}
             {{- type | payment_type_svg_tag -}}
           {%- endfor -%}
