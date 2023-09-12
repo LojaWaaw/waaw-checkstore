@@ -438,6 +438,10 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
   overflow: hidden;
 }
 
+.h3.blog-post-card__title {
+  font-size: var(--text-h4);
+}
+
 .blog-post-card__figure {
   display: block;
   position: relative;
@@ -2028,7 +2032,6 @@ scroll-carousel {
     --container-inner-width: calc(var(--container-max-width)  - var(--container-outer-width) * 2);
     --container-outer-width: var(--calculated-section-spacing-inline);
     border-radius: var(--rounded-lg);
-    box-shadow: var(--shadow-block);
     margin-block-start: calc(var(--background-differs-from-previous) * var(--section-outer-spacing-block-start, var(--section-outer-spacing-block)));
     margin-block-end: var(--section-outer-spacin-block-end, var(--section-outer-spacing-block));
     margin-inline-start: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
@@ -2040,13 +2043,6 @@ scroll-carousel {
 
   .shopify-section:first-child {
     --section-outer-spacing-block-start: 24px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .section--tight {
-    --calculated-section-spacing-block-start: min(64px, var(--section-spacing-block-start, var(--section-spacing-block, var(--context-section-spacing-block-start, 0px))));
-    --calculated-section-spacing-block-end: min(64px, var(--section-spacing-block-end, var(--section-spacing-block, var(--context-section-spacing-block-end, 0px))));
   }
 }
 
@@ -2732,9 +2728,8 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   --product-card-badge-spacing: var(--spacing-2);
   --product-card-info-padding: var(--spacing-4);
   --product-card-quick-buy-inset: var(--spacing-2);
-  border-radius: var(--rounded-sm);
+  border-radius: var(--rounded);
   grid-template-columns: minmax(0, 1fr);
-  align-content: start;
   display: grid;
   position: relative;
 }
@@ -2798,6 +2793,11 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .product-card__title {
   line-height: 1.5;
+}
+
+.product-card__subtitle{
+  font-size: var(--text-sm);
+  color: #818181;
 }
 
 .product-card__quick-buy {
@@ -2872,7 +2872,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 @media screen and (min-width: 1400px) {
   .product-card__info {
-    --product-card-info-padding: var(--spacing-6) var(--spacing-8) var(--spacing-8) var(--spacing-8);
+    --product-card-info-padding: var(--spacing-5) var(--spacing-8);
   }
 }
 
@@ -2955,6 +2955,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   gap: var(--spacing-0-5) var(--spacing-2);
   flex-wrap: wrap;
   display: flex;
+  line-height: 1.2;
 }
 
 .price-list--lg {
@@ -6987,8 +6988,6 @@ split-lines {
   box-shadow: none;
   box-shadow: inset 0 0 0 1px rgb(var(--border-color));
   border-radius: var(--rounded);
-  padding: 10px;
-  padding-bottom: 20px;
 }
 
 @media screen and (min-width: 700px) {
@@ -7496,6 +7495,15 @@ split-lines {
   margin-top: -20px;
 }
 
+.product-info__see-more{
+  text-decoration: underline;
+  font-size: var(--text-sm);
+}
+
+.product-info__see-more:hover{
+  color: #000;
+}
+
 .product-info__text--highlight {
   opacity: .6;
   font-size: 18px;
@@ -7604,6 +7612,7 @@ split-lines {
   gap: var(--spacing-5);
   grid-auto-columns: minmax(0, 1fr);
   display: grid;
+  height: 100%;
 }
 
 .product-gallery__ar-wrapper {
@@ -7631,6 +7640,8 @@ split-lines {
 .product-gallery__media img {
   margin-inline-start: auto;
   margin-inline-end: auto;
+  max-height: 600px;
+  width: auto;
 }
 
 .product-gallery .page-dots--blurred {
@@ -7749,7 +7760,6 @@ split-lines {
   }
 
   .product-gallery__thumbnail-list-wrapper {
-    align-items: center;
     gap: var(--spacing-4);
     grid-auto-flow: column;
     display: grid;
@@ -7855,7 +7865,7 @@ split-lines {
 @media screen and (min-width: 1150px) {
   .product-gallery--desktop-thumbnails-left {
     grid: auto / auto-flow auto minmax(0, 1fr);
-    align-items: start;
+    align-items: center;
   }
 
   .product-gallery--desktop-thumbnails-left .product-gallery__thumbnail-list-wrapper {
@@ -8737,7 +8747,7 @@ split-lines {
   }
 
   :not(.is-scrollable) .text-with-icons__item.text-with-icons__item--boxed {
-    padding: var(--spacing-6);
+    padding: var(--spacing-14) var(--spacing-8) var(--spacing-6) var(--spacing-8); 
   }
 }
 
@@ -9180,6 +9190,7 @@ split-lines {
 .text-gradient {
   background-image: var(--gradient);
   color: #0000;
+  font-weight: 900;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   -webkit-background-clip: text;

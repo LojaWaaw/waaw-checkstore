@@ -62,7 +62,9 @@
         "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": ""
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
       }
     },
     "a17ec046-c828-412b-92fa-e109251e7f77": {
@@ -71,9 +73,7 @@
         "banner": "shopify:\/\/shop_images\/Captura_de_Tela_2023-08-07_as_16.12.04.png",
         "banner_link": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
         "collection": "vitrine-home-2",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": false,
         "stack_products": false,
         "show_progress_bar": false,
@@ -91,7 +91,8 @@
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "#ffffff",
-        "product_card_text_color": ""
+        "product_card_text_color": "",
+        "product_show_description": true
       }
     },
     "563409fc-7ba0-4299-b2d2-61b1fe553205": {
@@ -217,7 +218,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
-        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 0.7), rgba(203, 203, 203, 0) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -228,9 +229,7 @@
       "settings": {
         "banner_link": "",
         "collection": "dia-dos-pais",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -248,7 +247,8 @@
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "#ffffff",
-        "product_card_text_color": ""
+        "product_card_text_color": "",
+        "product_show_description": true
       }
     },
     "88abb4a5-7746-4b34-b167-389da820abb6": {
@@ -323,8 +323,7 @@
       "blocks": {
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "d58b202e-f3f9-4e38-9f78-ba819504c6ab": {
           "type": "text",
@@ -352,8 +351,7 @@
         },
         "c3bb387c-183b-4b7d-b32e-5b922a6367f0": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9": {
           "type": "buy_buttons",
@@ -368,7 +366,12 @@
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10": {
           "type": "pickup_availability",
+          "settings": {}
+        },
+        "46518564-b311-4d94-b8f3-77e8e225cf1e": {
+          "type": "see_more_infos",
           "settings": {
+            "text_link_see_more": "Ver mais detalhes"
           }
         }
       },
@@ -380,7 +383,8 @@
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-3",
         "c3bb387c-183b-4b7d-b32e-5b922a6367f0",
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10"
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10",
+        "46518564-b311-4d94-b8f3-77e8e225cf1e"
       ],
       "settings": {
         "full_width": false,
@@ -452,7 +456,9 @@
         "autoplay": false,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": ""
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
       }
     },
     "fe17a1e4-42dc-485f-a993-97816c3ac84b": {
@@ -490,7 +496,7 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 0.9,
-        "background": "rgba(0,0,0,0)",
+        "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
         "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
@@ -743,6 +749,38 @@
         "accordion_background": "rgba(0,0,0,0)",
         "accordion_text_color": ""
       }
+    },
+    "59298897-710d-4e7a-8287-4d650730155a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Todos os produtos foram desenvolvidos com muito cuidado e carinho pelo Alok para você curtir uma fantástica #experiênciawaaw",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do abrir ao fechar dos olhos, a WAAW acompanha o ritmo da sua vida.<br\/>Transformamos o som em movimento e atitude.<br\/>Ouça do seu jeito: em casa, na academia, no ônibus, sozinho, com os amigos, no trabalho, em momentos de lazer.<br\/>Na hora e onde você quiser! A WAAW by Alok traz todas as sensações para você curtir do seu jeito.<br\/>Oferecemos uma linha completa com diferentes modelos de fone de ouvido, headphones e caixas de som com estilo e design moderno.<br\/>Seja para ouvir músicas no intervalo do almoço, disputar horas de jogos online, fazer aquela festa ou simplesmente escutar seu podcast preferido.<br\/>A WAAW by Alok te deixa conectado ao que realmente importa para você.<br\/>Conheça uma experiência singular na forma de ouvir e ser ouvido.<br\/><strong>Faça parte do mundo WAAW by Alok!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1",
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -760,6 +798,7 @@
     "8417acb4-b17b-4688-bb0a-243e90e46732",
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
     "5707dfc9-797a-4b73-b0c7-a8da84710061",
-    "6d15fe12-458d-4518-b504-d5f0e8c7b38f"
+    "6d15fe12-458d-4518-b504-d5f0e8c7b38f",
+    "59298897-710d-4e7a-8287-4d650730155a"
   ]
 }

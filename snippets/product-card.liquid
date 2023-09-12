@@ -157,6 +157,10 @@ Supported variables
         <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
       {%- endif -%}
 
+      {% if show_description  %}
+        <span class="product-card__subtitle">{{ product.metafields.my_fields.psubtitle.value }}</span>
+      {% endif %}
+
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}
     </div>
 
