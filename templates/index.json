@@ -304,6 +304,7 @@
       ],
       "settings": {
         "full_width": false,
+        "show_progress_bar": true,
         "block_size": "large",
         "vertical_alignment": "center",
         "subheading": "",

@@ -66,6 +66,7 @@
                       {%- if onlyModels -%}
                         {%- for model in onlyModels -%}
                           <model-media class="product__image" {% if group != blank %}group="{{ group | escape }}"{% endif %} handle="{{ product.handle }}" style="aspect-ratio: {{ media.preview_image.aspect_ratio }}">
+                            <button class="product__image-button-play">Play</button>
                             {{- model | model_viewer_tag: image_size: '2048x', reveal: 'interaction', toggleable: true -}}
                           </model-media>
                         {%- endfor -%}
