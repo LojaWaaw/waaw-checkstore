@@ -176,7 +176,7 @@
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 250,
-        "mobile_row_height": 150,
+        "mobile_row_height": 180,
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
@@ -305,7 +305,7 @@
       ],
       "settings": {
         "full_width": false,
-        "position_images": "carousel_aligned_height",
+        "position_images": "grid",
         "block_size": "large",
         "vertical_alignment": "center",
         "subheading": "",

@@ -814,6 +814,13 @@ scroll-carousel {
   transform: translateZ(0);
 }
 
+@media screen and (max-width: 700px) {
+  .content-over-media .object-fill {
+    object-fit: contain;
+    background: #000;
+  }
+}
+
 .content-over-media:before {
   content: "";
   background: var(--content-over-media-overlay);
@@ -3892,10 +3899,15 @@ tfoot td {
   overflow: hidden;
 }
 
-.header__link-list .text-with-icon {
+.text-with-icon {
   gap: var(--spacing-3);
   align-items: center;
   display: flex;
+}
+
+.header__link-list .text-with-icon {
+  text-transform: uppercase;
+  font-weight: 900;
   font-size: var(--text-sm);
   text-transform: uppercase;
   font-weight: 900;
