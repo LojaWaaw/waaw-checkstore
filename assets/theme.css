@@ -1855,24 +1855,38 @@ scroll-carousel {
   display: grid;
 }
 
-.product__image {
-  position: relative;
+.product__image .shopify-model-viewer-ui__disabled {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.product__image-button-play{
+.product__image .shopify-model-viewer-ui__disabled::after {
+  content: '';
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1.8em" fill="%233D3935" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>') no-repeat center rgba(255, 255, 255, .5);
+  width: 3.5em;
+  height: 3.5em;
+  border: 1px solid #3D3935;
+  border-radius: 100%;
   position: absolute;
-  font-size: var(--text-xs);
-  color: #000;
-  text-transform: uppercase;
-  font-weight: 700;
-  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s ease-in-out;
 }
 
-.product__image-button-play:hover{
-  text-decoration: underline;
+.product__image .shopify-model-viewer-ui__disabled::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.product__image:hover .shopify-model-viewer-ui__disabled::after {
+  opacity: .5;
 }
 
 @media screen and (min-width: 700px) {
@@ -2083,6 +2097,11 @@ scroll-carousel {
   gap: var(--spacing-4);
   justify-items: start;
   display: grid;
+}
+
+.section-header > .text-with-icon {
+  display: flex;
+  gap: 10px;
 }
 
 @media screen and (min-width: 1150px) {
@@ -5927,6 +5946,7 @@ split-lines {
   border-radius: inherit;
   transition: inherit;
   display: grid;
+  opacity: .9;
 }
 
 .header__logo {
@@ -6593,6 +6613,17 @@ split-lines {
   gap: var(--spacing-2);
   align-items: start;
   display: grid;
+}
+
+@media screen and (max-width: 699px) {
+  .image-link-blocks.style-grid {
+    grid-template-columns: 1fr;
+    grid: none;
+  }
+
+  .image-link-blocks.style-aligned-height img{
+    height: 70vw;
+  }
 }
 
 .image-link-blocks--top {
