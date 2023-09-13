@@ -1863,9 +1863,9 @@ scroll-carousel {
 
 .product__image .shopify-model-viewer-ui__disabled::after {
   content: '';
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1.8em" fill="%233D3935" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>') no-repeat center rgba(255, 255, 255, .5);
-  width: 3.5em;
-  height: 3.5em;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="1.5em" fill="%233D3935" viewBox="0 0 384 512"><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg>') no-repeat center rgba(255, 255, 255, .5);
+  width: 3.6em;
+  height: 3.6em;
   border: 1px solid #3D3935;
   border-radius: 100%;
   position: absolute;
@@ -2054,6 +2054,10 @@ scroll-carousel {
 
 .section--narrow {
   --container-max-width: var(--container-narrow-max-width);
+}
+
+.shopify-section--media-with-text .section {
+  padding-top: 30px;
 }
 
 .section {
@@ -5607,16 +5611,107 @@ split-lines {
 }
 
 .footer__block-list {
-  gap: 15px;
+  gap: 30px;
   align-items: start;
   justify-content: var(--footer-block-list-justify-content, start);
   grid: auto-flow dense / repeat(2, minmax(0, 1fr));
   display: grid;
 }
 
+@media screen and (max-width: 700px) {
+  .footer__block-list {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .footer__block {
   gap: var(--footer-block-gap);
   display: grid;
+}
+
+.footer__block--content-menu {
+  display: block;
+}
+
+.footer__block--title-menu .icon-minus {
+  display: none;
+}
+
+.footer__block--title-menu .icon-plus {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__block--title-menu{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer__block--title-menu svg {
+    background: #E0E621;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    padding: 4px;
+  }
+
+  .footer__block--title-menu .icon-minus {
+    display: none;
+    animation-duration: .5s;
+    animation-name: rotateIcon;
+  }
+
+  .footer__block--title-menu.open .icon-minus {
+    display: block;
+  }
+
+  .footer__block--title-menu.open .icon-plus {
+    display: none;
+  }
+
+  .footer__block--title-menu .icon-plus {
+    display: block;
+    animation-duration: .5s;
+    animation-name: rotateIcon;
+  }
+
+  .footer__block--content-menu {
+    display: none;
+  }
+
+  .footer__block--content-menu.ativo {
+    display: block;
+    animation-duration: .3s;
+    animation-name: toDown;
+  }
+
+  @keyframes toDown {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes rotateIcon {
+    from {
+      transform: rotate(0);
+    }
+  
+    to {
+      transform: rotate(180deg);
+    }
+  }
 }
 
 .footer__block--text, .footer__block--newsletter {
@@ -5626,10 +5721,6 @@ split-lines {
 .footer__block--newsletter {
   gap: var(--spacing-8);
   display: grid;
-}
-
-.footer__block--menu {
-  max-width: 250px;
 }
 
 .footer__block--menu li a,
@@ -5661,6 +5752,10 @@ split-lines {
   font-size: var(--text-sm);
 }
 
+.footer__block--menu {
+  width: 100%;
+}
+
 @media screen and (min-width: 700px) {
   .footer {
     --footer-padding-block: var(--spacing-16);
@@ -5685,6 +5780,7 @@ split-lines {
 
   .footer__block--menu {
     flex-shrink: 0;
+    width: auto;
   }
 
   .footer__aside-top, .footer__aside-bottom {
@@ -10296,6 +10392,19 @@ split-lines {
 
 .shopify-section--footer-ending {
   margin-top: 1px;
+}
+
+.shopify-section--footer-ending .multi-column.bleed {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 40px;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .shopify-section--footer-ending .multi-column.bleed {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 700px) { 

@@ -14,6 +14,28 @@
 </style>
 {%- endif -%}
 
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------
+JAVASCRIPT
+------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+{% javascript %}
+  const createdMobileMenu = () => {
+    let titleMenu = document.querySelectorAll('.footer__block--menu .footer__block--title-menu');
+
+    function handleClick ()  {
+      this.nextElementSibling.classList.toggle('ativo');
+      this.classList.toggle('open')
+    };
+
+    titleMenu.forEach(item => item.addEventListener('click', handleClick));
+  };
+
+  createdMobileMenu();
+{% endjavascript %}
+
+
 <div class="footer">
   <div class="container">
     <div class="footer__wrapper">
@@ -90,10 +112,10 @@
                 {%- if block.settings.menu != blank -%}
                   <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
                     {%- if block.settings.show_menu_title -%}
-                      <p class="bold">{{ block.settings.menu.title }}</p>
+                      <p class="bold footer__block--title-menu">{{ block.settings.menu.title }} <span class="icon-plus">{% render 'icon' with 'plus' %}</span><span class="icon-minus">{% render 'icon' with 'minus' %}</span></p>
                     {%- endif -%}
 
-                    <ul class="v-stack gap-3" role="list">
+                    <ul class="v-stack gap-3 footer__block--content-menu" role="list">
                       {%- for link in block.settings.menu.links -%}
                         <li>
                           <a href="{{ link.url }}" class="inline-block link-faded break-all">{{ link.title }}</a>

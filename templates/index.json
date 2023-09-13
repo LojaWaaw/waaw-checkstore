@@ -305,6 +305,7 @@
       ],
       "settings": {
         "full_width": false,
+        "position_images": "carousel_aligned_height",
         "block_size": "large",
         "vertical_alignment": "center",
         "subheading": "",
