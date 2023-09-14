@@ -6117,10 +6117,14 @@ split-lines {
   color: rgb(var(--highlight_color));
 }
 
-.header__link-list li:not(:first-child, :nth-child(2)) * {
+.header__link-list li a {
   font-weight: 400;
   font-size: var(--text-sm);
   text-transform: uppercase;
+}
+
+.header__link-list li summary {
+  font-weight: 900;
 }
 
 .header__icon-list {
@@ -6320,6 +6324,35 @@ split-lines {
   box-shadow: 0 9999px 0 9999px #0006;
 }
 
+.mega-menu__content-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.mega-menu__title-links {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.header__link-list .mega-menu__nav li span {
+  font-size: var(--text-base);
+  line-height: 2.3;
+  font-weight: 800;
+  text-transform: none;
+}
+
+.mega-menu__nav a span:hover {
+  color: #E0E621;
+  cursor: pointer;
+}
+
+.mega-menu__nav a span.link-faded:hover {
+  color: inherit;
+  opacity: .7;
+  cursor: initial;
+}
+
 .mega-menu:not(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
   left: 0;
 }
@@ -6333,12 +6366,30 @@ split-lines {
 }
 
 .mega-menu__nav {
-  max-width: var(--column-list-max-width, max-content);
-  gap: var(--mega-menu-nav-gap);
   flex-wrap: wrap;
-  flex: auto;
   align-items: start;
   display: flex;
+  flex-direction: column;
+  overflow: auto;
+  max-height: 420px;
+  max-width: 420px;
+  gap: 0 10px;
+  padding-bottom: 7px;
+}
+
+.mega-menu__nav::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.mega-menu__nav::-webkit-scrollbar-thumb {
+  background-color: rgba(148, 146, 144, .9);
+  border-radius: 4px;
+}
+
+.mega-menu__nav::-webkit-scrollbar-track {
+  background-color: rgba(148, 146, 144, .3);
+  border-radius: 4px;
 }
 
 .mega-menu__nav > li {
@@ -6419,6 +6470,10 @@ split-lines {
   border-width: 1px;
   place-items: center;
   position: static;
+}
+
+.navigation-drawer .panel-list__wrapper .navigation-promo__wrapper{
+  display: none;
 }
 
 .panel-list__wrapper {
