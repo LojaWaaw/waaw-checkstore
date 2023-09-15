@@ -24,6 +24,7 @@ the underlying logic of the menu.
     --header-background-opacity: {{ section.settings.background_opacity | divided_by: 100.0 }};
     --header-background-blur-radius: {{ section.settings.background_blur_radius }}px;
     --header-transparent-text-color: {{ section.settings.transparent_header_text_color.rgb }};
+    --highlight_color: {{ section.settings.highlight_color.rgb }};
 
     {%- if section.settings.logo != blank -%}
       --header-logo-width: {{ section.settings.logo_mobile_max_width }}px;
@@ -540,6 +541,11 @@ the underlying logic of the menu.
       "unit": "px",
       "label": "Background blur radius",
       "default": 4
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "label": "Hightlight color"
     }
   ],
   "blocks": [

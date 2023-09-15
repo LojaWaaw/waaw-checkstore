@@ -10,6 +10,7 @@
         "text_size": "text-xs",
         "background": "#f3f3f3",
         "text_color": "#3d3935",
+        "hover_text_color": "#000000",
         "background_gradient": ""
       }
     },
@@ -20,7 +21,7 @@
           "type": "mega_menu",
           "settings": {
             "menu_item": "Fones de ouvido",
-            "layout": "horizontal_center",
+            "layout": "horizontal",
             "submenu_style": "bold_text",
             "image_1": "shopify:\/\/shop_images\/Mask_group_2.png",
             "image_heading_1": "ENERGY 100EBG",
@@ -30,7 +31,7 @@
             "image_heading_2": "MOB 100EB",
             "image_link_2": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-100eb",
             "image_text_color_2": "#ffffff",
-            "image_heading_3": "fgh",
+            "image_heading_3": "",
             "image_link_3": "",
             "image_text_color_3": "#ffffff",
             "product": "fone-de-ouvido-bluetooth-sense-200hb",
@@ -38,7 +39,7 @@
             "product_card_text_color": "",
             "promo_content_layout": "grid",
             "stretch_promo": false,
-            "drawer_link_image": "hide"
+            "drawer_link_image": "show"
           }
         },
         "ae5d2d76-20c4-4052-97e8-0932e47248b9": {
@@ -46,7 +47,7 @@
           "settings": {
             "menu_item": "Caixas de som",
             "layout": "horizontal",
-            "submenu_style": "bold_text",
+            "submenu_style": "bold_heading",
             "image_1": "shopify:\/\/shop_images\/Novo_Projeto.jpg",
             "image_heading_1": "BOOM 100SB",
             "image_link_1": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
@@ -92,7 +93,8 @@
         "transparent_header_text_color": "#000000",
         "reduce_padding": true,
         "background_opacity": 100,
-        "background_blur_radius": 0
+        "background_blur_radius": 0,
+        "highlight_color": "#e0e621"
       }
     },
     "announcement-bar": {
@@ -151,23 +153,11 @@
         "background_gradient": "",
         "text_color": "#000000"
       }
-    },
-    "c9a4616d-48a5-4e88-a93f-1a9f86dfef71": {
-      "type": "breadcrumbs",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false,
-        "background": "#f5f5f5",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "topbar",
     "header",
-    "announcement-bar",
-    "c9a4616d-48a5-4e88-a93f-1a9f86dfef71"
+    "announcement-bar"
   ]
 }

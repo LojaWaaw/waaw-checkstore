@@ -6,8 +6,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/04.1600x700-Banner-body-loja-waaw-by-alok.png",
-            "mobile_image": "shopify:\/\/shop_images\/05.700x1100-Banner-body-loja-waaw-by-alok.png",
+            "image": "shopify:\/\/shop_images\/testebg-waaw-final2_77a274f0-6062-4cd0-b9d3-988bf3318ca5.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/testebg-waaw-final2-mobile_d6fa3d12-c0c3-4432-8b16-f61869826447.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -53,7 +53,7 @@
         "slide-2"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "image_size": "auto",
         "controls_type": "dots",
@@ -62,18 +62,18 @@
         "autoplay": true,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": ""
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
       }
     },
     "a17ec046-c828-412b-92fa-e109251e7f77": {
       "type": "featured-collection",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/Captura_de_Tela_2023-08-07_as_16.12.04.png",
+        "banner": "shopify:\/\/shop_images\/banner-waaw-produtos.png",
         "banner_link": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
         "collection": "vitrine-home-2",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": false,
         "stack_products": false,
         "show_progress_bar": false,
@@ -91,7 +91,8 @@
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "#ffffff",
-        "product_card_text_color": ""
+        "product_card_text_color": "",
+        "product_show_description": true
       }
     },
     "563409fc-7ba0-4299-b2d2-61b1fe553205": {
@@ -100,7 +101,8 @@
         "d69dbe9f-d309-4789-90bf-d54b5bfb8165": {
           "type": "video",
           "settings": {
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=Y5B27hvM0T0",
+            "video": "shopify:\/\/files\/videos\/WAAW_1080.mp4",
+            "external_video_url": "",
             "show_video_controls": false,
             "title": "",
             "heading_tag": "h4",
@@ -123,7 +125,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/01.Banners-categoria-caixas_8d9cc1d0-02cf-4d2b-93b3-246ef454f643.jpg",
+            "image": "shopify:\/\/shop_images\/banner-waaw-quadrad2.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -145,7 +147,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/01.Banners-categoria-fones_fae2092a-925d-44c4-95d0-3af986fcebee.jpg",
+            "image": "shopify:\/\/shop_images\/banner-waaw-quadrado3_cc48e0fd-e9d2-44c4-a2a5-61b6bdd72b41.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -174,7 +176,7 @@
         "full_width": true,
         "reduce_width": false,
         "desktop_row_height": 250,
-        "mobile_row_height": 150,
+        "mobile_row_height": 180,
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
       }
@@ -217,7 +219,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
-        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 0.6), rgba(203, 203, 203, 0) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -228,9 +230,7 @@
       "settings": {
         "banner_link": "",
         "collection": "dia-dos-pais",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -248,7 +248,8 @@
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "#ffffff",
-        "product_card_text_color": ""
+        "product_card_text_color": "",
+        "product_show_description": true
       }
     },
     "88abb4a5-7746-4b34-b167-389da820abb6": {
@@ -271,7 +272,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_3.png",
+            "image": "shopify:\/\/shop_images\/banner-waaw-produto-200_b2b99eb1-ad1c-454c-9f1f-2c9911b461ee.jpg",
             "stretch_image": true,
             "title": "Sense 200",
             "link_text": "O fone que o Alok usa em seus shows.",
@@ -285,7 +286,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_2.png",
+            "image": "shopify:\/\/shop_images\/banner-waaw-produto-energy_fe6b0587-9631-4c0d-9658-fcf2d901cf02.jpg",
             "stretch_image": true,
             "title": "Energy 100",
             "link_text": "Fone com baixa latência. Respeita o seu game",
@@ -304,6 +305,7 @@
       ],
       "settings": {
         "full_width": false,
+        "position_images": "grid",
         "block_size": "large",
         "vertical_alignment": "center",
         "subheading": "",
@@ -323,8 +325,7 @@
       "blocks": {
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "d58b202e-f3f9-4e38-9f78-ba819504c6ab": {
           "type": "text",
@@ -352,8 +353,7 @@
         },
         "c3bb387c-183b-4b7d-b32e-5b922a6367f0": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9": {
           "type": "buy_buttons",
@@ -368,7 +368,12 @@
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10": {
           "type": "pickup_availability",
+          "settings": {}
+        },
+        "46518564-b311-4d94-b8f3-77e8e225cf1e": {
+          "type": "see_more_infos",
           "settings": {
+            "text_link_see_more": "Ver mais detalhes"
           }
         }
       },
@@ -380,7 +385,8 @@
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-3",
         "c3bb387c-183b-4b7d-b32e-5b922a6367f0",
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9",
-        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10"
+        "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10",
+        "46518564-b311-4d94-b8f3-77e8e225cf1e"
       ],
       "settings": {
         "full_width": false,
@@ -402,6 +408,7 @@
     },
     "96137545-d7a9-444f-9162-ae9574a14bd0": {
       "type": "revealed-image-on-scroll",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group.png",
         "mobile_image": "shopify:\/\/shop_images\/Rectangle_1087.png",
@@ -418,8 +425,8 @@
         "template--15963751350447__901cf5c6-524e-4c15-a997-0dcfab0e5c7c-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group.png",
-            "mobile_image": "shopify:\/\/shop_images\/Rectangle_1087.png",
+            "image": "shopify:\/\/shop_images\/banner-waaw-bg.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner-waaw-bg-mobile.jpg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -441,7 +448,6 @@
       "block_order": [
         "template--15963751350447__901cf5c6-524e-4c15-a997-0dcfab0e5c7c-image-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -452,7 +458,9 @@
         "autoplay": false,
         "cycle_speed": 6,
         "background": "#f2f2f2",
-        "background_gradient": ""
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
       }
     },
     "fe17a1e4-42dc-485f-a993-97816c3ac84b": {
@@ -490,10 +498,10 @@
         "impact_text_style": "fill",
         "text_divider": "none",
         "impact_text_size_ratio": 0.9,
-        "background": "rgba(0,0,0,0)",
+        "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
-        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 0.6), rgba(203, 203, 203, 0) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -506,7 +514,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/7899831311620-ENERGY10-04.png",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid1.jpg",
             "banner_link": "shopify:\/\/products\/fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
             "banner_position": "above",
             "product": "fone-de-ouvido-tws-bluetooth-mob-100eb"
@@ -516,7 +524,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/auricular.png",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid2.jpg",
             "banner_link": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
             "banner_position": "bellow",
             "product": "waaw-boom-100sb-caixa-de-som"
@@ -526,7 +534,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/ENERGY10-EWG-7899831311620-12_fbbce77c-229a-465d-8f45-1c2e725c400d.png",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid3.jpg",
             "banner_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
             "banner_position": "above",
             "product": "fone-bluetooth-cancelamento-ruido-sense-300hbnc"
@@ -536,7 +544,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/fone-de-ouvido-energy-10ewg_08.png",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid4.jpg",
             "banner_link": "shopify:\/\/products\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws",
             "banner_position": "bellow",
             "product": "waaw-energy-100ebg-fone-de-ouvido-gamer-tws"
@@ -608,7 +616,7 @@
         "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Group_2562.png",
+            "image": "shopify:\/\/shop_images\/banner-waaw-faq_7e5bcd5f-26a2-442f-a825-4914b0d65aca.jpg",
             "column_size": "1.5",
             "title": "",
             "heading_tag": "h4",
@@ -743,6 +751,38 @@
         "accordion_background": "rgba(0,0,0,0)",
         "accordion_text_color": ""
       }
+    },
+    "59298897-710d-4e7a-8287-4d650730155a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Todos os produtos foram desenvolvidos com muito cuidado e carinho pelo Alok para você curtir uma fantástica #experiênciawaaw",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do abrir ao fechar dos olhos, a WAAW acompanha o ritmo da sua vida.<br\/>Transformamos o som em movimento e atitude.<br\/>Ouça do seu jeito: em casa, na academia, no ônibus, sozinho, com os amigos, no trabalho, em momentos de lazer.<br\/>Na hora e onde você quiser! A WAAW by Alok traz todas as sensações para você curtir do seu jeito.<br\/>Oferecemos uma linha completa com diferentes modelos de fone de ouvido, headphones e caixas de som com estilo e design moderno.<br\/>Seja para ouvir músicas no intervalo do almoço, disputar horas de jogos online, fazer aquela festa ou simplesmente escutar seu podcast preferido.<br\/>A WAAW by Alok te deixa conectado ao que realmente importa para você.<br\/>Conheça uma experiência singular na forma de ouvir e ser ouvido.<br\/><strong>Faça parte do mundo WAAW by Alok!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1",
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -760,6 +800,7 @@
     "8417acb4-b17b-4688-bb0a-243e90e46732",
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
     "5707dfc9-797a-4b73-b0c7-a8da84710061",
-    "6d15fe12-458d-4518-b504-d5f0e8c7b38f"
+    "6d15fe12-458d-4518-b504-d5f0e8c7b38f",
+    "59298897-710d-4e7a-8287-4d650730155a"
   ]
 }

@@ -349,6 +349,8 @@
             {%- render 'icon' with 'share' -%} {{- 'general.social.share' | t -}}
           </button>
         </div>
+      {%- when 'see_more_infos' -%}
+        <a class="product-info__see-more" href="{{ product.url }}">{{ block.settings.text_link_see_more }}</a>
     {%- endcase -%}
   {%- endfor -%}
 

@@ -45,7 +45,7 @@ Supported parameters
           <span class="badge badge--current badge--lg">{{ article.tags | first }}</span>
         {%- endif -%}
 
-        <p class="{% if heading_size != blank %}{{ heading_size }}{% elsif featured %}h2{% else %}h3{% endif %}">
+        <p class="{% if heading_size != blank %}{{ heading_size }}{% elsif featured %}h2{% else %}h3{% endif %} blog-post-card__title">
           {%- if article -%}
             <a href="{{ article.url }}">{{ article.title }}</a>
           {%- else -%}
@@ -55,9 +55,9 @@ Supported parameters
 
         {%- if show_excerpt -%}
           {%- if article -%}
-            <p {% if featured %}class="text-lg"{% endif %}>{{ article.excerpt_or_content | strip_html | truncate: 200 }}</p>
+            <p class="blog-post-card__text-content" {% if featured %}class="text-lg"{% endif %}>{{ article.excerpt_or_content | strip_html | truncate: 200 }}</p>
           {%- else -%}
-            <p {% if featured %}class="text-lg"{% endif %}>{{ 'general.on_boarding.blog_post_excerpt' | t }}</p>
+            <p class="blog-post-card__text-content" {% if featured %}class="text-lg"{% endif %}>{{ 'general.on_boarding.blog_post_excerpt' | t }}</p>
           {%- endif -%}
         {%- endif -%}
       </div>
@@ -86,6 +86,7 @@ Supported parameters
           {%- endif -%}
         </div>
       {%- endif -%}
+      <a class="blog-post-card__info-see-more" href="{{ article.url }}">Leia mais</a>
     </div>
   </div>
 {%- endcapture -%}

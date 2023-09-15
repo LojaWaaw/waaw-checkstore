@@ -125,16 +125,6 @@ Supported variables
         </sale-price>
       {%- endif -%}
     {%- elsif product.price < product.compare_at_price -%}
-      <sale-price class="{{ on_sale_price_classes }}">
-        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
-
-        {%- if settings.currency_code_enabled -%}
-          {{- product.price | money_with_currency -}}
-        {%- else -%}
-          {{- product.price | money -}}
-        {%- endif -%}
-      </sale-price>
-
       <compare-at-price class="{{ compare_at_price_classes }}">
         <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
 
@@ -144,6 +134,16 @@ Supported variables
           {{- product.compare_at_price | money -}}
         {%- endif -%}
       </compare-at-price>
+
+      <sale-price class="{{ on_sale_price_classes }}">
+        <span class="sr-only">{{ 'product.price.sale_price' | t }}</span>
+
+        {%- if settings.currency_code_enabled -%}
+          {{- product.price | money_with_currency -}}
+        {%- else -%}
+          {{- product.price | money -}}
+        {%- endif -%}
+      </sale-price>
     {%- elsif product.price_varies -%}
       {%- capture price_min -%}
         {%- if settings.currency_code_enabled -%}

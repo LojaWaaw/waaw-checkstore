@@ -14,6 +14,28 @@
 </style>
 {%- endif -%}
 
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------
+JAVASCRIPT
+------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+{% javascript %}
+  const createdMobileMenu = () => {
+    let titleMenu = document.querySelectorAll('.footer__block--menu .footer__block--title-menu');
+
+    function handleClick ()  {
+      this.nextElementSibling.classList.toggle('ativo');
+      this.classList.toggle('open')
+    };
+
+    titleMenu.forEach(item => item.addEventListener('click', handleClick));
+  };
+
+  createdMobileMenu();
+{% endjavascript %}
+
+
 <div class="footer">
   <div class="container">
     <div class="footer__wrapper">
@@ -57,19 +79,19 @@
   
                       <div class="h-stack wrap gap-2">
                         {%- if block.settings.phone != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2">
+                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
                             {% render 'icon' with 'picto-phone', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.phone }}
                           </div>
                         {%- endif -%}
 
                         {%- if block.settings.email != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2">
+                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
                             {% render 'icon' with 'picto-envelope', width: block.settings.icon_width, height: block.settings.icon_width %}{{ block.settings.email }}
                           </div>
                         {%- endif -%}
 
                         {%- if block.settings.service_time != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2">
+                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
                             {% render 'icon' with 'picto-customer-support', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.service_time }}
                           </div>
                         {%- endif -%}
@@ -90,10 +112,10 @@
                 {%- if block.settings.menu != blank -%}
                   <div class="footer__block footer__block--menu" {{ block.shopify_attributes }}>
                     {%- if block.settings.show_menu_title -%}
-                      <p class="bold">{{ block.settings.menu.title }}</p>
+                      <p class="bold footer__block--title-menu">{{ block.settings.menu.title }} <span class="icon-plus">{% render 'icon' with 'plus' %}</span><span class="icon-minus">{% render 'icon' with 'minus' %}</span></p>
                     {%- endif -%}
 
-                    <ul class="v-stack gap-3" role="list">
+                    <ul class="v-stack gap-3 footer__block--content-menu" role="list">
                       {%- for link in block.settings.menu.links -%}
                         <li>
                           <a href="{{ link.url }}" class="inline-block link-faded break-all">{{ link.title }}</a>

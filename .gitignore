@@ -50,3 +50,7 @@ Thumbs.db
 
 .bundle
 .config
+.toml
+
+shopify.theme.toml
+config.yml
