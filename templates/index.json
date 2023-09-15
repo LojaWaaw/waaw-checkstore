@@ -219,7 +219,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
-        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 0.7), rgba(203, 203, 203, 0) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 0.6), rgba(203, 203, 203, 0) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -501,7 +501,7 @@
         "background": "#ffffff",
         "background_gradient": "",
         "heading_text_color": "rgba(0,0,0,0)",
-        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 1), rgba(203, 203, 203, 0) 100%)",
+        "heading_gradient": "linear-gradient(180deg, rgba(203, 203, 203, 0.6), rgba(203, 203, 203, 0) 100%)",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""

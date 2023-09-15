@@ -439,7 +439,7 @@ height-observer, visibility-progress, scroll-area, video-media, model-media, med
 }
 
 .h3.blog-post-card__title {
-  font-size: var(--text-h4);
+  font-size: var(--text-h5);
 }
 
 .blog-post-card__figure {
@@ -9021,7 +9021,7 @@ split-lines {
   }
 
   :not(.is-scrollable) .text-with-icons__item.text-with-icons__item--boxed {
-    padding: var(--spacing-14) var(--spacing-8) var(--spacing-6) var(--spacing-8); 
+    padding: var(--spacing-12) var(--spacing-8) var(--spacing-9) var(--spacing-8); 
   }
 }
 
