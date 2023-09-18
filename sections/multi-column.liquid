@@ -5,7 +5,9 @@
     #shopify-section-{{ section.id }} {
       --multi-column-grid: {% if section.settings.stack_on_mobile %}none{% else %}auto / auto-flow 73vw{% endif %};
       --multi-column-list-gap: {% if section.settings.gap == 'small' %}var(--grid-gutter){% elsif section.settings.gap == 'medium' %}var(--spacing-12){% elsif section.settings.gap == 'large' %}var(--spacing-20){% else %}var(--spacing-28){% endif %};
-    }
+        margin-left: {{ section.settings.side_margin }}px;
+        margin-right: {{ section.settings.side_margin }}px;
+      }
 
     {% if section.settings.hide_on_mobile == true %}
       @media screen and (max-width: 920px) {
@@ -30,8 +32,9 @@
                     {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
                   </video-media>
                 {%- elsif block.settings.image != blank -%}
+                  {%  assign imgWidth = block.settings.image.width | times: block.settings.item_icon_width %}
                   {%- capture sizes -%}(max-width: 699px) calc(73vw - 40px), (max-width: 999px) calc(38vw - 64px), calc(min({{ settings.page_width }}px, 100vw) / {{ block.settings.column_size }}){%- endcapture -%}
-                  {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
+                  {{- block.settings.image | image_url: width: imgWidth | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,800,1000,1200,1400,1600,1800', class: 'rounded' -}}
                 {%- endif -%}
 
                 {%- if block.settings.title != blank or block.settings.content != blank or block.settings.link_text != blank -%}
@@ -197,6 +200,15 @@
       "default": false
     },
     {
+      "type": "range",
+      "min": 0,
+      "max": 100,
+      "id": "side_margin",
+      "unit": "px",
+      "label": "Add side margin",
+      "default": 0
+    },
+    {
       "type": "select",
       "id": "gap",
       "label": "Gap spacing",
@@ -315,6 +327,15 @@
           "id": "video",
           "label": "Video",
           "info": "Video are muted automatically and will autoplay."
+        },
+        {
+          "type": "range",
+          "id": "item_icon_width",
+          "min": 0.2,
+          "max": 2,
+          "step": 0.1,
+          "label": "Image scale",
+          "default": 1
         },
         {
           "type": "select",
