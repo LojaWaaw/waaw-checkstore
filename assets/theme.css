@@ -2428,6 +2428,22 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: absolute;
 }
 
+.video-play-button .icon-play-button {
+  z-index: 2;
+}
+
+.video-play-button::after {
+  content: '';
+  background: #e0e621;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: calc(50% - 1rem);
+  left: calc(50% - 1rem);
+  z-index: -1;
+}
+
 @media screen and (min-width: 700px) {
   .video-play-button {
     --play-button-shadow-size: 20px;
@@ -3282,7 +3298,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .prose > :first-child, .prose > :first-child :first-child {
   margin-block-start: 0 !important;
-  margin-block-end: var(--spacing-6);
 }
 
 .prose * + :is(p, div, ul, ol) {
@@ -4014,11 +4029,6 @@ tfoot td {
     visibility: visible;
     transform: scale(1);
   }
-}
-
-.icon {
-  vertical-align: middle;
-  display: block;
 }
 
 [dir="rtl"] .reverse-icon {
@@ -5526,6 +5536,10 @@ split-lines {
 
 .section-stack.full-width .section-stack__main {
   width: 100%;
+}
+
+.section-stack__main .prose p.bold {
+  margin-block-end: var(--spacing-6);
 }
 
 @media screen and (max-width: 699px) {
@@ -9804,6 +9818,11 @@ split-lines {
   .motion-reduce\:block {
     display: block;
   }
+}
+
+.icon {
+  vertical-align: middle;
+  display: block;
 }
 
 :not(.is-scrollable) ~ .peer-not-scrollable\:hidden, .hidden, .empty\:hidden:empty {
