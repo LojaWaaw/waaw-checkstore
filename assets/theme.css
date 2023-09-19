@@ -2063,8 +2063,10 @@ scroll-carousel {
   --container-max-width: var(--container-narrow-max-width);
 }
 
-.shopify-section--media-with-text .section {
-  padding-top: 30px;
+@media screen and (max-width: 699px) {
+  .shopify-section--media-with-text .section {
+    padding-top: 30px;
+  }
 }
 
 .section {
