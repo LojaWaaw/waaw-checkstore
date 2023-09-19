@@ -6110,6 +6110,11 @@ split-lines {
   display: none;
 }
 
+.header__link-list li {
+  line-height: 1;
+  height: fit-content;
+}
+
 .header__link-list .icon-chevron-bottom {
   position: relative;
   top: 1px;
@@ -6156,6 +6161,7 @@ split-lines {
   .header__link-list {
     gap: var(--spacing-4) var(--header-link-list-spacing);
     display: flex;
+    align-items: center;
   }
 }
 
