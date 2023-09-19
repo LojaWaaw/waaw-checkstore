@@ -493,12 +493,24 @@
             "title": "",
             "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
           }
+        },
+        "66faeab5-8f7c-48d6-8b40-35cf0d57941f": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2",
+        "66faeab5-8f7c-48d6-8b40-35cf0d57941f"
       ],
       "settings": {
         "full_width": false,
