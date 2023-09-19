@@ -7273,7 +7273,6 @@ split-lines {
 
 .shopify-section--multi-column .multi-column__item {
   box-shadow: none;
-  box-shadow: inset 0 0 0 1px rgb(var(--border-color));
   border-radius: var(--rounded);
 }
 
@@ -8972,6 +8971,10 @@ split-lines {
   display: grid;
 }
 
+.shopify-section--testimonials {
+  margin-bottom: 30px;
+}
+
 .testimonial {
   align-content: start;
   gap: var(--spacing-4);
@@ -10519,12 +10522,18 @@ split-lines {
 }
 
 .shopify-section--video + .shopify-section--media-grid {
-  margin-top: -48px;
+  margin-top: -38px;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 700px) {
   .shopify-section--video + .shopify-section--media-grid {
-    margin-top: -64px;
+    margin-top: -52px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .shopify-section--video + .shopify-section--media-grid {
+    margin-top: -56px;
   }
 }
 
