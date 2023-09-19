@@ -5,6 +5,7 @@
       "blocks": {
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/testebg-waaw-final2_77a274f0-6062-4cd0-b9d3-988bf3318ca5.jpg",
             "mobile_image": "shopify:\/\/shop_images\/testebg-waaw-final2-mobile_d6fa3d12-c0c3-4432-8b16-f61869826447.jpg",
@@ -27,7 +28,6 @@
         },
         "slide-2": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/02.1600x700-Banner-loja-waaw-dia-do-rock.png",
             "content_max_width": 780,
@@ -561,6 +561,7 @@
         "full_width": false,
         "stack_on_mobile": false,
         "hide_on_mobile": true,
+        "side_margin": 0,
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
@@ -617,6 +618,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-waaw-faq_7e5bcd5f-26a2-442f-a825-4914b0d65aca.jpg",
+            "item_icon_width": 1,
             "column_size": "1.5",
             "title": "",
             "heading_tag": "h4",
@@ -651,6 +653,7 @@
         "full_width": false,
         "stack_on_mobile": true,
         "hide_on_mobile": false,
+        "side_margin": 0,
         "gap": "medium",
         "text_alignment": "start",
         "subheading": "",
