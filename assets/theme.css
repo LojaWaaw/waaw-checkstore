@@ -6054,7 +6054,6 @@ split-lines {
   border-radius: inherit;
   transition: inherit;
   display: grid;
-  opacity: .9;
 }
 
 .header__logo {
