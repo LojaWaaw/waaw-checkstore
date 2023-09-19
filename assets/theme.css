@@ -6340,16 +6340,19 @@ split-lines {
   line-height: 2.3;
   font-weight: 800;
   text-transform: none;
+  color: inherit;
 }
 
-.mega-menu__nav a span:hover {
+.mega-menu__nav a[href] span:hover {
   color: #E0E621;
   cursor: pointer;
 }
 
-.mega-menu__nav a span.link-faded:hover {
-  color: inherit;
+.mega-menu__nav a:not([href]) span {
   opacity: .7;
+}
+
+.mega-menu__nav a:not([href]) span:hover {
   cursor: initial;
 }
 
