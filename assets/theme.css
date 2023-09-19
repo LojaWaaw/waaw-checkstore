@@ -2705,6 +2705,12 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: relative;
 }
 
+@media screen and (min-width: 900px) {
+  .product-list {
+    min-height: 469px;
+  }
+}
+
 .product-list__promo {
   grid-column: var(--product-list-promo-grid-column, span 2);
   min-height: 200px;
@@ -2729,10 +2735,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
     .product-list:not(:has(.product-card--blends)) .product-list__promo .content-over-media {
       grid-row: span 2;
-    }
-
-    .product-card__info {
-      align-content: start;
     }
   }
 }
@@ -2863,6 +2865,14 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 .product-card__subtitle{
   font-size: var(--text-sm);
   color: #818181;
+  margin: var(--spacing-1) 0 var(--spacing-2) 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 22px;
+  max-height: 66px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .product-card__quick-buy {
@@ -2937,7 +2947,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 @media screen and (min-width: 1400px) {
   .product-card__info {
-    --product-card-info-padding: var(--spacing-5) var(--spacing-8);
+    --product-card-info-padding: var(--spacing-5) var(--spacing-7);
   }
 }
 
@@ -3021,6 +3031,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   flex-wrap: wrap;
   display: flex;
   line-height: 1.2;
+  align-self: flex-end;
 }
 
 .price-list--lg {

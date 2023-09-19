@@ -9,6 +9,7 @@
     {%- assign card_blends = true -%}
   {%- endunless -%}
 
+
   #shopify-section-{{ section.id }} .product-list {
     --product-list-gap: {% if section.settings.stack_products and section.settings.products_per_row_mobile == '2' %}{% if card_blends %}var(--product-list-row-gap){% endif %} var(--spacing-2){% else %}var(--product-list-row-gap) var(--product-list-column-gap){% endif %};
     --product-list-items-per-row: {{ section.settings.products_per_row_mobile | times: 1 }};
@@ -16,6 +17,29 @@
     --product-list-grid: {% if section.settings.stack_products %}auto / repeat(var(--product-list-items-per-row), minmax(0, 1fr)){% else %}auto / auto-flow var(--product-list-carousel-item-width){% endif %};
   }
 
+  #shopify-section-{{ section.id }} .product-list__banner {
+    position: relative;
+  }
+
+  {% if section.settings.banner_image_behavior == 'object-fit' %}
+    #shopify-section-{{ section.id }} .product-list__banner-image {
+      object-fit: cover;
+      height: 100%;
+      border-radius: var(--rounded);
+    }
+  {% endif %}
+  
+  #shopify-section-{{ section.id }} .product-list__banner-text {
+    position: absolute;
+    padding: 20px;
+    color: {{ section.settings.banner_text_color }};
+    font-size: {{ section.settings.banner_text_size }}px;
+    line-height: {{ section.settings.banner_text_size | times: 1.2 }}px;
+    text-align: {{ section.settings.banner_text_align }};
+    top: {% if section.settings.banner_text_position == 'top' %}0{% else %}auto{% endif %};
+    bottom: {% if section.settings.banner_text_position == 'top' %}auto{% else %}0{% endif %};
+  }
+  
   @media screen and (min-width: 700px) {
     #shopify-section-{{ section.id }} .product-list {
       --product-list-gap: var(--product-list-row-gap) var(--product-list-column-gap);
@@ -47,6 +71,9 @@
               <div class="product-list__banner">
                 {% if section.settings.banner_link != blank %}
                   <a href="{{ section.settings.banner_link }}" class="product-list__banner-link">
+                {% endif %}
+                {% if section.settings.banner_text != blank %}
+                  <div class="product-list__banner-text">{{ section.settings.banner_text }}</div>
                 {% endif %}
                 {{ section.settings.banner | image_url: width: 500 | image_tag: class: 'product-list__banner-image' }}
                 {% if section.settings.banner_link != blank %}
@@ -109,6 +136,77 @@
       "id": "banner_link",
       "label": "Banner link",
       "info": "Destination link to the banner."
+    },
+    {
+      "type": "select",
+      "id": "banner_image_behavior",
+      "label": "Banner image behavior",
+      "options": [
+        {
+          "value": "object-fit",
+          "label": "Adapt to height"
+        },
+        {
+          "value": "object-contain",
+          "label": "Original height"
+        }
+      ],
+      "default": "object-fit"
+    },
+    {
+      "type": "richtext",
+      "id": "banner_text",
+      "label": "Banner text"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color",
+      "label": "Banner text color"
+    },
+    {
+      "type": "range",
+      "id": "banner_text_size",
+      "label": "Banner text size",
+      "min": 5,
+      "max": 100,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "banner_text_align",
+      "label": "Banner text align",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "banner_text_position",
+      "label": "Banner text position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "top"
     },
     {
       "type": "collection",
