@@ -2139,6 +2139,14 @@ scroll-carousel {
     display: flex;
   }
 
+  .section-boxed .section-stack--horizontal {
+    align-items: center;
+  }
+
+  .section-stack--horizontal .v-stack {
+    align-items: center;
+  }
+
   .section-stack--center {
     justify-items: center;
   }
@@ -2418,6 +2426,22 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   border-radius: 100%;
   animation: 2s ease-in-out infinite alternate ping;
   position: absolute;
+}
+
+.video-play-button .icon-play-button {
+  z-index: 2;
+}
+
+.video-play-button::after {
+  content: '';
+  background: #e0e621;
+  border-radius: 100%;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: calc(50% - 1rem);
+  left: calc(50% - 1rem);
+  z-index: -1;
 }
 
 @media screen and (min-width: 700px) {
@@ -3276,16 +3300,14 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   margin-block-start: 0 !important;
 }
 
-.prose > :last-child, .prose > :last-child :last-child {
-  margin-block-end: 0 !important;
-}
-
 .prose * + :is(p, div, ul, ol) {
   margin-block-start: var(--spacing-3);
+  line-height: 2;
 }
 
 .prose * + :is(.h0, .h1, .h2, h1, h2) {
   margin-block-start: var(--spacing-4);
+  margin-block-end: var(--spacing-5);
 }
 
 .prose * + :is(.h3, .h4, .h5, .h6, h3, h4, h5, h6) {
@@ -3337,6 +3359,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
   .prose * + :is(.h0, .h1, .h2, h1, h2) {
     margin-block-start: var(--spacing-6);
+    margin-block-end: var(--spacing-6);
   }
 
   .prose * + :is(.h3, .h4, h3, h4) {
@@ -3383,6 +3406,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
   .prose * + :is(.h2, .h3, .h4, h2, h3, h4) {
     margin-block-start: var(--spacing-6);
+    margin-block-end: var(--spacing-8);
   }
 
   .prose * + :is(.h5, .h6, h5, h6) {
@@ -4005,11 +4029,6 @@ tfoot td {
     visibility: visible;
     transform: scale(1);
   }
-}
-
-.icon {
-  vertical-align: middle;
-  display: block;
 }
 
 [dir="rtl"] .reverse-icon {
@@ -5510,8 +5529,26 @@ split-lines {
   display: none;
 }
 
+.section-stack.full-width .feature-chart {
+  margin: 0 calc((max(var(--calculated-section-spacing-inline),50% - var(--container-max-width) / 2)) * -1);
+  border-radius: 0;
+}
+
+.section-stack.full-width .section-stack__main {
+  width: 100%;
+}
+
+.section-stack__main .prose p.bold {
+  margin-block-end: var(--spacing-6);
+}
+
 @media screen and (max-width: 699px) {
   .feature-chart, .feature-chart__table {
+    border-radius: var(--rounded);
+    display: grid;
+  }
+
+  .section-stack.full-width .feature-chart, .feature-chart__table {
     margin-inline-start: calc(-1 * var(--container-gutter));
     margin-inline-end: calc(-1 * var(--container-gutter));
     padding-inline-start: var(--container-gutter);
@@ -7250,7 +7287,6 @@ split-lines {
 
 .shopify-section--multi-column .multi-column__item {
   box-shadow: none;
-  box-shadow: inset 0 0 0 1px rgb(var(--border-color));
   border-radius: var(--rounded);
 }
 
@@ -7729,10 +7765,6 @@ split-lines {
   margin-block-end: 0;
 }
 
-.section-boxed .product-info__separator{
-  display: none;
-}
-
 @media screen and (min-width: 700px) {
   .section-boxed .product-info__separator{
     display: block;
@@ -7888,6 +7920,13 @@ split-lines {
   display: grid;
   height: 100%;
 }
+
+@media screen and (max-width: 1000px) {
+  .product-gallery {
+    margin-top: var(--spacing-8);
+  }
+}
+
 
 .product-gallery__ar-wrapper {
   gap: var(--spacing-2-5);
@@ -8946,6 +8985,10 @@ split-lines {
   display: grid;
 }
 
+.shopify-section--testimonials {
+  margin-bottom: 30px;
+}
+
 .testimonial {
   align-content: start;
   gap: var(--spacing-4);
@@ -9595,10 +9638,6 @@ split-lines {
   scroll-snap-stop: always;
 }
 
-:not(.is-scrollable) ~ .peer-not-scrollable\:hidden, .hidden, .empty\:hidden:empty {
-  display: none;
-}
-
 .inline-block {
   display: inline-block;
 }
@@ -9779,6 +9818,15 @@ split-lines {
   .motion-reduce\:block {
     display: block;
   }
+}
+
+.icon {
+  vertical-align: middle;
+  display: block;
+}
+
+:not(.is-scrollable) ~ .peer-not-scrollable\:hidden, .hidden, .empty\:hidden:empty {
+  display: none;
 }
 
 .invisible {
@@ -10493,12 +10541,18 @@ split-lines {
 }
 
 .shopify-section--video + .shopify-section--media-grid {
-  margin-top: -48px;
+  margin-top: -38px;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 700px) {
   .shopify-section--video + .shopify-section--media-grid {
-    margin-top: -64px;
+    margin-top: -52px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .shopify-section--video + .shopify-section--media-grid {
+    margin-top: -56px;
   }
 }
 

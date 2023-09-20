@@ -4,6 +4,7 @@
   "sections": {
     "0c567c20-0cc6-4a21-aa62-a0506c88731e": {
       "type": "impact-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
