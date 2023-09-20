@@ -20,24 +20,43 @@
   #shopify-section-{{ section.id }} .product-list__banner {
     position: relative;
   }
-
-  {% if section.settings.banner_image_behavior == 'object-fit' %}
-    #shopify-section-{{ section.id }} .product-list__banner-image {
+  #shopify-section-{{ section.id }} .product-list__banner-image {
+    {% if section.settings.banner_image_behavior == 'object-fit' %}
       object-fit: cover;
       height: 100%;
       border-radius: var(--rounded);
-    }
-  {% endif %}
-  
-  #shopify-section-{{ section.id }} .product-list__banner-text {
+    {% endif %}
+
+    grid-area: 1/1;
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-link { 
+    {% if section.settings.banner_image_behavior == 'object-fit' %}
+      height: 100%;
+    {% endif %}
+
+    display: grid;
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-text-container {
     position: absolute;
-    padding: 20px;
+    max-width: -webkit-fill-available;
+    grid-area: 1/1;
+    z-index: 2;
+    padding: var(--product-list-gap);
+    align-self: {% if section.settings.banner_text_position == 'top' %}flex-start{% elsif section.settings.banner_text_position == 'bottom'%}flex-end{% else %}center{% endif %};
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-text { 
+    word-wrap: break-word;
     color: {{ section.settings.banner_text_color }};
     font-size: {{ section.settings.banner_text_size }}px;
     line-height: {{ section.settings.banner_text_size | times: 1.2 }}px;
     text-align: {{ section.settings.banner_text_align }};
-    top: {% if section.settings.banner_text_position == 'top' %}0{% else %}auto{% endif %};
-    bottom: {% if section.settings.banner_text_position == 'top' %}auto{% else %}0{% endif %};
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-text02 {
+    word-wrap: break-word;
+    color: {{ section.settings.banner_text_color02 }};
+    font-size: {{ section.settings.banner_text_size02 }}px;
+    line-height: {{ section.settings.banner_text_size02 | times: 1.2 }}px;
+    text-align: {{ section.settings.banner_text_align }}; 
   }
   
   @media screen and (min-width: 700px) {
@@ -72,9 +91,14 @@
                 {% if section.settings.banner_link != blank %}
                   <a href="{{ section.settings.banner_link }}" class="product-list__banner-link">
                 {% endif %}
-                {% if section.settings.banner_text != blank %}
-                  <div class="product-list__banner-text">{{ section.settings.banner_text }}</div>
-                {% endif %}
+                <div class="product-list__banner-text-container">
+                  {% if section.settings.banner_text != blank %}
+                    <div class="product-list__banner-text">{{ section.settings.banner_text }}</div>
+                  {% endif %}
+                  {% if section.settings.banner_text02 != blank %}
+                    <div class="product-list__banner-text02">{{ section.settings.banner_text02 }}</div>
+                  {% endif %}
+                </div>
                 {{ section.settings.banner | image_url: width: 500 | image_tag: class: 'product-list__banner-image' }}
                 {% if section.settings.banner_link != blank %}
                   </a>
@@ -167,10 +191,31 @@
       "type": "range",
       "id": "banner_text_size",
       "label": "Banner text size",
-      "min": 5,
+      "min": 10,
       "max": 100,
+      "step": 1,
       "unit": "px",
       "default": 20
+    },
+    {
+      "type": "richtext",
+      "id": "banner_text02",
+      "label": "Banner text 2"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color02",
+      "label": "Banner text color 2"
+    },
+    {
+      "type": "range",
+      "id": "banner_text_size02",
+      "label": "Banner text size 2",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 30
     },
     {
       "type": "select",
@@ -204,6 +249,10 @@
         {
           "value": "bottom",
           "label": "Bottom"
+        },
+        {
+          "value": "center",
+          "label": "Center"
         }
       ],
       "default": "top"

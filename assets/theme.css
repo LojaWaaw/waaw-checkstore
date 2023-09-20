@@ -2705,7 +2705,17 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   position: relative;
 }
 
-@media screen and (min-width: 900px) {
+.product-list {
+  min-height: 104vw;
+}
+
+@media screen and (min-width: 700px) {
+  .product-list {
+    min-height: 507px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
   .product-list {
     min-height: 469px;
   }
