@@ -9,6 +9,7 @@
     {%- assign card_blends = true -%}
   {%- endunless -%}
 
+
   #shopify-section-{{ section.id }} .product-list {
     --product-list-gap: {% if section.settings.stack_products and section.settings.products_per_row_mobile == '2' %}{% if card_blends %}var(--product-list-row-gap){% endif %} var(--spacing-2){% else %}var(--product-list-row-gap) var(--product-list-column-gap){% endif %};
     --product-list-items-per-row: {{ section.settings.products_per_row_mobile | times: 1 }};
@@ -16,6 +17,48 @@
     --product-list-grid: {% if section.settings.stack_products %}auto / repeat(var(--product-list-items-per-row), minmax(0, 1fr)){% else %}auto / auto-flow var(--product-list-carousel-item-width){% endif %};
   }
 
+  #shopify-section-{{ section.id }} .product-list__banner {
+    position: relative;
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-image {
+    {% if section.settings.banner_image_behavior == 'object-fit' %}
+      object-fit: cover;
+      height: 100%;
+      border-radius: var(--rounded);
+    {% endif %}
+
+    grid-area: 1/1;
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-link { 
+    {% if section.settings.banner_image_behavior == 'object-fit' %}
+      height: 100%;
+    {% endif %}
+
+    display: grid;
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-text-container {
+    position: absolute;
+    max-width: -webkit-fill-available;
+    grid-area: 1/1;
+    z-index: 2;
+    padding: var(--product-list-gap);
+    align-self: {% if section.settings.banner_text_position == 'top' %}flex-start{% elsif section.settings.banner_text_position == 'bottom'%}flex-end{% else %}center{% endif %};
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-text { 
+    word-wrap: break-word;
+    color: {{ section.settings.banner_text_color }};
+    font-size: {{ section.settings.banner_text_size }}px;
+    line-height: {{ section.settings.banner_text_size | times: 1.2 }}px;
+    text-align: {{ section.settings.banner_text_align }};
+  }
+  #shopify-section-{{ section.id }} .product-list__banner-text02 {
+    word-wrap: break-word;
+    color: {{ section.settings.banner_text_color02 }};
+    font-size: {{ section.settings.banner_text_size02 }}px;
+    line-height: {{ section.settings.banner_text_size02 | times: 1.2 }}px;
+    text-align: {{ section.settings.banner_text_align }}; 
+  }
+  
   @media screen and (min-width: 700px) {
     #shopify-section-{{ section.id }} .product-list {
       --product-list-gap: var(--product-list-row-gap) var(--product-list-column-gap);
@@ -48,6 +91,14 @@
                 {% if section.settings.banner_link != blank %}
                   <a href="{{ section.settings.banner_link }}" class="product-list__banner-link">
                 {% endif %}
+                <div class="product-list__banner-text-container">
+                  {% if section.settings.banner_text != blank %}
+                    <div class="product-list__banner-text">{{ section.settings.banner_text }}</div>
+                  {% endif %}
+                  {% if section.settings.banner_text02 != blank %}
+                    <div class="product-list__banner-text02">{{ section.settings.banner_text02 }}</div>
+                  {% endif %}
+                </div>
                 {{ section.settings.banner | image_url: width: 500 | image_tag: class: 'product-list__banner-image' }}
                 {% if section.settings.banner_link != blank %}
                   </a>
@@ -109,6 +160,102 @@
       "id": "banner_link",
       "label": "Banner link",
       "info": "Destination link to the banner."
+    },
+    {
+      "type": "select",
+      "id": "banner_image_behavior",
+      "label": "Banner image behavior",
+      "options": [
+        {
+          "value": "object-fit",
+          "label": "Adapt to height"
+        },
+        {
+          "value": "object-contain",
+          "label": "Original height"
+        }
+      ],
+      "default": "object-fit"
+    },
+    {
+      "type": "richtext",
+      "id": "banner_text",
+      "label": "Banner text"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color",
+      "label": "Banner text color"
+    },
+    {
+      "type": "range",
+      "id": "banner_text_size",
+      "label": "Banner text size",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "richtext",
+      "id": "banner_text02",
+      "label": "Banner text 2"
+    },
+    {
+      "type": "color",
+      "id": "banner_text_color02",
+      "label": "Banner text color 2"
+    },
+    {
+      "type": "range",
+      "id": "banner_text_size02",
+      "label": "Banner text size 2",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "select",
+      "id": "banner_text_align",
+      "label": "Banner text align",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "select",
+      "id": "banner_text_position",
+      "label": "Banner text position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "top"
     },
     {
       "type": "collection",

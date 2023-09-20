@@ -22,7 +22,7 @@
           "settings": {
             "menu_item": "Fones de ouvido",
             "layout": "horizontal",
-            "submenu_style": "bold_text",
+            "submenu_style": "bold_heading",
             "image_1": "shopify:\/\/shop_images\/Mask_group_2.png",
             "image_heading_1": "ENERGY 100EBG",
             "image_link_1": "shopify:\/\/products\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws",
@@ -92,7 +92,7 @@
         "show_country_name": false,
         "transparent_header_text_color": "#000000",
         "reduce_padding": true,
-        "background_opacity": 100,
+        "background_opacity": 90,
         "background_blur_radius": 0,
         "highlight_color": "#e0e621"
       }
