@@ -6148,6 +6148,8 @@ split-lines {
   font-weight: 400;
   font-size: var(--text-sm);
   text-transform: uppercase;
+  margin-bottom: 2px;
+  display: inline-block;
 }
 
 .header__link-list li summary {
