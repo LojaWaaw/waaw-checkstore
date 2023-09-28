@@ -25,13 +25,11 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "8f0bf539-c3e9-4008-b6d5-822565908784": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
@@ -55,8 +53,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -241,6 +238,8 @@
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
+        "subheading_specification": "Compare",
+        "title_specification": "Especificação de produto",
         "view_all_text": "Ver Mais",
         "view_less_text": "Ver Menos",
         "view_product": "View",
@@ -263,8 +262,7 @@
       "blocks": {
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
           "type": "heading",
@@ -381,6 +379,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/18.Icone-cancelamento-de-ruido-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Cancelamento Ativo de Ruído",
             "heading_tag": "h6",
@@ -394,6 +393,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Até 60 horas de autonomia",
             "heading_tag": "h6",
@@ -407,6 +407,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/11.Icone-controle-por-botao-ou-touch-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Controle touch",
             "heading_tag": "h6",
@@ -420,6 +421,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/12.Icone-assistente-de-voz-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Compatível com assistente de voz",
             "heading_tag": "h6",
@@ -440,6 +442,7 @@
         "full_width": true,
         "stack_on_mobile": false,
         "hide_on_mobile": false,
+        "side_margin": 0,
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
@@ -517,9 +520,7 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 8,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -543,36 +544,61 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Como conectar meu fone ao bluetooth do meu dispositivo?",
+            "content": "<p>Para ativar a conexão bluetooth, você precisa do botão que liga e desliga o fone, que fica na parte superior da concha direita do fone.<\/p><p>Se o fone estiver desligado, ao ligar você pressiona por 5 segundos, assim ele automaticamente ativa o pareamento.<\/p><p>Se o fone já estiver ligado, é preciso apertar o botão 2 vezes para pareamento.<\/p><p>Enquanto o fone estiver com o pareamento ativo, o led vai ficar alternando entre vermelho e branco.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "Como ativar o modo Cancelamento de Ruído?",
+            "content": "<p>Para ativar ou desativar o cancelamento de ruído, basta pressionar o touch do lado direito até ouvir o aviso sonoro.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Qual a autonomia do fone?",
+            "content": "<p>Total de até 60 horas de reprodução com o cancelamento de ruído desligado, e até 50 horas com o cancelamento de ruído ligado.<\/p>"
+          }
+        },
+        "b8d18389-4b2d-41ec-94b5-b7028dba488a": {
+          "type": "item",
+          "settings": {
+            "title": "Meu fone não liga. O que fazer?",
+            "content": "<p>Verifique se o produto possui carga suficiente. Caso contrário, conecte-o para carregar e aguarde o tempo especificado no manual até a carga completa.<\/p><p>certifique-se de ter pressionado o botão correto para ligá-los. Verifique se tem algum LED aceso ou piscando, isso pode indicar se produto está ou não ligado.<\/p><p>Certifique-se de que a tomada usada está funcionando corretamente, testando-a com outro dispositivo de carga. Use um carregador com especificações fornecidas no manual de instruções do usuário, evitando o uso de cabos de carregadores de celular.<\/p><p>Se o problema persistir, tente carregar o produto com outro cabo USB e verifique se há sujeira na entrada USB do produto. Caso haja, limpe-a cuidadosamente.<\/p>"
+          }
+        },
+        "4fef2191-ac3e-4c48-9196-e5aab764b8a2": {
+          "type": "item",
+          "settings": {
+            "title": "Estou com problemas no som. O que fazer?",
+            "content": "<p>Tenha em mente que a distância máxima para comunicação sem<br\/>fio (Bluetooth) é de até 10 metros, sem barreiras. Obstruções físicas podem interferir na comunicação e causar falhas. Certifique-se de que não haja obstáculos entre os dispositivos.<\/p><p>Caso esteja utilizando algum streaming de áudio que necessite da utilização de dados de internet, verifique se há conexão com a internet e se ela está estável.<\/p><p>Tente desligar e ligar os fones de ouvido para restabelecer a conexão ou melhorar a qualidade do áudio.<\/p><p>Esqueça o fone no dispositivo e faça o pareamento novamente.<br\/>Se necessário, realize o reset ou redefinição dos dispositivos, seguindo as<br\/>orientações fornecidas no manual.<\/p><p>Faça uma limpeza cuidadosa nos fones de ouvido e nas<br\/>borrachinhas para remover a sujeira ou o acúmulo de cera.<\/p><p>Verifique a posição do botão de volume e ajuste conforme<br\/>necessário.<\/p><p>Certifique-se de que o botão de Mute não está ativado.<\/p>"
+          }
+        },
+        "a9ffb60a-2333-4ac5-b5ee-5ed7e7772eb4": {
+          "type": "item",
+          "settings": {
+            "title": "Como fazer a limpeza do meu fone?",
+            "content": "<p>Para limpar seus fones, remova as almofadas caso necessário, utilize um pano limpo e umedeça o tecido com álcool, realize a limpeza delicadamente do fone. <\/p><p>Sabia mais através do nosso <a href=\"https:\/\/blog.waaw.com.br\/como-realizar-a-limpeza-dos-fones-tws\/\">blog<\/a>.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
-        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3",
+        "b8d18389-4b2d-41ec-94b5-b7028dba488a",
+        "4fef2191-ac3e-4c48-9196-e5aab764b8a2",
+        "a9ffb60a-2333-4ac5-b5ee-5ed7e7772eb4"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
-        "team_avatar_width": 160,
+        "content": "",
+        "team_avatar": "shopify:\/\/shop_images\/SENSE-300HBNC-01_76c1b1d4-6fef-4aa8-936e-920a4d29d27a.png",
+        "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",
         "button_text": "",

@@ -25,13 +25,11 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "8f0bf539-c3e9-4008-b6d5-822565908784": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
@@ -55,8 +53,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -241,6 +238,8 @@
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
+        "subheading_specification": "Compare",
+        "title_specification": "Especificação de produto",
         "view_all_text": "Ver mais",
         "view_less_text": "Ver menos",
         "view_product": "View",
@@ -263,8 +262,7 @@
       "blocks": {
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
           "type": "heading",
@@ -381,6 +379,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "16 horas de autonomia",
             "heading_tag": "h6",
@@ -394,6 +393,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/10.Icone-modo-gamer-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Modo Gamer",
             "heading_tag": "h6",
@@ -407,6 +407,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/11.Icone-controle-por-botao-ou-touch-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Controle touch",
             "heading_tag": "h6",
@@ -420,6 +421,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/05.Icone-tecnologia-tws-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Tecnologia TWS",
             "heading_tag": "h6",
@@ -440,6 +442,7 @@
         "full_width": true,
         "stack_on_mobile": false,
         "hide_on_mobile": false,
+        "side_margin": 0,
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
@@ -517,9 +520,7 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 8,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -543,36 +544,93 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Como conectar meu fone ao bluetooth do meu dispositivo?",
+            "content": "<p>Para conectar o bluetooth do fone com seu dispositivo, retire os fones do estojo para acionar o pareamento.<\/p><p>Quando um dos fones estiver com o led alternando entre verde e branco a cada 1 segundo, e o outro com o led verde piscando a cada 5 segundos, eles estarão prontos para o pareamento.<\/p><p>Selecione o fone no seu dispositivo para parear. Quando conectar com sucesso, os leds dos fones vão ficar acesos continuamente.<\/p><p>Lembrando que todas as vezes que abrir o estojo, seu celular vai conectar automaticamente ao fone.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "O que fazer se meus fones não se reconectarem automaticamente ao meu dispositivo?",
+            "content": "<p>Se seu fone estiver conectado a algum dispositivo, as luzes dos fones ficarão acesas continuamente. Caso não esteja conectado ao seu dispositivo, desligue o bluetooth do dispositivo conectado e os fones entrarão em modo de emparelhamento, com os LEDs piscando verde e branco.<\/p><p>Se não conseguir desconectar o dispositivo anterior, redefina os fones para configuração de fábrica e estabeleça uma nova conexão.<\/p><p>Para redefinir as configurações de fábrica, retire um dos fones de ouvido do estojo de carregamento e mantenha pressionado o touch por 8 segundos, assim ele vai apagar o led e desligar.<\/p><p>Pressione o mesmo fone por segundos, o led irá piscar alternando entre branco e verde por 1 segundo e vai iniciar a recuperação de configuração de fábrica.<\/p><p>Repita o mesmo processo com o outro fone.<\/p><p>Quando terminar esse processo, os leds dos dois fones vão piscar entre verde e branco até estabelecerem a conexão.<\/p><p>Assim que a conexão for feita com sucesso, as luzes verde e branca vão piscar mais lentamente, e enfim vão entrar em modo de emparelhamento<br\/>de novo.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Quando não sai som no fone de ouvido?",
+            "content": "<p>Coloque-os no estojo de carregamento e retire novamente. Se não resolver o problema, restaure as configurações de fábrica, coloque os fones no estojo e em seguida, retire-os novamente.<\/p><p>Para redefinir as configurações de fábrica, retire um dos fones de ouvido do estojo de carregamento e mantenha pressionado o touch por 8 segundos, assim ele vai apagar o led e desligar.<\/p><p>Pressione o mesmo fone por 3 segundos, o led irá piscar alternando entre branco e verde por 1 segundo e vai iniciar a recuperação de configuração de fábrica.<\/p><p>Repita o mesmo processo com o outro fone.<\/p><p>Quando terminar esse processo, os leds dos dois fones vão piscar entre verde e branco até estabelecerem a conexão.<\/p><p>Assim que a conexão for feita com sucesso, as luzes verde e branca vão piscar mais lentamente, e enfim vão entrar em modo de emparelhamento de novo.<\/p>"
+          }
+        },
+        "4a3e1591-0df6-4374-b822-f505affec420": {
+          "type": "item",
+          "settings": {
+            "title": "O que fazer quando só um dos lados do fone está funcionando?",
+            "content": "<p>Cada lado do fone tem funções diferentes, e quando você usa apenas um lado deles, apenas metade das funções vão estar disponíveis.<\/p><p>Esse modo mono ou dual é automaticamente ligado conforme o fone for tirado do estojo.<\/p><p>Enquanto você escuta suas músicas, para pausar ou dar play basta clicar uma vez em qualquer um dos lados do fone.<\/p><p>Para pular para a próxima música, você usa apenas o fone direito, segurando no touch por 2 segundos.<\/p><p>Para voltar a música anterior, é a mesma coisa, mas do lado esquerdo, segurando por 2 segundos o touch.<\/p>"
+          }
+        },
+        "0bb15060-17df-4051-b6d9-99b0947cc804": {
+          "type": "item",
+          "settings": {
+            "title": "Qual a autonomia do fone MOB 200EB?",
+            "content": "<p>Total de até 16h de reprodução de música (4h do fone e 12h da case).<\/p>"
+          }
+        },
+        "70c96b2e-80ec-4f41-9c19-9510c5dd07a2": {
+          "type": "item",
+          "settings": {
+            "title": "Como ativar o Modo Gamer?",
+            "content": "<p>Para acessar essa função, clique 4 vezes no touch de qualquer um dos lados do fone para ativar o Modo Gamer.<\/p>"
+          }
+        },
+        "b9d3202a-9dc5-47dc-9e72-eb5c10ae1eb6": {
+          "type": "item",
+          "settings": {
+            "title": "Como fazer a redefinição do meu fone?",
+            "content": "<p>Retire um dos fones de ouvido do estojo e mantenha-o pressionado manualmente por 8 segundos para desligar o fone de ouvido. O LED irá apagar. <\/p><p>Pressione novamente o fone por 3 segundos. O LED irá alternar entre branco e verde por 1 segundo e em seguida iniciar a recuperação de configuração de fábrica. <\/p><p>Repita o processo com o outro fone de ouvido. <\/p><p>Após a redefinição, o LED dos dois fones irão piscar entre verde e branco para estabelecerem uma conexão bem sucedida. As luzes verde e branca irão piscar lentamente e entrarão em modo de emparelhamento. <\/p><p>Confira mais através do nosso <a href=\"https:\/\/blog.waaw.com.br\/reset-dos-fones-de-ouvido\/\">blog<\/a>.<\/p>"
+          }
+        },
+        "ec1017a7-83a2-4b06-b342-5307f7d9ad3c": {
+          "type": "item",
+          "settings": {
+            "title": "Como fazer a limpeza do meu fone?",
+            "content": "<p>Para limpar seus fones, remova as borrachinhas, utilize um pano limpo e umedeça o tecido com álcool, realize a limpeza delicadamente dos fones e dos terminais de carregamento dos fones e da case.<\/p><p>Sabia mais através do nosso <a href=\"https:\/\/blog.waaw.com.br\/como-realizar-a-limpeza-dos-fones-tws\/\">blog<\/a>.<\/p>"
+          }
+        },
+        "16186c11-0f7f-414e-930f-70792460c0bc": {
+          "type": "item",
+          "settings": {
+            "title": "Meu fone não liga. O que fazer?",
+            "content": "<p>Verifique se o produto possui carga suficiente. Caso contrário, conecte-o para carregar e aguarde o tempo especificado no manual até a carga completa.<\/p><p>Verifique a conexão correta com os terminais de contato dos fones.<\/p><p>Certifique-se de que a tomada usada está funcionando corretamente, testando-a com outro dispositivo de carga. Use um carregador com especificações fornecidas no manual de instruções do usuário, evitando o uso de cabos de carregadores de celular.<\/p><p>Se o problema persistir, tente carregar o produto com outro cabo USB e verifique se há sujeira na entrada USB do produto. Caso haja, limpe-a cuidadosamente.<\/p>"
+          }
+        },
+        "8166a9e0-ebfa-4916-9d41-8c3b9cfb1dbe": {
+          "type": "item",
+          "settings": {
+            "title": "Estou com problemas no som. O que fazer?",
+            "content": "<p>Tenha em mente que a distância máxima para comunicação sem fio (Bluetooth) é de até 10 metros, sem barreiras. Obstruções físicas podem interferir na comunicação e causar falhas. Certifique-se de que não haja obstáculos entre os dispositivos.<\/p><p>Caso esteja utilizando algum streaming de áudio que necessite da utilização de dados de internet, verifique se há conexão com a internet e se ela está estável.<\/p><p>Tente desligar e ligar os fones de ouvido para restabelecer a conexão ou melhorar a qualidade do áudio.<\/p><p>Esqueça o fone no dispositivo e faça o pareamento novamente. Se necessário, realize o reset ou redefinição dos dispositivos, seguindo as orientações fornecidas no manual.<\/p><p>Faça uma limpeza cuidadosa nos fones de ouvido e nas borrachinhas para remover a sujeira ou o acúmulo de cera.<\/p><p>Verifique a posição do botão de volume e ajuste conforme necessário.<\/p><p>Certifique-se de que o botão de Mute não está ativado.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
-        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3",
+        "4a3e1591-0df6-4374-b822-f505affec420",
+        "0bb15060-17df-4051-b6d9-99b0947cc804",
+        "70c96b2e-80ec-4f41-9c19-9510c5dd07a2",
+        "b9d3202a-9dc5-47dc-9e72-eb5c10ae1eb6",
+        "ec1017a7-83a2-4b06-b342-5307f7d9ad3c",
+        "16186c11-0f7f-414e-930f-70792460c0bc",
+        "8166a9e0-ebfa-4916-9d41-8c3b9cfb1dbe"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
-        "team_avatar_width": 160,
+        "content": "",
+        "team_avatar": "shopify:\/\/shop_images\/MOB-200EB-7899831310067-03.png",
+        "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",
         "button_text": "",
