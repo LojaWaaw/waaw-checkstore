@@ -7092,6 +7092,10 @@ split-lines {
   display: grid;
 }
 
+.impact-text .impact-text__content .h2 {
+  padding-top: 50px;
+}
+
 .impact-text--scroll {
   grid: auto / auto-flow var(--impact-text-auto-columns);
 }
@@ -7125,7 +7129,7 @@ split-lines {
 }
 
 .impact-text__text:not(:only-child) {
-  margin-bottom: .2em;
+  margin-bottom: -5.5rem;
 }
 
 .impact-text__content {

@@ -37,6 +37,13 @@
       --product-gallery-media-list-gap: var(--grid-gutter);
     }
   }
+
+  @media screen and (max-width: 1000px) {
+    #shopify-section-{{ section.id }} .product .product-info__separator {
+      display: none;
+    }
+  }
+
 </style>
 
 <div {% render 'section-properties', tight: true %}>
