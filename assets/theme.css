@@ -3326,7 +3326,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .prose * + :is(p, div, ul, ol) {
   margin-block-start: var(--spacing-3);
-  line-height: 2;
 }
 
 .prose * + :is(.h0, .h1, .h2, h1, h2) {
@@ -4053,6 +4052,11 @@ tfoot td {
     visibility: visible;
     transform: scale(1);
   }
+}
+
+.icon {
+  vertical-align: middle;
+  display: block;
 }
 
 [dir="rtl"] .reverse-icon {
@@ -9674,6 +9678,10 @@ split-lines {
   scroll-snap-stop: always;
 }
 
+:not(.is-scrollable) ~ .peer-not-scrollable\:hidden, .hidden, .empty\:hidden:empty {
+  display: none;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -9854,15 +9862,6 @@ split-lines {
   .motion-reduce\:block {
     display: block;
   }
-}
-
-.icon {
-  vertical-align: middle;
-  display: block;
-}
-
-:not(.is-scrollable) ~ .peer-not-scrollable\:hidden, .hidden, .empty\:hidden:empty {
-  display: none;
 }
 
 .invisible {
