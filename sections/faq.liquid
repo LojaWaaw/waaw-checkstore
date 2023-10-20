@@ -63,7 +63,7 @@
             </div>
           {%- endif -%}
 
-          {%- if text_position != 'center' and subcontent != blank -%}
+          {%- if text_position != 'center' and subcontent != blank and section.settings.team_avatar != blank or section.settings.support_hours != blank or section.settings.answer_time != blank or section.settings.button_text != blank -%}
             <div class="hidden lg:block">
               {{- subcontent -}}
             </div>
