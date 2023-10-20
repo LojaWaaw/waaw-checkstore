@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  --increase-mobile-padding: 5px;
   --background: var(--background-primary);
   --text-color: var(--text-primary);
   --hover-text-color: var(--text-color);
@@ -1956,8 +1957,8 @@ scroll-carousel {
 .container {
   --container-inner-width: min((100vw - var(--scrollbar-width, 0px))  - var(--container-gutter) * 2, var(--container-max-width));
   --container-outer-width: calc(((100vw - var(--scrollbar-width, 0px))  - var(--container-inner-width)) / 2);
-  margin-inline-start: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
-  margin-inline-end: max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+  margin-inline-start: calc(var(--increase-mobile-padding) + max(var(--container-gutter), 50% - var(--container-max-width) / 2));
+  margin-inline-end: calc(var(--increase-mobile-padding) + max(var(--container-gutter), 50% - var(--container-max-width) / 2));
 }
 
 .container--narrow {
@@ -2049,8 +2050,8 @@ scroll-carousel {
   --container-inner-width: min((100vw - var(--scrollbar-width, 0px))  - var(--calculated-section-spacing-inline, 0px) * 2, var(--container-max-width));
   --container-outer-width: calc(((100vw - var(--scrollbar-width, 0px))  - var(--container-inner-width, 0px)) / 2);
   --section-stack-spacing-inline: var(--section-inner-spacing-inline, 0px);
-  padding-inline-start: max(var(--calculated-section-spacing-inline), 50% - var(--container-max-width) / 2);
-  padding-inline-end: max(var(--calculated-section-spacing-inline), 50% - var(--container-max-width) / 2);
+  padding-inline-start: calc(var(--increase-mobile-padding) + max(var(--calculated-section-spacing-inline), 50% - var(--container-max-width) / 2));
+  padding-inline-end: calc(var(--increase-mobile-padding) + max(var(--calculated-section-spacing-inline), 50% - var(--container-max-width) / 2));
 }
 
 .section--tight {
@@ -3325,7 +3326,6 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 
 .prose * + :is(p, div, ul, ol) {
   margin-block-start: var(--spacing-3);
-  line-height: 2;
 }
 
 .prose * + :is(.h0, .h1, .h2, h1, h2) {
@@ -4052,6 +4052,11 @@ tfoot td {
     visibility: visible;
     transform: scale(1);
   }
+}
+
+.icon {
+  vertical-align: middle;
+  display: block;
 }
 
 [dir="rtl"] .reverse-icon {
@@ -6106,7 +6111,7 @@ split-lines {
   grid-template: var(--header-grid-template);
   align-items: center;
   gap: var(--header-part-gap);
-  padding: var(--header-padding-block) max(var(--container-gutter), 50% - var(--container-max-width) / 2);
+  padding: var(--header-padding-block) calc(var(--increase-mobile-padding) + max(var(--container-gutter), 50% - var(--container-max-width) / 2));
   color: rgb(var(--text-color));
   background: rgb(var(--background) / var(--header-background-opacity));
   -webkit-backdrop-filter: blur(var(--header-background-blur-radius));
@@ -9020,6 +9025,8 @@ split-lines {
   gap: var(--grid-gutter);
   align-items: start;
   display: grid;
+  margin: 0;
+  padding: 0;
 }
 
 .shopify-section--testimonials {
@@ -9675,6 +9682,10 @@ split-lines {
   scroll-snap-stop: always;
 }
 
+:not(.is-scrollable) ~ .peer-not-scrollable\:hidden, .hidden, .empty\:hidden:empty {
+  display: none;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -9855,15 +9866,6 @@ split-lines {
   .motion-reduce\:block {
     display: block;
   }
-}
-
-.icon {
-  vertical-align: middle;
-  display: block;
-}
-
-:not(.is-scrollable) ~ .peer-not-scrollable\:hidden, .hidden, .empty\:hidden:empty {
-  display: none;
 }
 
 .invisible {

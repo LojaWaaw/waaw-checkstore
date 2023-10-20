@@ -13,25 +13,23 @@
           "type": "text",
           "settings": {
             "highlight": true,
-            "text": "<p>Fone de ouvido Gamer<\/p>"
+            "text": "<p>Caixa de som potente, até 20 horas de bateria, proteção IPX7, TWS<\/p>"
           }
         },
         "8bbde357-2065-4d19-b265-1c2b7741a439": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p>Seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer, seja um jogador de primeira linha lorem ipsum dolor sit amet consectetuer. <\/p>"
+            "text": "<p>Leve a diversão com você seja dentro ou fora de casa. A caixa de som à prova d'água oferece a autonomia para horas de música e muita potência para curtir seu #momentoWAAW como nunca antes.<\/p>"
           }
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "8f0bf539-c3e9-4008-b6d5-822565908784": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
@@ -55,8 +53,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -73,7 +70,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><li>Lorem ipsum dolor sit amet consecetuer<\/li><\/ul>"
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>20 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong>;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong><\/li><li>Classificação <strong>IPX7 à prova d’água<\/strong>;<\/li><li><strong>Alça<\/strong> de transporte;<\/li><li>Acabamento em<strong> tecido resistente<\/strong>;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HandsFree<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
           }
         },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
@@ -121,6 +118,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -137,52 +135,92 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0": {
           "type": "headings",
           "settings": {
-            "heading_1": "Potência",
-            "heading_2": "Reprodução",
-            "heading_3": "Bluetooth",
-            "heading_4": "Resistente a aguá",
-            "heading_5": "",
-            "heading_6": "",
-            "heading_7": "",
-            "heading_8": "",
-            "heading_9": "",
-            "heading_10": "",
-            "heading_11": "",
-            "heading_12": "",
-            "heading_13": "",
-            "heading_14": "",
-            "heading_15": "",
-            "heading_16": "",
-            "heading_17": "",
-            "heading_18": "",
-            "heading_19": "",
-            "heading_20": ""
+            "heading_1": "Modelo",
+            "heading_2": "Desligamento Automático",
+            "heading_3": "Cor",
+            "heading_4": "Possui entrada auxiliar",
+            "heading_5": "Tipo de conexão do cabo de carregamento",
+            "heading_6": "Grau de Proteção",
+            "heading_7": "Acessórios",
+            "heading_8": "Perfis bluetooth",
+            "heading_9": "Peso líquido (g)",
+            "heading_10": "Resposta de Frequência (Hz)",
+            "heading_11": "Versão do Bluetooth",
+            "heading_12": "Impedância do Speaker (ohms)",
+            "heading_13": "Bateria (mAh)",
+            "heading_14": "Tipo de Bateria",
+            "heading_15": "Potência de Saída (W) (RMS)",
+            "heading_16": "Dimensões do produto C x L x A (cm)",
+            "heading_17": "Tempo de carregamento (h)",
+            "heading_18": "Certificado ANATEL",
+            "heading_19": "Tempo de reprodução de música (h)",
+            "heading_20": "Alcance máximo (m)",
+            "heading_21": "Garantia",
+            "heading_22": "Cubagem da Embalagem (m³)",
+            "heading_23": "Dimensões da Embalagem C x L x A (cm)",
+            "heading_24": "Peso Bruto da Embalagem (g)",
+            "heading_25": "Acompanha cabo P2 (m)",
+            "heading_26": "Rádio FM",
+            "heading_27": "Entrada para cartão SD",
+            "heading_28": "Controle com botões",
+            "heading_29": "Compatível com assistente de voz",
+            "heading_30": "Conectividade APP",
+            "heading_31": "Microfone integrado",
+            "heading_32": "Chamadas em viva voz",
+            "heading_33": "",
+            "heading_34": "",
+            "heading_35": "",
+            "heading_36": "",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
           "type": "values",
           "settings": {
             "product": "",
-            "value_1": "<p>5W<\/p>",
-            "value_2": "<p>12 Horas<\/p>",
-            "value_3": "<p>Sim<\/p>",
+            "value_1": "<p>WAAW BOOM 100SB<\/p>",
+            "value_2": "<p>Sim (em modo de conexão)<\/p>",
+            "value_3": "<p>Preto e Verde<\/p>",
             "value_4": "<p>Sim<\/p>",
-            "value_5": "",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": "",
-            "value_11": "",
-            "value_12": "",
-            "value_13": "",
-            "value_14": "",
-            "value_15": "",
-            "value_16": "",
-            "value_17": "",
-            "value_18": "",
-            "value_19": "",
-            "value_20": "",
+            "value_5": "<p>Micro USB-C<\/p>",
+            "value_6": "<p>IPX7<\/p>",
+            "value_7": "<p>Cabo de carregamento USB-C; Cabo Auxiliar P2 com 70 cm; Alça de Transporte;<\/p>",
+            "value_8": "<p>A2DP \/ AVRCP \/ HSP \/ HFP<\/p>",
+            "value_9": "<p>1790g<\/p>",
+            "value_10": "<p>65Hz – 20kHz<\/p>",
+            "value_11": "<p>5.0<\/p>",
+            "value_12": "<p>4 ohms<\/p>",
+            "value_13": "<p>3600 mAh<\/p>",
+            "value_14": "<p>Bateria Li-ion 26,6 Wh<\/p>",
+            "value_15": "<p>40W RMS<\/p>",
+            "value_16": "<p>27,8 x 12 x 12 cm<\/p>",
+            "value_17": "<p>5h<\/p>",
+            "value_18": "<p>19086-21-11807<\/p>",
+            "value_19": "<p>Até 18 - 20h; o tempo de autonomia de reprodução depende do tipo de música e volume.)<\/p>",
+            "value_20": "<p>10m (o alcance máximo do Bluetooth depende de um ambiente sem obstruções para funcionar dentro do raio indicado.)<\/p>",
+            "value_21": "<p>01 ANO (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante)<\/p>",
+            "value_22": "<p>0,00961 m³<\/p>",
+            "value_23": "<p>31,5 x 16,5 x 18,5 cm<\/p>",
+            "value_24": "<p>2015g<\/p>",
+            "value_25": "<p>Sim<\/p>",
+            "value_26": "<p>Não<\/p>",
+            "value_27": "<p>Não<\/p>",
+            "value_28": "<p>Sim<\/p>",
+            "value_29": "<p>Não<\/p>",
+            "value_30": "<p>Não<\/p>",
+            "value_31": "<p>Sim<\/p>",
+            "value_32": "<p>Sim<\/p>",
+            "value_33": "",
+            "value_34": "",
+            "value_35": "",
+            "value_36": "",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -195,14 +233,16 @@
       "settings": {
         "full_width": true,
         "subheading": "Descrição",
-        "title": "Experimente a imersão total nos seus jogos favoritos!",
-        "content": "<p>Ouça seus jogos nos mínimos detalhes com o fone de ouvido gamer <strong>ENERGY 10EWG<\/strong>. Compatível com diversas plataformas, possui microfone destacável e ganchos auriculares, ideal para oferecer uma experiência imersiva.<\/p><p>O fone de ouvido gamer <strong>WAAW ENERGY 10EWG<\/strong> é a escolha ideal para quem deseja levar a imersão dos jogos para qualquer lugar. Com case de transporte, você protege seu fone de possíveis arranhões, impactos e sujeiras.O botão de volume deslizante, silenciamento de microfone e botão multifuncional tornam qualquer comando bem mais simples, permitindo gerenciar chamadas e ouvir músicas. Também possui microfone extra e destacável , otimizado para partidas multijogador.<\/p><p>O fone intra-auricular acompanha 3 tamanhos de borrachinhas P, M e G, e ganchos auriculares que se adaptam ao formato do seu ouvido, proporcionando maior conforto durante o uso.Com cabo de 1,2 metros que não entrelaça e conector P3 em 90 graus é otimizado para jogos em dispositivos móveis, para ter mais liberdade de movimento sem a preocupação com dobras que podem danificar o cabo e podem prejudicar a sua jogabilidade.<\/p><p>Ouça seus amigos e oponentes como nunca. Com graves, médios e agudos claros do ENERGY 10EWG , você estará totalmente no controle de seus jogos favoritos.<\/p>",
+        "title": "Leve a diversão com você seja dentro ou fora de casa. ",
+        "content": "<p>Com autonomia de até <strong>20 horas<\/strong> de reprodução e<strong> proteção IPX7<\/strong> à prova d’água, a caixa de som <strong>BOOM 100SB<\/strong> vai trazer a potência que suas músicas precisam.<\/p><p>A caixa de som <strong>WAAW BOOM 100SB<\/strong> é a escolha perfeita para aqueles que buscam uma alta experiência de áudio em qualquer lugar e a qualquer hora. Com sua proteção IPX7à prova d’água, você pode levá-la para a praia, próximo à piscina ou até mesmo para o banheiro sem se preocupar com danos por água.<\/p><p>Com até 20 horas de autonomia, você pode desfrutar de sua música favorita sem interrupções, seja em uma festa ou em um acampamento. A tecnologia Bluetooth 5.0 permite que você conecte seu dispositivo sem fio e com facilidade.<\/p><p>Além disso, com sua <strong>entrada auxiliar P2<\/strong>, você pode conectar qualquer dispositivo que tenha uma saída de áudio, permitindo que você reproduza música de qualquer fonte. O microfone integrado permite que você atenda chamadas com apenas um clique.<\/p><p>E com a tecnologia TWS, você pode conectar duas caixas de som <strong>WAAW BOOM 100SB<\/strong> para uma experiência de som surround.<\/p><p>Com seu som claro e nítido e recursos avançados, a caixa de som <strong>WAAW BOOM 100SB<\/strong> é a caixa de som perfeita para suas necessidades de áudio, seja em casa ou em movimento. Não perca a oportunidade de melhorar sua experiência de áudio hoje mesmo!<\/p><p>Tenha a melhor experiência em som e curta as melhores músicas em alto tom.<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "view_all_text": "View all",
-        "view_less_text": "View less",
+        "subheading_specification": "Compare",
+        "title_specification": "Especificação de produto",
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
         "view_product": "View",
         "viewing_product": "",
         "show_product_swatch": false,
@@ -223,8 +263,7 @@
       "blocks": {
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
           "type": "heading",
@@ -243,8 +282,9 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
+        "video": "shopify:\/\/files\/videos\/VIDEO-BOOM-100SB-FEATURES.mp4",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/VERAO-BOOM-100SB_01.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -256,7 +296,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "image": "shopify:\/\/shop_images\/boom-festa-5.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -278,7 +318,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_75.png",
+            "image": "shopify:\/\/shop_images\/boom-festa.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -300,7 +340,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "image": "shopify:\/\/shop_images\/boom-model-10.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -340,9 +380,10 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
-            "title": "Microfone extra e destacável;",
+            "title": "Até 20 horas de autonomia",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -353,9 +394,10 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/06.Icone-protecao-grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
-            "title": "Jogos com áudio imersivo",
+            "title": "Proteção IPX7",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -366,9 +408,10 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/05.Icone-tecnologia-tws-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
-            "title": "Botão de volume deslizante, silenciamento de microfone e botão multifuncional ;",
+            "title": "Tecnologia TWS",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -379,9 +422,10 @@
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "image": "shopify:\/\/shop_images\/08.Icone-alca-para-tranport-Grandee.png",
+            "item_icon_width": 1,
             "column_size": "4",
-            "title": "Compatível com diversos dispositivos",
+            "title": "Alça para Transportar",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -400,6 +444,7 @@
         "full_width": true,
         "stack_on_mobile": false,
         "hide_on_mobile": false,
+        "side_margin": 0,
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
@@ -477,9 +522,7 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 8,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -503,36 +546,45 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Como conectar minha Caixa de Som bluetooth no celular oucomputador?",
+            "content": "<p>Sempre que ligar sua caixa de som ela vai automaticamente ligar o pareamento para se conectar ao bluetooth.<\/p><p>O led azul que fica em cada uma das caixas fica piscando, buscando a conexão.<\/p><p>Nesse momento, você seleciona a caixa de som no seu dispositivo para parear. Assim que a conexão for feita com seu dispositivo, o<br\/>led azul vai ficar aceso de forma contínua.<\/p><p>Todas as vezes que ligar sua caixa de som, ela vai se conectar ao último dispositivo.<\/p><p>Para desconectar o aparelho anterior da sua caixa de som e colocar em um bluetooth novo, clique 2 vezes no botão de liga\/desliga.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+            "title": "Por que a caixa de som não consegue conectar ao meu dispositivo?",
+            "content": "<p>Caso não consiga conexão, remova a caixa de som no seu dispositivo bluetooth e reinicie o aparelho, realizando a conexão novamente.<\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Como ligar a função TWS?",
+            "content": "<p>Só é possível conectar duas caixas de som do mesmo modelo,<br\/>por exemplo, uma BOOM 100 com outra BOOM 100. Para conectar você precisa ligar<br\/>as duas caixas de som ao mesmo tempo, e pressione rapidamente os Botões TWS em<br\/>cada uma. O comando fará com que os dois produtos entrem em modo de<br\/>emparelhamento do TWS, você ouvirá uma notificação sonora e o indicador. O LED<br\/>TWS irá piscar branco.<\/p><p>Eles irão emparelhar automaticamente e uma vez emparelhado<br\/>com sucesso, ouvirá outra notificação sonora. Abra seu dispositivo no bluetooth<br\/>e selecione \"WAAW BOOM 100\" na lista, clique nele para emparelhar com<br\/>os produtos ao mesmo tempo.<\/p><p>Se quiser desconectar o emparelhamento TWS pressione<br\/>rapidamente o Botão TWS e elas irão desconectar.<\/p><p>Aviso: Para emparelhamento TWS, por favor, deixe os produtos<br\/>se conectarem primeiro e, em seguida, use smartphone para se conectar a elas.<\/p>"
+          }
+        },
+        "fcdb12cd-c13b-45f9-8de9-82c5d7ff8250": {
+          "type": "item",
+          "settings": {
+            "title": "Qual a autonomia da caixa de som?",
+            "content": "<p>Total de até 20h de reprodução de música.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
-        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3",
+        "fcdb12cd-c13b-45f9-8de9-82c5d7ff8250"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
-        "team_avatar_width": 160,
+        "content": "",
+        "team_avatar": "shopify:\/\/shop_images\/waaw-by-alok-boom-100sb-caixa-de-som_10.webp",
+        "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",
         "button_text": "",
@@ -555,11 +607,11 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Captura_de_tela_2023-08-21_100459.png",
             "image_rotation_degrees": 0,
+            "external_video_url": "https:\/\/youtu.be\/zahD2X5HJdo",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "content": "<p>Se você está ansioso para explorar todas as possibilidades, convidamos você a clicar no botão abaixo para acessar nosso Manual de Instruções. Além disso, para uma imersão completa, preparamos um vídeo que revela a extraordinária qualidade sonora e os recursos inovadores que definem a Caixa de Som <strong>BOOM 100SB<\/strong>. Prepare-se para uma experiência sonora excepcional.<\/p>",
             "button_url": "#",
             "button_text": "Baixe o manual de instruções"
           }

@@ -25,13 +25,11 @@
         },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "8f0bf539-c3e9-4008-b6d5-822565908784": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
@@ -55,8 +53,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -241,6 +238,8 @@
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
+        "subheading_specification": "Compare",
+        "title_specification": "Especificação de produto",
         "view_all_text": "Ver mais",
         "view_less_text": "Ver menos",
         "view_product": "View",
@@ -263,8 +262,7 @@
       "blocks": {
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
           "type": "play",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
           "type": "heading",
@@ -381,6 +379,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/15.Icone-material-flexivel-e-emborachado-ou-tamanho-do-cabo-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Cabo de 1,2 metros",
             "heading_tag": "h6",
@@ -394,6 +393,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/11.Icone-controle-por-botao-ou-touch-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Controle de toque através do botão",
             "heading_tag": "h6",
@@ -407,6 +407,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/09.Icone-hands-free-ou-microfone-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Hands Free",
             "heading_tag": "h6",
@@ -420,6 +421,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/12.Icone-assistente-de-voz-Grande.png",
+            "item_icon_width": 1,
             "column_size": "4",
             "title": "Conector P3",
             "heading_tag": "h6",
@@ -440,6 +442,7 @@
         "full_width": true,
         "stack_on_mobile": false,
         "hide_on_mobile": false,
+        "side_margin": 0,
         "gap": "medium",
         "text_alignment": "center",
         "subheading": "",
@@ -517,9 +520,7 @@
       "type": "related-products",
       "settings": {
         "recommendations_count": 8,
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -543,36 +544,29 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+            "title": "Quando não sai som no fone de ouvido?",
+            "content": "<p>Nesse caso é importante verificar se o P3 está devidamente encaixado, se não há algo impossibilitando o encaixe correto. <\/p>"
           }
         },
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
-          }
-        },
-        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+            "title": "Como fazer a limpeza do meu fone?",
+            "content": "<p>Para limpar seus fones, remova as almofadas, caso necessário, utilize um pano limpo e umedeça o tecido com álcool, realize a limpeza delicadamente do fone e no conector P3.<\/p><p>Sabia mais através do nosso <a href=\"https:\/\/blog.waaw.com.br\/como-realizar-a-limpeza-dos-fones-tws\/\">blog<\/a>.<\/p>"
           }
         }
       },
       "block_order": [
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
-        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
-        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2"
       ],
       "settings": {
         "full_width": false,
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
-        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
-        "team_avatar_width": 160,
+        "content": "",
+        "team_avatar": "shopify:\/\/shop_images\/SENSE-100HW-7899831310166-07-1.png",
+        "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",
         "button_text": "",
