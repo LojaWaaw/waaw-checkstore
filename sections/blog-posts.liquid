@@ -24,32 +24,66 @@
     {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, heading_color: section.settings.heading_color, heading_gradient: section.settings.heading_gradient, content: section.settings.content, link_text: section.settings.link_text, link_url: section.settings.link_url -%}
 
     <div class="blog-posts {% unless section.blocks.first.settings.stack_items %}scroll-area bleed md:unbleed{% endunless %}">
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'blog' -%}
-            {%- capture sizes -%}(max-width: 699px) calc(100vw - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, {{ settings.page_width }}px) / {{ block.settings.blog.articles_count | at_most: 3 }}){%- endcapture -%}
+      {% if section.blocks.first.settings.wordpress_url == blank %}
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when 'blog' -%}
+              {%- capture sizes -%}(max-width: 699px) calc(100vw - 40px), (max-width: 999px) calc(100vw / 3 - 64px), calc(min(100vw - 96px, {{ settings.page_width }}px) / {{ block.settings.blog.articles_count | at_most: 3 }}){%- endcapture -%}
 
-            {%- for article in block.settings.blog.articles limit: block.settings.posts_count -%}
-              {%- render 'blog-post-card', article: article, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
-            {%- else -%}
-              {%- for i in (1..3) -%}
-                {%- render 'blog-post-card', show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
+              {%- for article in block.settings.blog.articles limit: block.settings.posts_count -%}
+                {%- render 'blog-post-card', article: article, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
+              {%- else -%}
+                {%- for i in (1..3) -%}
+                  {%- render 'blog-post-card', show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
+                {%- endfor -%}
               {%- endfor -%}
-            {%- endfor -%}
 
-          {%- when 'article' -%}
-            {%- capture sizes -%}(max-width: 1000px) calc(100vw - 40px), calc(min(100vw - 96px, {{ settings.page_width }}px) * 0.65){%- endcapture -%}
+            {%- when 'article' -%}
+              {%- capture sizes -%}(max-width: 1000px) calc(100vw - 40px), calc(min(100vw - 96px, {{ settings.page_width }}px) * 0.65){%- endcapture -%}
 
-            {%- if block.settings.article != blank -%}
-              {%- render 'blog-post-card', article: block.settings.article, featured: true, background: block.settings.background, text_color: block.settings.text_color, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
-            {%- else -%}
-              {%- render 'blog-post-card', featured: true, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
-            {%- endif -%}
-        {%- endcase -%}
-      {%- endfor -%}
+              {%- if block.settings.article != blank -%}
+                {%- render 'blog-post-card', article: block.settings.article, featured: true, background: block.settings.background, text_color: block.settings.text_color, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
+              {%- else -%}
+                {%- render 'blog-post-card', featured: true, show_excerpt: section.settings.show_excerpt, show_date: section.settings.show_date, show_author: section.settings.show_author, show_comments_count: section.settings.show_comments_count, show_category: section.settings.show_category, sizes: sizes -%}
+              {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      {% endif %}
     </div>
   </div>
 </div>
+
+{% if section.blocks.first.settings.wordpress_url != blank %}
+  <script>
+    const options = { method: 'GET' };
+    const blogUrl = '{{ section.blocks.first.settings.wordpress_url }}';
+    const postCount = '{{ section.blocks.first.settings.posts_count }}';
+    const postsContainer = document.querySelector('.blog-posts');
+
+    fetch(`${blogUrl}/wp-json/wp/v2/posts?_embed=&order=desc&per_page=${postCount}`, options)
+      .then(response => response.json())
+      .then(response => response.map((post) => {
+        console.log(post)
+        postsContainer.innerHTML += `<blog-post-card class="blog-post-card snap-center group">
+          <a href="${post.link}" class="blog-post-card__figure rounded">
+            <img src="${post._embedded['wp:featuredmedia'][0].source_url}" alt="${post.title.rendered}" class="w-full h-full object-cover zoom-image">
+          </a>
+          <div class="blog-post-card__info">
+            <div class="v-stack gap-4 sm:gap-5">
+              <div class="v-stack gap-3 sm:gap-4">
+                <p class="h3 blog-post-card__title">
+                  <a href="${post.link}">${post.title.rendered}</a>
+                </p>
+                <div class="blog-post-card__text-content">${post.excerpt.rendered}</div>
+              </div>
+              <a class="blog-post-card__info-see-more" href="${post.link}">Leia mais</a>
+            </div>
+          </div>
+        </blog-post-card>`;
+      }))
+      .catch(err => console.error(err));
+  </script>
+{% endif %}
 
 {% schema %}
 {
@@ -165,7 +199,14 @@
         {
           "type": "blog",
           "id": "blog",
-          "label": "Blog"
+          "label": "Blog",
+          "info": "Select a blog to show posts from."
+        },
+        {
+          "type": "text",
+          "id": "wordpress_url",
+          "label": "WordPress URL",
+          "info": "Enter the URL of your WordPress blog to import posts. If this is set, the blog selected above will be ignored."
         },
         {
           "type": "range",
