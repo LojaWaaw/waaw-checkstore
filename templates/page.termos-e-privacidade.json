@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "e563df09-b7ba-416e-a963-57766b95aee8": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "SOBRE A WAAW BY ALOK",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-1",
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
+      }
+    },
+    "e74d6d25-5a7f-4b81-a6b6-ef26631c72e0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Termos e condições",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-richtext-1": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Construída a partir de uma sociedade entre a WAP, a maior empresa desenvolvedora de tecnologia de bens de consumo do Brasil, e Alok, o artista brasileiro mais ouvido no mundo, a marca nasce com o propósito de ofertar produtos de alta qualidade no segmento de áudio. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-subheading-1",
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-heading-1",
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15985498914991__f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alok_2_73e3e7a4-c56e-4c77-bbb5-024eabdf475b.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p><em>Temos como propósito retribuir valor para a sociedade, a WAAW conta com ações de ESG (Environmental, Social and Corporate Governance) para contribuir no desenvolvimento humano e preservação do meio ambiente, via Instituto Alok e parceiros.   <\/em> <\/p><p><strong>Para todos, em todos os momentos.<\/strong> <\/p><p><strong>WAAW<\/strong> <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "827f29d0-2bce-4a7b-9cea-92aa50bae1ee": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15985498914991__827f29d0-2bce-4a7b-9cea-92aa50bae1ee-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A Loja WAAW by Alok é uma plataforma digital destinada à venda de produtos da marca WAAW. Nela, você faz suas compras diretamente. Dessa forma, o nosso documento Termos e Condições de Uso possibilita que você tenha conhecimento das condições gerais que devem ser observadas ao utilizar nosso site. <\/p><p>O objetivo deste documento é regularizar a utilização da Loja WAAW by Alok, isto é, estabelecer os direitos e as obrigações dos consumidores na compra dos nossos produtos. <\/p><p>Este documento também contém informações importantes e indispensáveis para utilização da Loja WAAW by Alok. Por isso, leia com atenção cada parágrafo. <\/p><p>Ao se cadastrar na Loja WAAW by Alok, você estará, automaticamente, aceitando nossos Termos de contrato. <\/p><p>Caso você não concorde com os Termos e Condições descritos neste documento, basta não utilizar nenhum serviço aqui descrito. Lembre-se que as disposições contidas nestes Termos podem ser atualizadas a qualquer momento, sendo de responsabilidade do consumidor verificá-las com frequência. <\/p><p>Ficou com alguma dúvida? É só entrar em contato com a gente através da Central de Atendimento. <\/p><p>1. Regras para utilização do site WAAW by Alok. <\/p><p>1.1 Cadastro na Loja WAAW by Alok <\/p><p>Se cadastrar no site WAAW by Alok é muito fácil. Funciona assim: no momento da compra do nosso produto, você será orientado a efetuar seu cadastro. Para isso, basta informar seus dados cadastrais, como: nome, endereço, CPF, e-mail e telefones para contato. Ao confirmar seu cadastro, você estará concordando com os nossos termos de Política de Privacidade. <\/p><p>Para utilizar a Loja WAAW by Alok, todo consumidor deverá ser civilmente capaz, de acordo com a legislação civil vigente no Brasil. No caso de eventual cadastro de consumidor incapaz, como, por exemplo, menores de 18 anos de idade - com ou sem a permissão dos pais, tutores ou representantes legais -, este será responsável por todos os atos praticados, como consta na lei. <\/p><p>É importante que você se comprometa a fornecer somente informações verdadeiras e corretas. Assim, você garante autenticidade de toda e qualquer informação fornecida na utilização do site WAAW by Alok, se responsabilizando civil e criminalmente por qualquer problema que venha a causar prejuízos ao site WAAW by Alok ou terceiros, se obrigando, ainda, a manter seus dados e informações constantemente atualizadas, sempre que houver alterações. <\/p><p>O site WAAW by Alok também se reserva no direito de utilizar todos os meios válidos e possíveis para identificá-lo, bem como para solicitar dados adicionais ou documentos que forem pertinentes, a fim de conferir dados pessoais informados. Caso você queira saber um pouco mais sobre como a coleta de dados será tratada pelo site WAAW by Alok, você pode ler a nossa Política de Privacidade. <\/p><p>1.2 Segurança de logins e senhas <\/p><p>Por questões de segurança, você deverá assumir total responsabilidade pela guarda e sigilo do seu login e senha de acesso, bem como pelo uso indevido do seu cadastro por terceiros. Nós orientamos você a tratar suas informações com máxima confidencialidade. E, ao confirmar seu cadastro no site WAAW by Alok, você se declara ciente de que será o único responsável pelas operações realizadas através do seu login. <\/p><p>Para aumentar ainda mais o nível de segurança das suas senhas, também indicamos que você não utilize seu nome como senha, assim como o número da placa do seu veículo, número de telefone, data de aniversário, entre outros. Dessa forma, sua senha fica mais segura. <\/p><p>Sobre a navegação no site WAAW by Alok, fique atento. Qualquer indício de ato ilícito ou descumprimento às regras do nosso Termo terá como punição o bloqueio, suspensão temporária ou cancelamento definitivo do cadastro, a critério exclusivo do próprio site WAAW by Alok, sem a necessidade de notificação prévia e sem prejuízo de outras medidas que entender necessárias. <\/p><p>1.3 Obrigação de utilizar o site WAAW by Alok e seus conteúdos corretamente <\/p><p>Ao acessar o site WAAW by Alok, você estará concordando que não deverá: <\/p><p>a) Utilizar o site WAAW by Alok ou qualquer material nele inserido para outras finalidades que não sejam os usos legais previstos neste Termo e demais regras do site WAAW by Alok; b) Inserir qualquer conteúdo ilícito ou de qualquer modo contrário à moral e aos bons costumes ou que viole direitos de terceiros, como, por exemplo, mas não se limitando a, conteúdo pornográfico ou difamatório; c) Infringir qualquer norma ou lei aplicável; d) Inserir qualquer conteúdo que incorpore vírus ou demais elementos físicos ou eletrônicos que possam causar dano ou impedir o normal funcionamento da rede, do sistema ou de equipamentos informáticos, do site ou de terceiros, ou que provoque, por suas características (tais como forma, extensão etc.), dificuldades no normal funcionamento do site. <\/p><p>Também é proibido utilizar qualquer serviço ou produto do site para cometer atos que tenham como objetivo: <\/p><p>(a) obter acesso não autorizado a outro computador, servidor ou rede; (b) burlar qualquer sistema de autenticação ou de segurança; (c) interromper serviço, servidores, ou rede de computadores por meio de qualquer método ilícito; (d) acessar informações confidenciais, de qualquer natureza, tais como nome de usuário (username) ou senhas de acesso (passwords) de outro consumidor\/usuário do site WAAW By Alok que esteja vulnerável; (e) vigiar secretamente terceiros; (f) acessar informações financeiras, ou que possam causar prejuízos a qualquer pessoa, como, por exemplo, números de cartões de crédito, contas bancárias etc, entre outros atos, a estes não se limitando. <\/p><p>Sendo assim, você estará assumindo o compromisso de utilizar o site WAAW By Alok e seu conteúdo, como textos, fotografias, gráficos, imagens, ícones, tecnologia, software, links, desenhos gráficos e demais conteúdos de acordo com todo ordenamento jurídico, Termos, Política de Privacidade e demais instruções existentes no site WAAW By Alok. <\/p><p>Independente da razão, quaisquer conteúdos colocados à sua disposição não poderão ser utilizados para qualquer fim que não estejam previstos dentro dos nossos Termos. <\/p><p>Lembrando que o site WAAW By Alok se reserva no direito de suspender temporariamente, bloquear ou excluir o cadastro de qualquer usuário, sem necessidade de notificação prévia e sem prejuízo de comunicar as autoridades competentes, que descumprir as obrigações descritas neste Termo. <\/p><p>1.4 Comunicação <\/p><p>Aceitando o nosso Termo, você autoriza o site WAAW by Alok a utilizar seu telefone, e-mail ou SMS como meio de comunicação para notificarmos avisos, como entrega, confirmação de pagamento e outras informações que serão úteis para você. <\/p><p>O seu e-mail também será utilizado para divulgarmos informações referentes a promoções associadas ao site WAAW by Alok. Caso você não queira mais receber essas ofertas exclusivas, basta escolher a opção de não receber e-mails ou SMS dentro do seu perfil de consumidor. <\/p><p>1.5 Propriedade Intelectual e Industrial <\/p><p>Todo o conteúdo deste site são propriedade única e exclusiva da WAAW By Alok. Isso inclui - mas não se limita a - textos, gráficos, logotipos, desenhos, fotos, downloads digitais, vídeos, softwares, marcas, patentes e demais conteúdos. Por isso, não utilize nenhuma das informações aqui contidas, ao não ser que você tenha autorização da própria WAAW By Alok. O uso não-autorizado de qualquer material aqui contido viola a lei de propriedade intelectual, industrial e demais legislações. <\/p><p>Também é vedada qualquer distribuição de cópias deste site, bem como: <\/p><p>(i) qualquer forma de utilização de trechos, da técnica de engenharia reversa no desenvolvimento ou na criação de outros trabalhos; (ii) qualquer forma de se analisar a constituição do site e disponibilização do acesso pela internet em qualquer endereço que não inicie pelo endereço eletrônico https:\/\/waaw.com.br\/; (iii) a divulgação de arquivos não-autorizados; (iv) a liberação de acesso a terceiros de forma ilícita. <\/p><p>Garantias <\/p><p>A WAAW By Alok não faz qualquer tipo de garantia de que os produtos descritos neste site sejam apropriados para uso distinto dos indicados ou que estejam disponíveis para uso fora do Brasil, tampouco que o acesso a estes produtos através de localidades fora do Brasil seja permitido. Por isso, se você acessar o nosso site de outro local fora do Brasil, esteja ciente de sua responsabilidade pelo cumprimento da legislação local. <\/p><p>Links <\/p><p>Alguns dos links desse site podem levar os usuários a sites que não pertencem à WAAW By Alok. Tais sites não são controlados, nem mesmo afiliados à WAAW By Alok. A WAAW By Alok não se responsabiliza pelo conteúdo desses sites de terceiros, nem mesmo por suas políticas internas. <\/p><p>2. Compras, Condições, Formas De Pagamento E Prazo De Entrega <\/p><p>Bom, você completou seu cadastro. Agora, conforme descrito no item 1.1, você poderá utilizar todas as funcionalidades disponíveis no site WAAW By Alok! <\/p><p>O preço dos produtos informados no portal WAAW By Alok, assim entendidos por Vitrine, Prateleiras e Home, correspondem ao preço de venda da WAAW By Alok, sendo que o preço final de compra do produto será aquele informado a você assim que adicionar o produto no carrinho. <\/p><p>Você estará se comprometendo a realizar o pagamento a partir do momento em que concluir o pedido, nos termos e nas condições selecionados quando da sua efetivação. Ao preço que consta no carrinho, para cada um dos produtos oferecidos, serão somadas as eventuais tarifas correspondentes aos gastos de envio (frete) pertinentes. Em qualquer caso, tais tarifas serão comunicadas previamente a você antes da finalização da compra. <\/p><p>O valor do frete para as compras efetuadas por você pode variar conforme a localidade de entrega, peso e dimensões do(s) produto(s). Para calcular o valor de frete a ser pago, bem como prazo de entrega estimado para sua região, você deve digitar o CEP no local indicado para entrega e escolher o(s) produto(s). <\/p><p>Você também deverá pagar o valor correspondente a seu pedido por meio das formas de pagamento disponíveis no site WAAW By Alok.  <\/p><p>As formas de pagamento aceitas, são: boleto bancário (à vista), pix e cartão de crédito (nesse caso, há possibilidade de parcelamento, basta consultar as condições vigentes à época da compra). <\/p><p>Para pagamentos com cartão de crédito, o(s) pedido(s) estará(ão) sujeito(s) à aprovação da administradora do cartão de crédito elegido por você. As informações contidas no cadastro são passíveis de confirmação, que poderão ser solicitadas pelo site WAAW By Alok, por e-mail. <\/p><p>Para compras pagas por meio de boleto bancário, o prazo para entrega é considerado a partir da confirmação do pagamento pela instituição financeira. A confirmação pode ser realizada em até 3 (três) dias úteis, a partir do pagamento, sendo que este prazo é estimado e pode variar. <\/p><p>Uma vez formalizado(s) o(s) pedido(s), ou seja, com a aceitação das condições dos presentes Termos pelo Consumidor e a confirmação do processo de compra, o site WAAW By Alok enviará um e-mail ao Consumidor confirmando os detalhes da compra realizada. <\/p><p>Após a finalização do pedido, não é possível que você altere sua forma de pagamento ou endereço de entrega, tal como solicitar adiantamento ou, ainda, prioridade da entrega. O prazo máximo de entrega será informado no ato da compra, sendo que sua contagem, em regra, terá início somente após a aprovação de pagamento, que poderá variar de acordo com a forma de pagamento escolhida por você. <\/p><p>3. Condições De Entrega <\/p><p>O site WAAW By Alok se compromete a entregar o produto em perfeito estado e na localidade que você indicar no ato da compra, sendo que as informações cadastradas são de sua responsabilidade. Após a confirmação do pagamento ou confirmação do pedido, nos termos do item 2 acima, o site WAAW By Alok, providenciará a entrega do produto diretamente no seu endereço indicado, no prazo informado no momento da finalização da compra. <\/p><p>Para cada item incluído no pedido, é informado novamente o prazo de entrega, que pode sofrer variações em função da maior quantidade de unidades do(s) produto(s). Para pedidos com mais de 01 (um) item, pode haver prazos de entrega diferentes, conforme a disponibilidade em estoques da WAAW By Alok. <\/p><p>Quando o(s) pedido(s) contiver(em) mais de 01 (um) produto, as entregas poderão ocorrer separadamente. Esta situação está relacionada ao tamanho do(s) produto(s), ao estoque em que ele se encontra e ao sistema de entrega. O prazo de entrega informado durante o procedimento de compra do(s) produto(s) leva em consideração o estoque, a região, o processo de emissão da nota fiscal, o tempo de preparo do(s) produto(s) e sua origem, além disso o prazo é contabilizado em dias úteis. As entregas dos Produtos são realizadas de segunda a sexta-feira, das 8h às 19h. Excepcionalmente, algumas entregas de Produtos podem ocorrer aos sábados. Caso o Consumidor tenha interesse em agendar o período no qual a entrega deverá ser realizada (manhã ou tarde) deverá entrar em contato com a Central de Atendimento (SAC). <\/p><p>A cada atualização no status de entrega do pedido, se o Consumidor tiver solicitado, o sistema do site WAAW By Alok pode enviar, automaticamente, e-mails de alerta para o Consumidor. É necessário que haja pessoa autorizada pelo Consumidor no local para receber o item, maior de 18 (dezoito) anos e portando documento de identificação, sendo necessário checar, no ato da entrega, se a mercadoria está conforme o solicitado. Se o produto estiver em perfeitas condições, deverá ser assinado o Comprovante de Recebimento. Consulte a Política de Troca e Devoluções para mais informações. <\/p><p>Não se consideram atrasos no envio aqueles casos em que o(s) pedido(s) saiu(ram) do estoque dentro do prazo acordado e não foi possível finalizar a entrega por causas atribuídas ao consumidor, como, por exemplo, em razão da ausência do Consumidor ou pessoa autorizada no local de entrega, recusa da entrega por terceiros, ou fenômenos naturais ou sociais (greves, lockout, manifestações, paralisações, etc.) que impeçam o transportador de chegar ao local de entrega. Nessas situações, a loja WAAW By Alok não poderá ser responsabilizado pelo atraso na entrega dos produtos. <\/p><p>Caso não seja possível realizar a entrega do(s) Produto(s) por ausência do Consumidor, de pessoa autorizada, no local de entrega indicado pelo Consumidor no momento da compra, ou por restrições de horário do condomínio ou por limitações físicas que impeçam a entrega ou, ainda, por erro do Consumidor em indicar o local correto da entrega no ato da compra dos Produtos, a transportadora fará mais 2 (duas) tentativas subsequentes e além disso o SAC da WAAW By Alok, fará contato com o Consumidor. Caso as 3 (três) tentativas de entrega fracassem, os produtos adquiridos serão devolvidos ao estoque da Loja WAAW By Alok, o pedido será cancelado e o reembolso do valor da compra ao Consumidor ocorrerá nos mesmos termos previstos na Política de Trocas e Devolução com relação à devolução por arrependimento da compra. Consulte a Troca e Devoluções para mais informações. <\/p><p>Considera-se efetuada cada entrega, a partir do momento no qual o entregador coloca o produto à disposição do Consumidor, o que se comprova por meio do sistema de controle utilizado pela WAAW By Alok. Se houver qualquer vício no produto adquirido, exceto defeito de fabricação, o Consumidor deve, no ato do recebimento, recusar o recebimento e entrar em contato imediatamente com o SAC WAAW By Alok, caso constate alguma das situações a seguir: <\/p><p>(i)produto avariado no transporte; (ii) embalagem violada; (iii) produto em desacordo com o pedido; (iv) falta da nota fiscal; ou (v) discrepância entre a descrição da nota fiscal e produto recebido. <\/p><p>Consulte a Troca e Devoluções para mais informações. <\/p><p>A WAAW By Alok não autoriza a transportadora a: <\/p><p>(i) entrar no domicílio; (ii) entregar por meios alternativos (exemplo: içar produto por janela); (iii) abrir a embalagem do produto; (iv) realizar entrega em endereço diferente do que consta no DANFE; (v) realizar entrega a menor de idade ou sem documento de identificação; (vi) testar ou realizar qualquer tarefa que implique em manuseio ou aplicação dos produtos entregues. <\/p><p> <\/p><p>4. <strong>DIREITO DE ARREPENDIMENTO<\/strong> <\/p><p>O Usuário poderá, no prazo de 7 (sete) dias corridos, contados a partir da data de recebimento do produto, solicitar o cancelamento do seu pedido. Para isso, o Usuário deverá entrar em contato com a WAW por meio dos canais de comunicação disponibilizados na Loja WAAW By Alok.  <\/p><p>O(s) produto(s) deverá(ão) ser devolvido(s) na embalagem original, sem indícios de uso, sem violação do lacre original, acompanhados do canhoto da fatura ou do comprovante de entrega e todos os acessórios e\/ou item que acompanhem o(s) respectivo(s) produto(s). Nas solicitações de desistência ou arrependimento é imprescindível a etiqueta\/lacre no produto, bem como que o(s) produto(s) esteja(m) em perfeito estado, acompanhado(s) da guia da fatura ou da nota de entrega. O direito de arrependimento poderá ser exercido somente pelo Usuário e não por um terceiro.  <\/p><p>Se as condições mencionadas acima forem atendidas, a Loja WAAW By Alok fará a restituição dos valores pagos utilizando a mesma forma de pagamento escolhida no processo de compras.  <\/p><p>Após a solicitação de cancelamento\/arrependimento a Loja WAAW By Alok será responsável por recolher o(s) produto <\/p><p>5. Trocas E Devoluções Em Caso De Não Conformidade <\/p><p>O Consumidor deverá entrar em contato com o SAC do site WAAW By Alok tão logo tenha identificado algum não conformidade no início do uso dos produtos adquiridos na loja. O site WAAW By Alok isenta-se da obrigação de atender às solicitações de troca ou devolução de qualquer produto devolvido caso as condições da Política de Troca e Devoluções não sejam devidamente cumpridas. Consulte a Troca e Devoluções para mais informações. <\/p><p>6. Devolução De Valores Pagos <\/p><p>Consulte a Troca e Devoluções para mais informações. <\/p><p>7. Serviço De Atendimento Ao Consumidor (SAC) <\/p><p>Contamos com um time de especialistas para sanar dúvidas, eventuais solicitações e reclamações a respeito do seu pedido ou de qualquer conteúdo do site WAAW By Alok. Poderá acionar o SAC por meio de telefone, envio de e-mail ou formulário em contato. Para registrar a reclamação sobre produto, o Consumidor deverá estar na posse do produto para informar a respectiva data de aquisição, número de pedido, dados da nota fiscal, bem como demais informações do produto que possam ser requeridas pelo SAC. <\/p><p>Telefone (41) 3012-7282 das 8h00 às 20h00, de segunda à sábado. Site, acessando o endereço eletrônico https:\/\/waaw.com.br\/pages\/contato E-mail: <a href=\"mailto:ajuda@waaw.com.br\" target=\"_blank\"><span style=\"text-decoration:underline\">ajuda@waaw.com.br<\/span><\/a> <\/p><p>8. Procedimentos De Segurança <\/p><p>O site WAAW By Alok conta com medidas de segurança comercialmente disponíveis no setor. Além disso, o processo de pagamento funciona através de um servidor seguro, utilizando-se o protocolo SSL (Secure Socket Layer). O servidor seguro estabelece uma conexão de modo que a informação transmitida é criptografada, assegurando que somente seja inteligível para o computador do Consumidor e do site WAAW By Alok. Dessa forma, ao utilizar o protocolo SSL, há a segurança de: <\/p><p>Que o Consumidor está comunicando seus dados ao servidor central site WAAW by Alok e não a qualquer outro que tente se passar por este; e que entre o Consumidor e o sistema do site WAAW by Alok os dados são transmitidos cifrados, evitando sua possível leitura ou manipulação por terceiros. <\/p><p>O processo de aprovação é feito diretamente com as Administradoras de Cartões e Bancos. Para a tranquilidade do Consumidor, o ícone do cadeado fechado, no canto superior da tela, indica absoluta segurança durante a transmissão de dados em compra por ele realizada. <\/p><p>Para máxima segurança do Consumidor, se houver qualquer divergência de informações cadastrais e de pagamento, o site WAAW By Alok poderá entrar em contato para confirmar os dados antes de aprovar o pedido. <\/p><p>Caso o Consumidor não responda favoravelmente ou não entregue ao site WAAW By Alok a documentação e informação no prazo solicitado, o(s) respectivo(s) pedido(s) poderá(ão) ser cancelado(s) automaticamente, à exclusivo critério do site WAAW By Alok. <\/p><p>Este procedimento é realizado para a segurança dos Consumidores do site WAAW By Alok e, portanto, ao aceitar os presentes Termos, o Consumidor aceita submeter-se ao procedimento de detecção de possíveis operações fraudulentas, antes mencionado, e, da mesma forma, autoriza o site WAAW By Alok P para que, uma vez fornecida a informação e documentos adicionais antes referidos, estes sejam utilizados paras transações futuras que o Consumidor realize no site WAAW By Alok. <\/p><p>Para mais informações acerca do armazenamento e tratamento de informações pelo site WAAW By Alok, verifique o disposto na Política de Privacidade aplicável ao site WAAW By Alok. <\/p><p> <\/p><p>9. Exclusão De Responsabilidade <\/p><p>As ofertas dos produtos podem ser encontradas na página principal do site WAAW By Alok. Porém, uma oferta pode ser excluída do site quando o(s) produto(s) em estoque estiver(em) esgotado(s) e não for possível efetuar a reposição. <\/p><p>Você deve estar ciente de que a informação dada sobre cada produto, assim como fotografias ou vídeos relacionados ao produto - incluindo nomes comerciais, marcas, símbolos distintivos de qualquer classe contidos no site WAAW By Alok - são expostos a título de orientação e ilustração. <\/p><p>O site WAAW By Alok não se responsabiliza por qualquer dano, seja de qualquer natureza, que possa advir a terceiros em decorrência de conduta imprópria, ofensiva ou contrária à legislação vigente e às orientações de uso e manuseio dos produtos. <\/p><p>Você declara estar ciente que o acesso ao site WAAW By Alok depende da funcionalidade simultânea de diversos fatores, alguns alheios ao controle do site WAAW By Alok, tais como a interação de servidores e serviços de telecomunicações de terceiros, a adequação dos seus equipamentos, e outros, a estes não se limitando. Assim, o site WAAW By Alok fica isento de qualquer responsabilidade por falhas decorrentes de qualquer impossibilidade de acesso ao site WAAW By Alok em virtude de motivos que fogem ao seu controle e diligência. <\/p><p>Não garantimos, sob nenhuma hipótese, que o site WAAW By Alok esteja livre de possíveis falhas, interrupções, vírus, problemas e outros fatores, não se responsabilizando, também, pela qualidade e segurança da rede utilizada por você para acesso ao site WAAW By Alok, uma vez que esta é mantida por terceiros, e, portanto, foge do nosso controle. <\/p><p>O site WAAW By Alok não será, em hipótese alguma, responsável por quaisquer danos decorrentes da interrupção do acesso ao site sempre que tal indisponibilidade ocorrer por culpa de terceiros, o que foge ao seu controle e diligência. <\/p><p>O Consumidor fica ciente que o site WAAW By Alok recomenda, para acesso ao site, a utilização de ferramentas e de tecnologia (hardware e\/ou software) devidamente seguras e atualizadas. Assim, qualquer utilização, pelo Consumidor, de ferramentas e tecnologia desatualizadas, não consideradas seguras, dar-se-á por conta e risco do próprio, ficando o site isento de qualquer responsabilidade por danos, de qualquer natureza, suportados pelo Consumidor. <\/p><p>Embora empregue seus melhores esforços, considerando as características dos sistemas informáticos, o site WAAW By Alok não se responsabiliza por atos de terceiros que logrem êxito em coletar ou utilizar, por quaisquer meios, dados cadastrais e informações disponibilizadas pelo Consumidor por meio do Portal. <\/p><p>O Consumidor está ciente de que o site WAAW By Alok não tem controle sobre links que sejam nele inseridos por terceiros, vez que não realiza o controle prévio de conteúdo dos mesmos. Assim, constitui obrigação do Consumidor a verificação dos regulamentos e das políticas dos sites acessados por meio de tais links, ficando o site isento de qualquer responsabilidade por danos de qualquer natureza eventualmente causados ao Consumidor em razão do acesso, desde já desaconselhado, a tais sites da Internet. <\/p><p>A conferência da adequação das dimensões dos produtos é de responsabilidade do Consumidor, que deverá se certificar de que os produtos estão de acordo com os limites espaciais do local da entrega. O site WAAW By Alok não se responsabiliza pela aplicação do produto, guincho, transporte pela escada e\/ou portas e janelas, ou içamento das entregas dos produtos adquiridos por meio do site. <\/p><p>TODAS E QUAISQUER NEGOCIAÇÕES COM TERCEIROS QUE OCORRAM EM DECORRÊNCIA DOS PRODUTOS ADQUIRIDOS POR MEIO DO SITE WAAW BY ALOK DAR-SE-ÃO AO INTEIRO RISCO DO CONSUMIDOR. O CONSUMIDOR CONCORDA COM A OBRIGAÇÃO DE INDENIZAR, EM AÇÃO REGRESSIVA, QUALQUER PREJUÍZO CAUSADO AO SITE WAAW BY ALOK EM DECORRÊNCIA DE AÇÕES QUE ENVOLVAM ATOS DO CONSUMIDOR. <\/p><p>10. Disposições Finais, Legislação E Foro <\/p><p>A tolerância de uma parte com a outra, relativa ao descumprimento de qualquer uma das obrigações que foram assumidas, não será considerada novação ou renúncia a qualquer direito, constituindo mera liberalidade, que não impedirá a parte tolerante de exigir da outra o fiel cumprimento destes Termos, a qualquer tempo. <\/p><p>Antes de comprar o(s) produto(s), você deve ler atentamente, em sua página, a descrição e especificações do(s) produto(s), como: indicação de uso, autonomia, cor do produto ou qualquer outra informação disponível. Ficou alguma dúvida? É só entrar em contato com o nosso SAC. <\/p><p>Em caso de qualquer cláusula dos presentes Termos ser declarada nula, as demais cláusulas permanecerão vigentes e serão interpretadas levando-se em conta a vontade das partes e a finalidade das mesmas. <\/p><p>O site WAAW by Alok P é gerido pela empresa FRESNOMAQ INDUSTRIA DE MAQUINAS S\/A, pessoa jurídica de direito privado, devidamente inscrita no CNPJ\/MF sob o nº. 06.337.280\/0001.04, com sede na Rua Antonio Singer, nº 200, Bairro São Marcos, no Município de São José dos Pinhais, Estado do Paraná, detentora da marca WAAW, para onde deverão ser direcionadas quaisquer notificações, intimações ou citações, que somente serão válidas com a expedição de aviso de recebimento. <\/p>"
+          }
+        },
+        "38ef3a44-6bad-4c25-8eec-60df010a033a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-logos-esg-waawkk.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__827f29d0-2bce-4a7b-9cea-92aa50bae1ee-richtext-1",
+        "38ef3a44-6bad-4c25-8eec-60df010a033a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e563df09-b7ba-416e-a963-57766b95aee8",
+    "e74d6d25-5a7f-4b81-a6b6-ef26631c72e0",
+    "f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8",
+    "827f29d0-2bce-4a7b-9cea-92aa50bae1ee"
+  ]
+}

@@ -239,7 +239,7 @@
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "subheading_specification": "Compare",
+        "subheading_specification": "",
         "title_specification": "Especificação de produto",
         "view_all_text": "Ver mais",
         "view_less_text": "Ver menos",
@@ -501,6 +501,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -516,6 +517,18 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
+      }
+    },
+    "a60f5cc1-d4f2-43e0-a115-b68ef72d4f55": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "related-products": {
@@ -632,6 +645,7 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
+    "a60f5cc1-d4f2-43e0-a115-b68ef72d4f55",
     "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
     "72335e0e-e77a-44f4-87d0-c279cb2fd451"

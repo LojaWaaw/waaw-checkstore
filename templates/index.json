@@ -7,30 +7,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/testebg-waaw-final2_77a274f0-6062-4cd0-b9d3-988bf3318ca5.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/testebg-waaw-final2-mobile_d6fa3d12-c0c3-4432-8b16-f61869826447.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "rgba(0,0,0,0)",
-            "background_gradient": ""
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/testebg-waaw-final2_77a274f0-6062-4cd0-b9d3-988bf3318ca5.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/testebg-waaw-final2-mobile_d6fa3d12-c0c3-4432-8b16-f61869826447.jpg",
+            "image": "shopify:\/\/shop_images\/02.Banner-20off-campanha-jogo-do-brasil-e-uruguai-arte.png",
+            "mobile_image": "shopify:\/\/shop_images\/03.Banner-20off-campanha-jogo-do-brasil-e-uruguai-arte.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -47,11 +25,79 @@
             "background": "rgba(0,0,0,0)",
             "background_gradient": ""
           }
+        },
+        "3fa239c1-571d-4ef2-b2e6-42295daffa9e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04.1400x400-Banner-loja-waaw_4c58f2a4-f855-4c53-bd34-1958708ae2c1.png",
+            "mobile_image": "shopify:\/\/shop_images\/05.525x700-Banner-loja-waaw.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/todos-os-produtos",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "433e7995-a7b1-4b47-856f-34b9cd6bb796": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/06.1400x400-Banner-loja-waaw_8674bdaa-77a0-4bdf-8966-0916b7137b5c.png",
+            "mobile_image": "shopify:\/\/shop_images\/07.1400x400-Banner-loja-waaw.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "2f4b57fa-b57f-4dc6-875c-adb7c79c36e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02.1400x400-Banner-loja-waaw_568fa583-4dd9-453a-885f-d958cedee88e.png",
+            "mobile_image": "shopify:\/\/shop_images\/03.525x700-Banner-loja-waaw_fea4a9ba-8e65-441c-a0bb-95d18a2748a9.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
         }
       },
       "block_order": [
         "slide-1",
-        "slide-2"
+        "3fa239c1-571d-4ef2-b2e6-42295daffa9e",
+        "433e7995-a7b1-4b47-856f-34b9cd6bb796",
+        "2f4b57fa-b57f-4dc6-875c-adb7c79c36e2"
       ],
       "settings": {
         "full_width": true,
@@ -113,7 +159,7 @@
           "settings": {
             "video": "shopify:\/\/files\/videos\/WAAW_1080.mp4",
             "external_video_url": "",
-            "show_video_controls": false,
+            "show_video_controls": true,
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -135,7 +181,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-waaw-quadrad2.jpg",
+            "image": "shopify:\/\/shop_images\/08.700x583-Banner-loja-waaw.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -157,7 +203,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-waaw-quadrado3_cc48e0fd-e9d2-44c4-a2a5-61b6bdd72b41.jpg",
+            "image": "shopify:\/\/shop_images\/09.1000x429-Banner-loja-waaw.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -218,6 +264,7 @@
         "template--15963751350447__a9181c20-ce96-4fa8-824c-3423ebf2a320-item-1",
         "de60dfa5-d95a-4815-9efd-ac61ce334cfe"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_mobile": true,
@@ -309,7 +356,7 @@
             "stretch_image": true,
             "title": "Energy 100",
             "link_text": "Fone com baixa latência. Respeita o seu game",
-            "link_url": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-200eb",
+            "link_url": "shopify:\/\/products\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws",
             "background": "",
             "title_color": "#e0e621",
             "text_color": "#ffffff",
@@ -407,6 +454,7 @@
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10",
         "46518564-b311-4d94-b8f3-77e8e225cf1e"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "product": "fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
@@ -438,6 +486,41 @@
         "text_color_outside": "#000000"
       }
     },
+    "8417acb4-b17b-4688-bb0a-243e90e46732": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SD5A6853_1.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1_1.png",
+            "icon_width": 200,
+            "subheading": "",
+            "title": "RESPEITA O SOM COM A GALERA.",
+            "content": "<p>Escuta a batida que vem de fora.<\/p><p><strong>Caixa de Som WAAW US100<\/strong><\/p>",
+            "link_text": "Descubra",
+            "link_url": "shopify:\/\/products\/caixa-de-som-bluetooth-us-100sb",
+            "background": "#e0e621",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
     "901cf5c6-524e-4c15-a997-0dcfab0e5c7c": {
       "type": "slideshow",
       "blocks": {
@@ -445,7 +528,6 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner-waaw-bg.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner-waaw-bg-mobile.jpg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -467,6 +549,7 @@
       "block_order": [
         "template--15963751350447__901cf5c6-524e-4c15-a997-0dcfab0e5c7c-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -488,7 +571,7 @@
         "1212c689-605b-4d10-b7ea-db0cbfd58ea2": {
           "type": "item",
           "settings": {
-            "title": "SPEAKERS",
+            "title": "",
             "reduce_margins": true,
             "subheading": "CAIXAS DE SOM",
             "content": "<p>As <strong>caixas de som do Alok <\/strong>levam música para qualquer lugar. Desenvolvidas por quem entende de música, entregam um <strong>som com potência e qualidade <\/strong>incomparáveis.<\/p>",
@@ -509,6 +592,7 @@
         "1212c689-605b-4d10-b7ea-db0cbfd58ea2",
         "4556e719-c0b2-4413-a9fe-20af45e3bb11"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_mobile": true,
@@ -534,7 +618,7 @@
           "settings": {
             "column_size": "4",
             "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid1.jpg",
-            "banner_link": "shopify:\/\/products\/fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
+            "banner_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
             "banner_position": "above",
             "product": "fone-de-ouvido-tws-bluetooth-mob-100eb"
           }
@@ -544,7 +628,7 @@
           "settings": {
             "column_size": "4",
             "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid2.jpg",
-            "banner_link": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
+            "banner_link": "shopify:\/\/products\/caixa-de-som-bluetooth-me-100sb",
             "banner_position": "bellow",
             "product": "waaw-boom-100sb-caixa-de-som"
           }
@@ -554,7 +638,7 @@
           "settings": {
             "column_size": "4",
             "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid3.jpg",
-            "banner_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
+            "banner_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
             "banner_position": "above",
             "product": "fone-bluetooth-cancelamento-ruido-sense-300hbnc"
           }
@@ -595,48 +679,13 @@
         "newsletter_text_color": ""
       }
     },
-    "8417acb4-b17b-4688-bb0a-243e90e46732": {
-      "type": "media-with-text",
-      "blocks": {
-        "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SD5A6853_1.png",
-            "media_width": 65,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1_1.png",
-            "icon_width": 200,
-            "subheading": "",
-            "title": "RESPEITA O SOM COM A GALERA.",
-            "content": "<p>Escuta a batida que vem de fora.<\/p><p><strong>Caixa de Som WAAW<br\/>US100<\/strong><\/p>",
-            "link_text": "Descubra",
-            "link_url": "shopify:\/\/products\/caixa-de-som-bluetooth-us-100sb",
-            "background": "#e0e621",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "none"
-      }
-    },
     "3eeb7804-8889-479a-a643-3fc7d2f522b6": {
       "type": "multi-column",
       "blocks": {
         "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-waaw-faq_7e5bcd5f-26a2-442f-a825-4914b0d65aca.jpg",
+            "image": "shopify:\/\/shop_images\/10.1000x429-Banner-loja-waaw.png",
             "item_icon_width": 1,
             "column_size": "1.5",
             "title": "",
@@ -687,13 +736,46 @@
         "newsletter_text_color": "#1a1a1a"
       }
     },
+    "59298897-710d-4e7a-8287-4d650730155a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Todos os produtos foram desenvolvidos pelo Alok para você curtir uma fantástica #experiênciawaaw",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Do abrir ao fechar dos olhos, a WAAW acompanha o ritmo da sua vida. Transformamos o som em movimento e atitude. Ouça do seu jeito: em casa, na academia, no ônibus, sozinho, com os amigos, no trabalho, em momentos de lazer. Na hora e onde você quiser!<\/p><p>A WAAW by Alok traz todas as sensações para você curtir do seu jeito. Oferecemos uma linha completa com diferentes modelos de fone de ouvido, headphones e caixas de som com estilo e design moderno. Seja para ouvir músicas no intervalo do almoço, disputar horas de jogos online, fazer aquela festa ou simplesmente escutar seu podcast preferido.<br\/><\/p><p>A WAAW by Alok te deixa conectado ao que realmente importa para você.<br\/>Conheça uma experiência singular na forma de ouvir e ser ouvido.<br\/><\/p><p><strong>Faça parte do mundo WAAW by Alok!<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1",
+        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "5707dfc9-797a-4b73-b0c7-a8da84710061": {
       "type": "blog-posts",
       "blocks": {
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1": {
           "type": "blog",
           "settings": {
-            "blog": "blog-de-teste",
+            "blog": "novidades",
             "posts_count": 3,
             "stack_items": false
           }
@@ -702,6 +784,7 @@
       "block_order": [
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "show_excerpt": true,
@@ -719,6 +802,23 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "1697572995523764ae": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "6d15fe12-458d-4518-b504-d5f0e8c7b38f": {
@@ -773,38 +873,6 @@
         "accordion_background": "rgba(0,0,0,0)",
         "accordion_text_color": ""
       }
-    },
-    "59298897-710d-4e7a-8287-4d650730155a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Todos os produtos foram desenvolvidos com muito cuidado e carinho pelo Alok para você curtir uma fantástica #experiênciawaaw",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Do abrir ao fechar dos olhos, a WAAW acompanha o ritmo da sua vida.<br\/>Transformamos o som em movimento e atitude.<br\/>Ouça do seu jeito: em casa, na academia, no ônibus, sozinho, com os amigos, no trabalho, em momentos de lazer.<br\/>Na hora e onde você quiser! A WAAW by Alok traz todas as sensações para você curtir do seu jeito.<br\/>Oferecemos uma linha completa com diferentes modelos de fone de ouvido, headphones e caixas de som com estilo e design moderno.<br\/>Seja para ouvir músicas no intervalo do almoço, disputar horas de jogos online, fazer aquela festa ou simplesmente escutar seu podcast preferido.<br\/>A WAAW by Alok te deixa conectado ao que realmente importa para você.<br\/>Conheça uma experiência singular na forma de ouvir e ser ouvido.<br\/><strong>Faça parte do mundo WAAW by Alok!<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-heading-1",
-        "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -816,13 +884,14 @@
     "88abb4a5-7746-4b34-b167-389da820abb6",
     "003d4475-eb16-480d-9f28-9ed37ac8435a",
     "96137545-d7a9-444f-9162-ae9574a14bd0",
+    "8417acb4-b17b-4688-bb0a-243e90e46732",
     "901cf5c6-524e-4c15-a997-0dcfab0e5c7c",
     "fe17a1e4-42dc-485f-a993-97816c3ac84b",
     "9ed2683d-0f72-46b3-8471-cdd7ece52232",
-    "8417acb4-b17b-4688-bb0a-243e90e46732",
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
+    "59298897-710d-4e7a-8287-4d650730155a",
     "5707dfc9-797a-4b73-b0c7-a8da84710061",
-    "6d15fe12-458d-4518-b504-d5f0e8c7b38f",
-    "59298897-710d-4e7a-8287-4d650730155a"
+    "1697572995523764ae",
+    "6d15fe12-458d-4518-b504-d5f0e8c7b38f"
   ]
 }

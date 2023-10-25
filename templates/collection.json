@@ -2,17 +2,17 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
-      "disabled": true,
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
-        "enable_parallax": true,
-        "show_collection_title": true,
-        "show_collection_description": true,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/alok_d3d91537-4b85-4ca7-bffc-1834f80f306c.png",
+        "image": "shopify:\/\/shop_images\/02.Banner-desktop-pagina-cotegorias_269f7560-bf0b-4033-a3fb-ff420c8d4f6a.png",
+        "mobile_image": "shopify:\/\/shop_images\/03.Banner-mobile-pagina-cotegorias_88f90122-fccb-48e7-bcce-6e17ce4b6a4a.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",

@@ -33,6 +33,7 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true
           }
@@ -118,6 +119,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -230,16 +232,16 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
+        "full_width": false,
+        "subheading": "",
         "title": "O fone de ouvido esportivo MOVE 100 é ideal para quem tem um estilo de vida ativo.",
         "content": "<p>O fone de ouvido esportivo <strong>MOVE 100EBS<\/strong> é a escolha perfeita para quem procura conforto para ouvir músicas enquanto pratica atividades físicas. Possui uma bateria de longa duração de até 14 horas, você pode se concentrar no que realmente importa. <\/p><p>Com sua proteção IPX4, o <strong>MOVE 100EBS<\/strong> é resistente à água e ao suor, permitindo que você se exercite ao ar livre ou em ambientes com condições adversas. Tenha liberdade para treinar em ambientes internos ou externos. <\/p><p>Seu acabamento emborrachado oferece maior aderência e conforto, e o material flexível se ajusta facilmente aos contornos de suas orelhas, proporcionando um encaixe seguro e confortável.  <\/p><p>Através da tecnologia Bluetooth 5.0, oferece uma conexão mais rápida e estável com seus dispositivos. Além disso, a conexão multipontos permite que você se conecte simultaneamente a dois aparelhos, para que possa ouvir músicas em seu notebook e ainda atender chamadas em seu smartphone sem interromper sua experiência sonora. <\/p><p>Com o recurso Hands Free, é possível atender chamadas com um simples toque no controle do fone de ouvido. Além disso, o <strong>MOVE 100EBS<\/strong> é um fone de ouvido compatível com assistentes de voz do seu dispositivo, permitindo realizar comandos com mais facilidade. <\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "subheading_specification": "Compare",
-        "title_specification": "Especificação de produto",
+        "subheading_specification": "",
+        "title_specification": "",
         "view_all_text": "Ver mais",
         "view_less_text": "Ver menos",
         "view_product": "View",
@@ -499,6 +501,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -514,28 +517,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 8,
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Veja também",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -652,6 +633,40 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "fdc28ac2-1470-423d-8fb7-bd167132af3b": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -662,8 +677,9 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
-    "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "fdc28ac2-1470-423d-8fb7-bd167132af3b",
+    "related-products"
   ]
 }

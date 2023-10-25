@@ -1,0 +1,193 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "e563df09-b7ba-416e-a963-57766b95aee8": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "SOBRE A WAAW BY ALOK",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-1",
+        "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
+      }
+    },
+    "e74d6d25-5a7f-4b81-a6b6-ef26631c72e0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Promoções e cupons",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-richtext-1": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Construída a partir de uma sociedade entre a WAP, a maior empresa desenvolvedora de tecnologia de bens de consumo do Brasil, e Alok, o artista brasileiro mais ouvido no mundo, a marca nasce com o propósito de ofertar produtos de alta qualidade no segmento de áudio. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-subheading-1",
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-heading-1",
+        "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--15985498914991__f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8-image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alok_2_73e3e7a4-c56e-4c77-bbb5-024eabdf475b.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p><em>Temos como propósito retribuir valor para a sociedade, a WAAW conta com ações de ESG (Environmental, Social and Corporate Governance) para contribuir no desenvolvimento humano e preservação do meio ambiente, via Instituto Alok e parceiros.   <\/em> <\/p><p><strong>Para todos, em todos os momentos.<\/strong> <\/p><p><strong>WAAW<\/strong> <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "827f29d0-2bce-4a7b-9cea-92aa50bae1ee": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15985498914991__827f29d0-2bce-4a7b-9cea-92aa50bae1ee-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>REGULAMENTO FRETE GRÁTIS<\/p><p>1 Frete Grátis para pedidos acima de R$199,99 para as regiões sul e sudeste;<\/p><p>REGULAMENTO GERAL DOS CUPONS: <\/p><p>1 DAS CONDIÇÕES DE PARTICIPAÇÃO<\/p><p>1.1. A compra com o cupom de desconto deve ser realizada no site da Loja WAAW By Alok no período determinado, mediante as condições mencionadas abaixo. <\/p><p>1.2. O código do cupom deve ser copiado sem alterações, inclusive troca de letras maiúsculas por minúsculas, e vice-versa. <\/p><p>1.3. Quando houver a digitação e\/ou finalização da compra com os cupons após o limite de utilizações do mesmo, o desconto associado ao código não poderá ser concedido. <\/p><p><\/p><p>2 UTILIZAÇÃO DO CUPOM <\/p><p>2 Após selecionar o produto, o Participante deve colocá-lo no carrinho de compras através do botão COMPRAR. <\/p><p>2.2 No carrinho de compras clique “Ir para o Checkout“. <\/p><p>2.3 No Checkout deve digitar o código do cupom de desconto no campo \"Código de desconto\" e clicar em \"Aplicar\". <\/p><p>2.4. O desconto será aplicado nos produtos da promoção e será válido para qualquer forma de pagamento. Atenção: a compra só se torna efetiva quando os pedidos são faturados, isto é, após o pagamento do boleto bancário e sua aprovação integral e\/ou a aprovação da administradora do cartão. <\/p><p>2.5. O desconto será concedido exclusivamente sobre o valor do produto, excluindo-se o valor do frete. <\/p><p>2.6. O desconto está limitado a 5 produtos iguais por compra. <\/p><p>2.7. O benefício destina-se unicamente aos Participantes, não podendo ser objeto de comercialização por terceiros. <\/p><p><\/p><p>3. DA DURAÇÃO DA PROMOÇÃO <\/p><p>3.1. A promoção será válida no período determinado nas regras abaixo. <\/p><p><\/p><p>4. REGRAS GERAIS <\/p><p>4.1. Apenas um cupom poderá ser utilizado por pedido. O benefício não é cumulativo com outro cupom ou promoção. O cupom é válido somente no site da Loja WAAW By Alok. <\/p><p>4.2. O desconto somente poderá ser utilizado para produtos vendidos pelo site da Loja WAAW By Alok. Em nenhuma hipótese será revertido em dinheiro. <\/p><p>4.3. Em caso de cancelamento da compra devido a arrependimento, troca ou devolução, o valor a ser restituído será o mesmo do pagamento efetuado, já incluído o desconto. <\/p><p><\/p><p>5. DAS DISPOSIÇÕES FINAIS <\/p><p>5.1. A participação na promoção implica a aceitação total e irrestrita pelo Participante de todos os itens deste Regulamento, seus termos e condições. <\/p><p>5.2. O presente Regulamento poderá ser alterado e\/ou a Promoção suspensa e\/ou cancelada por motivo de força maior ou qualquer outro fator ou motivo imprevisto. <\/p><p>5.3. Quaisquer dúvidas, sugestões e\/ou reclamações poderão ser encaminhadas por meio do telefone 41 3012-7282 e pelo e-mail ajuda@waaw.com.br. <\/p><p><\/p><p><\/p><p><\/p><p>REGULAMENTO DA PROMOÇÃO ALOKFAZ31:<br\/><\/p><p>1. Promoção válida entre 18h do dia 26\/08\/2022 a 08h do dia e 27\/08\/2022;<br\/><\/p><p>2. Frete Grátis na Loja WAAWentre 18h do dia 26\/08\/2022 a 08h do dia e 27\/08\/2022;<\/p><p>3. O desconto não é cumulativo com outros descontos ou cupons da Loja WAAW;<\/p><p>4. Promoção válida para quantas compras desejar, e não é exclusiva, pode divulgar à vontade;<\/p><p>5. O estoque é limitado, então os produtos da promoção podem acabar muito rápido;<\/p><p>6. Demais regras consultar o REGULAMENTO GERAL DOS CUPONS.<\/p><p><\/p><p>REGULAMENTO DA PROMOÇÃO ALOK15:<\/p><p>1. Promoção válida entre os dias 26\/08\/2022 e 28\/08\/2022;<br\/><\/p><p>2. Frete Grátis na Loja WAAW entre os dias 26\/08\/2022 e 28\/08\/2022;<\/p><p>3. O desconto não é cumulativo com outros descontos ou cupons da Loja WAAW;<\/p><p>4. Cupom de desconto concedido aos Participantes que se cadastrarem no quiz de curiosidades;<\/p><p>5. O estoque é limitado, então os produtos da promoção podem acabar muito rápido;<\/p><p>6. Demais regras consultar o REGULAMENTO GERAL DOS CUPONS<\/p>"
+          }
+        },
+        "38ef3a44-6bad-4c25-8eec-60df010a033a": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-logos-esg-waawkk.png",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__827f29d0-2bce-4a7b-9cea-92aa50bae1ee-richtext-1",
+        "38ef3a44-6bad-4c25-8eec-60df010a033a"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e563df09-b7ba-416e-a963-57766b95aee8",
+    "e74d6d25-5a7f-4b81-a6b6-ef26631c72e0",
+    "f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8",
+    "827f29d0-2bce-4a7b-9cea-92aa50bae1ee"
+  ]
+}

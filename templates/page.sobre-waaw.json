@@ -13,12 +13,13 @@
         "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fundo_lunar.webp",
+            "image": "shopify:\/\/shop_images\/05.Banner-pagina-sobre-waaw.png",
+            "mobile_image": "shopify:\/\/shop_images\/06.Banner-mobile-pagina-sobre-waaw.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "SOBRE A WAAW BY ALOK",
+            "title": "",
             "heading_tag": "h1",
             "button_text": "",
             "button_link": "",
@@ -66,7 +67,7 @@
         "transition_type": "fade_with_text",
         "autoplay": false,
         "cycle_speed": 6,
-        "background": "#F2F2F2",
+        "background": "#f2f2f2",
         "background_gradient": "",
         "slideshow_margin_top": 20,
         "slideshow_margin_bottom": 20
@@ -112,26 +113,146 @@
         "text_color": ""
       }
     },
-    "f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8": {
+    "127931f0-50f2-4158-8af2-2b2224daa5a9": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08.Banner-pagina-sobre-waaw.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        },
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09.Banner-pagina-sobre-waaw.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        },
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.Banner-pagina-sobre-waaw.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        },
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.Banner-pagina-sobre-waaw.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        },
+        "56e16850-7a6e-42b9-a294-fcd710a2c460": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.Banner-pagina-sobre-waaw.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-1",
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-2",
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-3",
+        "template--15985498914991__127931f0-50f2-4158-8af2-2b2224daa5a9-item-4",
+        "56e16850-7a6e-42b9-a294-fcd710a2c460"
+      ],
+      "settings": {
+        "full_width": false,
+        "position_images": "grid",
+        "block_size": "medium",
+        "vertical_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "b2810764-40c8-4aa6-8a86-0a980d6b8cd8": {
       "type": "media-with-text",
       "blocks": {
-        "template--15985498914991__f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8-image-1": {
+        "ce0d715d-60b4-4ec8-959f-596c1494a697": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alok_2_73e3e7a4-c56e-4c77-bbb5-024eabdf475b.png",
+            "image": "shopify:\/\/shop_images\/13.Banner-pagina-sobre-waaw.png",
             "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "",
-            "content": "<p><em>Temos como propósito retribuir valor para a sociedade, a WAAW conta com ações de ESG (Environmental, Social and Corporate Governance) para contribuir no desenvolvimento humano e preservação do meio ambiente, via Instituto Alok e parceiros.   <\/em> <\/p><p><strong>Para todos, em todos os momentos.<\/strong> <\/p><p><strong>WAAW<\/strong> <\/p>",
+            "title": "Criação da marca WAAW",
+            "content": "<p>Durante uma turnê pela Europa, Alok desenhou o esboço do logo em um guardanapo, apresentando o que a marca queria expressar: o seu momento WAAW.<\/p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#ffffff",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "template--15985498914991__b2810764-40c8-4aa6-8a86-0a980d6b8cd8-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.Gif-pagina-sobre-waaw.gif",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Desenvolvimento de produtos",
+            "content": "<p>Desde a criação da marca, o Alok está envolvido ativamente em todos os processos de desenvolvimento dos produtos, trazendo um conceito especial de quem vive a música.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
@@ -139,43 +260,72 @@
         }
       },
       "block_order": [
-        "template--15985498914991__f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8-image-1"
+        "ce0d715d-60b4-4ec8-959f-596c1494a697",
+        "template--15985498914991__b2810764-40c8-4aa6-8a86-0a980d6b8cd8-image-1"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
       }
     },
-    "827f29d0-2bce-4a7b-9cea-92aa50bae1ee": {
-      "type": "rich-text",
+    "e9575e4e-7ff9-46c3-a0c1-00381b3f59c6": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "template--15985498914991__827f29d0-2bce-4a7b-9cea-92aa50bae1ee-richtext-1": {
-          "type": "richtext",
+        "template--15985498914991__e9575e4e-7ff9-46c3-a0c1-00381b3f59c6-item-1": {
+          "type": "item",
           "settings": {
-            "content": "<p>A <strong>SAS Brasil<\/strong> é uma instituição social sem fins lucrativos, que desde 2013 tem como missão levar acesso à saúde especializada para quem mais precisa em todo território brasileiro.  O atendimento é realizado para crianças que não possuem acesso à saúde especializada englobando diversas especialidades. <\/p><p>A ação feita pela <strong>WAAW<\/strong> em conjunto com o <strong>Instituto Alok<\/strong> visa reverter 30% das vendas do 1º lote na Loja Online para a instituição. Os recursos serão destinados na logística de equipamentos da <strong>SAS Brasil<\/strong> (carretas, transporte de equipe etc.), além de compra de material para atendimento de cada área específica. Os recursos agregam e viabilizam o restante das<\/p>"
-          }
-        },
-        "38ef3a44-6bad-4c25-8eec-60df010a033a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-logos-esg-waawkk.png",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
+            "image_rotation_degrees": -2,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=kAAT7WbD82Y",
+            "subheading": "",
+            "title": "Parceria com a SAS Brasil",
+            "content": "<p>A SAS Brasil é uma instituição social sem fins lucrativos, que desde 2013 tem como missão levar acesso à saúde especializada para quem mais precisa em todo território brasileiro.  <br\/><br\/>O atendimento é realizado para crianças que não possuem acesso à saúde especializada englobando diversas especialidades.<\/p>",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "template--15985498914991__827f29d0-2bce-4a7b-9cea-92aa50bae1ee-richtext-1",
-        "38ef3a44-6bad-4c25-8eec-60df010a033a"
+        "template--15985498914991__e9575e4e-7ff9-46c3-a0c1-00381b3f59c6-item-1"
       ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "#ffffff",
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "93a53d90-7fa4-4281-a882-1e813b391a36": {
+      "type": "press",
+      "blocks": {
+        "template--15985498914991__93a53d90-7fa4-4281-a882-1e813b391a36-quote-1": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 70,
+            "author": "Alok",
+            "content": "Com a WAAW, além de proporcionar uma experiência singular e de alta qualidade na forma de ouvir música, tenho a missão de contribuir no desenvolvimento humano e preservação do meio ambiente por meio de ações ESG.",
+            "show_rating": false,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--15985498914991__93a53d90-7fa4-4281-a882-1e813b391a36-quote-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     }
   },
@@ -183,7 +333,9 @@
     "main",
     "e563df09-b7ba-416e-a963-57766b95aee8",
     "e74d6d25-5a7f-4b81-a6b6-ef26631c72e0",
-    "f4c3b632-d1a9-431d-bd7d-c160b5d0c4b8",
-    "827f29d0-2bce-4a7b-9cea-92aa50bae1ee"
+    "127931f0-50f2-4158-8af2-2b2224daa5a9",
+    "b2810764-40c8-4aa6-8a86-0a980d6b8cd8",
+    "e9575e4e-7ff9-46c3-a0c1-00381b3f59c6",
+    "93a53d90-7fa4-4281-a882-1e813b391a36"
   ]
 }

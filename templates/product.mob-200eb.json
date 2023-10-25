@@ -33,6 +33,7 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true
           }
@@ -118,6 +119,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -230,16 +232,16 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
+        "full_width": false,
+        "subheading": "",
         "title": "O MOB 200 é o fone de ouvido auricular com design compacto para você aproveitar suas músicas em qualquer lugar.",
         "content": "<p>O fone de ouvido WAAW <strong>MOB 200EB<\/strong> é ideal para quem busca qualidade de som, praticidade e liberdade. Com autonomia de 4 horas dos fones sem fio e 12 horas do case, que protege e mantém seus fones sempre à mão, você tem até 16 horas de música para te acompanhar durante o dia. <\/p><p>Confortável para usar, é um modelo auricular que se encaixa na orelha, sem a borrachinha que entra diretamente dentro da orelha. Ainda com proteção IPX4, é um fone resistente à respingos de água. <\/p><p>Com tecnologia Bluetooth 5.0, ele oferece conexão estável para que você possa desfrutar de suas músicas e podcasts favoritos sem interrupções. E graças à tecnologia TWS, você pode conectar ambos os fones simultaneamente, garantindo maior imersão sonora. Com o Modo Gamer, você pode experimentar ainda mais ação em seus jogos, pois o fone de ouvido permite que você escute cada detalhe dos sons do jogo sem atrasos.  <\/p><p>Através do touch nas laterais do fone de ouvido você pode controlar as músicas e acionar o modo gamer sem pegar no smartphone. Já com a função Hands Free e microfone embutido, você tem as mãos livres para atender, finalizar chamadas ou se movimentar enquanto conversa. <\/p><p>O WAAW <strong>MOB 200EB<\/strong> é um fone de ouvido moderno, que oferece uma experiência sonora imersiva. É uma excelente escolha para quem busca um produto completo para acompanhar seu dia a dia.  <\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "subheading_specification": "Compare",
-        "title_specification": "Especificação de produto",
+        "subheading_specification": "",
+        "title_specification": "",
         "view_all_text": "Ver mais",
         "view_less_text": "Ver menos",
         "view_product": "View",
@@ -499,6 +501,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -514,28 +517,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 8,
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Veja também",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -676,6 +657,40 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "8a3ccd1b-8d43-439e-991c-e801eb3d7588": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -686,8 +701,9 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
-    "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "8a3ccd1b-8d43-439e-991c-e801eb3d7588",
+    "related-products"
   ]
 }

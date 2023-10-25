@@ -36,7 +36,7 @@
             "icon_color": "",
             "title": "Frete Grátis",
             "content": "<p>Para pedidos acima de R$199,99 para as regiões sul e sudeste;<\/p>",
-            "link": "shopify:\/\/pages\/politica-de-entrega",
+            "link": "shopify:\/\/pages\/cupons-e-descontos",
             "link_text": "Acessar"
           }
         },
@@ -82,7 +82,7 @@
             "icon_color": "",
             "title": "Pagamento Seguro",
             "content": "<p>Cartão de Credito, Pix e Boleto<\/p>",
-            "link": "shopify:\/\/pages\/cupons-e-descontos",
+            "link": "shopify:\/\/pages\/termos-e-condicoes",
             "link_text": "Acessar"
           }
         }

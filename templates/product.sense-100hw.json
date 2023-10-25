@@ -33,6 +33,7 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true
           }
@@ -118,6 +119,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -230,16 +232,16 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
+        "full_width": false,
+        "subheading": "",
         "title": "Aproveite uma conexão ainda mais intensa com a música através do fone de ouvido com fio WAAW SENSE 100. ",
         "content": "<p>O fone de ouvido <strong>WAAW SENSE 100HW<\/strong> foi projetado para proporcionar horas de uso com conforto e sem interrupções. É um headphone Over Ear que se encaixa ao redor das orelhas, com almofadas de material macio e ajuste confortável para se adequar de forma perfeita e segura na sua cabeça.  <\/p><p>Com design compacto e dobrável, pode ser levado dentro da mochila para onde você quiser. <\/p><p>Com cabo de 1,2m e conector P3, possui botão de controle multifuncional para que possa atender chamadas, reproduzir, pausar, avançar ou voltar músicas, além de acionar a assistente de voz do seu dispositivo. Com microfone integrado, você tem as mãos livres enquanto conversa. <\/p><p>Possui compatibilidade com diversos dispositivos, incluindo smartphones, tablets, notebooks e muito mais, permitindo que você desfrute de sua música favorita em qualquer lugar e a qualquer hora.  <\/p><p>Com um som nítido e potente, o <strong>WAAW SENSE 100HW<\/strong> oferece uma experiência de áudio imersiva e envolvente que irá satisfazer até mesmo os ouvintes mais exigentes. <\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "subheading_specification": "Compare",
-        "title_specification": "Especificação de produto",
+        "subheading_specification": "",
+        "title_specification": "",
         "view_all_text": "Ver mais",
         "view_less_text": "Ver menos",
         "view_product": "View",
@@ -499,6 +501,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -514,28 +517,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 8,
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Veja também",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -612,6 +593,40 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "4e606875-da10-47c5-a35b-ead778277a3b": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -622,8 +637,9 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
-    "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "4e606875-da10-47c5-a35b-ead778277a3b",
+    "related-products"
   ]
 }

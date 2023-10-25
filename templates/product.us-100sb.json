@@ -33,6 +33,7 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true
           }
@@ -118,6 +119,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -230,16 +232,16 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
+        "full_width": false,
+        "subheading": "",
         "title": "Leve a festa para onde quiser com a caixa de som WAAW US 100!",
         "content": "<p>A caixa de som <strong>WAAW US 100SB<\/strong> oferece uma experiência sonora incrível com uma variedade de recursos avançados. Com até 10 horas de autonomia de bateria, você pode desfrutar de música sem interrupções por um longo período.<\/p><p>É possível reproduzir músicas com a conexão Bluetooth 5.0, que oferece conexão rápida e estável a partir de seu smartphone, tablet, computador ou através da entrada de cartão de memória (micro SD).<\/p><p>Com a tecnologia TWS, faz o pareamento de até duas <strong>WAAW US 100SB<\/strong> sem a necessidade de fios, oferecendo uma experiência de som mais imersiva com um verdadeiro som estéreo. Possui microfone embutido que permite atender chamadas sem precisar segurar o telefone, deixando as mãos livres para outras atividades.<\/p><p>Ideal para usar em locais próximos de piscinas e praias, é um produto resistente à água com proteção IPX6. Feito para durar, é um produto com toque emborrachado e resistente, ideal para levar onde quiser e estar pronto para curtir suas músicas.<\/p><p>Com sua qualidade de som superior, recursos avançados e design durável, a caixa de som <strong>WAAW US 100SB<\/strong> é uma escolha ideal para quem procura uma experiência sonora excepcional e portátil.<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "subheading_specification": "Compare",
-        "title_specification": "Especificação de produto",
+        "subheading_specification": "",
+        "title_specification": "",
         "view_all_text": "Ver Mais",
         "view_less_text": "Ver Menos",
         "view_product": "View",
@@ -499,6 +501,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -514,28 +517,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 8,
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Veja também",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -644,6 +625,40 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "505b3fdc-ac95-432c-8e38-cd984c832042": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -654,8 +669,9 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
-    "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "505b3fdc-ac95-432c-8e38-cd984c832042",
+    "related-products"
   ]
 }
