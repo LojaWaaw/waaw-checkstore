@@ -11,6 +11,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+    {% render 'tagInstallHead' %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
@@ -53,9 +54,24 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     {{ content_for_header }}
 
     {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    <script type="text/javascript">
+      //var _trustvox = [];_trustvox.push(['_storeId', '114666']);_trustvox.push(['_productId', {{product.id}}]);_trustvox.push(['_productName', {{product.title}}]);_trustvox.push(['_productPhotos', [{{ImagesSourceList}}]]);
+      var _trustvox = [];_trustvox.push(['_storeId', '114666']);_trustvox.push(['_productId', '{{product.id}}']);_trustvox.push(['_productName', '{{product.title}}']);
+    </script>
+    <script async="true" type="text/javascript" src="//static.trustvox.com.br/sincero/sincero.js"></script>
+
+    <script type="text/javascript">
+      var _trustvox_shelf_rate = _trustvox_shelf_rate || [];
+      _trustvox_shelf_rate.push(['_storeId', '114666']);
+    </script>
+    <script type="text/javascript" async="true" src="//rate.trustvox.com.br/widget.js"></script>
+    
   </head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
+
+    {% render 'tagInstallBody' %}
     {%- render 'shadow-dom-templates' -%}
 
     <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
@@ -84,5 +100,20 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+
+     {% comment %}Inicio Sellesta{% endcomment %}
+    <script type="text/javascript">
+(function(r,e,c,o,m,me,n,d,i,x){
+    r[m]=r[m]||function(){(r[m].i=r[m].i||[]).push(arguments)},
+    me=e.createElement(c),x=e.getElementsByTagName(c)[0],me.async=1,
+    me.src=o,x.parentNode.insertBefore(me,x)
+})(window,document,'script','https://getrcmx.com/i/tag.js','rcm1x');
+
+rcm1x(8675927,'init', {
+    lang:'pt-BR',
+    size:'m',
+});
+</script>
+   {% comment %}Fim Sellesta{% endcomment %}
   </body>
 </html>

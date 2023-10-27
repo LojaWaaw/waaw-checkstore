@@ -118,6 +118,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -230,16 +231,16 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
+        "full_width": false,
+        "subheading": "",
         "title": "Com a caixa de som US 200 DUO, você tem imersão completa na música!",
         "content": "<p>A caixa de som <strong>WAAW US 200 DUO<\/strong> é uma solução de áudio premium com um design inovador e recursos avançados que garantem uma experiência sonora incomparável. Com sua conectividade 3 em 1, pode ser usada divididas ou juntas conectadas a um mesmo smartphone, ou separadas individualmente conectadas a dois smartphones diferentes, oferecendo flexibilidade e conveniência sem precedentes.<\/p><p>Quando posicionadas corretamente, a <strong>US 200 DUO<\/strong> pode criar a sensação de som 360° proporcionando uma experiência imersiva e envolvente, onde quer que você esteja. Você tem até 14 horas de música sem parar em cada caixa, totalizando até 28 horas (se usada separadamente) de reprodução para você aproveitar ainda mais o momento.<\/p><p>Através do Bluetooth 5.0 permite conexão rápida e estável com dispositivos. Além disso, a tecnologia TWS faz o pareamento dos dois lados da caixa <strong>US 200 DUO<\/strong> via bluetooth, proporcionando um verdadeiro som estéreo. Para atender chamadas, basta clicar em um botão e desfrutar da liberdade de ter as mãos livres.<\/p><p>É um produto em tecido resistente e acabamentos em metal, com durabilidade e proteção. Conta com classificação de proteção IPX6 de resistência a água, sendo ideal para aproveitar em diversos ambientes sem preocupação.<\/p><p>Se você está procurando uma excelente experiência sonora com um design inovador e recursos avançados, a caixa de som <strong>WAAW US 200 DUO<\/strong> é a escolha perfeita para você.<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "subheading_specification": "Compare",
-        "title_specification": "Especificação de produto",
+        "subheading_specification": "",
+        "title_specification": "",
         "view_all_text": "Ver Mais",
         "view_less_text": "Ver Menos",
         "view_product": "View",
@@ -499,6 +500,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -514,28 +516,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 8,
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Veja também",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -636,6 +616,40 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "892c68e6-c91b-4974-9fb0-41d41bf103ed": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -646,8 +660,9 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
-    "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "892c68e6-c91b-4974-9fb0-41d41bf103ed",
+    "related-products"
   ]
 }

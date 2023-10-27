@@ -231,16 +231,16 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
+        "full_width": false,
+        "subheading": "",
         "title": "O fone de ouvido gamer ENERGY 100EBG traz uma experiência de jogo imersiva.",
         "content": "<p>Ouça todos os sons dos jogos, desde passos discretos até tiros e explosivos, e sinta como se estivesse dentro do game com o fone de ouvido gamer <strong>ENERGY 100EBG<\/strong>. Sua autonomia de 4 horas dos fones sem fio e 9 horas do case, permite até 13 horas de imersão nos jogos.  <\/p><p>O Modo Gamer com baixa latência oferece um menor tempo de resposta, permitindo ouvir cada detalhe em tempo real. Seu design ergonômico possibilita horas de uso com conforto. O fone intra-auricular acompanha 3 tamanhos de borrachinha, P, M e G, para que se adapte ao seu ouvido. <\/p><p>Para aprimorar ainda mais a experiência do jogo, o fone gamer conta a tecnologia True Wireless Stereo (TWS), para que cada lado do fone funcione de forma independente, podendo recarregar um fone enquanto usa o outro, ou em conjunto, para criar um som estéreo. Possui tecnologia Bluetooth 5.0, que permite uma conexão mais estável e rápida com os dispositivos.   <\/p><p>Com comandos no touch do fone de ouvido e microfone embutido você pode atender e finalizar chamadas. Além disso, através do touch é possível controlar músicas, ativar o modo gamer e acionar a assistente de voz do seu dispositivo rapidamente. Tudo isso de maneira fácil e prática.<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
-        "subheading_specification": "Compare",
-        "title_specification": "Especificação de produto",
+        "subheading_specification": "",
+        "title_specification": "",
         "view_all_text": "Ver Mais",
         "view_less_text": "Ver Menos",
         "view_product": "View",
@@ -525,6 +525,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -540,28 +541,6 @@
         "heading_gradient": "",
         "testimonial_card_background": "#f5f5f5",
         "testimonial_card_text_color": ""
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "recommendations_count": 8,
-        "products": [],
-        "full_width": true,
-        "stack_products": false,
-        "show_progress_bar": false,
-        "products_per_row_mobile": "1",
-        "products_per_row_desktop": 4,
-        "subheading": "",
-        "title": "Veja também",
-        "content": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "product_card_background": "#ffffff",
-        "product_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -694,6 +673,40 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "297b5616-e3a5-4354-af69-76d71b0e2e04": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
@@ -704,8 +717,9 @@
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
-    "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "297b5616-e3a5-4354-af69-76d71b0e2e04",
+    "related-products"
   ]
 }
