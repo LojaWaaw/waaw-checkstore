@@ -2334,10 +2334,6 @@ video-media[host] {
   display: grid;
 }
 
-video-media[autoplay], video-media:not([autoplay]) ~ * {
-  pointer-events: none;
-}
-
 video-media:not([playing]) {
   cursor: pointer;
 }
