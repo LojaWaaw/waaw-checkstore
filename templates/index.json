@@ -775,7 +775,8 @@
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1": {
           "type": "blog",
           "settings": {
-            "blog": "novidades",
+            "blog": "blog-de-teste",
+            "wordpress_url": "https:\/\/blog.waaw.com.br",
             "posts_count": 3,
             "stack_items": false
           }
@@ -784,7 +785,6 @@
       "block_order": [
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "show_excerpt": true,
