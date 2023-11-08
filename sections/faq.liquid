@@ -32,7 +32,6 @@
             {%- if section.settings.team_avatar != blank -%}
               {%- capture sizes -%}{{ section.settings.team_avatar_width }}px{%- endcapture -%}
               {%- capture widths -%}{{ section.settings.team_avatar_width }}, {{ section.settings.team_avatar_width | times: 2 | at_most: section.settings.team_avatar.width }}{%- endcapture -%}
-              {%- capture style -%}max-width: {{ section.settings.team_avatar_width }}px{%- endcapture -%}
               {{- section.settings.team_avatar | image_url: width: section.settings.team_avatar.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
             {%- endif -%}
 
