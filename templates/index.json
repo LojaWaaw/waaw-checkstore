@@ -777,6 +777,7 @@
           "settings": {
             "blog": "blog-de-teste",
             "wordpress_url": "https:\/\/blog.waaw.com.br",
+            "wordpress_category": "fones-de-ouvido",
             "posts_count": 3,
             "stack_items": false
           }
