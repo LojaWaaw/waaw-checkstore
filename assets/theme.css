@@ -5623,8 +5623,8 @@ split-lines {
   .feature-chart__table-row {
     --feature-chart-heading-width: 180px;
     column-gap: var(--spacing-6);
-    padding-block-start: var(--spacing-6);
-    padding-block-end: var(--spacing-6);
+    padding-block-start: var(--spacing-4);
+    padding-block-end: var(--spacing-4);
   }
 
   .feature-chart__table-row--product {
@@ -8216,7 +8216,7 @@ split-lines {
 @media screen and (min-width: 1150px) {
   .product-gallery--desktop-thumbnails-left {
     grid: auto / auto-flow auto minmax(0, 1fr);
-    align-items: center;
+    align-items: flex-start;
   }
 
   .product-gallery--desktop-thumbnails-left .product-gallery__thumbnail-list-wrapper {
