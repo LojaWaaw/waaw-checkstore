@@ -5623,8 +5623,8 @@ split-lines {
   .feature-chart__table-row {
     --feature-chart-heading-width: 180px;
     column-gap: var(--spacing-6);
-    padding-block-start: var(--spacing-4);
-    padding-block-end: var(--spacing-4);
+    padding-block-start: var(--spacing-2);
+    padding-block-end: var(--spacing-2);
   }
 
   .feature-chart__table-row--product {
