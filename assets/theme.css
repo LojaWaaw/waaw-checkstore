@@ -6411,6 +6411,7 @@ split-lines {
   color: inherit;
 }
 
+.mega-menu__title-links .reversed-link:hover,
 .mega-menu__nav a[href] span:hover {
   color: #E0E621;
   cursor: pointer;
@@ -10611,4 +10612,32 @@ split-lines {
 .blog-posts img {
   height: auto;
   aspect-ratio: 16 / 9;
+}
+
+.section-stack .button-toxins {
+  display: none;
+}
+
+@media screen and (max-width: 999px) {
+  .section-stack .button-toxins {
+    display: block;
+    position: absolute;
+    top: 115px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(var(--text-color) / .1);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .section-stack .button-toxins svg {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .section-stack #slide {
+    right: 15px;
+  }
 }
