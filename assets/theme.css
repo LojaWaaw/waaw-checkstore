@@ -5623,8 +5623,8 @@ split-lines {
   .feature-chart__table-row {
     --feature-chart-heading-width: 180px;
     column-gap: var(--spacing-6);
-    padding-block-start: var(--spacing-4);
-    padding-block-end: var(--spacing-4);
+    padding-block-start: var(--spacing-2);
+    padding-block-end: var(--spacing-2);
   }
 
   .feature-chart__table-row--product {
@@ -10508,10 +10508,6 @@ split-lines {
   width: 100%;
 }
 
-.shopify-section--multi-column:has(+ .shopify-section--blog-posts) .section {
-  padding-block-end: var(--spacing-6);
-}
-
 .shopify-section--footer-logo{
   border-bottom: 1px solid #f6f6f6;
 }
@@ -10610,4 +10606,9 @@ split-lines {
 
 .breadcrumb span:last-child {
   font-weight: bold;
+}
+
+.blog-posts img {
+  height: auto;
+  aspect-ratio: 16 / 9;
 }
