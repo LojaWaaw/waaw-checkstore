@@ -43,7 +43,7 @@
   {%- if link.links.size > 0 -%}
     <div class="mega-menu__content-links">
       {% assign size = link.links.size |  minus: 1 %}
-      <span class="mega-menu__title-links"><a href={{ link.links[size].url }}>{{ link.title  }}</a></span>
+      <span class="mega-menu__title-links"><a class="reversed-link hover:show" href={{ link.links[size].url }}>{{ link.title  }}</a></span>
       <ul class="mega-menu__nav" role="list">
         {%- for sub_link in link.links -%}
           <li class="v-stack gap-4 justify-items-start">
