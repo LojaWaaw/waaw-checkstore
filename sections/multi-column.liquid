@@ -22,7 +22,7 @@
     <div class="section-stack">
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
 
-      <div class="multi-column scroll-area bleed md:unbleed">
+      <div id="multi-column-carousel" class="multi-column scroll-area bleed md:unbleed">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'item' -%}
@@ -166,7 +166,38 @@
               </div>
           {%- endcase -%}
         {%- endfor -%}
-      </div>
+        </div>
+      <button id="slideBack" class="button-slide-about" type="button">{% render 'icon' with 'chevron-left' %}</button>
+      <button id="slide" class="button-slide-about" type="button">{% render 'icon' with 'chevron-right' %}</button>
+        
+      <script>
+        var button = document.getElementById('slide');
+        button.onclick = function () {
+          var container = document.getElementById('multi-column-carousel');
+          sideScroll(container,'right',50,300,300);
+        };
+
+        var back = document.getElementById('slideBack');
+        back.onclick = function () {
+          var container = document.getElementById('multi-column-carousel');
+          sideScroll(container,'left',50,300,300);
+        };
+
+        function sideScroll(element,direction,speed,distance,step){
+          scrollAmount = 0;
+          var slideTimer = setInterval(function(){
+              if(direction == 'left'){
+                  element.scrollLeft -= step;
+              } else {
+                  element.scrollLeft += step;
+              }
+              scrollAmount += step;
+              if(scrollAmount >= distance){
+                  window.clearInterval(slideTimer);
+              }
+          }, speed);
+      }
+      </script>
     </div>
   </div>
 {%- endif -%}

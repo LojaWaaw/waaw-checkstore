@@ -10613,3 +10613,31 @@ split-lines {
   height: auto;
   aspect-ratio: 16 / 9;
 }
+
+.section-stack .button-slide-about {
+  display: none;
+}
+
+@media screen and (max-width: 999px) {
+  .section-stack .button-slide-about {
+    display: block;
+    position: absolute;
+    top: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(var(--text-color) / .1);
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .section-stack .button-slide-about svg {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .section-stack #slide {
+    right: 15px;
+  }
+}
