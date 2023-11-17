@@ -10614,12 +10614,12 @@ split-lines {
   aspect-ratio: 16 / 9;
 }
 
-.section-stack .button-toxins {
+.section-stack .button-slide-about {
   display: none;
 }
 
 @media screen and (max-width: 999px) {
-  .section-stack .button-toxins {
+  .section-stack .button-slide-about {
     display: block;
     position: absolute;
     top: 120px;
@@ -10632,7 +10632,7 @@ split-lines {
     cursor: pointer;
   }
   
-  .section-stack .button-toxins svg {
+  .section-stack .button-slide-about svg {
     width: 15px;
     height: 15px;
   }
