@@ -6411,6 +6411,7 @@ split-lines {
   color: inherit;
 }
 
+.mega-menu__title-links .reversed-link:hover,
 .mega-menu__nav a[href] span:hover {
   color: #E0E621;
   cursor: pointer;
