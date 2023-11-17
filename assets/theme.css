@@ -10622,7 +10622,7 @@ split-lines {
   .section-stack .button-toxins {
     display: block;
     position: absolute;
-    top: 115px;
+    top: 120px;
     display: flex;
     justify-content: space-between;
     background-color: rgb(var(--text-color) / .1);
