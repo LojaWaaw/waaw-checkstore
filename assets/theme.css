@@ -7327,6 +7327,31 @@ split-lines {
 .shopify-section--multi-column .multi-column__item {
   box-shadow: none;
   border-radius: var(--rounded);
+  padding-left: 20%;
+}
+
+.shopify-section--multi-column .multi-column__item:last-of-type {
+  padding-left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .shopify-section--multi-column .multi-column__item {
+    padding-left: 23%;
+  }
+  .shopify-section--multi-column .multi-column__item:last-of-type {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .shopify-section--multi-column .multi-column__item {
+    padding-left: 16%;
+  }
+  .shopify-section--multi-column .multi-column__item:last-of-type {
+    padding-left: 30px;
+    padding-right: 0;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -9665,6 +9690,18 @@ split-lines {
   overflow-y: hidden;
 }
 
+@media screen and (max-width: 1000px){
+  .scroll-area {
+    margin-right: 2.6%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .scroll-area {
+    margin-right: 4%;
+  }
+}
+
 .scroll-area::-webkit-scrollbar {
   display: none;
 }
@@ -10639,5 +10676,11 @@ split-lines {
   
   .section-stack #slide {
     right: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #multi-column-carousel {
+    padding: 0 8rem;
   }
 }
