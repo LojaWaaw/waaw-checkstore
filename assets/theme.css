@@ -10678,3 +10678,9 @@ split-lines {
     right: 15px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  #multi-column-carousel {
+    padding: 0 8rem;
+  }
+}
