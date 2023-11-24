@@ -145,5 +145,10 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "span.sidebar .payment-due__currency {display: none;}"
+    ]
   }
 }
