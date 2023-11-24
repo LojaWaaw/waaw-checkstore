@@ -22,11 +22,11 @@
     <div class="section-stack">
       {%- render 'section-header', subheading: section.settings.subheading, heading: section.settings.title, content: section.settings.content, text_alignment: section.settings.text_alignment -%}
 
-      <div id="multi-column-carousel" class="multi-column scroll-area bleed md:unbleed">
+      <div {% if section.settings.multicolumn_carousel %}id="multi-column-carousel"{% endif %} class="multi-column scroll-area bleed md:unbleed">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'item' -%}
-              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }}" {{ block.shopify_attributes }}>
+              <div class="multi-column__item justify-{{ section.settings.text_alignment }} snap-start {% if section.settings.multicolumn_carousel %}multi-column__item-spacing {% endif %}" style="--multi-column-item-column-count: span {{ 12.0 | divided_by: block.settings.column_size | round }} " {{ block.shopify_attributes }}>
                 {%- if block.settings.video != blank -%}
                   <video-media autoplay style="--aspect-ratio: {{ block.settings.video.aspect_ratio }}">
                     {{ block.settings.video | video_tag: playsinline: true, muted: true, loop: true, preload: 'metadata', class: 'rounded' }}
@@ -167,37 +167,39 @@
           {%- endcase -%}
         {%- endfor -%}
         </div>
-      <button id="slideBack" class="button-slide-about" type="button">{% render 'icon' with 'chevron-left' %}</button>
-      <button id="slide" class="button-slide-about" type="button">{% render 'icon' with 'chevron-right' %}</button>
-        
-      <script>
-        var button = document.getElementById('slide');
-        button.onclick = function () {
-          var container = document.getElementById('multi-column-carousel');
-          sideScroll(container,'right',50,300,300);
-        };
+      {% if section.settings.multicolumn_carousel %}
+        <button id="slideBack" class="button-slide-about" type="button">{% render 'icon' with 'chevron-left' %}</button>
+        <button id="slide" class="button-slide-about" type="button">{% render 'icon' with 'chevron-right' %}</button>
+          
+        <script>
+          var button = document.getElementById('slide');
+          button.onclick = function () {
+            var container = document.getElementById('multi-column-carousel');
+            sideScroll(container,'right',50,300,300);
+          };
 
-        var back = document.getElementById('slideBack');
-        back.onclick = function () {
-          var container = document.getElementById('multi-column-carousel');
-          sideScroll(container,'left',50,300,300);
-        };
+          var back = document.getElementById('slideBack');
+          back.onclick = function () {
+            var container = document.getElementById('multi-column-carousel');
+            sideScroll(container,'left',50,300,300);
+          };
 
-        function sideScroll(element,direction,speed,distance,step){
-          scrollAmount = 0;
-          var slideTimer = setInterval(function(){
-              if(direction == 'left'){
-                  element.scrollLeft -= step;
-              } else {
-                  element.scrollLeft += step;
-              }
-              scrollAmount += step;
-              if(scrollAmount >= distance){
-                  window.clearInterval(slideTimer);
-              }
-          }, speed);
-      }
-      </script>
+          function sideScroll(element,direction,speed,distance,step){
+            scrollAmount = 0;
+            var slideTimer = setInterval(function(){
+                if(direction == 'left'){
+                    element.scrollLeft -= step;
+                } else {
+                    element.scrollLeft += step;
+                }
+                scrollAmount += step;
+                if(scrollAmount >= distance){
+                    window.clearInterval(slideTimer);
+                }
+            }, speed);
+        }
+        </script>
+      {% endif %}
     </div>
   </div>
 {%- endif -%}
@@ -212,6 +214,12 @@
     "groups": ["header", "custom.overlay"]
   },
   "settings": [
+    {
+      "type": "checkbox",
+      "id": "multicolumn_carousel",
+      "label": "Carousel to multicolumn",
+      "default": false
+    },
     {
       "type": "checkbox",
       "id": "full_width",
