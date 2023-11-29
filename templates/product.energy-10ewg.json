@@ -384,7 +384,7 @@
             "image": "shopify:\/\/shop_images\/09.Icone-hands-free-ou-microfone-Grande.png",
             "item_icon_width": 1,
             "column_size": "4",
-            "title": "Microfone extra e destacável;",
+            "title": "Microfone extra e destacável",
             "heading_tag": "h6",
             "content": "",
             "link_url": "",
@@ -442,6 +442,7 @@
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
       "settings": {
+        "multicolumn_carousel": false,
         "full_width": true,
         "stack_on_mobile": false,
         "hide_on_mobile": false,

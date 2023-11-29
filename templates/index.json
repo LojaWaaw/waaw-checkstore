@@ -7,8 +7,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.Banner-20off-campanha-jogo-do-brasil-e-uruguai-arte.png",
-            "mobile_image": "shopify:\/\/shop_images\/03.Banner-20off-campanha-jogo-do-brasil-e-uruguai-arte.png",
+            "image": "shopify:\/\/shop_images\/02.2800x800-Banner-black-friday-waaw-horizontal.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-banner-black-friday-waaw-vertical.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -108,7 +108,7 @@
         "transition_type": "fade_with_text",
         "autoplay": true,
         "cycle_speed": 6,
-        "background": "#f2f2f2",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "slideshow_margin_top": 20,
         "slideshow_margin_bottom": 20
@@ -117,8 +117,8 @@
     "a17ec046-c828-412b-92fa-e109251e7f77": {
       "type": "featured-collection",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/banner-waaw-produtos.png",
-        "banner_link": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
+        "banner": "shopify:\/\/shop_images\/banner-waaw-produtos2.png",
+        "banner_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
         "banner_image_behavior": "object-contain",
         "banner_text": "",
         "banner_text_color": "rgba(0,0,0,0)",
@@ -139,7 +139,7 @@
         "subheading": "",
         "title": "Destaques WAAW",
         "content": "",
-        "link_url": "shopify:\/\/collections\/all",
+        "link_url": "shopify:\/\/collections\/todos-os-produtos",
         "link_text": "Ver todos",
         "background": "",
         "background_gradient": "",
@@ -338,11 +338,11 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-waaw-produto-200_b2b99eb1-ad1c-454c-9f1f-2c9911b461ee.jpg",
+            "image": "shopify:\/\/shop_images\/banner-waaw-produto-100_7150911c-45db-4a0a-95f3-2cc3b4bdc5fa.jpg",
             "stretch_image": true,
-            "title": "Sense 200",
-            "link_text": "O fone que o Alok usa em seus shows.",
-            "link_url": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
+            "title": "Sense 100",
+            "link_text": "Conforto e sem interrupções. Respeita o seu momento.",
+            "link_url": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
             "background": "",
             "title_color": "#e0e621",
             "text_color": "#ffffff",
@@ -370,7 +370,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-3"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "position_images": "grid",
         "block_size": "large",
         "vertical_alignment": "center",
@@ -661,6 +661,7 @@
         "fee73b17-6699-4797-a9b9-2607cba29836"
       ],
       "settings": {
+        "multicolumn_carousel": false,
         "full_width": false,
         "stack_on_mobile": false,
         "hide_on_mobile": true,
@@ -718,6 +719,7 @@
         "8ec64172-7bd0-45c0-afad-e70ef406136c"
       ],
       "settings": {
+        "multicolumn_carousel": false,
         "full_width": false,
         "stack_on_mobile": true,
         "hide_on_mobile": false,
@@ -775,9 +777,9 @@
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1": {
           "type": "blog",
           "settings": {
-            "blog": "blog-de-teste",
-            "wordpress_url": "https:\/\/blog.waaw.com.br",
-            "wordpress_category": "fones-de-ouvido",
+            "blog": "",
+            "wordpress_url": "https:\/\/blog.waaw.com.br\/",
+            "wordpress_category": "novidades",
             "posts_count": 3,
             "stack_items": false
           }

@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -20,6 +21,50 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "a887f921-e48e-47c6-86d4-d285acff434d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "{{ collection.metafields.my_fields.collection_image_desktop.value }}",
+            "mobile_image": "{{ collection.metafields.my_fields.collection_image_mobile.value }}",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
       }
     },
     "main": {
@@ -41,6 +86,7 @@
   },
   "order": [
     "banner",
+    "a887f921-e48e-47c6-86d4-d285acff434d",
     "main"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "current": {
-    "page_width": 1400,
+    "page_width": 1420,
     "section_vertical_spacing": "medium",
     "section_boxed_horizontal_spacing": "medium",
     "button_border_radius": 16,
@@ -145,5 +145,10 @@
       "product_color_display": "swatch",
       "product_info_alignment": "center"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "span.sidebar .payment-due__currency {display: none;}"
+    ]
   }
 }

@@ -7327,28 +7327,31 @@ split-lines {
 .shopify-section--multi-column .multi-column__item {
   box-shadow: none;
   border-radius: var(--rounded);
+}
+
+.shopify-section--multi-column .multi-column__item-spacing {
   padding-left: 20%;
 }
 
-.shopify-section--multi-column .multi-column__item:last-of-type {
+.shopify-section--multi-column .multi-column__item-spacing:last-of-type {
   padding-left: 0;
 }
 
 @media screen and (max-width: 700px) {
-  .shopify-section--multi-column .multi-column__item {
+  .shopify-section--multi-column .multi-column__item-spacing {
     padding-left: 23%;
   }
-  .shopify-section--multi-column .multi-column__item:last-of-type {
+  .shopify-section--multi-column .multi-column__item-spacing:last-of-type {
     padding-left: 30px;
     padding-right: 0;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .shopify-section--multi-column .multi-column__item {
+  .shopify-section--multi-column .multi-column__item-spacing {
     padding-left: 16%;
   }
-  .shopify-section--multi-column .multi-column__item:last-of-type {
+  .shopify-section--multi-column .multi-column__item-spacing:last-of-type {
     padding-left: 30px;
     padding-right: 0;
   }
