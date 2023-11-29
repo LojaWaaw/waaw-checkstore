@@ -7337,6 +7337,16 @@ split-lines {
   padding-left: 0;
 }
 
+.smaller-text-box {
+  max-width: 200px;
+  width: 100%;
+}
+
+.center-text-flex {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 700px) {
   .shopify-section--multi-column .multi-column__item-spacing {
     padding-left: 23%;
