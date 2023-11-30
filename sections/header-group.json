@@ -42,6 +42,29 @@
             "drawer_link_image": "show"
           }
         },
+        "bfa8c6e9-6fef-443c-ac6f-9519bce30155": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
         "dbd9c8ab-cb28-41e7-b8d3-1660f9910f3a": {
           "type": "mega_menu",
           "settings": {
@@ -82,7 +105,7 @@
             "image_heading_3": "",
             "image_link_3": "shopify:\/\/products\/caixa-de-som-bluetooth-me-100sb",
             "image_text_color_3": "#ffffff",
-            "product": "",
+            "product": "caixa-de-som-bluetooth-us-200sb-duo",
             "product_card_background": "",
             "product_card_text_color": "",
             "promo_content_layout": "grid",
@@ -93,6 +116,7 @@
       },
       "block_order": [
         "7ceb7fae-287d-47f2-9faa-3d797c9498d9",
+        "bfa8c6e9-6fef-443c-ac6f-9519bce30155",
         "dbd9c8ab-cb28-41e7-b8d3-1660f9910f3a",
         "ae5d2d76-20c4-4052-97e8-0932e47248b9"
       ],
@@ -125,6 +149,7 @@
       "blocks": {
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "title": "Frete Grátis",
             "text": "Para compras acima de R$199,99",

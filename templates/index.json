@@ -120,7 +120,7 @@
       "type": "featured-collection",
       "settings": {
         "banner": "shopify:\/\/shop_images\/banner-waaw-produtos2.png",
-        "banner_link": "shopify:\/\/collections\/all",
+        "banner_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
         "banner_image_behavior": "object-contain",
         "banner_text": "",
         "banner_text_color": "rgba(0,0,0,0)",
@@ -372,7 +372,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-3"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "position_images": "grid",
         "block_size": "large",
         "vertical_alignment": "center",
@@ -663,6 +663,7 @@
         "fee73b17-6699-4797-a9b9-2607cba29836"
       ],
       "settings": {
+        "multicolumn_carousel": false,
         "full_width": false,
         "stack_on_mobile": false,
         "hide_on_mobile": true,
@@ -720,6 +721,7 @@
         "8ec64172-7bd0-45c0-afad-e70ef406136c"
       ],
       "settings": {
+        "multicolumn_carousel": false,
         "full_width": false,
         "stack_on_mobile": true,
         "hide_on_mobile": false,
@@ -777,7 +779,9 @@
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1": {
           "type": "blog",
           "settings": {
-            "blog": "novidades",
+            "blog": "",
+            "wordpress_url": "https:\/\/blog.waaw.com.br\/",
+            "wordpress_category": "novidades",
             "posts_count": 3,
             "stack_items": false
           }
