@@ -442,6 +442,7 @@
       ],
       "disabled": true,
       "settings": {
+        "multicolumn_carousel": true,
         "full_width": true,
         "stack_on_mobile": false,
         "hide_on_mobile": false,

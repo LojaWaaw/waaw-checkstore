@@ -501,6 +501,7 @@
       ],
       "disabled": true,
       "settings": {
+        "multicolumn_carousel": true,
         "full_width": false,
         "stack_testimonials": false,
         "subheading": "",
