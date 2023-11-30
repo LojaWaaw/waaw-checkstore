@@ -7331,6 +7331,14 @@ split-lines {
 
 .shopify-section--multi-column .multi-column__item-spacing {
   padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 35px;
+}
+
+.shopify-section--multi-column .multi-column__item-spacing > img {
+  margin: 0 auto;
 }
 
 .shopify-section--multi-column .multi-column__item-spacing:last-of-type {
@@ -7345,6 +7353,8 @@ split-lines {
 .center-text-flex {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 @media screen and (max-width: 700px) {
