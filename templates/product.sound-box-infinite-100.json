@@ -231,18 +231,18 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
-        "title": "Experimente a imersão total nos seus jogos favoritos!",
+        "full_width": false,
+        "subheading": "",
+        "title": "Potência para curtir com todo mundo. Respeita seu rolê.",
         "content": "<p>Sinta a batida das suas músicas favoritas toda vez que apertar o play. Com uma impressionante potência de 100W RMS, a <strong>Caixa de Som WAAW INFINITE 100<\/strong> garante que cada som preencha o ambiente de maneira envolvente e imersiva.<\/p><p>Equipada com quatro alto-falantes de alta qualidade, incluindo 2 tweeters e 2 full ranges, oferece mais clareza em todas as frequências, desde graves profundos até agudos cristalinos. Com o Botão Power Bass, a caixa de som conta com um recurso poderoso que intensifica os graves, proporcionando batidas mais fortes e perceptíveis. Sinta cada nota, cada batida, como se estivesse no coração da música.<\/p><p>A tecnologia True Wireless Stereo (TWS) permite que você conecte duas caixas <strong>WAAW INFINITE 100<\/strong> via Bluetooth, para ter um som ainda mais expansivo. Leve sua festa a outro nível, preenchendo o ambiente com ondas sonoras que envolvem todos que estão presentes.<\/p><p>Possui uma bateria de longa duração com até 14 horas de autonomia, ideal para aproveitar as festas mais épicas. Além disso, oferece quatro opções de conexão: Bluetooth, cabo auxiliar, porta USB para pendrive e microfone. Isso garante que você possa reproduzir suas músicas de diferentes fontes com facilidade.<\/p><p>Com classificação IPX4, a caixa é resistente a respingos, sendo perfeita para qualquer ocasião, seja em casa ou ao ar livre. E para tornar a sua festa ainda mais épica, a <strong>SOUND BOX WAAW INFINITE 100<\/strong> apresenta um dinâmico show de luzes em LEDs que pulsam em sincronia com a batida da música. Transforme qualquer ambiente em uma pista de dança iluminada, criando uma atmosfera contagiante e energética.<\/p><p><strong>Aproveite o instante e experimente infinito. Respeita a sua batida!<\/strong><\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
         "max_rows": 10,
         "subheading_specification": "",
-        "title_specification": "Product specification",
-        "view_all_text": "View all",
-        "view_less_text": "View less",
+        "title_specification": "",
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
         "view_product": "View",
         "viewing_product": "",
         "show_product_swatch": false,
@@ -503,6 +503,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -572,6 +573,7 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",
@@ -614,6 +616,7 @@
       "block_order": [
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "stacked",
