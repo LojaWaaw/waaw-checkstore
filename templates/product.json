@@ -440,6 +440,7 @@
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
       "settings": {
+        "multicolumn_carousel": true,
         "full_width": false,
         "stack_on_mobile": true,
         "hide_on_mobile": false,
