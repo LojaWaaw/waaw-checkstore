@@ -27,7 +27,6 @@
       "blocks": {
         "free-shipping": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "icon": "picto-box",
             "mobile_icon_width": 32,

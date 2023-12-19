@@ -6,8 +6,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.2800x800-Banner-black-friday-waaw-horizontal.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-banner-black-friday-waaw-vertical.jpg",
+            "image": "shopify:\/\/shop_images\/04.2800x800-banner-desconto-10-waaw-desktop-v2_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/05.1200x1600-banner-desconto-10-waaw-mobile-v2_1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -22,6 +22,28 @@
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "background": "rgba(0,0,0,0)",
+            "background_gradient": ""
+          }
+        },
+        "568a23e6-63b9-486e-bfe9-796454df918c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti100.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti100.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/sound-box-infinite-100",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
             "background_gradient": ""
           }
         },
@@ -84,7 +106,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
+            "button_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -97,6 +119,7 @@
       },
       "block_order": [
         "slide-1",
+        "568a23e6-63b9-486e-bfe9-796454df918c",
         "3fa239c1-571d-4ef2-b2e6-42295daffa9e",
         "433e7995-a7b1-4b47-856f-34b9cd6bb796",
         "2f4b57fa-b57f-4dc6-875c-adb7c79c36e2"
@@ -790,7 +813,6 @@
       "block_order": [
         "template--15963751350447__5707dfc9-797a-4b73-b0c7-a8da84710061-blog-1"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "show_excerpt": true,

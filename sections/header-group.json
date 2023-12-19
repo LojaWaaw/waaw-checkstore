@@ -149,7 +149,6 @@
       "blocks": {
         "message": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "title": "Frete Grátis",
             "text": "Para compras acima de R$199,99",

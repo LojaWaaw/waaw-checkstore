@@ -231,8 +231,8 @@
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
       ],
       "settings": {
-        "full_width": true,
-        "subheading": "Descrição",
+        "full_width": false,
+        "subheading": "",
         "title": "Descubra uma nova experiência sonora e transforme qualquer evento em um verdadeiro espetáculo musical. ",
         "content": "<p>Prepare-se para uma experiência sonora incomparável com a <strong>Caixa de Som<\/strong> <strong>WAAW INFINITE 200<\/strong>. Com uma potência de 160W RMS, esteja pronto para fazer sua música ganhar vida como nunca antes. Seja em casa, em uma festa ou em qualquer lugar, a <strong>INFINITE 200<\/strong> proporciona a qualidade sonora que preencherá cada canto do ambiente. Aproveite suas músicas favoritas durante toda a festa com a bateria de longa duração de até 12 horas.  <\/p><p>A<strong> SOUND BOX WAAW INFINITE 200<\/strong> foi projetada para oferecer uma experiência sonora completa e envolvente. Equipada com 4 alto-falantes de alta qualidade, 2 tweeters para agudos cristalinos e 2 full ranges para graves e médios profundos, cada nota musical é reproduzida com clareza. E para quem curte graves poderosos, o botão Power Bass oferece um reforço que intensifica as batidas, o que torna as músicas muito mais envolventes. <\/p><p>Com a tecnologia TWS (True Wireless Stereo), você pode elevar ainda mais a sua experiência conectando duas caixas <strong>INFINITE 200<\/strong> via Bluetooth. Além disso, a <strong>INFINITE 200<\/strong> não economiza em opções de conectividade, através da conexão Bluetooth 5.0, entrada P10 para microfone e guitarra, entrada USB, Line In 3,5 mm e Line Out 3,5 mm, você pode conectar uma variedade de dispositivos e reproduzir sua música de diferentes fontes.  <\/p><p>A <strong>Caixa de Som WAAW INFINITE 200<\/strong> é também um espetáculo visual. Seu show de luzes dinâmico, com LEDs integrados na caixa de som, cria um ambiente visualmente impressionante que se sincroniza perfeitamente com o ritmo da música. <\/p>",
         "button_text": "",
@@ -240,9 +240,9 @@
         "text_position": "start",
         "max_rows": 10,
         "subheading_specification": "",
-        "title_specification": "Product specification",
-        "view_all_text": "View all",
-        "view_less_text": "View less",
+        "title_specification": "",
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
         "view_product": "View",
         "viewing_product": "",
         "show_product_swatch": false,
@@ -503,6 +503,7 @@
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
         "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "stack_testimonials": false,
@@ -572,6 +573,7 @@
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
         "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "subheading": "",
@@ -614,6 +616,7 @@
       "block_order": [
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "stacked",
