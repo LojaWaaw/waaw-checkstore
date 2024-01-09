@@ -7369,10 +7369,10 @@ split-lines {
 
 @media screen and (max-width: 500px) {
   .shopify-section--multi-column .multi-column__item-spacing {
-    padding-left: 16%;
+    padding-left: 20%;
   }
   .shopify-section--multi-column .multi-column__item-spacing:last-of-type {
-    padding-left: 30px;
+    padding-left: 18px;
     padding-right: 0;
   }
 }
