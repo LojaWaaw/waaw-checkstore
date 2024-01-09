@@ -126,7 +126,7 @@
         "logo": "shopify:\/\/shop_images\/Logo-Waaw.svg",
         "logo_max_width": 135,
         "logo_mobile_max_width": 100,
-        "menu": "menu-principal-novo",
+        "menu": "menu-header-categoria-subcategoria-produtos",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
