@@ -7999,6 +7999,11 @@ split-lines {
     z-index: 1;
     position: sticky;
   }
+
+  .product-gallery__ar-wrapper {
+    position: sticky;
+    top: 0;
+  }
 }
 
 .product-gallery {
@@ -8018,8 +8023,6 @@ split-lines {
 .product-gallery__ar-wrapper {
   gap: var(--spacing-2-5);
   display: grid;
-  position: sticky;
-  top: 0;
 }
 
 .product-gallery__media-list-wrapper {
