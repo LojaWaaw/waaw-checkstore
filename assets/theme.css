@@ -10707,3 +10707,9 @@ split-lines {
     padding: 0 8rem;
   }
 }
+
+.mega-menu .dropdown-menu-header {
+  position: relative;
+  opacity: 1;
+  box-shadow: none;
+}
