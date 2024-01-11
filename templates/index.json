@@ -6,8 +6,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/04.2800x800-banner-desconto-10-waaw-desktop-v2_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/05.1200x1600-banner-desconto-10-waaw-mobile-v2_1.jpg",
+            "image": "shopify:\/\/shop_images\/04.2800x800-banner-desconto-10-waaw-desktop-v2_1_1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/05.1200x1600-banner-desconto-10-waaw-mobile-v2_1_1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -28,8 +28,8 @@
         "568a23e6-63b9-486e-bfe9-796454df918c": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-site-infiniti100.png",
-            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti100.png",
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti100_1.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti100_1.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -142,7 +142,7 @@
     "a17ec046-c828-412b-92fa-e109251e7f77": {
       "type": "featured-collection",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/banner-waaw-produtos2.png",
+        "banner": "shopify:\/\/shop_images\/banner-waaw-produtos2_1.png",
         "banner_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
         "banner_image_behavior": "object-contain",
         "banner_text": "",
@@ -206,7 +206,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/08.700x583-Banner-loja-waaw.png",
+            "image": "shopify:\/\/shop_images\/08.700x583-Banner-loja-waaw_1.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -228,7 +228,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/09.1000x429-Banner-loja-waaw.png",
+            "image": "shopify:\/\/shop_images\/09.1000x429-Banner-loja-waaw_1.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -349,7 +349,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1.png",
+            "image": "shopify:\/\/shop_images\/Mask_group_1_1.png",
             "stretch_image": true,
             "title": "Mob 100",
             "link_text": "Fones de ouvido de qualidade",
@@ -363,7 +363,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-waaw-produto-100_7150911c-45db-4a0a-95f3-2cc3b4bdc5fa.jpg",
+            "image": "shopify:\/\/shop_images\/banner-waaw-produto-100_7150911c-45db-4a0a-95f3-2cc3b4bdc5fa_1.jpg",
             "stretch_image": true,
             "title": "Sense 100",
             "link_text": "Conforto e sem interrupções. Respeita o seu momento.",
@@ -377,7 +377,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner-waaw-produto-energy_fe6b0587-9631-4c0d-9658-fcf2d901cf02.jpg",
+            "image": "shopify:\/\/shop_images\/banner-waaw-produto-energy_fe6b0587-9631-4c0d-9658-fcf2d901cf02_1.jpg",
             "stretch_image": true,
             "title": "Energy 100",
             "link_text": "Fone com baixa latência. Respeita o seu game",
@@ -517,12 +517,12 @@
         "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SD5A6853_1.png",
+            "image": "shopify:\/\/shop_images\/SD5A6853_1_1.png",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1_1.png",
+            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1_1_1.png",
             "icon_width": 200,
             "subheading": "",
             "title": "RESPEITA O SOM COM A GALERA.",
@@ -642,7 +642,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid1.jpg",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid1_1.jpg",
             "banner_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
             "banner_position": "above",
             "product": "fone-de-ouvido-tws-bluetooth-mob-100eb"
@@ -652,7 +652,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid2.jpg",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid2_1.jpg",
             "banner_link": "shopify:\/\/products\/caixa-de-som-bluetooth-me-100sb",
             "banner_position": "bellow",
             "product": "waaw-boom-100sb-caixa-de-som"
@@ -662,7 +662,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid3.jpg",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid3_1.jpg",
             "banner_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
             "banner_position": "above",
             "product": "fone-bluetooth-cancelamento-ruido-sense-300hbnc"
@@ -672,7 +672,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid4.jpg",
+            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid4_1.jpg",
             "banner_link": "shopify:\/\/products\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws",
             "banner_position": "bellow",
             "product": "waaw-energy-100ebg-fone-de-ouvido-gamer-tws"
@@ -711,7 +711,7 @@
         "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10.1000x429-Banner-loja-waaw.png",
+            "image": "shopify:\/\/shop_images\/10.1000x429-Banner-loja-waaw_1.png",
             "item_icon_width": 1,
             "column_size": "1.5",
             "title": "",

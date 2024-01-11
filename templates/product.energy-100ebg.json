@@ -318,7 +318,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ENERGY-100EBG-01.png",
+            "image": "shopify:\/\/shop_images\/ENERGY-100EBG-01-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -340,7 +340,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws_20.png",
+            "image": "shopify:\/\/shop_images\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws_20-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -362,7 +362,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws_6.png",
+            "image": "shopify:\/\/shop_images\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws_6-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -626,7 +626,7 @@
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
         "content": "",
-        "team_avatar": "shopify:\/\/shop_images\/ENERGY-100EBG-01_b56285cc-3aa9-4e45-be3d-623bb3346cb9.png",
+        "team_avatar": "shopify:\/\/shop_images\/ENERGY-100EBG-01-min.png",
         "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",

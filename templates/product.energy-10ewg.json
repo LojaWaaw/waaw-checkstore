@@ -297,7 +297,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -319,7 +319,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_75.png",
+            "image": "shopify:\/\/shop_images\/image_75-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -341,7 +341,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -556,7 +556,7 @@
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
         "content": "",
-        "team_avatar": "shopify:\/\/shop_images\/ENERGY10-EWG-7899831311620-06.png",
+        "team_avatar": "shopify:\/\/shop_images\/ENERGY10-EWG-7899831311620-06-min.png",
         "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",

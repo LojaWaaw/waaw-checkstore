@@ -295,7 +295,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/boom-festa-5.png",
+            "image": "shopify:\/\/shop_images\/boom-festa-5-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -317,7 +317,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/boom-festa.png",
+            "image": "shopify:\/\/shop_images\/boom-festa-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -339,7 +339,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/boom-model-10.png",
+            "image": "shopify:\/\/shop_images\/boom-model-10-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",

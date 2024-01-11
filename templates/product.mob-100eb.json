@@ -294,7 +294,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MODELO-MOB-100EB-16.png",
+            "image": "shopify:\/\/shop_images\/MODELO-MOB-100EB-16-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -316,7 +316,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mob100eb_01.jpg",
+            "image": "shopify:\/\/shop_images\/mob100eb_01-min.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -338,7 +338,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mob100eb.jpg",
+            "image": "shopify:\/\/shop_images\/mob100eb-min.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -601,7 +601,7 @@
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
         "content": "",
-        "team_avatar": "shopify:\/\/shop_images\/MOB-100EB-01_529de7d6-b906-4c53-b08f-49e9de4431aa.png",
+        "team_avatar": "shopify:\/\/shop_images\/MOB-100EB-01_529de7d6-b906-4c53-b08f-49e9de4431aa-min.png",
         "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",

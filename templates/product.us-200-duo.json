@@ -294,7 +294,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VERAO-US-200SB_01.png",
+            "image": "shopify:\/\/shop_images\/VERAO-US-200SB_01-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -337,7 +337,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desc_caixa-de-som-bluetooth-us-200sb-duo_13.png",
+            "image": "shopify:\/\/shop_images\/desc_caixa-de-som-bluetooth-us-200sb-duo_13-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -568,7 +568,7 @@
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
         "content": "",
-        "team_avatar": "shopify:\/\/shop_images\/US-200SB-DUO-03_02e5dbf4-8dd8-4d49-8d33-0013e521654c.png",
+        "team_avatar": "shopify:\/\/shop_images\/US-200SB-DUO-03_02e5dbf4-8dd8-4d49-8d33-0013e521654c-min.png",
         "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",

@@ -294,7 +294,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOB-200---TESTE.jpg",
+            "image": "shopify:\/\/shop_images\/MOB-200---TESTE-min.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -316,7 +316,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOB_200_USO_3.jpg",
+            "image": "shopify:\/\/shop_images\/MOB_200_USO_3-min.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -609,7 +609,7 @@
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
         "content": "",
-        "team_avatar": "shopify:\/\/shop_images\/MOB-200EB-7899831310067-03.png",
+        "team_avatar": "shopify:\/\/shop_images\/MOB-200EB-7899831310067-03-min.png",
         "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",
