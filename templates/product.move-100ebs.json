@@ -294,7 +294,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_02.png",
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_02-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -316,7 +316,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_01.jpg",
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_01-min.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -338,7 +338,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_06.jpg",
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_06-min.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -585,7 +585,7 @@
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
         "content": "",
-        "team_avatar": "shopify:\/\/shop_images\/MOVE-100EBS-01_48caa553-0979-45e2-b637-0283b1cf9a48.png",
+        "team_avatar": "shopify:\/\/shop_images\/MOVE-100EBS-01_48caa553-0979-45e2-b637-0283b1cf9a48-min.png",
         "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",

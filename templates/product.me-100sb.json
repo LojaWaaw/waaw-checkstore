@@ -295,7 +295,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_05.png",
+            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_05-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -317,7 +317,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MODELO-FESTA-ME-100SB_01.png",
+            "image": "shopify:\/\/shop_images\/MODELO-FESTA-ME-100SB_01-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -339,7 +339,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_06.png",
+            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_06-min.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -579,7 +579,7 @@
         "subheading": "",
         "title": "Ficou com alguma dúvida?",
         "content": "",
-        "team_avatar": "shopify:\/\/shop_images\/ME-100SB-7899831310012-04.png",
+        "team_avatar": "shopify:\/\/shop_images\/ME-100SB-7899831310012-04-min.png",
         "team_avatar_width": 350,
         "support_hours": "",
         "answer_time": "",
