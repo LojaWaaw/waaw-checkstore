@@ -8002,7 +8002,7 @@ split-lines {
 
   .product-gallery__ar-wrapper {
     position: sticky;
-    top: 0;
+    top: 20px;
   }
 }
 
@@ -8279,7 +8279,7 @@ split-lines {
     justify-items: center;
     overflow: auto;
     position: sticky;
-    top: 0;
+    top: 20px;
   }
 
   .product-gallery--desktop-thumbnails-left .product-gallery__thumbnail-list {
@@ -10718,5 +10718,15 @@ split-lines {
 .mega-menu .dropdown-menu-header {
   position: relative;
   opacity: 1;
+  box-shadow: none;
+}
+
+.dropdown-menu .relative .dropdown-menu-imgs .dropdown-menu-item-img {
+  display: flex;
+  justify-content: start;
+}
+
+.dropdown-menu .relative .dropdown-menu-imgs {
+  left: -30px;
   box-shadow: none;
 }
