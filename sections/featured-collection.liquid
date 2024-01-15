@@ -137,6 +137,13 @@
       {%- endif -%}
     </div>
   </div>
+  <script id="CollectionProducts" type="application/json" data-collection="{{ section.settings.collection.title }}">
+  [
+    {% for product in section.settings.collection.products limit: section.settings.products_to_show %}
+      {{ product | json }}{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+  </script>
 </div>
 
 {% schema %}
