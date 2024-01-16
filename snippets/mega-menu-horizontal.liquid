@@ -84,11 +84,17 @@
                   {%- render 'icon' with 'chevron-right' -%}
                 </summary>
 
-                <div class="dropdown-menu">
+                <div style="top: calc(-{{ forloop.index }} * 1.25rem)" class="dropdown-menu dropdown-menu-imgs" >
                   <ul class="contents" role="list">
+                    <li class="text-with-icon submenu-back">
+                      <button class="text-with-icon h6 text-subdued" data-panel="1">
+                        {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ sub_link.title }}
+                      </button>
+                    </li>
                     {%- for sub_sub_link in sub_link.links -%}
                       <li>
-                        <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                        <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group dropdown-menu-item-img" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                          {{- sub_sub_link.object.featured_media | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
                           <span><span class="reversed-link">{{ sub_sub_link.title }}</span></span>
                         </a>
                       </li>
@@ -102,6 +108,19 @@
       </ul>
     </div>
   {%- endif -%}
+
+  <script>
+    var elements = document.getElementsByClassName("submenu-back");
+
+    var myFunction = function() {
+        var menu = this.closest(".relative");
+        menu.removeAttribute("open");
+    };
+
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener('click', myFunction, false);
+    }
+  </script>
 
   {% liquid
     # To maximize space, we force a carousel mode depending on the actual content

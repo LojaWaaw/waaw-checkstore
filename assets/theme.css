@@ -8279,7 +8279,7 @@ split-lines {
     justify-items: center;
     overflow: auto;
     position: sticky;
-    top: 30px;
+    top: 0;
   }
 
   .product-gallery--desktop-thumbnails-left .product-gallery__thumbnail-list {
