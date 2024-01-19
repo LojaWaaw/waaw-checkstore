@@ -8279,7 +8279,7 @@ split-lines {
     justify-items: center;
     overflow: auto;
     position: sticky;
-    top: 0;
+    top: 30px;
   }
 
   .product-gallery--desktop-thumbnails-left .product-gallery__thumbnail-list {
@@ -10726,7 +10726,42 @@ split-lines {
   justify-content: start;
 }
 
+.dropdown-menu .relative .dropdown-menu-imgs .dropdown-menu-item-img .link-new-submenu {
+  font-weight: 900;
+}
+
 .dropdown-menu .relative .dropdown-menu-imgs {
   left: -30px;
   box-shadow: none;
+}
+
+.dropdown-menu .relative .dropdown-menu-imgs .scroll-submenu {
+  height: 385px;
+  overflow-y: auto;
+}
+
+.dropdown-menu .relative .dropdown-menu-imgs .scroll-submenu::-webkit-scrollbar {
+  width: 5px;
+}
+
+.dropdown-menu .relative .dropdown-menu-imgs .scroll-submenu::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 1.5px grey; 
+  border-radius: 10px;
+}
+
+.dropdown-menu .relative .dropdown-menu-imgs .scroll-submenu::-webkit-scrollbar-thumb {
+  background: rgba(26, 26, 26, 0.7); 
+  border-radius: 10px;
+}
+
+.dropdown-menu .relative .dropdown-menu-imgs .scroll-submenu .scroll-submenu-contents {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-right: 2rem;
+  gap: 32px;
+}
+
+.panel__wrapper .group .mobile-no-child-link {
+  font-weight: 300;
 }

@@ -62,7 +62,7 @@
             "product_card_text_color": "",
             "promo_content_layout": "grid",
             "stretch_promo": false,
-            "drawer_link_image": "hide"
+            "drawer_link_image": "show"
           }
         },
         "dbd9c8ab-cb28-41e7-b8d3-1660f9910f3a": {
@@ -85,7 +85,7 @@
             "product_card_text_color": "",
             "promo_content_layout": "grid",
             "stretch_promo": false,
-            "drawer_link_image": "hide"
+            "drawer_link_image": "show"
           }
         },
         "ae5d2d76-20c4-4052-97e8-0932e47248b9": {
@@ -110,7 +110,7 @@
             "product_card_text_color": "",
             "promo_content_layout": "grid",
             "stretch_promo": false,
-            "drawer_link_image": "hide"
+            "drawer_link_image": "show"
           }
         }
       },
