@@ -125,7 +125,7 @@ Supported variables
                             {{- link_level_3 -}}
 
                             <div class="panel__wrapper" hidden>
-                              <ul class="v-stack {% if is_image_shown %}gap-3{% else %}gap-4{% endif %}">
+                              <ul class="v-stack {% if is_image_shown %}gap-8{% else %}gap-4{% endif %}">
                                 <li class="text-with-icon {% if layout != 'drawer' %}lg:hidden{% endif %}">
                                   <button class="text-with-icon h6 text-subdued" data-panel="1">
                                     {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ sub_link.title }}

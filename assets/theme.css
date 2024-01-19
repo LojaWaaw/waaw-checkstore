@@ -3946,6 +3946,7 @@ tfoot td {
   gap: var(--spacing-3);
   align-items: center;
   display: flex;
+  font-size: 20px;
 }
 
 .header__link-list .text-with-icon {
@@ -10728,6 +10729,8 @@ split-lines {
 
 .dropdown-menu .relative .dropdown-menu-imgs .dropdown-menu-item-img .link-new-submenu {
   font-weight: 900;
+  display: block;
+  width: 140px;
 }
 
 .dropdown-menu .relative .dropdown-menu-imgs {
@@ -10764,4 +10767,10 @@ split-lines {
 
 .panel__wrapper .group .mobile-no-child-link {
   font-weight: 300;
+  font-size: 20px;
+}
+
+.panel__wrapper .group .reversed-link {
+  text-transform: uppercase;
+  font-size: 20px;
 }
