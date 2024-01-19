@@ -181,6 +181,7 @@
       "blocks": {
         "d69dbe9f-d309-4789-90bf-d54b5bfb8165": {
           "type": "video",
+          "disabled": true,
           "settings": {
             "video": "shopify:\/\/files\/videos\/WAAW_1080.mp4",
             "external_video_url": "",
@@ -194,6 +195,28 @@
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_KLkPKV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10000_f9ee3540-a66f-4969-8bb6-2240a4f7b179.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -250,6 +273,7 @@
       },
       "block_order": [
         "d69dbe9f-d309-4789-90bf-d54b5bfb8165",
+        "image_KLkPKV",
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2",
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0"
       ],
@@ -394,6 +418,7 @@
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-2",
         "template--15963751350447__88abb4a5-7746-4b34-b167-389da820abb6-item-3"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "position_images": "grid",
