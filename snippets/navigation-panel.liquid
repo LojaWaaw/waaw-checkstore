@@ -78,7 +78,7 @@ Supported variables
                 <div class="panel__wrapper" {% if mega_menu_block.settings.promo_content_layout == 'grid' or mega_menu_block.settings.promo_content_layout == 'collage' %}style="--panel-wrapper-justify-content: flex-start"{% endif %} hidden>
                   <ul class="v-stack {% if is_mega_menu and is_image_shown == 'show' %}gap-3{% else %}gap-4{% endif %}">
                     <li class="{% if layout != 'drawer' %}lg:hidden{% endif %}">
-                      <button class="text-with-icon h6 text-subdued" data-panel="0">
+                      <button class="text-with-icon text-subdued" data-panel="0">
                         {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ link.title }}
                       </button>
                     </li>
@@ -127,13 +127,13 @@ Supported variables
                             <div class="panel__wrapper" hidden>
                               <ul class="v-stack {% if is_image_shown %}gap-8{% else %}gap-4{% endif %}">
                                 <li class="text-with-icon {% if layout != 'drawer' %}lg:hidden{% endif %}">
-                                  <button class="text-with-icon h6 text-subdued" data-panel="1">
+                                  <button class="text-with-icon text-subdued" data-panel="1">
                                     {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ sub_link.title }}
                                   </button>
                                 </li>
 
                                 {%- for sub_sub_link in sub_link.links -%}
-                                  <li class="{% if mobile_opening == 'left' %}h3{% else %}h5{% endif %} sm:h5">
+                                  <li class="{% if mobile_opening == 'left' %}h3{% else %}h5{% endif %}">
                                     <a class="group {% if is_image_shown %}h-stack gap-4{% else %}block w-full{% endif %}"
                                        href="{{ sub_sub_link.url }}">
                                       {%- if is_image_shown and sub_sub_link.object != blank -%}
