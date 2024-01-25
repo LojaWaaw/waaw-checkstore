@@ -73,7 +73,7 @@
             "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>Até 60 horas<\/strong> de reprodução;<\/li><li><strong>Cancelamento<\/strong> ativo de ruído;<\/li><li>Controle de <strong>toque inteligente<\/strong>;<\/li><li><strong>Bluetooth 5.0<\/strong> de conexão rápida;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
-        "c17e2ade-c613-4159-bf21-06bc7ee763ee": {
+        "d4fbd277-86a4-4618-af8e-f5cd8433e2e8": {
           "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
           "settings": {}
         },
@@ -100,7 +100,7 @@
         "quantity_selector",
         "buy_buttons",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
-        "c17e2ade-c613-4159-bf21-06bc7ee763ee",
+        "d4fbd277-86a4-4618-af8e-f5cd8433e2e8",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -123,6 +123,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -131,6 +132,545 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/hatNR87DHq8",
+        "poster": "shopify:\/\/shop_images\/waaw-by-alok-sense-300HBNC-02.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_XPwxc6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_bqnbMa": {
+          "type": "heading",
+          "settings": {
+            "text": "Fone de Ouvido Sense 300",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_34J8MC": {
+          "type": "subheading",
+          "settings": {
+            "text": "Headphone Bluetooth com Cancelamento de ruído WAAW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bqnbMa",
+        "subheading_34J8MC"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/20.Banner-html-sense-200_fce13790-79ec-4e2e-a0d9-566eea211f30.png",
+        "mobile_image": "shopify:\/\/shop_images\/21.Banner-html-sense-200_40572f8a-320c-4a26-89ee-17eb7269ece0.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_6b7XFU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EwkjzE": {
+          "type": "heading",
+          "settings": {
+            "text": "Experiência de áudio imersiva e sem interrupções",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_CEMreL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Mergulhe em cada batida para que você ouça as canções como se seu coração estivesse nelas. Use o <strong>Headphone sem fio <\/strong>por horas de forma confortável, sem precisar recarregar, graças à sua bateria de longa duração. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EwkjzE",
+        "richtext_CEMreL"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "media_with_text_4K7TT4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_AiB9d6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02.Html-sense-300_4cc92e6f-656e-42d3-a85a-d6a58219448b.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/04.Html-sense-300_5fd7f112-9767-484f-845e-696db9a4ae3b.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Noise Cancelling",
+            "content": "<p>A tecnologia oferece uma experiência de áudio envolvente e sem distrações. Com o cancelamento ativo de ruído, ela reduz eficientemente os sons externos, utilizando os próprios microfones para emitir uma frequência contrária ao ruído, proporcionando um ambiente mais tranquilo e imersivo.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_64Xix4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.Banner-html-sense-200_1794e0b6-d778-49f9-bed7-7036898610ec.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/05.Html-sense-300_0a0eb687-26d6-4674-ba28-917508ebbc02.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Modo Ambiente",
+            "content": "<p>Explore o mundo ao seu redor como o Modo Ambiente, que permite ouvir o ambiente externo enquanto você escuta músicas, podcasts, chamadas ou conversas.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_AiB9d6",
+        "image_64Xix4"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_7BPirp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VpnjjX": {
+          "type": "heading",
+          "settings": {
+            "text": "Crie seu próprio espaço de concentração, seja no trabalho, durante exercícios ou nos momentos de relaxamento.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VpnjjX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "hot_spots_CyiPTc": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_DJpHNF": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 39,
+            "vertical_position": 67,
+            "horizontal_position_mobile": 29,
+            "vertical_position_mobile": 66,
+            "icon_width": 32,
+            "title": "Hands Free",
+            "content": "<p>Mãos livres nas chamadas.<\/p>"
+          }
+        },
+        "item_BzKQDe": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 63,
+            "vertical_position": 67,
+            "horizontal_position_mobile": 67,
+            "vertical_position_mobile": 67,
+            "icon_width": 32,
+            "title": "Assistente de voz",
+            "content": "<p>Acione a assistente do seu dispositivo através do botão no fone.<\/p>"
+          }
+        },
+        "item_ELYd4w": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 46,
+            "vertical_position": 6,
+            "horizontal_position_mobile": 45,
+            "vertical_position_mobile": 6,
+            "icon_width": 32,
+            "title": "Conforto WAAW",
+            "content": "<p>Design leve e confortável.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_DJpHNF",
+        "item_BzKQDe",
+        "item_ELYd4w"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/06.Html-sense-300_c2b62486-4c0c-4dd7-a361-9ab2b944496a.png",
+        "mobile_image": "shopify:\/\/shop_images\/07.Html-sense-300_b9a7d894-9a27-43b8-9bdf-54ea8ad28562.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_BiTwXt": {
+      "type": "impact-text",
+      "blocks": {
+        "item_jMMdyk": {
+          "type": "item",
+          "settings": {
+            "title": "até 60h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_jMMdyk"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_idNpgN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tiU7DP": {
+          "type": "heading",
+          "settings": {
+            "text": "De muita música",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qmFfp8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Desconecte o cancelamento de ruído do <strong>SENSE 300<\/strong> e experimente uma experiência musical de imersão completa por até 60 horas de reprodução.<\/p><p>Ao acionar a tecnologia, o <strong>fone de ouvido Bluetooth<\/strong> proporciona até 50 horas de autonomia, para você aproveitar suas canções favoritas por mais tempo. <\/p>"
+          }
+        },
+        "richtext_VqXTyr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tiU7DP",
+        "richtext_qmFfp8",
+        "richtext_VqXTyr"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "media_with_text_93bLH6": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_eHFPQq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09.Banner-html-sense-200_30a62f5c-777e-40d2-9f8f-94d52b275956.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/08.Banner-html-sense-200_5880fb2e-51c1-40ba-96b2-674a293aee3d.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Bluetooth 5.0",
+            "content": "<p>A tecnologia oferece uma conexão estável e maior alcance. Ouça suas músicas sem interrupções, quando quiser.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eHFPQq"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_8jwhpB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8ApePb": {
+          "type": "heading",
+          "settings": {
+            "text": "Over Ear",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_afPPr7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>O <strong>SENSE 300<\/strong> é projetado para envolver as orelhas e proporcionar qualidade sonora, conforto e isolamento sonoro.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8ApePb",
+        "richtext_afPPr7"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 150px; margin-left: 150px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/16.Banner-html-sense-200_f474c86e-d27e-4e31-b207-28504c4aef3f.png",
+        "mobile_image": "shopify:\/\/shop_images\/17.Banner-html-sense-200_9c8b7a2d-3ad8-4ece-9724-f3f175067a48.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "images_with_text_scrolling_eTT3UF": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_RLT9a9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.Banner-html-sense-200_f7e640a3-7b37-4691-a60d-33247f2c5149.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_442ad0cf-e624-4c4a-9a5a-760740259cb5.png",
+            "icon_width": 56,
+            "title": "Controle Touch",
+            "content": "<p>Troque músicas, atenda chamadas e alterne entre Cancelamento de Ruído e Modo Ambiente com facilidade utilizando o touch pad direito. <\/p>"
+          }
+        },
+        "item_KdEMQX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.Banner-html-sense-200_7d8f1f00-0211-4f16-9402-a136ea8b9a52.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/11.Banner-html-sense-200_1359d97b-a174-4895-996c-9f753e42702d.png",
+            "icon_width": 56,
+            "title": "Paticidade",
+            "content": "<p>O <strong>fone de ouvido Bluetooth by Alok <\/strong>permite que você acesse as funcionalidades do seu smartphone sem interrupções, por meio de simples comandos de voz.<\/p><p>Compatível com os principais assistentes de voz, sua rotina agora é mais inteligente e intuitiva.<\/p>"
+          }
+        },
+        "item_UKGzz6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15.Banner-html-sense-200_954efc1e-c211-404f-9a28-8fc9eca43864.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_28eb67f8-9fd7-4eab-9c58-999ab2785996.png",
+            "icon_width": 56,
+            "title": "Design Dobrável",
+            "content": "<p>As conchas articuláveis e o design dobrável fazem do <strong>SENSE 300<\/strong> o parceiro perfeito para quem está sempre em movimento. Leve sua playlist para onde for! Guarde o headphone em bolsas e mochilas com praticidade e estilo. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_RLT9a9",
+        "item_KdEMQX",
+        "item_UKGzz6"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-01_76c1b1d4-6fef-4aa8-936e-920a4d29d27a-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-06.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#e0e621",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-02.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -242,7 +782,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 14,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver Mais",
@@ -252,7 +792,7 @@
         "show_product_swatch": false,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
@@ -260,120 +800,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/hatNR87DHq8",
-        "poster": "shopify:\/\/shop_images\/waaw-by-alok-sense-300HBNC-02.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-06-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#e0e621",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SENSE-300HBNC-02-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
@@ -442,6 +868,7 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
+      "disabled": true,
       "settings": {
         "multicolumn_carousel": true,
         "full_width": true,
@@ -667,9 +1094,19 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_XPwxc6",
+    "rich_text_6b7XFU",
+    "media_with_text_4K7TT4",
+    "rich_text_7BPirp",
+    "hot_spots_CyiPTc",
+    "impact_text_BiTwXt",
+    "rich_text_idNpgN",
+    "media_with_text_93bLH6",
+    "image_with_text_overlay_8jwhpB",
+    "images_with_text_scrolling_eTT3UF",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",

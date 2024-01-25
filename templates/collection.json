@@ -2,7 +2,6 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -12,8 +11,8 @@
         "show_collection_image": true,
         "collection_title_size": "h0",
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/02.Banner-desktop-pagina-cotegorias_269f7560-bf0b-4033-a3fb-ff420c8d4f6a.png",
-        "mobile_image": "shopify:\/\/shop_images\/03.Banner-mobile-pagina-cotegorias_88f90122-fccb-48e7-bcce-6e17ce4b6a4a.png",
+        "image": "{{ collection.metafields.my_fields.collection_image_desktop.value }}",
+        "mobile_image": "{{ collection.metafields.my_fields.collection_image_mobile.value }}",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
@@ -29,8 +28,8 @@
         "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.2800x800-banner-desconto-10-waaw-desktop-v2.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-banner-desconto-10-waaw-mobile-v2.jpg",
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti200.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti200.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -52,6 +51,7 @@
       "block_order": [
         "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": true,

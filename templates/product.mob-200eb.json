@@ -73,6 +73,10 @@
             "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>16 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Modo GAMER <strong>baixa latência<\/strong>;<\/li><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li><strong>Conforto WAAW<\/strong> design inteligente;<\/li><li>Controle de <strong>toque inteligente<\/strong>;<\/li><li>Som de <strong>alta qualidade<\/strong>.<\/li><\/ul>"
           }
         },
+        "d6d950b2-64ac-43a7-bc64-0f2581b8347b": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -96,6 +100,7 @@
         "quantity_selector",
         "buy_buttons",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "d6d950b2-64ac-43a7-bc64-0f2581b8347b",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -118,6 +123,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -126,6 +132,491 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=lchOkEdW1XU&t=45s",
+        "poster": "shopify:\/\/shop_images\/17.Html-mob-200_c4216bb6-5df2-4f96-9dd7-ec69e3b382f8.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_9La7Hw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Ue3kFH": {
+          "type": "heading",
+          "settings": {
+            "text": "Fone de Ouvido Mob 200",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_9PWigQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "Compacto para acompanhar seu ritmo por mais tempo"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ue3kFH",
+        "subheading_9PWigQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/06.Html-mob-200_c76de30d-38c1-4167-b560-22f15fb3a955.png",
+        "mobile_image": "shopify:\/\/shop_images\/15.Html-mob-200_5c254e25-fa2c-4330-800a-27916b37dd19.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_4VNaQX": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_GzMEjm": {
+          "type": "heading",
+          "settings": {
+            "text": "Você viaja com a música.",
+            "heading_tag": "h2"
+          }
+        },
+        "heading_9c4dBi": {
+          "type": "heading",
+          "settings": {
+            "text": "A música viaja com você.",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_VAzk6g": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SUA LIBERDADE<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GzMEjm",
+        "heading_9c4dBi",
+        "richtext_VAzk6g"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/07.Html-mob-200_f5d1c8e8-9731-48d8-ab9b-6d54af462022.png",
+        "mobile_image": "shopify:\/\/shop_images\/11.Html-mob-200_885ff2d4-278d-4628-b1ca-f03d285b1499.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "hot_spots_Yzy9rb": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_ypEJBr": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 74,
+            "horizontal_position_mobile": 46,
+            "vertical_position_mobile": 75,
+            "icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_5567af64-fcb6-447c-96eb-6af9ffbf3e54.png",
+            "icon_width": 56,
+            "title": "Hands Free",
+            "content": "<p>Com microfone embutido e controle touch você tem as mãos livres para se movimentar enquanto conversa.<\/p>"
+          }
+        },
+        "item_Kezq66": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 45,
+            "vertical_position_mobile": 14,
+            "icon": "shopify:\/\/shop_images\/05.Html-sense-300_dcd3bcfe-4bc3-43b0-8968-032e011a4242.png",
+            "icon_width": 56,
+            "title": "Driver Dinâmico",
+            "content": "<p>Possui driver de 12mm que proporciona melhor percepção de áudio e um som equilibrado.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ypEJBr",
+        "item_Kezq66"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/05.Html-mob-200_48117ff2-ebf6-4522-9dd5-433342fd8b63.png",
+        "mobile_image": "shopify:\/\/shop_images\/12.Html-mob-200_094c86f8-edbd-472d-950a-7bc39f053455.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_bMyxBU": {
+      "type": "impact-text",
+      "blocks": {
+        "item_eHDYLK": {
+          "type": "item",
+          "settings": {
+            "title": "até 16h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_eHDYLK"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_AeebUY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iU33XQ": {
+          "type": "heading",
+          "settings": {
+            "text": "De muita música",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_XC7bhL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ideal para quem busca qualidade sonora, praticidade e liberdade, o <strong>MOB 200<\/strong> vai além! Com uma autonomia de 4 horas dos fones Bluetooth e 12 horas na case, você tem 16 horas de música sem parar.<\/p>"
+          }
+        },
+        "richtext_cbyeMh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iU33XQ",
+        "richtext_XC7bhL",
+        "richtext_cbyeMh"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_fh47j6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_VBEF8L": {
+          "type": "subheading",
+          "settings": {
+            "text": "RESPEITA SUA HABILIDADE"
+          }
+        },
+        "heading_NWG63E": {
+          "type": "heading",
+          "settings": {
+            "text": "Modo Gamer",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_fPMjX6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A baixa latência garante uma resposta de som mais rápida entre o áudio e as ações do jogo. Dessa forma, o Modo Gamer permite que você ouça cada detalhe em tempo real, sem atrasos.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VBEF8L",
+        "heading_NWG63E",
+        "richtext_fPMjX6"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 340px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/08.Html-mob-200_7f894a07-da97-4cfb-8104-4003243ce529.png",
+        "mobile_image": "shopify:\/\/shop_images\/13.Html-mob-200_fa2dd00f-009e-44c8-b0a4-8fae85eeb6d5.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_V7b9XX": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_7XFHW4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09.Html-mob-200_d0bea54b-b4d4-4339-b230-e9e6f7071591.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_84170024-2065-49d3-905f-d3af1554e361.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Controle Touch",
+            "content": "<p>Através do touch nas laterais do fone de ouvido você pode controlar as músicas, atender chamadas e acionar o modo gamer sem pegar no smartphone.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7XFHW4"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "tabs_Xqp9Vd": {
+      "type": "tabs",
+      "blocks": {
+        "tab_ECYnb4": {
+          "type": "tab",
+          "settings": {
+            "title": "Bluetooth 5.0",
+            "content": "<p>Evolua o padrão de conexão! O Bluetooth 5.0 permite uma conexão mais estável para que você possa curtir suas músicas com menos interrupções.<\/p>",
+            "page": ""
+          }
+        },
+        "tab_3e8hbx": {
+          "type": "tab",
+          "settings": {
+            "title": "Proteção IPX4",
+            "content": "<p>O <strong>MOB 200<\/strong> resistente a água te dá a liberdade para aproveitar suas playlists onde quer que você vá.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_ECYnb4",
+        "tab_3e8hbx"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-left: 150px; margin-right: 150px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "small",
+        "subheading": "",
+        "title": "",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "image_with_text_overlay_cC8cDq": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_TjYNxK": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_nyPpDK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A tecnologia TWS permite que cada lado do fone de ouvido possa funcionar separadamente, podendo recarregar um fone enquanto usa o outro.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TjYNxK",
+        "richtext_nyPpDK"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-left: 150px; margin-right: 150px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/10.Html-mob-200_a76e1379-b927-47ba-9e9b-73ec55d76589.png",
+        "mobile_image": "shopify:\/\/shop_images\/14.Html-mob-200_4e1c22de-b28f-4c7a-82c0-f51e9ce07296.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOB-200---TESTE.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOB_200_USO_3.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOB-200EB-7899831310067-13.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -237,7 +728,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 18,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver mais",
@@ -247,7 +738,7 @@
         "show_product_swatch": false,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
@@ -255,121 +746,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=lchOkEdW1XU&t=45s",
-        "poster": "shopify:\/\/shop_images\/MOB-200EB-7899831310067-03.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOB-200---TESTE-min.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOB_200_USO_3-min.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOB-200EB-7899831310067-13.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
@@ -438,6 +814,7 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
+      "disabled": true,
       "settings": {
         "multicolumn_carousel": true,
         "full_width": true,
@@ -695,9 +1072,18 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_9La7Hw",
+    "image_with_text_overlay_4VNaQX",
+    "hot_spots_Yzy9rb",
+    "impact_text_bMyxBU",
+    "rich_text_AeebUY",
+    "image_with_text_overlay_fh47j6",
+    "media_with_text_V7b9XX",
+    "tabs_Xqp9Vd",
+    "image_with_text_overlay_cC8cDq",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
