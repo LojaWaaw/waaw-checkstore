@@ -73,6 +73,10 @@
             "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><p><strong>14 horas<\/strong> de reprodução;<br\/><strong>Bluetooth 5.0<\/strong>;<br\/><strong>2 tweeters <\/strong>e <strong>2 full ranges<\/strong>;<br\/>Botão <strong>Power Bass<\/strong>;<br\/><strong>4<\/strong> opções de conexão;<br\/>Classificação<strong> IPX4<\/strong> resistente a respingos;<br\/>WAAW Plus Tecnologia <strong>TWS<\/strong>;<br\/><\/p>"
           }
         },
+        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -96,6 +100,7 @@
         "quantity_selector",
         "buy_buttons",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -116,17 +121,469 @@
         "input_text_color": ""
       }
     },
-    "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
-      "type": "custom-html",
-      "disabled": true,
+    "88ef1528-ce11-4b29-80e4-e8abbccf17eb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA QUEM TÁ JUNTO<\/strong><\/p>"
+          }
+        },
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixa de Som Infinite 100",
+            "heading_tag": "h1"
+          }
+        },
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Caixa Acústica Bluetooth WAAW"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1",
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1",
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1"
+      ],
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/02.Html-infinite-100_4e999330-da6c-49f1-91ce-80d06d266f3a.png",
+        "mobile_image": "shopify:\/\/shop_images\/05.Html-infinite-100_1755ec53-9684-4f02-af9f-496dd53cc903.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ccd69a7e-3f85-4d01-b54a-e780772a03f3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Ouça no volume que a música merece: o máximo",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SUA VIBE<\/strong><\/p>"
+          }
+        },
+        "6e98ac33-d91f-43bc-b952-332eb3291ae6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Som claro, potente e com batidas poderosas para você aproveitar suas músicas favoritas toda vez que apertar o play. Leve sua festa a outro nível com a <strong>Caixa Acústica WAAW INFINITE 100.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1",
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1",
+        "6e98ac33-d91f-43bc-b952-332eb3291ae6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#000000"
+      }
+    },
+    "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/06.Html-infinite-100_64b293e4-d417-4d94-b6ff-c16d7efc0165.png",
+        "mobile_image": "shopify:\/\/shop_images\/07.Html-infinite-100_378a23cf-c55a-49a4-b517-abb238a4f5fa.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "e17da7a7-487e-471a-b581-1bab66688947": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16080146268335__e17da7a7-487e-471a-b581-1bab66688947-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Muita potência",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16080146268335__e17da7a7-487e-471a-b581-1bab66688947-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Com a incrível potência de 100W RMS, a <strong>INFINITE 100 <\/strong>transforma cada batida em um som envolvente, criando uma experiência sonora única e imersiva.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__e17da7a7-487e-471a-b581-1bab66688947-heading-1",
+        "template--16080146268335__e17da7a7-487e-471a-b581-1bab66688947-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "aef15cf5-6c0f-4559-9db1-e087af14fe5d": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 34,
+            "vertical_position": 41,
+            "horizontal_position_mobile": 53,
+            "vertical_position_mobile": 64,
+            "icon": "shopify:\/\/shop_images\/08.Html-infinite-100_e507ade5-5398-470a-96b7-7a2fd52b9f0f.png",
+            "icon_width": 56,
+            "title": "Power Bass",
+            "content": "<p>A Caixa de Som <strong>INFINITE 100 <\/strong> conta com um recurso poderoso que intensifica os graves, proporcionando batidas mais fortes e perceptíveis.<\/p>"
+          }
+        },
+        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-2": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 41,
+            "horizontal_position_mobile": 12,
+            "vertical_position_mobile": 56,
+            "icon": "shopify:\/\/shop_images\/09.Html-infinite-100_ee7c6f58-32b2-413e-a6e3-56f8ae60217b.png",
+            "icon_width": 56,
+            "title": "100 RMS de Potência",
+            "content": "<p>4 Alto falantes, sendo 2x tweeters + 2x full ranges, os alto-falantes da <strong>INFINITE 100 <\/strong>proporcionam um som claro, potente e com batidas poderosas.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1",
+        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/04.Html-infinite-100_31442dd8-e2b6-4a16-876e-a49d4dde8966.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "4241750f-3b6b-4872-977e-af0f892d679d": {
+      "type": "impact-text",
+      "blocks": {
+        "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "até 14h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "57cbe60d-50fe-4899-87b0-3d3ca88328f3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Para aproveitar as festas mais épicas",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A caixa de som <strong>WAAW<\/strong> <strong>INFINITE 100 <\/strong>tem energia de sobra para curtir momentos incríveis com muita música. Sua bateria de longa duração oferece <strong>até 14 horas de autonomia<\/strong> para que a diversão não precise esperar pela recarga. <\/p>"
+          }
+        },
+        "abdf3d04-4932-466b-9919-e69800c6081c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1",
+        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-richtext-1",
+        "abdf3d04-4932-466b-9919-e69800c6081c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Conecte duas torres de som <strong>INFINITE 100<\/strong> simultaneamente usando a Tecnologia TWS. Dê um upgrade na sua festa com um som expansivo, claro e potente, com batidas poderosas!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-left: 150px; margin-right: 150px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/10.Html-infinite-100_14c2c0dd-33ca-4473-b9b2-8d700b8711d2.png",
+        "mobile_image": "shopify:\/\/shop_images\/11.Html-infinite-100_88860c49-a44d-46ce-b025-9d4eb6dff62b.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "45a81e0d-525c-486b-8405-5333e75aa09b": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--16080146268335__45a81e0d-525c-486b-8405-5333e75aa09b-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.Html-infinite-100_6d3de6de-3d35-4f4a-ba6d-b3dcf66479f3.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/11.Banner-html-sense-200.png",
+            "icon_width": 56,
+            "title": "Conectividade",
+            "content": "<p>A <strong>WAAW INFINITE 100<\/strong> oferece quatro opções de conexão: <strong>Bluetooth 5.0<\/strong>, <strong>Cabo auxiliar USB-C<\/strong>, <strong>Porta USB<\/strong> para pendrive e microfone.<\/p>"
+          }
+        },
+        "template--16080146268335__45a81e0d-525c-486b-8405-5333e75aa09b-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.Html-infinite-100_223c6045-5ade-4791-8796-c87a18f8cc51.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/12.Html-infinite-100_b89984f8-8404-4c49-86a3-91dd6af657a0.png",
+            "icon_width": 56,
+            "title": "Show de Luzes",
+            "content": "<p>Faça sua festa brilhar! Transforme qualquer lugar em uma pista de dança vibrante com o <strong>show de luzes<\/strong> em LED dinâmico, que seguem o ritmo da música.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__45a81e0d-525c-486b-8405-5333e75aa09b-item-1",
+        "template--16080146268335__45a81e0d-525c-486b-8405-5333e75aa09b-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "40d921da-8d7b-452f-9f0a-19b33fc97598": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Proteção IPX4",
+            "heading_tag": "h2"
+          }
+        },
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Com resistência a respingos, a <strong>INFINITE 100<\/strong> é perfeita para todas as ocasiões, seja em casa ou ao ar livre. Transforme sua experiência com potência e durabilidade!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-heading-1",
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-richtext-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 340px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/15.Html-infinite-100_62ac0b4e-5a9e-4933-b463-c0feca6aae8e.png",
+        "mobile_image": "shopify:\/\/shop_images\/16.Html-infinite-100_888d604f-4725-41df-a427-7c3a555ebd30.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_100_-_09_4117727c-e0fc-4ccb-b4e6-c6c0886faae6.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_100_-_01.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE100-11.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -238,7 +695,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 18,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver mais",
@@ -248,7 +705,7 @@
         "show_product_swatch": false,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
@@ -256,269 +713,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE_100_-_09_4117727c-e0fc-4ccb-b4e6-c6c0886faae6_1.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE_100_-_01_1.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE100-11_1.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Microfone extra e destacável;",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Jogos com áudio imersivo",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Botão de volume deslizante, silenciamento de microfone e botão multifuncional ;",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Compatível com diversos dispositivos",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
-      ],
-      "disabled": true,
-      "settings": {
-        "multicolumn_carousel": true,
-        "full_width": true,
-        "stack_on_mobile": false,
-        "hide_on_mobile": false,
-        "side_margin": 0,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Sobre o item",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "newsletter_background_color": "",
-        "newsletter_text_color": ""
-      }
-    },
-    "bac92a01-ed39-4116-9357-048e21326ec5": {
-      "type": "testimonials",
-      "blocks": {
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "John S.",
-            "title": "",
-            "content": "<p>Ótimo produto recomendo a todos interessados um som de altíssima qualidade<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "",
-            "content": "<p>Caixa de som de excelente qualidade! Super recomendo, um ótimo custo benefício, vale muito a pena! Amei! (;<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 3,
-            "author": "Joshua A.",
-            "title": "",
-            "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Avaliações recentes",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#000000",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f5f5f5",
-        "testimonial_card_text_color": ""
       }
     },
     "related-products": {
@@ -631,12 +825,18 @@
   },
   "order": [
     "main",
-    "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "88ef1528-ce11-4b29-80e4-e8abbccf17eb",
+    "ccd69a7e-3f85-4d01-b54a-e780772a03f3",
+    "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62",
+    "e17da7a7-487e-471a-b581-1bab66688947",
+    "aef15cf5-6c0f-4559-9db1-e087af14fe5d",
+    "4241750f-3b6b-4872-977e-af0f892d679d",
+    "57cbe60d-50fe-4899-87b0-3d3ca88328f3",
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
+    "45a81e0d-525c-486b-8405-5333e75aa09b",
+    "40d921da-8d7b-452f-9f0a-19b33fc97598",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb",
-    "bac92a01-ed39-4116-9357-048e21326ec5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
     "72335e0e-e77a-44f4-87d0-c279cb2fd451"

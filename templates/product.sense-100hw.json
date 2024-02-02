@@ -73,6 +73,10 @@
             "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>OVER EAR<\/strong> ideal para uso prolongado;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
+        "709aafcd-28f2-43cc-be44-331916397902": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -96,6 +100,7 @@
         "quantity_selector",
         "buy_buttons",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "709aafcd-28f2-43cc-be44-331916397902",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -127,6 +132,427 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=NMM0hyUAeWs&t=89s",
+        "poster": "shopify:\/\/shop_images\/15.Html-sense-100.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_DzATbA": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_driMcJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Fone de Ouvido Sense 100",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_BjqW7Q": {
+          "type": "subheading",
+          "settings": {
+            "text": "Headphone com fio WAAW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_driMcJ",
+        "subheading_BjqW7Q"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-left: 200px; margin-right: 200px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/13.Html-sense-100_7c3fa9f8-82c3-4ba2-8d25-02c0d9ad14ab.png",
+        "mobile_image": "shopify:\/\/shop_images\/14.Html-sense-100_44862e95-8609-4e7f-8093-c848a700f0aa.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_3TTcKX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MiU8fm": {
+          "type": "heading",
+          "settings": {
+            "text": "Às vezes, só ouvir não é o suficiente.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_TmM7tE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SEUS SENTIDOS<\/strong><\/p>"
+          }
+        },
+        "richtext_HtMgr6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Das batidas suaves até aos graves mais altos, o <strong>WAAW SENSE 100<\/strong> transformará sua playlist em um verdadeiro show por mais tempo. Projetado para proporcionar horas de uso confortável, o fone de ouvido com fio garante conexão intensa com cada canção.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MiU8fm",
+        "richtext_TmM7tE",
+        "richtext_HtMgr6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_8thFwr": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_przY6d": {
+          "type": "subheading",
+          "settings": {
+            "text": "Qualidade sonora que te conecta"
+          }
+        },
+        "heading_ArJihM": {
+          "type": "heading",
+          "settings": {
+            "text": "Over Ear",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_TCgDjL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Cria um espaço confortável ao redor de toda a orelha, com almofadas de material macio, que proporcionam mais comodidade durante o uso.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_przY6d",
+        "heading_ArJihM",
+        "richtext_TCgDjL"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/05.Html-sense-100_5645187f-b0a4-4b63-adb5-92d09c9b0be1.png",
+        "mobile_image": "shopify:\/\/shop_images\/06.Html-sense-100_d251c12d-bf29-48a3-b622-cfd23c60a5cc.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_7yciqw": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_cNGgd3": {
+          "type": "heading",
+          "settings": {
+            "text": "Mais praticidade",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_fh4UcD": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Movimente-se livremente enquanto escuta suas músicas ou assiste a vídeos! Com cabo de 1,2m e controles de toque no botão, é possível atender chamadas, reproduzir, pausar, avançar ou voltar suas músicas.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cNGgd3",
+        "richtext_fh4UcD"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/07.Html-sense-100_48ae97ce-e2a0-461d-9468-6e7165a5c116.png",
+        "mobile_image": "shopify:\/\/shop_images\/08.Html-sense-100_4830b924-72fe-4ccb-8096-40dcfa4b9854.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_TiRQtC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NV4hHm": {
+          "type": "heading",
+          "settings": {
+            "text": "Design dobrável",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_LghEFq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>O fone de ouvido com fio WAAW conta com design dobrável, que não deixa o som parar e te acompanha para onde você for.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NV4hHm",
+        "richtext_LghEFq"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-left: 400px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/03.Html-sense-100_e9aaa8a6-80c9-4ad7-a5f7-ee57adb33d4d.png",
+        "mobile_image": "shopify:\/\/shop_images\/04.Html-sense-100_9b07c846-9202-4b55-997e-63f6492e62b5.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_CRGfqm": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Kxm87x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10.Html-sense-100_57720c93-77e6-437b-a7d7-e608cb9b00a3.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_eb0bc843-2d8c-45c0-a8ac-2282076d576a.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Hands Free",
+            "content": "<p>Com microfone integrado, você tem as mãos livres enquanto conversa com a sua galera.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Kxm87x"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "media_with_text_9wedM7": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_A6cCXR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09.Html-sense-100_20fda65f-b93d-4ac9-a438-3c9704b33d19.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/11.Banner-html-sense-200_858528d8-af44-46c5-be76-2db48d39b370.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Assistente de voz",
+            "content": "<p>Pronto para atender aos seus comandos, com o assistente de voz do <strong>SENSE 100<\/strong> você realiza as tarefas do seu dia a dia com facilidade e mais inteligência.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_A6cCXR"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_yGnbrn": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_d9GjWC": {
+          "type": "heading",
+          "settings": {
+            "text": "Compatibilidade",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_PcP3jL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Compatível com celulares, tablets, notebooks e computadores. O <strong>SENSE 100<\/strong> proporciona liberdade de conexão, para você viver experiências sonoras.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d9GjWC",
+        "richtext_PcP3jL"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-left: 450px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/11.Html-sense-100_e8ad5358-37ba-45e0-b081-f3ada054b744.png",
+        "mobile_image": "shopify:\/\/shop_images\/12.Html-sense-100_b855b26c-1488-4981-a48b-d527f15756be.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SENSE-100-USO_01.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2225GIAL_013_1327-scaled.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MODELO-FESTA-SENSE-100HW_05.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -238,7 +664,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 15,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver mais",
@@ -248,7 +674,7 @@
         "show_product_swatch": false,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
@@ -256,121 +682,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=NMM0hyUAeWs&t=89s",
-        "poster": "shopify:\/\/shop_images\/SENSE-100HW-7899831310166-07-1.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SENSE-100-USO_01-min.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2225GIAL_013_1327-scaled-min.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MODELO-FESTA-SENSE-100HW_05-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
@@ -439,6 +750,7 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
+      "disabled": true,
       "settings": {
         "multicolumn_carousel": true,
         "full_width": true,
@@ -632,9 +944,17 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_DzATbA",
+    "rich_text_3TTcKX",
+    "image_with_text_overlay_8thFwr",
+    "image_with_text_overlay_7yciqw",
+    "image_with_text_overlay_TiRQtC",
+    "media_with_text_CRGfqm",
+    "media_with_text_9wedM7",
+    "image_with_text_overlay_yGnbrn",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",

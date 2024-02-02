@@ -73,6 +73,10 @@
             "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Controles no <strong>botão<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li>Som de <strong>alta qualidade<\/strong>;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
+        "f347cec8-4474-4a4e-a1db-3fb9b45d9317": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -96,6 +100,7 @@
         "quantity_selector",
         "buy_buttons",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "f347cec8-4474-4a4e-a1db-3fb9b45d9317",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {

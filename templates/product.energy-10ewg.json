@@ -73,6 +73,10 @@
             "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Microfone <strong>extra<\/strong> e destacável;<strong> <\/strong> <\/li><li>Jogos com áudio <strong>imersivo<\/strong> ; <\/li><li><strong>Botão<\/strong> de volume deslizante, <strong>silenciamento<\/strong> de microfone e botão <strong>multifuncional<\/strong> ;    <\/li><li><strong>Compatível<\/strong> com diversos dispositivos;   <\/li><li>Acompanha <strong>case de transporte<\/strong> ;  <\/li><li>Conector do cabo em ângulo de <strong>90°<\/strong> graus;  <\/li><li>Cabo que <strong>não entrelaçou<\/strong> ; <\/li><li>Ganchos <strong>auriculares<\/strong> que se ajustam ao <strong>formato interno<\/strong> do ouvido.  <\/li><\/ul>"
           }
         },
+        "f3282900-095c-42d7-9347-dc71e86bdccb": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -96,6 +100,7 @@
         "quantity_selector",
         "buy_buttons",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "f3282900-095c-42d7-9347-dc71e86bdccb",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -127,6 +132,377 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/energy100.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_QTxQt9": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8zmXz6": {
+          "type": "heading",
+          "settings": {
+            "text": "Fone de Ouvido Gamer Energy 10",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_pC8wJc": {
+          "type": "subheading",
+          "settings": {
+            "text": "Viva uma experiência sonora única com o Fone com Fio WAAW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8zmXz6",
+        "subheading_pC8wJc"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 135px; margin-left: 135px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/11.Html-energy-10_ab1a3c80-6652-42f1-af90-740958c053b3.png",
+        "mobile_image": "shopify:\/\/shop_images\/12.Html-energy-10_68d6e22e-18a2-473c-bf7e-1f291438a407.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_K9QwY4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VAdPJw": {
+          "type": "heading",
+          "settings": {
+            "text": "Você pode derrotar o chefão. Ou pode SER o chefão.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_dRtxfW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SEU GAME<\/strong><\/p>"
+          }
+        },
+        "richtext_Wkdt7F": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Eleve sua experiência ao dar play com o <strong>fone de ouvido gamer Energy 10<\/strong>, que oferece a melhor experiência em longas sessões de jogo. Equipado com um microfone destacável, a comunicação com seus companheiros de equipe fica mais clara e eficaz.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VAdPJw",
+        "richtext_dRtxfW",
+        "richtext_Wkdt7F"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_7taNtz": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_d6BU4d": {
+          "type": "heading",
+          "settings": {
+            "text": "Microfone extra e destacável",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_pcfLjK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Otimizado para intensificar a emoção nas partidas, o acessório é separado dos demais controles, o que melhora a captação da voz e som, além de oferecer mais praticidade. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6BU4d",
+        "richtext_pcfLjK"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/09.Html-energy-10_711c7925-b773-46f4-a707-0ce1c61e4181.png",
+        "mobile_image": "shopify:\/\/shop_images\/10.Html-energy-10_a73a7baf-17c7-42b9-b7e7-f26f4c7bb82b.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_cyUxnm": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_PNEWjX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08.Html-energy-10_6b8c99da-dbe0-49b3-8419-16efced4dda4.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/05.Html-sense-300_99fa33ca-ec60-4bfc-93ca-e87bbbf1bc35.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Jogo com áudio imersivo",
+            "content": "<p>Possui drivers dinâmicos de 10 mm que oferecem graves, médios e agudos claros para uma experiência sonora completa.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_KhFD9A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02.Html-energy-10_26fa0c5f-a0a4-4108-bc28-1c0d7ec2a96e.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_9ec25eb3-217a-4eb8-b659-c6999cf32b41.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Controle total em suas mãos",
+            "content": "<p>Tudo fica muito simples com um botão de volume deslizante, silenciamento de microfone e um botão multifuncional.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PNEWjX",
+        "image_KhFD9A"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_zhaGjm": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_8aGtWM": {
+          "type": "heading",
+          "settings": {
+            "text": "Compatibilidade",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_PPafEQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>O <strong>fone de ouvido gamer WAAW<\/strong> é compatível com smartphones, tablets, notebooks, PC, MAC, Xbox, PlayStation, Nintendo Switch e outros dispositivos. Por conta da <strong>conexão P3 | 3.5 mm<\/strong>, a integração entre esses aparelhos é fácil.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8aGtWM",
+        "richtext_PPafEQ"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 350px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/06.Html-energy-10_fb915fa6-3d5d-45b0-a6fc-2c1c7ea905d8.png",
+        "mobile_image": "shopify:\/\/shop_images\/07.Html-energy-10_331d4cc3-6c16-467a-a43c-fce0f416ad27.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "images_with_text_scrolling_X74C6j": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_biaPeQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05.Html-energy-10_711bb7a5-7e61-43f9-a378-08bbe19dc2b1.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_9602f134-d6b9-42e7-9f17-772d9531f183.png",
+            "icon_width": 56,
+            "title": "Se adapta a você!",
+            "content": "<p>Com o selo de conforto WAAW, você pode escolher entre três opções de eartips para melhorar a qualidade de áudio contínuo e bem-estar durante o uso.<\/p><p>Além disso, o <strong>ENERGY 10<\/strong> possui ganchos auriculares em borracha flexível, que se ajustam ao formato interno do ouvido.<\/p>"
+          }
+        },
+        "item_HJzR98": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03.Html-energy-10_76158a05-68e6-4a05-83ee-181923dcd539.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/04.Html-energy-10_ada2457b-273a-469b-8b12-92a346918272.png",
+            "icon_width": 56,
+            "title": "Case de transporte",
+            "content": "<p>Proteja seu fone de ouvido gamer de arranhões, quedas e acúmulo de poeira utilizando a case. Transporte o <strong>ENERGY 10<\/strong> com segurança e o guarde de maneira segura e eficiente.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_biaPeQ",
+        "item_HJzR98"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_75.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -238,7 +614,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 16,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver mais",
@@ -248,7 +624,7 @@
         "show_product_swatch": false,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#000000",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
@@ -256,209 +632,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/energy100.mp4",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_75-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/09.Icone-hands-free-ou-microfone-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Microfone extra e destacável",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/08.Icone-alca-para-tranport-Grandee.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Case de transporte",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/19.Icone-intra-auricular-Grande..png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Intra-auricular",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/11.Icone-controle-por-botao-ou-touch-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Controle de toque através do botão ",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
-      ],
-      "settings": {
-        "multicolumn_carousel": true,
-        "full_width": true,
-        "stack_on_mobile": false,
-        "hide_on_mobile": false,
-        "side_margin": 0,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Sobre o item",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "newsletter_background_color": "",
-        "newsletter_text_color": ""
       }
     },
     "bac92a01-ed39-4116-9357-048e21326ec5": {
@@ -642,10 +815,15 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_QTxQt9",
+    "rich_text_K9QwY4",
+    "image_with_text_overlay_7taNtz",
+    "media_with_text_cyUxnm",
+    "image_with_text_overlay_zhaGjm",
+    "images_with_text_scrolling_X74C6j",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "bac92a01-ed39-4116-9357-048e21326ec5",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
     "72335e0e-e77a-44f4-87d0-c279cb2fd451",
