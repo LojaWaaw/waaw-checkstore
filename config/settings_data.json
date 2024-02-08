@@ -47,6 +47,13 @@
         "type": "shopify:\/\/apps\/krtbite-back-in-stock-restock\/blocks\/main-app-embed\/147a6f7f-6771-4f9b-8dc6-c14e6b24f32c",
         "disabled": false,
         "settings": {}
+      },
+      "18228966181090706294": {
+        "type": "shopify:\/\/apps\/selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+        "disabled": false,
+        "settings": {
+          "storefrontAccessToken": "6bac9eddf27cd95f9c9296b21fe65c9b"
+        }
       }
     }
   },

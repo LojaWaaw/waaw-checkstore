@@ -73,6 +73,10 @@
             "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>10 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong> e cartão de memória (<strong>micro SD<\/strong>);<\/li><li>Classificação <strong>IPX6 resistente a água<\/strong>;<\/li><li>Prático e compacto;<\/li><li><strong>SKIN WAAW<\/strong> toque emborrachado;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
           }
         },
+        "c7c98aaf-855b-43e7-b74a-3324a73ef3d0": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -96,6 +100,7 @@
         "quantity_selector",
         "buy_buttons",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "c7c98aaf-855b-43e7-b74a-3324a73ef3d0",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
