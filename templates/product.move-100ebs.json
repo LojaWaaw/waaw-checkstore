@@ -123,6 +123,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -131,6 +132,450 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=X6X61Xf4rkk&t=98s",
+        "poster": "shopify:\/\/shop_images\/14.Html-move-100.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_VWYGkY": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_eDeM7W": {
+          "type": "heading",
+          "settings": {
+            "text": "Fone de Ouvido Esporte Move 100",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_mkEU3j": {
+          "type": "subheading",
+          "settings": {
+            "text": "Leveza e ergonomia para superar qualquer desafio nos treinos"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eDeM7W",
+        "subheading_mkEU3j"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h1 {margin-right: 100px; margin-left: 100px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/03.Html-move-100_6915b2f6-4dcc-44ef-a5d5-438fb9a57774.png",
+        "mobile_image": "shopify:\/\/shop_images\/04.Html-move-100_c528b151-ee6e-435e-adfa-a0b65b1d397a.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_J4CbdY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p9mhWJ": {
+          "type": "heading",
+          "settings": {
+            "text": "Chegar lá é só metade do caminho.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_yyCNfj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Seja ao correr, andar de bicicleta, ir à academia ou fazer yoga, leve a música com você.<\/p>"
+          }
+        },
+        "richtext_pgHiN9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SUA JORNADA<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p9mhWJ",
+        "richtext_yyCNfj",
+        "richtext_pgHiN9"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "images_with_text_scrolling_FURWAj": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_8McBRc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/06.Html-move-100_aed31f43-9280-4dda-8500-9a0d9e4432b3.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/17.Banner-html-sense-200_b9c97a06-7ee1-4d3f-a0f7-41a45e700e95.png",
+            "icon_width": 56,
+            "title": "Bluetooth 5.0",
+            "content": "<p>Movimente-se sem se preocupar com interrupções na música. O Bluetooth 5.0 oferece uma conexão mais estável.<\/p>"
+          }
+        },
+        "item_QnVHAm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05.Html-move-100_09eea773-928a-455f-b109-7033394aac81.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_b6eb5a52-ff0c-4584-b538-c1e2a2195164.png",
+            "icon_width": 56,
+            "title": "Conforto WAAW",
+            "content": "<p>O <strong>MOVE 100<\/strong> acompanha 3 tamanhos de borrachinhas para se adaptar ao seu ouvido de maneira que você possa se sentir mais confortável.<\/p>"
+          }
+        },
+        "item_8Gy8xE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08.Html-move-100_880a2383-1d23-4269-a765-78f77706afd0.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
+            "icon_width": 56,
+            "title": "Conexão multipontos",
+            "content": "<p>Conecte seu fone a dois dispositivos simultaneamente. Enquanto escuta música no seu notebook, você pode atender a uma chamada no smartphone rapidamente. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8McBRc",
+        "item_QnVHAm",
+        "item_8Gy8xE"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "hot_spots_XrLMeV": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_36cVEE": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 52,
+            "vertical_position": 84,
+            "horizontal_position_mobile": 58,
+            "vertical_position_mobile": 82,
+            "icon_width": 32,
+            "title": "Hands Free",
+            "content": "<p>Com um simples toque no controle do fone de ouvido, é possível atender ligações, realizar comandos na música, além de acionar a assistente de voz do seu dispositivo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_36cVEE"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/10.Html-move-100_96e0b737-788f-46df-a3af-2fa5ea05da96.png",
+        "mobile_image": "shopify:\/\/shop_images\/11.Html-move-100_2b4c1d61-44da-4362-a797-3db2b92cd1d5.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_4QgRqC": {
+      "type": "impact-text",
+      "blocks": {
+        "item_8ewgRe": {
+          "type": "item",
+          "settings": {
+            "title": "até 14h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_8ewgRe"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_JndVCy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YCQKBF": {
+          "type": "heading",
+          "settings": {
+            "text": "A autonomia que você precisa para um treino sem pausas.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_EfGF8m": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Perfeito para quem valoriza conforto. O fone de ouvido esportivo WAAW proporciona horas de trilha sonora para suas atividades físicas. Além disso, a bateria de longa duração do <strong>MOVE 100<\/strong> acompanha você por até 14 horas de playlist. <\/p>"
+          }
+        },
+        "richtext_xaHxR7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YCQKBF",
+        "richtext_EfGF8m",
+        "richtext_xaHxR7"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_HrgrqG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NryUrF": {
+          "type": "heading",
+          "settings": {
+            "text": "Proteção IPX4",
+            "heading_tag": "h2"
+          }
+        },
+        "heading_bCYQk8": {
+          "type": "heading",
+          "settings": {
+            "text": "A chuva não precisa parar seu movimento",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_WgwFhr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Com um fone à prova de suor e resistente à água, você não precisa se preocupar com a transpiração ou chuva. Tenha liberdade para treinar em ambientes internos ou externos.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NryUrF",
+        "heading_bCYQk8",
+        "richtext_WgwFhr"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h1 {margin-right: 300px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/12.Html-move-100_c66f59af-7b63-434e-9d64-d2d1a954a93d.png",
+        "mobile_image": "shopify:\/\/shop_images\/13.Html-move-100_8e59e0cd-d037-494a-8a82-e2e1df862981.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_GGN8J9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nAkgfL": {
+          "type": "heading",
+          "settings": {
+            "text": "Treine do seu jeito!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3iqEyQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>De material flexível e emborrachado, você tem mais segurança e liberdade de movimentos durante suas atividades físicas com o <strong>MOVE 100<\/strong>. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nAkgfL",
+        "richtext_3iqEyQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_02-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_01-min.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_06-min.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -242,7 +687,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 15,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver mais",
@@ -260,121 +705,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=X6X61Xf4rkk&t=98s",
-        "poster": "shopify:\/\/shop_images\/MOVE-100EBS-7899831310111-02.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_02-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_01-min.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MOVE-100EBS-USO_06-min.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
       }
     },
     "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
@@ -443,6 +773,7 @@
         "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
         "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
       ],
+      "disabled": true,
       "settings": {
         "multicolumn_carousel": true,
         "full_width": true,
@@ -676,9 +1007,17 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_VWYGkY",
+    "rich_text_J4CbdY",
+    "images_with_text_scrolling_FURWAj",
+    "hot_spots_XrLMeV",
+    "impact_text_4QgRqC",
+    "rich_text_JndVCy",
+    "image_with_text_overlay_HrgrqG",
+    "rich_text_GGN8J9",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "1b036d2c-595c-4d06-84cf-493e1da4fceb",
     "bac92a01-ed39-4116-9357-048e21326ec5",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",

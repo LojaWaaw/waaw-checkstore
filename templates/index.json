@@ -3,12 +3,11 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "433e7995-a7b1-4b47-856f-34b9cd6bb796": {
+        "image_wNYzb3": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/WAAW_HEADER_1400X400_FIMDEANO.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/WAAW_HEADER_525X700_FIMDEANO.jpg",
+            "image": "shopify:\/\/shop_images\/02.2800x800-Dektop-banner-promocao-de-carnaval.png",
+            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-Mobile-banner-promocao-de-carnaval.png",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -16,36 +15,13 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify:\/\/collections\/carnawaaw",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 30,
             "background": "",
-            "background_gradient": ""
-          }
-        },
-        "slide-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/04.2800x800-banner-desconto-10-waaw-desktop-v2_1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/05.1200x1600-banner-desconto-10-waaw-mobile-v2_1.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/all",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "rgba(0,0,0,0)",
             "background_gradient": ""
           }
         },
@@ -118,8 +94,7 @@
         }
       },
       "block_order": [
-        "433e7995-a7b1-4b47-856f-34b9cd6bb796",
-        "slide-1",
+        "image_wNYzb3",
         "568a23e6-63b9-486e-bfe9-796454df918c",
         "3fa239c1-571d-4ef2-b2e6-42295daffa9e",
         "2f4b57fa-b57f-4dc6-875c-adb7c79c36e2"
@@ -154,7 +129,9 @@
         "banner_text_align": "left",
         "banner_text_position": "top",
         "collection": "vitrine-home-2",
-        "products": [],
+        "products": [
+
+        ],
         "full_width": false,
         "stack_products": false,
         "show_progress_bar": false,
@@ -179,12 +156,10 @@
     "563409fc-7ba0-4299-b2d2-61b1fe553205": {
       "type": "media-grid",
       "blocks": {
-        "d69dbe9f-d309-4789-90bf-d54b5bfb8165": {
-          "type": "video",
+        "image_hdaD8C": {
+          "type": "image",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/WAAW_1080.mp4",
-            "external_video_url": "",
-            "show_video_controls": true,
+            "image": "shopify:\/\/shop_images\/10000_ead0f677-ab09-4582-a4b1-ab5cee5f70ad.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -193,7 +168,7 @@
             "desktop_column_span": 2,
             "desktop_row_span": 2,
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "rgba(0,0,0,0)",
+            "background": "#000000",
             "background_gradient": "",
             "text_color": "#ffffff",
             "text_gradient": "",
@@ -249,7 +224,7 @@
         }
       },
       "block_order": [
-        "d69dbe9f-d309-4789-90bf-d54b5bfb8165",
+        "image_hdaD8C",
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2",
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0"
       ],
@@ -321,7 +296,9 @@
         "banner_text_align": "left",
         "banner_text_position": "top",
         "collection": "dia-dos-pais",
-        "products": [],
+        "products": [
+
+        ],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -417,7 +394,8 @@
       "blocks": {
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2": {
           "type": "badges",
-          "settings": {}
+          "settings": {
+          }
         },
         "d58b202e-f3f9-4e38-9f78-ba819504c6ab": {
           "type": "text",
@@ -445,7 +423,8 @@
         },
         "c3bb387c-183b-4b7d-b32e-5b922a6367f0": {
           "type": "separator",
-          "settings": {}
+          "settings": {
+          }
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9": {
           "type": "buy_buttons",
@@ -460,7 +439,8 @@
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10": {
           "type": "pickup_availability",
-          "settings": {}
+          "settings": {
+          }
         },
         "46518564-b311-4d94-b8f3-77e8e225cf1e": {
           "type": "see_more_infos",
