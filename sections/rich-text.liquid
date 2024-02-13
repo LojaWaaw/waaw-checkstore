@@ -22,14 +22,14 @@
 
           {%- when 'heading' -%}
             {%- if block.settings.text != blank -%}
-              <p class="{{ block.settings.heading_tag }} hyphenate" {{ block.shopify_attributes }}>
+              <p class="{{ block.settings.heading_tag }} " {{ block.shopify_attributes }}>
                 {%- render 'styled-text', content: block.settings.text, text_color: block.settings.text_color, gradient: block.settings.gradient -%}
               </p>
             {%- endif -%}
 
           {%- when 'richtext' -%}
             {%- if block.settings.content != blank -%}
-              <div {{ block.shopify_attributes }}>
+              <div style="font-size: {{ block.settings.paragraph_font_size }}px;" {{ block.shopify_attributes }}>
                 {{- block.settings.content -}}
               </div>
             {%- endif -%}
@@ -287,6 +287,14 @@
           "id": "content",
           "label": "Content",
           "default": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+        },
+        {
+          "type": "range",
+          "id": "paragraph_font_size",
+          "label": "Font size",
+          "min": 10,
+          "max": 30,
+          "default": 14
         }
       ]
     },
