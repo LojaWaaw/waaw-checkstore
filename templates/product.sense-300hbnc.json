@@ -155,7 +155,7 @@
       ],
       "settings": {
         "full_width": false,
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/youtu.be\/hatNR87DHq8",
