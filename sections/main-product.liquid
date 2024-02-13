@@ -57,9 +57,19 @@
   <product-quick-add form="{{ product_form_id }}" class="product-quick-add">
     {%- assign button_label = 'product.general.add_to_cart_button' | t -%}
 
-    <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button class="sm:hidden">
-      {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
-    </buy-buttons>
+    <div class="sm:hidden">
+      <div class="popup_title">
+        {{ product.title }}
+      </div>
+      <div class="popup_prices">
+        {% if product.compare_at_price != blank %}<span>{{ product.compare_at_price | money }}</span>{% endif %}
+        {{ product.price | money }}
+      </div>
+
+      <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
+        {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
+      </buy-buttons>
+    </div>
 
     {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
 

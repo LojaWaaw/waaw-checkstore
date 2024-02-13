@@ -3164,6 +3164,32 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  background: rgba(255, 255, 255, .9);
+  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, .08);
+}
+
+.product-quick-add.is-visible .popup_title {
+  text-align: center;
+  font-size: 15px;
+  color: #3d3935;
+  font-weight: 700;
+}
+
+.product-quick-add.is-visible .popup_prices {
+  text-align: center;
+  font-size: 15px;
+  color: #3d3935;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.product-quick-add.is-visible .popup_prices span {
+  font-size: 14px;
+  color: rgba(61, 57, 53, .7);
+  text-decoration: line-through;
 }
 
 @media screen and (min-width: 700px) {
