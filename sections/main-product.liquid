@@ -51,11 +51,25 @@
 
 {%- assign buy_buttons_block = section.blocks | where: 'type', 'buy_buttons' | first -%}
 
-{%- if section.settings.show_fixed_add_to_cart and product.available and buy_buttons_block != blank -%}
+{%- if section.settings.show_fixed_add_to_cart and buy_buttons_block != blank -%}
   {%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
 
   <product-quick-add form="{{ product_form_id }}" class="product-quick-add">
     {%- assign button_label = 'product.general.add_to_cart_button' | t -%}
+
+    {% capture popup_buy_button %}
+      {% if product.available %}
+        <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
+          {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
+        </buy-buttons>
+      {% else %}
+        <button class="button button--lg w-full product-popup__button-unavailable">{{ 'product.general.notify_me_button' | t }}</button>
+
+        <script>
+          $('.product-popup__button-unavailable').on('click', () => $('.gw-button-widget-container button').click())
+        </script>
+      {%  endif %}
+    {% endcapture %}
 
     <div class="sm:hidden">
       <div class="popup_title">
@@ -66,9 +80,7 @@
         {{ product.price | money }}
       </div>
 
-      <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
-        {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true, stretch: true, size: 'lg' -%}
-      </buy-buttons>
+      {{ popup_buy_button }}
     </div>
 
     {%- assign image = product.selected_or_first_available_variant.featured_media | default: product.featured_media -%}
@@ -91,9 +103,7 @@
         {%- render 'price-list', product: product, variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
       </div>
 
-      <buy-buttons template="{{ product.template_suffix }}" form="{{ product_form_id }}" force-secondary-button>
-        {%- render 'button', type: 'submit', content: button_label, form: product_form_id, background: buy_buttons_block.settings.atc_button_background, text_color: buy_buttons_block.settings.atc_button_text_color, secondary: true -%}
-      </buy-buttons>
+      {{ popup_buy_button }}
     </div>
   </product-quick-add>
 {%- endif -%}
