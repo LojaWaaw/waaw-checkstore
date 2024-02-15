@@ -66,7 +66,12 @@
         <button class="button button--lg w-full product-popup__button-unavailable">{{ 'product.general.notify_me_button' | t }}</button>
 
         <script>
-          $('.product-popup__button-unavailable').on('click', () => $('.gw-button-widget-container button').click())
+          const getButtonInterval = setInterval(() => {
+            if($('.product-popup__button-unavailable') && $('.gw-button-widget-container button')) {
+              clearInterval(getButtonInterval)
+              $('.product-popup__button-unavailable').on('click', () => $('.gw-button-widget-container button').click())
+            }
+          }, 1000)
         </script>
       {%  endif %}
     {% endcapture %}
