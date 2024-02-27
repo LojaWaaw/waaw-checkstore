@@ -7930,6 +7930,12 @@ split-lines {
   font-size: 18px;
 }
 
+@media screen and (max-width: 1000px) {
+  .product-info__title {
+    margin-top: 40px;
+  }
+}
+
 .product-info__title + .product-info__text--highlight {
   margin-top: 0;
 }
