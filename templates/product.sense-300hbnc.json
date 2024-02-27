@@ -215,7 +215,8 @@
         "richtext_CEMreL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Mergulhe em cada batida para que você ouça as canções como se seu coração estivesse nelas. Use o <strong>Headphone sem fio <\/strong>por horas de forma confortável, sem precisar recarregar, graças à sua bateria de longa duração. <\/p>"
+            "content": "<p>Mergulhe em cada batida para que você ouça as canções como se seu coração estivesse nelas. Use o <strong>Headphone sem fio <\/strong>por horas de forma confortável, sem precisar recarregar, graças à sua bateria de longa duração. <\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -437,13 +438,15 @@
         "richtext_qmFfp8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Desconecte o cancelamento de ruído do <strong>SENSE 300<\/strong> e experimente uma experiência musical de imersão completa por até 60 horas de reprodução.<\/p><p>Ao acionar a tecnologia, o <strong>fone de ouvido Bluetooth<\/strong> proporciona até 50 horas de autonomia, para você aproveitar suas canções favoritas por mais tempo. <\/p>"
+            "content": "<p>Desconecte o cancelamento de ruído do <strong>SENSE 300<\/strong> e experimente uma experiência musical de imersão completa por até 60 horas de reprodução.<\/p><p>Ao acionar a tecnologia, o <strong>fone de ouvido Bluetooth<\/strong> proporciona até 50 horas de autonomia, para você aproveitar suas canções favoritas por mais tempo. <\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_VqXTyr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 12
           }
         }
       },
