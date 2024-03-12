@@ -1,0 +1,501 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "image": "{{ collection.metafields.my_fields.collection_image_desktop.value }}",
+        "mobile_image": "{{ collection.metafields.my_fields.collection_image_mobile.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "a887f921-e48e-47c6-86d4-d285acff434d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti200.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti200.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "image_with_text_overlay_fFfVHc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_9zY4iM": {
+          "type": "heading",
+          "settings": {
+            "text": "Qual é o fone de ouvido que o Alok usa?",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_gkqgfV": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Para quem acompanha o artista Alok em seus shows ou nas redes sociais, já percebeu que ele não larga do seu maior parceiro: o fone de ouvido.<\/p><p>Além de conforto durante o uso, o headphone que o Alok usa precisa de um áudio nítido e características que tornam um instrumento de trabalho eficaz.<\/p><p>Para saber mais detalhes sobre o fone queridinho do Alok, acesse o post!<\/p>"
+          }
+        },
+        "button_DeMh7w": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Saiba mais",
+            "url": "https:\/\/blog.waaw.com.br\/qual-fone-o-alok-usa",
+            "background": "#e0e621",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9zY4iM",
+        "richtext_gkqgfV",
+        "button_DeMh7w"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/02.Html-categoria-fone-de-ouvido_6451f399-b089-4ac7-8487-ffd2d40109a1.png",
+        "mobile_image": "shopify:\/\/shop_images\/03.Html-categoria-fone-de-ouvido_b466b43a-fc83-41b9-a56e-7c974f68cd0b.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_gTPahQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7Y6gUU": {
+          "type": "heading",
+          "settings": {
+            "text": "Diferenças entre fone de ouvido e headset",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_z7JpeQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Todo headset é um fone de ouvido, mas nem todo fone de ouvido é um headset. O headset tem como característica principal o microfone externo em formato de arco. Nem todo fone de ouvido possui microfone e, quando tem, pode ser interno.<\/p><p>Veja neste post mais informações e saiba todas as diferenças entre fone de ouvido e headset.<\/p>"
+          }
+        },
+        "button_mdBdWr": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Saiba a diferença",
+            "url": "https:\/\/blog.waaw.com.br\/fone-de-ouvido-vs-headset\/",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7Y6gUU",
+        "richtext_z7JpeQ",
+        "button_mdBdWr"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "media_with_text_PMnLG7": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_DM443Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/04.Html-categoria-fone-de-ouvido_bcfc8ba2-76c5-4059-8e9c-99550a49f8e6.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Quais são os tipos de fones de ouvido?",
+            "content": "<p>Existem vários tipos de fone de ouvido com diferentes características e funcionalidades.<\/p><p> Dentre as variedades, podemos encontrar fones de ouvido sem fio, com fio, dobráveis, intra auriculares, com microfone ou estilo headphone.<\/p><p>Diante de tantas opções, como escolher o melhor fone de ouvido?<\/p>",
+            "link_text": "Entenda",
+            "link_url": "https:\/\/blog.waaw.com.br\/tipos-de-fone-de-ouvido\/",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        },
+        "image_RwJqAA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05.Html-categoria-fone-de-ouvido_8601c134-f0e7-442f-a0ba-f7e7ad507a12.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Qual fone tem cancelamento de ruído?",
+            "content": "<p>Um headphone com cancelamento de ruído é um tipo de fone de ouvido que possui tecnologia para bloquear os sons externos. Assim, você consegue escutar o áudio do fone com detalhes e muita qualidade.<\/p><p>O fone bluetooth WAAW SENSE 300 possui essa tecnologia de cancelamento ativo de ruído. O modelo é um headphone over-ear e totalmente sem fios. O que garante praticidade e liberdade de movimento.<\/p>",
+            "link_text": "Confira no blog",
+            "link_url": "https:\/\/blog.waaw.com.br\/headphone-com-cancelamento-de-ruido\/",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#e0e621",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_DM443Y",
+        "image_RwJqAA"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_link_blocks_XA4Gyn": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_LrWBwJ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/06.Html-categoria-fone-de-ouvido_665ecc38-694e-4a15-8d17-f7e79a880a58.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        },
+        "item_CEiRxR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07.Html-categoria-fone-de-ouvido_6b7c9e80-4131-4b5f-961c-f35797078535.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        },
+        "item_mytfqw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08.Html-categoria-fone-de-ouvido_c6f3e1e7-abf5-4c8e-ac52-4b816f64c696.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        },
+        "item_GVEYEt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09.Html-categoria-fone-de-ouvido_fca81db8-5a0d-4b80-b534-fb60e6098168.png",
+            "stretch_image": true,
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "title_color": "#E0E621",
+            "text_color": "#ffffff",
+            "overlay_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_LrWBwJ",
+        "item_CEiRxR",
+        "item_mytfqw",
+        "item_GVEYEt"
+      ],
+      "settings": {
+        "full_width": false,
+        "position_images": "carousel_original_height",
+        "block_size": "medium",
+        "vertical_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_XbG6QT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6wpmYg": {
+          "type": "heading",
+          "settings": {
+            "text": "Qual o melhor fone de ouvido para jogar?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_WaMMXX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Um bom fone de ouvido para jogar possui algumas características básicas, precisa ser confortável para garantir longas horas de jogo. Além disso, é importante entregar qualidade sonora.<\/p><p>Confira o melhor fone de ouvido para jogos em nosso post!<\/p>"
+          }
+        },
+        "button_aF3Vnq": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Saiba mais",
+            "url": "https:\/\/blog.waaw.com.br\/melhor-fone-de-ouvido-para-jogar\/",
+            "background": "#000000",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6wpmYg",
+        "richtext_WaMMXX",
+        "button_aF3Vnq"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_hYnBMr": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_VBjcfj": {
+          "type": "heading",
+          "settings": {
+            "text": "Qual é o melhor fone de ouvido sem fio?",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_rd7UTU": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Os melhores fones bluetooth possuem funcionalidades que auxiliam na boa experiência do usuário, como o sistema de toque inteligente e compatibilidade com assistentes de voz.<\/p><p>Confira os melhores modelos da WAAW!<\/p>"
+          }
+        },
+        "button_dfeXGH": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Saiba mais",
+            "url": "https:\/\/blog.waaw.com.br\/os-melhores-fones-de-ouvido-sem-fio\/",
+            "background": "#000000",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VBjcfj",
+        "richtext_rd7UTU",
+        "button_dfeXGH"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/10.Html-categoria-fone-de-ouvido_08bb3a5f-4dc5-499c-b944-a055be428d1d.png",
+        "mobile_image": "shopify:\/\/shop_images\/11.Html-categoria-fone-de-ouvido_8f0541b9-310e-4845-b9eb-5cbe90f12e3a.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_RgbanR": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_abXmXe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.Html-categoria-fone-de-ouvido_23b2b05d-a7f4-437a-8545-6955adb4d2df.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Headphone com ou sem fio? Qual é o melhor?",
+            "content": "<p>Se quer um fone que aguente uma longa jornada diária, talvez seja melhor optar por um headphone com fio. Agora, se busca por praticidade e liberdade de movimento, o headphone bluetooth pode ser uma boa opção. Confira nossas dicas especiais.<\/p>",
+            "link_text": "Saiba mais",
+            "link_url": "https:\/\/blog.waaw.com.br\/headphone-com-ou-sem-fio\/",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_abXmXe"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_xqp9zt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TJFAVm": {
+          "type": "heading",
+          "settings": {
+            "text": "Se a vida é música, seu coração é que dita o ritmo.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pi9aQc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA A SUA BATIDA<\/strong><\/p>"
+          }
+        },
+        "richtext_PgiqB4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Fones de Ouvido do DJ brasileiro mais ouvido no mundo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TJFAVm",
+        "richtext_pi9aQc",
+        "richtext_PgiqB4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "a887f921-e48e-47c6-86d4-d285acff434d",
+    "main",
+    "image_with_text_overlay_fFfVHc",
+    "rich_text_gTPahQ",
+    "media_with_text_PMnLG7",
+    "image_link_blocks_XA4Gyn",
+    "rich_text_XbG6QT",
+    "image_with_text_overlay_hYnBMr",
+    "media_with_text_RgbanR",
+    "rich_text_xqp9zt"
+  ]
+}

@@ -3,11 +3,11 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_wNYzb3": {
+        "image_VxmjGQ": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.2800x800-Dektop-banner-promocao-de-carnaval.png",
-            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-Mobile-banner-promocao-de-carnaval.png",
+            "image": "shopify:\/\/shop_images\/02.2800x800-banner-semana-do-consumidor-waaw.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-banner-semana-do-consumidor-waaw.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -15,7 +15,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/carnawaaw",
+            "button_link": "shopify:\/\/collections\/semana-do-consumidor",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -25,11 +25,11 @@
             "background_gradient": ""
           }
         },
-        "568a23e6-63b9-486e-bfe9-796454df918c": {
+        "image_m39nhd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-site-infiniti100.png",
-            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti100.png",
+            "image": "shopify:\/\/shop_images\/04.2800x800-banner-semana-do-consumidor-vib-100-waaw_b4e50eb9-1f67-4b35-bca2-ced2184078d6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/05.1200x1600-banner-semana-do-consumidor-vib-100-waaw_56dc10f2-7091-44ad-bdae-be81cb8675ef.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -37,7 +37,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/sound-box-infinite-100",
+            "button_link": "shopify:\/\/products\/fone-de-ouvido-estereo-vib-100ew",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -47,11 +47,11 @@
             "background_gradient": ""
           }
         },
-        "3fa239c1-571d-4ef2-b2e6-42295daffa9e": {
+        "image_kf4aqn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-site-infiniti200.png",
-            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti200.png",
+            "image": "shopify:\/\/shop_images\/14.2800x800-banner-semana-do-consumidor-mob-100-waaw.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/15.1200x1600-banner-semana-do-consumidor-mob-100-waaw.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -59,7 +59,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/sound-box-infinite-200",
+            "button_link": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-100eb",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -69,12 +69,11 @@
             "background_gradient": ""
           }
         },
-        "2f4b57fa-b57f-4dc6-875c-adb7c79c36e2": {
+        "image_AfGUqt": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.1400x400-Banner-loja-waaw_568fa583-4dd9-453a-885f-d958cedee88e.png",
-            "mobile_image": "shopify:\/\/shop_images\/03.525x700-Banner-loja-waaw_fea4a9ba-8e65-441c-a0bb-95d18a2748a9.png",
+            "image": "shopify:\/\/shop_images\/10.2800x800-banner-semana-do-consumidor-mob-200-waaw.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/11.1200x1600-banner-semana-do-consumidor-mob-200-waaw.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -82,7 +81,29 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
+            "button_link": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-200eb",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_NKFdfa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08.2800x800-banner-semana-do-consumidor-boom-100-waaw.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/09.1200x1600-banner-semana-do-consumidor-boom-100-waaw.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -94,10 +115,11 @@
         }
       },
       "block_order": [
-        "image_wNYzb3",
-        "568a23e6-63b9-486e-bfe9-796454df918c",
-        "3fa239c1-571d-4ef2-b2e6-42295daffa9e",
-        "2f4b57fa-b57f-4dc6-875c-adb7c79c36e2"
+        "image_VxmjGQ",
+        "image_m39nhd",
+        "image_kf4aqn",
+        "image_AfGUqt",
+        "image_NKFdfa"
       ],
       "settings": {
         "full_width": true,
@@ -117,9 +139,9 @@
     "a17ec046-c828-412b-92fa-e109251e7f77": {
       "type": "featured-collection",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/banner-waaw-produtos2.png",
-        "banner_link": "shopify:\/\/products\/fone-bluetooth-cancelamento-ruido-sense-300hbnc",
-        "banner_image_behavior": "object-contain",
+        "banner": "shopify:\/\/shop_images\/02.500X706-banner-site-waaw.jpg",
+        "banner_link": "https:\/\/waaw.com.br\/collections\/todos-os-produtos",
+        "banner_image_behavior": "object-fit",
         "banner_text": "",
         "banner_text_color": "rgba(0,0,0,0)",
         "banner_text_size": 20,
@@ -129,9 +151,7 @@
         "banner_text_align": "left",
         "banner_text_position": "top",
         "collection": "vitrine-home-2",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": false,
         "stack_products": false,
         "show_progress_bar": false,
@@ -159,10 +179,10 @@
         "image_hdaD8C": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10000_ead0f677-ab09-4582-a4b1-ab5cee5f70ad.png",
+            "image": "shopify:\/\/shop_images\/05.700x700-banner-site-waaw-linha-infinite.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/sound-box-infinite-100",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -181,10 +201,10 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/08.700x583-Banner-loja-waaw.png",
+            "image": "shopify:\/\/shop_images\/03.700x583-banner-site-waaw-categoria_3919f16e-add3-4ed8-be2b-a2ddbbaa72d7.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/fones-de-ouvido",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -203,10 +223,10 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/09.1000x429-Banner-loja-waaw.png",
+            "image": "shopify:\/\/shop_images\/04.700x583-banner-site-waaw-categoria_013878fe-d511-4a12-896c-fdbba916f3f6.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "",
+            "link_url": "shopify:\/\/collections\/caixas-de-som",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -296,9 +316,7 @@
         "banner_text_align": "left",
         "banner_text_position": "top",
         "collection": "dia-dos-pais",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": false,
         "show_progress_bar": false,
@@ -394,8 +412,7 @@
       "blocks": {
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-2": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "d58b202e-f3f9-4e38-9f78-ba819504c6ab": {
           "type": "text",
@@ -423,8 +440,7 @@
         },
         "c3bb387c-183b-4b7d-b32e-5b922a6367f0": {
           "type": "separator",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-9": {
           "type": "buy_buttons",
@@ -439,8 +455,7 @@
         },
         "template--15950778237103__003d4475-eb16-480d-9f28-9ed37ac8435a-16892808549adc956e-10": {
           "type": "pickup_availability",
-          "settings": {
-          }
+          "settings": {}
         },
         "46518564-b311-4d94-b8f3-77e8e225cf1e": {
           "type": "see_more_infos",
@@ -498,18 +513,18 @@
         "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SD5A6853_1.png",
+            "image": "shopify:\/\/shop_images\/09.700x435-banner-site-waaw-boom-100_99cc7edc-f48b-4568-8451-4f1672991b01.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/US-100SB-08_1_1.png",
-            "icon_width": 200,
+            "custom_icon": "shopify:\/\/shop_images\/15.Html-boom-100.png",
+            "icon_width": 240,
             "subheading": "",
             "title": "RESPEITA O SOM COM A GALERA.",
-            "content": "<p>Escuta a batida que vem de fora.<\/p><p><strong>Caixa de Som WAAW US100<\/strong><\/p>",
+            "content": "<p>Pra quando o volume máximo não basta.<\/p><p><strong>Caixa de Som WAAW BOOM 100<\/strong><\/p>",
             "link_text": "Descubra",
-            "link_url": "shopify:\/\/products\/caixa-de-som-bluetooth-us-100sb",
+            "link_url": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
             "background": "#e0e621",
             "background_gradient": "",
             "text_color": "#000000",
@@ -623,8 +638,8 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid1.jpg",
-            "banner_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
+            "banner_image": "shopify:\/\/shop_images\/07.500x500-banner-site-waaw-fotos.jpg",
+            "banner_link": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-200eb",
             "banner_position": "above",
             "product": "fone-de-ouvido-tws-bluetooth-mob-100eb"
           }
@@ -633,7 +648,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid2.jpg",
+            "banner_image": "shopify:\/\/shop_images\/06.500x500-banner-site-waaw-boom-100.jpg",
             "banner_link": "shopify:\/\/products\/caixa-de-som-bluetooth-me-100sb",
             "banner_position": "bellow",
             "product": "waaw-boom-100sb-caixa-de-som"
@@ -643,8 +658,8 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid3.jpg",
-            "banner_link": "shopify:\/\/products\/fone-de-ouvido-sense-100hw",
+            "banner_image": "shopify:\/\/shop_images\/09.500x500-banner-site-waaw-fotos.jpg",
+            "banner_link": "shopify:\/\/products\/fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
             "banner_position": "above",
             "product": "fone-bluetooth-cancelamento-ruido-sense-300hbnc"
           }
@@ -653,8 +668,8 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/banner-waaw-grid4.jpg",
-            "banner_link": "shopify:\/\/products\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws",
+            "banner_image": "shopify:\/\/shop_images\/08.500x500-banner-site-waaw-fotos_18ab7c34-3def-4341-a4d8-3fe56ec5a1ae.jpg",
+            "banner_link": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
             "banner_position": "bellow",
             "product": "waaw-energy-100ebg-fone-de-ouvido-gamer-tws"
           }
