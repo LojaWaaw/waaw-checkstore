@@ -123,6 +123,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -131,6 +132,534 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify:\/\/files\/videos\/VIDEO-BOOM-100SB-FEATURES.mp4",
+        "external_video_url": "",
+        "poster": "shopify:\/\/shop_images\/VERAO-BOOM-100SB_01.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_CiHLKK": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_mk4j37": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixa de Som Boom 100",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_aYmWpG": {
+          "type": "subheading",
+          "settings": {
+            "text": "Caixa de Som Bluetooth à prova d'água WAAW"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mk4j37",
+        "subheading_aYmWpG"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 180px; margin-left: 180px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/16.Html-boom-100_d629d139-48cd-4710-ae25-5919b8cf5e74.png",
+        "mobile_image": "shopify:\/\/shop_images\/17.Html-boom-100_b5707d75-e9e1-4077-ad7c-1aed22a120a7.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_PVqipz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MjMdNQ": {
+          "type": "heading",
+          "settings": {
+            "text": "Sente a batida. De verdade.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_3Ucifr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SUAS EMOÇÕES<\/strong><\/p>"
+          }
+        },
+        "richtext_MdXULX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Som potente e imersivo, a caixa de som perfeita para te acompanhar em todos os momentos e proporcionar uma incrível experiência.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MjMdNQ",
+        "richtext_3Ucifr",
+        "richtext_MdXULX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "hot_spots_8gHkzN": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_qJJgH9": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 50,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 50,
+            "vertical_position_mobile": 35,
+            "icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_84170024-2065-49d3-905f-d3af1554e361.png",
+            "icon_width": 56,
+            "title": "Controle de Toque",
+            "content": "<p>Controles de toque no botão para reproduzir, pausar, avançar, voltar e também para atender chamadas.<\/p>"
+          }
+        },
+        "item_HrqmGY": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 69,
+            "vertical_position": 55,
+            "horizontal_position_mobile": 78,
+            "vertical_position_mobile": 59,
+            "icon": "shopify:\/\/shop_images\/17.Banner-html-sense-200_b9c97a06-7ee1-4d3f-a0f7-41a45e700e95.png",
+            "icon_width": 56,
+            "title": "Bluetooth 5.0",
+            "content": "<p>Conta com tecnologia Bluetooth 5.0, que oferece melhor conectividade com alcance de até 10m.<\/p><p>*O alcance do Bluetooth depende de um ambiente sem obstrução para funcionar dentro do raio indicado.<\/p>"
+          }
+        },
+        "item_qrtWGU": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 30,
+            "vertical_position": 50,
+            "horizontal_position_mobile": 18,
+            "vertical_position_mobile": 55,
+            "icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
+            "icon_width": 56,
+            "title": "Entrada Auxiliar P2",
+            "content": "<p>Compatível com diversos dispositivos.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_qJJgH9",
+        "item_HrqmGY",
+        "item_qrtWGU"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/03.Html-boom-100_616f7a33-a7a2-42d1-9d3d-be338f8b277f.png",
+        "mobile_image": "shopify:\/\/shop_images\/04.Html-boom-100_8ef3a23c-ce2f-4893-abf8-3ff11ab33ade.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_mD6jQq": {
+      "type": "impact-text",
+      "blocks": {
+        "item_gLFHCq": {
+          "type": "item",
+          "settings": {
+            "title": "até 20h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_gLFHCq"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_HkTigR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_czPALV": {
+          "type": "heading",
+          "settings": {
+            "text": "Reproduza suas músicas sem preocupação",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Uhpren": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Em apenas uma recarga, você pode aproveitar suas playlists à vontade. Duração média de carregamento de até 5 horas.<\/p>"
+          }
+        },
+        "richtext_Y3VJUb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_czPALV",
+        "richtext_Uhpren",
+        "richtext_Y3VJUb"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_arBw98": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_WJeUE8": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_XqPtw6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Tecnologia TWS que conecta duas caixas <strong>BOOM 100<\/strong> via bluetooth e garante um verdadeiro som estéreo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WJeUE8",
+        "richtext_XqPtw6"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 230px; margin-left: 230px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/05.Html-boom-100_04cb59dd-01c2-4ce8-8ac4-a674689ea43f.png",
+        "mobile_image": "shopify:\/\/shop_images\/06.Html-boom-100_ce9c34b2-2875-4d43-9cb4-8a50859d7a33.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_zjiGRA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_hREdKQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/07.Html-boom-100_a3e260a1-d000-4943-ad0a-b8ae03dd2a40.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/09.Html-boom-100.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "WAAW Go",
+            "content": "<p>Acompanha uma alça flexível de transporte permitindo maior mobilidade em seu dia a dia. Leve a sua WAAW para onde quiser.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_X4TEWG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08.Html-boom-100_02ba0983-1a67-412c-a1d4-acd4606ad513.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_5567af64-fcb6-447c-96eb-6af9ffbf3e54.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Hands Free",
+            "content": "<p>Com apenas um toque, atenda ou encerre chamadas e tenha mãos livres enquanto conversa.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hREdKQ",
+        "image_X4TEWG"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_BpiVNN": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Vntt98": {
+          "type": "heading",
+          "settings": {
+            "text": "Proteção IPX7",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_8Vibx4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>É uma caixa de som à prova d'água. Ouça suas músicas favoritas na praia, piscina e onde estiver, sem medo de molhar.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vntt98",
+        "richtext_8Vibx4"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/10.Html-boom-100_eb3f6240-cd86-488e-a03a-c39a6a5fbf99.png",
+        "mobile_image": "shopify:\/\/shop_images\/11.Html-boom-100_423f36b7-ab68-4057-8ef8-7ef1a5a9f208.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "images_with_text_scrolling_KczEkH": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_kcQi8F": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13.Html-boom-100_eeca2515-216c-40f5-ab5f-85cf43f65ad1.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Som Nítido",
+            "content": "<p>A <strong>WAAW BOOM 100<\/strong> possui 4 drives de alta performance que oferecem um som nítido e de alta definição.<\/p>"
+          }
+        },
+        "item_WhET3B": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14.Html-boom-100_b0be3d9c-107f-4f11-9dcd-05d91df702d9.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Graves Profundos",
+            "content": "<p>Possui 2 radiadores passivos que auxiliam para a reprodução de graves ainda mais potentes.<\/p>"
+          }
+        },
+        "item_AWWtw4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.Html-boom-100_6f78e486-93d2-4226-88f5-72bf8f72da1f.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Super Potente",
+            "content": "<p>40W RMS de potência que proporcionam uma experiência imersiva.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_kcQi8F",
+        "item_WhET3B",
+        "item_AWWtw4"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boom-festa-5-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boom-festa-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/boom-model-10-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -242,7 +771,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 18,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver mais",
@@ -260,268 +789,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "video": "shopify:\/\/files\/videos\/VIDEO-BOOM-100SB-FEATURES.mp4",
-        "external_video_url": "",
-        "poster": "shopify:\/\/shop_images\/VERAO-BOOM-100SB_01.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/boom-festa-5-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/boom-festa-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/boom-model-10-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Até 20 horas de autonomia",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/06.Icone-protecao-grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Proteção IPX7",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/05.Icone-tecnologia-tws-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Tecnologia TWS",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/08.Icone-alca-para-tranport-Grandee.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Alça para Transportar",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
-      ],
-      "settings": {
-        "multicolumn_carousel": true,
-        "full_width": true,
-        "stack_on_mobile": false,
-        "hide_on_mobile": false,
-        "side_margin": 0,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Sobre o item",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "newsletter_background_color": "",
-        "newsletter_text_color": ""
-      }
-    },
-    "bac92a01-ed39-4116-9357-048e21326ec5": {
-      "type": "testimonials",
-      "blocks": {
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "John S.",
-            "title": "",
-            "content": "<p>Ótimo produto recomendo a todos interessados um som de altíssima qualidade<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "",
-            "content": "<p>Caixa de som de excelente qualidade! Super recomendo, um ótimo custo benefício, vale muito a pena! Amei! (;<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 3,
-            "author": "Joshua A.",
-            "title": "",
-            "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Avaliações recentes",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#000000",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f5f5f5",
-        "testimonial_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -653,11 +920,18 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_CiHLKK",
+    "rich_text_PVqipz",
+    "hot_spots_8gHkzN",
+    "impact_text_mD6jQq",
+    "rich_text_HkTigR",
+    "image_with_text_overlay_arBw98",
+    "media_with_text_zjiGRA",
+    "image_with_text_overlay_BpiVNN",
+    "images_with_text_scrolling_KczEkH",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb",
-    "bac92a01-ed39-4116-9357-048e21326ec5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
     "72335e0e-e77a-44f4-87d0-c279cb2fd451",
     "34428286-68ab-4e70-a845-fb75d20a14bf",

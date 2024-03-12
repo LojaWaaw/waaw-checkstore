@@ -123,6 +123,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -131,6 +132,473 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=rjw2BrSo4yU",
+        "poster": "shopify:\/\/shop_images\/15.Html-me-100.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_UzQpix": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_aVin9N": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixa de Som Me 100",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_WVLC4A": {
+          "type": "subheading",
+          "settings": {
+            "text": "Leve a sua música a qualquer lugar com até 12 horas de autonomia"
+          }
+        },
+        "richtext_iptzcL": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aVin9N",
+        "subheading_WVLC4A",
+        "richtext_iptzcL"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 210px; margin-left: 210px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/03.Html-me-100_2b1f3dfc-9c4b-414e-9b2b-ae6fe7dd08d2.png",
+        "mobile_image": "shopify:\/\/shop_images\/04.Html-me-100_4fcc1c72-f445-4cf4-a945-c49e9723f26c.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_Jr6KqJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_chHTgW": {
+          "type": "heading",
+          "settings": {
+            "text": "Sua música favorita, ainda mais sua.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_iwegPJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SEU MOMENTO<\/strong><\/p>"
+          }
+        },
+        "richtext_eaWa3h": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Conecte-se às suas músicas favoritas usando o smartphone ou notebook. A caixa de som portátil <strong>ME 100 WAAW<\/strong> está sempre ao seu lado, pronta para tornar cada momento do seu dia único.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_chHTgW",
+        "richtext_iwegPJ",
+        "richtext_eaWa3h"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "hot_spots_HnxYik": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_ycqK9B": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 40,
+            "vertical_position": 30,
+            "horizontal_position_mobile": 34,
+            "vertical_position_mobile": 26,
+            "icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_5567af64-fcb6-447c-96eb-6af9ffbf3e54.png",
+            "icon_width": 56,
+            "title": "Microfone Embutido",
+            "content": "<p>Permite que você atenda chamadas no viva-voz com som nítido.<\/p>"
+          }
+        },
+        "item_rzkYb9": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 70,
+            "vertical_position": 53,
+            "horizontal_position_mobile": 74,
+            "vertical_position_mobile": 51,
+            "icon": "shopify:\/\/shop_images\/09.Html-boom-100.png",
+            "icon_width": 56,
+            "title": "Portátil",
+            "content": "<p>Resisitente alça de borracha, para prender em grades ou locais estáticos.<\/p>"
+          }
+        },
+        "item_VcYFLY": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 35,
+            "vertical_position": 79,
+            "horizontal_position_mobile": 27,
+            "vertical_position_mobile": 75,
+            "icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
+            "icon_width": 56,
+            "title": "Versatilidade",
+            "content": "<p>Conexão Bluetooth 5.0 e entrada para cartão de memória.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ycqK9B",
+        "item_rzkYb9",
+        "item_VcYFLY"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/06.Html-me-100_0474e16b-b608-4007-9207-a89cdac02aaa.png",
+        "mobile_image": "shopify:\/\/shop_images\/07.Html-me-100_edb86860-0fc4-4de1-8e94-2a0183a410be.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_fPRetg": {
+      "type": "impact-text",
+      "blocks": {
+        "item_KqbTRM": {
+          "type": "item",
+          "settings": {
+            "title": "até 12h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_KqbTRM"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_Bbich8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TkmTdM": {
+          "type": "heading",
+          "settings": {
+            "text": "Reproduza seus áudios sem preocupação",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_etCzXy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Em apenas uma recarga, você pode aproveitar até 12 horas das suas playlists à vontade.<\/p>"
+          }
+        },
+        "richtext_3EcA4z": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TkmTdM",
+        "richtext_etCzXy",
+        "richtext_3EcA4z"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_gEXjiB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_YKGUGa": {
+          "type": "heading",
+          "settings": {
+            "text": "Tecnologia TWS",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_PDwhgN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Permite que duas caixas de som bluetooth sejam usadas juntas para criar uma experiência de som mais imersiva, sem a necessidade de cabos.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YKGUGa",
+        "richtext_PDwhgN"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 200px; margin-left: 200px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/09.Html-me-100_1ff5b9f7-99cd-4e5e-9c63-44a627e90987.png",
+        "mobile_image": "shopify:\/\/shop_images\/10.Html-me-100_ae49a398-80ad-4ff6-95cf-09a42c146541.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "images_with_text_scrolling_nDzd8w": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_H4WLyQ": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11.Html-me-100_d3024a6e-0cb3-4b09-b2d8-9ab0a7868ebd.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
+            "icon_width": 48,
+            "title": "Conectividade",
+            "content": "<p>Escute suas músicas preferidas via Bluetooth 5.0 usando seu smartphone, tablet, computador ou através do cartão de memória (micro SD).<\/p><p>*Cartão de memória não incluso<\/p>"
+          }
+        },
+        "item_zbJWf4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12.Html-me-100_ddc4d95b-6c1c-429c-ab1b-cced8642d3ff.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_5567af64-fcb6-447c-96eb-6af9ffbf3e54.png",
+            "icon_width": 56,
+            "title": "Hands Free",
+            "content": "<p>Com apenas um toque, atenda ou encerre chamadas e tenha mãos livres enquanto conversa.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_H4WLyQ",
+        "item_zbJWf4"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "image_with_text_overlay_PYtWNY": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hc6fWm": {
+          "type": "heading",
+          "settings": {
+            "text": "Proteção IPX6",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_4knAV6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A caixa de som <strong>ME 100<\/strong> é resistente à água, ideal para usar em locais próximos de piscinas e praias.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hc6fWm",
+        "richtext_4knAV6"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 200px; margin-left: 200px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/13.Html-me-100_1226b5ee-a7f0-4518-8a31-f328ebd0fa0e.png",
+        "mobile_image": "shopify:\/\/shop_images\/14.Html-me-100_8d48dcfd-8a95-40d3-a3d4-6cae80b16aac.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_05-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MODELO-FESTA-ME-100SB_01-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_06-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -243,7 +711,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 16,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver mais",
@@ -261,267 +729,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=rjw2BrSo4yU",
-        "poster": "shopify:\/\/shop_images\/ME_100SB_-_7899831310012_-_02.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_05-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MODELO-FESTA-ME-100SB_01-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/VERAO-ME-100SB_06-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Até 12 horas de autonomia",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/06.Icone-protecao-grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Proteção IPX6",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/05.Icone-tecnologia-tws-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Tecnologia TWS",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/14.Icone-RMS-de-potencia-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "5W RMS",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
-      ],
-      "settings": {
-        "multicolumn_carousel": true,
-        "full_width": true,
-        "stack_on_mobile": false,
-        "hide_on_mobile": false,
-        "side_margin": 0,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Sobre o item",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "newsletter_background_color": "",
-        "newsletter_text_color": ""
-      }
-    },
-    "bac92a01-ed39-4116-9357-048e21326ec5": {
-      "type": "testimonials",
-      "blocks": {
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "John S.",
-            "title": "",
-            "content": "<p>Ótimo produto recomendo a todos interessados um som de altíssima qualidade<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "",
-            "content": "<p>Caixa de som de excelente qualidade! Super recomendo, um ótimo custo benefício, vale muito a pena! Amei! (;<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 3,
-            "author": "Joshua A.",
-            "title": "",
-            "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Avaliações recentes",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#000000",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f5f5f5",
-        "testimonial_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -634,7 +841,6 @@
     },
     "3e1e8037-c452-4c58-a3d1-c3a7c3d7fe4e": {
       "type": "custom-html",
-      "disabled": true,
       "settings": {
         "full_width": false,
         "remove_vertical_spacing": false,
@@ -671,11 +877,17 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_UzQpix",
+    "rich_text_Jr6KqJ",
+    "hot_spots_HnxYik",
+    "impact_text_fPRetg",
+    "rich_text_Bbich8",
+    "image_with_text_overlay_gEXjiB",
+    "images_with_text_scrolling_nDzd8w",
+    "image_with_text_overlay_PYtWNY",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb",
-    "bac92a01-ed39-4116-9357-048e21326ec5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
     "72335e0e-e77a-44f4-87d0-c279cb2fd451",
     "3e1e8037-c452-4c58-a3d1-c3a7c3d7fe4e",

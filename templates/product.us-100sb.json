@@ -123,6 +123,7 @@
     },
     "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
       "type": "custom-html",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
@@ -131,6 +132,457 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/youtu.be\/dkApSJeiDy4",
+        "poster": "shopify:\/\/shop_images\/US-100SB-05.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_cjNRzH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_yNB6pt": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixa de Som US 100",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_q3REmg": {
+          "type": "subheading",
+          "settings": {
+            "text": "Ligue, aumente o volume e aproveite."
+          }
+        }
+      },
+      "block_order": [
+        "heading_yNB6pt",
+        "subheading_q3REmg"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 210px; margin-left: 210px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/12.Html-us-100_f67c3a31-9ebe-4716-a220-8b2cf640dd4a.png",
+        "mobile_image": "shopify:\/\/shop_images\/13.Html-us-100_5e15db3a-e61b-4fa1-9151-0a46d4035e6c.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_RpEeKK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_X9ypLf": {
+          "type": "heading",
+          "settings": {
+            "text": "Mais músicas, mais memórias.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wTg8EQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SEUS MOMENTOS<\/strong><\/p>"
+          }
+        },
+        "richtext_yNRPDe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Leve sempre a playlist perfeita com você! A caixa de som Bluetooth <strong>US 100<\/strong> WAAW é potente, e proporciona alto desempenho sonoro com máxima nitidez em cada batida. Curta sua música com qualidade, onde quer que vá!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_X9ypLf",
+        "richtext_wTg8EQ",
+        "richtext_yNRPDe"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "hot_spots_hacdHb": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_bzFhkz": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 20,
+            "vertical_position": 52,
+            "horizontal_position_mobile": 15,
+            "vertical_position_mobile": 62,
+            "icon": "shopify:\/\/shop_images\/05.Html-sense-300_dcd3bcfe-4bc3-43b0-8968-032e011a4242.png",
+            "icon_width": 56,
+            "title": "10 RMS de Potência",
+            "content": "<p>Muita potência para você curtir cada momento.<\/p>"
+          }
+        },
+        "item_bwcV9i": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 42,
+            "vertical_position": 25,
+            "horizontal_position_mobile": 40,
+            "vertical_position_mobile": 45,
+            "icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
+            "icon_width": 56,
+            "title": "Entrada Micro SD",
+            "content": "<p>Compatível com cartão de memória (micro SD).<\/p><p>*Cartão de memória não incluso<\/p>"
+          }
+        },
+        "item_parzFc": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 65,
+            "vertical_position": 52,
+            "horizontal_position_mobile": 70,
+            "vertical_position_mobile": 62,
+            "icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_5567af64-fcb6-447c-96eb-6af9ffbf3e54.png",
+            "icon_width": 56,
+            "title": "Hands Free",
+            "content": "<p>Atenda ou finalize ligações com apenas um toque e tenha mãos livres enquanto conversa.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_bzFhkz",
+        "item_bwcV9i",
+        "item_parzFc"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/07.Html-us-100_2e3d24e2-113e-491c-9825-31d5dd75928a.png",
+        "mobile_image": "shopify:\/\/shop_images\/08.Html-us-100_05b9c5b6-709c-47a2-8095-c2d05db5695c.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_DfG4Ea": {
+      "type": "impact-text",
+      "blocks": {
+        "item_UEmjhh": {
+          "type": "item",
+          "settings": {
+            "title": "até 10h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_UEmjhh"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_P9TEKz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p8WwcM": {
+          "type": "heading",
+          "settings": {
+            "text": "Reproduza seus áudios sem preocupação",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_rqdtNb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Com até 10 horas de autonomia de bateria, você tem liberdade para ouvir músicas, podcasts, filmes e o que mais quiser do seu jeito.<\/p>"
+          }
+        },
+        "richtext_mWDE6P": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_p8WwcM",
+        "richtext_rqdtNb",
+        "richtext_mWDE6P"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "image_with_text_overlay_3jwN4a": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_nCj3Hf": {
+          "type": "heading",
+          "settings": {
+            "text": "Tecnologia TWS",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_xbeBXd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A WAAW PLUS oferece a possibilidade de pareamento sem fios de até duas <strong>US 100<\/strong>, o que garante uma experiência de som imersiva do início ao fim.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nCj3Hf",
+        "richtext_xbeBXd"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 210px; margin-left: 210px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/04.Html-us-100_eb33b78e-06c1-4eef-b8d5-833d2b43cdad.png",
+        "mobile_image": "shopify:\/\/shop_images\/05.Html-us-100_30570b77-bae7-444d-87d7-7dcb322b2cc5.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_GW6Kf6": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_4KMKfq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02.Html-us-100_fee30c53-3650-4887-a855-be9e14326fca.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
+            "icon_width": 56,
+            "subheading": "",
+            "title": "Conectividade",
+            "content": "<p>Ouça suas músicas via Bluetooth 5.0 a partir de seu smartphone, tablet, computador ou através do cartão de memória (micro SD).<\/p><p>*Cartão de memória não incluso<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4KMKfq"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_RDWEkE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_nf3kam": {
+          "type": "heading",
+          "settings": {
+            "text": "Proteção IPX6",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_aeXdMK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Com resistência à água, a <strong>US 100<\/strong> é a caixa de som ideal para usar em locais próximos de piscinas e praias.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nf3kam",
+        "richtext_aeXdMK"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/09.Html-us-100_15dbeeb6-3b53-424e-8087-67d5bbc08b77.png",
+        "mobile_image": "shopify:\/\/shop_images\/10.Html-us-100_cd38eb7d-48b7-4f0e-95bf-374a6a58c4eb.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/US-100SB-02_0ec89c1f-1ee8-427c-abb0-3ad9fb705dbd.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/desc_caixa-de-som-bluetooth-us-100sb_8-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/desc_caixa-de-som-bluetooth-us-100sb_4-min.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#dbdc32",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
       }
     },
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
@@ -242,7 +694,7 @@
         "button_text": "",
         "button_url": "",
         "text_position": "start",
-        "max_rows": 10,
+        "max_rows": 16,
         "subheading_specification": "",
         "title_specification": "",
         "view_all_text": "Ver Mais",
@@ -260,266 +712,6 @@
         "chart_background": "",
         "chart_text_color": "",
         "chart_true_false_color": ""
-      }
-    },
-    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
-      "type": "video",
-      "blocks": {
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
-          "type": "play",
-          "settings": {}
-        },
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
-        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https:\/\/youtu.be\/dkApSJeiDy4",
-        "poster": "shopify:\/\/shop_images\/US-100SB-05.png",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
-      "type": "media-grid",
-      "blocks": {
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
-          "type": "image",
-          "settings": {
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/desc_caixa-de-som-bluetooth-us-100sb_8-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/desc_caixa-de-som-bluetooth-us-100sb_4-min.png",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#dbdc32",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
-        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
-      ],
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
-      "type": "multi-column",
-      "blocks": {
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Até 10 horas de autonomia",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/13.Icone-bluetooth-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Bluetooth e Entrada para cartão de memória ",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/06.Icone-protecao-grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Proteção IPX6",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/05.Icone-tecnologia-tws-Grande.png",
-            "item_icon_width": 1,
-            "column_size": "4",
-            "title": "Tecnologia TWS",
-            "heading_tag": "h6",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2",
-        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
-        "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
-      ],
-      "settings": {
-        "multicolumn_carousel": true,
-        "full_width": true,
-        "stack_on_mobile": false,
-        "hide_on_mobile": false,
-        "side_margin": 0,
-        "gap": "medium",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Sobre o item",
-        "content": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "product_card_background": "",
-        "product_card_text_color": "",
-        "newsletter_background_color": "",
-        "newsletter_text_color": ""
-      }
-    },
-    "bac92a01-ed39-4116-9357-048e21326ec5": {
-      "type": "testimonials",
-      "blocks": {
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Roberto S.",
-            "title": "",
-            "content": "<p>Excelente produto! Som limpo super indico.<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Luiz W.",
-            "title": "",
-            "content": "<p>Ótima qualidade do som. A duração da bateria também é boa. O produto é leve e fácil de usar.<\/p>"
-          }
-        },
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Manoel G.",
-            "title": "",
-            "content": "<p>som muito bom...quase perfeito.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
-        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Avaliações recentes",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#000000",
-        "heading_gradient": "",
-        "testimonial_card_background": "#f5f5f5",
-        "testimonial_card_text_color": ""
       }
     },
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
@@ -667,11 +859,17 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
-    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "image_with_text_overlay_cjNRzH",
+    "rich_text_RpEeKK",
+    "hot_spots_hacdHb",
+    "impact_text_DfG4Ea",
+    "rich_text_P9TEKz",
+    "image_with_text_overlay_3jwN4a",
+    "media_with_text_GW6Kf6",
+    "image_with_text_overlay_RDWEkE",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
-    "1b036d2c-595c-4d06-84cf-493e1da4fceb",
-    "bac92a01-ed39-4116-9357-048e21326ec5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
     "72335e0e-e77a-44f4-87d0-c279cb2fd451",
     "505b3fdc-ac95-432c-8e38-cd984c832042",
