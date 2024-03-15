@@ -99,7 +99,7 @@
                     <div class="product-list__banner-text02">{{ section.settings.banner_text02 }}</div>
                   {% endif %}
                 </div>
-                {{ section.settings.banner | image_url: width: 500 | image_tag: class: 'product-list__banner-image' }}
+                {{ section.settings.banner | image_url: width: 500 | image_tag: class: 'product-list__banner-image', widths: '200, 300, 400, 500' }}
                 {% if section.settings.banner_link != blank %}
                   </a>
                 {% endif %}

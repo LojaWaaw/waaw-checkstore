@@ -55,20 +55,45 @@
 
 {% if section.blocks.first.settings.wordpress_url != blank %}
   <script>
-    const options = { method: 'GET' };
-    const blogUrl = '{{ section.blocks.first.settings.wordpress_url }}';
-    const postCount = '{{ section.blocks.first.settings.posts_count }}';
-    const postsContainer = document.querySelector('.blog-posts');
-    let selectedCategory = '{{ section.blocks.first.settings.wordpress_category | default: blank }}';
-    let selectedCategoryID = '';
+    function lazyLoadContent() {
+      if (100 < window.scrollY) {
+        const options = { method: 'GET' };
+        const blogUrl = '{{ section.blocks.first.settings.wordpress_url }}';
+        const postCount = '{{ section.blocks.first.settings.posts_count }}';
+        const postsContainer = document.querySelector('.blog-posts');
+        let selectedCategory = '{{ section.blocks.first.settings.wordpress_category | default: blank }}';
+        let selectedCategoryID = '';
 
-    if (selectedCategory != '') {
-      fetch(`${blogUrl}/wp-json/wp/v2/categories?search=${selectedCategory}`, options)
-        .then( response => response.json() )
-        .then( response => {
-          selectedCategoryID = response[0].id
+        if (selectedCategory != '') {
+          fetch(`${blogUrl}/wp-json/wp/v2/categories?search=${selectedCategory}`, options)
+            .then( response => response.json() )
+            .then( response => {
+              selectedCategoryID = response[0].id
 
-          fetch(`${blogUrl}/wp-json/wp/v2/posts?_embed=&order=desc&per_page=${postCount}&categories=${selectedCategoryID}`, options)
+              fetch(`${blogUrl}/wp-json/wp/v2/posts?_embed=&order=desc&per_page=${postCount}&categories=${selectedCategoryID}`, options)
+                .then(response => response.json())
+                .then(response => response.map((post) => {
+                  postsContainer.innerHTML += `<blog-post-card class="blog-post-card snap-center group">
+                    <a href="${post.link}" class="blog-post-card__figure rounded">
+                      <img src="${post._embedded['wp:featuredmedia'][0].source_url}" alt="${post.title.rendered}" class="w-full h-full object-cover zoom-image">
+                    </a>
+                    <div class="blog-post-card__info">
+                      <div class="v-stack gap-4 sm:gap-5">
+                        <div class="v-stack gap-3 sm:gap-4">
+                          <p class="h3 blog-post-card__title">
+                            <a href="${post.link}">${post.title.rendered}</a>
+                          </p>
+                          <div class="blog-post-card__text-content">${post.excerpt.rendered}</div>
+                        </div>
+                        <a class="blog-post-card__info-see-more" href="${post.link}">Leia mais</a>
+                      </div>
+                    </div>
+                  </blog-post-card>`;
+                }))
+                .catch(err => console.error(err));
+            })
+        } else {
+          fetch(`${blogUrl}/wp-json/wp/v2/posts?_embed=&order=desc&per_page=${postCount}`, options)
             .then(response => response.json())
             .then(response => response.map((post) => {
               postsContainer.innerHTML += `<blog-post-card class="blog-post-card snap-center group">
@@ -89,30 +114,13 @@
               </blog-post-card>`;
             }))
             .catch(err => console.error(err));
-        })
-    } else {
-      fetch(`${blogUrl}/wp-json/wp/v2/posts?_embed=&order=desc&per_page=${postCount}`, options)
-        .then(response => response.json())
-        .then(response => response.map((post) => {
-          postsContainer.innerHTML += `<blog-post-card class="blog-post-card snap-center group">
-            <a href="${post.link}" class="blog-post-card__figure rounded">
-              <img src="${post._embedded['wp:featuredmedia'][0].source_url}" alt="${post.title.rendered}" class="w-full h-full object-cover zoom-image">
-            </a>
-            <div class="blog-post-card__info">
-              <div class="v-stack gap-4 sm:gap-5">
-                <div class="v-stack gap-3 sm:gap-4">
-                  <p class="h3 blog-post-card__title">
-                    <a href="${post.link}">${post.title.rendered}</a>
-                  </p>
-                  <div class="blog-post-card__text-content">${post.excerpt.rendered}</div>
-                </div>
-                <a class="blog-post-card__info-see-more" href="${post.link}">Leia mais</a>
-              </div>
-            </div>
-          </blog-post-card>`;
-        }))
-        .catch(err => console.error(err));
+        }
+
+        window.removeEventListener('scroll', lazyLoadContent)
+      }
     }
+
+    window.addEventListener('scroll', lazyLoadContent);
   </script>
 {% endif %}
 
