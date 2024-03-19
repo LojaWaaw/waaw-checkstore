@@ -8968,6 +8968,15 @@ split-lines {
   }
 }
 
+.slideshow .content-over-media {
+  grid-template: none;
+  gap: 0;
+}
+
+.slideshow .content-over-media .slideshow-picture {
+  max-width: none;
+}
+
 .shopify-payment-button__button[disabled] {
   opacity: 1 !important;
 }

@@ -121,6 +121,29 @@
         "input_text_color": ""
       }
     },
+    "video_Dn44RT": {
+      "type": "video",
+      "blocks": {
+        "play_xmHgQX": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_xmHgQX"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=h1dWwOy0Ie4",
+        "poster": "shopify:\/\/shop_images\/Sem_Titulo-1.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "fa9cb05e-9e7f-4e7c-8563-076b1bd932c9": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -178,13 +201,15 @@
         "c290b0e7-2cf8-40e8-bd21-381926822354": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SUA GALERA<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SUA GALERA<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "template--16080146301103__5a305af3-774b-4766-8416-23316071e924-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Pronto para uma experiência sonora extraordinária? Com a <strong>Caixa de Som WAAW INFINITE 200<\/strong>, suas músicas quebram barreiras e ganham vida em casa, em festas, ou onde você estiver.<\/p>"
+            "content": "<p>Pronto para uma experiência sonora extraordinária? Com a <strong>Caixa de Som WAAW INFINITE 200<\/strong>, suas músicas quebram barreiras e ganham vida em casa, em festas, ou onde você estiver.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -362,13 +387,15 @@
         "template--16080146301103__414e8c0a-30b9-421d-87b8-7fce66205957-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Transforme o encontro com os amigos em um evento memorável! A <strong>Caixa de Som WAAW INFINITE 200 <\/strong>garante autonomia para sua festa não parar por <strong>até 12 horas<\/strong>, com apenas uma recarga. Dê adeus às tomadas e aproveite as melhores música com a sua galera.<\/p>"
+            "content": "<p>Transforme o encontro com os amigos em um evento memorável! A <strong>Caixa de Som WAAW INFINITE 200 <\/strong>garante autonomia para sua festa não parar por <strong>até 12 horas<\/strong>, com apenas uma recarga. Dê adeus às tomadas e aproveite as melhores música com a sua galera.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "489056eb-334e-44a3-a3b0-f2cbf62d5519": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -481,7 +508,8 @@
         "template--16080146301103__2e31579b-0c52-4f7b-959e-fc9e6b82c740-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA QUEM TA JUNTO<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA QUEM TA JUNTO<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -821,6 +849,7 @@
   },
   "order": [
     "main",
+    "video_Dn44RT",
     "fa9cb05e-9e7f-4e7c-8563-076b1bd932c9",
     "5a305af3-774b-4766-8416-23316071e924",
     "daefdeb8-bd44-4850-a69f-e145d7c9d244",

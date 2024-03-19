@@ -121,6 +121,29 @@
         "input_text_color": ""
       }
     },
+    "video_NBzFmQ": {
+      "type": "video",
+      "blocks": {
+        "play_Ywgz4f": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_Ywgz4f"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=I8hLPQZBRXg",
+        "poster": "shopify:\/\/shop_images\/01_28.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "88ef1528-ce11-4b29-80e4-e8abbccf17eb": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -178,13 +201,15 @@
         "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SUA VIBE<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SUA VIBE<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "6e98ac33-d91f-43bc-b952-332eb3291ae6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Som claro, potente e com batidas poderosas para você aproveitar suas músicas favoritas toda vez que apertar o play. Leve sua festa a outro nível com a <strong>Caixa Acústica WAAW INFINITE 100.<\/strong><\/p>"
+            "content": "<p>Som claro, potente e com batidas poderosas para você aproveitar suas músicas favoritas toda vez que apertar o play. Leve sua festa a outro nível com a <strong>Caixa Acústica WAAW INFINITE 100.<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -233,7 +258,8 @@
         "template--16080146268335__e17da7a7-487e-471a-b581-1bab66688947-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Com a incrível potência de 100W RMS, a <strong>INFINITE 100 <\/strong>transforma cada batida em um som envolvente, criando uma experiência sonora única e imersiva.<\/p>"
+            "content": "<p>Com a incrível potência de 100W RMS, a <strong>INFINITE 100 <\/strong>transforma cada batida em um som envolvente, criando uma experiência sonora única e imersiva.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -359,13 +385,15 @@
         "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>A caixa de som <strong>WAAW<\/strong> <strong>INFINITE 100 <\/strong>tem energia de sobra para curtir momentos incríveis com muita música. Sua bateria de longa duração oferece <strong>até 14 horas de autonomia<\/strong> para que a diversão não precise esperar pela recarga. <\/p>"
+            "content": "<p>A caixa de som <strong>WAAW<\/strong> <strong>INFINITE 100 <\/strong>tem energia de sobra para curtir momentos incríveis com muita música. Sua bateria de longa duração oferece <strong>até 14 horas de autonomia<\/strong> para que a diversão não precise esperar pela recarga. <\/p>",
+            "paragraph_font_size": 14
           }
         },
         "abdf3d04-4932-466b-9919-e69800c6081c": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -825,6 +853,7 @@
   },
   "order": [
     "main",
+    "video_NBzFmQ",
     "88ef1528-ce11-4b29-80e4-e8abbccf17eb",
     "ccd69a7e-3f85-4d01-b54a-e780772a03f3",
     "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62",
