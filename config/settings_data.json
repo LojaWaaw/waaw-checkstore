@@ -39,7 +39,8 @@
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 199,
     "favicon": "shopify:\/\/shop_images\/02.Flavicon-waaw.png",
-    "checkout_accent_color": "#f0c417",
+    "checkout_logo_image": "shopify:\/\/shop_images\/e_logo_header.png",
+    "checkout_accent_color": "#e0e621",
     "checkout_button_color": "#1a1a1a",
     "content_for_index": [],
     "blocks": {
