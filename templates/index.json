@@ -3,55 +3,11 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_VxmjGQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/02.2800x800-banner-semana-do-consumidor-waaw.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-banner-semana-do-consumidor-waaw.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/semana-do-consumidor",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_m39nhd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/04.2800x800-banner-semana-do-consumidor-vib-100-waaw_b4e50eb9-1f67-4b35-bca2-ced2184078d6.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/05.1200x1600-banner-semana-do-consumidor-vib-100-waaw_56dc10f2-7091-44ad-bdae-be81cb8675ef.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/fone-de-ouvido-estereo-vib-100ew",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
         "image_kf4aqn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14.2800x800-banner-semana-do-consumidor-mob-100-waaw.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/15.1200x1600-banner-semana-do-consumidor-mob-100-waaw.jpg",
+            "image": "shopify:\/\/shop_images\/Desktop-banners-site-nova-linha-infinite-100.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile-banners-site-nova-linha-infinite-100.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -59,29 +15,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-100eb",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_AfGUqt": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/10.2800x800-banner-semana-do-consumidor-mob-200-waaw.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/11.1200x1600-banner-semana-do-consumidor-mob-200-waaw.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-200eb",
+            "button_link": "shopify:\/\/products\/sound-box-infinite-100",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -94,8 +28,8 @@
         "image_NKFdfa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/08.2800x800-banner-semana-do-consumidor-boom-100-waaw.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/09.1200x1600-banner-semana-do-consumidor-boom-100-waaw.jpg",
+            "image": "shopify:\/\/shop_images\/08.2800x800-banner-site-waaw-energy-100.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/09.1200x1600-banner-site-waaw-energy-100.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -103,7 +37,29 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
+            "button_link": "shopify:\/\/products\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_AfGUqt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop-banners-site-nova-linha-infinite-200.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Mobile-banners-site-nova-linha-infinite-200.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/products\/sound-box-infinite-200",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -115,11 +71,9 @@
         }
       },
       "block_order": [
-        "image_VxmjGQ",
-        "image_m39nhd",
         "image_kf4aqn",
-        "image_AfGUqt",
-        "image_NKFdfa"
+        "image_NKFdfa",
+        "image_AfGUqt"
       ],
       "settings": {
         "full_width": true,
@@ -129,7 +83,7 @@
         "dots_color": "#000000",
         "transition_type": "fade_with_text",
         "autoplay": true,
-        "cycle_speed": 6,
+        "cycle_speed": 7,
         "background": "rgba(0,0,0,0)",
         "background_gradient": "",
         "slideshow_margin_top": 20,
@@ -139,7 +93,7 @@
     "a17ec046-c828-412b-92fa-e109251e7f77": {
       "type": "featured-collection",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/02.500X706-banner-site-waaw.jpg",
+        "banner": "shopify:\/\/shop_images\/02.500X706-banner-site-waaw_1.jpg",
         "banner_link": "https:\/\/waaw.com.br\/collections\/todos-os-produtos",
         "banner_image_behavior": "object-fit",
         "banner_text": "",
@@ -179,7 +133,7 @@
         "image_hdaD8C": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/05.700x700-banner-site-waaw-linha-infinite.jpg",
+            "image": "shopify:\/\/shop_images\/05.700x700-banner-site-waaw-linha-infinite_1.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/products\/sound-box-infinite-100",
@@ -201,7 +155,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/03.700x583-banner-site-waaw-categoria_3919f16e-add3-4ed8-be2b-a2ddbbaa72d7.jpg",
+            "image": "shopify:\/\/shop_images\/03.700x583-banner-site-waaw-categoria_3919f16e-add3-4ed8-be2b-a2ddbbaa72d7_1.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/fones-de-ouvido",
@@ -223,7 +177,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/04.700x583-banner-site-waaw-categoria_013878fe-d511-4a12-896c-fdbba916f3f6.jpg",
+            "image": "shopify:\/\/shop_images\/04.700x583-banner-site-waaw-categoria_013878fe-d511-4a12-896c-fdbba916f3f6_1.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/caixas-de-som",
@@ -513,7 +467,7 @@
         "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/09.700x435-banner-site-waaw-boom-100_99cc7edc-f48b-4568-8451-4f1672991b01.jpg",
+            "image": "shopify:\/\/shop_images\/09.700x435-banner-site-waaw-boom-100_99cc7edc-f48b-4568-8451-4f1672991b01_1.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -638,7 +592,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/07.500x500-banner-site-waaw-fotos.jpg",
+            "banner_image": "shopify:\/\/shop_images\/07.500x500-banner-site-waaw-fotos_1.jpg",
             "banner_link": "shopify:\/\/products\/fone-de-ouvido-tws-bluetooth-mob-200eb",
             "banner_position": "above",
             "product": "fone-de-ouvido-tws-bluetooth-mob-100eb"
@@ -648,7 +602,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/06.500x500-banner-site-waaw-boom-100.jpg",
+            "banner_image": "shopify:\/\/shop_images\/06.500x500-banner-site-waaw-boom-100_1.jpg",
             "banner_link": "shopify:\/\/products\/caixa-de-som-bluetooth-me-100sb",
             "banner_position": "bellow",
             "product": "waaw-boom-100sb-caixa-de-som"
@@ -658,7 +612,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/09.500x500-banner-site-waaw-fotos.jpg",
+            "banner_image": "shopify:\/\/shop_images\/09.500x500-banner-site-waaw-fotos_1.jpg",
             "banner_link": "shopify:\/\/products\/fone-de-ouvido-gamer-waaw-energy-10ewg-com-microfone-destacavel",
             "banner_position": "above",
             "product": "fone-bluetooth-cancelamento-ruido-sense-300hbnc"
@@ -668,7 +622,7 @@
           "type": "product_with_banner",
           "settings": {
             "column_size": "4",
-            "banner_image": "shopify:\/\/shop_images\/08.500x500-banner-site-waaw-fotos_18ab7c34-3def-4341-a4d8-3fe56ec5a1ae.jpg",
+            "banner_image": "shopify:\/\/shop_images\/08.500x500-banner-site-waaw-fotos_18ab7c34-3def-4341-a4d8-3fe56ec5a1ae_1.jpg",
             "banner_link": "shopify:\/\/products\/fone-de-ouvido-bluetooth-sense-200hb",
             "banner_position": "bellow",
             "product": "waaw-energy-100ebg-fone-de-ouvido-gamer-tws"
@@ -707,7 +661,7 @@
         "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10.1000x429-Banner-loja-waaw.png",
+            "image": "shopify:\/\/shop_images\/10.1000x429-Banner-loja-waaw.jpg",
             "item_icon_width": 1,
             "column_size": "1.5",
             "title": "",
@@ -774,7 +728,8 @@
         "template--15963751350447__59298897-710d-4e7a-8287-4d650730155a-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Do abrir ao fechar dos olhos, a WAAW acompanha o ritmo da sua vida. Transformamos o som em movimento e atitude. Ouça do seu jeito: em casa, na academia, no ônibus, sozinho, com os amigos, no trabalho, em momentos de lazer. Na hora e onde você quiser!<\/p><p>A WAAW by Alok traz todas as sensações para você curtir do seu jeito. Oferecemos uma linha completa com diferentes modelos de fone de ouvido, headphones e caixas de som com estilo e design moderno. Seja para ouvir músicas no intervalo do almoço, disputar horas de jogos online, fazer aquela festa ou simplesmente escutar seu podcast preferido.<br\/><\/p><p>A WAAW by Alok te deixa conectado ao que realmente importa para você.<br\/>Conheça uma experiência singular na forma de ouvir e ser ouvido.<br\/><\/p><p><strong>Faça parte do mundo WAAW by Alok!<\/strong><\/p>"
+            "content": "<p>Do abrir ao fechar dos olhos, a WAAW acompanha o ritmo da sua vida. Transformamos o som em movimento e atitude. Ouça do seu jeito: em casa, na academia, no ônibus, sozinho, com os amigos, no trabalho, em momentos de lazer. Na hora e onde você quiser!<\/p><p>A WAAW by Alok traz todas as sensações para você curtir do seu jeito. Oferecemos uma linha completa com diferentes modelos de fone de ouvido, headphones e caixas de som com estilo e design moderno. Seja para ouvir músicas no intervalo do almoço, disputar horas de jogos online, fazer aquela festa ou simplesmente escutar seu podcast preferido.<br\/><\/p><p>A WAAW by Alok te deixa conectado ao que realmente importa para você.<br\/>Conheça uma experiência singular na forma de ouvir e ser ouvido.<br\/><\/p><p><strong>Faça parte do mundo WAAW by Alok!<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
