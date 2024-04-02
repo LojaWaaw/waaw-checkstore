@@ -6533,7 +6533,7 @@ split-lines {
 
 .navigation-drawer .panel__scroller {
   height: 100%;
-  align-content: flex-start;
+  align-content: space-between;
   overflow-y: auto;
 }
 
@@ -6598,7 +6598,7 @@ split-lines {
 
 .panel__wrapper {
   justify-content: var(--panel-wrapper-justify-content, space-between);
-  gap: var(--spacing-6);
+  gap: var(--spacing-5);
   padding: var(--drawer-body-padding);
   height: 100%;
   flex-direction: column;
@@ -10822,7 +10822,11 @@ split-lines {
   font-size: 14px;
 }
 
-.panel__wrapper .group .reversed-link {
-  text-transform: uppercase;
-  font-size: 14px;
+.panel__wrapper .secondary .group .reversed-link {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.panel__wrapper .secondary {
+  padding-block-start: var(--spacing-4);
 }

@@ -230,7 +230,7 @@ the underlying logic of the menu.
 
       <div class="header__secondary-nav">
         {%- if section.settings.header != 'drawer' and section.settings.secondary_menu.links.size > 0 -%}
-          <nav class="header__link-list" role="navigation">
+          <nav class="header__link-list lg:hidden" role="navigation">
             <ul class="contents">
               {%- for link in section.settings.secondary_menu.links -%}
                 <li>
