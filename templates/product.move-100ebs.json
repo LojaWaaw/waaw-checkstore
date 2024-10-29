@@ -13,7 +13,7 @@
           "type": "text",
           "settings": {
             "highlight": true,
-            "text": "<p>Fone de ouvido intra-auricular, resistente à água, até 14 horas de bateria.<\/p>"
+            "text": "<p>Fone de ouvido intra-auricular, resistente ao suor, até 14 horas de bateria.<\/p>"
           }
         },
         "8bbde357-2065-4d19-b265-1c2b7741a439": {
@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_BLiBTh": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>14 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li>Material <strong>flexível e emborrachado;<\/strong><\/li><li>Classificação<strong> IPX4 resistente a suor;<\/strong><\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável;<\/li><li>Som de<strong> alta qualidade;<\/strong><\/li><li>Conexão <strong>multipontos.<\/strong><\/li><\/ul>"
+            "text": "<ul><li><strong>14 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li>Material <strong>flexível e emborrachado;<\/strong><\/li><li>Classificação<strong> IPX4 resistente a suor;<\/strong><\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável;<\/li><li>Som de<strong> alta qualidade;<\/strong><\/li><li>Conexão <strong>multipontos.<\/strong><\/li><\/ul>"
           }
         },
         "dd416d60-cfde-45de-a21c-b3c526644f5c": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_BLiBTh",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "dd416d60-cfde-45de-a21c-b3c526644f5c",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -159,7 +169,7 @@
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=X6X61Xf4rkk&t=98s",
-        "poster": "shopify:\/\/shop_images\/14.Html-move-100.png",
+        "poster": "shopify:\/\/shop_images\/move100.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -172,7 +182,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Esporte Move 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_mkEU3j": {
@@ -211,6 +222,7 @@
           "settings": {
             "text": "Chegar lá é só metade do caminho.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -218,13 +230,15 @@
         "richtext_yyCNfj": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Seja ao correr, andar de bicicleta, ir à academia ou fazer yoga, leve a música com você.<\/p>"
+            "content": "<p>Seja ao correr, andar de bicicleta, ir à academia ou fazer yoga, leve a música com você.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_pgHiN9": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SUA JORNADA<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SUA JORNADA<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -253,6 +267,7 @@
             "custom_icon": "shopify:\/\/shop_images\/17.Banner-html-sense-200_b9c97a06-7ee1-4d3f-a0f7-41a45e700e95.png",
             "icon_width": 56,
             "title": "Bluetooth 5.0",
+            "html_heading_tag": "h2",
             "content": "<p>Movimente-se sem se preocupar com interrupções na música. O Bluetooth 5.0 oferece uma conexão mais estável.<\/p>"
           }
         },
@@ -264,6 +279,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_b6eb5a52-ff0c-4584-b538-c1e2a2195164.png",
             "icon_width": 56,
             "title": "Conforto WAAW",
+            "html_heading_tag": "h2",
             "content": "<p>O <strong>MOVE 100<\/strong> acompanha 3 tamanhos de borrachinhas para se adaptar ao seu ouvido de maneira que você possa se sentir mais confortável.<\/p>"
           }
         },
@@ -275,6 +291,7 @@
             "custom_icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
             "icon_width": 56,
             "title": "Conexão multipontos",
+            "html_heading_tag": "h2",
             "content": "<p>Conecte seu fone a dois dispositivos simultaneamente. Enquanto escuta música no seu notebook, você pode atender a uma chamada no smartphone rapidamente. <\/p>"
           }
         }
@@ -385,6 +402,7 @@
           "settings": {
             "text": "A autonomia que você precisa para um treino sem pausas.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -392,13 +410,15 @@
         "richtext_EfGF8m": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Perfeito para quem valoriza conforto. O fone de ouvido esportivo WAAW proporciona horas de trilha sonora para suas atividades físicas. Além disso, a bateria de longa duração do <strong>MOVE 100<\/strong> acompanha você por até 14 horas de playlist. <\/p>"
+            "content": "<p>Perfeito para quem valoriza conforto. O fone de ouvido esportivo WAAW proporciona horas de trilha sonora para suas atividades físicas. Além disso, a bateria de longa duração do <strong>MOVE 100<\/strong> acompanha você por até 14 horas de playlist. <\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_xaHxR7": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -423,20 +443,22 @@
           "type": "heading",
           "settings": {
             "text": "Proteção IPX4",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "heading_bCYQk8": {
           "type": "heading",
           "settings": {
-            "text": "A chuva não precisa parar seu movimento",
-            "heading_tag": "h3"
+            "text": "Seu treino com menos preocupação, e mais desempenho",
+            "heading_tag": "h3",
+            "html_tag": "p"
           }
         },
         "richtext_WgwFhr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Com um fone à prova de suor e resistente à água, você não precisa se preocupar com a transpiração ou chuva. Tenha liberdade para treinar em ambientes internos ou externos.<\/p>"
+            "content": "<p>O fone de ouvido com proteção IPX4 é ideal para quem pratica esportes, pois resistem ao suor durante exercícios intensos. Tenha liberdade para treinar em ambientes internos ou externos.<\/p>"
           }
         }
       },
@@ -470,6 +492,7 @@
           "settings": {
             "text": "Treine do seu jeito!",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -477,7 +500,8 @@
         "richtext_3iqEyQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>De material flexível e emborrachado, você tem mais segurança e liberdade de movimentos durante suas atividades físicas com o <strong>MOVE 100<\/strong>. <\/p>"
+            "content": "<p>De material flexível e emborrachado, você tem mais segurança e liberdade de movimentos durante suas atividades físicas com o <strong>MOVE 100<\/strong>. <\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -949,6 +973,7 @@
             "external_video_url": "https:\/\/youtu.be\/X6X61Xf4rkk",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Abra uma nova dimensão de som enquanto se movimenta com o fone de ouvido esportivo Move 100ESB da WAAW! Liberte-se dos fios e mergulhe em sua trilha sonora, onde quer que você vá. Pronto para aprimorar sua experiência auditiva? Não perca tempo! Consulte nosso Manual de Instruções e assista também ao Vídeo Guia: adquira dicas exclusivas de especialistas e domine o Move 100ESB, o fone que reescreve suas sessões de treino. Faça cada batida impulsionar sua energia. Conecte-se agora e mergulhe no som em movimento!<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/MOVE-100EBS\/MOVE-100EBS-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

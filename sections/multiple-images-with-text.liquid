@@ -113,9 +113,9 @@ LIQUID
               {%- endif -%}
 
               {%- if block.settings.title != blank -%}
-                <p class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
+                <{{ block.settings.html_heading_tag }} class="h1" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %}>
                   {%- render 'styled-text', content: block.settings.title, apparition_effect: true -%}
-                </p>
+                </{{ block.settings.html_heading_tag }}>
               {%- endif -%}
 
               {{- block.settings.content -}}
@@ -281,6 +281,43 @@ LIQUID
           "label": "Heading",
           "default": "Image with text"
         },
+       {
+          "type": "select",
+          "id": "html_heading_tag",
+          "label": "HTML heading tag",
+          "options": [
+            {
+              "value": "p",
+              "label": "p"
+            },
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "p"
+        },
+
         {
           "type": "richtext",
           "id": "content",

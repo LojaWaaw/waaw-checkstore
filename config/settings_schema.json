@@ -931,5 +931,20 @@
         "info": "180 x 180px .png recommended"
       }
     ]
+  },
+  {
+    "name": "Streamshop",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable-streamshop",
+        "label": "Ativar StreamShop"
+      },
+      {
+        "type": "html",
+        "id": "html-streamshop",
+        "label": "Insira o codigo"
+      }
+    ]
   }
 ]

@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_r3BJiL": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>14 horas <\/strong>de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Classificação <strong>IPX6 resistente a água;<\/strong><\/li><li>Tecnologia <strong>Bluetooth 5.0;<\/strong><\/li><li>Pode ser usada de <strong>forma separada<\/strong>;<\/li><li>Tecido <strong>resistente<\/strong> e acabamento <strong>metálico<\/strong>.<\/li><\/ul>"
+            "text": "<ul><li><strong>14 horas <\/strong>de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Classificação <strong>IPX6 resistente a água;<\/strong><\/li><li>Tecnologia <strong>Bluetooth 5.0;<\/strong><\/li><li>Pode ser usada de <strong>forma separada<\/strong>;<\/li><li>Tecido <strong>resistente<\/strong> e acabamento <strong>metálico<\/strong>.<\/li><\/ul>"
           }
         },
         "6b338a39-8c30-48b4-b9cf-f21b0fa19209": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_r3BJiL",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "6b338a39-8c30-48b4-b9cf-f21b0fa19209",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -172,7 +182,8 @@
           "type": "heading",
           "settings": {
             "text": "Caixa de Som US 200 DUO",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_eUJ334": {
@@ -208,6 +219,7 @@
           "settings": {
             "text": "O jeito certo de compartilhar uma música.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -215,13 +227,15 @@
         "richtext_3WMcbt": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SEUS MOMENTOS<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SEUS MOMENTOS<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_WViMcF": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Com conectividade 3 em 1 pode ser usada divididas ou juntas conectada a um mesmo smartphone, ou separadas individualmente conectadas a dois smartphones diferentes. Muitas possibilidades em um mesmo produto!<\/p>"
+            "content": "<p>Com conectividade 3 em 1, a caixa de som pode ser usada dividida ou junta, conectada a um mesmo smartphone, ou separadas individualmente, conectadas a dois smartphones diferentes. Muitas possibilidades em um mesmo produto!<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -246,7 +260,8 @@
           "type": "heading",
           "settings": {
             "text": "Som estéreo para quem quer dividir momentos em qualquer lugar!",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "p"
           }
         },
         "richtext_BCcjN7": {
@@ -284,7 +299,8 @@
           "type": "heading",
           "settings": {
             "text": "Tecnologia TWS",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_wPnVXx": {
@@ -323,6 +339,7 @@
           "settings": {
             "text": "Som em todas as direções",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -330,7 +347,8 @@
         "richtext_HJKEHT": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Quando combinadas criam a sensação de som 360°. Posicione cada lado em pontos distintos para que possa ouvir o som em todas as direções e aproveitar o melhor da sua música.<\/p>"
+            "content": "<p>Quando combinadas criam a sensação de som 360°. Posicione cada lado em pontos distintos para que possa ouvir o som em todas as direções e aproveitar o melhor da sua música.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -450,6 +468,7 @@
           "settings": {
             "text": "De muita música para você aproveitar ainda mais o momento.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -457,13 +476,15 @@
         "richtext_qYhqrW": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Em apenas uma recarga, você tem até <strong>14 horas em cada lado da caixa<\/strong>, totalizando até 28 horas (se usada separadamente), para aproveitar ainda mais as suas músicas.<\/p>"
+            "content": "<p>Em apenas uma recarga, você tem até <strong>14 horas em cada lado da caixa<\/strong>, totalizando até 28 horas (se usada separadamente), para aproveitar ainda mais as suas músicas.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_XdXeVt": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -488,7 +509,8 @@
           "type": "heading",
           "settings": {
             "text": "Proteção IPX6",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_R73pd6": {
@@ -811,6 +833,7 @@
             "external_video_url": "https:\/\/youtu.be\/5AiQLefwCGA",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Quer explorar mais sobre como a Caixa de Som US 200SB Duo pode redefinir o que é possível em termos de reprodução sonora? Clique no botão disponibilizado abaixo para acessar o Manual de Instruções completo e assista a um vídeo informativo detalhado sobre o produto que destacam todas as suas características únicas.<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/US-200SB-DUO\/US-200SB-DUO-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

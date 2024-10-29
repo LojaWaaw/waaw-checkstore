@@ -1,0 +1,899 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "390bcd4c-f65f-41cd-963c-cdc903702e58": {
+          "type": "text",
+          "settings": {
+            "highlight": true,
+            "text": "<p>Caixa de som potente, até 12 horas de música, proteção IPX4, TWS<\/p>"
+          }
+        },
+        "8bbde357-2065-4d19-b265-1c2b7741a439": {
+          "type": "text",
+          "settings": {
+            "highlight": false,
+            "text": "<p>Sinta a batida das suas músicas favoritas toda vez que apertar o play.<\/p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "8f0bf539-c3e9-4008-b6d5-822565908784": {
+          "type": "sku",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+            "installments_text": "ou [installment]x de [price_installment] sem juros",
+            "installments_max": 10,
+            "min_installment_price": "50"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#e0e621",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "heading_C38VDJ": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
+        "9fa0844a-2eed-4050-832a-fa2b710383ec": {
+          "type": "text",
+          "settings": {
+            "highlight": false,
+            "text": "<ul><li><strong>Tecnologia TWS<\/strong> que conecta até duas caixas BOOM 200 via Bluetooth;<\/li><li><strong>Bluetooth 5.3<\/strong>;<\/li><li>Até <strong>12 horas <\/strong>de música;<\/li><li>Classificação de proteção <strong>IPX4<\/strong>;<\/li><li><strong>3 alto-falantes<\/strong>.<\/li><\/ul>"
+          }
+        },
+        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Compre junto",
+            "stack_products": true,
+            "products_count": 1,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "390bcd4c-f65f-41cd-963c-cdc903702e58",
+        "8bbde357-2065-4d19-b265-1c2b7741a439",
+        "separator",
+        "8f0bf539-c3e9-4008-b6d5-822565908784",
+        "rating",
+        "price",
+        "payment_terms",
+        "quantity_selector",
+        "buy_buttons",
+        "heading_C38VDJ",
+        "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8",
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 60,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "video_NBzFmQ": {
+      "type": "video",
+      "blocks": {
+        "play_Ywgz4f": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_Ywgz4f"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=bT9RyxSQRxw",
+        "poster": "shopify:\/\/shop_images\/boom.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "88ef1528-ce11-4b29-80e4-e8abbccf17eb": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>RESPEITA SUA BATIDA<\/p>"
+          }
+        },
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixa de som BOOM 200",
+            "heading_tag": "h2",
+            "html_tag": "p"
+          }
+        },
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "O boom certo para o seu rolê"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1",
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1",
+        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Frame_40049.png",
+        "mobile_image": "shopify:\/\/shop_images\/BOOM-200-_mobile-7899831332694-01.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "ccd69a7e-3f85-4d01-b54a-e780772a03f3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Todo mundo junto. Todo mundo diferente.",
+            "heading_tag": "h1",
+            "html_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>RESPEITA SUAS DIFERENÇAS<\/p>",
+            "paragraph_font_size": 17
+          }
+        },
+        "6e98ac33-d91f-43bc-b952-332eb3291ae6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Transforme qualquer ambiente em uma pista de dança com a <strong>WAAW BOOM 200<\/strong>. Com som potente, longa duração de bateria, resistência e estilo, ela é a melhor escolha para uma experiência que respeita sua batida. <\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1",
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1",
+        "6e98ac33-d91f-43bc-b952-332eb3291ae6"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/06.Html-infinite-100_64b293e4-d417-4d94-b6ff-c16d7efc0165.png",
+        "mobile_image": "shopify:\/\/shop_images\/07.Html-infinite-100_378a23cf-c55a-49a4-b517-abb238a4f5fa.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "aef15cf5-6c0f-4559-9db1-e087af14fe5d": {
+      "type": "hot-spots",
+      "blocks": {
+        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 26,
+            "horizontal_position_mobile": 46,
+            "vertical_position_mobile": 26,
+            "icon": "shopify:\/\/shop_images\/BOOM-200-_icon-7899831332694-04_c4aad95f-4eb4-4fc1-84f7-758b9d5253d4.png",
+            "icon_width": 72,
+            "title": "80W RMS DE POTÊNCIA",
+            "content": "<p>Sinta cada nota das suas músicas com intensidade! Equipada<strong> com um subwoofer e dois tweeters<\/strong>, os alto-falantes da caixa de som Bluetooth proporcionam um som claro, potente e com batidas poderosas. <\/p>"
+          }
+        },
+        "item_tQYLAi": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 48,
+            "vertical_position": 61,
+            "horizontal_position_mobile": 46,
+            "vertical_position_mobile": 63,
+            "icon": "shopify:\/\/shop_images\/BOOM-200-_icon-7899831332694-05_b2f72380-a35f-4e86-ab8f-ae0c1717db17.png",
+            "icon_width": 72,
+            "title": "POWER BASS ",
+            "content": "<p>Ao dar play, prepare-se para mergulhar em um som poderoso que você pode sentir. Com o recurso <strong>Power Bass, cada grave é amplificado<\/strong>, fazendo você sentir como se estivesse no coração da música. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1",
+        "item_tQYLAi"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/BOOM-200-_desktop-7899831332694-03_46bab308-48e6-46d1-b338-39dbffa1a561.png",
+        "mobile_image": "shopify:\/\/shop_images\/BOOM-200-_mobile-7899831332694-03_5dbd3887-4193-40de-b89d-5e079d5aa1eb.png",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "4241750f-3b6b-4872-977e-af0f892d679d": {
+      "type": "impact-text",
+      "blocks": {
+        "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "até 12h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "57cbe60d-50fe-4899-87b0-3d3ca88328f3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Para aproveitar as festas mais épicas",
+            "heading_tag": "h2",
+            "html_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NYDpMH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Para acompanhar o ritmo do seu rolê, a <strong>WAAW BOOM 200 <\/strong>reproduz até 12* horas de música com uma única recarga. Seja na praia, na montanha ou no parque, sua playlist não para. <\/p>",
+            "paragraph_font_size": 14
+          }
+        },
+        "abdf3d04-4932-466b-9919-e69800c6081c": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1",
+        "richtext_NYDpMH",
+        "abdf3d04-4932-466b-9919-e69800c6081c"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "40d921da-8d7b-452f-9f0a-19b33fc97598": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Proteção IPX4",
+            "heading_tag": "h2",
+            "html_tag": "h2"
+          }
+        },
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Leve a diversão para onde você for com um dispositivo que combina durabilidade e alto desempenho sonoro.<strong> Com proteção IPX4 contra respingos de água<\/strong>, ela é a companhia perfeita para aproveitar cada momento no volume máximo. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-heading-1",
+        "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-richtext-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 340px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/BOOM-200-_desktop-7899831332694-11.png",
+        "mobile_image": "shopify:\/\/shop_images\/BOOM-200-_mobile-7899831332694-08_72b5eebf-318f-4643-badf-2eec6f448dad.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_bEjYFJ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bDTdbH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40061_d344f450-8dca-4277-9b43-3aa193b27e6e.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/Frame_40072.png",
+            "icon_width": 100,
+            "subheading": "",
+            "title": "Show de luzes ",
+            "heading_tag": "p",
+            "content": "<p>Veja e sinta momentos vibrantes ao som da sua playlist! Envolvente, o show de luzes da <strong>WAAW BOOM 200 <\/strong>é dinâmico e deixe sua marca em qualquer ambiente, sincronizando as batidas da música com as luzes para criar memórias na pista de dança com estilo.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f6f6f6",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_wzfpbF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40070_333a43cc-9af7-4813-a3c8-96b35c0fcbf9.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/BOOM-200-_icon-7899831332694-02_771ead3e-c0ca-4999-a3b5-d9b389bc4010.png",
+            "icon_width": 100,
+            "subheading": "",
+            "title": "Conectividade ",
+            "heading_tag": "p",
+            "content": "<p>Dê o boom certo para sua festa com conectividade total! Conecte seus dispositivos favoritos, como smartphones, tablets, laptops ou até mesmo um microfone, utilizando a entrada USB e a entrada auxiliar IN e solte a voz. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f6f6f6",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_eNT4TX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40071_625300ea-a4ff-4b35-b3f0-baf36ce2883a.png",
+            "media_width": 45,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/BOOM-200-_icon-7899831332694-03_522edd4e-25d3-4fdf-bd81-62778f4ae489.png",
+            "icon_width": 100,
+            "subheading": "",
+            "title": "Bluetooth V5.3",
+            "heading_tag": "p",
+            "content": "<p>Interrupções na transmissão e quedas na conexão nunca mais! A conexão rápida e estável da caixa de som Bluetooth reproduz sua música sem parar, para você curtir a playlist do início ao fim com confiança. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f6f6f6",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bDTdbH",
+        "image_wzfpbF",
+        "image_eNT4TX"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixa de som TWS WAAW Plus",
+            "heading_tag": "h2",
+            "html_tag": "h2"
+          }
+        },
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Som estéreo imersivo e expansivo para a galera sentir cada nota das canções, independente da distância. A caixa de som Bluetooth conecta até duas <strong>WAAW BOOM 200 <\/strong>simultaneamente via Bluetooth, com a WAAW PLUS.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-left: 150px; margin-right: 150px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/BOOM-200-_desktop-7899831332694-07_f9b7499f-9ca0-46a5-87ad-aa2a4fe130bb.png",
+        "mobile_image": "shopify:\/\/shop_images\/BOOM-200-_mobile-7899831332694-07_ca093501-209d-4adf-ae3b-2e79eea9f638.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40067_61ec5719-0c39-424d-9c65-814ec09b2938.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40069_13285552-64dd-4c44-87ec-3ecd89540980.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40068_4a7fe99c-4f7b-4f91-9395-bed81c6b6365.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
+      "type": "feature-chart",
+      "blocks": {
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Conectividade APP",
+            "heading_2": "Material",
+            "heading_3": "Versão do Bluetooth",
+            "heading_4": "Tempo de reprodução de música",
+            "heading_5": "Potência de saída (RMS)",
+            "heading_6": "Grau de proteção",
+            "heading_7": "Tipo de conexão do cabo de carregamento",
+            "heading_8": "Impedância do Speaker",
+            "heading_9": "Resposta de frequência",
+            "heading_10": "Perfis bluetooth",
+            "heading_11": "Alcance máximo",
+            "heading_12": "Desligamento automático",
+            "heading_13": "Cor",
+            "heading_14": "Acompanha cabo P2 (m)",
+            "heading_15": "Entrada para cartão SD",
+            "heading_16": "Controle com botões",
+            "heading_17": "Microfone integrado",
+            "heading_18": "Tamanho do speaker (polegada)",
+            "heading_19": "Número de Tweeters",
+            "heading_20": "Número de Woofers",
+            "heading_21": "Bateria (mAh):",
+            "heading_22": "Tipo de bateria",
+            "heading_23": "Entrada cabo de áudio 3,5 mm",
+            "heading_24": "Rádio FM",
+            "heading_25": "Iluminação em LED",
+            "heading_26": "Reforço de Grave",
+            "heading_27": "Número de canais de som",
+            "heading_28": "Configuração do driver",
+            "heading_29": "Entrada para microfone (Quant. e mm)",
+            "heading_30": "Entrada de guitarra (Quant. e mm)",
+            "heading_31": "Entrada USB",
+            "heading_32": "Saída de Áudio",
+            "heading_33": "Fonte de alimentação",
+            "heading_34": "Power bank",
+            "heading_35": "TWS",
+            "heading_36": "Acessórios",
+            "heading_37": "Componentes",
+            "heading_38": "Garantia",
+            "heading_39": "Dimensões (CxLxA) e peso do produto",
+            "heading_40": "Dimensões (CxLxA) e peso da embalagem"
+          }
+        },
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Não<\/p>",
+            "value_2": "<p>Polímeros e tecido<\/p>",
+            "value_3": "<p>5.3<\/p>",
+            "value_4": "<p>12<\/p>",
+            "value_5": "<p>80W<\/p>",
+            "value_6": "<p>IPX4<\/p>",
+            "value_7": "<p>USB-C<\/p>",
+            "value_8": "<p>Tweeter: 4 ohms \/ Woofer: 4 ohms<\/p>",
+            "value_9": "<p>70Hz ~ 20KHz<\/p>",
+            "value_10": "<p>A2DP\/AVRCP\/VDP\/HFP<\/p>",
+            "value_11": "<p>10m<\/p>",
+            "value_12": "<p>Sim, em 10 minutos<\/p>",
+            "value_13": "<p>Preto e Verde<\/p>",
+            "value_14": "<p>Não<\/p>",
+            "value_15": "<p>Não<\/p>",
+            "value_16": "<p>Sim<\/p>",
+            "value_17": "<p>Não<\/p>",
+            "value_18": "<p>1x 5″ subwoofer + 2x 2,75″ tweeter<\/p>",
+            "value_19": "<p>2<\/p>",
+            "value_20": "<p>1<\/p>",
+            "value_21": "<p>4400<\/p>",
+            "value_22": "<p>Íons de Lítio<\/p>",
+            "value_23": "<p>Sim<\/p>",
+            "value_24": "<p>Não<\/p>",
+            "value_25": "<p>Sim<\/p>",
+            "value_26": "<p>Sim<\/p>",
+            "value_27": "<p>2 L\/R<\/p>",
+            "value_28": "<p>Unidirecional<\/p>",
+            "value_29": "<p>1 entrada \/ P10 (6,35mm)<\/p>",
+            "value_30": "<p>Não<\/p>",
+            "value_31": "<p>Sim<\/p>",
+            "value_32": "<p>MP3 \/ WAV \/ WMA<\/p>",
+            "value_33": "<p>Sim<\/p>",
+            "value_34": "<p>Não<\/p>",
+            "value_35": "<p>Sim<\/p>",
+            "value_36": "<p>Carrregador; Cabo USB-C<\/p>",
+            "value_37": "<p>2x Tweeter; 1x Woofer; Pano protetor; Painel de botões; Tampa com conexões; Conexões; Suporte pegador; Suporte base<\/p>",
+            "value_38": "<p>Produto: 1 Ano (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante). Bateria: 6 Meses (3 meses de garantia legal e mais 3 meses de garantia especial concedida pelo fabricante)<\/p>",
+            "value_39": "<p>19,3 x 19,3 x 34 cm \/ 3,14 Kg<\/p>",
+            "value_40": "<p>24 x 24 x 38,7 cm \/ 3, 3Kg<\/p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0",
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Caixa de Som Portátil",
+        "content": "<p>O boom certo para sua festa precisa estar no volume máximo! Para isso, conte com a <strong>WAAW BOOM 200<\/strong>. A caixa de som bluetooth de <strong>80W RMS<\/strong> de potência possui proteção<strong> IPX4<\/strong>, que a torna à prova de respingos, para você levar a festa para onde você quiser curtir com a galera. <\/p><p>Sincronize as luzes com suas músicas favoritas e esquente a pista de dança com o <strong>show de luzes <\/strong>dinâmico da <strong>BOOM 200.<\/strong> Personalize a playlist e divirta-se transmitindo suas canções sem fio via <strong>Bluetooth V5.3<\/strong>, que garante estabilidade e alcance para que a música continue sem interrupções. <\/p><p>Equipada com <strong>três alto-falantes<\/strong>, um subwoofer e dois tweeters, a<strong> caixa de som bluetooth <\/strong>WAAW oferece um som envolvente, onde graves, médios e agudos são reproduzidos com clareza. Além do seu design moderno e elegante, a <strong>BOOM 200<\/strong> eleva o impacto dos graves com o recurso <strong>power bass, <\/strong>para uma nova sensação de poder a cada play. <\/p><p>De longa duração, com apenas uma recarga, a bateria da <strong>WAAW BOOM 200<\/strong> reproduz até 12 horas* sem comprometer a qualidade do áudio. Quando o volume máximo de uma <strong>caixa de som bluetooth<\/strong> não for o suficiente para sua festa, emparelhe até dois alto-falantes sem fio ao mesmo tempo com a tecnologia <strong>WAAW PLUS<\/strong>. <\/p><p>A <strong>speaker bluetooth<\/strong> da WAAW é a melhor escolha para acompanhar o rolê. Com sua alça ergonômica de fácil empunhadura, o som de qualidade está garantido em qualquer lugar. Conecte seus dispositivos favoritos, como smartphones, tablets, laptops ou até mesmo um microfone, utilizando a <strong>entrada USB<\/strong> e a <strong>entrada auxiliar IN<\/strong>, e solte a voz. <\/p><p>Experimente potência e qualidade de som em qualquer lugar com o estilo único da <strong>WAAW BOOM 200!<\/strong> Seja para animar a festa, criar uma atmosfera diferente durante reuniões ou apenas relaxar em casa, a caixa de som bluetooth se adapta ao clima e você aproveita cada momento ao máximo.  <\/p><p>WAAW | Respeita sua batida <\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 18,
+        "subheading_specification": "",
+        "title_specification": "",
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
+    },
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
+      "type": "faq",
+      "blocks": {
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Ficou com alguma dúvida?",
+        "content": "<p>Use this text to share information about your product or shipping policies.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BOOM-200-_desktop-7899831332694-12_85c46ff4-e94b-4818-9676-7080d9231179.png",
+            "image_rotation_degrees": 4,
+            "external_video_url": "",
+            "subheading": "",
+            "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "p",
+            "content": "",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/BOOM-200\/WAAW_BOOM_200_Manual.pdf",
+            "button_text": "Baixe o manual de instruções"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_NBzFmQ",
+    "88ef1528-ce11-4b29-80e4-e8abbccf17eb",
+    "ccd69a7e-3f85-4d01-b54a-e780772a03f3",
+    "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62",
+    "aef15cf5-6c0f-4559-9db1-e087af14fe5d",
+    "4241750f-3b6b-4872-977e-af0f892d679d",
+    "57cbe60d-50fe-4899-87b0-3d3ca88328f3",
+    "40d921da-8d7b-452f-9f0a-19b33fc97598",
+    "media_with_text_bEjYFJ",
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
+    "related-products",
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+  ]
+}

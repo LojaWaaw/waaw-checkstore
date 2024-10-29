@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_3bYMVX": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>16 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Modo GAMER <strong>baixa latência<\/strong>;<\/li><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li><strong>Conforto WAAW<\/strong> design inteligente;<\/li><li>Controle de <strong>toque inteligente<\/strong>;<\/li><li>Som de <strong>alta qualidade<\/strong>.<\/li><\/ul>"
+            "text": "<ul><li><strong>16 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Modo GAMER <strong>baixa latência<\/strong>;<\/li><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li><strong>Conforto WAAW<\/strong> design inteligente;<\/li><li>Controle de <strong>toque inteligente<\/strong>;<\/li><li>Som de <strong>alta qualidade<\/strong>.<\/li><\/ul>"
           }
         },
         "d6d950b2-64ac-43a7-bc64-0f2581b8347b": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_3bYMVX",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "d6d950b2-64ac-43a7-bc64-0f2581b8347b",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -159,7 +169,7 @@
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=lchOkEdW1XU&t=45s",
-        "poster": "shopify:\/\/shop_images\/17.Html-mob-200_c4216bb6-5df2-4f96-9dd7-ec69e3b382f8.png",
+        "poster": "shopify:\/\/shop_images\/01.Banner-pagina-cotegorias-arte-aberta.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -172,7 +182,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Mob 200",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_9PWigQ": {
@@ -207,14 +218,16 @@
           "type": "heading",
           "settings": {
             "text": "Você viaja com a música.",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "p"
           }
         },
         "heading_9c4dBi": {
           "type": "heading",
           "settings": {
             "text": "A música viaja com você.",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "p"
           }
         },
         "richtext_VAzk6g": {
@@ -346,6 +359,7 @@
           "settings": {
             "text": "De muita música",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -353,13 +367,15 @@
         "richtext_XC7bhL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ideal para quem busca qualidade sonora, praticidade e liberdade, o <strong>MOB 200<\/strong> vai além! Com uma autonomia de 4 horas dos fones Bluetooth e 12 horas na case, você tem 16 horas de música sem parar.<\/p>"
+            "content": "<p>Ideal para quem busca qualidade sonora, praticidade e liberdade, o <strong>MOB 200<\/strong> vai além! Com uma autonomia de 4 horas dos fones Bluetooth e 12 horas na case, você tem 16 horas de música sem parar.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_cbyeMh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -390,7 +406,8 @@
           "type": "heading",
           "settings": {
             "text": "Modo Gamer",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_fPMjX6": {
@@ -437,6 +454,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Controle Touch",
+            "heading_tag": "h2",
             "content": "<p>Através do touch nas laterais do fone de ouvido você pode controlar as músicas, atender chamadas e acionar o modo gamer sem pegar no smartphone.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -504,7 +522,8 @@
           "type": "heading",
           "settings": {
             "text": "WAAW Plus",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_nyPpDK": {
@@ -1014,6 +1033,7 @@
             "external_video_url": "https:\/\/youtu.be\/lchOkEdW1XU",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Descubra o ápice da liberdade sonora com o WAAW MOB 200 Bluetooth! Deixe para trás os fios e embarque em uma jornada sonora sem fronteiras. Pronto para maximizar sua experiência auditiva? Não hesite mais! Acesse nosso Manual e além disso, não deixe de ver nosso Vídeo Guia: obtenha dicas sobre WAAW MOB 200, o fone que redefine a forma como você ouve. Faça cada nota musical se tornar um momento épico. Conecte-se agora e viva o futuro do som! <\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/MOB-200EB\/MOB-200EB-Manual-Rev.06.pdf",
             "button_text": "Baixe o manual de instruções"

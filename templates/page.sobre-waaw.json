@@ -13,9 +13,9 @@
         "template--15985498914991__e563df09-b7ba-416e-a963-57766b95aee8-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/05.Banner-pagina-sobre-waaw.png",
-            "mobile_image": "shopify:\/\/shop_images\/06.Banner-mobile-pagina-sobre-waaw.png",
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/13.Banner-desktop-pagina-cotegorias.png",
+            "mobile_image": "shopify:\/\/shop_images\/14.Banner-desktop-pagina-cotegorias.png",
+            "content_max_width": 740,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
@@ -88,6 +88,7 @@
           "settings": {
             "text": "A WAAW by Alok é uma marca que traz um novo conceito em áudio.",
             "heading_tag": "h2",
+            "html_tag": "h1",
             "text_color": "",
             "gradient": ""
           }
@@ -95,7 +96,8 @@
         "template--15985498914991__e74d6d25-5a7f-4b81-a6b6-ef26631c72e0-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Construída a partir de uma sociedade entre a WAP, a maior empresa desenvolvedora de tecnologia de bens de consumo do Brasil, e Alok, o artista brasileiro mais ouvido no mundo, a marca nasce com o propósito de ofertar produtos de alta qualidade no segmento de áudio. <\/p>"
+            "content": "<p>Construída a partir de uma sociedade entre a WAP, a maior empresa desenvolvedora de tecnologia de bens de consumo do Brasil, e Alok, o artista brasileiro mais ouvido no mundo, a marca nasce com o propósito de ofertar produtos de alta qualidade no segmento de áudio. <\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -125,7 +127,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -139,7 +141,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -153,7 +155,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -167,7 +169,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -181,7 +183,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -225,6 +227,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Criação da marca WAAW",
+            "heading_tag": "h2",
             "content": "<p>Durante uma turnê pela Europa, Alok desenhou o esboço do logo em um guardanapo, apresentando o que a marca queria expressar: o seu momento WAAW.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -247,6 +250,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Desenvolvimento de produtos",
+            "heading_tag": "h2",
             "content": "<p>Desde a criação da marca, o Alok está envolvido ativamente em todos os processos de desenvolvimento dos produtos, trazendo um conceito especial de quem vive a música.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -278,6 +282,7 @@
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=kAAT7WbD82Y",
             "subheading": "",
             "title": "Parceria com a SAS Brasil",
+            "html_heading_tag": "h2",
             "content": "<p>A SAS Brasil é uma instituição social sem fins lucrativos, que desde 2013 tem como missão levar acesso à saúde especializada para quem mais precisa em todo território brasileiro.  <br\/><br\/>O atendimento é realizado para crianças que não possuem acesso à saúde especializada englobando diversas especialidades.<\/p>",
             "button_url": "",
             "button_text": ""

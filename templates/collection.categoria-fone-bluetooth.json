@@ -1,0 +1,251 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "image": "{{ collection.metafields.my_fields.collection_image_desktop.value }}",
+        "mobile_image": "{{ collection.metafields.my_fields.collection_image_mobile.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_rtZ7qD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LCrD8X": {
+          "type": "heading",
+          "settings": {
+            "text": "Fones de Ouvido Bluetooth",
+            "heading_tag": "h1",
+            "html_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_LCrD8X"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a887f921-e48e-47c6-86d4-d285acff434d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti200.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti200.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "rich_text_crFRw7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_frz4pk": {
+          "type": "heading",
+          "settings": {
+            "text": "Qual é o alcance de um fone bluetooth?",
+            "heading_tag": "h1",
+            "html_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_QVHj9W": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>O alcance de um fone bluetooth varia conforme o modelo e a tecnologia utilizada, mas no geral, a maioria dos fones tem um alcance de até 10 metros do dispositivo que está conectado. Isso significa que você pode se afastar um pouco do seu celular, tablet ou computador sem perder sua conexão.<\/p><p>Para alguns modelos mais avançados, o alcance pode ser um pouco maior, até 15 metros, dependendo da qualidade do bluetooth e das condições do ambiente. Lembrando que paredes e objetos grandes podem reduzir o alcance entre os dispositivos. <\/p><p>Na WAAW, nossos fones são projetados para oferecer uma conexão estável e confiável, para que você possa se mover livremente sem cortar o seu som.<\/p>",
+            "paragraph_font_size": 16
+          }
+        },
+        "button_V8NgwK": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Saiba mais",
+            "url": "https:\/\/blog.waaw.com.br\/como-conectar-fone-de-ouvido-bluetooth\/",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_frz4pk",
+        "richtext_QVHj9W",
+        "button_V8NgwK"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_aQD4Mb": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_X4Q6UE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sub_Bluetooth_H2_-_Como_conectar_fone_de_ouvido_bluetooth.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Como conectar fone de ouvido Bluetooth",
+            "heading_tag": "h2",
+            "content": "<p>Para conectar seu fone de ouvido bluetooth no seu dispositivo é rápido e fácil. Primeiro, você precisa ligar seu fone bluetooth e colocá-lo no modo de emparelhamento, ao colocar nesse modo, geralmente, seu fone indicará uma luz piscando. <\/p><p>Em seguida, basta ligar o bluetooth do seu dispositivo (celular, tablet ou pc), abrir as configurações e buscar pelo nome do seu fone na lista de dispositivos disponíveis. Selecione o nome encontrado e aguarde até que a conexão entre os dois seja estabelecida. <\/p><p>Caso apresente algum problema, confirme se o bluetooth do dispositivo está ativado e se o seu fone está próximo o suficiente do dispositivo para estabelecer a conexão. <\/p><p>Na WAAW, garantimos que nossos fones sejam simples de conectar e ofereçam uma experiência sem complicações. Agora é só curtir o som!<\/p>",
+            "link_text": "Veja mais",
+            "link_url": "https:\/\/blog.waaw.com.br\/como-conectar-fone-de-ouvido-bluetooth\/",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_9crPmi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sub._Bluetooth_H2_-_Qual_a_diferenca_entre_TWS_e_Bluetooth.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Qual a diferença entre TWS e Bluetooth",
+            "heading_tag": "h2",
+            "content": "<p>A tecnologia TWS (True Wireless Stereo) e bluetooth são tecnologias relacionadas, mas com funções diferentes. O Bluetooth, por exemplo, permite a transmissão de áudio sem fio entre dispositivos, como um fone e um celular. Já os TWS são um tipo específico de fone bluetooth que não tem fios nem entre os dois fones, oferecendo total liberdade de movimento.<\/p><p>Em outras palavras, todos os fones TWS usam bluetooth para se conectar, mas nem todos os fones bluetooth são TWS. Os TWS proporcionam uma experiência totalmente sem fios, enquanto fones bluetooth podem ter um fio que conecta os dois fones ou outras variações. <\/p><p>Na WAAW, oferecemos modelos TWS que garantem um som sem limites e sem fios, para que você aproveite a liberdade total.<\/p>",
+            "link_text": "Saiba mais",
+            "link_url": "https:\/\/blog.waaw.com.br\/diferenca-fone-tws-e-bluetooth\/",
+            "background": "#e0e621",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_fRYQHM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sub._Bluetooth_H2_-_Como_carregar_fone_de_ouvido_bluetooth.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Como carregar fone de ouvido Bluetooth",
+            "heading_tag": "h2",
+            "content": "<p>Carregar seu fone sem fio é bem tranquilo. Geralmente, os fones Bluetooth acompanham uma case que também serve como carregador. Então primeiro, coloque seu fone de ouvido na case correspondente do fone e verifique se estão corretamente conectados. Após, basta conectar o cabo do carregador na case e em uma fonte de energia, como o seu computador ou em um adaptador de tomada. Uma luz indicadora na case ou nos próprios fones geralmente mostram o status da carga.<\/p><p>Na WAAW, garantimos que nossos fones sejam fáceis de carregar, para que você possa aproveitar o som sem se preocupar com a bateria.<\/p>",
+            "link_text": "Veja mais",
+            "link_url": "https:\/\/blog.waaw.com.br\/como-carregar-fone-sem-fio\/",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_X4Q6UE",
+        "image_9crPmi",
+        "image_fRYQHM"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_rtZ7qD",
+    "a887f921-e48e-47c6-86d4-d285acff434d",
+    "main",
+    "rich_text_crFRw7",
+    "media_with_text_aQD4Mb"
+  ]
+}

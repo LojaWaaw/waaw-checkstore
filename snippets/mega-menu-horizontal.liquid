@@ -94,10 +94,20 @@
                       </li>
                       {%- for sub_sub_link in sub_link.links -%}
                         <li>
-                          <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group dropdown-menu-item-img" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
-                            {{- sub_sub_link.object.featured_media | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
-                            <span><span class="reversed-link link-new-submenu">{{ sub_sub_link.title }}</span></span>
-                          </a>
+                          
+                            
+                            {% if sub_sub_link.title == "Todos os produtos" %}
+                              <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group dropdown-menu-item-img" style="display: block; width: 100%; text-align: center; font-weight: bold" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                              <span><span>{{ sub_sub_link.title }}</span></span>
+                              </a>
+                            {% else %}
+                              <a href="{{ sub_sub_link.url }}" class="dropdown-menu__item group dropdown-menu-item-img" {% if sub_sub_link.current %}aria-current="page"{% endif %}>
+                              {{- sub_sub_link.object.featured_media | image_url: width: 104 | image_tag: loading: 'lazy', sizes: '52px', widths: '52,104', class: 'panel-link__image rounded' -}}
+                              <span><span class="reversed-link link-new-submenu">{{ sub_sub_link.title }}</span></span>
+                              </a>
+                            {% endif %}
+                            
+                          
                         </li>
                       {%- endfor -%}
                     </ul>

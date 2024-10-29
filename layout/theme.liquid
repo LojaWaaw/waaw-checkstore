@@ -18,6 +18,16 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
 
     <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
 
+    {% if handle == '/collections' %}
+      <meta name="robots" content="noindex">
+    {% endif %}
+    
+    {% if collection.url == '/collections/all' %}
+      <script type="text/javascript">
+        window.location = "https://waaw.com.br/collections/todos-os-produtos";
+      </script>
+    {% endif %}
+    
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
@@ -68,14 +78,67 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <script type="text/javascript" async="true" src="//rate.trustvox.com.br/widget.js"></script>
     
     {% include 'dataLayer-allPages' %}
-  </head>
 
+    {% if settings.enable-streamshop %}
+      {{ settings.html-streamshop }}      
+    {% endif %}
+
+    <script id="streamshop-widget-script">
+       var streamShopOptions = {
+       "live": "
+     LiveShop  ,
+       "bg": "https://files.streamshop.com.br/7140a9ce-532d-41ed-a630-fb44afc810ea/9818b6ef-ee7c-430b-8933-06a2b1bb5281.png",
+       "positionX": "left",
+       "positionY": "bottom",
+       "spacingPositionX": 17,
+       "spacingPositionY": 63,
+       "height": 115,
+       "width": 115,
+       "animation": true,
+       "borderRadius": 21,
+       "video": {
+         "enable": false,
+         "url": ""
+       },
+       "onHover": {
+         "enable": false,
+         "height": 170,
+         "width": 170
+       },
+       "wizard": {
+         "addWidget": true,
+         "addStreamAds": false,
+         "streamAdsFormat": 1,
+         "embedSelectedFormat": 1,
+         "previewSelected": 1,
+         "liveVideoUrl": "",
+         "endedWizard": true
+       },
+       "redirectFromProduct": false
+     };
+    
+       // Core Script (do not touch)
+       (function (i, s, o, g, r, a, m) {
+         var p = new Promise(function(rs){return rs();});
+         a = s.createElement(o);
+         m = s.getElementsByTagName(o)[0];
+         a.async = 1;
+         a.src = g;
+         a.onload = function(){return p.then(function(){return ss(streamShopOptions);});};
+         m.parentNode.insertBefore(a, m);
+       })(window, document, 'script', 'https://assets.streamshop.com.br/sdk/liveshop-web-sdk.min.js');
+       </script>
+    
+  </head>
+  
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
 
     {% render 'tagInstallBody' %}
     {%- render 'shadow-dom-templates' -%}
 
     <a href="#main" class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    {% section 'new-annoucement' %}
 
     {%- if request.page_type != 'password' -%}
       {%- sections 'header-group' -%}

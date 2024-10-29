@@ -22,6 +22,48 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_prf3mc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hKNMQB": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixas de Som",
+            "heading_tag": "h1",
+            "html_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "subheading_Anf7cW": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Deixe o som te levar com as caixas de som da WAAW. Quer agitar a festa, curtir um som relaxante em casa ou levar sua música para onde quiser? Nossas caixas de som combinam design estiloso, potência e tecnologia de ponta para transformar qualquer lugar em um show particular. Na WAAW, o som ganha vida, e cada batida te faz sentir a vibe como nunca antes. Conecte-se, aumente o volume e deixe a música fluir!"
+          }
+        },
+        "richtext_hBXqDX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Deixe o som te levar com as caixas de som da WAAW. Quer agitar a festa, curtir um som relaxante em casa ou levar sua música para onde quiser? Nossas caixas de som combinam design estiloso, potência e tecnologia de ponta para transformar qualquer lugar em um show particular. <\/p><p>Na WAAW, o som ganha vida, e cada batida te faz sentir a vibe como nunca antes. Conecte-se, aumente o volume e deixe a música fluir!<\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_hKNMQB",
+        "subheading_Anf7cW",
+        "richtext_hBXqDX"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "a887f921-e48e-47c6-86d4-d285acff434d": {
       "type": "slideshow",
       "blocks": {
@@ -90,7 +132,8 @@
           "type": "heading",
           "settings": {
             "text": "Caixas de Som do Alok",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "h2"
           }
         },
         "richtext_gkqgfV": {
@@ -117,7 +160,7 @@
         "button_DeMh7w"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -139,8 +182,9 @@
         "heading_7Y6gUU": {
           "type": "heading",
           "settings": {
-            "text": "Como escolher uma caixa de som?",
+            "text": "Qual a melhor caixa de som?",
             "heading_tag": "h1",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -148,7 +192,8 @@
         "richtext_z7JpeQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Já teve dúvidas sobre como escolher a melhor caixa de som para você? Uma boa caixa de som precisa ter alguns recursos básicos, como conectividade bluetooth e longa autonomia de bateria. Já a melhor caixa de som é aquela que vai atender às suas necessidades.<\/p><p>Na WAAW by Alok você encontra caixa de som com Bluetooth 5.0, microfone integrado, tecnologia TWS, resistência à água e muito mais.<\/p>"
+            "content": "<p>A melhor caixa de som é a que se encaixa nas suas necessidades! Se você precisa de potência para animar grandes eventos, escolha uma caixa robusta. Para uso diário, uma opção mais compacta pode ser suficiente. Não se esqueça da bateria — quanto mais dura, melhor para festas sem fim. <\/p><p>E, claro, recursos como Bluetooth e conectividade são sempre um plus. No final, a escolha certa é a que combina com seu estilo e uso!<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "button_mdBdWr": {
@@ -157,7 +202,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Confira",
-            "url": "https:\/\/blog.waaw.com.br\/como-escolher-a-melhor-caixa-de-som\/",
+            "url": "https:\/\/blog.waaw.com.br\/comprar-caixa-de-som\/",
             "background": "#000000",
             "text_color": ""
           }
@@ -183,17 +228,18 @@
         "image_DM443Y": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/04.Html-categoria-caixa-de-som_c72696fa-6f33-48c8-b0e9-5d884dd4c382.png",
+            "image": "shopify:\/\/shop_images\/Cat._Caixa_de_som_-_H2_O_que_e_caixa_de_som_TWS__1.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Como conectar a caixa de som na TV?",
-            "content": "<p>Para assistir filmes e séries de forma imersiva e com qualidade sonora, conectar uma caixinha na tv é uma excelente alternativa. Mas você sabe como conectar caixa de som na TV?<\/p><p>Existem duas formas diferentes de fazer essa conexão. Confira o passo a passo completo e saiba como conectar a caixa de som na tv via bluetooth e como conectar a tv na caixa de som via cabos.<\/p>",
-            "link_text": "Ver passo a passo",
-            "link_url": "https:\/\/blog.waaw.com.br\/como-conectar-caixa-de-som-na-tv\/",
+            "title": "O que é caixa de som TWS?",
+            "heading_tag": "h2",
+            "content": "<p>TWS é a sigla para True Wireless Stereo, ou seja, som estéreo de verdade, sem nenhum fio pra te limitar. Com essa tecnologia, suas caixas de som podem se conectar entre si e reproduzir áudio em canais diferentes. <\/p><p>Imagine a guitarra rolando de um lado e a bateria estourando do outro, tudo com uma qualidade sonora incrível e potência dobrada. E o melhor: você pode espalhar suas caixinhas por aí, na altura e distância que quiser, sem se preocupar com cabos. Com TWS, a música te envolve de todos os lados!<\/p>",
+            "link_text": "Confira",
+            "link_url": "https:\/\/blog.waaw.com.br\/caixa-de-som-tws\/",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
@@ -213,6 +259,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Caixa de som à prova d’água",
+            "heading_tag": "h2",
             "content": "<p>Com uma caixa de som à prova d’água, você pode se divertir até mesmo na praia, piscina, banho ou cachoeira sem preocupações.<\/p><p>Veja as dicas para acertar na hora de comprar a sua caixa de som e conheça a WAAW BOOM 100SB, melhor caixa de som bluetooth à prova d´água disponível no mercado.<\/p>",
             "link_text": "Saiba mais",
             "link_url": "https:\/\/blog.waaw.com.br\/caixa-de-som-a-prova-dagua\/",
@@ -227,17 +274,18 @@
         "image_N9AVb9": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/06.Html-categoria-caixa-de-som_ed080e89-5930-4d8d-84c4-902c19e401e8.png",
+            "image": "shopify:\/\/shop_images\/Cat._Caixa_de_som_-_h2_Qual_a_melhor_caixa_de_som_bluetooth.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Como conectar a caixa de som no PC?",
-            "content": "<p>Utilizar uma caixa de som no computador é ótima ideia para quem busca por volume e qualidade sonora. Pequenas e potentes, elas transformam a experiência de uso, seja para escutar música, jogar online ou assistir a uma série.<\/p><p>Mas, você sabe como conectar a caixinha de som no PC? Aprenda sobre como conectar a caixa de som no PC via bluetooth e via cabo.<\/p>",
+            "title": "Qual a melhor caixa de som Bluetooth?",
+            "heading_tag": "h2",
+            "content": "<p>Uma caixa de som Bluetooth é a parceira ideal para qualquer ocasião, oferecendo qualidade sonora e versatilidade. Para escolher a melhor, considere potência, conectividade moderna e um excelente custo-benefício. <\/p><p>E sem dúvidas, a Infinite 200 é a escolha certa! Com 160W RMS de pura potência e 4 alto-falantes de alta qualidade, ela garante um som cristalino para animar qualquer ambiente. Com até 12 horas de bateria e tecnologia TWS para som estéreo imersivo, a Infinite 200 ainda oferece um show de LEDs que transforma qualquer lugar em uma festa.<\/p>",
             "link_text": "Quero saber",
-            "link_url": "https:\/\/blog.waaw.com.br\/como-conectar-caixa-de-som-no-pc\/",
+            "link_url": "https:\/\/blog.waaw.com.br\/caixa-de-som-bluetooth-grande-e-barata\/",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
@@ -263,8 +311,9 @@
         "heading_6wpmYg": {
           "type": "heading",
           "settings": {
-            "text": "Como conectar o celular na caixa de som bluetooth?",
+            "text": "Qual a melhor caixa de som para karaokê?",
             "heading_tag": "h1",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -272,7 +321,8 @@
         "richtext_WaMMXX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>As caixas de som bluetooth se conectam aos smartphones sem necessidade de cabos entre os dispositivos. Você sabe como conectar o celular na caixa de som bluetooth?<\/p><p>Você só precisa fazer o passo a passo uma única vez. Na próxima vez que os aparelhos forem ligados, a conexão ocorre de forma automática. Confira o passo a passo para entender tudo.<\/p>"
+            "content": "<p>Para arrasar no karaokê, você precisa de uma caixa de som top. A Infinite 100 é perfeita! Com até 14 horas de reprodução, Bluetooth 5.0 e som claro graças aos 2 tweeters e 2 full ranges, você canta sem preocupação. <\/p><p>Tem 4 opções de conexão, porta para microfone e show de luzes para a vibe certa. Além disso, é resistente a respingos e com tecnologia TWS para som estéreo.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "button_aF3Vnq": {
@@ -281,7 +331,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Saiba mais",
-            "url": "https:\/\/blog.waaw.com.br\/como-conectar-o-celular-na-caixa-de-som-bluetooth\/",
+            "url": "https:\/\/blog.waaw.com.br\/caixa-de-som-para-karaoke-com-microfone\/",
             "background": "#000000",
             "text_color": "#ffffff"
           }
@@ -308,7 +358,8 @@
           "type": "heading",
           "settings": {
             "text": "Qual a melhor caixa de som amplificada?",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "h2"
           }
         },
         "richtext_rd7UTU": {
@@ -359,6 +410,7 @@
           "settings": {
             "text": "Se a vida é música, seu coração é que dita o ritmo.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -366,13 +418,15 @@
         "richtext_pi9aQc": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA A SUA BATIDA<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA A SUA BATIDA<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_PgiqB4": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Caixas de Som do DJ brasileiro mais ouvido no mundo.<\/p>"
+            "content": "<p>Caixas de Som do DJ brasileiro mais ouvido no mundo.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -393,6 +447,7 @@
   },
   "order": [
     "banner",
+    "rich_text_prf3mc",
     "a887f921-e48e-47c6-86d4-d285acff434d",
     "main",
     "image_with_text_overlay_fFfVHc",

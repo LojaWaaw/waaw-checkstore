@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_Nm66PJ": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>OVER EAR<\/strong> ideal para uso prolongado;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
+            "text": "<ul><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>OVER EAR<\/strong> ideal para uso prolongado;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
         "709aafcd-28f2-43cc-be44-331916397902": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_Nm66PJ",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "709aafcd-28f2-43cc-be44-331916397902",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -159,7 +169,7 @@
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=NMM0hyUAeWs&t=89s",
-        "poster": "shopify:\/\/shop_images\/15.Html-sense-100.png",
+        "poster": "shopify:\/\/shop_images\/01.Banner-pagina-cotegorias-arte-bbbb.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -172,7 +182,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Sense 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_BjqW7Q": {
@@ -211,6 +222,7 @@
           "settings": {
             "text": "Às vezes, só ouvir não é o suficiente.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -218,13 +230,15 @@
         "richtext_TmM7tE": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SEUS SENTIDOS<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SEUS SENTIDOS<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_HtMgr6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Das batidas suaves até aos graves mais altos, o <strong>WAAW SENSE 100<\/strong> transformará sua playlist em um verdadeiro show por mais tempo. Projetado para proporcionar horas de uso confortável, o fone de ouvido com fio garante conexão intensa com cada canção.<\/p>"
+            "content": "<p>Das batidas suaves até aos graves mais altos, o <strong>WAAW SENSE 100<\/strong> transformará sua playlist em um verdadeiro show por mais tempo. Projetado para proporcionar horas de uso confortável, o fone de ouvido com fio garante conexão intensa com cada canção.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -255,7 +269,8 @@
           "type": "heading",
           "settings": {
             "text": "Over Ear",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_TCgDjL": {
@@ -271,7 +286,7 @@
         "richtext_TCgDjL"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -294,7 +309,8 @@
           "type": "heading",
           "settings": {
             "text": "Mais praticidade",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_fh4UcD": {
@@ -309,7 +325,7 @@
         "richtext_fh4UcD"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": true,
@@ -332,7 +348,8 @@
           "type": "heading",
           "settings": {
             "text": "Design dobrável",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_LghEFq": {
@@ -347,7 +364,7 @@
         "richtext_LghEFq"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-left: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-left: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -378,6 +395,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Hands Free",
+            "heading_tag": "h2",
             "content": "<p>Com microfone integrado, você tem as mãos livres enquanto conversa com a sua galera.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -413,6 +431,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Assistente de voz",
+            "heading_tag": "h2",
             "content": "<p>Pronto para atender aos seus comandos, com o assistente de voz do <strong>SENSE 100<\/strong> você realiza as tarefas do seu dia a dia com facilidade e mais inteligência.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -440,7 +459,8 @@
           "type": "heading",
           "settings": {
             "text": "Compatibilidade",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_PcP3jL": {
@@ -455,7 +475,7 @@
         "richtext_PcP3jL"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-left: 450px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-left: 450px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -886,6 +906,7 @@
             "external_video_url": "https:\/\/youtu.be\/NMM0hyUAeWs",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Mergulhe em um universo sonoro requintado com o fone de ouvido Sense 100HW da WAAW! Dê adeus às distrações e envolva-se completamente na pureza do áudio. Está pronto para elevar sua experiência auditiva a outro nível? Não espere mais! Acesse nosso Manual e explore também nosso Vídeo Guia e domine o Sense 100HW, o fone que transforma cada melodia em uma obra-prima sonora. Deixe cada nota tocar sua alma. Clique agora e sinta a verdadeira essência do som!<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/SENSE-100HW\/SENSE-100HW-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

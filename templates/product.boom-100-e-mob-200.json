@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_Bykbwf": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>20 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong>;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong><\/li><li>Classificação <strong>IPX7 à prova d’água<\/strong>;<\/li><li><strong>Alça<\/strong> de transporte;<\/li><li>Acabamento em<strong> tecido resistente<\/strong>;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HandsFree<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
+            "text": "<ul><li><strong>20 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong>;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong><\/li><li>Classificação <strong>IPX7 à prova d’água<\/strong>;<\/li><li><strong>Alça<\/strong> de transporte;<\/li><li>Acabamento em<strong> tecido resistente<\/strong>;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HandsFree<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
           }
         },
         "57648f03-86cc-42b4-a457-191878af639c": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_Bykbwf",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "57648f03-86cc-42b4-a457-191878af639c",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -622,6 +632,7 @@
             "external_video_url": "https:\/\/youtu.be\/zahD2X5HJdo",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Se você está ansioso para explorar todas as possibilidades, convidamos você a clicar no botão abaixo para acessar nosso Manual de Instruções. Além disso, para uma imersão completa, preparamos um vídeo que revela a extraordinária qualidade sonora e os recursos inovadores que definem a Caixa de Som <strong>BOOM 100SB<\/strong>. Prepare-se para uma experiência sonora excepcional.<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/BOOM-100SB\/BOOM-100SB-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

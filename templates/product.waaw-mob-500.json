@@ -1,0 +1,1230 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "390bcd4c-f65f-41cd-963c-cdc903702e58": {
+          "type": "text",
+          "settings": {
+            "highlight": true,
+            "text": "<p>Fone de ouvido Gamer<\/p>"
+          }
+        },
+        "8bbde357-2065-4d19-b265-1c2b7741a439": {
+          "type": "text",
+          "settings": {
+            "highlight": false,
+            "text": "<p>Transforme a sua experiência de áudio com o fone de ouvido sem fio WAAW MOB 500 ANC. Com som de alta qualidade e design compacto, curta seu #momentoWAAW em músicas, jogos e vídeos como nunca antes.<\/p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "8f0bf539-c3e9-4008-b6d5-822565908784": {
+          "type": "sku",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+            "installments_text": "ou [installment]x de [price_installment] sem juros",
+            "installments_max": 10,
+            "min_installment_price": "50"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#e0e621",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "9fa0844a-2eed-4050-832a-fa2b710383ec": {
+          "type": "text",
+          "settings": {
+            "highlight": false,
+            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Tecnologia de <strong>cancelamento de ruído<\/strong>;<\/li><li>Até <strong>36 horas<\/strong> de reprodução;<\/li><li>Controle todas as funções com <strong>controle de toque inteligente<\/strong>;<\/li><li><strong>Resistente à água e ao suor<\/strong>, índice de proteção de<strong> IPX4<\/strong>;<\/li><li>Acompanha <strong>case<\/strong> <strong>de transporte<\/strong>;<\/li><li>Tecnologia <strong>hands free<\/strong>;<\/li><li>Bluetooth <strong>V5.3<\/strong>;<\/li><li>Até <strong>6 horas<\/strong> de duração da bateria e até <strong>30 horas<\/strong> na case.<\/li><\/ul>"
+          }
+        },
+        "f58ddf54-18e4-4e40-90d3-2765f8ee78dd": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Compre junto",
+            "stack_products": false,
+            "products_count": 4,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "390bcd4c-f65f-41cd-963c-cdc903702e58",
+        "8bbde357-2065-4d19-b265-1c2b7741a439",
+        "separator",
+        "8f0bf539-c3e9-4008-b6d5-822565908784",
+        "rating",
+        "price",
+        "payment_terms",
+        "quantity_selector",
+        "buy_buttons",
+        "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "f58ddf54-18e4-4e40-90d3-2765f8ee78dd",
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 60,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<p style=\"text-align: center\">Write or copy\/paste HTML code<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_GKMMnr": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_CihdQz": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Fone de Ouvido Bluetooth"
+          }
+        },
+        "heading_z9By8A": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "MOB500",
+            "heading_tag": "h0",
+            "html_tag": "p"
+          }
+        },
+        "richtext_rBpLUt": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Experiência máxima de conexão com tecnologia e liberdade<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_CihdQz",
+        "heading_z9By8A",
+        "richtext_rBpLUt"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Frame_40049.webp",
+        "mobile_image": "shopify:\/\/shop_images\/Frame_40052.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#1a1a1a",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_with_text_cNpLDV": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_VtU46y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40061_5b85add2-7fd0-4663-be2f-801d211348f0.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/Frame_40081.png",
+            "icon_width": 76,
+            "subheading": "",
+            "title": "Hands Free",
+            "heading_tag": "p",
+            "content": "<p>Mantenha suas mãos livres enquanto gerencia chamadas e controla as músicas.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VtU46y"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_7NBmRM": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_wT973T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40070_9ee9278a-7d40-4046-a43f-4b6e67b8af5c.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/Frame_40082.png",
+            "icon_width": 76,
+            "subheading": "",
+            "title": "Conectividade",
+            "heading_tag": "p",
+            "content": "<p>O <strong>Bluetooth V5.3<\/strong> permite conexões mais rápidas, estáveis e de maior alcance.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#3d3935",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wT973T"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "impact_text_XLD77Q": {
+      "type": "impact-text",
+      "blocks": {
+        "item_fQ7UEM": {
+          "type": "item",
+          "settings": {
+            "title": "Até 36h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_fQ7UEM"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#dfdfdf",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_bYpW8e": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_ntPYqJ": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_dL7pWR": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "html_tag": "p",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_kXqhLB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Seja no caminho para o trabalho, durante os treinos ou relaxando em casa, você merece curtir sua trilha sonora favorita com o som potente e nítido do <strong>WAAW MOB 500 ANC<\/strong>. <\/p><p>Capaz de oferecer até <strong>36* horas<\/strong> de música com uma única recarga, ele acompanha sua rotina sem perda de qualidade no áudio, para um momento WAAW envolvente desde o primeiro <em>play<\/em>. <\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ntPYqJ",
+        "heading_dL7pWR",
+        "richtext_kXqhLB"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_etnngd": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Frame_40076_ccfb79a7-d6f2-4c04-9c4d-4ed4d03dc4c5.webp",
+        "mobile_image": "shopify:\/\/shop_images\/Frame_40098.webp",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_YNdgYj": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_QGyR8b": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_mnj9CG": {
+          "type": "heading",
+          "settings": {
+            "text": "Cancelamento de ruído ativo",
+            "heading_tag": "h1",
+            "html_tag": "p"
+          }
+        },
+        "richtext_4X3Uwc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Manter o foco nos estudos, no trabalho e nas atividades físicas ficou mais fácil com o cancelamento de ruído ativo do <strong>fone de ouvido Bluetooth WAAW<\/strong>. Além de abafar sons indesejados durante chamadas, o recurso reduz a necessidade de aumentar o volume para compensar o ruído externo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QGyR8b",
+        "heading_mnj9CG",
+        "richtext_4X3Uwc"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-left: 340px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Frame_40084_a7b50995-880f-466b-8346-dc35fec056db.png",
+        "mobile_image": "shopify:\/\/shop_images\/Frame_40085_2c782acf-6eff-47d4-8e12-cbf0aa2f4a53.png",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_KEHyik": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fzfFD3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40071.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/Frame_40086_1a18ac7a-9243-42dd-9918-14b1dbc85330.png",
+            "icon_width": 76,
+            "subheading": "",
+            "title": "Controle de toque inteligente",
+            "heading_tag": "p",
+            "content": "<p>Acesse funções como reprodução\/pausa, troque de faixas, acione a assistente de voz ou atenda ligações rapidamente, sem precisar manter o smartphone conectado. Faça tudo isso com um toque!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fzfFD3"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "multiple_images_with_text_bbnpgH": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_NexVCw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40090.png",
+            "image_rotation_degrees": -2,
+            "external_video_url": "",
+            "subheading": "",
+            "title": "Assistente de voz",
+            "html_heading_tag": "p",
+            "content": "<p>Faça chamadas, envie mensagens e controle suas músicas rapidamente com a inteligência da tecnologia de conexão entre o seu dispositivo e o <strong>MOB 500 ANC<\/strong>.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_A7qJCA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40089_e8a49c44-48c8-47d6-9f53-fd07da3e2373.png",
+            "image_rotation_degrees": 1.5,
+            "external_video_url": "",
+            "subheading": "",
+            "title": "IPX4",
+            "html_heading_tag": "p",
+            "content": "<p>Resistente à água, o <strong>MOB 500 ANC<\/strong> te dá liberdade para escolher a melhor <em>playlist<\/em> e viver todas suas experiências no máximo, sem medo de se molhar.<\/p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_NexVCw",
+        "item_A7qJCA"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "image_with_text_overlay_gTkAGB": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Frame_40064_86e31b97-fc66-48d4-a89a-ac8552166524.png",
+        "mobile_image": "shopify:\/\/shop_images\/Frame_40063_26528a54-d6aa-4248-ad51-cb7792e4b0a7.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_4XpEXw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_fFGTgi": {
+          "type": "heading",
+          "settings": {
+            "text": "Respeita Seu Jogo",
+            "heading_tag": "h1",
+            "html_tag": "p",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fFGTgi"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_RjfyRh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nipGYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40087.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/Frame_40092_791b4730-e01a-4bae-acb8-a01bce2af3f0.png",
+            "icon_width": 76,
+            "subheading": "",
+            "title": "Modo Gamer",
+            "heading_tag": "p",
+            "content": "<p>Utilize a experiência imersiva da baixa latência para virar o jogo ao seu favor. O fone de ouvido <strong>WAAW MOB 500 ANC<\/strong> é a vantagem ideal para você ouvir com nitidez e em tempo real cada detalhe da partida.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nipGYA"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "image_with_text_overlay_U3JDHB": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_rTbDTp": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_VBTdfJ": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h1",
+            "html_tag": "p"
+          }
+        },
+        "richtext_KKQYRt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A tecnologia <strong>True Wireless Stereo (TWS) <\/strong>permite usar um fone de cada vez no modo mono, enquanto o outro carrega.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rTbDTp",
+        "heading_VBTdfJ",
+        "richtext_KKQYRt"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 420px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/Frame_40093_9412abb0-474b-48c7-8408-ffc01209ede4.png",
+        "mobile_image": "shopify:\/\/shop_images\/Frame_40094_d55a07b7-1a9d-4ce3-9062-913d45853a65.png",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_grid_AiPm3C": {
+      "type": "media-grid",
+      "blocks": {
+        "image_ibwU4p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40067_5b5bfdbc-ff4f-4934-adfe-2029e20683f4.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zthnMC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40069_6e594e75-f3d6-42b7-80be-9ab1ad502315.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_R3FLEz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_40068_c07342f1-2667-4a3d-80e2-ec7097307a61.webp",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ibwU4p",
+        "image_zthnMC",
+        "image_R3FLEz"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
+      "type": "feature-chart",
+      "blocks": {
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Cor",
+            "heading_2": "Material",
+            "heading_3": "Impedância do Speaker (ohms)",
+            "heading_4": "Tamanho do Speaker (polegada)",
+            "heading_5": "Número de Tweeters",
+            "heading_6": "Número de Full Range",
+            "heading_7": "Resposta de Frequência (Hz)",
+            "heading_8": "Versão do Bluetooth",
+            "heading_9": "Tempo de reprodução de música (h)",
+            "heading_10": "Tempo de carregamento (h)",
+            "heading_11": "Bateria (mAh)",
+            "heading_12": "Tipo de Bateria",
+            "heading_13": "Índice de Proteção",
+            "heading_14": "Tipo de conexão do cabo de carregamento",
+            "heading_15": "Perfis bluetooth",
+            "heading_16": "Alcance máximo do Bluetooth (m)",
+            "heading_17": "Desligamento Automático",
+            "heading_18": "Certificado ANATEL",
+            "heading_19": "Potência de Saída (W) (RMS)",
+            "heading_20": "Controle com botões",
+            "heading_21": "Microfone integrado",
+            "heading_22": "Acompanha cabo P2 (m)",
+            "heading_23": "Conectividade APP",
+            "heading_24": "Entrada cabo de áudio 3,5 mm",
+            "heading_25": "Entrada para cartão SD",
+            "heading_26": "Rádio FM",
+            "heading_27": "Iluminação em LED",
+            "heading_28": "Reforço de Grave",
+            "heading_29": "Número de canais de som",
+            "heading_30": "Configuração do driver",
+            "heading_31": "Entrada para microfone (Quant. e mm)",
+            "heading_32": "Entrada de guitarra (Quant. e mm)",
+            "heading_33": "Entrada USB",
+            "heading_34": "Entrada de áudio (Line In)",
+            "heading_35": "Saída de áudio (Line Out)",
+            "heading_36": "Fonte de alimentação",
+            "heading_37": "Dimensões do Produto Montado (CxLxA) (cm)",
+            "heading_38": "Peso Líquido Produto (g)",
+            "heading_39": "Dimensões da embalagem (CxLxA) (cm)",
+            "heading_40": "Peso bruto da Embalagem (g)"
+          }
+        },
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>Preto e Verde<\/p>",
+            "value_2": "<p>Polímeros e Metais<\/p>",
+            "value_3": "<p>32<\/p>",
+            "value_4": "<p>-<\/p>",
+            "value_5": "<p>0<\/p>",
+            "value_6": "<p>2 (1 por fone)<\/p>",
+            "value_7": "<p> 20Hz~20kHz<\/p>",
+            "value_8": "<p>5.3<\/p>",
+            "value_9": "<p>36 horas (1 carga da tomada + 5 cargas da case)<\/p>",
+            "value_10": "<p> 02:00h<\/p>",
+            "value_11": "<p>Case: 500mAh \/ Produto: 40mAh<\/p>",
+            "value_12": "<p>Íons de Lítio<\/p>",
+            "value_13": "<p>IPX4<\/p>",
+            "value_14": "<p>USB-C<\/p>",
+            "value_15": "<p>A2DP \/ AVRCP \/ VDP \/ HFP \/ HSP<\/p>",
+            "value_16": "<p>10<\/p>",
+            "value_17": "<p>Após 5m<\/p>",
+            "value_18": "<p>Sim<\/p>",
+            "value_19": "<p>2m<\/p>",
+            "value_20": "<p>Não<\/p>",
+            "value_21": "<p>Sim<\/p>",
+            "value_22": "<p>Não<\/p>",
+            "value_23": "<p>Não<\/p>",
+            "value_24": "<p>Não<\/p>",
+            "value_25": "<p>Não<\/p>",
+            "value_26": "<p>Não<\/p>",
+            "value_27": "<p>Não<\/p>",
+            "value_28": "<p>Não<\/p>",
+            "value_29": "<p>1<\/p>",
+            "value_30": "<p>Unidirecional<\/p>",
+            "value_31": "<p>Não<\/p>",
+            "value_32": "<p>Não<\/p>",
+            "value_33": "<p>Não<\/p>",
+            "value_34": "<p>Não<\/p>",
+            "value_35": "<p>Não<\/p>",
+            "value_36": "<p>5V~2A<\/p>",
+            "value_37": "<p>3,7 x 6,9 x 3,1 cm<\/p>",
+            "value_38": "<p>0,037 g<\/p>",
+            "value_39": "<p>10,4 x 5 x 11,8 cm<\/p>",
+            "value_40": "<p>193 g<\/p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0",
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "Descrição",
+        "title": "Para uma experiência sonora inteligente em qualquer atividade ou lugar ",
+        "content": "<p>Sinta-se livre e confiante para ouvir sua playlist com uma conexão rápida e estável a todo momento. Além de proporcionar até 36 horas* de reprodução sem parar, a tecnologia de cancelamento de ruído ativo do <strong>WAAW EARPHONE BLUETOOTH NOISE CANCELLING MOB 500 ANC <\/strong>reduz o som externo, para uma experiência de imersão completa. <\/p><p>O poder está na ponta dos seus dedos! Controle todas as funções do fone de ouvido Bluetooth com o <strong>controle de toque inteligente<\/strong>. Resistente à água e ao suor, o índice de proteção <strong>IPX4 <\/strong>permite que ele te acompanhe desde longas reuniões até os exercícios mais intensos. <\/p><p>Dê um up na produtividade ao realizar chamadas, enviar mensagens ou controlar a reprodução de músicas com a rapidez do <strong>assistente de voz<\/strong>. Transforme sua rotina com experiências mais inteligentes. A tecnologia <strong>hands free<\/strong> do fone sem fio permite comandos simples, que te libertam para focar no que importa. <\/p><p>A vantagem que faltava para você assumir a liderança é o <strong>modo gamer<\/strong> do <strong>WAAW MOB 500 ANC<\/strong>. Com menor tempo de resposta para uma performance superior, o áudio é sincronizado com as ações do jogo, proporcionando imersão e precisão total. Para explorar todas as funções, a tecnologia <strong>WAAW PLUS<\/strong> (TWS) permite aproveitar o <strong>modo mono<\/strong> e usar um fone por vez. <\/p><p>Além de garantir som de alta qualidade em cada batida das suas canções, o <strong>Bluetooth V5.3<\/strong> do fone de ouvido promove uma conexão estável o tempo todo. Pronto para acompanhar sua rotina, o <strong>MOB 500 ANC<\/strong> conta com até 6 horas de duração da bateria nos fones de ouvido e até 30 horas na case, garantindo áudio o dia todo. <\/p><p>O match perfeito entre tecnologia, conforto e desempenho para o seu dia a dia! Experimente a liberdade dos controles intuitivos e inteligentes do <strong>WAAW EARPHONE BLUETOOTH NOISE CANCELLING MOB 500 ANC<\/strong> e sinta cada batida como nunca. <\/p><p>WAAW | Respeita Sua Batida. <\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 15,
+        "subheading_specification": "Especificação técnica",
+        "title_specification": "",
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
+        "view_product": "Ver",
+        "viewing_product": "",
+        "show_product_swatch": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "multiple_images_with_text_hRULMr": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_jGtggq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7899831332786-MOB-500-02-2.png",
+            "image_rotation_degrees": -2,
+            "external_video_url": "",
+            "subheading": "",
+            "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "p",
+            "content": "<p>Descubra o ápice da liberdade sonora com o <strong>WAAW MOB 500 ANC<\/strong> Bluetooth! Deixe para trás os fios e embarque em uma jornada sonora sem fronteiras. Acesso nosso Manual e obtenha dicas sobre o <strong>WAAW MOB 500 ANC<\/strong>, o fone que redefine a forma como você ouve. Faça cada nota musical se tornar um momento épico. Conecte-se agora e viva o futuro do som!<\/p>",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/MOB-500ANC\/MOB-500-ANC-Manual.pdf",
+            "button_text": "Baixe o manual de instruções"
+          }
+        }
+      },
+      "block_order": [
+        "item_jGtggq"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b": {
+      "type": "video",
+      "blocks": {
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1": {
+          "type": "play",
+          "settings": {}
+        },
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-play-1",
+        "template--15963751579823__a1e7ab5e-a6d1-48dd-86db-4785620cfb5b-heading-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "poster": "shopify:\/\/shop_images\/Mask_group_2_c389f08e-6eb9-4e6c-911a-316facc3123f.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_1_00bd3fe5-8937-4ff6-8ebb-0b8bcab9e183.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_75.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_af7e1c87-a7f0-4882-ab5c-644f35d613be.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "item_icon_width": 0.7,
+            "column_size": "4",
+            "title": "Microfone extra e destacável;",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "item_icon_width": 0.7,
+            "column_size": "4",
+            "title": "Jogos com áudio imersivo",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "item_icon_width": 0.7,
+            "column_size": "4",
+            "title": "Botão de volume deslizante, silenciamento de microfone e botão multifuncional ;",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_-_communication_at_electronic_email_mail_sign_symbol_icon_be2aa481-1990-4b69-8bbd-5cf59bcb8e9a.png",
+            "item_icon_width": 0.7,
+            "column_size": "4",
+            "title": "Compatível com diversos dispositivos",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1",
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2",
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
+        "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
+      ],
+      "disabled": true,
+      "settings": {
+        "multicolumn_carousel": true,
+        "full_width": false,
+        "stack_on_mobile": true,
+        "hide_on_mobile": false,
+        "side_margin": 40,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Sobre o item",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "newsletter_background_color": "",
+        "newsletter_text_color": ""
+      }
+    },
+    "bac92a01-ed39-4116-9357-048e21326ec5": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "John S.",
+            "title": "",
+            "content": "<p>Ótimo produto recomendo a todos interessados um som de altíssima qualidade<\/p>"
+          }
+        },
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "",
+            "content": "<p>Caixa de som de excelente qualidade! Super recomendo, um ótimo custo benefício, vale muito a pena! Amei! (;<\/p>"
+          }
+        },
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 3,
+            "author": "Joshua A.",
+            "title": "",
+            "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
+          }
+        },
+        "66faeab5-8f7c-48d6-8b40-35cf0d57941f": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0",
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2",
+        "66faeab5-8f7c-48d6-8b40-35cf0d57941f"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Avaliações recentes",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "rgba(0,0,0,0)",
+        "heading_gradient": "",
+        "testimonial_card_background": "#ececec",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
+    },
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
+      "type": "faq",
+      "blocks": {
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Ficou com alguma dúvida?",
+        "content": "<p>Não se preocupe! Estamos aqui para esclarecer todas as suas perguntas.<\/p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e1a8b69-7217-4431-9836-f7b25dc653ff",
+    "image_with_text_overlay_GKMMnr",
+    "media_with_text_cNpLDV",
+    "media_with_text_7NBmRM",
+    "impact_text_XLD77Q",
+    "rich_text_bYpW8e",
+    "image_with_text_overlay_etnngd",
+    "image_with_text_overlay_YNdgYj",
+    "media_with_text_KEHyik",
+    "multiple_images_with_text_bbnpgH",
+    "image_with_text_overlay_gTkAGB",
+    "rich_text_4XpEXw",
+    "media_with_text_RjfyRh",
+    "image_with_text_overlay_U3JDHB",
+    "media_grid_AiPm3C",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
+    "multiple_images_with_text_hRULMr",
+    "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
+    "1b036d2c-595c-4d06-84cf-493e1da4fceb",
+    "bac92a01-ed39-4116-9357-048e21326ec5",
+    "related-products",
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8"
+  ]
+}

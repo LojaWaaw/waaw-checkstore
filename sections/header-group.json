@@ -177,7 +177,7 @@
         "logo_mobile_max_width": 100,
         "menu": "menu-header-categoria-subcategoria-produtos",
         "sidebar_menu": "",
-        "secondary_menu": "",
+        "secondary_menu": "menu-top-bar",
         "menu_open_trigger": "click",
         "opening_from": "left",
         "layout": "logo_left_navigation_center",
@@ -196,6 +196,15 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "message_xg8mxN": {
+          "type": "message",
+          "settings": {
+            "title": "",
+            "text": "Compre sua WAAW by Alok de forma segura",
+            "cta": "Saiba mais",
+            "url": "https:\/\/blog.waaw.com.br\/compras-online\/"
+          }
+        },
         "message": {
           "type": "message",
           "settings": {
@@ -205,22 +214,24 @@
             "url": "shopify:\/\/pages\/cupons-e-descontos"
           }
         },
-        "6fe1c68e-21af-42e3-8a36-ea44512e7e6b": {
-          "type": "message",
-          "settings": {
-            "title": "Pix",
-            "text": "com 5% de desconto",
-            "cta": "",
-            "url": "#"
-          }
-        },
         "89491dac-e7d8-45c3-a28a-802bcb221fec": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "title": "Boleto",
             "text": "com 7% de desconto",
             "cta": "",
             "url": "#"
+          }
+        },
+        "message_yxz3mX": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "title": "Announcement",
+            "text": "Announce something here",
+            "cta": "Shop now",
+            "url": ""
           }
         },
         "ec68faa7-d375-4623-8fcb-b925fcaf7a27": {
@@ -234,9 +245,10 @@
         }
       },
       "block_order": [
+        "message_xg8mxN",
         "message",
-        "6fe1c68e-21af-42e3-8a36-ea44512e7e6b",
         "89491dac-e7d8-45c3-a28a-802bcb221fec",
+        "message_yxz3mX",
         "ec68faa7-d375-4623-8fcb-b925fcaf7a27"
       ],
       "settings": {

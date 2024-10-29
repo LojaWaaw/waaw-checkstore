@@ -229,6 +229,23 @@
           {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
         </div>
 
+      {% when 'heading' %}
+        {% if block.settings.text != blank %}
+          <div> 
+            {% if block.settings.bold %}
+              <strong>
+                <{{ block.settings.html_tag }} class="{{ block.settings.class }}">
+                    {{ block.settings.text }}
+                </{{ block.settings.html_tag }}>
+              </strong>
+            {% else %}
+                <{{ block.settings.html_tag }} class="{{ block.settings.class }}">
+                  {{ block.settings.text }}
+                </{{ block.settings.html_tag }}>
+            {% endif %}
+          </div>
+        {% endif %}
+
       {%- when 'text' -%}
         {%- if block.settings.text != blank -%}
           <div class="product-info__text{% if block.settings.highlight == true %} product-info__text--highlight{% endif %}" {{ block.shopify_attributes }}>

@@ -22,9 +22,9 @@
 
           {%- when 'heading' -%}
             {%- if block.settings.text != blank -%}
-              <p class="{{ block.settings.heading_tag }} " {{ block.shopify_attributes }}>
+              <{{ block.settings.html_tag }} class="{{ block.settings.heading_tag }} " {{ block.shopify_attributes }}>
                 {%- render 'styled-text', content: block.settings.text, text_color: block.settings.text_color, gradient: block.settings.gradient -%}
-              </p>
+              </{{ block.settings.html_tag }}>
             {%- endif -%}
 
           {%- when 'richtext' -%}
@@ -266,6 +266,43 @@
           ],
           "default": "h1"
         },
+        {
+          "type": "select",
+          "id": "html_tag",
+          "label": "Tag",
+          "options": [
+            {
+              "value": "p",
+              "label": "p"
+            },
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "p"
+        },
+        
         {
           "type": "color",
           "id": "text_color",
@@ -777,7 +814,8 @@
           "type": "heading",
           "settings": {
             "text": "Heading",
-            "heading_tag": "tw-text-h1"
+            "heading_tag": "tw-text-h1",
+            "html_tag": "p"
           }
         },
         {

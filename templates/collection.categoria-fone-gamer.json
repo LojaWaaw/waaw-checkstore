@@ -1,0 +1,180 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "image": "{{ collection.metafields.my_fields.collection_image_desktop.value }}",
+        "mobile_image": "{{ collection.metafields.my_fields.collection_image_mobile.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_pqp4xB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QXiH5V": {
+          "type": "heading",
+          "settings": {
+            "text": "Fones Gamer",
+            "heading_tag": "h1",
+            "html_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_QXiH5V"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a887f921-e48e-47c6-86d4-d285acff434d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti200.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti200.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "media_with_text_8gPPFG": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_UmaBEx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sub._Gamer_H2_-_O_que_e_modo_game_no_fone_de_ouvido.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "O que é o Modo Game no fone de ouvido?",
+            "heading_tag": "h2",
+            "content": "<p>O modo game no fone de ouvido é uma função projetada para otimizar a experiência de áudio durante os jogos. Ele ajusta o som para oferecer melhor clareza dos detalhes e maior precisão nos efeitos sonoros, como passos e tiros, ajudando a identificar a localização dos inimigos com mais facilidade.<\/p><p>Além disso, o modo game geralmente reduz a latência, o que minimiza o atraso entre o som e a ação no jogo, garantindo uma resposta rápida e sincronizada. <\/p><p>Na WAAW, nossos fones com modo game são feitos para elevar sua experiência de jogo, oferecendo um áudio imersivo e sem interrupções.<\/p>",
+            "link_text": "Saiba mais",
+            "link_url": "https:\/\/blog.waaw.com.br\/fone-de-ouvido-para-gamer\/",
+            "background": "#e0e621",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_W8T7Dq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sub._Gamer_H2_-_Qual_a_diferenca_de_um_fone_gamer_para_um_normal.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Qual a diferença de um fone gamer para um normal?",
+            "heading_tag": "h2",
+            "content": "<p>A principal diferença entre um fone gamer e um fone normal está nas características projetadas para melhorar a experiência de jogo. Fones gamer geralmente têm um áudio mais detalhado e preciso, com melhor definição dos efeitos sonoros e maior clareza para identificar a localização dos inimigos. Além disso, muitos modelos possuem microfones com cancelamento de ruído e funções de modo game para reduzir a latência e melhorar a comunicação durante o jogo.<\/p><p>Os fones normais, por outro lado, são projetados para um uso mais geral e não têm essas otimizações específicas para jogos. Eles podem oferecer boa qualidade de som, mas sem os ajustes especiais para uma experiência imersiva e de alta performance. <\/p><p>Na WAAW, você encontra fones gamer com tudo o que você precisa para dominar no jogo e aproveitar cada detalhe.<\/p>",
+            "link_text": "Confira",
+            "link_url": "https:\/\/blog.waaw.com.br\/como-escolher-fone-de-ouvido-gamer\/",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_UmaBEx",
+        "image_W8T7Dq"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_pqp4xB",
+    "a887f921-e48e-47c6-86d4-d285acff434d",
+    "main",
+    "media_with_text_8gPPFG"
+  ]
+}

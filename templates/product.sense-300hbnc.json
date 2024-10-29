@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_9mMG3r": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>Até 60 horas<\/strong> de reprodução;<\/li><li><strong>Cancelamento<\/strong> ativo de ruído;<\/li><li>Controle de <strong>toque inteligente<\/strong>;<\/li><li><strong>Bluetooth 5.0<\/strong> de conexão rápida;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
+            "text": "<ul><li><strong>Até 60 horas<\/strong> de reprodução;<\/li><li><strong>Cancelamento<\/strong> ativo de ruído;<\/li><li>Controle de <strong>toque inteligente<\/strong>;<\/li><li><strong>Bluetooth 5.0<\/strong> de conexão rápida;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
         "d4fbd277-86a4-4618-af8e-f5cd8433e2e8": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_9mMG3r",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "d4fbd277-86a4-4618-af8e-f5cd8433e2e8",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -172,7 +182,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Sense 300",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_34J8MC": {
@@ -208,6 +219,7 @@
           "settings": {
             "text": "Experiência de áudio imersiva e sem interrupções",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -215,7 +227,8 @@
         "richtext_CEMreL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Mergulhe em cada batida para que você ouça as canções como se seu coração estivesse nelas. Use o <strong>Headphone sem fio <\/strong>por horas de forma confortável, sem precisar recarregar, graças à sua bateria de longa duração. <\/p>"
+            "content": "<p>Mergulhe em cada batida para que você ouça as canções como se seu coração estivesse nelas. Use o <strong>Headphone sem fio <\/strong>por horas de forma confortável, sem precisar recarregar, graças à sua bateria de longa duração. <\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -247,6 +260,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Noise Cancelling",
+            "heading_tag": "h2",
             "content": "<p>A tecnologia oferece uma experiência de áudio envolvente e sem distrações. Com o cancelamento ativo de ruído, ela reduz eficientemente os sons externos, utilizando os próprios microfones para emitir uma frequência contrária ao ruído, proporcionando um ambiente mais tranquilo e imersivo.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -270,6 +284,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Modo Ambiente",
+            "heading_tag": "h2",
             "content": "<p>Explore o mundo ao seu redor como o Modo Ambiente, que permite ouvir o ambiente externo enquanto você escuta músicas, podcasts, chamadas ou conversas.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -299,6 +314,7 @@
           "settings": {
             "text": "Crie seu próprio espaço de concentração, seja no trabalho, durante exercícios ou nos momentos de relaxamento.",
             "heading_tag": "h2",
+            "html_tag": "p",
             "text_color": "",
             "gradient": ""
           }
@@ -430,6 +446,7 @@
           "settings": {
             "text": "De muita música",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -437,13 +454,15 @@
         "richtext_qmFfp8": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Desconecte o cancelamento de ruído do <strong>SENSE 300<\/strong> e experimente uma experiência musical de imersão completa por até 60 horas de reprodução.<\/p><p>Ao acionar a tecnologia, o <strong>fone de ouvido Bluetooth<\/strong> proporciona até 50 horas de autonomia, para você aproveitar suas canções favoritas por mais tempo. <\/p>"
+            "content": "<p>Desconecte o cancelamento de ruído do <strong>SENSE 300<\/strong> e experimente uma experiência musical de imersão completa por até 60 horas de reprodução.<\/p><p>Ao acionar a tecnologia, o <strong>fone de ouvido Bluetooth<\/strong> proporciona até 50 horas de autonomia, para você aproveitar suas canções favoritas por mais tempo. <\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_VqXTyr": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -476,6 +495,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Bluetooth 5.0",
+            "heading_tag": "h2",
             "content": "<p>A tecnologia oferece uma conexão estável e maior alcance. Ouça suas músicas sem interrupções, quando quiser.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -503,7 +523,8 @@
           "type": "heading",
           "settings": {
             "text": "Over Ear",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_afPPr7": {
@@ -545,6 +566,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_442ad0cf-e624-4c4a-9a5a-760740259cb5.png",
             "icon_width": 56,
             "title": "Controle Touch",
+            "html_heading_tag": "h2",
             "content": "<p>Troque músicas, atenda chamadas e alterne entre Cancelamento de Ruído e Modo Ambiente com facilidade utilizando o touch pad direito. <\/p>"
           }
         },
@@ -556,6 +578,7 @@
             "custom_icon": "shopify:\/\/shop_images\/11.Banner-html-sense-200_1359d97b-a174-4895-996c-9f753e42702d.png",
             "icon_width": 56,
             "title": "Praticidade",
+            "html_heading_tag": "h2",
             "content": "<p>O <strong>fone de ouvido Bluetooth by Alok <\/strong>permite que você acesse as funcionalidades do seu smartphone sem interrupções, por meio de simples comandos de voz.<\/p><p>Compatível com os principais assistentes de voz, sua rotina agora é mais inteligente e intuitiva.<\/p>"
           }
         },
@@ -567,6 +590,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_28eb67f8-9fd7-4eab-9c58-999ab2785996.png",
             "icon_width": 56,
             "title": "Design Dobrável",
+            "html_heading_tag": "h2",
             "content": "<p>As conchas articuláveis e o design dobrável fazem do <strong>SENSE 300<\/strong> o parceiro perfeito para quem está sempre em movimento. Leve sua playlist para onde for! Guarde o headphone em bolsas e mochilas com praticidade e estilo. <\/p>"
           }
         }
@@ -1036,6 +1060,7 @@
             "external_video_url": "https:\/\/youtu.be\/g5RH-pfhK_M",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Explore uma dimensão sensorial inédita com o Fone de Ouvido WAAW SENSE 300. Sinta cada nota de forma única, mergulhando completamente na experiência sonora. Consulte o Manual de Instruções para explorar suas funcionalidades. Assista ao vídeo informativo e clique agora para vivenciar a verdadeira essência sonora!<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/SENSE-300HBNC\/SENSE-300HBNC-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

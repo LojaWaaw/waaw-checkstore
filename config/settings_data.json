@@ -39,9 +39,40 @@
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 199,
     "favicon": "shopify:\/\/shop_images\/02.Flavicon-waaw.png",
+    "enable-streamshop": false,
+    "html-streamshop": "<script id=\"streamshop-widget-script\">\n  var streamShopOptions = {\n  \"live\": \"https:\/\/live.waaw.com.br\/waaw-by-alok\/loja\",\n  \"bg\": \"https:\/\/files.streamshop.com.br\/7140a9ce-532d-41ed-a630-fb44afc810ea\/9818b6ef-ee7c-430b-8933-06a2b1bb5281.png\",\n  \"positionX\": \"left\",\n  \"positionY\": \"bottom\",\n  \"spacingPositionX\": 17,\n  \"spacingPositionY\": 63,\n  \"height\": 115,\n  \"width\": 115,\n  \"animation\": true,\n  \"borderRadius\": 21,\n  \"video\": {\n    \"enable\": false,\n    \"url\": \"\"\n  },\n  \"onHover\": {\n    \"enable\": false,\n    \"height\": 170,\n    \"width\": 170\n  },\n  \"wizard\": {\n    \"addWidget\": true,\n    \"addStreamAds\": false,\n    \"streamAdsFormat\": 1,\n    \"embedSelectedFormat\": 1,\n    \"previewSelected\": 1,\n    \"liveVideoUrl\": \"\",\n    \"endedWizard\": true\n  },\n  \"redirectFromProduct\": false\n};\n\n  \/\/ Core Script (do not touch)\n  (function (i, s, o, g, r, a, m) {\n    var p = new Promise(function(rs){return rs();});\n    a = s.createElement(o);\n    m = s.getElementsByTagName(o)[0];\n    a.async = 1;\n    a.src = g;\n    a.onload = function(){return p.then(function(){return ss(streamShopOptions);});};\n    m.parentNode.insertBefore(a, m);\n  })(window, document, 'script', 'https:\/\/assets.streamshop.com.br\/sdk\/liveshop-web-sdk.min.js');\n<\/script>",
     "checkout_logo_image": "shopify:\/\/shop_images\/e_logo_header.png",
     "checkout_accent_color": "#e0e621",
     "checkout_button_color": "#1a1a1a",
+    "sections": {
+      "new-annoucement": {
+        "type": "new-annoucement",
+        "blocks": {
+          "message_37G47W": {
+            "type": "message",
+            "disabled": true,
+            "settings": {
+              "title": "Atenção! Informamos que devido às fortes chuvas no Rio Grande do Sul, o tempo de entrega de pedidos destinados à região podem ser afetados.",
+              "text": "",
+              "cta": "",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "message_37G47W"
+        ],
+        "settings": {
+          "enable_sticky": false,
+          "text_size": "text-xxs",
+          "navigation_mode": "arrows",
+          "scrolling_speed": 20,
+          "background": "#dedede",
+          "background_gradient": "",
+          "text_color": "#1a1a1a"
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "2102808784413787648": {

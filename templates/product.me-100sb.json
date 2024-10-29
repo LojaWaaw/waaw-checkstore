@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_FwKwJe": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>5W de Potência!<\/strong><\/li><li><strong>12 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Classificação <strong>IPX6 resistente a água;<\/strong><\/li><li><strong>Bluetooth 5.0<\/strong> e entrada para cartão de memória (<strong>MICRO SD<\/strong>);<\/li><li>Prática, compacta e portátil;<\/li><li><strong>SKIN WAAW<\/strong> toque emborrachado.<\/li><\/ul>"
+            "text": "<ul><li><strong>5W de Potência!<\/strong><\/li><li><strong>12 horas<\/strong> de reprodução;<\/li><li><strong>HANDS FREE<\/strong> chamadas em viva-voz;<\/li><li><strong>WAAW PLUS<\/strong> tecnologia TWS;<\/li><li>Classificação <strong>IPX6 resistente a água;<\/strong><\/li><li><strong>Bluetooth 5.0<\/strong> e entrada para cartão de memória (<strong>MICRO SD<\/strong>);<\/li><li>Prática, compacta e portátil;<\/li><li><strong>SKIN WAAW<\/strong> toque emborrachado.<\/li><\/ul>"
           }
         },
         "df4a0465-e774-486e-b373-fabb415afecb": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_FwKwJe",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "df4a0465-e774-486e-b373-fabb415afecb",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -159,7 +169,7 @@
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/www.youtube.com\/watch?v=rjw2BrSo4yU",
-        "poster": "shopify:\/\/shop_images\/15.Html-me-100.jpg",
+        "poster": "shopify:\/\/shop_images\/VERAO-ME-100SB_04.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -172,7 +182,8 @@
           "type": "heading",
           "settings": {
             "text": "Caixa de Som Me 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_WVLC4A": {
@@ -219,6 +230,7 @@
           "settings": {
             "text": "Sua música favorita, ainda mais sua.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -226,13 +238,15 @@
         "richtext_iwegPJ": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SEU MOMENTO<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SEU MOMENTO<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_eaWa3h": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Conecte-se às suas músicas favoritas usando o smartphone ou notebook. A caixa de som portátil <strong>ME 100 WAAW<\/strong> está sempre ao seu lado, pronta para tornar cada momento do seu dia único.<\/p>"
+            "content": "<p>Conecte-se às suas músicas favoritas usando o smartphone ou notebook. A caixa de som portátil <strong>ME 100 WAAW<\/strong> está sempre ao seu lado, pronta para tornar cada momento do seu dia único.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -367,6 +381,7 @@
           "settings": {
             "text": "Reproduza seus áudios sem preocupação",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -374,13 +389,15 @@
         "richtext_etCzXy": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Em apenas uma recarga, você pode aproveitar até 12 horas das suas playlists à vontade.<\/p>"
+            "content": "<p>Em apenas uma recarga, você pode aproveitar até 12 horas das suas playlists à vontade.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_3EcA4z": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -405,7 +422,8 @@
           "type": "heading",
           "settings": {
             "text": "Tecnologia TWS",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_PDwhgN": {
@@ -447,6 +465,7 @@
             "custom_icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_83fac2cb-ba8b-4fc1-a970-099f39f1cf5d.png",
             "icon_width": 48,
             "title": "Conectividade",
+            "html_heading_tag": "h2",
             "content": "<p>Escute suas músicas preferidas via Bluetooth 5.0 usando seu smartphone, tablet, computador ou através do cartão de memória (micro SD).<\/p><p>*Cartão de memória não incluso<\/p>"
           }
         },
@@ -458,6 +477,7 @@
             "custom_icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_5567af64-fcb6-447c-96eb-6af9ffbf3e54.png",
             "icon_width": 56,
             "title": "Hands Free",
+            "html_heading_tag": "h2",
             "content": "<p>Com apenas um toque, atenda ou encerre chamadas e tenha mãos livres enquanto conversa.<\/p>"
           }
         }
@@ -486,7 +506,8 @@
           "type": "heading",
           "settings": {
             "text": "Proteção IPX6",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_4knAV6": {
@@ -819,6 +840,7 @@
             "external_video_url": "https:\/\/youtu.be\/yTtnT300mAo",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Descubra a melhor experiência sonora com a Caixa de Som ME 100SB! Quer aproveitar ao máximo todas as funcionalidades? Não perca tempo! Veja nosso Manual de Instruções e além disso, assista ao Vídeo Informativo para dicas pro e mergulhe na qualidade do som ME 100SB. Sinta cada batida, faça cada nota valer a pena. Acesse agora!<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/ME-100SB\/ME-100SB-MANUAL.pdf",
             "button_text": "Baixe o manual de instruções"
