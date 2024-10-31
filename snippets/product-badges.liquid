@@ -16,13 +16,12 @@ Supported variables
 * class: an extra class added on the container
 {%- endcomment -%}
 
-{%- assign badge_types = types | default: 'custom, sold_out, discount' | split: ',' -%}
+{%- assign badge_types = types | default: 'custom, sold_out, discount, etiquetas' | split: ',' -%}
 {%- assign variant = product.selected_or_first_available_variant -%}
 
 {%- capture badges -%}
   {%- for badge_type in badge_types -%}
     {%- assign stripped_badge_type = badge_type | strip -%}
-
     {%- case stripped_badge_type -%}
       {%- when 'custom' -%}
         {%- assign custom_badges = product.metafields.custom.badges.value | sort -%}
@@ -68,12 +67,34 @@ Supported variables
             </on-sale-badge>
           {%- endif -%}
         {%- endif -%}
+
+        {%- when 'etiquetas' -%}
+          {%- assign etiquetas = product.metafields.custom.etiquetas.value -%}
+          <div class="badge--custom">
+            {%- for etiqueta in etiquetas -%}
+              {% if etiqueta.imagem != blank %}
+                <div class="badge">
+                  <img 
+                    src="{{ etiqueta.imagem.value | image_url}}"
+                    alt="{{ etiqueta.texto }}"
+                    width="fit-content"  
+                    height="fit-content"
+                    class="badge--custom__image"
+                  >
+                </div>
+                {% else  %}
+                <span class="badge" style="background-color: {{ etiqueta.cor_de_fundo }}; color: {{ etiqueta.cor_do_texto }};">
+                  {{ etiqueta.texto | strip }}
+                </span>
+                {% endif %}
+            {%- endfor -%}
+          </div>
     {%- endcase -%}
   {%- endfor -%}
 {%- endcapture -%}
 
 {%- if badges != blank -%}
-  <div class="{{ class }}" {{ block.shopify_attributes }}>
+  <div class="{{ class }} {% if badges != blank %} {{settings.custom_badge_position }} {% if settings.custom_badge_position contains 'right' %} right-align {% endif %}{% endif %}" {{ block.shopify_attributes }}>
     {{- badges -}}
   </div>
 {%- endif -%}

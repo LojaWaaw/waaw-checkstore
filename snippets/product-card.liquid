@@ -48,16 +48,7 @@ Supported variables
 {%- endif -%}
 
 <product-card handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}>
-  {%- comment -%}
-  --------------------------------------------------------------------------------------------------------------------
-  PRODUCT BADGES
-  --------------------------------------------------------------------------------------------------------------------
-  {%- endcomment -%}
-
-  {%- if show_badges and product.media.size > 0 -%}
-    {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
-  {%- endif -%}
-
+  
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT MEDIA
@@ -66,6 +57,16 @@ Supported variables
 
   {%- if product.media.size > 0 -%}
     <div class="product-card__figure">
+      {%- comment -%}
+      --------------------------------------------------------------------------------------------------------------------
+      PRODUCT BADGES
+      --------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- if show_badges and product.media.size > 0 -%} 
+        {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+      {%- endif -%}
+
       <a href="{{ product.url }}" data-instant class="link-product-card">
         {%- capture sizes -%}
           {%- if stacked -%}

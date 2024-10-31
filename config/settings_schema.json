@@ -676,6 +676,30 @@
       },
       {
         "type": "select",
+        "id": "custom_badge_position",
+        "options": [
+          {
+            "value": "bottom-left",
+            "label": "Bottom Left"
+          },
+          {
+            "value": "bottom-right",
+            "label": "Bottom Right"
+          },
+          {
+            "value": "top-left",
+            "label": "Top Left"
+          },
+          {
+            "value": "top-right",
+            "label": "Top Right"
+          }
+        ],
+        "default": "top-left",
+        "label": "Custom Badge Positions"
+      },
+      {
+        "type": "select",
         "id": "product_color_display",
         "label": "Color display mode",
         "info": "Variant images are hidden on mobile and small screens.",

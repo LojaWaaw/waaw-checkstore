@@ -1433,6 +1433,16 @@ scroll-carousel {
   --badge-color: var(--text-color);
 }
 
+.badge--custom {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.badge--custom__image {
+  max-height: 30px; 
+  max-width: 30px;
+}
 .badge--lg {
   padding: var(--spacing-1) var(--spacing-3);
   font-size: var(--text-sm);
@@ -2861,12 +2871,43 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
   top: var(--product-card-badge-spacing);
 }
 
-.product-card__badge-list:not(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+.product-card__badge-list:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
+  right: var(--product-card-badge-spacing);
+}
+
+.top-left {
+  position: absolute;
+  bottom: initial;
+  right: initial;
+  top: var(--product-card-badge-spacing);
   left: var(--product-card-badge-spacing);
 }
 
-.product-card__badge-list:is(:lang(ae), :lang(ar), :lang(arc), :lang(bcc), :lang(bqi), :lang(ckb), :lang(dv), :lang(fa), :lang(glk), :lang(he), :lang(ku), :lang(mzn), :lang(nqo), :lang(pnb), :lang(ps), :lang(sd), :lang(ug), :lang(ur), :lang(yi)) {
-  right: var(--product-card-badge-spacing);
+.top-right {
+  position: absolute;
+  bottom: initial;
+  left: initial;
+  top: var(--spacing-2);
+  right: var(--spacing-2);
+}
+
+.bottom-left {
+  bottom: var(--spacing-2);
+  left: var(--spacing-2);
+  top: initial;
+  right: initial;
+  position: absolute;
+}
+.bottom-right {  
+  position: absolute;
+  right: var(--spacing-2);
+  bottom: var(--spacing-2);
+  top: initial;
+  left: initial;
+}
+
+.right-align .badge{
+  align-self: flex-end;
 }
 
 .product-card__image {
