@@ -7939,6 +7939,14 @@ split-lines {
   --product-info-block-spacing: var(--spacing-4);
 }
 
+.static {
+  position: static;
+}
+
+.static .badge--custom {
+  flex-direction: row;
+}
+
 .product-info__sku {
   display: block;
   opacity: .6;
