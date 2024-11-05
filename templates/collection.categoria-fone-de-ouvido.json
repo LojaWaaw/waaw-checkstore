@@ -22,6 +22,40 @@
         "overlay_opacity": 30
       }
     },
+    "rich_text_rtf7jA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LUrD8X": {
+          "type": "heading",
+          "settings": {
+            "text": "Fones de Ouvido",
+            "heading_tag": "h1",
+            "html_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_xQcG8X": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Explore o som que te acompanha em todos os momentos com os fones de ouvido da WAAW. De designs modernos e confortáveis a uma qualidade de áudio que faz a trilha sonora da sua vida soar ainda melhor. Seja para curtir suas músicas preferidas, se concentrar no trabalho ou dar aquele gás no treino, nossos fones de ouvido oferecem a combinação perfeita de estilo, tecnologia e desempenho. Na WAAW, o som é tão único quanto você.<\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_LUrD8X",
+        "richtext_xQcG8X"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "a887f921-e48e-47c6-86d4-d285acff434d": {
       "type": "slideshow",
       "blocks": {
@@ -90,7 +124,8 @@
           "type": "heading",
           "settings": {
             "text": "Qual é o fone de ouvido que o Alok usa?",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "h2"
           }
         },
         "richtext_gkqgfV": {
@@ -117,7 +152,7 @@
         "button_DeMh7w"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -141,6 +176,7 @@
           "settings": {
             "text": "Diferenças entre fone de ouvido e headset",
             "heading_tag": "h1",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -148,7 +184,8 @@
         "richtext_z7JpeQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Todo headset é um fone de ouvido, mas nem todo fone de ouvido é um headset. O headset tem como característica principal o microfone externo em formato de arco. Nem todo fone de ouvido possui microfone e, quando tem, pode ser interno.<\/p><p>Veja neste post mais informações e saiba todas as diferenças entre fone de ouvido e headset.<\/p>"
+            "content": "<p>Todo headset é um fone de ouvido, mas nem todo fone de ouvido é um headset. O headset tem como característica principal o microfone externo em formato de arco. Nem todo fone de ouvido possui microfone e, quando tem, pode ser interno.<\/p><p>Veja neste post mais informações e saiba todas as diferenças entre fone de ouvido e headset.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "button_mdBdWr": {
@@ -191,6 +228,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Quais são os tipos de fones de ouvido?",
+            "heading_tag": "h2",
             "content": "<p>Existem vários tipos de fone de ouvido com diferentes características e funcionalidades.<\/p><p> Dentre as variedades, podemos encontrar fones de ouvido sem fio, com fio, dobráveis, intra auriculares, com microfone ou estilo headphone.<\/p><p>Diante de tantas opções, como escolher o melhor fone de ouvido?<\/p>",
             "link_text": "Entenda",
             "link_url": "https:\/\/blog.waaw.com.br\/tipos-de-fone-de-ouvido\/",
@@ -212,7 +250,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Qual fone tem cancelamento de ruído?",
+            "title": "Melhor fone com cancelamento de ruído",
+            "heading_tag": "h2",
             "content": "<p>Um headphone com cancelamento de ruído é um tipo de fone de ouvido que possui tecnologia para bloquear os sons externos. Assim, você consegue escutar o áudio do fone com detalhes e muita qualidade.<\/p><p>O fone bluetooth WAAW SENSE 300 possui essa tecnologia de cancelamento ativo de ruído. O modelo é um headphone over-ear e totalmente sem fios. O que garante praticidade e liberdade de movimento.<\/p>",
             "link_text": "Confira no blog",
             "link_url": "https:\/\/blog.waaw.com.br\/headphone-com-cancelamento-de-ruido\/",
@@ -246,7 +285,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -260,7 +299,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -274,7 +313,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -288,7 +327,7 @@
             "link_text": "",
             "link_url": "",
             "background": "",
-            "title_color": "#E0E621",
+            "title_color": "#e0e621",
             "text_color": "#ffffff",
             "overlay_color": ""
           }
@@ -323,8 +362,9 @@
         "heading_6wpmYg": {
           "type": "heading",
           "settings": {
-            "text": "Qual o melhor fone de ouvido para jogar?",
+            "text": "Qual o melhor fone gamer?",
             "heading_tag": "h1",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -332,7 +372,8 @@
         "richtext_WaMMXX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Um bom fone de ouvido para jogar possui algumas características básicas, precisa ser confortável para garantir longas horas de jogo. Além disso, é importante entregar qualidade sonora.<\/p><p>Confira o melhor fone de ouvido para jogos em nosso post!<\/p>"
+            "content": "<p>Um bom fone de ouvido para jogar possui algumas características básicas, precisa ser confortável para garantir longas horas de jogo. Além disso, é importante entregar qualidade sonora.<\/p><p>Confira o melhor fone de ouvido para jogos em nosso post!<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "button_aF3Vnq": {
@@ -368,7 +409,8 @@
           "type": "heading",
           "settings": {
             "text": "Qual é o melhor fone de ouvido sem fio?",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "h2"
           }
         },
         "richtext_rd7UTU": {
@@ -395,7 +437,7 @@
         "button_dfeXGH"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -417,17 +459,18 @@
         "image_abXmXe": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/12.Html-categoria-fone-de-ouvido_23b2b05d-a7f4-437a-8545-6955adb4d2df.png",
+            "image": "shopify:\/\/shop_images\/Cat._H2_-_Qual_melhor_fone_de_ouvido_para_malhar.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Headphone com ou sem fio? Qual é o melhor?",
-            "content": "<p>Se quer um fone que aguente uma longa jornada diária, talvez seja melhor optar por um headphone com fio. Agora, se busca por praticidade e liberdade de movimento, o headphone bluetooth pode ser uma boa opção. Confira nossas dicas especiais.<\/p>",
+            "title": "Qual melhor fone de ouvido para malhar?",
+            "heading_tag": "h2",
+            "content": "<p>Um bom fone para malhar precisa ser leve, resistente ao suor e possuir boa fixação durante todo o seu treino. Assim, você pode se concentrar nos exercícios e na sua playlist preferida sem preocupações. <\/p><p>O fone de ouvido Bluetooth WAAW Move 100 é a escolha ideal para te acompanhar nos treinos. Ele possui design ergonômico e confortável, resistência ao suor e é feito para aguentar os treinos mais intensos. Além disso, a qualidade de som vai te manter motivado do começo ao fim.<\/p>",
             "link_text": "Saiba mais",
-            "link_url": "https:\/\/blog.waaw.com.br\/headphone-com-ou-sem-fio\/",
+            "link_url": "https:\/\/blog.waaw.com.br\/fone-de-ouvido-para-academia\/",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
@@ -453,6 +496,7 @@
           "settings": {
             "text": "Se a vida é música, seu coração é que dita o ritmo.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -460,13 +504,15 @@
         "richtext_pi9aQc": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA A SUA BATIDA<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA A SUA BATIDA<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_PgiqB4": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Fones de Ouvido do DJ brasileiro mais ouvido no mundo.<\/p>"
+            "content": "<p>Fones de Ouvido do DJ brasileiro mais ouvido no mundo.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -487,6 +533,7 @@
   },
   "order": [
     "banner",
+    "rich_text_rtf7jA",
     "a887f921-e48e-47c6-86d4-d285acff434d",
     "main",
     "image_with_text_overlay_fFfVHc",

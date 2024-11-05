@@ -18,6 +18,7 @@
         {%- endif -%}
 
       {%- when 'title' -%}
+        {%- render 'product-badges', types: 'etiquetas', product: product, form_id: product_form_id, class: 'product-info__badge-list product-info__badge-list static' -%}
         {%- if request.page_type == 'product' -%}
           <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }}</h1>
         {%- else -%}
@@ -25,9 +26,6 @@
             <a href="{{ product.url }}">{{ product.title }}</a>
           </h2>
         {%- endif -%}
-
-      {%- when 'badges' -%}
-        {%- render 'product-badges', product: product, types: 'custom', form_id: product_form_id, class: 'product-info__badge-list', block: block -%}
 
       {%- when 'sku' -%}
         <variant-sku form="{{ product_form_id }}" class="product-info__sku text-xs text-subdued" {% if product.selected_or_first_available_variant.sku == blank %}hidden{% endif %} {{ block.shopify_attributes }}>
@@ -38,7 +36,7 @@
         <div class="product-info__price">
           <div class="rating-with-text">
             {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
-            {%- render 'product-badges', types: 'sold_out, discount', product: product, form_id: product_form_id, class: 'product-info__badge-list' -%}
+            {%- render 'product-badges', types: 'discount, sold_out', product: product, form_id: product_form_id, class: 'product-info__badge-list product-info__badge-list static' -%}
 
             {%- comment -%}If the next block is a rating block, then we add it as part of this one to have it inline{%- endcomment -%}
             {%- if next_block.type == 'rating' -%}
@@ -228,6 +226,23 @@
         <div class="product-info__pickup-availability" {{ block.shopify_attributes }}>
           {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
         </div>
+
+      {% when 'heading' %}
+        {% if block.settings.text != blank %}
+          <div> 
+            {% if block.settings.bold %}
+              <strong>
+                <{{ block.settings.html_tag }} class="{{ block.settings.class }}">
+                    {{ block.settings.text }}
+                </{{ block.settings.html_tag }}>
+              </strong>
+            {% else %}
+                <{{ block.settings.html_tag }} class="{{ block.settings.class }}">
+                  {{ block.settings.text }}
+                </{{ block.settings.html_tag }}>
+            {% endif %}
+          </div>
+        {% endif %}
 
       {%- when 'text' -%}
         {%- if block.settings.text != blank -%}

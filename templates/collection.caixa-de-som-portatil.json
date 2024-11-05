@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "image": "{{ collection.metafields.my_fields.collection_image_desktop.value }}",
+        "mobile_image": "{{ collection.metafields.my_fields.collection_image_mobile.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_prf3mc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hKNMQB": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixas de Som Portátil",
+            "heading_tag": "h1",
+            "html_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "subheading_Anf7cW": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Deixe o som te levar com as caixas de som da WAAW. Quer agitar a festa, curtir um som relaxante em casa ou levar sua música para onde quiser? Nossas caixas de som combinam design estiloso, potência e tecnologia de ponta para transformar qualquer lugar em um show particular. Na WAAW, o som ganha vida, e cada batida te faz sentir a vibe como nunca antes. Conecte-se, aumente o volume e deixe a música fluir!"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hKNMQB",
+        "subheading_Anf7cW"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a887f921-e48e-47c6-86d4-d285acff434d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti200.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti200.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "media_with_text_PMnLG7": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_DM443Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7899831327249-HYPERBOOM-1000-12-1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Qual a melhor caixa de som portátil?",
+            "heading_tag": "h2",
+            "content": "<p>Se você precisa de uma caixa de som que te acompanhe em qualquer lugar, a Hyperboom 1000 é a escolha perfeita! Com até 12 horas de reprodução e Bluetooth V5.4, ela oferece som de alta qualidade sem fios. <\/p><p>Além disso, a classificação IPX7 garante resistência à água, ideal para aventuras ao ar livre. A alça de transporte facilita levar sua música para onde quiser, e a tecnologia TWS permite conectar duas caixas para um som estéreo incrível. Portabilidade e potência em um só dispositivo!<\/p>",
+            "link_text": "Confira",
+            "link_url": "shopify:\/\/products\/caixa-de-som-hyperboom-1000",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DM443Y"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_prf3mc",
+    "a887f921-e48e-47c6-86d4-d285acff434d",
+    "main",
+    "media_with_text_PMnLG7"
+  ]
+}

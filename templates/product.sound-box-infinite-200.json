@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_PqkjTx": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><p>Potência de <strong>160W RMS<\/strong>;<br\/>Bateria de até <strong>12 Horas<\/strong>;<br\/><strong>4 Alto-Falantes<\/strong> de Alta Qualidade;<br\/>Tecnologia <strong>TWS<\/strong>;<br\/><strong>Show de LEDS<\/strong>.<\/p>"
+            "text": "<p>Potência de <strong>160W RMS<\/strong>;<br\/>Bateria de até <strong>12 Horas<\/strong>;<br\/><strong>4 Alto-Falantes<\/strong> de Alta Qualidade;<br\/>Tecnologia <strong>TWS<\/strong>;<br\/><strong>Show de LEDS<\/strong>.<\/p>"
           }
         },
         "376c4e01-3658-45a6-9361-ef446e388ef9": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_PqkjTx",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "376c4e01-3658-45a6-9361-ef446e388ef9",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -137,7 +147,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=h1dWwOy0Ie4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=Z-K-0LIQHlo",
         "poster": "shopify:\/\/shop_images\/Sem_Titulo-1.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -157,7 +167,8 @@
           "type": "heading",
           "settings": {
             "text": "Caixa de Som Infinite 200",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "da87b555-d501-4f2a-9158-c05c3af09507": {
@@ -177,8 +188,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/03.Html-infinite-200_bf25f064-cd3d-41a4-aebd-4029f1585fdc.png",
-        "mobile_image": "shopify:\/\/shop_images\/04.Html-infinite-200_53e8e125-980e-4a66-9bb0-990d282b6afd.png",
+        "image": "shopify:\/\/shop_images\/infinite_200-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/infinite_200-mobile.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -194,6 +205,7 @@
           "settings": {
             "text": "Quem tá junto faz o momento. A música faz o resto.  ",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -233,7 +245,7 @@
         "template--16080146301103__daefdeb8-bd44-4850-a69f-e145d7c9d244-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/05.Html-infinite-200_5183aaa4-aa8a-4d39-92dd-de88a16432d3.png",
+            "image": "shopify:\/\/shop_images\/Frame_40061_81f84bb6-8621-471b-a40f-42c9482c08e3.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -242,6 +254,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "160W RMS de Potência",
+            "heading_tag": "h2",
             "content": "<p>Os alto-falantes da <strong>INFINITE 200<\/strong> são equipados com dois tweeters e dois full ranges potentes, proporcionando um som claro, de alta qualidade e batidas poderosas para o seu show.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -268,7 +281,7 @@
         "template--16080146301103__90cd5c80-0985-41d1-ab2a-348566eaa65e-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/06.Html-infinite-200_447c6ed1-d21a-4be5-8d63-eb7fd7fa78c1.png",
+            "image": "shopify:\/\/shop_images\/Frame_40070.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -277,6 +290,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Power Bass",
+            "heading_tag": "h2",
             "content": "<p>Sinta a potência dos graves nas suas músicas! Ao acionar o botão <strong>Power Bass <\/strong>da caixa de som, cada batida ganha vida, proporcionando uma experiência sonora envolvente, sem distorções.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -304,7 +318,8 @@
           "type": "heading",
           "settings": {
             "text": "WAAW Plus",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "template--16080146301103__c2cfafe9-66ce-4dda-8b6f-0dc486db32be-richtext-1": {
@@ -319,15 +334,15 @@
         "template--16080146301103__c2cfafe9-66ce-4dda-8b6f-0dc486db32be-richtext-1"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-left: 170px; margin-right: 170px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-left: 190px; margin-right: 190px; }}"
       ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/07.Html-infinite-200_654730e4-a8e5-4208-9492-c0ddae5aa939.png",
-        "mobile_image": "shopify:\/\/shop_images\/08.Html-infinite-200_5369ff65-c79a-4216-93df-64be4fa2d73a.png",
+        "image": "shopify:\/\/shop_images\/Frame_40065.png",
+        "mobile_image": "shopify:\/\/shop_images\/Frame_40066_9c2ca08c-e2f3-4b92-9005-e0c9ebc88e63.webp",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-start-center sm:text-center",
         "text_color": "#000000",
@@ -380,6 +395,7 @@
           "settings": {
             "text": "Aproveite suas músicas favoritas durante toda a festa",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -419,7 +435,7 @@
         "template--16080146301103__dfae439f-eb16-409f-910c-a33e6772032b-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/09.Html-infinite-200_5b7c9315-8841-44bf-9988-c0670a40a8ba.png",
+            "image": "shopify:\/\/shop_images\/Frame_40071.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -428,7 +444,8 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Conectividade",
-            "content": "<p>Explore a liberdade de conexão com a <strong>INFINITE 200 <\/strong>e curta suas músicas como nunca! Com Bluetooth 5.0, entrada para microfone e guitarra, USB, e entradas Line In e Line Out de 3,5 mm, você se conecta ao momento do jeito que quiser. <\/p>",
+            "heading_tag": "h2",
+            "content": "<p>Múltiplas possibilidades de conexão com a<strong> INFINITE 200<\/strong>, curta suas músicas como nunca!<br\/>Com <strong>Bluetooth 5.0<\/strong>, entrada <strong>P10 para microfone<\/strong> e outro <strong>P10 para guitarra<\/strong>, <strong>USB -A<\/strong> para pendrive, e<br\/>entrada e saída <strong>P2 de 3,5 mm, <\/strong>você se conecta ao momento do jeito que quiser. <\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -461,7 +478,8 @@
           "type": "heading",
           "settings": {
             "text": "Show de Luzes",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "template--16080146301103__c770dd8c-20e7-4d5d-aa1e-8c0dc60b9002-richtext-1": {
@@ -484,8 +502,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/10.Html-infinite-200_8f277ea5-b608-4d53-9e5c-87b2c24b4c3b.png",
-        "mobile_image": "shopify:\/\/shop_images\/11.Html-infinite-200_0cf11003-ae00-403a-8a09-c988616e288e.png",
+        "image": "shopify:\/\/shop_images\/Frame_40102_2bbc899e-71ac-4334-aee6-42a0fa90458a.webp",
+        "mobile_image": "shopify:\/\/shop_images\/Frame_40075.webp",
         "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -501,6 +519,7 @@
           "settings": {
             "text": "Transforme qualquer encontrinho de sexta na festa do século.",
             "heading_tag": "h2",
+            "html_tag": "p",
             "text_color": "",
             "gradient": ""
           }
@@ -532,7 +551,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE_200_-_02.png",
+            "image": "shopify:\/\/shop_images\/Frame_40067_ecbdd471-bb46-4aec-84a1-3c0b0e9ebe04.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -554,7 +573,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE_200_-_01.png",
+            "image": "shopify:\/\/shop_images\/Frame_40069_e4c20dbe-e65b-42c3-8107-27eba2d7ae0b.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -576,7 +595,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE_200_-_03.png",
+            "image": "shopify:\/\/shop_images\/Frame_40068_8c5ae442-5a11-4378-a0be-4a3b3c8d8992.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -654,8 +673,8 @@
             "heading_36": "Rádio FM",
             "heading_37": "Power Bank",
             "heading_38": "Garantia",
-            "heading_39": "",
-            "heading_40": ""
+            "heading_39": "Dimensões (CxLxA) e peso do produto",
+            "heading_40": "Dimensões (CxLxA) e peso da embalagem"
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -700,8 +719,8 @@
             "value_36": "<p>Não<\/p>",
             "value_37": "<p>Não<\/p>",
             "value_38": "<p>Produto: 1 Ano (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante).<br\/>Bateria: 6 Meses<\/p>",
-            "value_39": "",
-            "value_40": "",
+            "value_39": "<p>27 x 28,5 x 55,5 cm \/ 8,75kg<\/p>",
+            "value_40": "<p>36,8 x 33,6 x 63,8 cm \/ 10,05kg<\/p>",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -825,8 +844,9 @@
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "#",
+            "html_heading_tag": "p",
+            "content": "",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/INFINITE-200\/WAAW-INFINITE-200-Manual.pdf",
             "button_text": "Baixe o manual de instruções"
           }
         }
@@ -834,7 +854,6 @@
       "block_order": [
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "stacked",

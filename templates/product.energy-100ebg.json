@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_VdXhyn": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>13 horas <\/strong>de reprodução;<\/li><li>Modo gamer <strong>baixa latência;<\/strong><\/li><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li>Controle de <strong>toque inteligente;<\/strong><\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
+            "text": "<ul><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>13 horas <\/strong>de reprodução;<\/li><li>Modo gamer <strong>baixa latência;<\/strong><\/li><li>Compatível com <strong>assistentes de voz<\/strong>;<\/li><li>Controle de <strong>toque inteligente;<\/strong><\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
         "5605afb7-d5c9-409d-8240-fcf94d1e3847": {
@@ -100,6 +109,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_VdXhyn",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "5605afb7-d5c9-409d-8240-fcf94d1e3847",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -160,7 +170,7 @@
         "autoplay": false,
         "video_size": "auto",
         "external_video_url": "https:\/\/youtu.be\/OysW0Al-U-w",
-        "poster": "shopify:\/\/shop_images\/21.Html-energy-100.png",
+        "poster": "shopify:\/\/shop_images\/MODELO-ENERGY-100EBG-03.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -173,7 +183,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Energy 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_3iANnb": {
@@ -209,6 +220,7 @@
           "settings": {
             "text": "Nada é mais OP do que se divertir.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -216,13 +228,15 @@
         "richtext_pdEC9P": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SUA HABILIDADE<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SUA HABILIDADE<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_n8PDNx": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Entre no jogo com estilo! O fone gamer sem fio oferece uma experiência otimizada e design ergonômico para suas partidas, com som sincronizado, para que você jogue por horas sem interrupções.<\/p>"
+            "content": "<p>Entre no jogo com estilo! O fone gamer sem fio oferece uma experiência otimizada e design ergonômico para suas partidas, com som sincronizado, para que você jogue por horas sem interrupções.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -343,6 +357,7 @@
           "settings": {
             "text": "De músicas e jogos sem parar",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -350,13 +365,15 @@
         "richtext_9aQ8p7": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Sinta toda energia dos seus jogos favoritos com o <strong>ENERGY 100<\/strong>. A autonomia de 4 horas dos fones sem fio e 9 horas do case proporciona até 13 horas de imersão em todos os detalhes do game.<\/p>"
+            "content": "<p>Sinta toda energia dos seus jogos favoritos com o <strong>ENERGY 100<\/strong>. A autonomia de 4 horas dos fones sem fio e 9 horas do case proporciona até 13 horas de imersão em todos os detalhes do game.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_MxNFKC": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -382,7 +399,8 @@
           "type": "heading",
           "settings": {
             "text": "Modo Gamer",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_EzQLg3": {
@@ -427,6 +445,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "WAAW Plus",
+            "heading_tag": "h2",
             "content": "<p>A tecnologia TWS oferece uma comunicação sem atraso entre o dispositivo e o fone, garantindo uma jogabilidade precisa e suave em jogos em tempo real.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -458,6 +477,7 @@
             "custom_icon": "shopify:\/\/shop_images\/08.Banner-html-sense-200_e2c5aa02-f653-421f-8d14-5c393c4bae79.png",
             "icon_width": 56,
             "title": "Bluetooth 5.0",
+            "html_heading_tag": "h2",
             "content": "<p>Vá mais longe e mais rápido sem interrupções na sua playlist usando um fone gamer sem fio de alta qualidade.<\/p>"
           }
         },
@@ -469,6 +489,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_a7d4ce70-69cd-425e-ae1d-3878df158f69.png",
             "icon_width": 56,
             "title": "Controle Touch",
+            "html_heading_tag": "h2",
             "content": "<p>Controle total na ponta dos dedos! Atenda chamadas, controle músicas, ative o Modo Gamer e acione o assistente de voz do dispositivo com comandos rápidos direto no touch do <strong>ENERGY 100<\/strong>.<\/p>"
           }
         },
@@ -480,6 +501,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_65c64970-55be-450c-a47b-3e25036a7d70.png",
             "icon_width": 56,
             "title": "Conforto WAAW",
+            "html_heading_tag": "h2",
             "content": "<p>Seu design ergonômico possibilita horas de uso com conforto. Escolha entre três ear tips que se acomodam dentro de suas orelhas é dê o play. <\/p>"
           }
         }
@@ -509,7 +531,8 @@
           "type": "heading",
           "settings": {
             "text": "Proteção IPX4",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_xnkVmt": {
@@ -1036,6 +1059,7 @@
             "external_video_url": "https:\/\/youtu.be\/Vd1D8ia7QuI",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Eleve sua jornada nos games com o Fone de Ouvido Gamer Energy 100 WAAW. Descubra cada detalhe sonoro em uma imersão única. Detalhes no Manual e vídeo explicativo. Clique já e mergulhe na experiência auditiva definitiva!<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/ENERGY-100EBG\/ENERGY-100EBG-Manual-Rev.03.pdf",
             "button_text": "Baixe o manual de instruções"

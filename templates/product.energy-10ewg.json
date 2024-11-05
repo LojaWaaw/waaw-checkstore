@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_CQVyrW": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Microfone <strong>extra<\/strong> e destacável;<strong> <\/strong> <\/li><li>Jogos com áudio <strong>imersivo<\/strong> ; <\/li><li><strong>Botão<\/strong> de volume deslizante, <strong>silenciamento<\/strong> de microfone e botão <strong>multifuncional<\/strong> ;    <\/li><li><strong>Compatível<\/strong> com diversos dispositivos;   <\/li><li>Acompanha <strong>case de transporte<\/strong> ;  <\/li><li>Conector do cabo em ângulo de <strong>90°<\/strong> graus;  <\/li><li>Cabo que <strong>não entrelaçou<\/strong> ; <\/li><li>Ganchos <strong>auriculares<\/strong> que se ajustam ao <strong>formato interno<\/strong> do ouvido.  <\/li><\/ul>"
+            "text": "<ul><li>Microfone <strong>extra<\/strong> e destacável;<strong> <\/strong> <\/li><li>Jogos com áudio <strong>imersivo<\/strong> ; <\/li><li><strong>Botão<\/strong> de volume deslizante, <strong>silenciamento<\/strong> de microfone e botão <strong>multifuncional<\/strong> ;    <\/li><li><strong>Compatível<\/strong> com diversos dispositivos;   <\/li><li>Acompanha <strong>case de transporte<\/strong> ;  <\/li><li>Conector do cabo em ângulo de <strong>90°<\/strong> graus;  <\/li><li>Cabo que <strong>não entrelaçou<\/strong> ; <\/li><li>Ganchos <strong>auriculares<\/strong> que se ajustam ao <strong>formato interno<\/strong> do ouvido.  <\/li><\/ul>"
           }
         },
         "f3282900-095c-42d7-9347-dc71e86bdccb": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_CQVyrW",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "f3282900-095c-42d7-9347-dc71e86bdccb",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -173,7 +183,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Gamer Energy 10",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_pC8wJc": {
@@ -212,6 +223,7 @@
           "settings": {
             "text": "Você pode derrotar o chefão. Ou pode SER o chefão.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -219,13 +231,15 @@
         "richtext_dRtxfW": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SEU GAME<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SEU GAME<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_Wkdt7F": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Eleve sua experiência ao dar play com o <strong>fone de ouvido gamer Energy 10<\/strong>, que oferece a melhor experiência em longas sessões de jogo. Equipado com um microfone destacável, a comunicação com seus companheiros de equipe fica mais clara e eficaz.<\/p>"
+            "content": "<p>Eleve sua experiência ao dar play com o <strong>fone de ouvido gamer Energy 10<\/strong>, que oferece a melhor experiência em longas sessões de jogo. Equipado com um microfone destacável, a comunicação com seus companheiros de equipe fica mais clara e eficaz.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -250,7 +264,8 @@
           "type": "heading",
           "settings": {
             "text": "Microfone extra e destacável",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_pcfLjK": {
@@ -265,7 +280,7 @@
         "richtext_pcfLjK"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -296,6 +311,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Jogo com áudio imersivo",
+            "heading_tag": "h2",
             "content": "<p>Possui drivers dinâmicos de 10 mm que oferecem graves, médios e agudos claros para uma experiência sonora completa.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -319,6 +335,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Controle total em suas mãos",
+            "heading_tag": "h2",
             "content": "<p>Tudo fica muito simples com um botão de volume deslizante, silenciamento de microfone e um botão multifuncional.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -347,7 +364,8 @@
           "type": "heading",
           "settings": {
             "text": "Compatibilidade",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_PPafEQ": {
@@ -389,6 +407,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_9602f134-d6b9-42e7-9f17-772d9531f183.png",
             "icon_width": 56,
             "title": "Se adapta a você!",
+            "html_heading_tag": "h2",
             "content": "<p>Com o selo de conforto WAAW, você pode escolher entre três opções de eartips para melhorar a qualidade de áudio contínuo e bem-estar durante o uso.<\/p><p>Além disso, o <strong>ENERGY 10<\/strong> possui ganchos auriculares em borracha flexível, que se ajustam ao formato interno do ouvido.<\/p>"
           }
         },
@@ -400,6 +419,7 @@
             "custom_icon": "shopify:\/\/shop_images\/04.Html-energy-10_ada2457b-273a-469b-8b12-92a346918272.png",
             "icon_width": 56,
             "title": "Case de transporte",
+            "html_heading_tag": "h2",
             "content": "<p>Proteja seu fone de ouvido gamer de arranhões, quedas e acúmulo de poeira utilizando a case. Transporte o <strong>ENERGY 10<\/strong> com segurança e o guarde de maneira segura e eficiente.<\/p>"
           }
         }
@@ -757,6 +777,7 @@
             "external_video_url": "https:\/\/youtu.be\/5OFPconndFo",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Com o fone de ouvido gamer ENERGY 10EWG, você ouvirá seus amigos e adversários como nunca antes, graças à qualidade nítida dos graves, médios e agudos. Você estará no controle total de suas experiências nos seus jogos favoritos. Quer saber mais? Clique no botão abaixo para acessar o Manual de Instruções e assista ao vídeo sobre o produto para descobrir todas as incríveis funcionalidades.<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/ENERGY-10EWG\/ENERGY-10EWG-MANUAL.pdf",
             "button_text": "Baixe o manual de instruções"

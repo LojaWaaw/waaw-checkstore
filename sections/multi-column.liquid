@@ -80,7 +80,7 @@
                 {%- endif -%}
               
                 {%- if block.settings.product != blank -%}
-                  {%- render 'product-card', product: block.settings.product, stacked: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true -%}
+                  {%- render 'product-card', product: block.settings.product, stacked: true, background: section.settings.product_card_background, text_color: section.settings.product_card_text_color, show_badges: true, card_heading_tag: 'h3' -%}
                 {%- endif -%}
 
                 {%- if block.settings.banner_image != blank and block.settings.banner_position == 'bellow' -%}
@@ -126,7 +126,7 @@
 
                   <div class="multi-column__newsletter-text">
                     {%- if block.settings.title != blank -%}
-                      <h3 class="multi-column__newsletter-title">{{ block.settings.title }}</h3>
+                      <h2 class="multi-column__newsletter-title">{{ block.settings.title }}</h2>
                     {%- endif -%}
                     {%- if block.settings.content != blank -%}
                       <div class="multi-column__newsletter-text-content">{{ block.settings.content }}</div>

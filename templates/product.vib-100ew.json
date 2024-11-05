@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_gWFBUq": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Controles no <strong>botão<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li>Som de <strong>alta qualidade<\/strong>;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
+            "text": "<ul><li>Controles no <strong>botão<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li>Som de <strong>alta qualidade<\/strong>;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
         "f347cec8-4474-4a4e-a1db-3fb9b45d9317": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_gWFBUq",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "f347cec8-4474-4a4e-a1db-3fb9b45d9317",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -173,7 +183,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Vib 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_dfmFPx": {
@@ -209,6 +220,7 @@
           "settings": {
             "text": "A música vibra, seu coração bate.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -216,13 +228,15 @@
         "richtext_dxGkDN": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SUA VIBE<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SUA VIBE<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_F73wUN": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Feito para te acompanhar no dia a dia. O fone de ouvido com microfone <strong>VIB 100<\/strong> é ideal para você ouvir suas músicas, participar de reuniões e vídeo chamadas.<\/p>"
+            "content": "<p>Feito para te acompanhar no dia a dia. O fone de ouvido com microfone <strong>VIB 100<\/strong> é ideal para você ouvir suas músicas, participar de reuniões e vídeo chamadas.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -247,7 +261,8 @@
           "type": "heading",
           "settings": {
             "text": "Mais conectividade",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_BAwGNX": {
@@ -262,7 +277,7 @@
         "richtext_BAwGNX"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -289,6 +304,7 @@
             "custom_icon": "shopify:\/\/shop_images\/16.Banner-html-sense-200_5567af64-fcb6-447c-96eb-6af9ffbf3e54.png",
             "icon_width": 56,
             "title": "Hands Free",
+            "html_heading_tag": "h2",
             "content": "<p>Permite que você fique com as mãos livres enquanto conversa.<\/p>"
           }
         },
@@ -300,6 +316,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_9602f134-d6b9-42e7-9f17-772d9531f183.png",
             "icon_width": 56,
             "title": "Versatilidade",
+            "html_heading_tag": "h2",
             "content": "<p>Cabo com 1,2m de comprimento.<\/p>"
           }
         },
@@ -311,6 +328,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_b6eb5a52-ff0c-4584-b538-c1e2a2195164.png",
             "icon_width": 56,
             "title": "Conforto WAAW",
+            "html_heading_tag": "h2",
             "content": "<p>Com 3 tamanhos de borrachinhas, você pode escolher o que mais se adapta ao seu ouvido.<\/p>"
           }
         }
@@ -340,7 +358,8 @@
           "type": "heading",
           "settings": {
             "text": "Controle de toque",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_nJNH4j": {
@@ -355,7 +374,7 @@
         "richtext_nJNH4j"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p {margin-right: 400px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 400px; }}"
       ],
       "settings": {
         "full_width": false,
@@ -707,6 +726,7 @@
             "external_video_url": "https:\/\/youtu.be\/AJJmpSwOqx0",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Quer descobrir como o Fone de Ouvido WAAW VIB 100EW pode transformar sua percepção sonora? Clique no botão abaixo para acessar o Manual de Instruções e veja um vídeo explicativo sobre o produto, mostrando todas as suas características inovadoras.<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/VIB-100EW\/VIB-100EW-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

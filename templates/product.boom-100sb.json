@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_zNjq6T": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>20 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong>;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong><\/li><li>Classificação <strong>IPX7 à prova d’água<\/strong>;<\/li><li><strong>Alça<\/strong> de transporte;<\/li><li>Acabamento em<strong> tecido resistente<\/strong>;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HandsFree<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
+            "text": "<ul><li><strong>20 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong>;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong><\/li><li>Classificação <strong>IPX7 à prova d’água<\/strong>;<\/li><li><strong>Alça<\/strong> de transporte;<\/li><li>Acabamento em<strong> tecido resistente<\/strong>;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HandsFree<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
           }
         },
         "848b0df4-0d50-434c-b100-8c10939f45a7": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_zNjq6T",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "848b0df4-0d50-434c-b100-8c10939f45a7",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -173,7 +183,8 @@
           "type": "heading",
           "settings": {
             "text": "Caixa de Som Boom 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_aYmWpG": {
@@ -212,6 +223,7 @@
           "settings": {
             "text": "Sente a batida. De verdade.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -219,13 +231,15 @@
         "richtext_3Ucifr": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SUAS EMOÇÕES<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SUAS EMOÇÕES<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_MdXULX": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Som potente e imersivo, a caixa de som perfeita para te acompanhar em todos os momentos e proporcionar uma incrível experiência.<\/p>"
+            "content": "<p>Som potente e imersivo, a caixa de som perfeita para te acompanhar em todos os momentos e proporcionar uma incrível experiência.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -360,6 +374,7 @@
           "settings": {
             "text": "Reproduza suas músicas sem preocupação",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -367,13 +382,15 @@
         "richtext_Uhpren": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Em apenas uma recarga, você pode aproveitar suas playlists à vontade. Duração média de carregamento de até 5 horas.<\/p>"
+            "content": "<p>Em apenas uma recarga, você pode aproveitar suas playlists à vontade. Duração média de carregamento de até 5 horas.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_Y3VJUb": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -398,7 +415,8 @@
           "type": "heading",
           "settings": {
             "text": "WAAW Plus",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "p"
           }
         },
         "richtext_XqPtw6": {
@@ -444,6 +462,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "WAAW Go",
+            "heading_tag": "h2",
             "content": "<p>Acompanha uma alça flexível de transporte permitindo maior mobilidade em seu dia a dia. Leve a sua WAAW para onde quiser.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -467,6 +486,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Hands Free",
+            "heading_tag": "h2",
             "content": "<p>Com apenas um toque, atenda ou encerre chamadas e tenha mãos livres enquanto conversa.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -495,7 +515,8 @@
           "type": "heading",
           "settings": {
             "text": "Proteção IPX7",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_8Vibx4": {
@@ -536,6 +557,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Som Nítido",
+            "html_heading_tag": "h2",
             "content": "<p>A <strong>WAAW BOOM 100<\/strong> possui 4 drives de alta performance que oferecem um som nítido e de alta definição.<\/p>"
           }
         },
@@ -546,6 +568,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Graves Profundos",
+            "html_heading_tag": "h2",
             "content": "<p>Possui 2 radiadores passivos que auxiliam para a reprodução de graves ainda mais potentes.<\/p>"
           }
         },
@@ -556,6 +579,7 @@
             "icon": "none",
             "icon_width": 48,
             "title": "Super Potente",
+            "html_heading_tag": "h2",
             "content": "<p>40W RMS de potência que proporcionam uma experiência imersiva.<\/p>"
           }
         }
@@ -862,6 +886,7 @@
             "external_video_url": "https:\/\/youtu.be\/zahD2X5HJdo",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Se você está ansioso para explorar todas as possibilidades, convidamos você a clicar no botão abaixo para acessar nosso Manual de Instruções. Além disso, para uma imersão completa, preparamos um vídeo que revela a extraordinária qualidade sonora e os recursos inovadores que definem a Caixa de Som <strong>BOOM 100SB<\/strong>. Prepare-se para uma experiência sonora excepcional.<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/BOOM-100SB\/BOOM-100SB-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

@@ -50,7 +50,7 @@
             "icon_background": "",
             "icon_color": "",
             "title": "Atendimento ao Cliente",
-            "content": "<p>Segunda a Sábado<\/p>",
+            "content": "<p>24 horas por dia, todos os dias da semana, inclusive feriados!<\/p>",
             "link": "https:\/\/api.whatsapp.com\/send?phone=554130127282&text=Ol%C3%A1",
             "link_text": "Chamar no Whats"
           }
@@ -142,7 +142,7 @@
             "title": "Atendimento",
             "phone": "(41)3012-7282",
             "email": "ajuda@waaw.com.br",
-            "service_time": "Segunda a Sábado (exceto feriados) 08:00 às 20:00",
+            "service_time": "Atendimento 24 horas por dia",
             "show_social": true,
             "social_title": "Conecte-se com a gente"
           }

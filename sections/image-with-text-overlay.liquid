@@ -45,9 +45,15 @@
 
               {%- when 'heading' -%}
                 {%- if block.settings.text != blank -%}
-                  <p class="{{ block.settings.heading_tag }}" {% if settings.heading_apparition != 'none' %}reveal-on-scroll="true"{% endif %} {{ block.shopify_attributes }}>
+                  <{{ block.settings.html_tag }} 
+                    class="{{ block.settings.heading_tag }}"
+                    {% if settings.heading_apparition != 'none' %}
+                      reveal-on-scroll="true"
+                    {% endif %} 
+                    {{ block.shopify_attributes }}
+                  >
                     {%- render 'styled-text', content: block.settings.text, apparition_effect: true -%}
-                  </p>
+                  </{{ block.settings.html_tag }}>
                 {%- endif -%}
 
               {%- when 'richtext' -%}
@@ -321,6 +327,42 @@
             }
           ],
           "default": "h1"
+        },
+        {
+          "type": "select",
+          "id": "html_tag",
+          "label": "HTML tag",
+          "options": [
+            {
+              "value": "p",
+              "label": "p"
+            },
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "p"
         }
       ]
     },

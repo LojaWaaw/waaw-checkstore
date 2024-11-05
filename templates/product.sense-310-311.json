@@ -1,0 +1,1039 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "390bcd4c-f65f-41cd-963c-cdc903702e58": {
+          "type": "text",
+          "settings": {
+            "highlight": true,
+            "text": "<p>Fone de ouvido Over Ear, até 25 horas de bateria, microfone integrado, conexão P2, Hands Free.<\/p>"
+          }
+        },
+        "8bbde357-2065-4d19-b265-1c2b7741a439": {
+          "type": "text",
+          "settings": {
+            "highlight": false,
+            "text": "<p>O headphone WAAW SENSE 200 não te deixa na mão. Com conexão Bluetooth para horas de música sem fio, você ainda tem o cabo P2 para nunca ficar sem música mesmo com a bateria descarregada. Tenha seu #momentoWAAW com liberdade e conforto!<\/p>"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "8f0bf539-c3e9-4008-b6d5-822565908784": {
+          "type": "sku",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {
+            "installments_text": "ou [installment]x de [price_installment] sem juros",
+            "installments_max": 10,
+            "min_installment_price": "50"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "#e0e621",
+            "atc_button_text_color": "#1a1a1a",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "heading_9JNHJb": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
+        "9fa0844a-2eed-4050-832a-fa2b710383ec": {
+          "type": "text",
+          "settings": {
+            "highlight": false,
+            "text": "<ul><li>Conexão <strong>multipontos<\/strong>;<\/li><li><strong>25 horas<\/strong> de reprodução;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>OVER EAR<\/strong> ideal para uso prolongado;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
+          }
+        },
+        "62956669-151f-44d3-b98f-3ca17bcae0e4": {
+          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Compre junto",
+            "stack_products": true,
+            "products_count": 1,
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "390bcd4c-f65f-41cd-963c-cdc903702e58",
+        "8bbde357-2065-4d19-b265-1c2b7741a439",
+        "separator",
+        "8f0bf539-c3e9-4008-b6d5-822565908784",
+        "rating",
+        "price",
+        "payment_terms",
+        "quantity_selector",
+        "buy_buttons",
+        "heading_9JNHJb",
+        "9fa0844a-2eed-4050-832a-fa2b710383ec",
+        "62956669-151f-44d3-b98f-3ca17bcae0e4",
+        "baf0ba4d-5b79-491e-a527-0a186f62eca4"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 60,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "3e1a8b69-7217-4431-9836-f7b25dc653ff": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<style>\n    @import url(\"https:\/\/use.typekit.net\/aow1azr.css\");\n\n    :root {\n        --font-paragraf: 1.5rem;\n        --font-title: 3rem;\n        --font-sub-title-produto: 2rem;\n        --font-title-produto: 5rem;\n        --font-title-hover: 2rem;\n\n        --margin-bottom-logo: 8%;\n        --width-div-logo: 50%;\n        --margin-left-div-logo: 25%;\n        --max-width-logo: 300px;\n\n        --width-icon: 70px;\n\n        --color-yellow-title: #e0e621;\n        --color-font-green-black: #2d2a26;\n    }\n\n\n\n    @media screen and (max-width:1200px) {\n\n        :root {\n            --font-paragraf: 1.3rem;\n            --font-title: 2.6rem;\n            --font-sub-title-produto: 2rem;\n            --font-title-produto: 5rem;\n            --font-title-hover: 2rem;\n\n            --margin-bottom-logo: 8%;\n            --width-div-logo: 50%;\n            --margin-left-div-logo: 25%;\n            --max-width-logo: 200px;\n\n            --width-icon: 50px;\n\n            --font-design-dobravel: 160px\n        }\n\n    }\n\n    @media screen and (max-width:768px) {\n        :root {\n            --width-div-logo: 100%;\n            --margin-left-div-logo: 0%;\n            --font-title: 2.5rem;\n        }\n    }\n\n    .html_product {\n        color: var(--color-font-green-black) !important;\n        background-color: #FFF;\n        width: 100%;\n        float: left;\n    }\n\n    .html_product * {\n        font-family: 'proxima-nova-condensed';\n        line-height: calc(1 + 0.1);\n\n    }\n\n    .html_product p {\n        font-weight: 100;\n    }\n\n    .card_p p {\n        float: left;\n        width: 70%;\n        margin: 0;\n        font-size: var(--font-paragraf);\n        margin-top: 3%;\n        margin-top: 2%;\n    }\n\n    .card_p p {\n\n        width: 70%;\n    }\n\n    .card_p p b {\n        font-size: 3rem;\n        color: #e0e621;\n    }\n\n    .html_product .container {\n        position: relative;\n        width: 100%;\n        margin: auto;\n        height: 865px;\n    }\n\n    .html_product .section {\n        position: relative;\n        width: 100%;\n        margin: auto;\n        margin-top: 0;\n        padding-block-start: 0;\n        padding-inline-end: 0;\n        padding-inline-start: 0;\n    }\n\n    .html_product img {\n            display: initial;\n        }\n\n    .section.section_batery {\n        padding: 0;\n    }\n\n    @media screen and (max-width: 1366px) {\n        .shopify-section--custom-html .section-full {\n            padding: 0;\n        }\n\n        #_sincero_widget {\n            padding: 1rem;\n        }\n    }\n\n    .html_product .section,\n    .section_tecnichal {\n        position: relative;\n        width: 100%;\n        margin: auto;\n        margin-top: 0;\n        height: auto;\n        float: left;\n    }\n\n\n    .mg_5 {\n        margin-top: 5%;\n    }\n\n    .bg_video_1 {\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_28.png);\n        background-repeat: no-repeat;\n        background-size: 100% 100%;\n    }\n\n    .bg_video_2 {\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_29.png);\n        background-repeat: no-repeat;\n        background-size: 100% 100%;\n    }\n\n    .section_tecnichal {\n        height: 30rem;\n        margin-top: 5%;\n    }\n\n    .content_phone_lateral {\n        position: relative;\n        width: 40%;\n        float: left;\n\n    }\n\n    .phone_lateral {\n        position: relative;\n        margin: auto;\n        background-color: #e0e621;\n        height: auto;\n        min-height: calc(0.72 * 100vh);\n        margin-top: 35%;\n        width: 80%;\n    }\n\n    .phone_lateral img {\n        width: 100%;\n        position: absolute;\n        height: auto;\n        max-height: 950px;\n        float: left;\n        top: -20%;\n    }\n\n    .img_phone {\n        position: relative;\n        margin: auto;\n        float: left;\n        width: 50%;\n        text-align: center;\n    }\n\n    .img_phone img {\n        width: 100%;\n        max-height: 952px;\n    }\n\n    .techical {\n        width: 50%;\n        margin: auto;\n        float: left;\n        background-color: #FFF;\n        height: 100%;\n    }\n\n\n    .icon {\n        position: relative;\n        margin: auto;\n        float: left;\n        text-align: left;\n        padding-bottom: 10px;\n    }\n\n    .config_1 {\n        position: relative;\n        margin: auto;\n        float: right;\n        width: 70%;\n        margin-top: 25%;\n        color: #2d2a26;\n    }\n\n    .bg_grey {\n        background-color: initial;\n    }\n\n    .row_auto {\n        padding: 4px;\n        width: 80%;\n        height: auto;\n        margin: auto;\n    }\n\n\n    .config_1 .sub_title {\n        font-size: 2.5rem;\n        font-family: Proxima_Nova_Condensed_Bold;\n    }\n\n    .section_video {\n        position: relative;\n        width: 100%;\n        margin: auto;\n        text-align: center;\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_30.png);\n        background-size: 100% 100%;\n        background-repeat: no-repeat;\n        height: auto;\n        float: left;\n    }\n\n    .section_video video {\n        width: 20%;\n        margin: 1rem;\n        margin-right: 2rem;\n        border-radius: 1rem;\n\n    }\n\n    .section_70 {\n        position: relative;\n        margin: auto;\n        float: left;\n        width: 70%;\n        height: auto;\n    }\n\n    .section_80 {\n        position: relative;\n        margin: auto;\n        width: 80%;\n        min-height: 100%;\n\n    }\n\n    .section_90 {\n        position: relative;\n        margin: auto;\n        width: 90%;\n        min-height: 100%;\n\n    }\n\n\n    .section_50 {\n        position: absolute;\n        margin: auto;\n        float: left;\n        width: 50%;\n        height: 100px;\n        bottom: 0;\n        background-color: rgb(128, 124, 124);\n\n    }\n\n    .section_2_50 {\n        position: relative;\n        margin: auto;\n        width: 50%;\n        float: left;\n    }\n\n    .section_2_70 {\n        position: relative;\n        margin: auto;\n        width: 70%;\n        float: right;\n        display: flex;\n        align-items: flex-end;\n        margin-top: -10px;\n    }\n\n    .section_2_left {\n        float: left;\n        width: 50%;\n        background-color: #FFFF;\n\n    }\n\n    .bg_yelow_img {\n        background-color: #e0e621;\n    }\n\n\n\n\n    .bg_grey_img {\n        width: 100%;\n        display: flex;\n        align-items: flex-end;\n    }\n\n\n\n    .bg_yelow {\n        position: relative;\n        margin: auto;\n        width: 100%;\n        height: auto;\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_32.png);\n        background-repeat: no-repeat;\n        background-size: 100% 80%;\n        background-position: center center;\n        background-color: none !important;\n    }\n\n    .section_2_right {\n        position: relative;\n        margin: auto;\n        width: 50%;\n        float: left;\n        height: auto;\n        margin-top: 296px;\n\n    }\n\n    .section_2_right img {\n        width: 100%;\n    }\n\n    .card_p {\n        position: relative;\n        margin: auto;\n        width: 75%;\n        margin-left: 30%;\n        margin-top: 10%;\n        float: left;\n    }\n\n    .card_p .p_icon {\n        width: 17%;\n\n    }\n\n    .card_p .p_icon img {\n        margin-bottom: 2%;\n    }\n\n\n    .card_p .row_auto,\n    .card_p label,\n    .card_p span {\n        float: left;\n    }\n\n    .card_over_ear label {\n        font-size: 2.6rem;\n        float: left;\n        margin-top: 10%;\n        font-family: Proxima_Nova_Condensed_Bold;\n    }\n\n    .card_over_ear {\n        position: absolute;\n        width: 60%;\n        float: left;\n        margin-top: calc(0.25 * 100vh);\n        padding-top: 10%;\n        padding-bottom: 10%;\n        padding-left: 20%;\n        color: #2d2a26;\n        background-color: #e0e621;\n        z-index: 1;\n        margin-left: 10%;\n    }\n\n    .mg-left-card {\n        margin-left: 15% !important;\n    }\n\n    .card_over_ear .row_auto {\n        float: left;\n    }\n\n    .card_over_ear .row_auto p {\n        position: relative;\n        margin: auto;\n        float: left;\n        font-size: var(--font-paragraf);\n\n    }\n\n    .card_over_ear .row_auto span {\n        width: 100%;\n        margin: auto;\n        margin-top: 5%;\n        float: left;\n        font-weight: 900;\n        font-size: var(--font-title);\n    }\n\n    .card_float_right {\n        float: right;\n    }\n\n    .card_text_30 {\n        position: relative;\n        width: 30%;\n        float: left;\n        height: auto;\n        margin-left: 5%;\n    }\n\n    .card_text_30 .p_icon {\n        text-align: left;\n    }\n\n    .card_mg_left {\n        margin-left: 10% !important;\n    }\n\n    .card_mg_left_m {\n        margin-left: 8% !important;\n    }\n\n    .bg_img_align {\n        text-align: right;\n    }\n\n    .mg_10 {\n        margin-top: 10%;\n    }\n\n\n    .mg_15 {\n        margin-top: 15%;\n    }\n\n    .card_right {\n        float: right;\n        text-align: right !important;\n    }\n\n    .card_text_30_right {\n        position: relative;\n        width: 30%;\n        float: right;\n        height: auto;\n        margin-top: 15%;\n        margin-left: 8%;\n    }\n\n    .back_part {\n        width: 80% !important;\n        text-align: right;\n    }\n\n    .card_back {\n        position: relative;\n        width: 38%;\n        height: 365px;\n        margin: auto;\n        float: left;\n        background-color: #e0e621;\n        border-radius: 5px;\n        -moz-border-radius: 5%;\n        -webkit-border-radius: 5%;\n    }\n\n    img.part_phone_1 {\n        margin: auto;\n        z-index: 1;\n        text-align: center;\n        width: 70%;\n    }\n\n\n    img.part_phone_2 {\n        z-index: 1;\n        position: absolute;\n        text-align: center;\n        left: 10%;\n        width: 70%;\n    }\n\n    .card_bg_50 img {\n        width: 100%;\n    }\n\n\n    .card_text_100 {\n        position: relative;\n        width: 100%;\n        float: left;\n        text-align: center;\n    }\n\n    .card_text_30 span {\n        width: 100%;\n        float: left;\n        font-size: var(--font-title);\n        color: #e0e621;\n        font-weight: 900;\n        text-align: left;\n    }\n\n\n\n    .card_text_30 p {\n        width: 100%;\n        float: left;\n        margin: 0;\n        text-align: left;\n        font-size: var(--font-paragraf);\n        margin-bottom: 0;\n    }\n\n    .card_text_bike p {\n        width: 100%;\n        float: left;\n        margin: 0;\n        font-size: var(--font-paragraf);\n    }\n\n    .mg_30 {\n        margin-top: 30%;\n    }\n\n    .mg_5 {\n        margin-top: 5%;\n    }\n\n    .mg_60 {\n        margin-top: 60%;\n    }\n\n    .card_left {\n        float: left;\n    }\n\n    .card_right {\n        float: right;\n        margin-bottom: 15%;\n    }\n\n    .mg_30 {\n        margin-top: 30%;\n    }\n\n    ._bg {\n        background-color: aliceblue;\n    }\n\n    .phone_center {\n        position: relative;\n        width: 30%;\n        height: auto;\n        float: left;\n    }\n\n    .phone_center img {\n        width: 100%;\n        height: auto;\n    }\n\n\n    .table {\n        padding: 0;\n        margin: 0;\n        border-spacing: initial;\n    }\n\n\n    .row_auto_100 .content_50 {\n        margin-top: 5%;\n    }\n\n    .card_bg_30 {\n        position: relative;\n        width: 30%;\n        float: left;\n        height: auto;\n        min-height: 35px;\n    }\n\n    .title_product {\n        position: relative;\n        width: 70%;\n        margin: auto;\n        text-align: center;\n        margin-left: 15%;\n        float: left;\n    }\n\n    .min_height_section_effect {\n        height: 1070px;\n    }\n\n    .title_product h2 {\n        font-size: var(--font-title-produto);\n        float: left;\n        width: 100%;\n        margin: 0;\n        font-weight: 400;\n\n    }\n\n    .img_effect_center {\n        text-align: center;\n    }\n\n    .img_effect_center img {\n        width: 90%;\n    }\n\n\n    .logo_section {\n        position: relative;\n        margin: auto;\n        width: var(--width-div-logo);\n        margin-top: 25%;\n        float: left;\n        margin-bottom: var(--margin-bottom-logo);\n        margin-left: var(--margin-left-div-logo);\n        text-align: center;\n    }\n\n\n    .title_product span {\n        width: 100%;\n        margin: 0;\n        font-size: var(--font-sub-title-produto);\n        float: left;\n        font-weight: 400 !important;\n    }\n\n    .section_title {\n        position: relative;\n        margin: auto;\n        float: left;\n        width: 100%;\n        text-align: center;\n    }\n\n\n\n    .logo_section img {\n        width: 100%;\n        max-width: var(--max-width-logo);\n    }\n\n    .card_right {\n        float: right;\n    }\n\n    .text_sub_title {\n        position: relative;\n        width: 80%;\n        margin: auto;\n        margin-top: 5%;\n        height: auto;\n        margin-left: 10%;\n        text-align: center;\n\n    }\n\n    .text_sub_title span {\n        font-size: 40px;\n    }\n\n    \/* codigo para mobile está aqui *\/\n\n    .effect {\n        width: 35%;\n        height: 320px;\n        background-color: #F7F7F7;\n    }\n\n    .effect_batery_left {\n        float: left;\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_46.png);\n        background-repeat: no-repeat;\n        background-size: 100% auto;\n        height: calc(0.26 * 100vh);\n        background-position: center center;\n    }\n\n    .bt_text_left {\n        width: 30%;\n        float: left;\n        height: auto;\n        margin-top: 15%;\n        text-align: center;\n        padding: 1%;\n    }\n\n    .bt_text_left span,\n    .bt_text_right span {\n        width: 100%;\n        float: left;\n        font-size: 40px;\n        font-weight: 900;\n\n    }\n\n    .bt_text_left label,\n    .bt_text_right label {\n        font-size: 17px;\n    }\n\n\n    .bt_text_center {\n        float: left;\n        width: 30%;\n        height: auto;\n        margin-top: 15%;\n        display: table-cell;\n        vertical-align: middle;\n        text-align: center;\n    }\n\n    .bt_text_right {\n        float: left;\n        width: 30%;\n        height: auto;\n        margin-top: 15%;\n        text-align: center;\n        padding: 1%;\n\n    }\n\n    .effect_batery_center {\n        width: 30%;\n        height: calc(0.26 * 100vh);\n        float: left;\n        background-color: #F7F7F7;\n    }\n\n    .effect_batery_right {\n        float: right;\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_46_2.png);\n        background-size: 100% auto;\n        background-repeat: no-repeat;\n        height: calc(0.26 * 100vh);\n        background-position: center center;\n    }\n\n    .card_text_bike {\n        position: relative;\n        margin: auto;\n        z-index: 1;\n        width: 50%;\n        float: left;\n        background-color: #e0e621;\n        margin-left: -5%;\n        height: auto;\n        min-height: 55%;\n    }\n\n    .card_text_bike .icon {\n        margin-bottom: 3%;\n        width: 15%;\n    }\n\n    .card_text_bike .row_auto {\n        margin-top: 27%;\n    }\n\n    .bg_green img {\n        width: 100%;\n    }\n\n    .bg_green {\n        width: 70%;\n        height: auto;\n        margin-top: 7%;\n        background-repeat: no-repeat;\n        background-size: 100%;\n    }\n\n    .green_1 {\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_33.png);\n    }\n\n    .green_2 {\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_34.png);\n    }\n\n    .green_3 {\n        background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_35.png);\n    }\n\n\n    .bg_black {\n        background-color: black;\n    }\n\n    .mg_left_15 {\n        margin-left: 25%;\n    }\n\n    .text_align_center {\n        text-align: center;\n        float: left;\n        width: 30%;\n        margin-top: 5%;\n        padding: 5px;\n        margin-left: 35%;\n        font-size: 19px;\n    }\n\n\n    .card_text_bike span {\n        width: 100%;\n        float: left;\n        font-size: var(--font-title);\n        font-weight: 900;\n        color: #2d2a26;\n    }\n\n    .bg_black span {\n        width: 100%;\n        font-size: var(--font-title);\n        color: #FFF;\n        line-height: 0.85;\n        font-weight: 900;\n    }\n\n    .card_write_D {\n        position: relative;\n        margin: auto;\n        width: 45%;\n        margin-top: 21%;\n        float: left;\n        margin-left: 5%;\n    }\n\n\n    .content_50 {\n        position: relative;\n        margin: auto;\n        float: left;\n        width: 50%;\n    }\n\n    .content_50 img.phone_D {\n        float: right;\n        width: 90%;\n        padding: 5% 0;\n    }\n\n    .bg_black p {\n        color: #FFF;\n        padding: 0;\n        margin: auto;\n        font-size: var(--font-paragraf);\n    }\n\n    .alternate_color {\n        background-color: #CCC;\n\n    }\n\n    .div_text {\n        width: 100%;\n        margin: auto;\n        text-align: center;\n        background-color: aliceblue;\n    }\n\n    .list_techical {\n        width: 75%;\n        height: auto;\n        margin: auto;\n        margin-top: 1.25rem;\n        background-color: #FFF;\n        overflow: auto;\n    }\n\n    .content_50 .person_bike {\n        width: 100%;\n    }\n\n    .bg_effect {\n        width: 100%;\n    }\n\n    .section_description {\n        position: relative;\n        margin: auto;\n        width: 100%;\n        margin: auto;\n        height: auto;\n        min-height: 30%;\n        float: left;\n\n    }\n\n    .row {\n        padding: 0.25rem;\n        width: 100%;\n        height: 1.2rem;\n    }\n\n    .description_left {\n        width: 50%;\n        float: left;\n        text-align: center;\n        font-weight: bold;\n        height: auto;\n    }\n\n\n    .description_right {\n        width: 50%;\n        float: right;\n    }\n\n    .text_sub_title_2 span {\n        font-size: 10rem;\n        color: #e0e621;\n        font-weight: bold;\n        float: left;\n        font-weight: 900;\n    }\n\n\n    .text_sub_title_2 {\n        position: relative;\n        margin: auto;\n        width: 25%;\n        float: left;\n        margin-left: 40%;\n        text-align: center;\n    }\n\n    .text_sub_title_2 p {\n        font-size: 4rem;\n        padding: 0;\n        margin: 0;\n        color: black;\n        font-weight: bold;\n        float: left;\n        margin-top: 9.5%;\n        text-align: left;\n        line-height: 1;\n\n    }\n\n    .info {\n        float: left;\n        width: 80%;\n        margin-left: 10%;\n        text-align: center;\n        margin-bottom: 1%;\n\n    }\n\n    .text_sub_title_2 label {\n        float: left;\n        font-size: 1.3rem;\n        width: 40%;\n        margin: auto;\n        text-align: left;\n        font-weight: 200;\n        line-height: 1;\n    }\n\n    .paragraf_D {\n        position: relative;\n        margin: auto;\n        width: 35%;\n        margin-left: 5%;\n        float: left;\n    }\n\n    .row_auto_100 {\n        width: 100%;\n        height: auto;\n        margin: auto;\n\n    }\n\n\n\n    .card_right .p_icon {\n        text-align: left;\n    }\n\n\n    .card_p label {\n        font-size: 2.5rem;\n    }\n\n    .section_2_left span {\n        width: 90%;\n        position: relative;\n        margin: auto;\n        font-size: var(--font-title);\n        color: #2d2a26;\n\n    }\n\n    .p_icon img {\n        width: var(--width-icon);\n    }\n\n    .content_p_cards {\n        float: left;\n        width: 100%;\n        margin-top: 5%\n    }\n\n\n    .bg_green_content {\n        position: relative;\n        margin: auto;\n        float: left;\n        width: 100%;\n        background-color: #f6f6f6;\n        margin-top: 5%;\n    }\n\n    .mg_botton_finish {\n        margin-bottom: 5%;\n    }\n\n    .phone_mobile {\n        display: none !important;\n    }\n\n\n\n\n\n\n    .img_controle_toque {\n        width: 90%;\n        float: left;\n    }\n\n    \/* media query max 375*\/\n\n\n    @media screen and (max-width:800px) and (max-height:600px) {\n        .section_2_left span {\n            font-size: 1.5rem;\n            left: 10%;\n        }\n\n        .phone_center {\n            margin-top: -10%;\n            z-index: 99999;\n        }\n\n\n        .phone_center {\n            width: 28%;\n        }\n\n        .card_text_30 p {\n            font-size: 0.9rem;\n        }\n\n        .text_align_center {\n            width: 70%;\n            margin-left: 15%;\n        }\n\n        .phone_lateral img {\n            top: 5%;\n        }\n\n        .phone_lateral {\n            min-height: 526px;\n            margin-top: 15%;\n        }\n\n        .section_2_min {\n            min-height: 20.563rem;\n            background-color: #EAEAEA !important;\n        }\n\n        .card_text_bike p {\n            font-size: 0.9rem;\n        }\n\n        .section_2_left {\n            min-height: 347px;\n        }\n\n        .card_text_30 {\n            width: 35%;\n            margin-left: 0%;\n        }\n    }\n\n    @media (max-width:375px) {\n\n        .title_product h1 {\n            font-size: 0.9rem;\n        }\n\n\n        .section_video video {\n            margin: 2rem;\n        }\n\n\n        .text_align_center {\n            font-size: 1.6rem;\n        }\n\n        .card_text_bike p {\n            font-size: 1.175rem;\n        }\n\n\n        .card_text_30 span {\n            text-align: left;\n        }\n\n        .bg_grey_img {\n            content: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_41.png);\n\n        }\n\n        .title_product span:nth-child(1) {\n            font-size: 3rem;\n        }\n\n\n        .description_left {\n            width: 100%;\n        }\n\n        .description_right {\n            width: 100%;\n        }\n\n        .description_right h1 {\n            font-size: 1.2rem;\n        }\n\n        .text_sub_title span {\n            font-size: 2.5rem;\n        }\n\n        .min_height_section_effect {\n            min-height: 25rem;\n            background-color: black;\n        }\n\n        .bg_effect {\n            height: 25rem;\n        }\n\n        .phone_lateral img {\n            height: auto;\n            top: -10%;\n        }\n\n\n\n        .bg_black p {\n            font-size: 1.375rem;\n        }\n\n\n\n        .card_text_bike p {\n            font-size: 1.375rem;\n        }\n\n        .mg_155 {\n            margin-top: 250% !important;\n        }\n\n        .icon img {\n            width: 70%;\n        }\n\n        .phone_center {\n            margin-top: -290%;\n        }\n\n        .card_over_ear p {\n            font-size: 1.25rem;\n        }\n\n\n        .card_over_ear label {\n            font-size: 1.513rem;\n            margin-top: 10%;\n            margin-bottom: 20%;\n            width: 100%;\n        }\n\n        .config_1 p {\n            font-size: 1.25rem;\n            text-align: left;\n        }\n\n        .section_2_left span {\n            font-size: 1.5rem;\n        }\n\n\n\n        .config_1 .sub_title {\n            font-size: 3.2rem;\n        }\n\n    }\n\n    @media (min-width:1024px) {\n\n\n\n        .card_text_bike {\n            margin-top: 28%;\n            height: 400px;\n        }\n\n\n\n        .phone_center {\n            position: relative;\n            margin-top: 0%;\n\n        }\n    }\n\n    @media screen and (min-width:1320px) {\n\n        .mg-top-card {\n            margin-top: calc(0.175 * 100vh);\n        }\n\n\n\n    }\n\n    \/* media query min 1920*\/\n\n    @media screen and (min-width: 1920px) {\n\n        .card_write_D {\n            margin-top: 22%;\n        }\n\n        .paragraf_D {\n            width: 25%;\n        }\n\n        .card_p .p_icon {\n            width: 12%;\n        }\n\n        .text_sub_title_2 {\n            width: 20%;\n            margin-left: 42.5%;\n        }\n\n        .card_text_bike .row_auto {\n            margin-top: 32.5%;\n\n        }\n\n        .card_back {\n            height: 500px;\n        }\n\n        .card_write_D {\n            width: 40%;\n        }\n\n        .card_over_ear {\n            margin-top: calc(0.32 * 100vh);\n        }\n\n        .mg-top-card {\n            margin-top: calc(0.27 * 100vh);\n        }\n\n\n        .phone_center img {\n            width: 100%;\n        }\n\n    }\n\n    \/* media query min 769*\/\n\n    @media(min-width:769px) {\n        .title_product {\n            text-transform: uppercase;\n        }\n\n    }\n\n    .bg_degree {\n        display: none;\n    }\n\n    \/* media query max 768 *\/\n\n    @media (max-width:768px) {\n\n        .card_over_ear .row_auto p {\n            text-align: center;\n        }\n\n        .section_2_left {\n            background-color: #EAEAEA;\n            line-height: 0;\n        }\n\n        .bg_degree {\n            display: block;\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_51.png);\n            background-repeat: repeat-x;\n            height: 340px;\n            width: 100%;\n            margin-top: -20%;\n            display: block !important;\n        }\n\n        .phone_mobile {\n            display: block;\n            width: 90%;\n            margin-top: 20%;\n            margin-bottom: 20%;\n        }\n\n        .card_text_bike span {\n            margin-top: 5%;\n\n        }\n\n        .card_text_bike .row_auto {\n            margin-top: 0%;\n        }\n\n        .section_90 {\n            width: 100%;\n        }\n\n        .bg_green_content {\n            height: auto;\n        }\n\n        .card_over_ear .p_icon {\n            width: 100%;\n            float: left;\n            text-align: center;\n        }\n\n        .card_over_ear .row_auto span {\n            text-align: center;\n            margin-bottom: 5%;\n        }\n\n        .card_write_D {\n            width: 90%;\n            text-align: center;\n            margin-top: 15%;\n        }\n\n        .text_sub_title_2 span {\n            margin-left: 10%;\n        }\n\n        .mg-left-card {\n            margin-left: 0 !important;\n        }\n\n        .card_mg_left {\n            margin-left: 0 !important;\n        }\n\n        .card_mg_left_m {\n            margin-left: 0 !important;\n        }\n\n        .card_p .p_icon {\n            width: 100%;\n            float: left;\n            text-align: center;\n        }\n\n        .img_effect_center {\n            height: 500px;\n        }\n\n        .mg_left_15 {\n            margin-left: 10%;\n        }\n\n        .card_text_30 {\n            margin-left: 0;\n            margin-top: 5%;\n            margin-bottom: 5%;\n            text-align: center;\n        }\n\n        .card_back {\n            width: 90%;\n            height: 250px;\n            margin-left: 5% !important;\n            margin-bottom: 30%;\n        }\n\n        .row_auto_100 .content_50 {\n            margin-top: 0;\n        }\n\n        .card_text_30 .icon img {\n            width: 25%;\n        }\n\n        .html-product .text_sub_title_2 p {\n            margin-top: 22%;\n        }\n\n\n        .card_text_30 .icon {\n            width: 100%;\n            text-align: center;\n        }\n\n        .card_p p b {\n            font-size: 2.5rem;\n\n        }\n\n        .card_p p {\n            text-align: center;\n            margin-left: 15%;\n        }\n\n        .card_over_ear .icon {\n            width: 100%;\n            text-align: center;\n        }\n\n        .card_over_ear .icon img {\n            width: 25%;\n        }\n\n        .card_text_30.mg_10 {\n            margin-top: 30%;\n        }\n\n\n        .card_text_bike .row_auto {\n            float: left;\n            text-align: center;\n            padding: 0;\n        }\n\n        .info {\n            margin-bottom: 5%;\n        }\n\n        .bt_text_left {\n            width: 100%;\n        }\n\n        .bt_text_center {\n            width: 100%;\n        }\n\n        .bt_text_right {\n            width: 100%;\n        }\n\n        .img_alok {\n            content: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_48.png);\n            width: 100%;\n        }\n\n        .row_auto {\n            width: 100%;\n        }\n\n        .min_height_section_effect {\n            height: 400px;\n        }\n\n\n\n\n        .paragraf_D {\n            width: 90%;\n            margin-left: 5%;\n            margin-bottom: 10%;\n        }\n\n        .title_product {\n            position: absolute;\n            width: 95%;\n            margin-top: 150%;\n            margin-left: 2.5%;\n        }\n\n        .phone_lateral {\n            min-height: 370px;\n            margin-bottom: 60%;\n            width: 100%;\n        }\n\n\n\n        .title_product span {\n            display: none;\n        }\n\n        .section_2_50 {\n            width: 100%;\n        }\n\n        .list_techical {\n            width: 90%;\n        }\n\n        .min_height_section_effect {\n            min-height: 25%;\n        }\n\n        .mg_155 {\n            margin-top: 210% !important;\n        }\n\n        .bg_grey_img {\n\n            display: none!important;\n        }\n\n\n        .phone_lateral img {\n            top: -20%;\n        }\n\n        .section_2_left span {\n            font-size: 2.5rem;\n        }\n\n        .card_right {\n            margin-bottom: 15%;\n        }\n\n        .card_text_bike .icon img {\n            width: 25%;\n        }\n\n        .card_text_bike .icon {\n            width: 100%;\n            text-align: center;\n        }\n\n        .phone_center {\n            position: relative;\n            width: 90%;\n            height: auto;\n            float: left;\n            z-index: 1;\n            margin-left: 5%;\n            margin-top: -195%;\n            text-align: center;\n\n        }\n\n        .phone_center img {\n            width: 50%;\n        }\n\n        .table {\n            font-size: 1.188rem;\n        }\n\n        .bt_text_right {\n            margin-top: 25%;\n        }\n\n        .bt_text_center {\n            margin-top: 15%;\n        }\n\n        .paragraf_D {\n            margin-top: 0;\n        }\n\n        .bt_text_left {\n            margin-top: 25%;\n        }\n\n        .effect {\n            background-image: none;\n            height: 255px;\n        }\n\n        .effect_batery_left {\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_38.png);\n            background-size: 100% 100%;\n            background-repeat: no-repeat;\n        }\n\n        .effect_batery_right {\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_39.png);\n            background-size: 100% 100%;\n            background-repeat: no-repeat;\n        }\n\n        .text_align_center {\n            width: 90%;\n            margin-left: 5%;\n            margin-top: 60%;\n            font-size: 1.25rem;\n        }\n\n        .section_batery {\n            position: relative;\n            margin: auto;\n            background-color: #F7F7F7;\n            height: 15.875rem;\n        }\n\n\n        .section_2_right {\n            width: 100%;\n            line-height: 0;\n            background-color: #EAEAEA;\n            margin-top: 0;\n        }\n\n        .invert_card_m {\n            position: absolute;\n\n        }\n\n        .mg-top-card-mobile {\n            margin-top: 110%;\n        }\n\n        .card_p {\n            width: 100%;\n            margin-left: 0%;\n            margin-top: -50%;\n        }\n\n        .section_video {\n            min-height: 180px;\n        }\n\n\n\n        .section_2_left {\n            position: relative;\n            width: 100%;\n            text-align: center;\n\n        }\n\n        .config_1 {\n            width: 90%;\n        }\n\n        .section_2_70 {\n            width: 100%;\n            margin-top: 0;\n        }\n\n        .bg_yelow_img {\n            position: absolute;\n            background-size: 260%;\n            top: 63%;\n            bottom: auto;\n            background-position-y: initial;\n            width: 100%;\n            height: 750px;\n        }\n\n\n\n        .title_product h1 {\n            font-size: 1.125rem;\n        }\n\n        .section_2_left span {\n            width: 100%;\n            top: 100%;\n            float: left;\n\n        }\n\n        .card_over_ear {\n            margin-top: -20%;\n            position: absolute;\n            width: 90%;\n            padding: 10%;\n            margin-left: 5%;\n        }\n\n        .card_text_30 {\n            width: 90%;\n            margin-left: 5% !important;\n        }\n\n        .section_80 {\n            margin-top: 15%;\n            width: 100%;\n        }\n\n        .card_text_30 .row_auto {\n            width: 100%;\n            text-align: center;\n            float: left;\n        }\n\n        .card_text_30 .p_icon {\n            text-align: center;\n        }\n\n        .mg_60 {\n            margin-top: 5%;\n        }\n\n\n        .img_phone {\n            width: 100%;\n        }\n\n        .techical {\n            width: 100%;\n        }\n\n        .paragraf_D {\n            float: left;\n        }\n\n\n        .bg_green {\n            width: 80%;\n        }\n\n        .bg_black .content_50 {\n            width: 90%;\n        }\n\n\n\n        .card_text_bike {\n            min-height: 55%;\n            margin-top: 325%;\n        }\n\n\n        .card_over_ear label {\n            font-family: Proxima_Nova_Condensed_Bold;\n            font-size: 1.125rem;\n        }\n\n        .content_phone_lateral {\n            width: 80%;\n            margin-left: 10%;\n\n        }\n\n        .content_50 {\n            width: 100%;\n        }\n\n        .section_video video {\n            width: 60%;\n        }\n\n\n\n        .title_product h1 {\n            font-size: 1.875rem;\n            font-family: ProximaNova-Regular;\n            margin: 0;\n        }\n\n\n        .title_product span:nth-child(1) {\n            width: 100%;\n            float: left;\n            font-weight: bold;\n            font-size: 6rem;\n            font-family: Proxima_Nova_Condensed_Bold;\n        }\n\n        .title_product span {\n            width: 100%;\n            font-size: 3.125rem;\n        }\n\n\n\n        .config_1 .sub_title {\n            font-size: 3.7rem;\n        }\n\n        .card_text_30 {\n            float: left !important;\n        }\n\n        .card_text_bike {\n            min-height: 80%;\n        }\n\n        .card_over_ear label {\n            font-size: 50px;\n            margin-top: 20%;\n            float: left;\n            margin-bottom: 40%;\n            width: 90%;\n\n        }\n\n\n\n        .card_over_ear span {\n            font-size: 3rem;\n        }\n\n        .bg_yelow_img {\n            top: 100%;\n        }\n\n        .sub_title {\n            float: left;\n            margin-bottom: 25%;\n        }\n\n        .config_1 p {\n            font-size: 1.875rem;\n            width: 100%;\n            float: left;\n            text-align: left;\n        }\n\n        .card_over_ear p {\n            font-size: 1.875rem;\n        }\n\n        .card_text_30 span {\n            margin-top: 5%;\n            text-align: center;\n        }\n\n        .card_text_30 p {\n            margin: 0;\n            text-align: center;\n        }\n\n        .img_controle_toque {\n            margin-top: 3%;\n        }\n\n        .card_text_bike {\n            position: relative;\n            width: 90%;\n            margin-top: -25%;\n            margin-right: 5%;\n            margin-left: 5%;\n            padding: 3%;\n            height: auto;\n        }\n\n        .icon img {\n            width: 100%;\n        }\n\n        .card_text_50 {\n            width: 90%;\n            margin-left: 5%;\n            float: left;\n        }\n\n\n\n        .section_video video {\n            margin: 4rem;\n        }\n\n\n\n\n        .bg_black p {\n            font-size: 1.6rem;\n            text-align: center;\n        }\n\n        .text_align_center {\n            font-size: 2.188rem;\n        }\n\n        .bt_text_center {\n            margin-top: 5%;\n        }\n\n\n        .bg_yelow {\n            background-image: url(https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_40.png);\n            background-size: 100% 50%;\n            background-position: center bottom;\n        }\n\n        .text_sub_title {\n            margin-top: 0;\n            width: 80%;\n            margin-left: 10%;\n            margin-top: 10%;\n        }\n\n        .description_right {\n            float: left;\n            width: 60%;\n            margin-bottom: 10%;\n\n        }\n\n        .description_left {\n            width: 80%\n        }\n\n        .bt_text_left span,\n        .bt_text_right span {\n            font-size: 2.188rem;\n        }\n\n        .bt_text_left,\n        .bt_text_right {\n            margin-top: 15%;\n        }\n\n\n        .description_right span {\n            font-size: 10rem;\n        }\n\n        .text_sub_title span {\n            font-size: 2rem;\n        }\n\n        .text_sub_title_2 {\n            width: 100%;\n            margin-top: 10%;\n            margin-left: initial;\n        }\n\n        .description_right p {\n            font-size: 4rem;\n            margin-top: 5%;\n            margin-left: 5%;\n        }\n\n        .description_right h1 {\n            font-size: 1.5rem;\n            width: 35%;\n            margin-left: 5%;\n        }\n\n        .title_product h1 {\n            font-size: 1.25rem;\n        }\n\n    }\n\n    @media (min-width:800px)and (max-width:1460px) {\n        .section_2_right {\n            margin-top: 453px;\n        }\n\n        .card_p p {\n            width: 100%;\n        }\n\n    }\n\n    @media screen and (min-width:1360px) {\n        .card_text_bike {\n            height: 530px;\n            margin-top: 25%;\n        }\n\n        .limit_img {\n            height: 575px;\n        }\n\n        .min_height_section_effect {\n            height: 759px;\n        }\n    }\n\n\n    @media screen and (min-width:1920px) {\n        .card_text_bike {\n            height: 790px;\n        }\n\n        .limit_img {\n            height: 845px;\n        }\n\n        .min_height_section_effect {\n            height: 1071px;\n        }\n    }\n\n    @media(max-width:500px) {\n\n        .title_product h1 {\n            font-size: 1.125rem;\n        }\n\n        .title_product span:nth-child(1) {\n            font-size: 4rem;\n        }\n\n    }\n<\/style>\n\n<div class=\"html_product\">\n\n    <div class=\"container\">\n        <div class=\"section\">\n\n            <div class=\"section_2_50\">\n                <div class=\"logo_section\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_49.png\">\n                <\/div>\n                <div class=\"title_product\">\n                    <span> HEADPHONE Bluetooth<\/span>\n                    <h2> <b>SENSE<\/b>200 <\/h2>\n\n                <\/div>\n            <\/div>\n\n\n            <div class=\"section_2_50 img_effect_center\">\n\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_1.png\">\n\n                <img class=\"effect_before\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_2.png\">\n\n\n            <\/div>\n\n\n        <\/div>\n\n        <div class=\"section section_2_min\">\n            <div class=\"bg_degree\"><\/div>\n            <div class=\"section_2_left\">\n                <div class=\"card_p\">\n                    <span><b>A melhor qualidade de áudio<\/b>\n                        sem perder o conforto<\/span>\n\n                    <div class=\"row_auto mg_10\">\n                        <div class=\"p_icon\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_9.png?v=1657310788\">\n                        <\/div>\n                        <p><b>CONEXÃO MULTIPONTOS<\/b><\/p>\n                        <p>Conecte seu fone a dois dispositivos simultaneamente. Enquanto você escuta música no seu\n                            notebook, você pode aceitar uma chamada em seu smartphone.<\/p>\n                    <\/div>\n                    <div class=\"row_auto mg_10\">\n                        <div class=\"p_icon\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_15.png?v=1657310788\">\n\n                        <\/div>\n                        <p><b>DRIVER DINÂMICO<\/b><\/p>\n                        <p>Com driver de 40mm você tem um som claro e nítido, com graves profundos e agudos cristalinos.\n                        <\/p>\n                    <\/div>\n                <\/div>\n\n\n            <\/div>\n            <div class=\"section_2_right limit_img\">\n                <img class=\"phone_mobile\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_50.png\">\n                <img class=\"img_alok\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_3.png\">\n            <\/div>\n\n        <\/div>\n\n\n\n\n        <div class=\"section bg_grey\">\n            <div class=\"section_2_50 \">\n                <div class=\"card_over_ear\">\n                    <div class=\"row_auto\">\n                        <div class=\"p_icon\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_7.png\">\n                        <\/div>\n\n                        <span>OVER EAR<\/span>\n                        <p>Se encaixa por completo sobre as orelhas para um ajuste confortável e bom isolamento\n                            acústico. <\/p>\n\n                    <\/div>\n\n                <\/div>\n            <\/div>\n            <div class=\"section_2_70\">\n                <img class=\"bg_grey_img\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_8.png\">\n            <\/div>\n        <\/div>\n        <div class=\"section mg_5\">\n            <div class=\"section_90\">\n                <div class=\"card_text_30 mg_30 mg_155\">\n                    <div class=\"row_auto\">\n                        <div class=\"p_icon\"> <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws_4.png?v=1658850239\">\n                        <\/div>\n\n                        <span>HANDS FREE<\/span>\n                        <p>Com microfone embutido e botões na lateral, permite que você fique com as mãos livres\n                            enquanto conversa.<\/p>\n\n                    <\/div>\n                <\/div>\n                <div class=\"phone_center\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_10.png\">\n                <\/div>\n\n                <div class=\"card_text_30 mg_30 card_right\">\n                    <div class=\"row_auto\">\n                        <div class=\"p_icon\">\n                            <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/waaw-energy-100ebg-fone-de-ouvido-gamer-tws_11.png?v=1658850239\">\n                        <\/div>\n\n                        <span>ASSISTENTE DE VOZ<\/span>\n                        <p>Pressionando um botão, ative a assistente de voz do seu dispositivo diretamente do fone,\n                            tornando os comandos ainda mais fáceis, sem precisar pegar o smartphone.\n                        <\/p>\n                    <\/div>\n\n                <\/div>\n\n\n            <\/div>\n\n            <div class=\"bg_green_content\">\n                <div class=\"section_90\">\n                    <div class=\"mg_10 content_p_cards\">\n                        <div class=\"card_text_100 mg_10\">\n                            <div class=\"card_back card_mg_left\">\n                                <img class=\"part_phone_1\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_13.png\">\n                            <\/div>\n\n                            <div class=\"card_text_30\">\n\n                                <div class=\"p_icon\">\n                                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_14.png\">\n                                <\/div>\n                                <span>CONTROLE DE TOQUE<\/span>\n                                <p> Através dos botões na lateral do fone é possível atender chamadas e controlar suas\n                                    músicas.\n                                <\/p>\n                                <img class=\"img_controle_toque\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_45.png\">\n\n\n                            <\/div>\n                        <\/div>\n\n                    <\/div>\n\n\n                    <div class=\"row_auto_100\">\n                        <div class=\"card_text_100 card_right mg_15\">\n\n                            <div class=\"card_text_30 mg-top-card mg-top-card-mobile mg-left-card\">\n\n                                <div class=\"p_icon\">\n                                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_15.png\">\n                                <\/div>\n                                <span>ENTRADA AUXILIAR P2<\/span>\n                                <p>Mesmo que a bateria do fone acabe, continue usando através do cabo P2 com 1,2 metros.\n                                <\/p>\n\n                            <\/div>\n\n                            <div class=\"card_back card_mg_left_m invert_card_m\">\n                                <img class=\"part_phone_2\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_17.png\">\n                            <\/div>\n\n\n                        <\/div>\n                    <\/div>\n\n                <\/div>\n            <\/div>\n            <div class=\"row_auto_100 mg_15\">\n                <div class=\"section_90\">\n                    <div class=\"content_50\">\n                        <img class=\"person_bike\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_18.png\">\n                    <\/div>\n                    <div class=\"card_text_bike\">\n                        <div class=\"row_auto\">\n                            <div class=\"p_icon\">\n                                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_19.png\">\n                            <\/div>\n                            <span>BLUETOOTH 5.0<\/span>\n                            <p>O fone de ouvido com Bluetooth 5.0 permite uma conexão mais estável e com menos\n                                interrupções.<\/p>\n                        <\/div>\n                    <\/div>\n\n                <\/div>\n\n            <\/div>\n        <\/div>\n\n        <div class=\"section_description\">\n            <div class=\"text_sub_title\">\n                <span><b>Você tem o dia inteiro de muita música!<\/b><\/span>\n            <\/div>\n\n            <div class=\"text_sub_title_2\">\n                <span>\n                    25\n                <\/span>\n                <p>horas<\/p>\n                <label>de reprodução sem parar.*<\/label>\n            <\/div>\n            <label class=\"info\">*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/label>\n\n\n        <\/div>\n\n        <div class=\"section section_batery\">\n            <div class=\"effect effect_batery_left\">\n\n            <\/div>\n            <div class=\"effect_batery_center\">\n                <div class=\"bt_text_left\">\n                    <span> 15 min<\/span>\n                    <label>de carregamento<\/label>\n                <\/div>\n                <div class=\"bt_text_center\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_21.png\">\n                <\/div>\n\n                <div class=\"bt_text_right\">\n                    <span>3h30<\/span>\n                    <label>de muita música<\/label>\n                <\/div>\n\n            <\/div>\n            <div class=\"effect effect_batery_right\">\n\n            <\/div>\n        <\/div>\n\n    <\/div>\n    <div class=\"section bg_black\">\n        <div class=\"row_auto\">\n            <div class=\"content_50\">\n                <img class=\"phone_D\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_22.png\">\n            <\/div>\n\n            <div class=\"card_write_D\">\n                <span><b>DESIGN DOBRÁVEL<\/b><\/span>\n            <\/div>\n\n            <div class=\"paragraf_D\">\n                <p>Com design dobrável, é um fone de ouvido ideal para levar dentro da mochila e ter suas playlists\n                    sempre à mão. <\/p>\n            <\/div>\n\n\n        <\/div>\n\n    <\/div>\n    <div class=\"section\">\n        <div class=\"content_50\">\n            <div class=\"bg_green green_1 mg_10 mg_left_15\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_23.png\">\n            <\/div>\n            <div class=\"bg_green green_2 mg_5 mg_left_15\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_24.png\">\n            <\/div>\n            <div class=\"bg_green green_3 mg_5 mg_left_15 mg_botton_finish\">\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_25.png\">\n            <\/div>\n        <\/div>\n        <div class=\"content_phone_lateral\">\n            <div class=\"phone_lateral\">\n\n                <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/2313\/2591\/files\/desc_fone-de-ouvido-bluetooth-sense-200hb_26.png\">\n\n            <\/div>\n        <\/div>\n\n    <\/div>\n\n\n<\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_9FJVRj": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_PLqizh": {
+          "type": "heading",
+          "settings": {
+            "text": "HEADPHONE BLUETOOTH \u2028SENSE 210",
+            "heading_tag": "h4",
+            "html_tag": "p"
+          }
+        },
+        "subheading_7gVfPp": {
+          "type": "subheading",
+          "settings": {
+            "text": "Respeita sua batida"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PLqizh",
+        "subheading_7gVfPp"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 150px; margin-left: 150px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/capa-sense-210_f9759a9e-71ce-4bf9-94d7-b1743a5a12a1.png",
+        "mobile_image": "shopify:\/\/shop_images\/capa-sense-210-_mobile.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_bX3hGY": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_YmHKMh": {
+          "type": "heading",
+          "settings": {
+            "text": "Mais que som,",
+            "heading_tag": "h2",
+            "html_tag": "p"
+          }
+        },
+        "heading_btQTLP": {
+          "type": "heading",
+          "settings": {
+            "text": "é sensação.",
+            "heading_tag": "h2",
+            "html_tag": "p"
+          }
+        },
+        "subheading_fDq9qE": {
+          "type": "subheading",
+          "settings": {
+            "text": "RESPEITA SUAS DIFERENÇAS"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YmHKMh",
+        "heading_btQTLP",
+        "subheading_fDq9qE"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/06.Banner-html-sense-200_37aac3d9-10cb-476f-8199-6ff6fc2ed70c.png",
+        "mobile_image": "shopify:\/\/shop_images\/20.Banner-html-sense-200_0cf4d8c0-9b2e-456f-9829-08f4c68b8fc8.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "tabs_q8QKd7": {
+      "type": "tabs",
+      "blocks": {
+        "tab_jLeVqQ": {
+          "type": "tab",
+          "settings": {
+            "title": "Múltiplas conexões",
+            "content": "<p>A <strong>conectividade P2 e o cabo destacável<\/strong> do WAAW SENSE 210 proporcionam versatilidade para você usar o fone com ou sem fio, onde e como quiser. <\/p>",
+            "page": ""
+          }
+        },
+        "tab_JpUQMf": {
+          "type": "tab",
+          "settings": {
+            "title": "Assistente de Voz",
+            "content": "<p>Dê o play, mude de faixa, ou peça sua música favorita <strong>apenas com sua voz<\/strong>, sem interromper o que fazendo. Mantenha o ritmo da sua rotina com liberdade de movimento e foco no que realmente importa. <\/p>",
+            "page": ""
+          }
+        },
+        "tab_RUemDj": {
+          "type": "tab",
+          "settings": {
+            "title": "Over Ear",
+            "content": "<p>O<strong> toque macio das espumas <\/strong>envolve completamente as orelhas para uma experiência confortável e imersão total em cada batida. Isole-se do mundo ao seu redor para aproveitar o momento. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_jLeVqQ",
+        "tab_JpUQMf",
+        "tab_RUemDj"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 100px; margin-left: 100px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "small",
+        "subheading": "",
+        "title": "A melhor qualidade de áudio sem perder o conforto",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "image_with_text_overlay_XdbhnF": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/sense-210-grande_816ec816-197c-4671-b7f3-1b70ce57176a.png",
+        "mobile_image": "shopify:\/\/shop_images\/sense-210-grande_816ec816-197c-4671-b7f3-1b70ce57176a.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "impact_text_tiBFYq": {
+      "type": "impact-text",
+      "blocks": {
+        "item_QXpA9U": {
+          "type": "item",
+          "settings": {
+            "title": "até 40h",
+            "reduce_margins": false,
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_QXpA9U"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "grid_alignment": "top",
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#dfdfdf",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "rich_text_pnebRx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8B3heB": {
+          "type": "heading",
+          "settings": {
+            "text": "Um dia todo de muita música",
+            "heading_tag": "h2",
+            "html_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qqMU3J": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Seja no caminho para o trabalho, durante os treinos ou relaxando em casa, você merece curtir sua trilha sonora favorita com o som potente e nítido do WAAW SENSE 210. Com apenas uma recarga, é possível ouvir até 40 horas de música sem interrupção. É só dar o play e deixar rolar, sem preocupações.<\/p>",
+            "paragraph_font_size": 14
+          }
+        },
+        "richtext_LzUwrE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>**Duração de 40 horas da bateria com volume em 50% (a duração pode variar conforme o tipo de música reproduzida) <\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_8B3heB",
+        "richtext_qqMU3J",
+        "richtext_LzUwrE"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "images_with_text_scrolling_QrnEWy": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_CHXpGe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sense-210-foto2_0ce36a46-a9b8-447d-ae9f-dc1dc0ac8b3f.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/controle-sense-210.png",
+            "icon_width": 72,
+            "title": "Controle de toque ",
+            "html_heading_tag": "h2",
+            "content": "<p>Com os <strong>botões laterais<\/strong>, atenda chamadas e controle suas músicas de forma rápida e intuitiva. <\/p>"
+          }
+        },
+        "item_74GzKP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sense-210-foto_e6fbe1ee-9294-4029-a5df-2aeb5ffd5012.png",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/hand-free-sense-210.png",
+            "icon_width": 72,
+            "title": "Hands Free ",
+            "html_heading_tag": "h2",
+            "content": "<p>Tenhas as mãos livres! O microfone embutido e os botões laterais proporcionam<strong> muito mais mobilidade. <\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_CHXpGe",
+        "item_74GzKP"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "media_with_text_TkK3RK": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_CxryWU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sense-210-dobravel_8ff18bdf-ccbd-4403-9d53-a82402ba0fb6.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/dobravel-sense-210.png",
+            "icon_width": 72,
+            "subheading": "",
+            "title": "Design leve dobrável ",
+            "heading_tag": "h2",
+            "content": "<p>Dobrou, guardou, partiu! O design dobrável do <strong>SENSE 210 <\/strong>se adapta ao seu estilo de vida, sendo o companheiro ideal para quem não para. Basta dobra-ló, colocar na mochila ou na bolsa, e começar o dia. <strong>Leve, compacto e cheio de estilo, <\/strong>ele te acompanha aonde você for. <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CxryWU"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "none"
+      }
+    },
+    "text_with_icons_zDJmne": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_rUe6xT": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/cabo-sense-210.png",
+            "mobile_icon_width": 52,
+            "icon_width": 72,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Cabo destacável ",
+            "content": "<p>O <strong>cabo destacável de 1,5m<\/strong> é tudo o que você precisa para se mover livremente enquanto ouve suas faixas favoritas. <\/p>",
+            "link": "",
+            "link_text": "Read more"
+          }
+        },
+        "item_m8Fida": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify:\/\/shop_images\/bluetooth-sense-210.png",
+            "mobile_icon_width": 52,
+            "icon_width": 72,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Bluetooth 5.3",
+            "content": "<p>O fone oferece uma <strong>conexão mais estável e um alcance maior<\/strong>, permitindo que você vá mais longe sem interrupções. <\/p>",
+            "link": "",
+            "link_text": "Read more"
+          }
+        }
+      },
+      "block_order": [
+        "item_rUe6xT",
+        "item_m8Fida"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p {margin-right: 45px; margin-left: 45px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "columns_boxed": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "background_card_color": "",
+        "text_card_color": ""
+      }
+    },
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
+      "type": "media-grid",
+      "blocks": {
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sense-210-03_e90afc3b-5c45-46d3-bfc0-7750aeb280fd.png",
+            "title": "",
+            "heading_tag": "h2",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sense-210-01_57a80be3-abf8-4b5a-9014-98bd946ad816.png",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 3,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sense-210-02_fbd27adb-c304-4d38-88fd-41c2f0549a89.png",
+            "title": "",
+            "heading_tag": "h2",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#e0e621",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2",
+        "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18": {
+      "type": "feature-chart",
+      "blocks": {
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Modelo",
+            "heading_2": "Tipo de conexão do cabo de carregamento Micro",
+            "heading_3": "Desligamento Automático",
+            "heading_4": "Cor",
+            "heading_5": "Possui entrada auxiliar",
+            "heading_6": "Acessórios",
+            "heading_7": "Perfis bluetooth",
+            "heading_8": "Autonomia após 15 min de carga",
+            "heading_9": "Tempo de reprodução de música (h)",
+            "heading_10": "Versão do Bluetooth",
+            "heading_11": "Tamanho do driver (mm)",
+            "heading_12": "Impedância do Speaker (ohms)",
+            "heading_13": "Tempo de carregamento (h)",
+            "heading_14": "Peso líquido (g)",
+            "heading_15": "Resposta de Frequência (Hz)",
+            "heading_16": "Dimensões do produto C x L x A (cm)",
+            "heading_17": "Certificado ANATEL",
+            "heading_18": "Potência de Saída (mW) (RMS)",
+            "heading_19": "Bateria (mAh)",
+            "heading_20": "Alcance máximo (m)",
+            "heading_21": "Sensibilidade do Driver a 1kHz1mW (dB)",
+            "heading_22": "Garantia",
+            "heading_23": "Rotação de 90º das conchas",
+            "heading_24": "Dobráveis",
+            "heading_25": "Regulagem de altura",
+            "heading_26": "Cancelamento Ativo de Ruído",
+            "heading_27": "Over-ear [Envolvendo a orelha]",
+            "heading_28": "Controle sensível ao toque",
+            "heading_29": "Controle com botões",
+            "heading_30": "Microfone integrado",
+            "heading_31": "Compatível com assistente de voz",
+            "heading_32": "Acompanha cabo P2 (m)",
+            "heading_33": "Reprodução automática \/ pause",
+            "heading_34": "Conectividade APP",
+            "heading_35": "Peso Bruto da Embalagem (g)",
+            "heading_36": "Cubagem da Embalagem (m³)",
+            "heading_37": "",
+            "heading_38": "",
+            "heading_39": "",
+            "heading_40": ""
+          }
+        },
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p>WAAW SENSE 200HB<\/p>",
+            "value_2": "<p>USB<\/p>",
+            "value_3": "<p>Sim (em modo de conexão)<\/p>",
+            "value_4": "<p>Preto e Verde<\/p>",
+            "value_5": "<p>Sim<\/p>",
+            "value_6": "<p>Cabo Micro USB a Cabo Auxiliar P2 com 1m<\/p>",
+            "value_7": "<p>A2DP \/ AVRCP \/ HSP \/ HFP<\/p>",
+            "value_8": "<p>3h e 30 min<\/p>",
+            "value_9": "<p>Até 25h; Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "value_10": "<p>5.0<\/p>",
+            "value_11": "<p>40mm<\/p>",
+            "value_12": "<p>36 ohms<\/p>",
+            "value_13": "<p>2h<\/p>",
+            "value_14": "<p>225g<\/p>",
+            "value_15": "<p>20Hz – 20kHz<\/p>",
+            "value_16": "<p>17 x 19 x 7,5 cm<\/p>",
+            "value_17": "<p>17073-21-12143<\/p>",
+            "value_18": "<p>10mW<\/p>",
+            "value_19": "<p>300 mAh<\/p>",
+            "value_20": "<p>10m O alcance máximo do Bluetooth depende de um ambiente sem obstruções para funcionar dentro do raio indicado.<\/p>",
+            "value_21": "<p>110dB +\/- 3dB<\/p>",
+            "value_22": "<p>01 ANO (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante)<\/p>",
+            "value_23": "<p>Não<\/p>",
+            "value_24": "<p>Sim<\/p>",
+            "value_25": "<p>Sim<\/p>",
+            "value_26": "<p>Não<\/p>",
+            "value_27": "<p>Não<\/p>",
+            "value_28": "<p>Sim<\/p>",
+            "value_29": "<p>Sim<\/p>",
+            "value_30": "<p>Sim<\/p>",
+            "value_31": "<p>Sim<\/p>",
+            "value_32": "<p>Não<\/p>",
+            "value_33": "<p>Não<\/p>",
+            "value_34": "<p>Não<\/p>",
+            "value_35": "<p>390g<\/p>",
+            "value_36": "<p>0,003252776 m³<\/p>",
+            "value_37": "",
+            "value_38": "",
+            "value_39": "",
+            "value_40": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-0",
+        "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Conforto e estilo para cada batida das suas músicas ",
+        "content": "<p>Curta cada segundo das suas músicas favoritas com o conforto e o estilo do <strong>Headphone Bluetooth WAAW SENSE 210, <\/strong>aproveitando cada batida como se fosse a última. Os fones de ouvido oferecem <strong>até 40 horas* de reprodução<\/strong> contínua, além da leveza e design que só a WAAW tem. <\/p><p>Com a rápida conexão do <strong>Bluetooth V5.3<\/strong> e a compatibilidade com o <strong>cabo P2<\/strong>, o cabo destacável garante que você possa continuar ouvindo música sem interrupções, com conforto absoluto, mesmo durante viagens longas. <\/p><p>Leve e dobrável, o design <strong>over ear<\/strong> do <strong>WAAW SENSE 210<\/strong> proporciona um ajuste confortável ao redor da orelha, permitindo horas de uso sem causar incômodos. As almofadas bloqueiam ruídos externos, o que promove uma experiência de som mais imersiva. <\/p><p>Compatível com <strong>assistente de voz<\/strong>, o fone de ouvido Bluetooth oferece mais liberdade de movimento ao atender chamadas sem precisar usar as mãos. Com o <strong>controle de toque inteligente, <\/strong>você pode gerenciar suas ligações, trocar a música e acionar recursos de forma fácil, enquanto organiza sua rotina ou praticar exercícios. <\/p><p>Sinta cada batida da sua playlist por mais tempo, com conforto e conexão estável. Viva a música com o <strong>Headphone Bluetooth WAAW SENSE 210. <\/strong> <\/p><p><strong>WAAW | Respeita sua batida.<\/strong> <\/p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 15,
+        "subheading_specification": "",
+        "title_specification": "",
+        "view_all_text": "Ver mais",
+        "view_less_text": "Ver menos",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": false,
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "1b036d2c-595c-4d06-84cf-493e1da4fceb": {
+      "type": "multi-column",
+      "blocks": {
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01.Icone-bateria-Grande.png",
+            "item_icon_width": 1,
+            "column_size": "4",
+            "title": "Até 25 horas de autonomia",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17.Icone-over-ear-Grande.png",
+            "item_icon_width": 1,
+            "column_size": "4",
+            "title": "Over Ear",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16.Icone-conexao-multipontos-Grande.png",
+            "item_icon_width": 1,
+            "column_size": "4",
+            "title": "Conexão multipontos",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "fa62df9d-0060-463e-ac6b-91ae1c6e7621": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/09.Icone-hands-free-ou-microfone-Grande.png",
+            "item_icon_width": 1,
+            "column_size": "4",
+            "title": "Microfone integrado",
+            "heading_tag": "h6",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-1",
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-2",
+        "template--15963751579823__1b036d2c-595c-4d06-84cf-493e1da4fceb-item-3",
+        "fa62df9d-0060-463e-ac6b-91ae1c6e7621"
+      ],
+      "disabled": true,
+      "settings": {
+        "multicolumn_carousel": true,
+        "full_width": true,
+        "stack_on_mobile": false,
+        "hide_on_mobile": false,
+        "side_margin": 0,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Sobre o item",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "product_card_background": "",
+        "product_card_text_color": "",
+        "newsletter_background_color": "",
+        "newsletter_text_color": ""
+      }
+    },
+    "bac92a01-ed39-4116-9357-048e21326ec5": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "John S.",
+            "title": "",
+            "content": "<p>Ótimo produto recomendo a todos interessados um som de altíssima qualidade<\/p>"
+          }
+        },
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "",
+            "content": "<p>Caixa de som de excelente qualidade! Super recomendo, um ótimo custo benefício, vale muito a pena! Amei! (;<\/p>"
+          }
+        },
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 3,
+            "author": "Joshua A.",
+            "title": "",
+            "content": "<p>Para uso em ambientes internos ela é uma boa opção, mas ambientes externos como ex. Praia camping deixa um pouco à desejar!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-0",
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-1",
+        "template--15950778466479__bac92a01-ed39-4116-9357-048e21326ec5-1689278122ef7e0f7e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Avaliações recentes",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#000000",
+        "heading_gradient": "",
+        "testimonial_card_background": "#f5f5f5",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8": {
+      "type": "faq",
+      "blocks": {
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1": {
+          "type": "item",
+          "settings": {
+            "title": "Como conectar meu fone ao bluetooth do meu dispositivo?",
+            "content": "<p>Para conectar o bluetooth do fone com seu dispositivo, ao ligar o headphone o modo de pareamento já será acionado.<br\/>Selecione os fones no seu dispositivo e já estará conectado.<br\/>Todas as vezes que você ligar o fone, ele irá parear automaticamente com o último dispositivo conectado.<br\/>Para conectar a um novo dispositivo que ainda não foi pareado, basta desconectar o fone do aparelho anterior. Assim ele ficará em modo de pareamento novamente.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2": {
+          "type": "item",
+          "settings": {
+            "title": "Como conectar dois dispositivos simultâneos?",
+            "content": "<p>Para fazer a conexão em dois aparelhos ao mesmo tempo, você precisa fazer a conexão no primeiro dispositivo, e desativar o bluetooth desse aparelho.<br\/>Em seguida, você faz essa mesma conexão no segundo dispositivo que quer parear, e ativa o bluetooth de ambos os aparelhos.<br\/>Assim, é possível usar o fone nos dois dispositivos de maneira simultânea.<\/p>"
+          }
+        },
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3": {
+          "type": "item",
+          "settings": {
+            "title": "Qual a autonomia do fone?",
+            "content": "<p>Total de até 25h de reprodução de música.<\/p>"
+          }
+        },
+        "54a49711-e3e9-410a-b94e-ee2b9eff3f1d": {
+          "type": "item",
+          "settings": {
+            "title": "Meu fone não liga. O que fazer?",
+            "content": "<p>Verifique se o produto possui carga suficiente. Caso contrário, conecte-o para carregar e aguarde o tempo especificado no manual até a carga completa.<\/p><p>certifique-se de ter pressionado o botão correto para ligá-los. Verifique se tem algum LED aceso ou piscando, isso pode indicar se<br\/>produto está ou não ligado.<\/p><p>Certifique-se de que a tomada usada está funcionando corretamente, testando-a com outro dispositivo de carga. Use um carregador com especificações fornecidas no manual de instruções do usuário, evitando o uso de cabos de carregadores de celular.<\/p><p>Se o problema persistir, tente carregar o produto com outro cabo USB e verifique se há sujeira na entrada USB do produto. Caso haja, limpe-a cuidadosamente.<\/p>"
+          }
+        },
+        "48efc721-fe63-4bb9-aed7-7ca4e5952765": {
+          "type": "item",
+          "settings": {
+            "title": "Estou com problemas no som. O que fazer?",
+            "content": "<p>Tenha em mente que a distância máxima para comunicação sem<br\/>fio (Bluetooth) é de até 10 metros, sem barreiras. Obstruções físicas podem interferir na comunicação e causar falhas. Certifique-se de que não haja obstáculos entre os dispositivos.<\/p><p>Caso esteja utilizando algum streaming de áudio que necessite da utilização de dados de internet, verifique se há conexão com a internet e se ela está estável.<\/p><p>Tente desligar e ligar os fones de ouvido para restabelecer a conexão ou melhorar a qualidade do áudio.<\/p><p>Esqueça o fone no dispositivo e faça o pareamento novamente. Se necessário, realize o reset ou redefinição dos dispositivos, seguindo as orientações fornecidas no manual.<\/p><p>Faça uma limpeza cuidadosa nos fones de ouvido e nas borrachinhas para remover a sujeira ou o acúmulo de cera.<\/p><p>Verifique a posição do botão de volume e ajuste conforme necessário.<\/p><p>Certifique-se de que o botão de Mute não está ativado.<\/p>"
+          }
+        },
+        "b6c71636-b53f-43d1-955d-8b5070b2b697": {
+          "type": "item",
+          "settings": {
+            "title": "Como fazer a limpeza do meu fone?",
+            "content": "<p>Para limpar seus fones, remova as almofadas caso necessário, utilize um pano limpo e umedeça o tecido com álcool, realize a limpeza delicadamente do fone. <\/p><p>Sabia mais através do nosso <a href=\"https:\/\/blog.waaw.com.br\/como-realizar-a-limpeza-dos-fones-tws\/\">blog<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-1",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-2",
+        "template--15963751579823__bedde819-6097-46a7-ad5f-e40c4bfdb6b8-item-3",
+        "54a49711-e3e9-410a-b94e-ee2b9eff3f1d",
+        "48efc721-fe63-4bb9-aed7-7ca4e5952765",
+        "b6c71636-b53f-43d1-955d-8b5070b2b697"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Ficou com alguma dúvida?",
+        "content": "",
+        "team_avatar_width": 350,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sense-210-final_561e2c9a-85c2-406b-bb8d-f84b2dd3e527.png",
+            "image_rotation_degrees": 0,
+            "external_video_url": "",
+            "subheading": "",
+            "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
+            "content": "<p>Quer saber mais sobre como o headphone WAAW SENSE 210 pode aprimorar sua experiência auditiva? Clique no botão abaixo para acessar o Manual de Instruções e confira um vídeo detalhado sobre o produto, explorando todas as suas funcionalidades extraordinárias.<\/p>",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/SENSE-200HB\/SENSE-200HB-Manual.pdf",
+            "button_text": "Baixe o manual de instruções"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "ae6780da-4602-4adf-a285-b0b91a18dba8": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 8,
+        "products": [],
+        "full_width": true,
+        "stack_products": false,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "subheading": "",
+        "title": "Veja também",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "#ffffff",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3e1a8b69-7217-4431-9836-f7b25dc653ff",
+    "image_with_text_overlay_9FJVRj",
+    "image_with_text_overlay_bX3hGY",
+    "tabs_q8QKd7",
+    "image_with_text_overlay_XdbhnF",
+    "impact_text_tiBFYq",
+    "rich_text_pnebRx",
+    "images_with_text_scrolling_QrnEWy",
+    "media_with_text_TkK3RK",
+    "text_with_icons_zDJmne",
+    "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
+    "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
+    "1b036d2c-595c-4d06-84cf-493e1da4fceb",
+    "bac92a01-ed39-4116-9357-048e21326ec5",
+    "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "ae6780da-4602-4adf-a285-b0b91a18dba8",
+    "related-products"
+  ]
+}

@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_9JNHJb": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li>Conexão <strong>multipontos<\/strong>;<\/li><li><strong>25 horas<\/strong> de reprodução;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>OVER EAR<\/strong> ideal para uso prolongado;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
+            "text": "<ul><li>Conexão <strong>multipontos<\/strong>;<\/li><li><strong>25 horas<\/strong> de reprodução;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>OVER EAR<\/strong> ideal para uso prolongado;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
         "62956669-151f-44d3-b98f-3ca17bcae0e4": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_9JNHJb",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "62956669-151f-44d3-b98f-3ca17bcae0e4",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -173,7 +183,8 @@
           "type": "heading",
           "settings": {
             "text": "Fone de Ouvido Sense 200",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_7gVfPp": {
@@ -211,14 +222,16 @@
           "type": "heading",
           "settings": {
             "text": "A música te faz viajar.",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "p"
           }
         },
         "heading_btQTLP": {
           "type": "heading",
           "settings": {
             "text": "Devolva o favor.",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "p"
           }
         },
         "subheading_fDq9qE": {
@@ -357,6 +370,7 @@
           "settings": {
             "text": "Um dia todo de muita música",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -364,13 +378,15 @@
         "richtext_qqMU3J": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ouça até 25 horas de músicas no <strong>SENSE 200<\/strong> sem ser interrompido. Com apenas 15 min de carregamento, você terá até 3h e 30 min de reproduções garantida.<\/p>"
+            "content": "<p>Ouça até 25 horas de músicas no <strong>SENSE 200<\/strong> sem ser interrompido. Com apenas 15 min de carregamento, você terá até 3h e 30 min de reproduções garantida.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_LzUwrE": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -400,6 +416,7 @@
             "custom_icon": "shopify:\/\/shop_images\/10.Banner-html-sense-200_4d3741c6-a2ab-4e01-b482-d36125db52fe.png",
             "icon_width": 56,
             "title": "Entrada auxiliar P2",
+            "html_heading_tag": "h2",
             "content": "<p>Mesmo quando a bateria acaba, a música não para! O<strong> FONE WAAW by ALOK<\/strong> acompanha um cabo P2 de 1,2 metros para conectar ao dispositivo e fazer com que o som continue.<\/p>"
           }
         },
@@ -411,6 +428,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Banner-html-sense-200_c1a7477c-ac17-46e4-a002-84ed567b8815.png",
             "icon_width": 48,
             "title": "Controle de toque",
+            "html_heading_tag": "h2",
             "content": "<p>Com os botões laterais, atenda chamadas e controle suas músicas de forma rápida e intuitiva.<\/p>"
           }
         }
@@ -447,6 +465,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Design dobrável",
+            "heading_tag": "h2",
             "content": "<p>O <strong>SENSE 200<\/strong>, com design dobrável, é a escolha perfeita para quem está sempre em movimento. Leve o fone dentro de bolsas ou mochilas e tenha suas playlists sempre à mão.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -989,6 +1008,7 @@
             "external_video_url": "https:\/\/youtu.be\/M1HTCjJR2uc",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Quer saber mais sobre como o headphone WAAW SENSE 200HB pode aprimorar sua experiência auditiva? Clique no botão abaixo para acessar o Manual de Instruções e confira um vídeo detalhado sobre o produto, explorando todas as suas funcionalidades extraordinárias.<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/SENSE-200HB\/SENSE-200HB-Manual.pdf",
             "button_text": "Baixe o manual de instruções"

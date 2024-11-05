@@ -27,6 +27,7 @@ Supported variables
 {%- assign show_quick_buy = show_quick_buy | default: settings.show_quick_buy, allow_false: true -%}
 {%- assign show_secondary_image = show_secondary_image | default: settings.show_secondary_image, allow_false: true -%}
 {%- assign text_alignment = text_alignment | default: settings.product_info_alignment -%}
+{%- assign card_heading_tag = card_heading_tag | default: 'span' -%}
 
 {%- if stacked and section.settings.products_per_row_mobile == '2' -%}
   {%- assign mobile_reduced = true -%}
@@ -47,16 +48,7 @@ Supported variables
 {%- endif -%}
 
 <product-card handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}>
-  {%- comment -%}
-  --------------------------------------------------------------------------------------------------------------------
-  PRODUCT BADGES
-  --------------------------------------------------------------------------------------------------------------------
-  {%- endcomment -%}
-
-  {%- if show_badges and product.media.size > 0 -%}
-    {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
-  {%- endif -%}
-
+  
   {%- comment -%}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT MEDIA
@@ -65,6 +57,16 @@ Supported variables
 
   {%- if product.media.size > 0 -%}
     <div class="product-card__figure">
+      {%- comment -%}
+      --------------------------------------------------------------------------------------------------------------------
+      PRODUCT BADGES
+      --------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- if show_badges and product.media.size > 0 -%} 
+        {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+      {%- endif -%}
+
       <a href="{{ product.url }}" data-instant class="link-product-card">
         {%- capture sizes -%}
           {%- if stacked -%}
@@ -146,7 +148,7 @@ Supported variables
     <div class="v-stack gap-0.5 w-full {% if text_alignment == 'center' %}justify-items-center{% endif %}">
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
-          <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+          <{{ card_heading_tag }} class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></{{ card_heading_tag }}>
 
           {%- if text_alignment != 'center' -%}
             {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
@@ -154,7 +156,7 @@ Supported variables
           {%- endif -%}
         </div>
       {%- else -%}
-        <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+        <{{ card_heading_tag }} class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></{{ card_heading_tag }}>
       {%- endif -%}
 
       {% if show_description  %}

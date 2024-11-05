@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_C38VDJ": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><p><strong>14 horas<\/strong> de reprodução;<br\/><strong>Bluetooth 5.0<\/strong>;<br\/><strong>2 tweeters <\/strong>e <strong>2 full ranges<\/strong>;<br\/>Botão <strong>Power Bass<\/strong>;<br\/><strong>4<\/strong> opções de conexão;<br\/>Classificação<strong> IPX4<\/strong> resistente a respingos;<br\/>WAAW Plus Tecnologia <strong>TWS<\/strong>;<br\/><\/p>"
+            "text": "<p><strong>14 horas<\/strong> de reprodução;<br\/><strong>Bluetooth 5.0<\/strong>;<br\/><strong>2 tweeters <\/strong>e <strong>2 full ranges<\/strong>;<br\/>Botão <strong>Power Bass<\/strong>;<br\/><strong>4<\/strong> opções de conexão;<br\/>Classificação<strong> IPX4<\/strong> resistente a respingos;<br\/>WAAW Plus Tecnologia <strong>TWS<\/strong>;<br\/><\/p>"
           }
         },
         "ec206dff-c4b5-464a-b9ff-cce25d2df9a8": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_C38VDJ",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "ec206dff-c4b5-464a-b9ff-cce25d2df9a8",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -157,7 +167,8 @@
           "type": "heading",
           "settings": {
             "text": "Caixa de Som Infinite 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1": {
@@ -194,6 +205,7 @@
           "settings": {
             "text": "Ouça no volume que a música merece: o máximo",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -251,6 +263,7 @@
           "settings": {
             "text": "Muita potência",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -378,6 +391,7 @@
           "settings": {
             "text": "Para aproveitar as festas mais épicas",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -418,7 +432,8 @@
           "type": "heading",
           "settings": {
             "text": "WAAW Plus",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
@@ -460,7 +475,8 @@
             "custom_icon": "shopify:\/\/shop_images\/11.Banner-html-sense-200.png",
             "icon_width": 56,
             "title": "Conectividade",
-            "content": "<p>A <strong>WAAW INFINITE 100<\/strong> oferece quatro opções de conexão: <strong>Bluetooth 5.0<\/strong>, <strong>Cabo auxiliar USB-C<\/strong>, <strong>Porta USB<\/strong> para pendrive e microfone.<\/p>"
+            "html_heading_tag": "h2",
+            "content": "<p>A WAAW <strong>INFINITE 100<\/strong> oferece quatro opções de conexões: <\/p><p><strong>Bluetooth 5.0<\/strong>, Entrada auxiliar <strong>P2<\/strong>, <strong>USB -A<\/strong> para pendrive, <strong>P10<\/strong> para microfone, além da <strong>USB-C <\/strong>para carregamento.<\/p>"
           }
         },
         "template--16080146268335__45a81e0d-525c-486b-8405-5333e75aa09b-item-2": {
@@ -471,6 +487,7 @@
             "custom_icon": "shopify:\/\/shop_images\/12.Html-infinite-100_b89984f8-8404-4c49-86a3-91dd6af657a0.png",
             "icon_width": 56,
             "title": "Show de Luzes",
+            "html_heading_tag": "h2",
             "content": "<p>Faça sua festa brilhar! Transforme qualquer lugar em uma pista de dança vibrante com o <strong>show de luzes<\/strong> em LED dinâmico, que seguem o ritmo da música.<\/p>"
           }
         }
@@ -499,7 +516,8 @@
           "type": "heading",
           "settings": {
             "text": "Proteção IPX4",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "template--16080146268335__40d921da-8d7b-452f-9f0a-19b33fc97598-richtext-1": {
@@ -641,7 +659,7 @@
             "heading_19": "Configuração do driver",
             "heading_20": "Entrada para microfone",
             "heading_21": "Desligamento Automático",
-            "heading_22": "Certificado ANATEL",
+            "heading_22": "Dimensões (CxLxA) e peso do produto",
             "heading_23": "Controle com botões",
             "heading_24": "Entrada cabo de áudio 3,5 mm",
             "heading_25": "Entrada USB",
@@ -659,7 +677,7 @@
             "heading_37": "Cor",
             "heading_38": "Material",
             "heading_39": "Garantia",
-            "heading_40": ""
+            "heading_40": "Dimensões (CxLxA) e peso da embalagem"
           }
         },
         "template--15950778466479__02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18-1689276480a64df480-2": {
@@ -687,7 +705,7 @@
             "value_19": "<p>Unidirecional<\/p>",
             "value_20": "<p>1 entrada\/ P10 (6,35mm)<\/p>",
             "value_21": "<p>Sim, após 5 min sem conexão<\/p>",
-            "value_22": "<p>Sim<\/p>",
+            "value_22": "<p>19 x 21 x 40 cm \/ 4kg<\/p>",
             "value_23": "<p>Sim<\/p>",
             "value_24": "<p>Sim<\/p>",
             "value_25": "<p>Sim<\/p>",
@@ -705,7 +723,7 @@
             "value_37": "<p>Preto e Verde<\/p>",
             "value_38": "<p>Polímeros e Metais<\/p>",
             "value_39": "<p>Produto: 1 Ano (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante).<br\/>Bateria: 6 Meses<\/p>",
-            "value_40": "",
+            "value_40": "<p>23,3 x 21,2 x 45,5 cm \/ 4,9kg<\/p>",
             "view_button_background": "",
             "view_button_text_color": ""
           }
@@ -829,8 +847,9 @@
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-            "button_url": "#",
+            "html_heading_tag": "p",
+            "content": "",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/INFINITE-100\/WAAW-INFINITE-100-Manual.pdf",
             "button_text": "Baixe o manual de instruções"
           }
         }
@@ -838,7 +857,6 @@
       "block_order": [
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "images_layout": "stacked",

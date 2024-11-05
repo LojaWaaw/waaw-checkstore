@@ -79,8 +79,7 @@
               {%- capture accordion_content -%}
                 <div class="prose">{{ block.settings.content }}</div>
               {%- endcapture -%}
-
-              {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
+              {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block, toggler_heading_tag:'h3' -%}
             {%- endif -%}
           {%- endfor -%}
         </div>

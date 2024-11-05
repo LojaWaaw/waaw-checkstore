@@ -1,0 +1,156 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": true,
+        "collection_title_size": "h0",
+        "image_size": "auto",
+        "image": "{{ collection.metafields.my_fields.collection_image_desktop.value }}",
+        "mobile_image": "{{ collection.metafields.my_fields.collection_image_mobile.value }}",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_lol1qB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CYzT1H": {
+          "type": "heading",
+          "settings": {
+            "text": "Fones de Ouvido com fio",
+            "heading_tag": "h1",
+            "html_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_CYzT1H"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "a887f921-e48e-47c6-86d4-d285acff434d": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-site-infiniti200.png",
+            "mobile_image": "shopify:\/\/shop_images\/Banner-site-mobile-infiniti200.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16080082567343__a887f921-e48e-47c6-86d4-d285acff434d-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "horizontal",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_color_swatch": true,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
+        "open_first_filter_group": false
+      }
+    },
+    "media_with_text_TVVHKC": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_XcNpRy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sub._Com_Fio_H2_-_Como_cuidar_do_fone_de_ouvido_com_fio.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Como cuidar do fone de ouvido com fio?",
+            "heading_tag": "h2",
+            "content": "<p>Para fazer seu fone com fio durar mais, é importante adotar alguns cuidados simples. Sempre desconecte o fone segurando pelo plugue e nunca puxando pelo cabo, para evitar danos. E na hora de armazenar e guardar seu fone, enrole o fio de forma suave e evite dobrar o cabo em ângulos agudos, o que pode enfraquecer o fio.<\/p><p>Mantenha o fone limpo e seco, evitando exposição à umidade e sujeira. Também use capas protetoras para os conectores e o cabo sempre que possível. Além disso, evite usar o fone enquanto ele está enrolado no bolso ou em locais onde possa ser preso. Com essas dicas, seu fone vai continuar oferecendo um som de qualidade por muito mais tempo!<\/p>",
+            "link_text": "Saiba mais",
+            "link_url": "https:\/\/blog.waaw.com.br\/como-cuidar-dos-fones-com-fio\/",
+            "background": "#e0e621",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_XcNpRy"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_lol1qB",
+    "a887f921-e48e-47c6-86d4-d285acff434d",
+    "main",
+    "media_with_text_TVVHKC"
+  ]
+}

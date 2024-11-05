@@ -66,11 +66,20 @@
             "payment_button_text_color": ""
           }
         },
+        "heading_xayHmc": {
+          "type": "heading",
+          "settings": {
+            "text": "O que você precisa saber sobre este produto:",
+            "bold": true,
+            "class": "p",
+            "html_tag": "h2"
+          }
+        },
         "9fa0844a-2eed-4050-832a-fa2b710383ec": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p><strong>O que você precisa saber sobre este produto:<\/strong><\/p><ul><li><strong>10 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong> e cartão de memória (<strong>micro SD<\/strong>);<\/li><li>Classificação <strong>IPX6 resistente a água<\/strong>;<\/li><li>Prático e compacto;<\/li><li><strong>SKIN WAAW<\/strong> toque emborrachado;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
+            "text": "<ul><li><strong>10 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth 5.0<\/strong> e cartão de memória (<strong>micro SD<\/strong>);<\/li><li>Classificação <strong>IPX6 resistente a água<\/strong>;<\/li><li>Prático e compacto;<\/li><li><strong>SKIN WAAW<\/strong> toque emborrachado;<\/li><li><strong>WAAW Plus<\/strong> Tecnologia TWS;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas.<\/li><\/ul>"
           }
         },
         "c7c98aaf-855b-43e7-b74a-3324a73ef3d0": {
@@ -99,6 +108,7 @@
         "payment_terms",
         "quantity_selector",
         "buy_buttons",
+        "heading_xayHmc",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
         "c7c98aaf-855b-43e7-b74a-3324a73ef3d0",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
@@ -172,7 +182,8 @@
           "type": "heading",
           "settings": {
             "text": "Caixa de Som US 100",
-            "heading_tag": "h1"
+            "heading_tag": "h1",
+            "html_tag": "p"
           }
         },
         "subheading_q3REmg": {
@@ -211,6 +222,7 @@
           "settings": {
             "text": "Mais músicas, mais memórias.",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -218,13 +230,15 @@
         "richtext_wTg8EQ": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>RESPEITA SEUS MOMENTOS<\/strong><\/p>"
+            "content": "<p><strong>RESPEITA SEUS MOMENTOS<\/strong><\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_yNRPDe": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Leve sempre a playlist perfeita com você! A caixa de som Bluetooth <strong>US 100<\/strong> WAAW é potente, e proporciona alto desempenho sonoro com máxima nitidez em cada batida. Curta sua música com qualidade, onde quer que vá!<\/p>"
+            "content": "<p>Leve sempre a playlist perfeita com você! A caixa de som Bluetooth <strong>US 100<\/strong> WAAW é potente, e proporciona alto desempenho sonoro com máxima nitidez em cada batida. Curta sua música com qualidade, onde quer que vá!<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -359,6 +373,7 @@
           "settings": {
             "text": "Reproduza seus áudios sem preocupação",
             "heading_tag": "h2",
+            "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
@@ -366,13 +381,15 @@
         "richtext_rqdtNb": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Com até 10 horas de autonomia de bateria, você tem liberdade para ouvir músicas, podcasts, filmes e o que mais quiser do seu jeito.<\/p>"
+            "content": "<p>Com até 10 horas de autonomia de bateria, você tem liberdade para ouvir músicas, podcasts, filmes e o que mais quiser do seu jeito.<\/p>",
+            "paragraph_font_size": 14
           }
         },
         "richtext_mWDE6P": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>"
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -397,7 +414,8 @@
           "type": "heading",
           "settings": {
             "text": "Tecnologia TWS",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_xbeBXd": {
@@ -443,6 +461,7 @@
             "icon_width": 56,
             "subheading": "",
             "title": "Conectividade",
+            "heading_tag": "h2",
             "content": "<p>Ouça suas músicas via Bluetooth 5.0 a partir de seu smartphone, tablet, computador ou através do cartão de memória (micro SD).<\/p><p>*Cartão de memória não incluso<\/p>",
             "link_text": "",
             "link_url": "",
@@ -470,7 +489,8 @@
           "type": "heading",
           "settings": {
             "text": "Proteção IPX6",
-            "heading_tag": "h2"
+            "heading_tag": "h2",
+            "html_tag": "h2"
           }
         },
         "richtext_aeXdMK": {
@@ -801,6 +821,7 @@
             "external_video_url": "https:\/\/youtu.be\/wO6nKED0KSE",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
+            "html_heading_tag": "h2",
             "content": "<p>Desperte os seus sentidos e experimente a revolução sonora com a Caixa de Som US 100SB By Alok. Quer explorar ainda mais sobre a caixa de som? Acesse o Manual de Instruções e desfrute de um vídeo informativo e detalhado sobre o produto. Eleve sua música, eleve sua vida. Clique para descobrir a diferença!<\/p>",
             "button_url": "https:\/\/mais.waaw.com.br\/produtos\/US-100SB\/US-100SB-Manual.pdf",
             "button_text": "Baixe o manual de instruções"
