@@ -142,6 +142,7 @@
       "block_order": [
         "play_Ywgz4f"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -156,40 +157,13 @@
     },
     "88ef1528-ce11-4b29-80e4-e8abbccf17eb": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Caixa de Som Bluetooth<\/strong><\/p>"
-          }
-        },
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "WAAW HYPERBOOM 1000",
-            "heading_tag": "h1",
-            "html_tag": "p"
-          }
-        },
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "RESPEITA A SUA BATIDA"
-          }
-        }
-      },
-      "block_order": [
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1",
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1",
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame_40049_9d86db3d-aaec-4052-8312-8396188b7c8e.webp",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_01.webp",
+        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-01_2x_eb2084ec-39c1-4f43-8856-3077b04b5340.webp",
+        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-01_2x_e8125b5f-7571-4f75-b10a-1d691361a7ce.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -203,31 +177,23 @@
         "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Sua trilha sonora no volume máximo, sempre com você.",
+            "text": "Concentre-se no treino, nós cuidamos da música.",
             "heading_tag": "h2",
             "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         },
-        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>RESPEITA SUA GALERA<\/strong><\/p>",
-            "paragraph_font_size": 17
-          }
-        },
         "6e98ac33-d91f-43bc-b952-332eb3291ae6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Projetada para acompanhar você em todasaventuras, a caixa de som Bluetooth <strong>WAAW HYPERBOOM 1000<\/strong>possui<strong>180W RMS <\/strong>de potência, para transformar o encontrinhoem uma festa épica. Além do <strong>Modo Broadcast<\/strong>, quedá um boom nos roles ao ar livre, pois permite a conexão de até <strong>99 HYPERBOOM’S <\/strong>simultaneamente.<\/p>",
+            "content": "<p>Para um treino pesado e satisfatório, o <strong>MOVE 200<\/strong> reproduz sua playlist enquanto você se concentra no esporte, transformando o treino em uma experiência ainda mais intensa. <\/p>",
             "paragraph_font_size": 14
           }
         }
       },
       "block_order": [
         "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1",
-        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1",
         "6e98ac33-d91f-43bc-b952-332eb3291ae6"
       ],
       "settings": {
@@ -262,17 +228,17 @@
         "image_bDTdbH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40061.webp",
+            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-02_2x_e7fc3ffe-de2a-4a27-86bd-19edb4a2a692.webp",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40060.png",
-            "icon_width": 100,
+            "custom_icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-03_2x_91056f93-fdd3-4303-9495-43d796f61937.webp",
+            "icon_width": 80,
             "subheading": "",
-            "title": "180W RMS",
+            "title": "Controle de toque inteligente",
             "heading_tag": "p",
-            "content": "<p>Aproveite sua playlist favorita com a clareza e profundidade sonora dos <strong>180W RMS<\/strong> de potência da<strong> HYPERBOOM 1000<\/strong>. Seu poder de reprodução captura a essência dos ritmos com fidelidade aos graves e agudos que ressoam em qualquer ambiente.<\/p>",
+            "content": "<p>Para atender chamadas enquanto mantém suas mãos livres para reproduzir, pausar, avançar ou voltar músicas, acione o controle de toque inteligente, que torna cada ação mais rápida e intuitiva.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -311,17 +277,17 @@
         "image_qeGQBf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/broadcast_9a0cc59c-20dd-4fde-abbe-35720588f4f3.png",
+            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-05_2x_2448bd0f-1e4a-46b1-96ae-189ea20851e7.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_icon_-7899831327249_-_03.png",
-            "icon_width": 100,
+            "custom_icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-02_2x_a8a68405-18f1-49f6-b19c-1e2bbc00382d.webp",
+            "icon_width": 80,
             "subheading": "",
-            "title": "Modo Broadcast",
+            "title": "Conforto WAAW",
             "heading_tag": "p",
-            "content": "<p>Sinta a música em todos os lugares, transformando os ambientes com a energia envolvente e a qualidade sonora do Modo Broadcast. <strong>Conecte até 99 HYPERBOOM 1000 <\/strong>simultaneamente para uma experiência sonora imersiva  completa.<\/p>",
+            "content": "<p>Feito para quem precisa de um fone firme e estável, o design intra-auricular, combinado com o <strong>gancho auricular<\/strong> do <strong>MOVE 200<\/strong>, foram pensados para ser confortável mesmo durante atividades que exigem movimento e impacto. Seja como seu coração: não pare nunca sua batida.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -343,56 +309,77 @@
         "spacing": "small"
       }
     },
-    "text_with_icons_ywzzJq": {
-      "type": "text-with-icons",
+    "media_with_text_TQ8m6R": {
+      "type": "media-with-text",
       "blocks": {
-        "item_7gQfRr": {
-          "type": "item",
+        "image_hqpGCd": {
+          "type": "image",
           "settings": {
-            "icon": "picto-box",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40089.png",
-            "mobile_icon_width": 76,
-            "icon_width": 120,
-            "icon_background_type": "none",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
-            "title": "Caixa de som com luzes, para animar sua galera",
-            "content": "<p>Adicione um toque<strong> WAAW<\/strong> ao dar play no encontro com a galera! O <strong>show de luzes<\/strong> cria uma dimensão extra à pista de dança, sincronizando cores vibrantes ao ritmo da música para a festa ser inesquecível e bombar por mais tempo. <\/p>",
-            "link": "",
-            "link_text": "Read more"
+            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-04_2x_5ac63e2e-6614-42c4-a9aa-393547b107ac.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-end-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-01_2x_c261fbf1-f75a-4409-b8f1-2ed92cf78563.webp",
+            "icon_width": 80,
+            "subheading": "",
+            "title": "Proteção IPX5",
+            "heading_tag": "p",
+            "content": "<p><strong>Resistente à água e ao suor<\/strong>, ele é ideal para corridas na chuva ou treinos pesados. Vá além dos seus limites com segurança, mantendo a energia e o som que te motiva!<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "item_7gQfRr"
+        "image_hqpGCd"
       ],
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "columns_boxed": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "background_card_color": "",
-        "text_card_color": ""
+        "full_width": false,
+        "spacing": "small"
       }
     },
-    "image_with_text_overlay_FbTp8a": {
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
       "type": "image-with-text-overlay",
-      "custom_css": [],
+      "blocks": {
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h2",
+            "html_tag": "h2"
+          }
+        },
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Prepare para uma experiência estéreo única com a tecnologia <strong>WAAW PLUS TWS<\/strong> (True Wireless Stereo), onde cada fone funciona separadamente para tornar a batida mais especial.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 568px) {p {margin-left: 10px; margin-right: 450px; }}"
+      ],
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hyperboom_Luzes_Loop_1_1.gif",
+        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-07_2x_570a327c-e52d-4796-a02c-28d00cd5ea95.webp",
+        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-03_2x_4a9c2a26-2eca-4c4f-bebb-aab66235de5e.webp",
         "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#000000",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
@@ -403,36 +390,38 @@
         "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 35,
-            "vertical_position": 18,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 28,
-            "icon_width": 72,
-            "title": "Alça",
-            "content": "<p>A alça combina metal resistente com revestimento antiderrapante de silicone verde para uma experiência prática e estilosa.<\/p>"
+            "horizontal_position": 25,
+            "vertical_position": 26,
+            "horizontal_position_mobile": 15,
+            "vertical_position_mobile": 29,
+            "icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-04.png",
+            "icon_width": 52,
+            "title": "Hands free",
+            "content": "<p>Com um toque no controle touch, é possível atender ligações, realizar comandos na música, além de acionar a assistente de voz do seu dispositivo.<\/p>"
           }
         },
-        "item_tQYLAi": {
+        "item_YxibmR": {
           "type": "item",
           "settings": {
-            "horizontal_position": 64,
-            "vertical_position": 61,
-            "horizontal_position_mobile": 58,
-            "vertical_position_mobile": 54,
-            "icon_width": 72,
-            "title": "Bluetooth V 5.4",
-            "content": "<p>Tecnologia Bluetooth 5.4 permite conexão rápida e estável com dispositivos.<\/p>"
+            "horizontal_position": 74,
+            "vertical_position": 43,
+            "horizontal_position_mobile": 80,
+            "vertical_position_mobile": 40,
+            "icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-05.png",
+            "icon_width": 52,
+            "title": "Gancho auricular",
+            "content": "<p>Um detalhe exclusivo do MOVE 200, pensado para quem quer estabilidade durante movimentos e impactos.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1",
-        "item_tQYLAi"
+        "item_YxibmR"
       ],
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/Frame_40074_eb66041d-86b7-4a69-95da-cd39a48cfad6.png",
-        "mobile_image": "shopify:\/\/shop_images\/Frame_40075_b569b06e-98cf-41e3-8ae6-9619da4bf3b0.png",
+        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-06_2x_80f6feb2-9cf4-429d-b69b-22c483ac8591.webp",
+        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-02_2x_065daf69-471c-4114-9d63-68eed08c70bb.webp",
         "title": "",
         "content": "",
         "button_text": "",
@@ -459,7 +448,7 @@
         "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1": {
           "type": "item",
           "settings": {
-            "title": "até 12h",
+            "title": "até 30h",
             "reduce_margins": false,
             "subheading": "",
             "content": "",
@@ -496,7 +485,7 @@
         "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Para curtir a playlist do seu jeito, sem pausa.",
+            "text": "O ritmo que te acompanha até a linha de chegada",
             "heading_tag": "h4",
             "html_tag": "h2",
             "text_color": "",
@@ -506,15 +495,15 @@
         "richtext_NYDpMH": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Você não precisa de mais que uma única recarga por dia para ouvir sua música por mais tempo. A <strong>WAAW HYPERBOOM 1000<\/strong> é a parceira completa por até 12 horas* de reprodução.<\/p>",
+            "content": "<p><strong>Perfeito para quem valoriza conforto<\/strong>. O fone de ouvido esportivo WAAW é equipado com uma bateria de longa duração, que te acompanha por <strong>até 30 horas*<\/strong>, sendo até 7 horas do fone e 23 horas da case, ele proporciona música durante treinos prolongados, sem interrupções.<\/p>",
             "paragraph_font_size": 14
           }
         },
         "abdf3d04-4932-466b-9919-e69800c6081c": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
-            "paragraph_font_size": 14
+            "content": "<p> * Duração de 7 horas da bateria com volume em 50% (a duração pode variar conforme o tipo de música reproduzida) <\/p>",
+            "paragraph_font_size": 10
           }
         }
       },
@@ -538,17 +527,16 @@
         "image_8c8GDq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40103.webp",
+            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-03_2x_1fc627b7-20be-4d9e-a623-3e2b4394fd88.webp",
             "media_width": 50,
-            "media_position": "start",
+            "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40084_546f66d4-99e8-449a-8eb4-53995267abee.png",
             "icon_width": 100,
             "subheading": "",
-            "title": "Leve sua festa para onde você for",
+            "title": "Você conectado ao ritmo que te move a ir mais longe",
             "heading_tag": "p",
-            "content": "<p>Aumente o volume e aproveite cada batida com a confiança da <strong>proteção IPX7<\/strong>. A caixa de som é à prova d’água, resistente a condições de imersão temporária, para movimentar a festa sem interromper a diversão com segurança – e no volume máximo. <\/p><p>** Suporta imersão temporária em água de até 1 metro por 30 minutos. <\/p>",
+            "content": "<p>Não se preocupe em falhas na transmissão durante sua corrida e outras atividades. O <strong>Bluetooth 5.3<\/strong> do fone de ouvido <strong>WAAW MOVE 200<\/strong> permite uma conexão e compatibilidade mais rápidos com qualquer dispositivo. Assim sua batida te acompanha onde você for!<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -568,6 +556,40 @@
         "spacing": "small"
       }
     },
+    "rich_text_b8LQ6M": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iYnFCY": {
+          "type": "heading",
+          "settings": {
+            "text": "Respeita sua jornada com a trilha sonora ideal para você",
+            "heading_tag": "h4",
+            "html_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_R6ydYH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Ele carrega a força de cada batida, enquanto você só leva o que importa: a vontade de seguir em frente. Com estilo e resistência, o <strong>MOVE 200<\/strong> é seu parceiro de jornada, mantendo o som presente e o foco lá no alto. Design que inspira e energia que acompanha.<\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_iYnFCY",
+        "richtext_R6ydYH"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
     "image_with_text_overlay_Ye6jiL": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -575,169 +597,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame_40076.webp",
-        "mobile_image": "shopify:\/\/shop_images\/Frame_40096.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "media_with_text_8DeJpU": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_JmJa8N": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HyperBoom_Blast_1_1.gif",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_icon_-7899831327249_-_04.png",
-            "icon_width": 100,
-            "subheading": "",
-            "title": "Power Bass",
-            "heading_tag": "p",
-            "content": "<p>Sinta os graves das canções com profundidade e impacto. Ao acionar o Power Bass da <strong>HYPERBOOM 1000<\/strong>, o recurso destaca os baixos das suas músicas favoritas de forma clara e intensa.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_JmJa8N"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Caixa de Som TWS WAAW Plus",
-            "heading_tag": "h2",
-            "html_tag": "h2"
-          }
-        },
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Para ouvir sua playlist em modo estéreo sem fios, conecte até duas <strong>WAAW HYPERBOOM 1000<\/strong> via Bluetooth, com a tecnologia TWS. Assim, você curte onde quiser com a qualidade e conectividade que merece. <\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 568px) {p {margin-left: 150px; margin-right: 150px; }}"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_desktop_-7899831327249_-_08.webp",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_03.webp",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
-        "text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "media_with_text_MfNaYr": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_DYgQKW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40079_b7c92c79-fcf7-4824-bcfe-ad7325054d39.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Quatro alto-falantes ",
-            "heading_tag": "p",
-            "content": "<p>Ouça as batidas das músicas que não saem do repeat com a clareza de graves, médios e agudos da <strong>caixa de som bluetooth WAAW<\/strong>. Para as notas bombarem, ela conta com dois tweeters e dois full rangers potentes. <\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_DYgQKW"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "rich_text_zYkkxg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_EKQP4g": {
-          "type": "heading",
-          "settings": {
-            "text": "Mais conexão para o seu momento WAAW.",
-            "heading_tag": "h4",
-            "html_tag": "p",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_EkNHUN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Conecte seus dispositivos via Bluetooth, entrada auxiliar IN, USB. Com essas opções, é possível reproduzir as playlists favoritas da galera, conectar instrumentos e soltar a voz em um show especial sempre que precisar. <\/p>",
-            "paragraph_font_size": 14
-          }
-        }
-      },
-      "block_order": [
-        "heading_EKQP4g",
-        "richtext_EkNHUN"
-      ],
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_BdLcfW": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_desktop_-7899831327249_-_10_762ea2b2-f9ab-451e-92d3-d64ceb5f092a.png",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_10.webp",
+        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-11_2x_0bd454d4-8f2e-49c8-97f5-ebf1951a095e.webp",
+        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-03.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -751,7 +612,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40067_be8ca015-9286-4a85-b044-e94af3e185f9.png",
+            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-08_2x_53f2a5d3-354b-471d-a86b-e002eea3254e.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -773,7 +634,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40069_7fb4997c-7b5a-47e6-8645-9bbf19c75b07.webp",
+            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-09_2x_fc46c64e-560c-47b9-b7fe-75d93224a78c.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -795,7 +656,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40068.webp",
+            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-10_2x_1a6b39c1-2569-450b-b12c-89aae5d0888c.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -934,7 +795,7 @@
         "full_width": false,
         "subheading": "",
         "title": "Descrição",
-        "content": "<h5>Acompanhe o ritmo do seu esporte com som de alta performance<\/h5><p>Para um treino pesado e satisfatório, o <strong>Earphone Bluetooth Sport WAAW MOVE 200 <\/strong>reproduz sua playlist enquanto você se concentra no esporte, transformando o treino em uma experiência ainda mais intensa. O design <strong>intra-auricular<\/strong> se encaixa perfeitamente nas orelhas, mantendo você conectado ao ritmo que te move a ir mais longe. <\/p><p>O <strong>gancho auricular<\/strong> foi projetado para que o fone de ouvido sem fio permaneça firme e estável, mesmo durante atividades esportivas que exigem mais movimentos e impacto, proporcionando segurança e conforto. Com a <strong>proteção IPX5<\/strong>, ele é resistente à água e ao suor, ideal para corridas na chuva ou treinos pesados. Vá além dos seus limites com segurança, mantendo a energia e o som que te motiva! <\/p><p>Experimente uma verdadeira experiência auditiva estéreo, sem fio e sem interrupções. Com a tecnologia TWS <strong>WAAW Plus <\/strong>e Bluetooth 5.3, a conexão é mais rápida e estável. O recurso <strong>hands free<\/strong> usa a tecnologia de <strong>controle de toque<\/strong> inteligente, que permite atender chamadas, reproduzir, pausar, avançar ou voltar músicas, além de acionar a <strong>assistente de voz<\/strong> com apenas um toque. <\/p><p>E se o treino durar mais do que o esperado, não se preocupe! O fone de ouvido esportivo <strong>MOVE 200 <\/strong>oferece até <strong>30 horas* de bateria <\/strong>com apenas uma recarga. Assim, sua playlist vai rolar o dia inteiro, sem precisar se preocupar em parar para recarregar. <\/p><p>Toda jornada começa com o primeiro passo, e com o <strong>Earphone Bluetooth Sport WAAW MOVE 200<\/strong>, você tem energia para ir em frente, sem parar. Ele carrega a força de cada batida, enquanto você só leva o que importa: a vontade de seguir em frente. <\/p><p>WAAW | Respeita Sua Batida. <\/p><p><\/p><p>_____________________________________________________<br\/><br\/>PROMOÇÃO NO DROP DE NAZARÉ COM LUCAS CHUMBO<br\/><br\/>Viva a experiência \"No Drop de Nazaré com Lucas Chumbo\"! Cada compra de um produto WAAW by Alok gera um número da sorte para você participar.<br\/><br\/>Após a compra, acesse o site drop.waaw.com.br, cadastre-se e concorra a uma viagem de 5 dias em Portugal, com tudo pago e direito a acompanhante.<br\/><br\/>Explore os melhores pontos turísticos, culturais e gastronômicos e sinta de perto a adrenalina de Nazaré. Não perca essa chance de viver momentos inesquecíveis em Portugal!<br\/><br\/>- Cada produto comprado gera um número da sorte para participar<br\/>- 5 dias em Portugal, com direito a acompanhante<br\/>- Rolê com Lucas Chumbo<br\/>- Descubra as belezas de Porto e Lisboa<br\/>- Explore diversos pontos turísticos<br\/>- Rolê de Jet Ski e tour gastronômico<br\/><br\/>COMPRE SUA WAAW BY ALOK, CADASTRE-SE NO LINK drop.waaw.com.br E CONCORRA A UMA VIAGEM PARA PORTUGAL COM TUDO PAGO!<\/p>",
+        "content": "<h5>Acompanhe o ritmo do seu esporte com som de alta performance<\/h5><p>Para um treino pesado e satisfatório, o <strong>Earphone Bluetooth Sport WAAW MOVE 200 <\/strong>reproduz sua playlist enquanto você se concentra no esporte, transformando o treino em uma experiência ainda mais intensa. O design <strong>intra-auricular<\/strong> se encaixa perfeitamente nas orelhas, mantendo você conectado ao ritmo que te move a ir mais longe. <\/p><p>O <strong>gancho auricular<\/strong> foi projetado para que o fone de ouvido sem fio permaneça firme e estável, mesmo durante atividades esportivas que exigem mais movimentos e impacto, proporcionando segurança e conforto. Com a <strong>proteção IPX5<\/strong>, ele é resistente à água e ao suor, ideal para corridas na chuva ou treinos pesados. Vá além dos seus limites com segurança, mantendo a energia e o som que te motiva! <\/p><p>Experimente uma verdadeira experiência auditiva estéreo, sem fio e sem interrupções. Com a tecnologia TWS <strong>WAAW Plus <\/strong>e Bluetooth 5.3, a conexão é mais rápida e estável. O recurso <strong>hands free<\/strong> usa a tecnologia de <strong>controle de toque<\/strong> inteligente, que permite atender chamadas, reproduzir, pausar, avançar ou voltar músicas, além de acionar a <strong>assistente de voz<\/strong> com apenas um toque. <\/p><p>E se o treino durar mais do que o esperado, não se preocupe! O fone de ouvido esportivo <strong>MOVE 200 <\/strong>oferece até <strong>30 horas* de bateria <\/strong>com apenas uma recarga. Assim, sua playlist vai rolar o dia inteiro, sem precisar se preocupar em parar para recarregar. <\/p><p>Toda jornada começa com o primeiro passo, e com o <strong>Earphone Bluetooth Sport WAAW MOVE 200<\/strong>, você tem energia para ir em frente, sem parar. Ele carrega a força de cada batida, enquanto você só leva o que importa: a vontade de seguir em frente. <\/p><p>WAAW | Respeita Sua Batida. <\/p><p><\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -1039,7 +900,7 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831327249_-_HYPERBOOM_1000_-_06.png",
+            "image": "shopify:\/\/shop_images\/7899831332724_-_MOVE_200_-_02.png",
             "image_rotation_degrees": 4,
             "external_video_url": "",
             "subheading": "",
@@ -1073,18 +934,14 @@
     "ccd69a7e-3f85-4d01-b54a-e780772a03f3",
     "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62",
     "media_with_text_bEjYFJ",
-    "text_with_icons_ywzzJq",
-    "image_with_text_overlay_FbTp8a",
+    "media_with_text_TQ8m6R",
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
     "aef15cf5-6c0f-4559-9db1-e087af14fe5d",
     "4241750f-3b6b-4872-977e-af0f892d679d",
     "57cbe60d-50fe-4899-87b0-3d3ca88328f3",
     "media_with_text_WnmAwp",
+    "rich_text_b8LQ6M",
     "image_with_text_overlay_Ye6jiL",
-    "media_with_text_8DeJpU",
-    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
-    "media_with_text_MfNaYr",
-    "rich_text_zYkkxg",
-    "image_with_text_overlay_BdLcfW",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "related-products",
