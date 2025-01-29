@@ -73,7 +73,7 @@ isElementVisible = function(element) {
 
 __bva__ = {
   dynamicCart: true,  // if cart is dynamic (meaning no refresh on cart add) set to true
-  debug: false, // if true, console messages will be displayed
+  debug: true, // if true, console messages will be displayed
   cart: null,
   wishlist: null,
   removeCart: null
@@ -860,37 +860,22 @@ applyBindings(defaultBindings, __bva__);
           const wasViewed = this.classList.contains('ga-viewed');
           if (wasViewed) return;
           this.classList.add("ga-viewed");
+          const thisSlideDetails = this.querySelector('.slide-details') 
 
-          const eventLabel = this.getAttribute('data-event-label');
-          const eventLabelMobile = this.getAttribute('data-event-label-mobile');
-          const eventPage = this.getAttribute('data-event-page');
-          const eventCollection = this.getAttribute('data-event-collection');
-          const isMobile = window.innerWidth <= 750;
-          const promotionId = isMobile ? eventLabelMobile : eventLabel;
+          const eventSlideType = thisSlideDetails.getAttribute('data-type');
+          const eventSlideImgUrl = thisSlideDetails.getAttribute('data-img-url');
+          const eventSlideText = thisSlideDetails.getAttribute('data-text');
+          const eventSlideLink = thisSlideDetails.getAttribute('data-url-link');
+          const eventSlideIndex = thisSlideDetails.getAttribute('data-index');
           var items = [];
-        
-          if (eventCollection) {
-            await fetch(`{{ shop.url }}/collections/${eventCollection}/products.json`)
-            .then((response) => response.text())
-            .then((responseText) => {
-              const products = JSON.parse(responseText).products;
-              products.splice(20);
-              items = products.map((product) => ({
-                'item_id': String(product.id),
-                'item_name': product.title,
-                'creative_name': eventCollection,
-                'price': Number(product.variants[0].price),
-              }));
-            });
-          }
           
           const promotionData = {
-            'event': 'cs_view_promotion',
-            'creative_name': promotionId,
-            'creative_slot': eventPage,
-            promotion_id: promotionId,
-            promotion_name: promotionId,
-            items,
+            'event': 'view_promotion',
+            'slide_index': eventSlideIndex,
+            'banner_type': eventSlideType,
+            'image_url': eventSlideImgUrl,
+            'slide_text': eventSlideText,
+            'slide_url': eventSlideLink
           };
           
           dataLayer.push(promotionData);
@@ -899,7 +884,7 @@ applyBindings(defaultBindings, __bva__);
           }
 
           this.addEventListener('click', function() {
-            promotionData.event = 'cs_select_promotion';
+            promotionData.event = 'select_promotion';
             dataLayer.push(promotionData);
             if (__bva__.debug) {
               console.log('select_promotion: ', promotionData);

@@ -142,6 +142,7 @@
       "block_order": [
         "play_Ywgz4f"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -156,39 +157,12 @@
     },
     "88ef1528-ce11-4b29-80e4-e8abbccf17eb": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Caixa de Som Bluetooth<\/strong><\/p>"
-          }
-        },
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "WAAW HYPERBOOM 1000",
-            "heading_tag": "h1",
-            "html_tag": "p"
-          }
-        },
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "RESPEITA A SUA BATIDA"
-          }
-        }
-      },
-      "block_order": [
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1",
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1",
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame_40049_9d86db3d-aaec-4052-8312-8396188b7c8e.webp",
+        "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-04_2x_95c0c1c7-8905-4b55-ae32-8c20f47b7c76.webp",
         "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_01.webp",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -203,32 +177,16 @@
         "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Sua trilha sonora no volume máximo, sempre com você.",
+            "text": "O melhor da tecnologia, com muita liberdade pra você.",
             "heading_tag": "h2",
             "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
-        },
-        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>RESPEITA SUA GALERA<\/strong><\/p>",
-            "paragraph_font_size": 17
-          }
-        },
-        "6e98ac33-d91f-43bc-b952-332eb3291ae6": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Projetada para acompanhar você em todasaventuras, a caixa de som Bluetooth <strong>WAAW HYPERBOOM 1000<\/strong>possui<strong>180W RMS <\/strong>de potência, para transformar o encontrinhoem uma festa épica. Além do <strong>Modo Broadcast<\/strong>, quedá um boom nos roles ao ar livre, pois permite a conexão de até <strong>99 HYPERBOOM’S <\/strong>simultaneamente.<\/p>",
-            "paragraph_font_size": 14
-          }
         }
       },
       "block_order": [
-        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1",
-        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1",
-        "6e98ac33-d91f-43bc-b952-332eb3291ae6"
+        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1"
       ],
       "settings": {
         "full_width": true,
@@ -241,7 +199,6 @@
     },
     "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -256,201 +213,88 @@
         "overlay_opacity": 30
       }
     },
-    "media_with_text_bEjYFJ": {
-      "type": "media-with-text",
+    "rich_text_WkHAGb": {
+      "type": "rich-text",
       "blocks": {
-        "image_bDTdbH": {
-          "type": "image",
+        "heading_AtrMM4": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40061.webp",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40060.png",
-            "icon_width": 100,
-            "subheading": "",
-            "title": "180W RMS",
-            "heading_tag": "p",
-            "content": "<p>Aproveite sua playlist favorita com a clareza e profundidade sonora dos <strong>180W RMS<\/strong> de potência da<strong> HYPERBOOM 1000<\/strong>. Seu poder de reprodução captura a essência dos ritmos com fidelidade aos graves e agudos que ressoam em qualquer ambiente.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_wzfpbF": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40070.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40072.png",
-            "icon_width": 100,
-            "subheading": "",
-            "title": "Caixa de som com luzes, para animar sua galera",
-            "heading_tag": "p",
-            "content": "<p>Adicione um toque<strong> WAAW<\/strong> ao dar play no encontro com a galera! O <strong>show de luzes<\/strong> cria uma dimensão extra à pista de dança, sincronizando cores vibrantes ao ritmo da música para a festa ser inesquecível e bombar por mais tempo. <\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "image_qeGQBf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/broadcast_9a0cc59c-20dd-4fde-abbe-35720588f4f3.png",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_icon_-7899831327249_-_03.png",
-            "icon_width": 100,
-            "subheading": "",
-            "title": "Modo Broadcast",
-            "heading_tag": "p",
-            "content": "<p>Sinta a música em todos os lugares, transformando os ambientes com a energia envolvente e a qualidade sonora do Modo Broadcast. <strong>Conecte até 99 HYPERBOOM 1000 <\/strong>simultaneamente para uma experiência sonora imersiva  completa.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
+            "text": "White. Para combinar com o seu estilo.",
+            "heading_tag": "h2",
+            "html_tag": "h2",
+            "text_color": "",
+            "gradient": ""
           }
         }
       },
       "block_order": [
-        "image_bDTdbH",
-        "image_wzfpbF",
-        "image_qeGQBf"
+        "heading_AtrMM4"
       ],
       "settings": {
-        "full_width": false,
-        "spacing": "small"
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
       }
     },
-    "text_with_icons_ywzzJq": {
-      "type": "text-with-icons",
+    "images_with_text_scrolling_7Uz8Y9": {
+      "type": "images-with-text-scrolling",
       "blocks": {
-        "item_7gQfRr": {
+        "item_q4tXxz": {
           "type": "item",
           "settings": {
-            "icon": "picto-box",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40089.png",
-            "mobile_icon_width": 76,
-            "icon_width": 120,
-            "icon_background_type": "none",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
-            "title": "Caixa de som com luzes, para animar sua galera",
-            "content": "<p>Adicione um toque<strong> WAAW<\/strong> ao dar play no encontro com a galera! O <strong>show de luzes<\/strong> cria uma dimensão extra à pista de dança, sincronizando cores vibrantes ao ritmo da música para a festa ser inesquecível e bombar por mais tempo. <\/p>",
-            "link": "",
-            "link_text": "Read more"
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-09_2x_29854b5a-55fb-4256-b076-9a2cbb4cac6b.webp",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-03_2x_497c748f-578d-40c2-8554-902655848dc3.webp",
+            "icon_width": 80,
+            "title": "White design",
+            "html_heading_tag": "p",
+            "content": "<p>O design branco exclusivo é mais uma opção da WAAW para a sua rotina e para combinar com a sua vibe.<\/p>"
+          }
+        },
+        "item_AVitpt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-08_2x_52450122-7dfa-4bbc-b580-3980b0199815.webp",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-02_2x_7a2ae3af-5855-4f89-89da-f024df4b35b3.webp",
+            "icon_width": 80,
+            "title": "Hands Free",
+            "html_heading_tag": "p",
+            "content": "<p>Mantenha suas mãos livres ao atender chamadas e controlar as músicas.<\/p>"
+          }
+        },
+        "item_4TRtg3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-10_2x_8253434b-98d8-4f6f-ad2c-70136342dcb1.webp",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-04_2x_4807146e-3518-4dd5-ba51-9ff919bbb8a4.webp",
+            "icon_width": 80,
+            "title": "Conectividade",
+            "html_heading_tag": "p",
+            "content": "<p>O <strong>Bluetooth V5.3<\/strong> permite conexões mais rápidas, estáveis e com alcance de até 10 metros.<\/p>"
           }
         }
       },
       "block_order": [
-        "item_7gQfRr"
+        "item_q4tXxz",
+        "item_AVitpt",
+        "item_4TRtg3"
       ],
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "columns_boxed": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
         "background": "",
         "background_gradient": "",
-        "text_color": "",
-        "background_card_color": "",
-        "text_card_color": ""
-      }
-    },
-    "image_with_text_overlay_FbTp8a": {
-      "type": "image-with-text-overlay",
-      "custom_css": [],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hyperboom_Luzes_Loop_1_1.gif",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "aef15cf5-6c0f-4559-9db1-e087af14fe5d": {
-      "type": "hot-spots",
-      "blocks": {
-        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 35,
-            "vertical_position": 18,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 28,
-            "icon_width": 72,
-            "title": "Alça",
-            "content": "<p>A alça combina metal resistente com revestimento antiderrapante de silicone verde para uma experiência prática e estilosa.<\/p>"
-          }
-        },
-        "item_tQYLAi": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 64,
-            "vertical_position": 61,
-            "horizontal_position_mobile": 58,
-            "vertical_position_mobile": 54,
-            "icon_width": 72,
-            "title": "Bluetooth V 5.4",
-            "content": "<p>Tecnologia Bluetooth 5.4 permite conexão rápida e estável com dispositivos.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1",
-        "item_tQYLAi"
-      ],
-      "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/Frame_40074_eb66041d-86b7-4a69-95da-cd39a48cfad6.png",
-        "mobile_image": "shopify:\/\/shop_images\/Frame_40075_b569b06e-98cf-41e3-8ae6-9619da4bf3b0.png",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
+        "text_color": "#000000",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "4241750f-3b6b-4872-977e-af0f892d679d": {
@@ -459,7 +303,7 @@
         "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1": {
           "type": "item",
           "settings": {
-            "title": "até 12h",
+            "title": "até 36h",
             "reduce_margins": false,
             "subheading": "",
             "content": "",
@@ -493,33 +337,22 @@
     "57cbe60d-50fe-4899-87b0-3d3ca88328f3": {
       "type": "rich-text",
       "blocks": {
-        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Para curtir a playlist do seu jeito, sem pausa.",
-            "heading_tag": "h4",
-            "html_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_NYDpMH": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Você não precisa de mais que uma única recarga por dia para ouvir sua música por mais tempo. A <strong>WAAW HYPERBOOM 1000<\/strong> é a parceira completa por até 12 horas* de reprodução.<\/p>",
+            "content": "<p>Seja no trabalho, durante os treinos ou jogando videogame, você merece curtir sua trilha sonora favorita com o som potente e nítido do <strong>WAAW MOB 500-W ANC<\/strong>.<\/p><p>Capaz de oferecer até <strong>36* horas<\/strong> de música com apenas uma recarga, ele te acompanha sem perda de qualidade no áudio, para um momento <strong>WAAW <\/strong>envolvente desde o primeiro play. <\/p>",
             "paragraph_font_size": 14
           }
         },
         "abdf3d04-4932-466b-9919-e69800c6081c": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
-            "paragraph_font_size": 14
+            "content": "<p>*O tempo de autonomia depende do volume e do tipo de música reproduzido.<\/p>",
+            "paragraph_font_size": 12
           }
         }
       },
       "block_order": [
-        "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1",
         "richtext_NYDpMH",
         "abdf3d04-4932-466b-9919-e69800c6081c"
       ],
@@ -532,51 +365,15 @@
         "text_color": "#000000"
       }
     },
-    "media_with_text_WnmAwp": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_8c8GDq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40103.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40084_546f66d4-99e8-449a-8eb4-53995267abee.png",
-            "icon_width": 100,
-            "subheading": "",
-            "title": "Leve sua festa para onde você for",
-            "heading_tag": "p",
-            "content": "<p>Aumente o volume e aproveite cada batida com a confiança da <strong>proteção IPX7<\/strong>. A caixa de som é à prova d’água, resistente a condições de imersão temporária, para movimentar a festa sem interromper a diversão com segurança – e no volume máximo. <\/p><p>** Suporta imersão temporária em água de até 1 metro por 30 minutos. <\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_8c8GDq"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "image_with_text_overlay_Ye6jiL": {
+    "image_with_text_overlay_3tTCTF": {
       "type": "image-with-text-overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame_40076.webp",
-        "mobile_image": "shopify:\/\/shop_images\/Frame_40096.webp",
+        "image": "shopify:\/\/shop_images\/06.Html-infinite-100_64b293e4-d417-4d94-b6ff-c16d7efc0165.png",
+        "mobile_image": "shopify:\/\/shop_images\/07.Html-infinite-100_378a23cf-c55a-49a4-b517-abb238a4f5fa.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -584,97 +381,62 @@
         "overlay_opacity": 30
       }
     },
-    "media_with_text_8DeJpU": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_JmJa8N": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HyperBoom_Blast_1_1.gif",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_icon_-7899831327249_-_04.png",
-            "icon_width": 100,
-            "subheading": "",
-            "title": "Power Bass",
-            "heading_tag": "p",
-            "content": "<p>Sinta os graves das canções com profundidade e impacto. Ao acionar o Power Bass da <strong>HYPERBOOM 1000<\/strong>, o recurso destaca os baixos das suas músicas favoritas de forma clara e intensa.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_JmJa8N"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
+    "image_with_text_overlay_Ye6jiL": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
+        "heading_ndprrW": {
           "type": "heading",
           "settings": {
-            "text": "Caixa de Som TWS WAAW Plus",
-            "heading_tag": "h2",
-            "html_tag": "h2"
+            "text": "Cancelamento de ruído ativo",
+            "heading_tag": "h3",
+            "html_tag": "p"
           }
         },
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
+        "richtext_L67ari": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Para ouvir sua playlist em modo estéreo sem fios, conecte até duas <strong>WAAW HYPERBOOM 1000<\/strong> via Bluetooth, com a tecnologia TWS. Assim, você curte onde quiser com a qualidade e conectividade que merece. <\/p>"
+            "content": "<p>Tenha uma experiência completa da sua música com a tecnologia de cancelamento de ruído ativo do <strong>fone de ouvido Bluetooth WAAW<\/strong>. Além de abafar sons indesejados durante chamadas, o recurso reduz a necessidade de aumentar o volume para compensar o ruído externo.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
+        "heading_ndprrW",
+        "richtext_L67ari"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 568px) {p {margin-left: 150px; margin-right: 150px; }}"
+        "@media only screen and (min-width: 768px) {p, h2 {margin-left: 340px; }}"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_desktop_-7899831327249_-_08.webp",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_03.webp",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
-        "text_color": "#000000",
+        "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-01.png",
+        "mobile_image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-MOBILE-02_2x_3f6dff9a-eafb-485d-985a-443dc3aceaca.webp",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
     },
-    "media_with_text_MfNaYr": {
+    "media_with_text_WnmAwp": {
       "type": "media-with-text",
       "blocks": {
-        "image_DYgQKW": {
+        "image_8c8GDq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40079_b7c92c79-fcf7-4824-bcfe-ad7325054d39.webp",
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-11_2x_4df482dc-1080-4ed1-95c0-2163ff4ba798.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "icon_width": 48,
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-05_2x_3e6008c3-8345-4913-a1cf-4ced034c7663.webp",
+            "icon_width": 80,
             "subheading": "",
-            "title": "Quatro alto-falantes ",
+            "title": "Controle de toque inteligente",
             "heading_tag": "p",
-            "content": "<p>Ouça as batidas das músicas que não saem do repeat com a clareza de graves, médios e agudos da <strong>caixa de som bluetooth WAAW<\/strong>. Para as notas bombarem, ela conta com dois tweeters e dois full rangers potentes. <\/p>",
+            "content": "<p>Controle funções como reprodução\/pausa, troque de faixas, acione um assistente de voz ou atenda ligações rapidamente, sem precisar usar o smartphone. Faça tudo isso com um toque! <\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -684,62 +446,155 @@
             "button_background": "",
             "button_text_color": ""
           }
+        },
+        "image_TrHVMA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-13_2x_69b7ffcb-ce37-4a0e-8245-fa083bba9573.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-01_2x_b2ff7a2f-c56b-409d-b011-9d794c1e8d32.webp",
+            "icon_width": 80,
+            "subheading": "",
+            "title": "Assistente de voz",
+            "heading_tag": "p",
+            "content": "<p>Use o assistente de voz do seu dispositivo através do fone para realizar chamadas, enviar mensagens e controlar a reprodução de músicas com comandos simples.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_QDPBNy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-12_2x_5be391ba-17e8-4bac-8021-7e5b75c01d95.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-06_2x_67dc86f1-6de2-4d38-b8dc-cc6ac7ef3353.webp",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "IPX4",
+            "heading_tag": "p",
+            "content": "<p>Resistente à água, com o <strong>MOB 500-W <\/strong>você escolhe a melhor playlist para viver suas experiências ao máximo, sem medo da chuva.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
         }
       },
       "block_order": [
-        "image_DYgQKW"
+        "image_8c8GDq",
+        "image_TrHVMA",
+        "image_QDPBNy"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
       }
     },
-    "rich_text_zYkkxg": {
-      "type": "rich-text",
+    "image_with_text_overlay_X4cdtw": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "heading_EKQP4g": {
+        "heading_k6xCRY": {
           "type": "heading",
           "settings": {
-            "text": "Mais conexão para o seu momento WAAW.",
-            "heading_tag": "h4",
-            "html_tag": "p",
-            "text_color": "",
-            "gradient": ""
+            "text": "Modo Gamer",
+            "heading_tag": "h3",
+            "html_tag": "p"
           }
         },
-        "richtext_EkNHUN": {
+        "richtext_yeUDtp": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Conecte seus dispositivos via Bluetooth, entrada auxiliar IN, USB. Com essas opções, é possível reproduzir as playlists favoritas da galera, conectar instrumentos e soltar a voz em um show especial sempre que precisar. <\/p>",
-            "paragraph_font_size": 14
+            "content": "<p>Já imaginou escutar sua playlist enquanto joga? Com uma resposta rápida, o <strong>modo gamer<\/strong> do <strong>WAAW MOB 500-W<\/strong> faz com que o áudio sincronize com as ações do jogo, garantindo uma conexão completa. <\/p>"
           }
         }
       },
       "block_order": [
-        "heading_EKQP4g",
-        "richtext_EkNHUN"
+        "heading_k6xCRY",
+        "richtext_yeUDtp"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 300px; }}"
+      ],
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-14.png",
+        "mobile_image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-MOBILE-05.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
-    "image_with_text_overlay_BdLcfW": {
+    "image_with_text_overlay_LmgpbT": {
       "type": "image-with-text-overlay",
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_desktop_-7899831327249_-_10_762ea2b2-f9ab-451e-92d3-d64ceb5f092a.png",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_10.webp",
+        "image": "shopify:\/\/shop_images\/06.Html-infinite-100_64b293e4-d417-4d94-b6ff-c16d7efc0165.png",
+        "mobile_image": "shopify:\/\/shop_images\/07.Html-infinite-100_378a23cf-c55a-49a4-b517-abb238a4f5fa.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_TC3xtY": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_jKUYRf": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h3",
+            "html_tag": "p"
+          }
+        },
+        "richtext_WP3Wci": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A tecnologia <strong>True Wireless Stereo (TWS)<\/strong> permite aproveitar sua playlist sem fios, de forma totalmente independente.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jKUYRf",
+        "richtext_WP3Wci"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 360px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-02.png",
+        "mobile_image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-MOBILE-03_2x_00283d38-e4fe-4a29-9676-fe6be796a7b3.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -751,7 +606,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40067_be8ca015-9286-4a85-b044-e94af3e185f9.png",
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-05_2x_1114c607-7153-4dc1-bbae-0496b68e2ec4.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -773,7 +628,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40069_7fb4997c-7b5a-47e6-8645-9bbf19c75b07.webp",
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-06_2x_0ecada62-19ee-4d85-95ba-bea4d287a95d.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -795,7 +650,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40068.webp",
+            "image": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-DESKTOP-07_2x_047e1e23-4646-44e9-ae5b-7497421f10c5.webp",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -882,7 +737,7 @@
           "settings": {
             "product": "",
             "value_1": "<p>Branco e Cinza<\/p>",
-            "value_2": "<p>Polímeros e Metais<\/p>",
+            "value_2": "<p>Polímeros<\/p>",
             "value_3": "<p>32<\/p>",
             "value_4": "<p>0<\/p>",
             "value_5": "<p>2 (1 por fone)<\/p>",
@@ -903,11 +758,11 @@
             "value_20": "<p>1<\/p>",
             "value_21": "<p>Unidirecional<\/p>",
             "value_22": "<p>5V~2A<\/p>",
-            "value_23": "<p>Case; Cabo USB-C;<\/p>",
-            "value_24": "<p>Speaker; Bateria; Área sensível ao toque<\/p>",
+            "value_23": "<p>3 Tamanhos de borrachinhas auriculares (P, M e G);  1 Cabo USB-C; 1 Estojo de Carregamento;<\/p>",
+            "value_24": "<p>Speaker; Bateria; Área sensível ao toque;<\/p>",
             "value_25": "<p>Produto: 1 Ano (3 meses de garantia legal e mais 9 meses de<br\/>garantia especial concedida pelo fabricante).<br\/>Bateria: 6 Meses (3 meses de garantia legal e mais 3 meses de<br\/>garantia especial concedida pelo fabricante).<\/p>",
-            "value_26": "<p>3,7 x 6,9 x 3,1 cm<\/p>",
-            "value_27": "<p>37 g<\/p>",
+            "value_26": "<p>6,02 x 4,7 x 3,1 cm<\/p>",
+            "value_27": "<p>51,7 g<\/p>",
             "value_28": "<p>10,4 x 5 x 11,8 cm<\/p>",
             "value_29": "<p>193 g<\/p>",
             "value_30": "",
@@ -934,7 +789,7 @@
         "full_width": false,
         "subheading": "",
         "title": "Para uma experiência sonora inteligente em qualquer atividade ou lugar",
-        "content": "<p>Sinta-se livre e confiante para ouvir sua playlist com uma conexão rápida e estável a todo momento. Além de proporcionar até 36 horas* de reprodução sem parar, a tecnologia de cancelamento de ruído ativo do <strong>WAAW EARPHONE BLUETOOTH NOISE CANCELLING MOB 500 <\/strong>reduz o som externo, para uma experiência de imersão completa. <\/p><p>O poder está na ponta dos seus dedos! Controle todas as funções do fone de ouvido Bluetooth com o <strong>controle de toque inteligente<\/strong>. Resistente à água, o índice de proteção <strong>IPX4 <\/strong>permite que ele te acompanhe desde longas reuniões até os dias mais intensos. <\/p><p>Dê um up na produtividade ao realizar chamadas, enviar mensagens ou controlar a reprodução de músicas com a rapidez da conexão entre o <strong>assistente de voz <\/strong>e seu dispositivo. Transforme a rotina com experiências mais inteligentes. A tecnologia <strong>hands free<\/strong> do fone sem fio permite comandos simples, que te libertam para focar no que importa. <\/p><p>A vantagem que faltava para você assumir a liderança é o <strong>modo gamer<\/strong> do <strong>WAAW MOB 500 ANC<\/strong>. Com menor tempo de resposta para uma performance superior, o áudio é sincronizado com as ações do jogo, proporcionando imersão e precisão total. Para explorar todas as funções, a tecnologia <strong>WAAW PLUS<\/strong> (TWS) permite aproveitar sua playlist sem fios, de forma totalmente independente. <\/p><p>Além de garantir som de alta qualidade em cada batida das suas canções, o <strong>Bluetooth V5.3<\/strong> do fone de ouvido promove uma conexão estável o tempo todo. Pronto para acompanhar sua rotina, o <strong>MOB 500<\/strong> conta com até 6 horas de duração da bateria nos fones de ouvido e até 30 horas na case, garantindo áudio o dia todo. <\/p><p>O match perfeito entre tecnologia, conforto e desempenho para o seu dia a dia! Experimente a liberdade dos controles intuitivos e inteligentes do <strong>WAAW EARPHONE BLUETOOTH NOISE CANCELLING MOB 500<\/strong> e sinta cada batida como nunca. <\/p><p>WAAW | Respeita Sua Batida. <\/p><p><\/p><p>_____________________________________________________<br\/><br\/>PROMOÇÃO NO DROP DE NAZARÉ COM LUCAS CHUMBO<br\/><br\/>Viva a experiência \"No Drop de Nazaré com Lucas Chumbo\"! Cada compra de um produto WAAW by Alok gera um número da sorte para você participar.<br\/><br\/>Após a compra, acesse o site drop.waaw.com.br, cadastre-se e concorra a uma viagem de 5 dias em Portugal, com tudo pago e direito a acompanhante.<br\/><br\/>Explore os melhores pontos turísticos, culturais e gastronômicos e sinta de perto a adrenalina de Nazaré. Não perca essa chance de viver momentos inesquecíveis em Portugal!<br\/><br\/>- Cada produto comprado gera um número da sorte para participar<br\/>- 5 dias em Portugal, com direito a acompanhante<br\/>- Rolê com Lucas Chumbo<br\/>- Descubra as belezas de Porto e Lisboa<br\/>- Explore diversos pontos turísticos<br\/>- Rolê de Jet Ski e tour gastronômico<br\/><br\/>COMPRE SUA WAAW BY ALOK, CADASTRE-SE NO LINK drop.waaw.com.br E CONCORRA A UMA VIAGEM PARA PORTUGAL COM TUDO PAGO!<\/p>",
+        "content": "<p>Sinta-se livre e confiante para ouvir sua playlist com uma conexão rápida e estável a todo momento. Além de proporcionar até 36 horas* de reprodução sem parar, a tecnologia de cancelamento de ruído ativo do <strong>WAAW EARPHONE BLUETOOTH NOISE CANCELLING MOB 500 <\/strong>reduz o som externo, para uma experiência de imersão completa. <\/p><p>O poder está na ponta dos seus dedos! Controle todas as funções do fone de ouvido Bluetooth com o <strong>controle de toque inteligente<\/strong>. Resistente à água, o índice de proteção <strong>IPX4 <\/strong>permite que ele te acompanhe desde longas reuniões até os dias mais intensos. <\/p><p>Dê um up na produtividade ao realizar chamadas, enviar mensagens ou controlar a reprodução de músicas com a rapidez da conexão entre o <strong>assistente de voz <\/strong>e seu dispositivo. Transforme a rotina com experiências mais inteligentes. A tecnologia <strong>hands free<\/strong> do fone sem fio permite comandos simples, que te libertam para focar no que importa. <\/p><p>A vantagem que faltava para você assumir a liderança é o <strong>modo gamer<\/strong> do <strong>WAAW MOB 500 ANC<\/strong>. Com menor tempo de resposta para uma performance superior, o áudio é sincronizado com as ações do jogo, proporcionando imersão e precisão total. Para explorar todas as funções, a tecnologia <strong>WAAW PLUS<\/strong> (TWS) permite aproveitar sua playlist sem fios, de forma totalmente independente. <\/p><p>Além de garantir som de alta qualidade em cada batida das suas canções, o <strong>Bluetooth V5.3<\/strong> do fone de ouvido promove uma conexão estável o tempo todo. Pronto para acompanhar sua rotina, o <strong>MOB 500<\/strong> conta com até 6 horas de duração da bateria nos fones de ouvido e até 30 horas na case, garantindo áudio o dia todo. <\/p><p>O match perfeito entre tecnologia, conforto e desempenho para o seu dia a dia! Experimente a liberdade dos controles intuitivos e inteligentes do <strong>WAAW EARPHONE BLUETOOTH NOISE CANCELLING MOB 500<\/strong> e sinta cada batida como nunca. <\/p><p>WAAW | Respeita Sua Batida. <\/p><p><\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -1072,19 +927,16 @@
     "88ef1528-ce11-4b29-80e4-e8abbccf17eb",
     "ccd69a7e-3f85-4d01-b54a-e780772a03f3",
     "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62",
-    "media_with_text_bEjYFJ",
-    "text_with_icons_ywzzJq",
-    "image_with_text_overlay_FbTp8a",
-    "aef15cf5-6c0f-4559-9db1-e087af14fe5d",
+    "rich_text_WkHAGb",
+    "images_with_text_scrolling_7Uz8Y9",
     "4241750f-3b6b-4872-977e-af0f892d679d",
     "57cbe60d-50fe-4899-87b0-3d3ca88328f3",
-    "media_with_text_WnmAwp",
+    "image_with_text_overlay_3tTCTF",
     "image_with_text_overlay_Ye6jiL",
-    "media_with_text_8DeJpU",
-    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
-    "media_with_text_MfNaYr",
-    "rich_text_zYkkxg",
-    "image_with_text_overlay_BdLcfW",
+    "media_with_text_WnmAwp",
+    "image_with_text_overlay_X4cdtw",
+    "image_with_text_overlay_LmgpbT",
+    "image_with_text_overlay_TC3xtY",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "related-products",

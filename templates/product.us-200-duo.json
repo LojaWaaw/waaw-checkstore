@@ -211,6 +211,123 @@
         "overlay_opacity": 30
       }
     },
+    "image_with_text_overlay_gjtNGL": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_W3FEUW": {
+          "type": "heading",
+          "settings": {
+            "text": "Caixa de som 2 em 1",
+            "heading_tag": "h1",
+            "html_tag": "p"
+          }
+        },
+        "richtext_K7Fncj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Duas caixas de som que se encaixam e viram um único produto.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_W3FEUW",
+        "richtext_K7Fncj"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-left: 200px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/conectividade-3em1_14f127b5-c728-4bce-aeee-6c89333d9614.png",
+        "mobile_image": "shopify:\/\/shop_images\/2_EM_1_-_MOBILE.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-end sm:text-end",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_ijw3Qd": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_b7NaTx": {
+          "type": "heading",
+          "settings": {
+            "text": "Tecnologia TWS",
+            "heading_tag": "h2",
+            "html_tag": "h2"
+          }
+        },
+        "richtext_wPnVXx": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Verdadeiro som estéreo sem fios. A tecnologia TWS faz o pareamento dos dois lados da caixa <strong>US 200 DUO<\/strong> via bluetooth.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_b7NaTx",
+        "richtext_wPnVXx"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 200px; margin-left: 200px; }}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/07.Html-us-200-duo.png",
+        "mobile_image": "shopify:\/\/shop_images\/08.Html-us-200-duo_1d697b72-89cd-48da-9ae0-0faf87af9589.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_with_text_overlay_7LVTeg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_XQm4gY": {
+          "type": "heading",
+          "settings": {
+            "text": "Som estéreo para quem quer dividir momentos em qualquer lugar!",
+            "heading_tag": "h2",
+            "html_tag": "p"
+          }
+        },
+        "richtext_BCcjN7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>RESPEITA SUA BATIDA<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XQm4gY",
+        "richtext_BCcjN7"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 250px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/05.Html-us-200-duo_5aeed254-3c87-41bd-8629-73580285332e.png",
+        "mobile_image": "shopify:\/\/shop_images\/06.Html-us-200-duo_16c5eaa8-937f-4b68-8a0c-cfbcbdff369d.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "rich_text_qLPRBz": {
       "type": "rich-text",
       "blocks": {
@@ -253,80 +370,41 @@
         "text_color": "#000000"
       }
     },
-    "image_with_text_overlay_7LVTeg": {
+    "image_with_text_overlay_bYTJCL": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "heading_XQm4gY": {
+        "richtext_DdQzWQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>CONECTIVIDADE 3 EM 1<\/p>"
+          }
+        },
+        "heading_H7ERxb": {
           "type": "heading",
           "settings": {
-            "text": "Som estéreo para quem quer dividir momentos em qualquer lugar!",
-            "heading_tag": "h2",
+            "text": "juntas,\u2028separadas,\u2028Individuais!",
+            "heading_tag": "h1",
             "html_tag": "p"
           }
-        },
-        "richtext_BCcjN7": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>RESPEITA SUA BATIDA<\/strong><\/p>"
-          }
         }
       },
       "block_order": [
-        "heading_XQm4gY",
-        "richtext_BCcjN7"
+        "richtext_DdQzWQ",
+        "heading_H7ERxb"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 250px; }}"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/05.Html-us-200-duo_5aeed254-3c87-41bd-8629-73580285332e.png",
-        "mobile_image": "shopify:\/\/shop_images\/06.Html-us-200-duo_16c5eaa8-937f-4b68-8a0c-cfbcbdff369d.png",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "image_with_text_overlay_ijw3Qd": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_b7NaTx": {
-          "type": "heading",
-          "settings": {
-            "text": "Tecnologia TWS",
-            "heading_tag": "h2",
-            "html_tag": "h2"
-          }
-        },
-        "richtext_wPnVXx": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Verdadeiro som estéreo sem fios. A tecnologia TWS faz o pareamento dos dois lados da caixa <strong>US 200 DUO<\/strong> via bluetooth.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_b7NaTx",
-        "richtext_wPnVXx"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 768px) {p, h2 {margin-right: 200px; margin-left: 200px; }}"
+        "@media only screen and (min-width: 668px) {p, h2 {margin-right: 420px; }}"
       ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/07.Html-us-200-duo.png",
-        "mobile_image": "shopify:\/\/shop_images\/08.Html-us-200-duo_1d697b72-89cd-48da-9ae0-0faf87af9589.png",
+        "image": "shopify:\/\/shop_images\/conectividade-3em1_623f523a-cba1-4e2f-91cd-4711f8ed0723.png",
+        "mobile_image": "shopify:\/\/shop_images\/conectividade-3em1-mobiel_a5f413c5-4619-42fb-86fe-55c158ac1265.png",
         "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
-        "text_color": "#000000",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "text_color": "#e0e621",
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
@@ -730,7 +808,7 @@
         "full_width": false,
         "subheading": "",
         "title": "Com a caixa de som US 200 DUO, você tem imersão completa na música!",
-        "content": "<p>A caixa de som <strong>WAAW US 200 DUO<\/strong> é uma solução de áudio premium com um design inovador e recursos avançados que garantem uma experiência sonora incomparável. Com sua conectividade 3 em 1, pode ser usada divididas ou juntas conectadas a um mesmo smartphone, ou separadas individualmente conectadas a dois smartphones diferentes, oferecendo flexibilidade e conveniência sem precedentes.<\/p><p>Quando posicionadas corretamente, a <strong>US 200 DUO<\/strong> pode criar a sensação de som 360° proporcionando uma experiência imersiva e envolvente, onde quer que você esteja. Você tem até 14 horas de música sem parar em cada caixa, totalizando até 28 horas (se usada separadamente) de reprodução para você aproveitar ainda mais o momento.<\/p><p>Através do Bluetooth 5.0 permite conexão rápida e estável com dispositivos. Além disso, a tecnologia TWS faz o pareamento dos dois lados da caixa <strong>US 200 DUO<\/strong> via bluetooth, proporcionando um verdadeiro som estéreo. Para atender chamadas, basta clicar em um botão e desfrutar da liberdade de ter as mãos livres.<\/p><p>É um produto em tecido resistente e acabamentos em metal, com durabilidade e proteção. Conta com classificação de proteção IPX6 de resistência a água, sendo ideal para aproveitar em diversos ambientes sem preocupação.<\/p><p>Se você está procurando uma excelente experiência sonora com um design inovador e recursos avançados, a caixa de som <strong>WAAW US 200 DUO<\/strong> é a escolha perfeita para você.<\/p><p><\/p><p>_____________________________________________________<br\/><br\/>PROMOÇÃO NO DROP DE NAZARÉ COM LUCAS CHUMBO<br\/><br\/>Viva a experiência \"No Drop de Nazaré com Lucas Chumbo\"! Cada compra de um produto WAAW by Alok gera um número da sorte para você participar.<br\/><br\/>Após a compra, acesse o site drop.waaw.com.br, cadastre-se e concorra a uma viagem de 5 dias em Portugal, com tudo pago e direito a acompanhante.<br\/><br\/>Explore os melhores pontos turísticos, culturais e gastronômicos e sinta de perto a adrenalina de Nazaré. Não perca essa chance de viver momentos inesquecíveis em Portugal!<br\/><br\/>- Cada produto comprado gera um número da sorte para participar<br\/>- 5 dias em Portugal, com direito a acompanhante<br\/>- Rolê com Lucas Chumbo<br\/>- Descubra as belezas de Porto e Lisboa<br\/>- Explore diversos pontos turísticos<br\/>- Rolê de Jet Ski e tour gastronômico<br\/><br\/>COMPRE SUA WAAW BY ALOK, CADASTRE-SE NO LINK drop.waaw.com.br E CONCORRA A UMA VIAGEM PARA PORTUGAL COM TUDO PAGO!<\/p>",
+        "content": "<p>A caixa de som <strong>WAAW US 200 DUO<\/strong> é uma solução de áudio premium com um design inovador e recursos avançados que garantem uma experiência sonora incomparável. Com sua conectividade 3 em 1, pode ser usada divididas ou juntas conectadas a um mesmo smartphone, ou separadas individualmente conectadas a dois smartphones diferentes, oferecendo flexibilidade e conveniência sem precedentes.<\/p><p>Quando posicionadas corretamente, a <strong>US 200 DUO<\/strong> pode criar a sensação de som 360° proporcionando uma experiência imersiva e envolvente, onde quer que você esteja. Você tem até 14 horas de música sem parar em cada caixa, totalizando até 28 horas (se usada separadamente) de reprodução para você aproveitar ainda mais o momento.<\/p><p>Através do Bluetooth 5.0 permite conexão rápida e estável com dispositivos. Além disso, a tecnologia TWS faz o pareamento dos dois lados da caixa <strong>US 200 DUO<\/strong> via bluetooth, proporcionando um verdadeiro som estéreo. Para atender chamadas, basta clicar em um botão e desfrutar da liberdade de ter as mãos livres.<\/p><p>É um produto em tecido resistente e acabamentos em metal, com durabilidade e proteção. Conta com classificação de proteção IPX6 de resistência a água, sendo ideal para aproveitar em diversos ambientes sem preocupação.<\/p><p>Se você está procurando uma excelente experiência sonora com um design inovador e recursos avançados, a caixa de som <strong>WAAW US 200 DUO<\/strong> é a escolha perfeita para você.<\/p><p><\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -894,9 +972,11 @@
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
     "a1e7ab5e-a6d1-48dd-86db-4785620cfb5b",
     "image_with_text_overlay_xddGFR",
-    "rich_text_qLPRBz",
-    "image_with_text_overlay_7LVTeg",
+    "image_with_text_overlay_gjtNGL",
     "image_with_text_overlay_ijw3Qd",
+    "image_with_text_overlay_7LVTeg",
+    "rich_text_qLPRBz",
+    "image_with_text_overlay_bYTJCL",
     "rich_text_kcmBzg",
     "hot_spots_drpLpy",
     "impact_text_KbGrii",
