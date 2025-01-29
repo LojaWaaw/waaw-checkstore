@@ -13,14 +13,14 @@
           "type": "text",
           "settings": {
             "highlight": true,
-            "text": "<p>Fone de ouvido intra-auricular, até 30 horas de reprodução, resistente a água e ao suor e hands free.<\/p>"
+            "text": "<p>Caixa de som potente, até 20 horas de autonomia, Entrada P10 para Microfone e Guitarra<\/p>"
           }
         },
         "8bbde357-2065-4d19-b265-1c2b7741a439": {
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p>Se o treino durar mais do que o esperado, não se preocupe! O fone de ouvido esportivo MOVE 200 oferece até 30 horas* de bateria com apenas uma recarga. Assim, sua playlist vai rolar o dia inteiro, sem precisar se preocupar em parar para recarregar.<\/p>"
+            "text": "<p>Sinta a batida das suas músicas favoritas toda vez que apertar o play.<\/p>"
           }
         },
         "separator": {
@@ -79,7 +79,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<ul><li><strong>30 horas<\/strong> de reprodução; <\/li><li><strong>Resistente à água<\/strong> e suor; <\/li><li>HANDS FREE, chamadas com as mãos livres; <\/li><li><strong>WAAW PLUS <\/strong>tecnologia TWS; <\/li><li><strong>Gancho auricular<\/strong> para mais segurança; <\/li><li><strong>Conforto WAAW<\/strong> design inteligente; <\/li><li>Controle de <strong>toque inteligente;<\/strong> <\/li><li>Som de <strong>alta qualidade.<\/strong> <\/li><\/ul>"
+            "text": "<ul><li><strong>700W RMS<\/strong> de potência; <\/li><li>Até <strong>20 horas**<\/strong> de autonomia; <\/li><li>Entrada<strong> P10 MIC;<\/strong> <\/li><li>Entrada <strong>P10 Guitar;<\/strong> <\/li><li><strong>Show de luzes;<\/strong> <\/li><li>1x Tweeters e 2x Woofers; <\/li><li><strong>Bluetooth 5.0;<\/strong> <\/li><li><strong>WAAW PLUS <\/strong>com tecnologia TWS. <\/li><\/ul>"
           }
         },
         "ec206dff-c4b5-464a-b9ff-cce25d2df9a8": {
@@ -162,8 +162,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-01_2x_eb2084ec-39c1-4f43-8856-3077b04b5340.webp",
-        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-01_2x_e8125b5f-7571-4f75-b10a-1d691361a7ce.webp",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-09.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-01.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -177,7 +177,7 @@
         "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Concentre-se no treino, nós cuidamos da música.",
+            "text": "RESPEITA SUA GALERA",
             "heading_tag": "h2",
             "html_tag": "h2",
             "text_color": "",
@@ -187,7 +187,7 @@
         "6e98ac33-d91f-43bc-b952-332eb3291ae6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Para um treino pesado e satisfatório, o <strong>MOVE 200<\/strong> reproduz sua playlist enquanto você se concentra no esporte, transformando o treino em uma experiência ainda mais intensa. <\/p>",
+            "content": "<p>Prepare-se para uma experiência inovadora com a <strong>Caixa de Som WAAW INFINITE 700<\/strong>. Com sua potência e show de luzes, todos os rolês com a galera são festa garantida.  <\/p>",
             "paragraph_font_size": 14
           }
         }
@@ -228,17 +228,17 @@
         "image_bDTdbH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-02_2x_e7fc3ffe-de2a-4a27-86bd-19edb4a2a692.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-14.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-03_2x_91056f93-fdd3-4303-9495-43d796f61937.webp",
+            "custom_icon": "shopify:\/\/shop_images\/Frame_40060.png",
             "icon_width": 80,
             "subheading": "",
-            "title": "Controle de toque inteligente",
+            "title": "700W RMS de potência",
             "heading_tag": "p",
-            "content": "<p>Para atender chamadas enquanto mantém suas mãos livres para reproduzir, pausar, avançar ou voltar músicas, acione o controle de toque inteligente, que torna cada ação mais rápida e intuitiva.<\/p>",
+            "content": "<p>Equipada com dois alto-falantes woofer e um tweeter, a <strong>INFINITE 700<\/strong> proporciona som potente, dinâmico e de alta qualidade para sua festa.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -277,17 +277,41 @@
         "image_qeGQBf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-05_2x_2448bd0f-1e4a-46b1-96ae-189ea20851e7.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-23.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-02_2x_a8a68405-18f1-49f6-b19c-1e2bbc00382d.webp",
+            "custom_icon": "shopify:\/\/shop_images\/INFINITE_700-HTML-53.png",
             "icon_width": 80,
             "subheading": "",
-            "title": "Conforto WAAW",
+            "title": "Um verdadeiro show de luzes",
             "heading_tag": "p",
-            "content": "<p>Feito para quem precisa de um fone firme e estável, o design intra-auricular, combinado com o <strong>gancho auricular<\/strong> do <strong>MOVE 200<\/strong>, foram pensados para ser confortável mesmo durante atividades que exigem movimento e impacto. Seja como seu coração: não pare nunca sua batida.<\/p>",
+            "content": "<p>Com seis modos ajustáveis, o <strong>Show de Luzes<\/strong>, um painel de LEDs que cobrem toda a parte frontal da caixa, é um espetáculo visual que movimenta sua festa. Sinta sua música em todos os sentidos!   <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_N9Kajd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-25.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/INFINITE_700-HTML-54.png",
+            "icon_width": 80,
+            "subheading": "",
+            "title": "Bluetooth 5.0",
+            "heading_tag": "p",
+            "content": "<p>Garante uma conexão rápida e estável com celulares, tablets e outros dispositivos, em até 10 metros de distância. Elimine qualquer bagunça com fios e leve a batida sempre com você!<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -302,86 +326,12 @@
       "block_order": [
         "image_bDTdbH",
         "image_wzfpbF",
-        "image_qeGQBf"
+        "image_qeGQBf",
+        "image_N9Kajd"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
-      }
-    },
-    "media_with_text_TQ8m6R": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_hqpGCd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-04_2x_5ac63e2e-6614-42c4-a9aa-393547b107ac.webp",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-end-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-01_2x_c261fbf1-f75a-4409-b8f1-2ed92cf78563.webp",
-            "icon_width": 80,
-            "subheading": "",
-            "title": "Proteção IPX5",
-            "heading_tag": "p",
-            "content": "<p><strong>Resistente à água e ao suor<\/strong>, ele é ideal para corridas na chuva ou treinos pesados. Vá além dos seus limites com segurança, mantendo a energia e o som que te motiva!<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#000000",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_hqpGCd"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "WAAW Plus",
-            "heading_tag": "h2",
-            "html_tag": "h2"
-          }
-        },
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Prepare para uma experiência estéreo única com a tecnologia <strong>WAAW PLUS TWS<\/strong> (True Wireless Stereo), onde cada fone funciona separadamente para tornar a batida mais especial.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 568px) {p {margin-left: 10px; margin-right: 450px; }}"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-07_2x_570a327c-e52d-4796-a02c-28d00cd5ea95.webp",
-        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-03_2x_4a9c2a26-2eca-4c4f-bebb-aab66235de5e.webp",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-center-start sm:text-start",
-        "text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
       }
     },
     "aef15cf5-6c0f-4559-9db1-e087af14fe5d": {
@@ -390,38 +340,62 @@
         "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 25,
-            "vertical_position": 26,
-            "horizontal_position_mobile": 15,
-            "vertical_position_mobile": 29,
-            "icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-04.png",
-            "icon_width": 52,
-            "title": "Hands free",
-            "content": "<p>Com um toque no controle touch, é possível atender ligações, realizar comandos na música, além de acionar a assistente de voz do seu dispositivo.<\/p>"
+            "horizontal_position": 30,
+            "vertical_position": 23,
+            "horizontal_position_mobile": 19,
+            "vertical_position_mobile": 19,
+            "icon_width": 72,
+            "title": "Grade protetora",
+            "content": "<p>Acompanhando a identidade visual da WAAW, a grade não só protege, como traz mais modernidade e beleza para sua playlist. <\/p>"
           }
         },
-        "item_YxibmR": {
+        "item_zXYweR": {
           "type": "item",
           "settings": {
-            "horizontal_position": 74,
-            "vertical_position": 43,
-            "horizontal_position_mobile": 80,
-            "vertical_position_mobile": 40,
-            "icon": "shopify:\/\/shop_images\/7899831332724-move200-icon-05.png",
-            "icon_width": 52,
-            "title": "Gancho auricular",
-            "content": "<p>Um detalhe exclusivo do MOVE 200, pensado para quem quer estabilidade durante movimentos e impactos.<\/p>"
+            "horizontal_position": 37,
+            "vertical_position": 53,
+            "horizontal_position_mobile": 27,
+            "vertical_position_mobile": 48,
+            "icon_width": 32,
+            "title": "Show de Luzes",
+            "content": "<p>Sinta cada detalhe das músicas com a experiência visual inovadora da<strong> INFINITE 700<\/strong>. <\/p>"
+          }
+        },
+        "item_tQYLAi": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 56,
+            "vertical_position": 34,
+            "horizontal_position_mobile": 58,
+            "vertical_position_mobile": 28,
+            "icon_width": 72,
+            "title": "Alto-falantes",
+            "content": "<p>Equipada com dois woofers e um tweeter, cada batida é intensificada e se torna mais envolvente.<\/p>"
+          }
+        },
+        "item_Q7Y3gJ": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 64,
+            "vertical_position": 91,
+            "horizontal_position_mobile": 70,
+            "vertical_position_mobile": 80,
+            "icon_width": 32,
+            "title": "Rodas de transporte:",
+            "content": "<p>Facilita a mobilidade da caixa de som, independente do tamanho da sua festa.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1",
-        "item_YxibmR"
+        "item_zXYweR",
+        "item_tQYLAi",
+        "item_Q7Y3gJ"
       ],
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-06_2x_80f6feb2-9cf4-429d-b69b-22c483ac8591.webp",
-        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-02_2x_065daf69-471c-4114-9d63-68eed08c70bb.webp",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-40.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-43.png",
         "title": "",
         "content": "",
         "button_text": "",
@@ -448,7 +422,7 @@
         "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1": {
           "type": "item",
           "settings": {
-            "title": "até 30h",
+            "title": "até 20h",
             "reduce_margins": false,
             "subheading": "",
             "content": "",
@@ -485,7 +459,7 @@
         "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "O ritmo que te acompanha até a linha de chegada",
+            "text": "Mais música, por mais tempo.",
             "heading_tag": "h4",
             "html_tag": "h2",
             "text_color": "",
@@ -495,15 +469,15 @@
         "richtext_NYDpMH": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Perfeito para quem valoriza conforto<\/strong>. O fone de ouvido esportivo WAAW é equipado com uma bateria de longa duração, que te acompanha por <strong>até 30 horas*<\/strong>, sendo até 7 horas do fone e 23 horas da case, ele proporciona música durante treinos prolongados, sem interrupções.<\/p>",
+            "content": "<p>Não se preocupe mais em levar o carregador da caixa para todo lugar. Com as baterias internas da <strong>INFINITE 700 <\/strong>sua música não para em até 20 horas* de autonomia, sem necessidade de conectar na tomada! <br\/>Você também pode usar uma bateria externa (não incluído) como mais uma forma de usar a caixa por mais tempo, sem parar sua festa. <\/p>",
             "paragraph_font_size": 14
           }
         },
         "abdf3d04-4932-466b-9919-e69800c6081c": {
           "type": "richtext",
           "settings": {
-            "content": "<p> * Duração de 7 horas da bateria com volume em 50% (a duração pode variar conforme o tipo de música reproduzida) <\/p>",
-            "paragraph_font_size": 10
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.  <\/p>",
+            "paragraph_font_size": 14
           }
         }
       },
@@ -521,22 +495,103 @@
         "text_color": "#000000"
       }
     },
+    "image_with_text_overlay_FbTp8a": {
+      "type": "image-with-text-overlay",
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-08.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-51.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h2",
+            "html_tag": "h2"
+          }
+        },
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A tecnologia TWS (True Wireless Stereo) do WAAW Plus permite conectar até duas caixas<strong> INFINITE 700 <\/strong>ao mesmo tempo. Assim, sua música transforma a vibe de qualquer ambiente. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 568px) {p {margin-left: 190px; margin-right: 190px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-03.png",
+        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_03.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "media_with_text_WnmAwp": {
       "type": "media-with-text",
       "blocks": {
         "image_8c8GDq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-03_2x_1fc627b7-20be-4d9e-a623-3e2b4394fd88.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-15.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/INFINITE_700-HTML-55.png",
+            "icon_width": 80,
+            "subheading": "",
+            "title": "Power Bass",
+            "heading_tag": "p",
+            "content": "<p>Sinta os graves com profundidade e impacto ao acionar o <strong>Power Bass <\/strong>da caixa de som bluetooth. Ao destacar os baixos de forma clara e envolvente, você vai intensificar a experiência sonora, trazendo mais emoção e potência para sua playlist.  <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_WARkGQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-16.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "icon_width": 100,
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-03.png",
+            "icon_width": 80,
             "subheading": "",
-            "title": "Você conectado ao ritmo que te move a ir mais longe",
+            "title": "Design",
             "heading_tag": "p",
-            "content": "<p>Não se preocupe em falhas na transmissão durante sua corrida e outras atividades. O <strong>Bluetooth 5.3<\/strong> do fone de ouvido <strong>WAAW MOVE 200<\/strong> permite uma conexão e compatibilidade mais rápidos com qualquer dispositivo. Assim sua batida te acompanha onde você for!<\/p>",
+            "content": "<p>Design imponente e tamanho ideal para quem quer som de verdade! A <strong>INFINITE 700<\/strong> é uma caixa tipo torre com 1 metro de altura, projetada para impactar visualmente e sonoramente. Ela ocupa seu espaço na festa e entrega graves potentes e som claro. <\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -549,37 +604,38 @@
         }
       },
       "block_order": [
-        "image_8c8GDq"
+        "image_8c8GDq",
+        "image_WARkGQ"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
       }
     },
-    "rich_text_b8LQ6M": {
+    "rich_text_b34pmy": {
       "type": "rich-text",
       "blocks": {
-        "heading_iYnFCY": {
+        "heading_hp3pEn": {
           "type": "heading",
           "settings": {
-            "text": "Respeita sua jornada com a trilha sonora ideal para você",
+            "text": "Conectividade",
             "heading_tag": "h4",
             "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         },
-        "richtext_R6ydYH": {
+        "richtext_wnbRq4": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ele carrega a força de cada batida, enquanto você só leva o que importa: a vontade de seguir em frente. Com estilo e resistência, o <strong>MOVE 200<\/strong> é seu parceiro de jornada, mantendo o som presente e o foco lá no alto. Design que inspira e energia que acompanha.<\/p>",
+            "content": "<p>Aproveite a liberdade de conexão da <strong>INFINITE 700<\/strong> e dê um up  no rolê!<\/p>",
             "paragraph_font_size": 14
           }
         }
       },
       "block_order": [
-        "heading_iYnFCY",
-        "richtext_R6ydYH"
+        "heading_hp3pEn",
+        "richtext_wnbRq4"
       ],
       "settings": {
         "full_width": true,
@@ -590,6 +646,97 @@
         "text_color": "#000000"
       }
     },
+    "images_with_text_scrolling_ALTczj": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_aL3nPK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-17.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Duas entradas P10 Microfone ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_DAWMP8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-18.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada P10 Guitarra ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_MDrkpN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-19.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada auxiliar IN ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_MWqyMV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-20.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada micro SD ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_gcCthj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-21.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada USB ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_6K4Bet": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-22.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Bluetooth v5.0 ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_aL3nPK",
+        "item_DAWMP8",
+        "item_MDrkpN",
+        "item_MWqyMV",
+        "item_gcCthj",
+        "item_6K4Bet"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "image_with_text_overlay_Ye6jiL": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -597,13 +744,103 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-11_2x_0bd454d4-8f2e-49c8-97f5-ebf1951a095e.webp",
-        "mobile_image": "shopify:\/\/shop_images\/7899831332724-move200-mobile-03.webp",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-04.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-44.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
+      }
+    },
+    "slideshow_FKQzCT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_XyiVam": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-05.png",
+            "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-202.png",
+            "content_max_width": 500,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_thDByN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-06.png",
+            "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-201_355f87f4-1dea-4017-92bf-17e92feac1d4.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_HNeNtX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-07.png",
+            "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-200_a37a1660-da84-47e6-bf48-1ce3297cb678.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XyiVam",
+        "image_thDByN",
+        "image_HNeNtX"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": "",
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
       }
     },
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
@@ -612,7 +849,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-08_2x_53f2a5d3-354b-471d-a86b-e002eea3254e.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-11.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -634,7 +871,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-09_2x_fc46c64e-560c-47b9-b7fe-75d93224a78c.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-12.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -656,7 +893,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724-move200-desktop-10_2x_1a6b39c1-2569-450b-b12c-89aae5d0888c.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-13.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -701,7 +938,7 @@
             "heading_3": "Impedância do Speaker (ohms)",
             "heading_4": "Tamanho do Speaker (polegada)",
             "heading_5": "Número de Tweeters",
-            "heading_6": "Número de Full Range",
+            "heading_6": "Número de Woofers",
             "heading_7": "Resposta de Frequência (Hz)",
             "heading_8": "Versão do Bluetooth",
             "heading_9": "Tempo de reprodução de música (h)",
@@ -713,24 +950,24 @@
             "heading_15": "Perfis bluetooth",
             "heading_16": "Alcance máximo do Bluetooth (m)",
             "heading_17": "Desligamento Automático",
-            "heading_18": "Certificado ANATEL",
-            "heading_19": "Potência de Saída (W) (RMS)",
-            "heading_20": "Controle com botões",
-            "heading_21": "Microfone integrado",
-            "heading_22": "Acompanha cabo P2 (m)",
-            "heading_23": "Conectividade APP",
-            "heading_24": "Entrada cabo de áudio 3,5 mm",
-            "heading_25": "Rádio FM",
-            "heading_26": "Número de canais de som",
-            "heading_27": "Configuração do driver",
-            "heading_28": "Saída de áudio (Line Out)",
-            "heading_29": "Dimensões do Produto Montado CxLxA (cm)",
-            "heading_30": "Peso Líquido Produto (kg)",
-            "heading_31": "Dimensões da Embalagem C x L x A (cm)",
-            "heading_32": "Peso Bruto da Embalagem (kg)",
-            "heading_33": "Garantia",
-            "heading_34": "Conteúdo da Embalagem",
-            "heading_35": "",
+            "heading_18": "Potência de Saída (W) (RMS)",
+            "heading_19": "Controle com botões",
+            "heading_20": "Entrada cabo de áudio 3,5 mm",
+            "heading_21": "Entrada para cartão SD",
+            "heading_22": "Iluminação em LED",
+            "heading_23": "Reforço de Grave",
+            "heading_24": "Número de canais de som",
+            "heading_25": "Configuração do driver",
+            "heading_26": "Entrada para microfone (Quant. e mm)",
+            "heading_27": "Entrada de guitarra (Quant. e mm)",
+            "heading_28": "Entrada USB",
+            "heading_29": "Fonte de alimentação",
+            "heading_30": "Garantia",
+            "heading_31": "Conteúdo da Embalagem",
+            "heading_32": "Dimensões do Produto Montado CxLxA (cm)",
+            "heading_33": "Peso Líquido Produto (kg)",
+            "heading_34": "Dimensões da Embalagem C x L x A (cm)",
+            "heading_35": "Peso Bruto da Embalagem (kg)",
             "heading_36": "",
             "heading_37": "",
             "heading_38": "",
@@ -744,39 +981,39 @@
             "product": "",
             "value_1": "<p>Preto e Verde<\/p>",
             "value_2": "<p>Polímeros e Metais<\/p>",
-            "value_3": "<p>32<\/p>",
-            "value_4": "<p>–<\/p>",
-            "value_5": "<p>–<\/p>",
-            "value_6": "<p>2 (1 por fone)<\/p>",
-            "value_7": "<p>20Hz~20kHz<\/p>",
-            "value_8": "<p>5.3<\/p>",
-            "value_9": "<p>30:00h<\/p>",
-            "value_10": "<p>02:10h<\/p>",
-            "value_11": "<p>case: 400mAh<br\/>produto:40mAh<\/p>",
-            "value_12": "<p>Lí-ion<\/p>",
-            "value_13": "<p>IPX5<\/p>",
-            "value_14": "<p>USB-C<\/p>",
-            "value_15": "<p>A2DP \/ AVRCP \/ VDP \/ HFP \/ HSP<\/p>",
+            "value_3": "<p>Tweeter: 4 ohms woofer: 6 ohms<\/p>",
+            "value_4": "<p>12″ (woofer)<\/p>",
+            "value_5": "<p>1<\/p>",
+            "value_6": "<p>2 (12″)<\/p>",
+            "value_7": "<p>60Hz-16KHz<\/p>",
+            "value_8": "<p>5.0<\/p>",
+            "value_9": "<p>20 horas* (50%)<\/p>",
+            "value_10": "<p>Até 4<\/p>",
+            "value_11": "<p>7500<\/p>",
+            "value_12": "<p>Chumbo ácido<\/p>",
+            "value_13": "<p>Não<\/p>",
+            "value_14": "<p>2 pinos<\/p>",
+            "value_15": "<p>A2DP\/AVRCP<\/p>",
             "value_16": "<p>10<\/p>",
-            "value_17": "<p>5min<\/p>",
-            "value_18": "<p>Sim<\/p>",
-            "value_19": "<p>5m<\/p>",
-            "value_20": "<p>Não<\/p>",
-            "value_21": "<p>Não<\/p>",
-            "value_22": "<p>Não<\/p>",
-            "value_23": "<p>Não<\/p>",
-            "value_24": "<p>Não<\/p>",
-            "value_25": "<p>Não<\/p>",
-            "value_26": "<p>1<\/p>",
-            "value_27": "<p>Unidirecional<\/p>",
-            "value_28": "<p>5V~2A<\/p>",
-            "value_29": "<p>3,1 x 6,9 x 3,7 cm<\/p>",
-            "value_30": "<p>0,037 kg<\/p>",
-            "value_31": "<p>12 x 4,65 x 10,4 cm<\/p>",
-            "value_32": "<p>0,136 kg<\/p>",
-            "value_33": "<p>Produto: 1 Ano (3 meses de garantia legal e mais 9 meses de<br\/>garantia especial concedida pelo fabricante).<br\/>Bateria: 6 Meses (3 meses de garantia legal e mais 3 meses de<br\/>garantia especial concedida pelo fabricante).<\/p>",
-            "value_34": "<p>Fone de Ouvido  Move 200 + Acessórios + Manual de Instruções.<\/p>",
-            "value_35": "",
+            "value_17": "<p>Após 25min sem conexão<\/p>",
+            "value_18": "<p>700<\/p>",
+            "value_19": "<p>2<\/p>",
+            "value_20": "<p>Sim<\/p>",
+            "value_21": "<p>Sim<\/p>",
+            "value_22": "<p>Sim<\/p>",
+            "value_23": "<p>Sim<\/p>",
+            "value_24": "<p>1<\/p>",
+            "value_25": "<p>unidirecional<\/p>",
+            "value_26": "<p>2 – P10<\/p>",
+            "value_27": "<p>1 – P10<\/p>",
+            "value_28": "<p>Sim<\/p>",
+            "value_29": "<p>Interna – 100V~240V 50Hz~60Hz<\/p>",
+            "value_30": "<p>Produto: 1 Ano (3 meses de garantia legal e mais 9 meses de garantia especial concedida pelo fabricante).<br\/>Bateria: 6 Meses (3 meses de garantia legal e mais 3 meses de garantia especial concedida pelo fabricante).<\/p>",
+            "value_31": "<p>Caixa de Som WAAW by ALOK Infinite 700 + Acessórios e Componentes + Manual de Intruções.<\/p>",
+            "value_32": "<p>41,5 x 40,5 x 104 cm<\/p>",
+            "value_33": "<p>25,8 kg<\/p>",
+            "value_34": "<p>47 x 45 x 111,6 cm<\/p>",
+            "value_35": "<p>28,8 kg<\/p>",
             "value_36": "",
             "value_37": "",
             "value_38": "",
@@ -794,8 +1031,8 @@
       "settings": {
         "full_width": false,
         "subheading": "",
-        "title": "Descrição",
-        "content": "<h5>Acompanhe o ritmo do seu esporte com som de alta performance<\/h5><p>Para um treino pesado e satisfatório, o <strong>Earphone Bluetooth Sport WAAW MOVE 200 <\/strong>reproduz sua playlist enquanto você se concentra no esporte, transformando o treino em uma experiência ainda mais intensa. O design <strong>intra-auricular<\/strong> se encaixa perfeitamente nas orelhas, mantendo você conectado ao ritmo que te move a ir mais longe. <\/p><p>O <strong>gancho auricular<\/strong> foi projetado para que o fone de ouvido sem fio permaneça firme e estável, mesmo durante atividades esportivas que exigem mais movimentos e impacto, proporcionando segurança e conforto. Com a <strong>proteção IPX5<\/strong>, ele é resistente à água e ao suor, ideal para corridas na chuva ou treinos pesados. Vá além dos seus limites com segurança, mantendo a energia e o som que te motiva! <\/p><p>Experimente uma verdadeira experiência auditiva estéreo, sem fio e sem interrupções. Com a tecnologia TWS <strong>WAAW Plus <\/strong>e Bluetooth 5.3, a conexão é mais rápida e estável. O recurso <strong>hands free<\/strong> usa a tecnologia de <strong>controle de toque<\/strong> inteligente, que permite atender chamadas, reproduzir, pausar, avançar ou voltar músicas, além de acionar a <strong>assistente de voz<\/strong> com apenas um toque. <\/p><p>E se o treino durar mais do que o esperado, não se preocupe! O fone de ouvido esportivo <strong>MOVE 200 <\/strong>oferece até <strong>30 horas* de bateria <\/strong>com apenas uma recarga. Assim, sua playlist vai rolar o dia inteiro, sem precisar se preocupar em parar para recarregar. <\/p><p>Toda jornada começa com o primeiro passo, e com o <strong>Earphone Bluetooth Sport WAAW MOVE 200<\/strong>, você tem energia para ir em frente, sem parar. Ele carrega a força de cada batida, enquanto você só leva o que importa: a vontade de seguir em frente. <\/p><p>WAAW | Respeita Sua Batida. <\/p><p><\/p>",
+        "title": "A experiência que torna qualquer evento em uma verdadeira festa ",
+        "content": "<p>Prepare-se para uma experiência única com a <strong>Caixa de Som Tipo Torre WAAW BLUETOOTH INFINITE 700. <\/strong>Com uma potência de 700W RMS, e Bluetooth 5.0, garante conexão mais rápida com celulares, tablets e outros dispositivos, em até 10 metros de distância.  <\/p><p>Sua <strong>bateria interna<\/strong> permite aproveitar sua playlist com até <strong>20 horas* de autonomia<\/strong> da caixa de som. Aproveite o som potente e a mobilidade facilitada sem depender de tomadas. Além disso, a caixa de som pode ser carregada usando uma bateria externa (não incluída), garantindo que o som continue mesmo quando a bateria estiver baixa. <\/p><p>Um verdadeiro espetáculo visual, a<strong> INFINITE 700 <\/strong>possui um <strong>show de luzes<\/strong> com seis modos de iluminação: o flame de LEDs cobre todo o painel frontal da caixa de som com pixels que tornam a experiência mais dinâmica e vibrante. E a diversão não para por aí, pois a caixa tem duas entradas P10 para microfone, entrada para guitarra, entradas USB e auxiliar IN, e suporte para micro SD.  <\/p><p>Para ajustar o <strong>volume dos microfones e guitarra<\/strong>, use os botões Volume – Microfone ou Volume – Guitarra, e ajuste o volume. Para personalizar o som, use os botões Echo, Treble e botão de volume para ajustar o <strong>eco e os agudos<\/strong>. A caixa de som está equipada com <strong>quatro efeitos sonoros<\/strong> que podem ser ativados em qualquer modo através dos botões dedicados. Pressione os correspondentes botões para ativação do efeito. Com a <strong>INFINITE 700<\/strong> você fica no controle de tudo.  <\/p><p>Equipada com três alto-falantes, sendo um tweeter e dois woofers, cada detalhe da sua playlist será intensificado para uma reprodução clara. E para quem curte graves poderosos, o botão<strong> power bass<\/strong> oferece um reforço que intensifica as batidas, o que torna as músicas muito mais envolventes. Se apenas uma caixa não é o suficiente para a batida da galera, a tecnologia TWS (<em>True Wireless Stereo<\/em>) da <strong>WAAW PLUS <\/strong>conecta até duas caixas <strong>INFINITE 700<\/strong> via Bluetooth.  <\/p><p>Leve seu som para onde quiser com as rodas para transporte da<strong> INFINITE 700<\/strong>, que facilitam a mobilidade da caixa, perfeito para grandes encontros.  <\/p><p>Prepare-se para sentir sua música de forma mais intensa com a <strong>Caixa de Som Tipo Torre WAAW BLUETOOTH INFINITE 700<\/strong>, e transforme qualquer ambiente em uma festa dinâmica e contagiante.<strong> <\/strong> <\/p><p>WAAW | Respeita sua Batida. <\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -900,14 +1137,14 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831332724_-_MOVE_200_-_02.png",
+            "image": "shopify:\/\/shop_images\/7899831332748-INFINITE700-04.png",
             "image_rotation_degrees": 4,
             "external_video_url": "",
             "subheading": "",
             "title": "Ainda tem dúvidas? Veja como funciona",
             "html_heading_tag": "p",
             "content": "",
-            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/MOVE-200-WAAW0406\/MANUAL-MOVE-200-Rev.00-1309.pdf",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/INFINITE-700\/manual_caixa_de_som_infinite_700.pdf",
             "button_text": "Baixe o manual de instruções"
           }
         }
@@ -934,14 +1171,16 @@
     "ccd69a7e-3f85-4d01-b54a-e780772a03f3",
     "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62",
     "media_with_text_bEjYFJ",
-    "media_with_text_TQ8m6R",
-    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
     "aef15cf5-6c0f-4559-9db1-e087af14fe5d",
     "4241750f-3b6b-4872-977e-af0f892d679d",
     "57cbe60d-50fe-4899-87b0-3d3ca88328f3",
+    "image_with_text_overlay_FbTp8a",
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
     "media_with_text_WnmAwp",
-    "rich_text_b8LQ6M",
+    "rich_text_b34pmy",
+    "images_with_text_scrolling_ALTczj",
     "image_with_text_overlay_Ye6jiL",
+    "slideshow_FKQzCT",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "related-products",

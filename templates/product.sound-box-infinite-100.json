@@ -188,9 +188,9 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/02.Html-infinite-100_4e999330-da6c-49f1-91ce-80d06d266f3a.png",
-        "mobile_image": "shopify:\/\/shop_images\/05.Html-infinite-100_1755ec53-9684-4f02-af9f-496dd53cc903.png",
-        "mobile_text_position": "place-self-center text-center",
+        "image": "shopify:\/\/shop_images\/capa-infinite100-desktop.png",
+        "mobile_image": "shopify:\/\/shop_images\/capa-infinite100-_mobile.png",
+        "mobile_text_position": "place-self-start-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -470,7 +470,7 @@
         "template--16080146268335__45a81e0d-525c-486b-8405-5333e75aa09b-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/13.Html-infinite-100_6d3de6de-3d35-4f4a-ba6d-b3dcf66479f3.png",
+            "image": "shopify:\/\/shop_images\/infinite100-conectividade2.png",
             "icon": "none",
             "custom_icon": "shopify:\/\/shop_images\/11.Banner-html-sense-200.png",
             "icon_width": 56,
@@ -554,7 +554,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE_100_-_09_4117727c-e0fc-4ccb-b4e6-c6c0886faae6.png",
+            "image": "shopify:\/\/shop_images\/infinite100-01-1.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -576,7 +576,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE_100_-_01.png",
+            "image": "shopify:\/\/shop_images\/infinite100-03_5c30e38e-ac4d-4d28-a3bb-10f78dfd7338.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -598,7 +598,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/INFINITE100-11.png",
+            "image": "shopify:\/\/shop_images\/infinite100-01_72fd9d16-0704-4e9d-9b23-72c3552fa307.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -737,7 +737,7 @@
         "full_width": false,
         "subheading": "",
         "title": "Potência para curtir com todo mundo. Respeita seu rolê.",
-        "content": "<p>Sinta a batida das suas músicas favoritas toda vez que apertar o play. Com uma impressionante potência de 100W RMS, a <strong>Caixa de Som WAAW INFINITE 100<\/strong> garante que cada som preencha o ambiente de maneira envolvente e imersiva.<\/p><p>Equipada com quatro alto-falantes de alta qualidade, incluindo 2 tweeters e 2 full ranges, oferece mais clareza em todas as frequências, desde graves profundos até agudos cristalinos. Com o Botão Power Bass, a caixa de som conta com um recurso poderoso que intensifica os graves, proporcionando batidas mais fortes e perceptíveis. Sinta cada nota, cada batida, como se estivesse no coração da música.<\/p><p>A tecnologia True Wireless Stereo (TWS) permite que você conecte duas caixas <strong>WAAW INFINITE 100<\/strong> via Bluetooth, para ter um som ainda mais expansivo. Leve sua festa a outro nível, preenchendo o ambiente com ondas sonoras que envolvem todos que estão presentes.<\/p><p>Possui uma bateria de longa duração com até 14 horas de autonomia, ideal para aproveitar as festas mais épicas. Além disso, oferece quatro opções de conexão: Bluetooth, cabo auxiliar, porta USB para pendrive e microfone. Isso garante que você possa reproduzir suas músicas de diferentes fontes com facilidade.<\/p><p>Com classificação IPX4, a caixa é resistente a respingos, sendo perfeita para qualquer ocasião, seja em casa ou ao ar livre. E para tornar a sua festa ainda mais épica, a <strong>SOUND BOX WAAW INFINITE 100<\/strong> apresenta um dinâmico show de luzes em LEDs que pulsam em sincronia com a batida da música. Transforme qualquer ambiente em uma pista de dança iluminada, criando uma atmosfera contagiante e energética.<\/p><p><strong>Aproveite o instante e experimente infinito. Respeita a sua batida!<\/strong><\/p><p><\/p><p>_____________________________________________________<br\/><br\/>PROMOÇÃO NO DROP DE NAZARÉ COM LUCAS CHUMBO<br\/><br\/>Viva a experiência \"No Drop de Nazaré com Lucas Chumbo\"! Cada compra de um produto WAAW by Alok gera um número da sorte para você participar.<br\/><br\/>Após a compra, acesse o site drop.waaw.com.br, cadastre-se e concorra a uma viagem de 5 dias em Portugal, com tudo pago e direito a acompanhante.<br\/><br\/>Explore os melhores pontos turísticos, culturais e gastronômicos e sinta de perto a adrenalina de Nazaré. Não perca essa chance de viver momentos inesquecíveis em Portugal!<br\/><br\/>- Cada produto comprado gera um número da sorte para participar<br\/>- 5 dias em Portugal, com direito a acompanhante<br\/>- Rolê com Lucas Chumbo<br\/>- Descubra as belezas de Porto e Lisboa<br\/>- Explore diversos pontos turísticos<br\/>- Rolê de Jet Ski e tour gastronômico<br\/><br\/>COMPRE SUA WAAW BY ALOK, CADASTRE-SE NO LINK drop.waaw.com.br E CONCORRA A UMA VIAGEM PARA PORTUGAL COM TUDO PAGO!<\/p>",
+        "content": "<p>Sinta a batida das suas músicas favoritas toda vez que apertar o play. Com uma impressionante potência de 100W RMS, a <strong>Caixa de Som WAAW INFINITE 100<\/strong> garante que cada som preencha o ambiente de maneira envolvente e imersiva.<\/p><p>Equipada com quatro alto-falantes de alta qualidade, incluindo 2 tweeters e 2 full ranges, oferece mais clareza em todas as frequências, desde graves profundos até agudos cristalinos. Com o Botão Power Bass, a caixa de som conta com um recurso poderoso que intensifica os graves, proporcionando batidas mais fortes e perceptíveis. Sinta cada nota, cada batida, como se estivesse no coração da música.<\/p><p>A tecnologia True Wireless Stereo (TWS) permite que você conecte duas caixas <strong>WAAW INFINITE 100<\/strong> via Bluetooth, para ter um som ainda mais expansivo. Leve sua festa a outro nível, preenchendo o ambiente com ondas sonoras que envolvem todos que estão presentes.<\/p><p>Possui uma bateria de longa duração com até 14 horas de autonomia, ideal para aproveitar as festas mais épicas. Além disso, oferece quatro opções de conexão: Bluetooth, cabo auxiliar, porta USB para pendrive e microfone. Isso garante que você possa reproduzir suas músicas de diferentes fontes com facilidade.<\/p><p>Com classificação IPX4, a caixa é resistente a respingos, sendo perfeita para qualquer ocasião, seja em casa ou ao ar livre. E para tornar a sua festa ainda mais épica, a <strong>SOUND BOX WAAW INFINITE 100<\/strong> apresenta um dinâmico show de luzes em LEDs que pulsam em sincronia com a batida da música. Transforme qualquer ambiente em uma pista de dança iluminada, criando uma atmosfera contagiante e energética.<\/p><p><strong>Aproveite o instante e experimente infinito. Respeita a sua batida!<\/strong><\/p><p><\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "start",
@@ -867,6 +867,18 @@
         "button_background": "",
         "button_text_color": ""
       }
+    },
+    "custom_html_cdaKiw": {
+      "type": "custom-html",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "html": "<div id=\"_trustvox_widget\"><\/div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -886,6 +898,7 @@
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "related-products",
     "bedde819-6097-46a7-ad5f-e40c4bfdb6b8",
-    "72335e0e-e77a-44f4-87d0-c279cb2fd451"
+    "72335e0e-e77a-44f4-87d0-c279cb2fd451",
+    "custom_html_cdaKiw"
   ]
 }

@@ -86,6 +86,11 @@
         "settings": {
           "storefrontAccessToken": "6bac9eddf27cd95f9c9296b21fe65c9b"
         }
+      },
+      "17730292167556765394": {
+        "type": "shopify:\/\/apps\/pagbrasil-app-companion\/blocks\/app_embedded_extra_info\/356201f0-7b27-4511-ac69-c1627db6da45",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

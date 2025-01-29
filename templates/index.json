@@ -3,11 +3,11 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "image_NKFdfa": {
+        "image_hUg6bj": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.2800x800-banner-site-black-friday-waaw.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03.1200x1600-banner-site-black-friday-waaw.jpg",
+            "image": "shopify:\/\/shop_images\/07.2800x800-banner-principal-waaw-pix.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/08.1200x1600-banner-principal-waaw-pix.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -15,7 +15,29 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/pre-black-friday",
+            "button_link": "shopify:\/\/collections\/all",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_8myqhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01.2800x800-banner-principal-waaw-hyperboom_b8c390a9-fdfd-4d92-aaab-89172a13a8ff.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/02.1200x1600-banner-principal-waaw-hyperboom_a5dcfdb3-b624-4052-9de7-9f3c470d15fb.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "https:\/\/waaw.com.br\/products\/caixa-de-som-hyperboom-1000",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -28,8 +50,8 @@
         "image_AfGUqt": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.Banner-desktop-site-waaw-nazare_df9e8e53-e615-4c39-b8f2-d65610748632.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/03.Mobile-desktop-site-waaw-nazare_0d898e12-0374-49f8-b0ec-2cf98df9711d.jpg",
+            "image": "shopify:\/\/shop_images\/05.2800x800-banner-principal-waaw-boom-200_0799c27d-b842-45b0-b3fc-f420b106e6fd.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/06.1200x1600-banner-principal-waaw-boom-200_5d4beb1d-060a-41ba-95a1-b0437c2144f9.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -37,7 +59,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "http:\/\/drop.waaw.com.br",
+            "button_link": "https:\/\/waaw.com.br\/products\/caixa-de-som-boom-200",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -47,11 +69,11 @@
             "background_gradient": ""
           }
         },
-        "image_kf4aqn": {
+        "image_yXaXpR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner--hyperboom_1000--desktop.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner--hyperboom_1000--mobile.png",
+            "image": "shopify:\/\/shop_images\/03.2800x800-banner-principal-waaw-mob-500_386490bd-5a5d-48cd-b851-ca6519093f4a.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/04.1200x1600-banner-principal-waaw-mob-500_d44a6650-94cd-426b-a3b9-c38efa8101ca.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -59,51 +81,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/caixa-de-som-hyperboom-1000",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_Kpr3HR": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner-boom200-desktop.png",
-            "mobile_image": "shopify:\/\/shop_images\/banner-boom200-mobile.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/caixa-de-som-boom-200",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_frDyJG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Desktop-banners-site-nova-linha-infinite-100.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Mobile-banners-site-nova-linha-infinite-100.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/products\/sound-box-infinite-100",
+            "button_link": "https:\/\/waaw.com.br\/products\/fone-de-ouvido-mob-500",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -115,11 +93,10 @@
         }
       },
       "block_order": [
-        "image_NKFdfa",
+        "image_hUg6bj",
+        "image_8myqhV",
         "image_AfGUqt",
-        "image_kf4aqn",
-        "image_Kpr3HR",
-        "image_frDyJG"
+        "image_yXaXpR"
       ],
       "settings": {
         "full_width": true,
@@ -165,8 +142,8 @@
     "a17ec046-c828-412b-92fa-e109251e7f77": {
       "type": "featured-collection",
       "settings": {
-        "banner": "shopify:\/\/shop_images\/02.500X706-banner-site-waaw_1.jpg",
-        "banner_link": "https:\/\/waaw.com.br\/collections\/todos-os-produtos",
+        "banner": "shopify:\/\/shop_images\/01.500x706-banner-vitrine-site-waaw-2025.jpg",
+        "banner_link": "shopify:\/\/collections\/todos-os-produtos",
         "banner_image_behavior": "object-fit",
         "banner_text": "",
         "banner_text_color": "rgba(0,0,0,0)",
@@ -174,7 +151,7 @@
         "banner_text02": "",
         "banner_text_color02": "rgba(0,0,0,0)",
         "banner_text_size02": 30,
-        "banner_text_align": "left",
+        "banner_text_align": "center",
         "banner_text_position": "top",
         "collection": "todos-os-produtos",
         "products": [],
@@ -205,10 +182,10 @@
         "image_hdaD8C": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_infinites_7738541b-ba90-4c83-aba3-77fc89bf0d84.png",
+            "image": "shopify:\/\/shop_images\/01.1500x1523-banner-categorias-infinite-200_f5fa9b64-a447-4504-8dbb-10bde3699110.jpg",
             "title": "",
             "heading_tag": "h4",
-            "link_url": "shopify:\/\/products\/sound-box-infinite-100",
+            "link_url": "shopify:\/\/products\/sound-box-infinite-200",
             "link_text": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_column_span": 2,
@@ -227,7 +204,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/03.700x583-banner-site-waaw-categoria_3919f16e-add3-4ed8-be2b-a2ddbbaa72d7_1.jpg",
+            "image": "shopify:\/\/shop_images\/02.700x583-banner-categorias-fones-de-ouvido_cca356af-efaf-4e24-8921-558c3c499820.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/fones-de-ouvido",
@@ -249,7 +226,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/caixas_de_som.png",
+            "image": "shopify:\/\/shop_images\/02.700x583-banner-categorias-caixas-de-som_fc07a7cb-ee8e-477b-a98e-57ce16686a13.jpg",
             "title": "",
             "heading_tag": "h4",
             "link_url": "shopify:\/\/collections\/caixas-de-som",
@@ -277,7 +254,7 @@
       "settings": {
         "full_width": true,
         "reduce_width": false,
-        "desktop_row_height": 250,
+        "desktop_row_height": 390,
         "mobile_row_height": 180,
         "background": "rgba(0,0,0,0)",
         "background_gradient": ""
@@ -539,19 +516,19 @@
         "template--15963751350447__8417acb4-b17b-4688-bb0a-243e90e46732-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831327249-HYPERBOOM1000-13.jpg",
+            "image": "shopify:\/\/shop_images\/01.1400x1200-banner-destaque-lancamento-hyperboom-1000_f731a7a4-97c3-4a31-8f4c-c52d312ba1cb.jpg",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/15.Html-boom-100.png",
-            "icon_width": 240,
+            "custom_icon": "shopify:\/\/shop_images\/icon-hyperboom.png",
+            "icon_width": 220,
             "subheading": "",
-            "title": "RESPEITA O SOM COM A GALERA.",
+            "title": "LEVE SUA FESTA PARA ONDE VOCÊ FOR.",
             "heading_tag": "h2",
-            "content": "<p>Pra quando o volume máximo não basta.<\/p><p><strong>Caixa de Som WAAW BOOM 100<\/strong><\/p>",
+            "content": "<p>Com a <strong>WAAW HYPERBOOM 1000, <\/strong>a música não para após o play.<\/p>",
             "link_text": "Descubra",
-            "link_url": "shopify:\/\/products\/waaw-boom-100sb-caixa-de-som",
+            "link_url": "shopify:\/\/products\/caixa-de-som-hyperboom-1000",
             "background": "#e0e621",
             "background_gradient": "",
             "text_color": "#000000",
@@ -730,7 +707,7 @@
         "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831327249-HYPERBOOM1000-11_e5896b26-c151-4dcb-b43f-4a6a4817265a.jpg",
+            "image": "shopify:\/\/shop_images\/02.1400x800-banner-newsletter-waaw-v2_43cd307f-8135-4f5a-a727-982fdbad2781.jpg",
             "item_icon_width": 1,
             "column_size": "1.5",
             "title": "",
