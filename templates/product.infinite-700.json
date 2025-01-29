@@ -142,6 +142,7 @@
       "block_order": [
         "play_Ywgz4f"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
@@ -156,40 +157,13 @@
     },
     "88ef1528-ce11-4b29-80e4-e8abbccf17eb": {
       "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Caixa de Som Bluetooth<\/strong><\/p>"
-          }
-        },
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "WAAW HYPERBOOM 1000",
-            "heading_tag": "h1",
-            "html_tag": "p"
-          }
-        },
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1": {
-          "type": "subheading",
-          "settings": {
-            "text": "RESPEITA A SUA BATIDA"
-          }
-        }
-      },
-      "block_order": [
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-richtext-1",
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-heading-1",
-        "template--16080146268335__88ef1528-ce11-4b29-80e4-e8abbccf17eb-subheading-1"
-      ],
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame_40049_9d86db3d-aaec-4052-8312-8396188b7c8e.webp",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_01.webp",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-09.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-01.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -203,31 +177,23 @@
         "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Sua trilha sonora no volume máximo, sempre com você.",
+            "text": "RESPEITA SUA GALERA",
             "heading_tag": "h2",
             "html_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         },
-        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>RESPEITA SUA GALERA<\/strong><\/p>",
-            "paragraph_font_size": 17
-          }
-        },
         "6e98ac33-d91f-43bc-b952-332eb3291ae6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Nova versão: Projetada para acompanhar você em todas as aventuras, a caixa de som Bluetooth <strong>WAAW HYPERBOOM 1000 <\/strong>possui <strong>180W RMS<\/strong> de potência, para transformar o encontrinho em uma festa épica. Além do <strong>Modo Broadcast<\/strong>, que dá um boom nos roles ao ar livre, pois permite a conexão de até <strong>100 caixas de som HYPERBOOM 1000<\/strong> simultaneamente.<\/p>",
+            "content": "<p>Prepare-se para uma experiência inovadora com a <strong>Caixa de Som WAAW INFINITE 700<\/strong>. Com sua potência e show de luzes, todos os rolês com a galera são festa garantida.  <\/p>",
             "paragraph_font_size": 14
           }
         }
       },
       "block_order": [
         "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-heading-1",
-        "template--16080146268335__ccd69a7e-3f85-4d01-b54a-e780772a03f3-richtext-1",
         "6e98ac33-d91f-43bc-b952-332eb3291ae6"
       ],
       "settings": {
@@ -262,17 +228,17 @@
         "image_bDTdbH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40061.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-14.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-start text-start",
             "icon": "none",
             "custom_icon": "shopify:\/\/shop_images\/Frame_40060.png",
-            "icon_width": 100,
+            "icon_width": 80,
             "subheading": "",
-            "title": "180W RMS",
+            "title": "700W RMS de potência",
             "heading_tag": "p",
-            "content": "<p>Aproveite sua playlist favorita com a clareza e profundidade sonora dos <strong>180W RMS<\/strong> de potência da<strong> HYPERBOOM 1000<\/strong>. Seu poder de reprodução captura a essência dos ritmos com fidelidade aos graves e agudos que ressoam em qualquer ambiente.<\/p>",
+            "content": "<p>Equipada com dois alto-falantes woofer e um tweeter, a <strong>INFINITE 700<\/strong> proporciona som potente, dinâmico e de alta qualidade para sua festa.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -311,17 +277,41 @@
         "image_qeGQBf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/broadcast_9a0cc59c-20dd-4fde-abbe-35720588f4f3.png",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-23.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_icon_-7899831327249_-_03.png",
-            "icon_width": 100,
+            "custom_icon": "shopify:\/\/shop_images\/INFINITE_700-HTML-53.png",
+            "icon_width": 80,
             "subheading": "",
-            "title": "Modo Broadcast",
+            "title": "Um verdadeiro show de luzes",
             "heading_tag": "p",
-            "content": "<p>Sinta a música em todos os lugares, transformando os ambientes com a energia envolvente e a qualidade sonora do Modo Broadcast. <strong>Conecte simultaneamente até 100 caixas HYPERBOOM 1000 <\/strong>para uma experiência sonora imersiva completa.<\/p>",
+            "content": "<p>Com seis modos ajustáveis, o <strong>Show de Luzes<\/strong>, um painel de LEDs que cobrem toda a parte frontal da caixa, é um espetáculo visual que movimenta sua festa. Sinta sua música em todos os sentidos!   <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_N9Kajd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-25.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/INFINITE_700-HTML-54.png",
+            "icon_width": 80,
+            "subheading": "",
+            "title": "Bluetooth 5.0",
+            "heading_tag": "p",
+            "content": "<p>Garante uma conexão rápida e estável com celulares, tablets e outros dispositivos, em até 10 metros de distância. Elimine qualquer bagunça com fios e leve a batida sempre com você!<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -336,65 +326,12 @@
       "block_order": [
         "image_bDTdbH",
         "image_wzfpbF",
-        "image_qeGQBf"
+        "image_qeGQBf",
+        "image_N9Kajd"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
-      }
-    },
-    "text_with_icons_ywzzJq": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_7gQfRr": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-box",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40089.png",
-            "mobile_icon_width": 76,
-            "icon_width": 120,
-            "icon_background_type": "none",
-            "icon_background": "#ffffff",
-            "icon_color": "#ffffff",
-            "title": "Caixa de som com luzes, para animar sua galera",
-            "content": "<p>Adicione um toque<strong> WAAW<\/strong> ao dar play no encontro com a galera! O <strong>show de luzes<\/strong> cria uma dimensão extra à pista de dança, sincronizando cores vibrantes ao ritmo da música para a festa ser inesquecível e bombar por mais tempo. <\/p>",
-            "link": "",
-            "link_text": "Read more"
-          }
-        }
-      },
-      "block_order": [
-        "item_7gQfRr"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
-        "title": "",
-        "heading_tag": "h5",
-        "text_alignment": "center",
-        "icon_spacing": "medium",
-        "columns_boxed": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "background_card_color": "",
-        "text_card_color": ""
-      }
-    },
-    "image_with_text_overlay_FbTp8a": {
-      "type": "image-with-text-overlay",
-      "custom_css": [],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Hyperboom_Luzes_Loop_1_1.gif",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
       }
     },
     "aef15cf5-6c0f-4559-9db1-e087af14fe5d": {
@@ -403,36 +340,62 @@
         "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1": {
           "type": "item",
           "settings": {
-            "horizontal_position": 35,
-            "vertical_position": 18,
-            "horizontal_position_mobile": 30,
-            "vertical_position_mobile": 28,
+            "horizontal_position": 30,
+            "vertical_position": 23,
+            "horizontal_position_mobile": 19,
+            "vertical_position_mobile": 19,
             "icon_width": 72,
-            "title": "Alça",
-            "content": "<p>A alça combina metal resistente com revestimento antiderrapante de silicone verde para uma experiência prática e estilosa.<\/p>"
+            "title": "Grade protetora",
+            "content": "<p>Acompanhando a identidade visual da WAAW, a grade não só protege, como traz mais modernidade e beleza para sua playlist. <\/p>"
+          }
+        },
+        "item_zXYweR": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 37,
+            "vertical_position": 53,
+            "horizontal_position_mobile": 27,
+            "vertical_position_mobile": 48,
+            "icon_width": 32,
+            "title": "Show de Luzes",
+            "content": "<p>Sinta cada detalhe das músicas com a experiência visual inovadora da<strong> INFINITE 700<\/strong>. <\/p>"
           }
         },
         "item_tQYLAi": {
           "type": "item",
           "settings": {
-            "horizontal_position": 64,
-            "vertical_position": 61,
+            "horizontal_position": 56,
+            "vertical_position": 34,
             "horizontal_position_mobile": 58,
-            "vertical_position_mobile": 54,
+            "vertical_position_mobile": 28,
             "icon_width": 72,
-            "title": "Bluetooth V 5.4",
-            "content": "<p>Tecnologia Bluetooth 5.4 permite conexão rápida e estável com dispositivos.<\/p>"
+            "title": "Alto-falantes",
+            "content": "<p>Equipada com dois woofers e um tweeter, cada batida é intensificada e se torna mais envolvente.<\/p>"
+          }
+        },
+        "item_Q7Y3gJ": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 64,
+            "vertical_position": 91,
+            "horizontal_position_mobile": 70,
+            "vertical_position_mobile": 80,
+            "icon_width": 32,
+            "title": "Rodas de transporte:",
+            "content": "<p>Facilita a mobilidade da caixa de som, independente do tamanho da sua festa.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16080146268335__aef15cf5-6c0f-4559-9db1-e087af14fe5d-item-1",
-        "item_tQYLAi"
+        "item_zXYweR",
+        "item_tQYLAi",
+        "item_Q7Y3gJ"
       ],
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/Frame_40074_eb66041d-86b7-4a69-95da-cd39a48cfad6.png",
-        "mobile_image": "shopify:\/\/shop_images\/Frame_40075_b569b06e-98cf-41e3-8ae6-9619da4bf3b0.png",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-40.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-43.png",
         "title": "",
         "content": "",
         "button_text": "",
@@ -459,7 +422,7 @@
         "template--16080146268335__4241750f-3b6b-4872-977e-af0f892d679d-item-1": {
           "type": "item",
           "settings": {
-            "title": "até 12h",
+            "title": "até 20h",
             "reduce_margins": false,
             "subheading": "",
             "content": "",
@@ -496,7 +459,7 @@
         "template--16080146268335__57cbe60d-50fe-4899-87b0-3d3ca88328f3-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Para curtir a playlist do seu jeito, sem pausa.",
+            "text": "Mais música, por mais tempo.",
             "heading_tag": "h4",
             "html_tag": "h2",
             "text_color": "",
@@ -506,14 +469,14 @@
         "richtext_NYDpMH": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Você não precisa de mais que uma única recarga por dia para ouvir sua música por mais tempo. A <strong>WAAW HYPERBOOM 1000<\/strong> é a parceira completa por até 12 horas* de reprodução.<\/p>",
+            "content": "<p>Não se preocupe mais em levar o carregador da caixa para todo lugar. Com as baterias internas da <strong>INFINITE 700 <\/strong>sua música não para em até 20 horas* de autonomia, sem necessidade de conectar na tomada! <br\/>Você também pode usar uma bateria externa (não incluído) como mais uma forma de usar a caixa por mais tempo, sem parar sua festa. <\/p>",
             "paragraph_font_size": 14
           }
         },
         "abdf3d04-4932-466b-9919-e69800c6081c": {
           "type": "richtext",
           "settings": {
-            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.<\/p>",
+            "content": "<p>*Tempo de autonomia de reprodução depende do tipo de música e volume.  <\/p>",
             "paragraph_font_size": 14
           }
         }
@@ -532,23 +495,103 @@
         "text_color": "#000000"
       }
     },
+    "image_with_text_overlay_FbTp8a": {
+      "type": "image-with-text-overlay",
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-08.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-51.png",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "WAAW Plus",
+            "heading_tag": "h2",
+            "html_tag": "h2"
+          }
+        },
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>A tecnologia TWS (True Wireless Stereo) do WAAW Plus permite conectar até duas caixas<strong> INFINITE 700 <\/strong>ao mesmo tempo. Assim, sua música transforma a vibe de qualquer ambiente. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
+        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 568px) {p {margin-left: 190px; margin-right: 190px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-03.png",
+        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_03.webp",
+        "mobile_text_position": "place-self-start-center text-center",
+        "desktop_text_position": "sm:place-self-start-center sm:text-center",
+        "text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
     "media_with_text_WnmAwp": {
       "type": "media-with-text",
       "blocks": {
         "image_8c8GDq": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40103.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-15.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/Frame_40084_546f66d4-99e8-449a-8eb4-53995267abee.png",
-            "icon_width": 100,
+            "custom_icon": "shopify:\/\/shop_images\/INFINITE_700-HTML-55.png",
+            "icon_width": 80,
             "subheading": "",
-            "title": "Leve sua festa para onde você for",
+            "title": "Power Bass",
             "heading_tag": "p",
-            "content": "<p>Aumente o volume e aproveite cada batida com a confiança da <strong>proteção IPX7<\/strong>. A caixa de som é à prova d’água, resistente a condições de imersão temporária, para movimentar a festa sem interromper a diversão com segurança – e no volume máximo. <\/p><p>** Suporta imersão temporária em água de até 1 metro por 30 minutos. <\/p>",
+            "content": "<p>Sinta os graves com profundidade e impacto ao acionar o <strong>Power Bass <\/strong>da caixa de som bluetooth. Ao destacar os baixos de forma clara e envolvente, você vai intensificar a experiência sonora, trazendo mais emoção e potência para sua playlist.  <\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_WARkGQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-16.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "custom_icon": "shopify:\/\/shop_images\/7899831337286-MOB500W-HTML-ICON-03.png",
+            "icon_width": 80,
+            "subheading": "",
+            "title": "Design",
+            "heading_tag": "p",
+            "content": "<p>Design imponente e tamanho ideal para quem quer som de verdade! A <strong>INFINITE 700<\/strong> é uma caixa tipo torre com 1 metro de altura, projetada para impactar visualmente e sonoramente. Ela ocupa seu espaço na festa e entrega graves potentes e som claro. <\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -561,11 +604,137 @@
         }
       },
       "block_order": [
-        "image_8c8GDq"
+        "image_8c8GDq",
+        "image_WARkGQ"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
+      }
+    },
+    "rich_text_b34pmy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hp3pEn": {
+          "type": "heading",
+          "settings": {
+            "text": "Conectividade",
+            "heading_tag": "h4",
+            "html_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wnbRq4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Aproveite a liberdade de conexão da <strong>INFINITE 700<\/strong> e dê um up  no rolê!<\/p>",
+            "paragraph_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_hp3pEn",
+        "richtext_wnbRq4"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
+    "images_with_text_scrolling_ALTczj": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_aL3nPK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-17.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Duas entradas P10 Microfone ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_DAWMP8": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-18.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada P10 Guitarra ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_MDrkpN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-19.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada auxiliar IN ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_MWqyMV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-20.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada micro SD ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_gcCthj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-21.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Entrada USB ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        },
+        "item_6K4Bet": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-22.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Bluetooth v5.0 ",
+            "html_heading_tag": "p",
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_aL3nPK",
+        "item_DAWMP8",
+        "item_MDrkpN",
+        "item_MWqyMV",
+        "item_gcCthj",
+        "item_6K4Bet"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
       }
     },
     "image_with_text_overlay_Ye6jiL": {
@@ -575,8 +744,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame_40076.webp",
-        "mobile_image": "shopify:\/\/shop_images\/Frame_40096.webp",
+        "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-04.png",
+        "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-44.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -584,165 +753,94 @@
         "overlay_opacity": 30
       }
     },
-    "media_with_text_8DeJpU": {
-      "type": "media-with-text",
+    "slideshow_FKQzCT": {
+      "type": "slideshow",
       "blocks": {
-        "image_JmJa8N": {
+        "image_XyiVam": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HyperBoom_Blast_1_1.gif",
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "custom_icon": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_icon_-7899831327249_-_04.png",
-            "icon_width": 100,
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-05.png",
+            "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-202.png",
+            "content_max_width": 500,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
-            "title": "Power Bass",
-            "heading_tag": "p",
-            "content": "<p>Sinta os graves das canções com profundidade e impacto. Ao acionar o Power Bass da <strong>HYPERBOOM 1000<\/strong>, o recurso destaca os baixos das suas músicas favoritas de forma clara e intensa.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_JmJa8N"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1": {
-          "type": "heading",
-          "settings": {
-            "text": "Caixa de Som TWS WAAW Plus",
-            "heading_tag": "h2",
-            "html_tag": "h2"
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
         },
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1": {
-          "type": "richtext",
+        "image_thDByN": {
+          "type": "image",
           "settings": {
-            "content": "<p>Para ouvir sua playlist em modo estéreo sem fios, conecte até duas <strong>WAAW HYPERBOOM 1000<\/strong> via Bluetooth, com a tecnologia TWS. Assim, você curte onde quiser com a qualidade e conectividade que merece. <\/p>"
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-06.png",
+            "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-201_355f87f4-1dea-4017-92bf-17e92feac1d4.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_HNeNtX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-07.png",
+            "mobile_image": "shopify:\/\/shop_images\/INFINITE_700-HTML-200_a37a1660-da84-47e6-bf48-1ce3297cb678.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-heading-1",
-        "template--16080146268335__42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7-richtext-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 568px) {p {margin-left: 150px; margin-right: 150px; }}"
+        "image_XyiVam",
+        "image_thDByN",
+        "image_HNeNtX"
       ],
       "settings": {
         "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
+        "allow_transparent_header": true,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_desktop_-7899831327249_-_08.webp",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_03.webp",
-        "mobile_text_position": "place-self-start-center text-center",
-        "desktop_text_position": "sm:place-self-start-center sm:text-center",
-        "text_color": "#000000",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "media_with_text_MfNaYr": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_DYgQKW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40079_b7c92c79-fcf7-4824-bcfe-ad7325054d39.webp",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Quatro alto-falantes ",
-            "heading_tag": "p",
-            "content": "<p>Ouça as batidas das músicas que não saem do repeat com a clareza de graves, médios e agudos da <strong>caixa de som bluetooth WAAW<\/strong>. Para as notas bombarem, ela conta com dois tweeters e dois full rangers potentes. <\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_DYgQKW"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
-    "rich_text_zYkkxg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_EKQP4g": {
-          "type": "heading",
-          "settings": {
-            "text": "Mais conexão para o seu momento WAAW.",
-            "heading_tag": "h4",
-            "html_tag": "p",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_EkNHUN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Conecte seus dispositivos via Bluetooth, entrada auxiliar IN, USB. Com essas opções, é possível reproduzir as playlists favoritas da galera, conectar instrumentos e soltar a voz em um show especial sempre que precisar. <\/p>",
-            "paragraph_font_size": 14
-          }
-        }
-      },
-      "block_order": [
-        "heading_EKQP4g",
-        "richtext_EkNHUN"
-      ],
-      "custom_css": [],
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
+        "controls_type": "dots",
+        "dots_color": "#000000",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
         "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_BdLcfW": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_desktop_-7899831327249_-_10_762ea2b2-f9ab-451e-92d3-d64ceb5f092a.png",
-        "mobile_image": "shopify:\/\/shop_images\/HYPERBOOM_-1000_-_mobile_-7899831327249_-_10.webp",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "slideshow_margin_top": 20,
+        "slideshow_margin_bottom": 20
       }
     },
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5": {
@@ -751,7 +849,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40067_be8ca015-9286-4a85-b044-e94af3e185f9.png",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-11.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -773,7 +871,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40069_7fb4997c-7b5a-47e6-8645-9bbf19c75b07.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-12.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -795,7 +893,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40068.webp",
+            "image": "shopify:\/\/shop_images\/INFINITE_700-HTML-13.png",
             "title": "",
             "heading_tag": "h4",
             "link_url": "",
@@ -1073,18 +1171,16 @@
     "ccd69a7e-3f85-4d01-b54a-e780772a03f3",
     "6c9d6d09-e746-4b73-b1ae-ee3ac36ccc62",
     "media_with_text_bEjYFJ",
-    "text_with_icons_ywzzJq",
-    "image_with_text_overlay_FbTp8a",
     "aef15cf5-6c0f-4559-9db1-e087af14fe5d",
     "4241750f-3b6b-4872-977e-af0f892d679d",
     "57cbe60d-50fe-4899-87b0-3d3ca88328f3",
-    "media_with_text_WnmAwp",
-    "image_with_text_overlay_Ye6jiL",
-    "media_with_text_8DeJpU",
+    "image_with_text_overlay_FbTp8a",
     "42c2d13f-c51e-4fcf-bfc2-4aee1e3369c7",
-    "media_with_text_MfNaYr",
-    "rich_text_zYkkxg",
-    "image_with_text_overlay_BdLcfW",
+    "media_with_text_WnmAwp",
+    "rich_text_b34pmy",
+    "images_with_text_scrolling_ALTczj",
+    "image_with_text_overlay_Ye6jiL",
+    "slideshow_FKQzCT",
     "18777de6-f6ea-4982-9e0f-eccf5d18bae5",
     "02cfb0ba-4eb9-4616-b7eb-07f4f3c9ad18",
     "related-products",

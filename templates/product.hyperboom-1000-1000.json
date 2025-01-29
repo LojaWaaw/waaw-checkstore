@@ -665,7 +665,7 @@
         "image_DYgQKW": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40079_b7c92c79-fcf7-4824-bcfe-ad7325054d39.webp",
+            "image": "shopify:\/\/shop_images\/hyperboom-driver_55fe25b0-59e5-4f9d-9ebb-9e4dcedb3eb2.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -1046,7 +1046,7 @@
             "title": "Ainda tem dúvidas? Veja como funciona",
             "html_heading_tag": "p",
             "content": "",
-            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/HYPERBOOM-1000\/WAAWHYPERBOOM1000-Manual-Rev.02-0412.pdf",
+            "button_url": "https:\/\/mais.waaw.com.br\/produtos\/HYPERBOOM-1000\/WAAW%20HYPERBOOM%201000%20-%20Manual%20-%20Rev.%2002_2101.pdf",
             "button_text": "Baixe o manual de instruções"
           }
         }
