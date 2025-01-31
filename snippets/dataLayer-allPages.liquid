@@ -185,10 +185,31 @@ applyBindings(defaultBindings, __bva__);
     /* Log State Cookie
     ------------------- */
     {% if customer %}
-    var isLoggedIn = true;
+      var isLoggedIn = true;
     {% else %}
-    var isLoggedIn = false;
+      var isLoggedIn = false;
     {% endif %}
+
+      // SIGN UP EVENT
+
+     // Verifica se o usuário acabou de se cadastrar
+     if (localStorage.getItem('new_signup') === 'true') {
+
+      dataLayer.push({
+        'event': 'sign_up',
+        'user_id': "{{ customer.id }}",
+        'user_email': "{{ customer.email }}",
+        'user_name': "{{ customer.first_name }} {{ customer.last_name }}"
+      });
+
+      if (__bva__.debug) {
+        console.log('GA4 Event: sign_up');
+      }
+
+      // Remove o indicador para evitar duplicação
+      localStorage.removeItem('new_signup');
+      }
+
     if (!isLoggedIn) {
       $.cookie('logState', unescape);
       $.removeCookie('logState', {path: '/'});
@@ -207,13 +228,24 @@ applyBindings(defaultBindings, __bva__);
 
     if ($.cookie('logState') === 'firstLog') {
       var firstLog = true;
+
+      dataLayer.push({
+        'event': 'login',
+        'user_id': "{{ customer.id }}",
+        'user_email': "{{ customer.email }}",
+        'user_name': "{{ customer.first_name }} {{ customer.last_name }}"
+      });
+
+      if (__bva__.debug) {
+        console.log('GA4 Event: login');
+      }
     } else {
       var firstLog = false;
     }
 
-    /* ==========
+    /*==========
     | DATALAYERS |
-    ----------- */
+     ----------- */
 
     /* DATALAYER: Landing Page
     --------------------------
@@ -350,6 +382,10 @@ applyBindings(defaultBindings, __bva__);
     }
 
     dataLayer.push(logState);
+
+    if(__bva__.debug) {
+      console.log('logstate: ',logState)
+    }
 
     /*DATALAYER: Homepage
     --------------------------- */
