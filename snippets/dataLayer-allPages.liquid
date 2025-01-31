@@ -381,6 +381,28 @@ applyBindings(defaultBindings, __bva__);
           'event': 'cs_view_item_list',
           items
         });
+
+// Capturar clique nos produtos da coleção
+        document.querySelectorAll('.product-card').forEach((productElement, index) => {
+            productElement.setAttribute('data-index', index);
+
+            productElement.addEventListener('click', function () {
+                const selectedItem = items[index];
+
+                dataLayer.push({
+                    'event': 'select_item',
+                    'ecommerce': {
+                        'items': [selectedItem]
+                    }
+                });
+
+                if (__bva__.debug) {
+                    console.log('select_item:', selectedItem);
+                }
+            });
+        });
+
+        console.log('colection products: ', items)
       })
     }
 
@@ -459,6 +481,28 @@ applyBindings(defaultBindings, __bva__);
       if(__bva__.debug){
           console.log("Collection"+" :"+JSON.stringify(ecommerce, null, " "));
       }
+
+      document.querySelectorAll('.product-card').forEach((productElement) => {
+    productElement.addEventListener('click', function () {
+      const productId = this.getAttribute('data-item-id');
+
+      // Encontra o item correspondente no array ecommerce.items
+      const selectedItem = ecommerce.items.find(item => item.item_id == productId);
+
+      if (selectedItem) {
+        dataLayer.push({
+          'event': 'select_item',
+          'ecommerce': {
+            'items': [selectedItem]
+          }
+        });
+
+        if (__bva__.debug) {
+          console.log('select_item:', selectedItem);
+        }
+      }
+    });
+  });
     {% endif %}
 
     /* DATALAYER: view_item
