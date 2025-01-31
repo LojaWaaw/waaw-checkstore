@@ -366,14 +366,15 @@ applyBindings(defaultBindings, __bva__);
       
       document.querySelectorAll('#CollectionProducts').forEach((element) => {
         const collectionProducts = JSON.parse(element.textContent);
-        var items = collectionProducts.map((product) => ({
+        var items = collectionProducts.map((product, index) => ({
           'item_id'       : String(product.id),
           'item_variant'  : product.variants[0].id,
           'item_name'     : product.title,
           'price'         : Number(String(product.variants[0].price).replace(/^(\d{1,})(\d{2})$/, '$1.$2')),
           'item_brand'    : product.vendor,
           'item_category' : product.product_type,
-          'item_list_name': document.querySelector('#CollectionProducts').dataset.collection
+          'item_list_name': document.querySelector('#CollectionProducts').dataset.collection,
+          'item_index'    : index++
         }));
 
         dataLayer.push({
@@ -415,43 +416,49 @@ applyBindings(defaultBindings, __bva__);
     Fire on all product listing pages. */
 
     {% if template contains 'collection' %}
-    var ecommerce = {
-    'items': [
-      {% for product in collection.products %}{
-        'item_id'         : "{{product.id | json}}",                  
-        'item_variant'    : {{product.selected_variant.title | json}},             
-        'item_name'       : {{product.title | json}},
-        'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-        'item_brand'      : {{product.vendor | json}},
-        'item_category'   : {{product.type | json}},
-        'item_list_name'  : {{collection.title | json}},
-        'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
-        'productURL'      : '{{shop.secure_url}}{{product.url}}',
-        'sku'             : {{product.selected_variant.sku | json}},
-      },
-      {% endfor %}]
-    };  
-    dataLayer.push({
-      'productList'     : {{collection.title | json}},
-      'pageType'        : 'Collection',
-      'event'           : 'cs_view_item_list',
-      ecommerce
-    });
+      let index = 0;
+      var ecommerce = {
+        'items': [
+          {% for product in collection.products %}
+            {
+              'item_id'         : "{{product.id | json}}",                  
+              'item_variant'    : {{product.selected_variant.title | json}},             
+              'item_name'       : {{product.title | json}},
+              'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+              'item_brand'      : {{product.vendor | json}},
+              'item_category'   : {{product.type | json}},
+              'item_list_name'  : {{collection.title | json}},
+              'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
+              'productURL'      : '{{shop.secure_url}}{{product.url}}',
+              'sku'             : {{product.selected_variant.sku | json}},
+              'item_index'      : index++
+            },
+          {% endfor %}
+        ]
+      };  
+      dataLayer.push({
+        'productList'     : {{collection.title | json}},
+        'pageType'        : 'Collection',
+        'event'           : 'cs_view_item_list',
+        ecommerce
+      });
 
-    var emarsys = {
-      'content_id'      : '{{collection.id | json}}',
-      'content_title'   : {{collection.title | json}},
-      'content_category': {{collection.type | json}},
-      'content_url'     : '{{ shop.url | append: collection.url }}',
-    };
-    dataLayer.push({
-      'event': 'cs_view_category',
-      emarsys,
-    });
+      console.log('ecommerce', ecommerce)
+      
+      var emarsys = {
+        'content_id'      : '{{collection.id | json}}',
+        'content_title'   : {{collection.title | json}},
+        'content_category': {{collection.type | json}},
+        'content_url'     : '{{ shop.url | append: collection.url }}',
+      };
+      dataLayer.push({
+        'event': 'cs_view_category',
+        emarsys,
+      });
 
-    if(__bva__.debug){
-        console.log("Collection"+" :"+JSON.stringify(ecommerce, null, " "));
-    }
+      if(__bva__.debug){
+          console.log("Collection"+" :"+JSON.stringify(ecommerce, null, " "));
+      }
     {% endif %}
 
     /* DATALAYER: view_item
@@ -860,6 +867,7 @@ applyBindings(defaultBindings, __bva__);
           const wasViewed = this.classList.contains('ga-viewed');
           if (wasViewed) return;
           this.classList.add("ga-viewed");
+
           const thisSlideDetails = this.querySelector('.slide-details') 
 
           const eventSlideType = thisSlideDetails.getAttribute('data-type');
@@ -916,7 +924,16 @@ applyBindings(defaultBindings, __bva__);
           'event'      : "cs_search",
           'item_list_name'  : {{line_item.collection.title | json}},
           ecommerce
-        });    
+        }); 
+
+        if (__bva__.debug){ 
+          console.log("Evento sendo enviado ao dataLayer:", {
+            'pageType': "Search",
+            'search_term': __bva__.searchTermQuery,
+            'event': "cs_search",
+            'ecommerce': ecommerce
+          });
+        }
       }
     }); // document ready
 
