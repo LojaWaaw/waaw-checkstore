@@ -80,10 +80,10 @@ __bva__ = {
 };
 
 customBindings = {
-  cartTriggers: [],
-  viewCart: [],
-  removeCartTrigger: ['cart-remove-button, .cart-notification-remove, button[name="minus"]'],
-  cartVisableSelector: [],
+  cartTriggers: ['form[action="/cart/add"] [type="submit"], .product-form__submit'],
+  viewCart: ['cart-drawer.show-close-cursor, .sb-cart'],
+  removeCartTrigger: ['cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]'],
+  cartVisableSelector: ['cart-drawer.show-close-cursor, .sb-cart'],
   promoSubscriptionsSelectors: [],
   promoSuccess: [],
   ctaSelectors: [],
@@ -93,6 +93,7 @@ customBindings = {
   wishlistSelector: [],
   removeWishlist: [],
   wishlistPage: [],
+  cartLinkSelector: ['.header__icon--cart'],
   searchTermQuery: [getURLParams('q')], // replace var with correct query
 };
 
@@ -574,7 +575,7 @@ applyBindings(defaultBindings, __bva__);
       });
       
       if(__bva__.debug){
-        console.log("Product"+" :"+JSON.stringify(ecommerce, null, " "));
+        console.log("Product add to cart"+" :"+JSON.stringify(ecommerce, null, " "));
       }
 
       window.DataLayer.selectColor();
@@ -636,7 +637,7 @@ applyBindings(defaultBindings, __bva__);
         'item_id'        : "{{line_item.product.id | json}}",                  
         'item_variant'    : {{line_item.variant.title | json}},             
         'item_name'      : {{line_item.product.title | json}},
-        'price'           : Number({{line_item.product.price | money_without_currency | replace: ',', '.' | json}}),
+        'price'           : {{line_item.product.price | money_without_currency | replace: ',', '.' | json }},
         'item_brand'      : {{line_item.product.vendor | json}},
         'item_category'   : {{line_item.product.type | json}},
         'item_list_name'  : {{line_item.collection.title | json}},
@@ -650,7 +651,7 @@ applyBindings(defaultBindings, __bva__);
     });
     
     if(__bva__.debug){
-      console.log("Cart"+" :"+JSON.stringify(ecommerce, null, " "));
+      console.log("cs_view_cart event"+" :"+JSON.stringify(ecommerce, null, " "));
     }
 
     __bva__.cart = ecommerce.items;
@@ -715,7 +716,7 @@ applyBindings(defaultBindings, __bva__);
 
       dataLayer.push(removeFromCart);
       if (__bva__.debug) {
-        console.log("Cart"+" :"+JSON.stringify(removeCart, null, " "));
+        console.log("Cart remove "+" :"+JSON.stringify(removeCart, null, " "));
       }
     
       // ------------------------------------------------------------------- remove from cart
@@ -939,50 +940,58 @@ applyBindings(defaultBindings, __bva__);
     /** DOM Ready **/	
     $(document).ready(function() {
       /** DATALAYER: Banners viewed **/
-      const trackingBanners = function() {
-        $('.ga-event').each(async function(index) {
-          const isVisible = isElementVisible(this);
-          if (!isVisible) return;
 
-          const wasViewed = this.classList.contains('ga-viewed');
-          if (wasViewed) return;
-          this.classList.add("ga-viewed");
+      const trackVisibleBanners = () => {
+        document.querySelectorAll('.slideshow__slide').forEach((slide) => {
+          if (slide.classList.contains('is-selected') && 
+              !slide.classList.contains('ga-viewed') && 
+              isElementVisible(slide)) { // Só dispara se estiver visível na viewport
 
-          const thisSlideDetails = this.querySelector('.slide-details') 
+            slide.classList.add('ga-viewed'); // Marca como visualizado
 
-          const eventSlideType = thisSlideDetails.getAttribute('data-type');
-          const eventSlideImgUrl = thisSlideDetails.getAttribute('data-img-url');
-          const eventSlideText = thisSlideDetails.getAttribute('data-text');
-          const eventSlideLink = thisSlideDetails.getAttribute('data-url-link');
-          const eventSlideIndex = thisSlideDetails.getAttribute('data-index');
-          var items = [];
-          
-          const promotionData = {
-            'event': 'view_promotion',
-            'slide_index': eventSlideIndex,
-            'banner_type': eventSlideType,
-            'image_url': eventSlideImgUrl,
-            'slide_text': eventSlideText,
-            'slide_url': eventSlideLink
-          };
-          
-          dataLayer.push(promotionData);
-          if (__bva__.debug) {
-            console.log('view_promotion: ', promotionData);
-          }
+            const slideDetails = slide.querySelector('.slide-details');
+            if (!slideDetails) return;
 
-          this.addEventListener('click', function() {
-            promotionData.event = 'select_promotion';
+            const eventSlideType = slideDetails.getAttribute('data-type');
+            const eventSlideImgUrl = slideDetails.getAttribute('data-img-url');
+            const eventSlideText = slideDetails.getAttribute('data-text');
+            const eventSlideLink = slideDetails.getAttribute('data-url-link');
+            const eventSlideIndex = slideDetails.getAttribute('data-index');
+
+            const promotionData = {
+              'event': 'view_promotion',
+              'slide_index': eventSlideIndex,
+              'banner_type': eventSlideType,
+              'image_url': eventSlideImgUrl,
+              'slide_text': eventSlideText,
+              'slide_url': eventSlideLink
+            };
+
             dataLayer.push(promotionData);
-            if (__bva__.debug) {
-              console.log('select_promotion: ', promotionData);
-            }
-          });
-        });
-      }
 
-      trackingBanners();
-      $(window).scroll(trackingBanners);
+            if (window.__bva__.debug) {
+              console.log('view_promotion:', promotionData);
+            }
+
+            slide.addEventListener('click', () => {
+              const clickEvent = { ...promotionData, event: 'select_promotion' };
+              dataLayer.push(clickEvent);
+
+              if (window.__bva__.debug) {
+                console.log('select_promotion:', clickEvent);
+              }
+            });
+          }
+        });
+      };
+
+      const observer = new MutationObserver(trackVisibleBanners);
+      document.querySelector('.slideshow__carousel')?.addEventListener('transitionend', trackVisibleBanners);
+      observer.observe(document.body, { childList: true, subtree: true });
+
+      trackVisibleBanners();
+      $(window).scroll(trackVisibleBanners); 
+
 
       /** DATALAYER: Search Results */
       var searchPage = new RegExp(__bva__.searchPage, "g");
