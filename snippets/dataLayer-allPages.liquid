@@ -82,7 +82,7 @@ __bva__ = {
 customBindings = {
   cartTriggers: ['form[action="/cart/add"] [type="submit"], .product-form__submit, .product-card__quick-buy'],
   viewCart: ['cart-drawer.show-close-cursor, .sb-cart'],
-  removeCartTrigger: ['cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]'],
+  removeCartTrigger: ['cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"], .line-item input.quantity-input'],
   cartVisableSelector: ['cart-drawer.show-close-cursor, .sb-cart'],
   promoSubscriptionsSelectors: [],
   promoSuccess: [],
@@ -101,7 +101,7 @@ customBindings = {
 defaultBindings = {
   cartTriggers: ['form[action="/cart/add"] [type="submit"],.add-to-cart, .cart-btn'],
   viewCart: ['form[action="/cart"],.my-cart,.trigger-cart,#mobileCart'],
-  removeCartTrigger: ['[href*="/cart/change"]'],
+  removeCartTrigger: ['[href*="/cart/change"],  input.quantity-input'],
   cartVisableSelector: ['.inlinecart.is-active,.inline-cart.is-active'],
   promoSubscriptionsSelectors: [],
   promoSuccess: [],
@@ -520,57 +520,32 @@ applyBindings(defaultBindings, __bva__);
       }
 
       document.querySelectorAll('.product-card').forEach((productElement) => {
-    productElement.addEventListener('click', function () {
-      const productId = this.getAttribute('data-item-id');
+        productElement.addEventListener('click', function () {
+          const productId = this.getAttribute('data-item-id');
 
-      // Encontra o item correspondente no array ecommerce.items
-      const selectedItem = ecommerce.items.find(item => item.item_id == productId);
+          // Encontra o item correspondente no array ecommerce.items
+          const selectedItem = ecommerce.items.find(item => item.item_id == productId);
 
-      if (selectedItem) {
-        dataLayer.push({
-          'event': 'select_item',
-          'ecommerce': {
-            'items': [selectedItem]
+          if (selectedItem) {
+            dataLayer.push({
+              'event': 'select_item',
+              'ecommerce': {
+                'items': [selectedItem]
+              }
+            });
+
+            if (__bva__.debug) {
+              console.log('select_item:', selectedItem);
+            }
           }
         });
-
-        if (__bva__.debug) {
-          console.log('select_item:', selectedItem);
-        }
-      }
-    });
-  });
+      });
     {% endif %}
 
     /* DATALAYER: view_item
-      --------------------------
-      Fire on all Product View pages. */
+    --------------------------
+    Fire on all Product View pages. */
     
-      $(__bva__.cartTriggers).click(function(){
-      const product_card = $(this).closest('.product-card')
-
-      var addToCart = {                    
-        'event': 'add_to_cart',
-        'ecommerce': {
-          'items': [{
-            'item_id'         : product_card.attr('data-item-id'),                
-            'item_name'       : product_card.attr('data-product-name'),
-            'currency'        : "BRL",
-            'item_brand'      : product_card.attr('data-product-brand'),
-            'item_variant'    : product_card.attr('data-product-variant'),           
-            'price'           : Number(product_card.attr('data-product-price'))
-          }]
-        }
-      };
-
-      if (__bva__.debug) {
-        console.log(addToCart)
-      }
-
-      dataLayer.push(addToCart);
-    })
-
-
     {% if template contains 'product' %}
       var ecommerce = {
         'items': [{
@@ -593,20 +568,124 @@ applyBindings(defaultBindings, __bva__);
       if(__bva__.debug){
         console.log("Visualizou PDP: "+JSON.stringify(ecommerce, null, " "));
       }
-    
-      /* DATALAYER: add_to_cart
-      --------------------------*/
-      $(__bva__.cartTriggers).click(function(){
-        var addToCart = {                    
-          'event'           : 'cs_add_to_cart',
-          'ecommerce'       : ecommerce,
-        };
-        dataLayer.push(addToCart);
+    {% endif %}
+
+    // View / Add / Remove Cart (cart page and cart drawer)
+
+    function triggerViewCartEvent() {
+      // Aguarda 500ms para que a atualização do carrinho seja concluída (caso seja uma chamada AJAX)
+      setTimeout(function(){
+        fetch('/cart.js')
+          .then(function(response) {
+            if (!response.ok) {
+              throw new Error('Erro ao obter os dados do carrinho.');
+            }
+            return response.json();
+          })
+          .then(function(cart) {
+            // Constrói o objeto ecommerce utilizando o preço unitário e, se disponível, o preço original (sem desconto)
+            var ecommerceData = {
+              'currency': cart.currency || 'BRL',
+              'value': Number(cart.total_price / 100), // valor total do carrinho
+              'items': cart.items.map(function(item) {
+                // Se existir "original_price", ele representa o valor unitário sem desconto.
+                var unitPrice = item.original_price ? Number(item.original_price / 100) : Number(item.price / 100);
+                return {
+                  'item_id': String(item.product_id || item.id),
+                  'item_variant': item.variant_id,
+                  'item_name': item.title,
+                  'price': unitPrice, // preço unitário
+                  'item_brand': item.vendor || '',
+                  'item_category': item.product_type || '',
+                  'quantity': item.quantity
+                };
+              })
+            };
+            if(__bva__.debug) {
+              console.log('[datalayer_cart_fix] Disparando view_cart com os seguintes dados:', ecommerceData);
+            }
+            dataLayer.push({
+              'event': 'view_cart',
+              'ecommerce': ecommerceData
+            });
+          })
+          .catch(function(error) {
+            if(__bva__.debug) {
+              console.log('[datalayer_cart_fix] Erro ao obter os dados do carrinho:', error);   
+            }
+          });
+      }, 500);
+    }
+
+    // ==========================================================================
+    // Função para anexar os event listeners aos elementos responsáveis pelas ações no carrinho
+    // ==========================================================================
+
+    function attachCartEventListeners() {
+      // 1. Ação de adicionar itens (ex.: quick-add em cards de produto)
+      jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit, .product-card__quick-buy', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Ação de adicionar item detectada. Disparando view_cart.');
+        }
+        triggerViewCartEvent();
+      });
+
+      // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
+      jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando view_cart.');
+        }
+        triggerViewCartEvent();
+      });
+
+      // 3. Alteração direta na quantidade (inputs de quantidade no mini-cart e na página de carrinho)
+      jQuery(document).on('change', '.cart-drawer input.quantity-input, .line-item input.quantity-input', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via .line-item ou .cart-drawer). Disparando view_cart.');
+        }
+        triggerViewCartEvent();
       });
       
-      window.DataLayer.selectColor();
-      window.DataLayer.selectSize();
-    {% endif %}
+      // 4. Alteração direta na quantidade (inputs dentro de <line-item-quantity> na página /cart)
+      jQuery(document).on('change', 'line-item-quantity input.quantity-input', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via line-item-quantity). Disparando view_cart.');
+        }
+        triggerViewCartEvent();
+      });
+      
+      // 5. Ação de remoção via link dentro do <line-item-quantity> (elemento "Remover")
+      jQuery(document).on('click', 'line-item-quantity a.link[href*="quantity=0"]', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Remoção de item (via line-item-quantity) detectada. Disparando view_cart.');
+        }
+        triggerViewCartEvent();
+      });
+
+      // 6. Ação ao abrir o mini-cart via clique no header (link que abre o carrinho)
+      jQuery(document).on('click', 'a[href="/cart"][data-no-instant].relative.tap-area', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Clique no header do carrinho detectado. Disparando view_cart.');
+        }
+        triggerViewCartEvent();
+      });
+    }
+
+    // ==========================================================================
+    // Inicializa os event listeners quando o DOM estiver pronto
+    // ==========================================================================
+
+    jQuery(document).ready(function(){
+      attachCartEventListeners();
+
+      // Se estiver na página /cart, dispara o evento view_cart ao carregar a página
+      if(window.location.pathname.indexOf('/cart') !== -1){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Página /cart detectada. Disparando view_cart no carregamento.');
+        } 
+        triggerViewCartEvent();
+      }
+    });
 
     /* Fire when open quick view */
     $('.product-popup-quickview').on('click', function(e) {
@@ -651,104 +730,6 @@ applyBindings(defaultBindings, __bva__);
         window.DataLayer.selectSize();
       });
     })
-
-    /* DATALAYER: Cart View
-    -----------------------
-    1. Fire anytime a user views their cart (non-dynamic) */
-    {% if template contains 'cart' %}
-      var ecommerce = {
-        'currency': {{cart.currency.iso_code | json}},
-        'value': Number({{cart.total_price | divided_by: 100.0 | json}}),
-        'items':[{% for line_item in cart.items %}{
-          'item_id'        : "{{line_item.product.id | json}}",                  
-          'item_variant'    : {{line_item.variant.title | json}},             
-          'item_name'      : {{line_item.product.title | json}},
-          'price'           : {{line_item.product.price | money_without_currency | replace: ',', '.' | json }},
-          'item_brand'      : {{line_item.product.vendor | json}},
-          'item_category'   : {{line_item.product.type | json}},
-          'item_list_name'  : {{line_item.collection.title | json}},
-          'quantity'        : {{line_item.quantity | json}},
-          'discount'		  : {{discount.code | json}}
-        },{% endfor %}],
-      };
-      dataLayer.push({
-        'event'    : 'cs_view_cart',
-        ecommerce
-      });
-      
-      if(__bva__.debug){
-        console.log("cs_view_cart event"+" :"+JSON.stringify(ecommerce, null, " "));
-      }
-
-      __bva__.cart = ecommerce.items;
-
-      $(__bva__.removeCartTrigger).on('click', function (event) {
-        // ------------------------------------------------------------------- remove from cart
-        
-        __bva__.removeCart = {{ cart.items | json }};
-        
-        var removeFromCart = {
-          'items': __bva__.removeCart.map(function (line_item, index) {
-            return {
-              'item_id'         : line_item.sku,
-              'item_variant'    : line_item.variant_title,
-              'item_name'       : line_item.product_title,
-              'price'           : `${line_item.price/100}`,
-              'item_brand'      : line_item.vendor,
-              'item_category'   : line_item.product_type,
-              'quantity'        : line_item.quantity,
-              'discount'        : line_item?.discounts[0],
-            }
-          }),
-          'event'    : 'cs_remove_from_cart'
-        };
-        __bva__.removeCart = removeFromCart;
-        var cartIDs = [];
-        var removeIDs = [];
-        var removeCart = [];
-        // Remove from cart logic
-        for (var i = __bva__.cart.length - 1; i >= 0; i--) {
-          var x = parseFloat(__bva__.cart[i].item_id);
-          cartIDs.push(x)
-        }
-        for (var i = __bva__.removeCart.items.length - 1; i >= 0; i--) {
-          var x = parseFloat(__bva__.removeCart.items[i].item_id);
-          removeIDs.push(x)
-        }
-        function arr_diff(b, c) {
-          var a = [],
-            diff = [];
-          for (var i = 0; i < b.length; i++) {
-            a[b[i]] = true
-          }
-          for (var i = 0; i < c.length; i++) {
-            if (a[c[i]]) {
-              delete a[c[i]]
-            } else {
-              a[c[i]] = true
-            }
-          }
-          for (var k in a) {
-            diff.push(k)
-          }
-          return diff
-        };
-        var x = arr_diff(cartIDs, removeIDs)[0];
-        for (var i = __bva__.cart.length - 1; i >= 0; i--) {
-          if (__bva__.cart[i].item_id == x) {
-            removeCart.push(__bva__.cart[i])
-          }
-        }
-
-        dataLayer.push(removeFromCart);
-        if (__bva__.debug) {
-          console.log("Cart remove "+" :"+JSON.stringify(removeCart, null, " "));
-        }
-      
-        // ------------------------------------------------------------------- remove from cart
-
-      });
-    {% endif %}
 
     /** DATALAYER: Checkout on Shopify Plus **/
     if(Shopify.Checkout){
