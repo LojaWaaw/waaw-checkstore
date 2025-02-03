@@ -563,6 +563,10 @@ applyBindings(defaultBindings, __bva__);
         'ecommerce'       : ecommerce,
       };
       dataLayer.push(viewItem);
+
+      if(__bva__.debug){
+        console.log("Visualizou PDP: "+JSON.stringify(ecommerce, null, " "));
+      }
     
       /* DATALAYER: add_to_cart
       --------------------------*/
@@ -574,10 +578,6 @@ applyBindings(defaultBindings, __bva__);
         dataLayer.push(addToCart);
       });
       
-      if(__bva__.debug){
-        console.log("Product add to cart"+" :"+JSON.stringify(ecommerce, null, " "));
-      }
-
       window.DataLayer.selectColor();
       window.DataLayer.selectSize();
     {% endif %}
