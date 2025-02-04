@@ -400,48 +400,113 @@ applyBindings(defaultBindings, __bva__);
       if(__bva__.debug){
         console.log("Homepage"+" :"+JSON.stringify(homepage, null, " "));
       }
-      
-      document.querySelectorAll('#CollectionProducts').forEach((element) => {
-        const collectionProducts = JSON.parse(element.textContent);
-        var items = collectionProducts.map((product, index) => ({
-          'item_id'       : String(product.id),
-          'item_variant'  : product.variants[0].id,
-          'item_name'     : product.title,
-          'price'         : Number(String(product.variants[0].price).replace(/^(\d{1,})(\d{2})$/, '$1.$2')),
-          'item_brand'    : product.vendor,
-          'item_category' : product.product_type,
-          'item_list_name': document.querySelector('#CollectionProducts').dataset.collection,
-          'item_index'    : index++
-        }));
 
-        dataLayer.push({
-          'event': 'cs_view_item_list',
-          items
-        });
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.shopify-section--featured-collection').forEach((section, sectionIndex) => {
+          const collectionTitle = section.querySelector('.section-header__title')?.textContent.trim() || `Seção ${sectionIndex + 1}`;
+          const productsElements = section.querySelectorAll('.product-card');
 
-// Capturar clique nos produtos da coleção
-        document.querySelectorAll('.product-card').forEach((productElement, index) => {
+          const items = Array.from(productsElements).map((productElement, index) => {
+            const productId = productElement.getAttribute('data-product-id');
+            const variantId = productElement.getAttribute('data-variant-id');
+            const productName = productElement.querySelector('.product-card__title')?.textContent.trim() || 'Produto sem nome';
+            const productPrice = productElement.querySelector('.price-item')?.textContent.replace(/[^\d,]/g, '').replace(',', '.') || '0.00';
+            const productBrand = productElement.getAttribute('data-brand') || '';
+            const productCategory = productElement.getAttribute('data-category') || '';
+            
+            return {
+              'item_index': index,
+              'item_id': productId,
+              'item_variant': variantId,
+              'item_name': productName,
+              'price': parseFloat(productPrice),
+              'item_brand': productBrand,
+              'item_category': productCategory,
+              'item_list_name': collectionTitle
+            };
+          });
+
+          if (items.length) {
+            dataLayer.push({
+              'event': 'view_item_list',
+              'ecommerce': {
+                'item_list_name': collectionTitle,
+                'items': items
+              }
+            });
+
+            if (__bva__.debug) {
+              console.log(`[dataLayer] Visualizou lista "${collectionTitle}" com ${items.length} itens.`);
+            }
+          }
+
+          // Capturar clique nos produtos
+          productsElements.forEach((productElement, index) => {
             productElement.setAttribute('data-index', index);
 
             productElement.addEventListener('click', function () {
-                const selectedItem = items[index];
+              const selectedItem = items[index];
 
+              if (selectedItem) {
                 dataLayer.push({
-                    'event': 'select_item',
-                    'ecommerce': {
-                        'items': [selectedItem]
-                    }
+                  'event': 'select_item',
+                  'ecommerce': {
+                    'items': [selectedItem]
+                  }
                 });
-
+                
                 if (__bva__.debug) {
-                    console.log('select_item:', selectedItem);
+                  console.log(`[dataLayer] Produto clicado na lista "${collectionTitle}":`, selectedItem);
                 }
+              }
             });
+          });
         });
-
-        console.log('colection products: ', items)
-      })
+      });
     }
+
+    // OLD HOMEPAGE Collection eventss
+
+//       document.querySelectorAll('#CollectionProducts').forEach((element) => {
+//         const collectionProducts = JSON.parse(element.textContent);
+//         var items = collectionProducts.map((product, index) => ({
+//           'item_id'       : String(product.id),
+//           'item_variant'  : product.variants[0].id,
+//           'item_name'     : product.title,
+//           'price'         : Number(String(product.variants[0].price).replace(/^(\d{1,})(\d{2})$/, '$1.$2')),
+//           'item_brand'    : product.vendor,
+//           'item_category' : product.product_type,
+//           'item_list_name': document.querySelector('#CollectionProducts').dataset.collection,
+//           'item_index'    : index++
+//         }));
+
+//         dataLayer.push({
+//           'event': 'cs_view_item_list',
+//           items
+//         });
+
+// // Capturar clique nos produtos da coleção
+//         document.querySelectorAll('.product-card').forEach((productElement, index) => {
+//             productElement.setAttribute('data-index', index);
+
+//             productElement.addEventListener('click', function () {
+//                 const selectedItem = items[index];
+
+//                 dataLayer.push({
+//                     'event': 'select_item',
+//                     'ecommerce': {
+//                         'items': [selectedItem]
+//                     }
+//                 });
+
+//                 if (__bva__.debug) {
+//                     console.log('select_item:', selectedItem);
+//                 }
+//             });
+//         });
+
+//         console.log('colection products: ', items)
+//       })
 
     /** 
     * DATALAYER: 404 Pages
