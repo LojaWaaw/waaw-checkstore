@@ -73,7 +73,7 @@ isElementVisible = function(element) {
 
 __bva__ = {
   dynamicCart: true,  // if cart is dynamic (meaning no refresh on cart add) set to true
-  debug: true, // if true, console messages will be displayed
+  debug: false, // if true, console messages will be displayed
   cart: null,
   wishlist: null,
   removeCart: null
@@ -454,7 +454,7 @@ applyBindings(defaultBindings, __bva__);
                     'items': [selectedItem]
                   }
                 });
-                
+
                 if (__bva__.debug) {
                   console.log(`[dataLayer] Produto clicado na lista "${collectionTitle}":`, selectedItem);
                 }
