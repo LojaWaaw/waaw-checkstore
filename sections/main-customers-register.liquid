@@ -77,6 +77,19 @@
   </div>
 </div>
 
+<script>
+  // GA4 SIGN UP EVENT REGISTER
+  document.addEventListener("DOMContentLoaded", function () {
+  const registerForm = document.querySelector('form[action="/account"]');
+
+  if (registerForm) {
+    registerForm.addEventListener("submit", function () {
+      localStorage.setItem("new_signup", "true");
+    });
+  }
+});
+
+</script>
 {% schema %}
 {
   "name": "Customer register",

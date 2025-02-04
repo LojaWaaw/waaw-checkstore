@@ -47,9 +47,16 @@ Supported variables
   {%- assign card_class = card_class | append: 'product-card--show-secondary-media' -%}
 {%- endif -%}
 
-<product-card handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}>
-  
-  {%- comment -%}
+<product-card
+  handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}
+  data-item-id="{{ product.id }}"
+  data-product-name="{{ product.title }}"
+  data-product-variant = "{{ product.selected_or_first_available_variant }}"
+  data-product-price = '{{ product.selected_or_first_available_variant.price | money_without_currency | replace: ',', '.'}}'
+  data-product-brand = " {{ product.vendor }}"
+  >
+
+  {% comment %}
   --------------------------------------------------------------------------------------------------------------------
   PRODUCT MEDIA
   --------------------------------------------------------------------------------------------------------------------

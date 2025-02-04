@@ -67,7 +67,7 @@ LIQUID
 
     {%- for block in section.blocks -%}
       {%- capture slide -%}
-        <div class="content-over-media content-over-media--{{ section.settings.image_size }} {% unless section.settings.full_width %}rounded{% endunless %}" style="--content-over-media-content-max-width: {{ block.settings.content_max_width }}px; --content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
+        <div class="content-over-media ga-event content-over-media--{{ section.settings.image_size }} {% unless section.settings.full_width %}rounded{% endunless %}" style="--content-over-media-content-max-width: {{ block.settings.content_max_width }}px; --content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }}">
           {%- comment -%}---------------- MEDIA ----------------{%- endcomment -%}
 
           {%- if block.settings.image != blank -%}
@@ -103,6 +103,21 @@ LIQUID
                   {% endif %}
                   <source media="(max-width: {{ size }}px)" srcset="{{ url_image | image_url: width: size_width }}">
                 {% endfor %}
+
+                <div class="slide-details" style="display: none;" 
+
+                  {% capture clean_text %}
+                    {% if block.settings.title != blank or block.settings.subheading != blank %}
+                      {{ block.settings.title }} | {{ block.settings.subheading }}
+                    {% endif %}
+                  {% endcapture %}
+
+                  data-type="{{ block.settings.type_slide }}" 
+                  data-img-url="{{ url_image }}" 
+                  data-text="{{ clean_text | strip_html | strip_newlines | replace: '\n', '' | replace: '  ', ' ' | strip }}"
+                  data-url-link="{{ block.settings.button_link }}" 
+                  data-index="{{ forloop.index0 }}">
+                </div>
                 
                 <img src="{{ block.settings.image | image_url: width: width_image }}" {{ first_image }} alt="{{ block.settings.image.alt }}" width="{{ width_image }}" height="{{ height_image }}">
               </picture>
@@ -351,6 +366,11 @@ LIQUID
       "type": "image",
       "name": "Image",
       "settings": [
+        {
+          "type": "text",
+          "id": "type_slide",
+          "label": "Type of slide for GA"
+        },
         {
           "type": "image_picker",
           "id": "image",
