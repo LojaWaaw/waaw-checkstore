@@ -1073,20 +1073,21 @@ applyBindings(defaultBindings, __bva__);
       if(document.location.pathname.match(searchPage)){
         var ecommerce = {
           items :[{% for product in search.results %}{
-            'item_id'        : "{{product.id | json}}",                  
-            'item_variant'    : {{product.variant.title | json}},             
-            'item_name'      : {{product.title | json}},
-            'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-            'item_brand'      : {{product.vendor | json}},
-            'item_category'   : {{product.type | json}},
-            'item_list_name'  : {{product.collection.title | json}},
+            'index'          : {{ forloop.index0 }},
+            'item_id'        : "{{ product.id | json }}",                  
+            'item_name'      : {{ product.title | json }},
+            'price'          : {{ product.price | money_without_currency | replace: ',', '.' | json }},
+            'item_brand'     : {{product.vendor | json}},
+            'item_category'  : {{product.type | json}},
+            'item_list_id'   : "search_result",
+            'item_list_name' : `Search: ${ __bva__.searchTermQuery}`
           },{% endfor %}],
         };
         dataLayer.push({
           'pageType'   : "Search",
-          'search_term' : __bva__.searchTermQuery,                                       
-          'event'      : "cs_search",
-          'item_list_name'  : "{{line_item.collection.title | json}}",
+          'event'      : "view_item_list",
+          'item_list_id': "search_result",
+          'item_list_name'  : `Search: ${ __bva__.searchTermQuery}`,
           ecommerce
         }); 
 
