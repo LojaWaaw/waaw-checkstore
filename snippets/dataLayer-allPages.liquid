@@ -871,7 +871,6 @@ applyBindings(defaultBindings, __bva__);
           'currency'        : {{cart.currency.iso_code | json}},           
           'item_brand'      : {{line_item.product.vendor | json}},
           'item_category'   : {{line_item.product.type | json}},
-          'item_variant'    : {{line_item.variant.title | json}},  
           'price'           : Number({{line_item.product.price | money_without_currency | replace: ',', '.' | json}}),
           'quantity'        : {{line_item.quantity | json}},
         },{% endfor %}],
@@ -881,7 +880,84 @@ applyBindings(defaultBindings, __bva__);
         'event': 'view_cart',
         ecommerce
       });
-      
+
+      // Recupera o estado anterior do localStorage
+      let previousEcommerceState = JSON.parse(localStorage.getItem('previousEcommerceState'));
+
+      // Função para comparar o novo estado com o anterior
+      function compareCartStates(previous, current) {
+        if (!previous) return; // Se não houver estado anterior, não faz nada
+
+        // Mapear itens do estado anterior por `item_id` para facilitar a comparação
+        const previousItemsMap = new Map(previous.items.map(item => [item.item_id, item]));
+
+        // Iterar sobre os itens do estado atual
+        current.items.forEach(currentItem => {
+          const previousItem = previousItemsMap.get(currentItem.item_id);
+
+          if (previousItem) {
+            // Verificar mudanças de quantidade
+            if (currentItem.quantity > previousItem.quantity) {
+              const quantityAdded = currentItem.quantity - previousItem.quantity;
+              dataLayer.push({
+                event: 'add_to_cart',
+                ecommerce: {
+                  currency: current.currency,
+                  value: quantityAdded * currentItem.price, // Valor adicionado
+                  items: [{
+                    ...currentItem,
+                    quantity: quantityAdded
+                  }]
+                }
+              });
+            } else if (currentItem.quantity < previousItem.quantity) {
+              const quantityRemoved = previousItem.quantity - currentItem.quantity;
+              dataLayer.push({
+                event: 'remove_from_cart',
+                ecommerce: {
+                  currency: current.currency,
+                  value: quantityRemoved * currentItem.price, // Valor removido
+                  items: [{
+                    ...currentItem,
+                    quantity: quantityRemoved
+                  }]
+                }
+              });
+            }
+
+            // Remover o item processado do mapa
+            previousItemsMap.delete(currentItem.item_id);
+          } else {
+            // Item novo adicionado
+            dataLayer.push({
+              event: 'add_to_cart',
+              ecommerce: {
+                currency: current.currency,
+                value: currentItem.quantity * currentItem.price, // Valor total do item adicionado
+                items: [currentItem]
+              }
+            });
+          }
+        });
+
+        // Itens restantes no mapa foram removidos
+        previousItemsMap.forEach(removedItem => {
+          dataLayer.push({
+            event: 'remove_from_cart',
+            ecommerce: {
+              currency: current.currency,
+              value: removedItem.quantity * removedItem.price, // Valor total do item removido
+              items: [removedItem]
+            }
+          });
+        });
+      }
+
+      // Comparar o estado anterior com o atual
+      compareCartStates(previousEcommerceState, ecommerce);
+
+      // Salvar o novo estado no localStorage para comparação no próximo carregamento
+      localStorage.setItem('previousEcommerceState', JSON.stringify(ecommerce));
     {% endif %}
 
     // function triggerViewCartEvent(event_type) {
