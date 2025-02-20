@@ -4069,6 +4069,60 @@ var PredictiveSearch = class extends HTMLElement {
     const queryParams = `q=${this._queryInput.value}&section_id=${this.getAttribute("section-id")}&resources[limit]=10&resources[limit_scope]=each`;
     const nodeElement = new DOMParser().parseFromString(await (await cachedFetch(`${window.Shopify.routes.root}search/suggest?${queryParams}`, { signal: this._abortController.signal })).text(), "text/html");
     this.querySelector('[slot="results"]').replaceWith(document.importNode(nodeElement.querySelector('[slot="results"]'), true));
+    
+    console.log(nodeElement)
+
+    // Simple Search Event
+    dataLayer.push({
+      event: 'view_search_results',
+      search_term: this._queryInput.value.trim()
+    });
+
+    // -----------------------------------------------------
+    // Capture predictive search list event (DataLayer)
+    // Captura os elementos de produto após renderizar os resultados
+    const productElements = this.querySelectorAll('[slot="results"] .predictive-search-result[data-product-id]');
+
+    // Mapeia os produtos para extrair as informações
+    const items = Array.from(productElements).slice(0, 10).map((element, index) => {
+      return {
+        index: index++,
+        item_list_id: "search_result",
+        item_list_name: `Search: ${this._queryInput.value.trim()}`,
+        item_id: element.getAttribute('data-product-id'), // Ajuste conforme a estrutura real
+        item_name: element.querySelector('.reversed-link')?.textContent.trim() || '',
+        price: parseFloat(element.querySelector('sale-price')?.textContent.replace(/[^\d,]/g, '').replace(',', '.') || '0'),
+        discount: {{ product.compare_at_price | minus: product.price }},
+        item_url: element.getAttribute('href')
+      };
+    });
+
+    // Dispara o evento 'view_list_item' para o dataLayer
+    if (items.length > 0) {
+      dataLayer.push(
+      {
+        event: 'view_item_list',
+        ecommerce: {
+          currency: "{{ shop.currency.iso_code }}" || "BRL",
+        item_list_id: "search_result",
+        item_list_name: `Search: ${this._queryInput.value.trim()}`,
+        items: items
+        }
+      });
+
+      if (window.__bva__.debug) {
+        console.log('Evento view_list_item disparado:', {
+          search_term: this._queryInput.value.trim(),
+          item_list: items
+        });
+      }
+    }
+    // -----------------------------------------------------
+
+    if (__bva__.debug) {
+      console.log('Evento cs_predictive_search_results disparado:', this._queryInput.value.trim());
+    }
+    
     return this._transitionToSlot("results");
   }
   /**

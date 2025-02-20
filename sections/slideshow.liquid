@@ -113,7 +113,7 @@ LIQUID
                   {% endcapture %}
 
                   data-type="{{ block.settings.type_slide }}" 
-                  data-img-url="{{ url_image }}" 
+                  data-img-url="{{ url_image |  image_url |  prepend: 'https:'  }}" 
                   data-text="{{ clean_text | strip_html | strip_newlines | replace: '\n', '' | replace: '  ', ' ' | strip }}"
                   data-url-link="{{ block.settings.button_link }}" 
                   data-index="{{ forloop.index0 }}">

@@ -49,7 +49,7 @@
                   {%- endif -%}
 
                   <tr>
-                    <td>{%- render 'line-item', line_item: line_item -%}</td>
+                    <td>{%- render 'line-item', line_item: line_item, loop_index: forloop.index0 -%}</td>
 
                     <td class="hidden align-center text-center text-subdued sm:table-cell">
                       <line-item-quantity class="v-stack justify-center gap-2">

@@ -73,7 +73,7 @@ isElementVisible = function(element) {
 
 __bva__ = {
   dynamicCart: true,  // if cart is dynamic (meaning no refresh on cart add) set to true
-  debug: false, // if true, console messages will be displayed
+  debug: true, // if true, console messages will be displayed
   cart: null,
   wishlist: null,
   removeCart: null
@@ -542,6 +542,9 @@ applyBindings(defaultBindings, __bva__);
     {% if template contains 'collection' %}
       let index = 0;
       var ecommerce = {
+        'currency': '{{ shop.currency }}',
+        'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
+        'item_list_name'  : "Category:  {{collection.title }}",
         'items': [
           {% for product in collection.products %}
             {
@@ -551,19 +554,18 @@ applyBindings(defaultBindings, __bva__);
               'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
               'item_brand'      : {{product.vendor | json}},
               'item_category'   : {{product.type | json}},
-              'item_list_name'  : {{collection.title | json}},
+              'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
+              'item_list_name'  : "Category:  {{collection.title }}",
               'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
               'productURL'      : '{{shop.secure_url}}{{product.url}}',
               'sku'             : {{product.selected_variant.sku | json}},
-              'item_index'      : index++
+              'index'           : index++
             },
           {% endfor %}
         ]
       };  
       dataLayer.push({
-        'productList'     : {{collection.title | json}},
-        'pageType'        : 'Collection',
-        'event'           : 'cs_view_item_list',
+        'event'           : 'view_item_list',
         ecommerce
       });
 
@@ -613,19 +615,19 @@ applyBindings(defaultBindings, __bva__);
     
     {% if template contains 'product' %}
       var ecommerce = {
+        'currency': '{{ shop.currency }}',
+        'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
         'items': [{
           'item_id'         : '{{product.id | json}}',
           'item_variant'    : '{{product.variants[0].id | json}}',
           'item_name'       : {{product.title | json}},
           'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-          'quantity'        : '1',
           'item_brand'      : {{product.vendor | json}},
           'item_category'   : {{product.type | json}},
-          'item_list_name'  : {{collection.title | json}},
         }]
       };
       var viewItem = {
-        'event'           : 'cs_view_item',
+        'event'           : 'view_item',
         'ecommerce'       : ecommerce,
       };
       dataLayer.push(viewItem);
@@ -636,6 +638,209 @@ applyBindings(defaultBindings, __bva__);
     {% endif %}
 
     // View / Add / Remove Cart (cart page and cart drawer)
+
+    /* DATALAYER: view_item
+      --------------------------
+      Fire on all Product View pages. */
+      {% if template contains 'product' %}
+      var viewItem = {
+        'event': 'view_item',
+        'ecommerce': {
+          'currency': 'BRL',
+          'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+          items: [{
+            'item_id'         : '{{ product.id | json }}',
+            'item_name'       : '{{ product.title }}',
+            'currency'        : 'BRL',
+            'index'           : 0,
+            'item_brand'      : {{ product.vendor | json }},
+            'item_category'   : {{ product.type | json }},
+            'item_list_id'    : "{% for col in product.collections %}{{ col.id }} | {% endfor %}",
+            'item_list_name'  : '{% for col in product.collections %} {{ col.title }} | {% endfor %}',
+            'item_variant'    : {{product.selected_or_first_available_variant.title | json}},
+            'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+            'quantity'        : 1
+          }]
+        }
+      };
+      dataLayer.push(viewItem);
+    
+      /* DATALAYER: add_to_cart
+      --------------------------*/
+      $(__bva__.cartTriggers).click(function(){
+        var quantity = $('.quantity-selector__input').val()
+        var addToCart = {                    
+          'event': 'add_to_cart',
+          'ecommerce': {
+            'currency': 'BRL',
+            'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+            items: [{
+              'item_id'         : '{{ product.id | json }}',
+              'item_name'       : '{{ product.title }}',
+              'index'           : 0,
+              'item_category'   : {{ product.type | json }},
+              'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+              'quantity'        : Number(quantity)
+            }]
+          }
+        };
+        dataLayer.push(addToCart);
+      });
+
+    {% else %}
+      $(__bva__.cartTriggers).click(function(){
+      const product_card = $(this).closest('.product-card')
+      const currentUrl = window.location.pathname;
+      let section = ''
+
+      if (currentUrl == '/') {
+        section = "home"
+      } else {
+        let linkURL = currentUrl.split('/')
+        section = linkURL[linkURL.length - 1]
+      }
+
+      var addToCart = {                    
+        'event': 'add_to_cart',
+        'ecommerce': {
+          'currency'        : "BRL",
+          'value': Number(product_card.attr('data-product-price')),
+          'items': [{
+            'item_id'         : product_card.attr('data-item-id'),                
+            'item_name'       : product_card.attr('data-product-name'),
+            'index'           : product_card.attr('data-index'),
+            'price'           : Number(product_card.attr('data-product-price')),
+            'quantity'        : 1 
+          }]
+        }
+      };
+
+      dataLayer.push(addToCart);
+    })
+    {% endif %}
+
+    /* DATALAYER: Cart View
+    -----------------------
+    1. Fire anytime a user views their cart (non-dynamic) */
+
+    $('#cart-icon-bubble').on('click', function(event) {
+      var ecommerce = {
+        'currency': {{cart.currency.iso_code | json}},
+        'value': Number({{cart.total_price | divided_by: 100.0 | json}}),
+        'items':[{% for line_item in cart.items %}{
+          'item_id'         : "{{line_item.product.id | json}}",                  
+          'item_name'       : {{line_item.product.title | json}},
+          'item_category'   : {{line_item.product.type | json}},
+          'price'           : Number({{line_item.product.price | money_without_currency | replace: ',', '.' | json}}),
+          'quantity'        : {{line_item.quantity | json}},
+        },{% endfor %}],
+      };
+
+      dataLayer.push({
+        'event': 'view_cart',
+        ecommerce
+      });
+
+    })
+
+    {% if template contains 'cart' %}
+      var ecommerce = {
+        'currency': {{cart.currency.iso_code | json}},
+        'value': Number({{cart.total_price | divided_by: 100.0 | json}}),
+        'items':[{% for line_item in cart.items %}{
+          'item_id'         : "{{line_item.product.id | json}}",                  
+          'item_name'       : {{line_item.product.title | json}},
+          'currency'        : {{cart.currency.iso_code | json}},           
+          'item_brand'      : {{line_item.product.vendor | json}},
+          'item_category'   : {{line_item.product.type | json}},
+          'price'           : Number({{line_item.product.price | money_without_currency | replace: ',', '.' | json}}),
+          'quantity'        : {{line_item.quantity | json}},
+        },{% endfor %}],
+      };
+
+      dataLayer.push({
+        'event': 'view_cart',
+        ecommerce
+      });
+
+      // Recupera o estado anterior do localStorage
+      let previousEcommerceState = JSON.parse(localStorage.getItem('previousEcommerceState'));
+
+      // Função para comparar o novo estado com o anterior
+      function compareCartStates(previous, current) {
+        if (!previous) return; // Se não houver estado anterior, não faz nada
+
+        // Mapear itens do estado anterior por `item_id` para facilitar a comparação
+        const previousItemsMap = new Map(previous.items.map(item => [item.item_id, item]));
+
+        // Iterar sobre os itens do estado atual
+        current.items.forEach(currentItem => {
+          const previousItem = previousItemsMap.get(currentItem.item_id);
+
+          if (previousItem) {
+            // Verificar mudanças de quantidade
+            if (currentItem.quantity > previousItem.quantity) {
+              const quantityAdded = currentItem.quantity - previousItem.quantity;
+              dataLayer.push({
+                event: 'add_to_cart',
+                ecommerce: {
+                  currency: current.currency,
+                  value: quantityAdded * currentItem.price, // Valor adicionado
+                  items: [{
+                    ...currentItem,
+                    quantity: quantityAdded
+                  }]
+                }
+              });
+            } else if (currentItem.quantity < previousItem.quantity) {
+              const quantityRemoved = previousItem.quantity - currentItem.quantity;
+              dataLayer.push({
+                event: 'remove_from_cart',
+                ecommerce: {
+                  currency: current.currency,
+                  value: quantityRemoved * currentItem.price, // Valor removido
+                  items: [{
+                    ...currentItem,
+                    quantity: quantityRemoved
+                  }]
+                }
+              });
+            }
+
+            // Remover o item processado do mapa
+            previousItemsMap.delete(currentItem.item_id);
+          } else {
+            // Item novo adicionado
+            dataLayer.push({
+              event: 'add_to_cart',
+              ecommerce: {
+                currency: current.currency,
+                value: currentItem.quantity * currentItem.price, // Valor total do item adicionado
+                items: [currentItem]
+              }
+            });
+          }
+        });
+
+        // Itens restantes no mapa foram removidos
+        previousItemsMap.forEach(removedItem => {
+          dataLayer.push({
+            event: 'remove_from_cart',
+            ecommerce: {
+              currency: current.currency,
+              value: removedItem.quantity * removedItem.price, // Valor total do item removido
+              items: [removedItem]
+            }
+          });
+        });
+      }
+
+      // Comparar o estado anterior com o atual
+      compareCartStates(previousEcommerceState, ecommerce);
+
+      // Salvar o novo estado no localStorage para comparação no próximo carregamento
+      localStorage.setItem('previousEcommerceState', JSON.stringify(ecommerce));
+    {% endif %}
 
     function triggerViewCartEvent() {
       // Aguarda 500ms para que a atualização do carrinho seja concluída (caso seja uma chamada AJAX)
@@ -652,7 +857,7 @@ applyBindings(defaultBindings, __bva__);
             var ecommerceData = {
               'currency': cart.currency || 'BRL',
               'value': Number(cart.total_price / 100), // valor total do carrinho
-              'items': cart.items.map(function(item) {
+              'items': cart.items.map(function(item, cart_index) {
                 // Se existir "original_price", ele representa o valor unitário sem desconto.
                 var unitPrice = item.original_price ? Number(item.original_price / 100) : Number(item.price / 100);
                 return {
@@ -662,17 +867,20 @@ applyBindings(defaultBindings, __bva__);
                   'price': unitPrice, // preço unitário
                   'item_brand': item.vendor || '',
                   'item_category': item.product_type || '',
-                  'quantity': item.quantity
+                  'quantity': item.quantity,
+                  'index': cart_index++
                 };
               })
             };
             if(__bva__.debug) {
               console.log('[datalayer_cart_fix] Disparando view_cart com os seguintes dados:', ecommerceData);
             }
+           
             dataLayer.push({
               'event': 'view_cart',
               'ecommerce': ecommerceData
             });
+            
           })
           .catch(function(error) {
             if(__bva__.debug) {
@@ -690,7 +898,7 @@ applyBindings(defaultBindings, __bva__);
       // 1. Ação de adicionar itens (ex.: quick-add em cards de produto)
       jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit, .product-card__quick-buy', function(){
         if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de adicionar item detectada. Disparando view_cart.');
+          console.log('[datalayer_cart_fix] Ação de adicionar item detectada. Disparando add_cart.');
         }
         triggerViewCartEvent();
       });
@@ -698,23 +906,7 @@ applyBindings(defaultBindings, __bva__);
       // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
       jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
         if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando view_cart.');
-        }
-        triggerViewCartEvent();
-      });
-
-      // 3. Alteração direta na quantidade (inputs de quantidade no mini-cart e na página de carrinho)
-      jQuery(document).on('change', '.cart-drawer input.quantity-input, .line-item input.quantity-input', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via .line-item ou .cart-drawer). Disparando view_cart.');
-        }
-        triggerViewCartEvent();
-      });
-      
-      // 4. Alteração direta na quantidade (inputs dentro de <line-item-quantity> na página /cart)
-      jQuery(document).on('change', 'line-item-quantity input.quantity-input', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via line-item-quantity). Disparando view_cart.');
+          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando remove_c.');
         }
         triggerViewCartEvent();
       });
@@ -736,9 +928,9 @@ applyBindings(defaultBindings, __bva__);
       });
     }
 
-    // ==========================================================================
-    // Inicializa os event listeners quando o DOM estiver pronto
-    // ==========================================================================
+    // // ==========================================================================
+    // // Inicializa os event listeners quando o DOM estiver pronto
+    // // ==========================================================================
 
     jQuery(document).ready(function(){
       attachCartEventListeners();
@@ -1070,20 +1262,21 @@ applyBindings(defaultBindings, __bva__);
       if(document.location.pathname.match(searchPage)){
         var ecommerce = {
           items :[{% for product in search.results %}{
-            'item_id'        : "{{product.id | json}}",                  
-            'item_variant'    : {{product.variant.title | json}},             
-            'item_name'      : {{product.title | json}},
-            'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-            'item_brand'      : {{product.vendor | json}},
-            'item_category'   : {{product.type | json}},
-            'item_list_name'  : {{product.collection.title | json}},
+            'index'          : {{ forloop.index0 }},
+            'item_id'        : "{{ product.id | json }}",                  
+            'item_name'      : {{ product.title | json }},
+            'price'          : {{ product.price | money_without_currency | replace: ',', '.' | json }},
+            'item_brand'     : {{product.vendor | json}},
+            'item_category'  : {{product.type | json}},
+            'item_list_id'   : "search_result",
+            'item_list_name' : `Search: ${ __bva__.searchTermQuery}`
           },{% endfor %}],
         };
         dataLayer.push({
           'pageType'   : "Search",
-          'search_term' : __bva__.searchTermQuery,                                       
-          'event'      : "cs_search",
-          'item_list_name'  : {{line_item.collection.title | json}},
+          'event'      : "view_item_list",
+          'item_list_id': "search_result",
+          'item_list_name'  : `Search: ${ __bva__.searchTermQuery}`,
           ecommerce
         }); 
 
@@ -1096,6 +1289,8 @@ applyBindings(defaultBindings, __bva__);
           });
         }
       }
+      // For predctive search, added in 'theme.js.liquid' on function _doPredictiveSearch
+
     }); // document ready
 
   // --------------- run script after jQuery has loaded
