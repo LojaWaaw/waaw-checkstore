@@ -544,7 +544,7 @@ applyBindings(defaultBindings, __bva__);
       var ecommerce = {
         'currency': '{{ shop.currency }}',
         'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
-        'item_list_name'  : "Category:  {{collection.title }}",
+        'item_list_name'  : "Category: {{collection.title }}",
         'items': [
           {% for product in collection.products %}
             {
@@ -555,7 +555,7 @@ applyBindings(defaultBindings, __bva__);
               'item_brand'      : {{product.vendor | json}},
               'item_category'   : {{product.type | json}},
               'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
-              'item_list_name'  : "Category:  {{collection.title }}",
+              'item_list_name'  : "Category: {{collection.title }}",
               'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
               'productURL'      : '{{shop.secure_url}}{{product.url}}',
               'sku'             : {{product.selected_variant.sku | json}},
