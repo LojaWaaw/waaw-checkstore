@@ -80,7 +80,16 @@ Supported variables
           <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
 
           <span class="text-xs">
-            <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link">{{ 'cart.order.remove' | t }}</a>
+            <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link"
+              data-item-id="{{ line_item.product_id }}"
+              data-item-variant="{{ line_item.variant_id }}"
+              data-item-name="{{ line_item.product.title }}"
+              data-item-price="{{ line_item.product.price }}"
+              data-item-brand="{{ line_item.product.vendor}}"
+              data-item-category="{{ line_item.product.type }}"
+              data-item-quantity="{{ line_item.quantity }}"
+              data-item-index="{{ line_item.index }}"
+            >{{ 'cart.order.remove' | t }}</a>
           </span>
         </line-item-quantity>
       {%- else -%}
@@ -105,9 +114,30 @@ Supported variables
         <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
 
         <span class="text-xs text-center">
-          <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link">{{ 'cart.order.remove' | t }}</a>
+          <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link"
+            data-item-id="{{ line_item.product_id }}"
+            data-item-variant="{{ line_item.variant_id }}"
+            data-item-name="{{ line_item.product.title }}"
+            data-item-price="{{ line_item.product.price }}"
+            data-item-brand="{{ line_item.product.vendor}}"
+            data-item-category="{{ line_item.product.type }}"
+            data-item-quantity="{{ line_item.quantity }}"
+            data-item-index="{{ line_item.index }}"
+
+          >{{ 'cart.order.remove' | t }}</a>
         </span>
       </line-item-quantity>
     </div>
   {%- endif -%}
+
+  {% comment %} 
+  'item_id': String(item.product_id || item.id),
+  'item_variant': item.variant_id || item.getAttribute('data-product-variant'),
+  'item_name': item.title,
+  'price': unitPrice, // preço unitário
+  'item_brand': item.vendor || '',
+  'item_category': item.product_type || '',
+  'quantity': item.quantity,
+  'index': cart_index++, 
+  {% endcomment %}
 </line-item>

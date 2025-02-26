@@ -668,6 +668,75 @@ applyBindings(defaultBindings, __bva__);
 
     })
 
+    // Função para comparar o novo estado com o anterior
+    function compareCartStates(previous, current) {
+      if (!previous) return; // Se não houver estado anterior, não faz nada
+
+      // Mapear itens do estado anterior por `item_id` para facilitar a comparação
+      const previousItemsMap = new Map(previous.items.map(item => [item.item_id, item]));
+
+      // Iterar sobre os itens do estado atual
+      current.items.forEach(currentItem => {
+        const previousItem = previousItemsMap.get(currentItem.item_id);
+
+        if (previousItem) {
+          // Verificar mudanças de quantidade
+          if (currentItem.quantity > previousItem.quantity) {
+            const quantityAdded = currentItem.quantity - previousItem.quantity;
+            dataLayer.push({
+              event: 'add_to_cart',
+              ecommerce: {
+                currency: current.currency,
+                value: quantityAdded * currentItem.price, // Valor adicionado
+                items: [{
+                  ...currentItem,
+                  quantity: quantityAdded
+                }]
+              }
+            });
+          } else if (currentItem.quantity < previousItem.quantity) {
+            const quantityRemoved = previousItem.quantity - currentItem.quantity;
+            dataLayer.push({
+              event: 'remove_from_cart',
+              ecommerce: {
+                currency: current.currency,
+                value: quantityRemoved * currentItem.price, // Valor removido
+                items: [{
+                  ...currentItem,
+                  quantity: quantityRemoved
+                }]
+              }
+            });
+        }
+
+          // Remover o item processado do mapa
+          previousItemsMap.delete(currentItem.item_id);
+        } else {
+          // Item novo adicionado
+          dataLayer.push({
+            event: 'add_to_cart',
+            ecommerce: {
+              currency: current.currency,
+              value: currentItem.quantity * currentItem.price, 
+              items: [currentItem]
+            }
+          });
+        }
+      });
+
+      // Itens restantes no mapa foram removidos
+      previousItemsMap.forEach(removedItem => {
+        dataLayer.push({
+          event: 'remove_from_cart',
+          ecommerce: {
+            currency: current.currency,
+            value: removedItem.quantity * removedItem.price, // Valor total do item removido
+            items: [removedItem]
+          }
+        });
+      });
+    }
+
     {% if template contains 'cart' %}
       var ecommerce = {
         'currency': {{cart.currency.iso_code | json}},
@@ -687,80 +756,12 @@ applyBindings(defaultBindings, __bva__);
       // Recupera o estado anterior do localStorage
       let previousEcommerceState = JSON.parse(localStorage.getItem('previousEcommerceState'));
 
-      // Função para comparar o novo estado com o anterior
-      function compareCartStates(previous, current) {
-        if (!previous) return; // Se não houver estado anterior, não faz nada
-
-        // Mapear itens do estado anterior por `item_id` para facilitar a comparação
-        const previousItemsMap = new Map(previous.items.map(item => [item.item_id, item]));
-
-        // Iterar sobre os itens do estado atual
-        current.items.forEach(currentItem => {
-          const previousItem = previousItemsMap.get(currentItem.item_id);
-
-          if (previousItem) {
-            // Verificar mudanças de quantidade
-            if (currentItem.quantity > previousItem.quantity) {
-              const quantityAdded = currentItem.quantity - previousItem.quantity;
-              dataLayer.push({
-                event: 'add_to_cart',
-                ecommerce: {
-                  currency: current.currency,
-                  value: quantityAdded * currentItem.price, // Valor adicionado
-                  items: [{
-                    ...currentItem,
-                    quantity: quantityAdded
-                  }]
-                }
-              });
-            } else if (currentItem.quantity < previousItem.quantity) {
-              const quantityRemoved = previousItem.quantity - currentItem.quantity;
-              dataLayer.push({
-                event: 'remove_from_cart',
-                ecommerce: {
-                  currency: current.currency,
-                  value: quantityRemoved * currentItem.price, // Valor removido
-                  items: [{
-                    ...currentItem,
-                    quantity: quantityRemoved
-                  }]
-                }
-              });
-            }
-
-            // Remover o item processado do mapa
-            previousItemsMap.delete(currentItem.item_id);
-          } else {
-            // Item novo adicionado
-            dataLayer.push({
-              event: 'add_to_cart',
-              ecommerce: {
-                currency: current.currency,
-                value: currentItem.quantity * currentItem.price, 
-                items: [currentItem]
-              }
-            });
-          }
-        });
-
-        // Itens restantes no mapa foram removidos
-        previousItemsMap.forEach(removedItem => {
-          dataLayer.push({
-            event: 'remove_from_cart',
-            ecommerce: {
-              currency: current.currency,
-              value: removedItem.quantity * removedItem.price, // Valor total do item removido
-              items: [removedItem]
-            }
-          });
-        });
-      }
-
       // Comparar o estado anterior com o atual
       compareCartStates(previousEcommerceState, ecommerce);
 
       // Salvar o novo estado no localStorage para comparação no próximo carregamento
       localStorage.setItem('previousEcommerceState', JSON.stringify(ecommerce));
+
     {% endif %}
 
     function triggerViewCartEvent() {
@@ -793,9 +794,8 @@ applyBindings(defaultBindings, __bva__);
                 };
               })
             };
-            if(__bva__.debug) {
-              console.log('[datalayer_cart_fix] Disparando view_cart com os seguintes dados:', ecommerceData);
-            }
+
+            // compareCartStates(previousEcommerceState, ecommerceData)
            
             dataLayer.push({
               'event': 'view_cart',
@@ -831,14 +831,76 @@ applyBindings(defaultBindings, __bva__);
         }
         triggerViewCartEvent();
       });
-      
-      // 5. Ação de remoção via link dentro do <line-item-quantity> (elemento "Remover")
-      jQuery(document).on('click', 'line-item-quantity a.link[href*="quantity=0"]', function(){
+
+      // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
+      jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
         if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Remoção de item (via line-item-quantity) detectada. Disparando view_cart.');
+          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando remove_c.');
         }
         triggerViewCartEvent();
       });
+
+      // 3. Alteração direta na quantidade (inputs de quantidade no mini-cart e na página de carrinho)
+      jQuery(document).on('change', '.cart-drawer input.quantity-input, .line-item input.quantity-input', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via .line-item ou .cart-drawer). Disparando view_cart.');
+        }
+        triggerViewCartEvent();
+      });
+      
+      // 4. Alteração direta na quantidade (inputs dentro de <line-item-quantity> na página /cart)
+      jQuery(document).on('change', 'line-item-quantity input.quantity-input', function(){
+        if(__bva__.debug) {
+          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via line-item-quantity). Disparando view_cart.');
+        }
+        triggerViewCartEvent();
+      });
+
+      // 5. Ação de remoção via link dentro do <line-item-quantity> (elemento "Remover")
+      jQuery(document).on('click', 'line-item-quantity a.link[href*="quantity=0"], .cart-drawer__remove-link', function(event){
+        if(__bva__.debug) {
+            console.log('[datalayer_cart_fix] Remoção de item detectada. Disparando cart_remove.');
+        }
+
+        const clickedElement = jQuery(this);
+
+        const productContainer = clickedElement.closest('[data-item-id]');
+
+        if (!productContainer.length) {
+            console.error('[datalayer_cart_fix] Elemento pai com atributos data-* não encontrado.');
+            return; 
+        }
+        // 3. Extraia os dados dos atributos data-*.
+        const itemId = productContainer.data('item-id');
+        const itemVariant = productContainer.data('item-variant');
+        const itemName = productContainer.data('item-name');
+        const itemPrice = parseFloat(productContainer.data('item-price')) / 100;
+        const itemBrand = productContainer.data('item-brand');
+        const itemCategory = productContainer.data('item-category');
+        const itemQuantity = parseInt(productContainer.data('item-quantity'), 10); 
+        const itemIndex = parseInt(productContainer.data('item-index'),10);
+
+        // 4. Construa o objeto de dados para o dataLayer.
+        const dataLayerObject = {
+          event: 'remove_from_cart',
+          ecommerce: {
+            currency: '{{cart.currency.iso_code}}',
+            value: itemQuantity * itemPrice,
+            items: [{
+              id: itemId,
+              variant: itemVariant,
+              name: itemName,
+              price: itemPrice,
+              brand: itemBrand,
+              category: itemCategory,
+              quantity: itemQuantity,
+              index: itemIndex
+            }]
+          }
+        };
+
+        dataLayer.push(dataLayerObject);
+    })
 
       // 6. Ação ao abrir o mini-cart via clique no header (link que abre o carrinho)
       jQuery(document).on('click', 'a[href="/cart"][data-no-instant].relative.tap-area', function(){
