@@ -77,7 +77,16 @@ Supported variables
     <div class="text-sm text-subdued sm:hidden">
       {%- if line_item.url_to_remove -%}
         <line-item-quantity class="h-stack justify-center gap-3">
-          <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+          <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}"
+            data-item-id="{{ line_item.product_id }}"
+            data-item-variant="{{ line_item.variant_id }}"
+            data-item-name="{{ line_item.product.title }}"
+            data-item-price="{{ line_item.product.price }}"
+            data-item-brand="{{ line_item.product.vendor}}"
+            data-item-category="{{ line_item.product.type }}"
+            data-item-quantity="{{ line_item.quantity }}"
+            data-item-index="{{ line_item.index }}"
+          >
 
           <span class="text-xs">
             <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link"
@@ -111,7 +120,16 @@ Supported variables
   {%- if show_desktop_quantity -%}
     <div class="line-item__actions text-subdued hidden sm:block">
       <line-item-quantity class="v-stack gap-2">
-        <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
+        <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}"
+          data-item-id="{{ line_item.product_id }}"
+          data-item-variant="{{ line_item.variant_id }}"
+          data-item-name="{{ line_item.product.title }}"
+          data-item-price="{{ line_item.product.price }}"
+          data-item-brand="{{ line_item.product.vendor}}"
+          data-item-category="{{ line_item.product.type }}"
+          data-item-quantity="{{ line_item.quantity }}"
+          data-item-index="{{ line_item.index }}"
+        >
 
         <span class="text-xs text-center">
           <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link"

@@ -578,7 +578,6 @@ applyBindings(defaultBindings, __bva__);
               'item_name'       : '{{ product.title }}',
               'currency'        : 'BRL',
               'index'           : 0,
-              'item_brand'      : {{ product.vendor | json }},
               'item_category'   : {{ product.type | json }},
               'item_variant'    : {{ product.selected_or_first_available_variant.id | json}},
               'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
@@ -632,6 +631,7 @@ applyBindings(defaultBindings, __bva__);
             'items': [{
               'item_id'         : product_card.attr('data-item-id'),                
               'item_name'       : product_card.attr('data-product-name'),
+              'item_category'   : product_card.attr('data-product-category'),
               'index'           : product_card.attr('data-index'),
               'price'           : Number(product_card.attr('data-product-price')),
               'quantity'        : 1,
@@ -840,21 +840,111 @@ applyBindings(defaultBindings, __bva__);
         triggerViewCartEvent();
       });
 
-      // 3. Alteração direta na quantidade (inputs de quantidade no mini-cart e na página de carrinho)
-      jQuery(document).on('change', '.cart-drawer input.quantity-input, .line-item input.quantity-input', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via .line-item ou .cart-drawer). Disparando view_cart.');
+      // 3. Alteração direta na quantidade (inputs de quantidade no mini-cart)
+      jQuery(document).on('change', '.cart-drawer input.quantity-input', function() {
+        if (__bva__.debug) {
+            console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via .cart-drawer).');
         }
-        triggerViewCartEvent();
-      });
+
+        const changedElement = jQuery(this);
+        const productContainer = changedElement.closest('[data-item-id]');
+
+        if (!productContainer.length) {
+            console.error('[datalayer_cart_fix] Elemento pai com atributos data-* não encontrado.');
+            return;
+        }
+
+        // Extraia os dados dos atributos data-*.
+        const itemId = productContainer.data('item-id');
+        const itemVariant = productContainer.data('item-variant');
+        const itemName = productContainer.data('item-name');
+        const itemPrice = parseFloat(productContainer.data('item-price')) / 100;
+        const itemBrand = productContainer.data('item-brand');
+        const itemCategory = productContainer.data('item-category');
+        const itemLastQuantity = parseInt(productContainer.data('item-quantity'), 10);
+        const itemIndex = parseInt(productContainer.data('item-index'), 10);
+
+        // --- Obtendo o novo valor CORRETAMENTE (e robusto) ---
+        // 1. Tentar .val() (jQuery - geralmente funciona)
+        let itemNewQuantity = parseInt(changedElement.val(), 10);
+
+        // 2. Se .val() retornar NaN (não um número), tentar acessar a propriedade .value diretamente (para custom elements)
+        if (isNaN(itemNewQuantity)) {
+            itemNewQuantity = parseInt(changedElement[0].value, 10); // Acessa o elemento DOM *real*
+        }
+
+        // 3. Se AINDA for NaN, algo está muito errado. Registrar erro e usar um valor padrão (0) para evitar quebrar o dataLayer.
+        if (isNaN(itemNewQuantity)) {
+            console.error('[datalayer_cart_fix] Não foi possível obter o novo valor da quantidade. Usando 0 como padrão.');
+            itemNewQuantity = 0; // Valor padrão
+        }
+
+        // --- Cálculo da diferença e decisão de evento ---
+        const quantityDifference = itemNewQuantity - itemLastQuantity;
+
+        if (quantityDifference > 0) {
+            // Adicionou ao carrinho
+            if(__bva__.debug) {
+            console.log('[datalayer_cart_fix] Disparando add_to_cart.');
+        }
+            const dataLayerObject = {
+                event: 'add_to_cart', // Evento de adicionar ao carrinho
+                ecommerce: {
+                    currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
+                    value: quantityDifference * itemPrice,
+                    items: [{
+                        item_id: itemId,
+                        item_variant: itemVariant,
+                        item_name: itemName,
+                        price: itemPrice,
+                        item_category: itemCategory,
+                        quantity: quantityDifference, // Quantidade ADICIONADA
+                        index: itemIndex
+                    }]
+                }
+            };
+            dataLayer.push(dataLayerObject);
+
+
+        } else {
+            // Removeu do carrinho
+            if(__bva__.debug) {
+                console.log('[datalayer_cart_fix] Disparando remove_from_cart.');
+            }
+            const dataLayerObject = {
+                event: 'remove_from_cart', // Evento de remover do carrinho
+                ecommerce: {
+                    currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
+                    value: Math.abs(quantityDifference) * itemPrice, // Valor absoluto da diferença
+                    items: [{
+                        item_id: itemId,
+                        item_variant: itemVariant,
+                        item_name: itemName,
+                        price: itemPrice,
+                        item_category: itemCategory,
+                        quantity: Math.abs(quantityDifference), // Quantidade REMOVIDA (valor absoluto)
+                        index: itemIndex
+                    }]
+                }
+            };
+            dataLayer.push(dataLayerObject);
+        }
+
+        // Atualiza o data-item-quantity no productContainer para a próxima alteração
+        productContainer.data('item-quantity', itemNewQuantity);
+
+    });
       
-      // 4. Alteração direta na quantidade (inputs dentro de <line-item-quantity> na página /cart)
-      jQuery(document).on('change', 'line-item-quantity input.quantity-input', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via line-item-quantity). Disparando view_cart.');
-        }
-        triggerViewCartEvent();
-      });
+     
+      {% if template contains 'cart' %}
+        // 4. Alteração direta na quantidade (inputs dentro de <line-item-quantity> na página /cart)
+        jQuery(document).on('change', 'line-item-quantity input.quantity-input', function(){
+          if(__bva__.debug) {
+            console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via line-item-quantity). Disparando view_cart.');
+          }
+          triggerViewCartEvent();
+        });
+      {% endif %}
 
       // 5. Ação de remoção via link dentro do <line-item-quantity> (elemento "Remover")
       jQuery(document).on('click', 'line-item-quantity a.link[href*="quantity=0"], .cart-drawer__remove-link', function(event){
@@ -887,12 +977,11 @@ applyBindings(defaultBindings, __bva__);
             currency: '{{cart.currency.iso_code}}',
             value: itemQuantity * itemPrice,
             items: [{
-              id: itemId,
-              variant: itemVariant,
-              name: itemName,
+              item_id: itemId,
+              item_variant: itemVariant,
+              item_name: itemName,
               price: itemPrice,
-              brand: itemBrand,
-              category: itemCategory,
+              item_category: itemCategory,
               quantity: itemQuantity,
               index: itemIndex
             }]
