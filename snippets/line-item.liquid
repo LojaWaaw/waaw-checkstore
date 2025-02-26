@@ -80,7 +80,7 @@ Supported variables
           <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
 
           <span class="text-xs">
-            <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
+            <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link">{{ 'cart.order.remove' | t }}</a>
           </span>
         </line-item-quantity>
       {%- else -%}
@@ -105,7 +105,7 @@ Supported variables
         <input class="quantity-input" type="text" is="quantity-input" inputmode="numeric" {% if line_max_quantity %}max="{{ line_max_quantity }}"{% endif %} data-line-key="{{ line_item.key }}" aria-label="{{ 'cart.order.change_quantity' | t | escape }}" value="{{ line_item.quantity }}">
 
         <span class="text-xs text-center">
-          <a href="{{ line_item.url_to_remove }}" class="link">{{ 'cart.order.remove' | t }}</a>
+          <a href="{{ line_item.url_to_remove }}" class="link cart-drawer__remove-link">{{ 'cart.order.remove' | t }}</a>
         </span>
       </line-item-quantity>
     </div>

@@ -51,7 +51,7 @@ Supported variables
   handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}
   data-item-id="{{ product.id }}"
   data-product-name="{{ product.title }}"
-  data-product-variant = "{{ product.selected_or_first_available_variant }}"
+  data-product-variant = "{{ product.selected_or_first_available_variant.id }}"
   data-product-price = '{{ product.selected_or_first_available_variant.price | money_without_currency | replace: ',', '.'}}'
   data-product-brand = " {{ product.vendor }}"
   data-index = "{{ loop_index }}"
