@@ -465,49 +465,6 @@ applyBindings(defaultBindings, __bva__);
       });
     }
 
-    // OLD HOMEPAGE Collection eventss
-
-//       document.querySelectorAll('#CollectionProducts').forEach((element) => {
-//         const collectionProducts = JSON.parse(element.textContent);
-//         var items = collectionProducts.map((product, index) => ({
-//           'item_id'       : String(product.id),
-//           'item_variant'  : product.variants[0].id,
-//           'item_name'     : product.title,
-//           'price'         : Number(String(product.variants[0].price).replace(/^(\d{1,})(\d{2})$/, '$1.$2')),
-//           'item_brand'    : product.vendor,
-//           'item_category' : product.product_type,
-//           'item_list_name': document.querySelector('#CollectionProducts').dataset.collection,
-//           'item_index'    : index++
-//         }));
-
-//         dataLayer.push({
-//           'event': 'cs_view_item_list',
-//           items
-//         });
-
-// // Capturar clique nos produtos da coleção
-//         document.querySelectorAll('.product-card').forEach((productElement, index) => {
-//             productElement.setAttribute('data-index', index);
-
-//             productElement.addEventListener('click', function () {
-//                 const selectedItem = items[index];
-
-//                 dataLayer.push({
-//                     'event': 'select_item',
-//                     'ecommerce': {
-//                         'items': [selectedItem]
-//                     }
-//                 });
-
-//                 if (__bva__.debug) {
-//                     console.log('select_item:', selectedItem);
-//                 }
-//             });
-//         });
-
-//         console.log('colection products: ', items)
-//       })
-
     /** 
     * DATALAYER: 404 Pages
     * Fire on 404 Pages */
@@ -544,7 +501,7 @@ applyBindings(defaultBindings, __bva__);
       var ecommerce = {
         'currency': '{{ shop.currency }}',
         'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
-        'item_list_name'  : "Category:  {{collection.title }}",
+        'item_list_name'  : "Category: {{collection.title }}",
         'items': [
           {% for product in collection.products %}
             {
@@ -555,7 +512,7 @@ applyBindings(defaultBindings, __bva__);
               'item_brand'      : {{product.vendor | json}},
               'item_category'   : {{product.type | json}},
               'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
-              'item_list_name'  : "Category:  {{collection.title }}",
+              'item_list_name'  : "Category: {{collection.title }}",
               'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
               'productURL'      : '{{shop.secure_url}}{{product.url}}',
               'sku'             : {{product.selected_variant.sku | json}},
@@ -600,123 +557,91 @@ applyBindings(defaultBindings, __bva__);
                 'items': [selectedItem]
               }
             });
-
-            if (__bva__.debug) {
-              console.log('select_item:', selectedItem);
-            }
           }
         });
       });
-    {% endif %}
-
-    /* DATALAYER: view_item
-    --------------------------
-    Fire on all Product View pages. */
-    
-    {% if template contains 'product' %}
-      var ecommerce = {
-        'currency': '{{ shop.currency }}',
-        'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-        'items': [{
-          'item_id'         : '{{product.id | json}}',
-          'item_variant'    : '{{product.variants[0].id | json}}',
-          'item_name'       : {{product.title | json}},
-          'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-          'item_brand'      : {{product.vendor | json}},
-          'item_category'   : {{product.type | json}},
-        }]
-      };
-      var viewItem = {
-        'event'           : 'view_item',
-        'ecommerce'       : ecommerce,
-      };
-      dataLayer.push(viewItem);
-
-      if(__bva__.debug){
-        console.log("Visualizou PDP: "+JSON.stringify(ecommerce, null, " "));
-      }
     {% endif %}
 
     // View / Add / Remove Cart (cart page and cart drawer)
 
     /* DATALAYER: view_item
       --------------------------
-      Fire on all Product View pages. */
-      {% if template contains 'product' %}
-      var viewItem = {
-        'event': 'view_item',
-        'ecommerce': {
-          'currency': 'BRL',
-          'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-          items: [{
-            'item_id'         : '{{ product.id | json }}',
-            'item_name'       : '{{ product.title }}',
-            'currency'        : 'BRL',
-            'index'           : 0,
-            'item_brand'      : {{ product.vendor | json }},
-            'item_category'   : {{ product.type | json }},
-            'item_list_id'    : "{% for col in product.collections %}{{ col.id }} | {% endfor %}",
-            'item_list_name'  : '{% for col in product.collections %} {{ col.title }} | {% endfor %}',
-            'item_variant'    : {{product.selected_or_first_available_variant.title | json}},
-            'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-            'quantity'        : 1
-          }]
-        }
-      };
-      dataLayer.push(viewItem);
-    
-      /* DATALAYER: add_to_cart
-      --------------------------*/
-      $(__bva__.cartTriggers).click(function(){
-        var quantity = $('.quantity-selector__input').val()
-        var addToCart = {                    
-          'event': 'add_to_cart',
+    Fire on all Product View pages. */
+    {% if template contains 'product' %}
+        var viewItem = {
+          'event': 'view_item',
           'ecommerce': {
             'currency': 'BRL',
             'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
             items: [{
-              'item_id'         : '{{ product.id | json }}',
+              'item_id'         : {{ product.id | json }},
               'item_name'       : '{{ product.title }}',
+              'currency'        : 'BRL',
               'index'           : 0,
               'item_category'   : {{ product.type | json }},
+              'item_variant'    : {{ product.selected_or_first_available_variant.id | json}},
               'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-              'quantity'        : Number(quantity)
             }]
           }
         };
-        dataLayer.push(addToCart);
-      });
+
+        dataLayer.push(viewItem);
+      
+        /* DATALAYER: add_to_cart
+        --------------------------*/
+        $(__bva__.cartTriggers).click(function(){
+          var quantity = $('.quantity-selector__input').val()
+          var addToCart = {                    
+            'event': 'add_to_cart',
+            'ecommerce': {
+              'currency': 'BRL',
+              'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+              items: [{
+                'item_id'         : '{{ product.id | json }}',
+                'item_name'       : '{{ product.title }}',
+                'index'           : 0,
+                'item_category'   : {{ product.type | json }},
+                'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+                'quantity'        : Number(quantity),
+                'item_variant'    : {{ product.selected_or_first_available_variant.id | json }}
+              }]
+            }
+          };
+          dataLayer.push(addToCart);
+        });
 
     {% else %}
-      $(__bva__.cartTriggers).click(function(){
-      const product_card = $(this).closest('.product-card')
-      const currentUrl = window.location.pathname;
-      let section = ''
+        $(__bva__.cartTriggers).click(function(){
+        const product_card = $(this).closest('.product-card')
+        const currentUrl = window.location.pathname;
+        let section = ''
 
-      if (currentUrl == '/') {
-        section = "home"
-      } else {
-        let linkURL = currentUrl.split('/')
-        section = linkURL[linkURL.length - 1]
-      }
-
-      var addToCart = {                    
-        'event': 'add_to_cart',
-        'ecommerce': {
-          'currency'        : "BRL",
-          'value': Number(product_card.attr('data-product-price')),
-          'items': [{
-            'item_id'         : product_card.attr('data-item-id'),                
-            'item_name'       : product_card.attr('data-product-name'),
-            'index'           : product_card.attr('data-index'),
-            'price'           : Number(product_card.attr('data-product-price')),
-            'quantity'        : 1 
-          }]
+        if (currentUrl == '/') {
+          section = "home"
+        } else {
+          let linkURL = currentUrl.split('/')
+          section = linkURL[linkURL.length - 1]
         }
-      };
 
-      dataLayer.push(addToCart);
-    })
+        var addToCart = {                    
+          'event': 'add_to_cart',
+          'ecommerce': {
+            'currency'        : "BRL",
+            'value': Number(product_card.attr('data-product-price')),
+            'items': [{
+              'item_id'         : product_card.attr('data-item-id'),                
+              'item_name'       : product_card.attr('data-product-name'),
+              'item_category'   : product_card.attr('data-product-category'),
+              'index'           : product_card.attr('data-index'),
+              'price'           : Number(product_card.attr('data-product-price')),
+              'quantity'        : 1,
+              'item_variant'    : product_card.attr('data-product-variant'),
+            }]
+          }
+        };
+
+        dataLayer.push(addToCart);
+      })
     {% endif %}
 
     /* DATALAYER: Cart View
@@ -743,6 +668,75 @@ applyBindings(defaultBindings, __bva__);
 
     })
 
+    // Função para comparar o novo estado com o anterior
+    function compareCartStates(previous, current) {
+      if (!previous) return; // Se não houver estado anterior, não faz nada
+
+      // Mapear itens do estado anterior por `item_id` para facilitar a comparação
+      const previousItemsMap = new Map(previous.items.map(item => [item.item_id, item]));
+
+      // Iterar sobre os itens do estado atual
+      current.items.forEach(currentItem => {
+        const previousItem = previousItemsMap.get(currentItem.item_id);
+
+        if (previousItem) {
+          // Verificar mudanças de quantidade
+          if (currentItem.quantity > previousItem.quantity) {
+            const quantityAdded = currentItem.quantity - previousItem.quantity;
+            dataLayer.push({
+              event: 'add_to_cart',
+              ecommerce: {
+                currency: current.currency,
+                value: quantityAdded * currentItem.price, // Valor adicionado
+                items: [{
+                  ...currentItem,
+                  quantity: quantityAdded
+                }]
+              }
+            });
+          } else if (currentItem.quantity < previousItem.quantity) {
+            const quantityRemoved = previousItem.quantity - currentItem.quantity;
+            dataLayer.push({
+              event: 'remove_from_cart',
+              ecommerce: {
+                currency: current.currency,
+                value: quantityRemoved * currentItem.price, // Valor removido
+                items: [{
+                  ...currentItem,
+                  quantity: quantityRemoved
+                }]
+              }
+            });
+        }
+
+          // Remover o item processado do mapa
+          previousItemsMap.delete(currentItem.item_id);
+        } else {
+          // Item novo adicionado
+          dataLayer.push({
+            event: 'add_to_cart',
+            ecommerce: {
+              currency: current.currency,
+              value: currentItem.quantity * currentItem.price, 
+              items: [currentItem]
+            }
+          });
+        }
+      });
+
+      // Itens restantes no mapa foram removidos
+      previousItemsMap.forEach(removedItem => {
+        dataLayer.push({
+          event: 'remove_from_cart',
+          ecommerce: {
+            currency: current.currency,
+            value: removedItem.quantity * removedItem.price, // Valor total do item removido
+            items: [removedItem]
+          }
+        });
+      });
+    }
+
     {% if template contains 'cart' %}
       var ecommerce = {
         'currency': {{cart.currency.iso_code | json}},
@@ -755,91 +749,19 @@ applyBindings(defaultBindings, __bva__);
           'item_category'   : {{line_item.product.type | json}},
           'price'           : Number({{line_item.product.price | money_without_currency | replace: ',', '.' | json}}),
           'quantity'        : {{line_item.quantity | json}},
+          'item_variant'    : {{ line_item.product.selected_or_first_available_variant.id | json}},
         },{% endfor %}],
       };
 
-      dataLayer.push({
-        'event': 'view_cart',
-        ecommerce
-      });
-
       // Recupera o estado anterior do localStorage
       let previousEcommerceState = JSON.parse(localStorage.getItem('previousEcommerceState'));
-
-      // Função para comparar o novo estado com o anterior
-      function compareCartStates(previous, current) {
-        if (!previous) return; // Se não houver estado anterior, não faz nada
-
-        // Mapear itens do estado anterior por `item_id` para facilitar a comparação
-        const previousItemsMap = new Map(previous.items.map(item => [item.item_id, item]));
-
-        // Iterar sobre os itens do estado atual
-        current.items.forEach(currentItem => {
-          const previousItem = previousItemsMap.get(currentItem.item_id);
-
-          if (previousItem) {
-            // Verificar mudanças de quantidade
-            if (currentItem.quantity > previousItem.quantity) {
-              const quantityAdded = currentItem.quantity - previousItem.quantity;
-              dataLayer.push({
-                event: 'add_to_cart',
-                ecommerce: {
-                  currency: current.currency,
-                  value: quantityAdded * currentItem.price, // Valor adicionado
-                  items: [{
-                    ...currentItem,
-                    quantity: quantityAdded
-                  }]
-                }
-              });
-            } else if (currentItem.quantity < previousItem.quantity) {
-              const quantityRemoved = previousItem.quantity - currentItem.quantity;
-              dataLayer.push({
-                event: 'remove_from_cart',
-                ecommerce: {
-                  currency: current.currency,
-                  value: quantityRemoved * currentItem.price, // Valor removido
-                  items: [{
-                    ...currentItem,
-                    quantity: quantityRemoved
-                  }]
-                }
-              });
-            }
-
-            // Remover o item processado do mapa
-            previousItemsMap.delete(currentItem.item_id);
-          } else {
-            // Item novo adicionado
-            dataLayer.push({
-              event: 'add_to_cart',
-              ecommerce: {
-                currency: current.currency,
-                value: currentItem.quantity * currentItem.price, // Valor total do item adicionado
-                items: [currentItem]
-              }
-            });
-          }
-        });
-
-        // Itens restantes no mapa foram removidos
-        previousItemsMap.forEach(removedItem => {
-          dataLayer.push({
-            event: 'remove_from_cart',
-            ecommerce: {
-              currency: current.currency,
-              value: removedItem.quantity * removedItem.price, // Valor total do item removido
-              items: [removedItem]
-            }
-          });
-        });
-      }
 
       // Comparar o estado anterior com o atual
       compareCartStates(previousEcommerceState, ecommerce);
 
       // Salvar o novo estado no localStorage para comparação no próximo carregamento
       localStorage.setItem('previousEcommerceState', JSON.stringify(ecommerce));
+
     {% endif %}
 
     function triggerViewCartEvent() {
@@ -862,19 +784,18 @@ applyBindings(defaultBindings, __bva__);
                 var unitPrice = item.original_price ? Number(item.original_price / 100) : Number(item.price / 100);
                 return {
                   'item_id': String(item.product_id || item.id),
-                  'item_variant': item.variant_id,
+                  'item_variant': item.variant_id || item.getAttribute('data-product-variant'),
                   'item_name': item.title,
                   'price': unitPrice, // preço unitário
                   'item_brand': item.vendor || '',
                   'item_category': item.product_type || '',
                   'quantity': item.quantity,
-                  'index': cart_index++
+                  'index': cart_index++,
                 };
               })
             };
-            if(__bva__.debug) {
-              console.log('[datalayer_cart_fix] Disparando view_cart com os seguintes dados:', ecommerceData);
-            }
+
+            // compareCartStates(previousEcommerceState, ecommerceData)
            
             dataLayer.push({
               'event': 'view_cart',
@@ -910,14 +831,165 @@ applyBindings(defaultBindings, __bva__);
         }
         triggerViewCartEvent();
       });
-      
-      // 5. Ação de remoção via link dentro do <line-item-quantity> (elemento "Remover")
-      jQuery(document).on('click', 'line-item-quantity a.link[href*="quantity=0"]', function(){
+
+      // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
+      jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
         if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Remoção de item (via line-item-quantity) detectada. Disparando view_cart.');
+          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando remove_c.');
         }
         triggerViewCartEvent();
       });
+
+      // 3. Alteração direta na quantidade (inputs de quantidade no mini-cart)
+      jQuery(document).on('change', '.cart-drawer input.quantity-input', function() {
+        if (__bva__.debug) {
+            console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via .cart-drawer).');
+        }
+
+        const changedElement = jQuery(this);
+        const productContainer = changedElement.closest('[data-item-id]');
+
+        if (!productContainer.length) {
+            console.error('[datalayer_cart_fix] Elemento pai com atributos data-* não encontrado.');
+            return;
+        }
+
+        // Extraia os dados dos atributos data-*.
+        const itemId = productContainer.data('item-id');
+        const itemVariant = productContainer.data('item-variant');
+        const itemName = productContainer.data('item-name');
+        const itemPrice = parseFloat(productContainer.data('item-price')) / 100;
+        const itemBrand = productContainer.data('item-brand');
+        const itemCategory = productContainer.data('item-category');
+        const itemLastQuantity = parseInt(productContainer.data('item-quantity'), 10);
+        const itemIndex = parseInt(productContainer.data('item-index'), 10);
+
+        // --- Obtendo o novo valor CORRETAMENTE (e robusto) ---
+        // 1. Tentar .val() (jQuery - geralmente funciona)
+        let itemNewQuantity = parseInt(changedElement.val(), 10);
+
+        // 2. Se .val() retornar NaN (não um número), tentar acessar a propriedade .value diretamente (para custom elements)
+        if (isNaN(itemNewQuantity)) {
+            itemNewQuantity = parseInt(changedElement[0].value, 10); // Acessa o elemento DOM *real*
+        }
+
+        // 3. Se AINDA for NaN, algo está muito errado. Registrar erro e usar um valor padrão (0) para evitar quebrar o dataLayer.
+        if (isNaN(itemNewQuantity)) {
+            console.error('[datalayer_cart_fix] Não foi possível obter o novo valor da quantidade. Usando 0 como padrão.');
+            itemNewQuantity = 0; // Valor padrão
+        }
+
+        // --- Cálculo da diferença e decisão de evento ---
+        const quantityDifference = itemNewQuantity - itemLastQuantity;
+
+        if (quantityDifference > 0) {
+            // Adicionou ao carrinho
+            if(__bva__.debug) {
+            console.log('[datalayer_cart_fix] Disparando add_to_cart.');
+        }
+            const dataLayerObject = {
+                event: 'add_to_cart', // Evento de adicionar ao carrinho
+                ecommerce: {
+                    currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
+                    value: quantityDifference * itemPrice,
+                    items: [{
+                        item_id: itemId,
+                        item_variant: itemVariant,
+                        item_name: itemName,
+                        price: itemPrice,
+                        item_category: itemCategory,
+                        quantity: quantityDifference, // Quantidade ADICIONADA
+                        index: itemIndex
+                    }]
+                }
+            };
+            dataLayer.push(dataLayerObject);
+
+
+        } else {
+            // Removeu do carrinho
+            if(__bva__.debug) {
+                console.log('[datalayer_cart_fix] Disparando remove_from_cart.');
+            }
+            const dataLayerObject = {
+                event: 'remove_from_cart', // Evento de remover do carrinho
+                ecommerce: {
+                    currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
+                    value: Math.abs(quantityDifference) * itemPrice, // Valor absoluto da diferença
+                    items: [{
+                        item_id: itemId,
+                        item_variant: itemVariant,
+                        item_name: itemName,
+                        price: itemPrice,
+                        item_category: itemCategory,
+                        quantity: Math.abs(quantityDifference), // Quantidade REMOVIDA (valor absoluto)
+                        index: itemIndex
+                    }]
+                }
+            };
+            dataLayer.push(dataLayerObject);
+        }
+
+        // Atualiza o data-item-quantity no productContainer para a próxima alteração
+        productContainer.data('item-quantity', itemNewQuantity);
+
+    });
+      
+     
+      {% if template contains 'cart' %}
+        // 4. Alteração direta na quantidade (inputs dentro de <line-item-quantity> na página /cart)
+        jQuery(document).on('change', 'line-item-quantity input.quantity-input', function(){
+          if(__bva__.debug) {
+            console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via line-item-quantity). Disparando view_cart.');
+          }
+          triggerViewCartEvent();
+        });
+      {% endif %}
+
+      // 5. Ação de remoção via link dentro do <line-item-quantity> (elemento "Remover")
+      jQuery(document).on('click', 'line-item-quantity a.link[href*="quantity=0"], .cart-drawer__remove-link', function(event){
+        if(__bva__.debug) {
+            console.log('[datalayer_cart_fix] Remoção de item detectada. Disparando cart_remove.');
+        }
+
+        const clickedElement = jQuery(this);
+
+        const productContainer = clickedElement.closest('[data-item-id]');
+
+        if (!productContainer.length) {
+            console.error('[datalayer_cart_fix] Elemento pai com atributos data-* não encontrado.');
+            return; 
+        }
+        // 3. Extraia os dados dos atributos data-*.
+        const itemId = productContainer.data('item-id');
+        const itemVariant = productContainer.data('item-variant');
+        const itemName = productContainer.data('item-name');
+        const itemPrice = parseFloat(productContainer.data('item-price')) / 100;
+        const itemBrand = productContainer.data('item-brand');
+        const itemCategory = productContainer.data('item-category');
+        const itemQuantity = parseInt(productContainer.data('item-quantity'), 10); 
+        const itemIndex = parseInt(productContainer.data('item-index'),10);
+
+        // 4. Construa o objeto de dados para o dataLayer.
+        const dataLayerObject = {
+          event: 'remove_from_cart',
+          ecommerce: {
+            currency: '{{cart.currency.iso_code}}',
+            value: itemQuantity * itemPrice,
+            items: [{
+              item_id: itemId,
+              item_variant: itemVariant,
+              item_name: itemName,
+              price: itemPrice,
+              item_category: itemCategory,
+              quantity: itemQuantity,
+              index: itemIndex
+            }]
+          }
+        };
+
+        dataLayer.push(dataLayerObject);
+    })
 
       // 6. Ação ao abrir o mini-cart via clique no header (link que abre o carrinho)
       jQuery(document).on('click', 'a[href="/cart"][data-no-instant].relative.tap-area', function(){
@@ -1224,11 +1296,11 @@ applyBindings(defaultBindings, __bva__);
 
             const promotionData = {
               'event': 'view_promotion',
-              'slide_index': eventSlideIndex,
+              'banner_position': eventSlideIndex,
               'banner_type': eventSlideType,
-              'image_url': eventSlideImgUrl,
-              'slide_text': eventSlideText,
-              'slide_url': eventSlideLink
+              'banner_image_url': eventSlideImgUrl,
+              'banner_text': eventSlideText,
+              'banner_link_url': eventSlideLink
             };
 
             dataLayer.push(promotionData);

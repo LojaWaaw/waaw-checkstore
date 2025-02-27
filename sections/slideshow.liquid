@@ -115,7 +115,11 @@ LIQUID
                   data-type="{{ block.settings.type_slide }}" 
                   data-img-url="{{ url_image |  image_url |  prepend: 'https:'  }}" 
                   data-text="{{ clean_text | strip_html | strip_newlines | replace: '\n', '' | replace: '  ', ' ' | strip }}"
-                  data-url-link="{{ block.settings.button_link }}" 
+                  {% if block.settings.button_link contains 'collections' %}
+                    data-url-link="{{ block.settings.button_link |  prepend: 'https://www.waaw.com.br' }}" 
+                  {% else %}  
+                    data-url-link="{{ block.settings.button_link }}" 
+                  {% endif %}
                   data-index="{{ forloop.index0 }}">
                 </div>
                 

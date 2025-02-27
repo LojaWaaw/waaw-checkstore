@@ -4119,6 +4119,36 @@ var PredictiveSearch = class extends HTMLElement {
     }
     // -----------------------------------------------------
 
+        // Adiciona o ouvinte de eventos de clique
+        productElements.forEach((element, index) => {
+        element.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const clickedItem = items[index];
+
+            dataLayer.push({
+                event: 'select_item',
+                ecommerce: {
+                    currency: "{{ shop.currency.iso_code }}" || "BRL",
+                    item_list_id: "search_result",
+                    item_list_name: `Search: ${this._queryInput.value.trim()}`,
+                    items: [clickedItem]   
+                }
+            });
+
+            if (window.__bva__.debug) {
+                console.log('Evento select_item disparado:', {
+                    search_term: this._queryInput.value.trim(),
+                    item_clicked: clickedItem,
+                    index: index
+                });
+            }
+
+            // Redireciona para o URL do produto
+            window.location.href = clickedItem.item_url;
+        });
+    });
+
     if (__bva__.debug) {
       console.log('Evento cs_predictive_search_results disparado:', this._queryInput.value.trim());
     }
