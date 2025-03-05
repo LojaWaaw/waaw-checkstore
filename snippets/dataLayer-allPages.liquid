@@ -403,10 +403,10 @@ applyBindings(defaultBindings, __bva__);
           const productsElements = section.querySelectorAll('.product-card');
 
           const items = Array.from(productsElements).map((productElement, index) => {
-            const productId = productElement.getAttribute('data-product-id');
-            const variantId = productElement.getAttribute('data-variant-id');
+            const productId = productElement.getAttribute('data-item-id');
+            const variantId = productElement.getAttribute('data-product-variant');
             const productName = productElement.querySelector('.product-card__title')?.textContent.trim() || 'Produto sem nome';
-            const productPrice = productElement.querySelector('.price-item')?.textContent.replace(/[^\d,]/g, '').replace(',', '.') || '0.00';
+            const productPrice = productElement.getAttribute('data-product-price');
             const productBrand = productElement.getAttribute('data-brand') || '';
             const productCategory = productElement.getAttribute('data-category') || '';
             
@@ -505,17 +505,17 @@ applyBindings(defaultBindings, __bva__);
         'items': [
           {% for product in collection.products %}
             {
-              'item_id'         : "{{product.id | json}}",                  
-              'item_variant'    : {{product.selected_variant.title | json}},             
-              'item_name'       : {{product.title | json}},
-              'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-              'item_brand'      : {{product.vendor | json}},
-              'item_category'   : {{product.type | json}},
+              'item_id'         : "{{ product.id | json }}",                  
+              'item_variant'    : {{ product.selected_or_first_available_variant.id | json }},             
+              'item_name'       : {{ product.title | json }},
+              'price'           : {{ product.price | money_without_currency | replace: ',', '.' | json }},
+              'item_brand'      : {{ product.vendor | json }},
+              'item_category'   : {{ product.type | json }},
               'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
               'item_list_name'  : "Category: {{collection.title }}",
-              'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
+              'imageURL'        : "https:{{product.featured_image.src | img_url:'grande' }}", 
               'productURL'      : '{{shop.secure_url}}{{product.url}}',
-              'sku'             : {{product.selected_variant.sku | json}},
+              'sku'             : {{product.selected_or_first_available_variant.sku | json}},
               'index'           : index++
             },
           {% endfor %}
@@ -575,7 +575,7 @@ applyBindings(defaultBindings, __bva__);
           'event': 'view_item',
           'ecommerce': {
             'currency': 'BRL',
-            'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+            'value': {{ product.selected_or_first_available_variant.price }} / 100,
             items: [{
               'item_id'         : {{ product.id | json }},
               'item_name'       : '{{ product.title }}',
@@ -583,7 +583,7 @@ applyBindings(defaultBindings, __bva__);
               'index'           : 0,
               'item_category'   : {{ product.type | json }},
               'item_variant'    : {{ product.selected_or_first_available_variant.id | json}},
-              'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+              'price'           : {{ product.selected_or_first_available_variant.price }} / 100,
             }]
           }
         };
@@ -599,13 +599,13 @@ applyBindings(defaultBindings, __bva__);
             'event': 'add_to_cart',
             'ecommerce': {
               'currency': 'BRL',
-              'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+              'value': ({{ product.selected_or_first_available_variant.price }} * Number(quantity)) / 100,
               items: [{
                 'item_id'         : '{{ product.id | json }}',
                 'item_name'       : '{{ product.title }}',
                 'index'           : 0,
                 'item_category'   : {{ product.type | json }},
-                'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+                'price'           : {{ product.selected_or_first_available_variant.price }} / 100,
                 'quantity'        : Number(quantity),
                 'item_variant'    : {{ product.selected_or_first_available_variant.id | json }}
               }]
@@ -759,14 +759,14 @@ applyBindings(defaultBindings, __bva__);
         'currency': {{cart.currency.iso_code | json}},
         'value': Number({{cart.total_price | divided_by: 100.0 | json}}),
         'items':[{% for line_item in cart.items %}{
-          'item_id'         : "{{line_item.product.id | json}}",                  
-          'item_name'       : {{line_item.product.title | json}},
-          'currency'        : {{cart.currency.iso_code | json}},           
-          'item_brand'      : {{line_item.product.vendor | json}},
-          'item_category'   : {{line_item.product.type | json}},
-          'price'           : Number({{line_item.product.price | money_without_currency | replace: ',', '.' | json}}),
-          'quantity'        : {{line_item.quantity | json}},
-          'item_variant'    : {{ line_item.product.selected_or_first_available_variant.id | json}},
+          'item_id'         : "{{line_item.product.id | json }}",                  
+          'item_name'       : {{ line_item.product.title | json }},
+          'currency'        : {{cart.currency.iso_code | json }},           
+          'item_brand'      : {{ line_item.product.vendor | json }},
+          'item_category'   : {{ line_item.product.type | json }},
+          'price'           : {{ line_item.product.selected_or_first_available_variant.price }} / 100,
+          'quantity'        : {{ line_item.quantity | json}},
+          'item_variant'    : {{ line_item.product.selected_or_first_available_variant.id | json }},
         },{% endfor %}],
       };
 
@@ -927,10 +927,6 @@ applyBindings(defaultBindings, __bva__);
 
 
         } else {
-            // Removeu do carrinho
-            if(__bva__.debug) {
-                console.log('[datalayer_cart_fix] Disparando remove_from_cart.');
-            }
             const dataLayerObject = {
                 event: 'remove_from_cart', // Evento de remover do carrinho
                 ecommerce: {

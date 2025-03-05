@@ -4084,12 +4084,13 @@ var PredictiveSearch = class extends HTMLElement {
     const productElements = this.querySelectorAll('[slot="results"] .predictive-search-result[data-product-id]');
 
     // Mapeia os produtos para extrair as informações
+
     const items = Array.from(productElements).slice(0, 10).map((element, index) => {
       return {
         index: index++,
         item_list_id: "search_result",
         item_list_name: `Search: ${this._queryInput.value.trim()}`,
-        item_id: element.getAttribute('data-product-id'), // Ajuste conforme a estrutura real
+        item_id: element.getAttribute('data-product-id'),
         item_name: element.querySelector('.reversed-link')?.textContent.trim() || '',
         price: parseFloat(element.querySelector('sale-price')?.textContent.replace(/[^\d,]/g, '').replace(',', '.') || '0'),
         discount: {{ product.compare_at_price | minus: product.price }},
