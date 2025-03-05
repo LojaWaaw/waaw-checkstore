@@ -384,10 +384,6 @@ applyBindings(defaultBindings, __bva__);
 
     dataLayer.push(logState);
 
-    if(__bva__.debug) {
-      console.log('logstate: ',logState)
-    }
-
     /*DATALAYER: Homepage
     --------------------------- */
 
@@ -427,6 +423,8 @@ applyBindings(defaultBindings, __bva__);
           });
 
           if (items.length) {
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'view_item_list',
               'ecommerce': {
@@ -448,6 +446,8 @@ applyBindings(defaultBindings, __bva__);
               const selectedItem = items[index];
 
               if (selectedItem) {
+                dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
                 dataLayer.push({
                   'event': 'select_item',
                   'ecommerce': {
@@ -521,12 +521,12 @@ applyBindings(defaultBindings, __bva__);
           {% endfor %}
         ]
       };  
+      dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
       dataLayer.push({
         'event'           : 'view_item_list',
         ecommerce
       });
-
-      console.log('ecommerce', ecommerce)
       
       var emarsys = {
         'content_id'      : '{{collection.id | json}}',
@@ -534,6 +534,7 @@ applyBindings(defaultBindings, __bva__);
         'content_category': {{collection.type | json}},
         'content_url'     : '{{ shop.url | append: collection.url }}',
       };
+
       dataLayer.push({
         'event': 'cs_view_category',
         emarsys,
@@ -551,6 +552,8 @@ applyBindings(defaultBindings, __bva__);
           const selectedItem = ecommerce.items.find(item => item.item_id == productId);
 
           if (selectedItem) {
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'select_item',
               'ecommerce': {
@@ -584,6 +587,7 @@ applyBindings(defaultBindings, __bva__);
             }]
           }
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
         dataLayer.push(viewItem);
       
@@ -607,6 +611,8 @@ applyBindings(defaultBindings, __bva__);
               }]
             }
           };
+          dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
           dataLayer.push(addToCart);
         });
 
@@ -639,6 +645,7 @@ applyBindings(defaultBindings, __bva__);
             }]
           }
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
         dataLayer.push(addToCart);
       })
@@ -660,6 +667,8 @@ applyBindings(defaultBindings, __bva__);
           'quantity'        : {{line_item.quantity | json}},
         },{% endfor %}],
       };
+      
+      dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
       dataLayer.push({
         'event': 'view_cart',
@@ -683,6 +692,8 @@ applyBindings(defaultBindings, __bva__);
           // Verificar mudanças de quantidade
           if (currentItem.quantity > previousItem.quantity) {
             const quantityAdded = currentItem.quantity - previousItem.quantity;
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               event: 'add_to_cart',
               ecommerce: {
@@ -696,6 +707,8 @@ applyBindings(defaultBindings, __bva__);
             });
           } else if (currentItem.quantity < previousItem.quantity) {
             const quantityRemoved = previousItem.quantity - currentItem.quantity;
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               event: 'remove_from_cart',
               ecommerce: {
@@ -713,6 +726,8 @@ applyBindings(defaultBindings, __bva__);
           previousItemsMap.delete(currentItem.item_id);
         } else {
           // Item novo adicionado
+          dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
           dataLayer.push({
             event: 'add_to_cart',
             ecommerce: {
@@ -726,6 +741,8 @@ applyBindings(defaultBindings, __bva__);
 
       // Itens restantes no mapa foram removidos
       previousItemsMap.forEach(removedItem => {
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
         dataLayer.push({
           event: 'remove_from_cart',
           ecommerce: {
@@ -796,7 +813,8 @@ applyBindings(defaultBindings, __bva__);
             };
 
             // compareCartStates(previousEcommerceState, ecommerceData)
-           
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'view_cart',
               'ecommerce': ecommerceData
@@ -903,6 +921,8 @@ applyBindings(defaultBindings, __bva__);
                     }]
                 }
             };
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push(dataLayerObject);
 
 
@@ -987,6 +1007,7 @@ applyBindings(defaultBindings, __bva__);
             }]
           }
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
         dataLayer.push(dataLayerObject);
     })
@@ -1040,6 +1061,8 @@ applyBindings(defaultBindings, __bva__);
           };
 
           if (item.item_name) {
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'cs_select_item',
               item,
@@ -1302,7 +1325,7 @@ applyBindings(defaultBindings, __bva__);
               'banner_text': eventSlideText,
               'banner_link_url': eventSlideLink
             };
-
+            
             dataLayer.push(promotionData);
 
             if (window.__bva__.debug) {
@@ -1344,6 +1367,8 @@ applyBindings(defaultBindings, __bva__);
             'item_list_name' : `Search: ${ __bva__.searchTermQuery}`
           },{% endfor %}],
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
         dataLayer.push({
           'pageType'   : "Search",
           'event'      : "view_item_list",
@@ -1351,15 +1376,6 @@ applyBindings(defaultBindings, __bva__);
           'item_list_name'  : `Search: ${ __bva__.searchTermQuery}`,
           ecommerce
         }); 
-
-        if (__bva__.debug){ 
-          console.log("Evento sendo enviado ao dataLayer:", {
-            'pageType': "Search",
-            'search_term': __bva__.searchTermQuery,
-            'event': "cs_search",
-            'ecommerce': ecommerce
-          });
-        }
       }
       // For predctive search, added in 'theme.js.liquid' on function _doPredictiveSearch
 
