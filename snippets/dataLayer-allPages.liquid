@@ -712,7 +712,7 @@ applyBindings(defaultBindings, __bva__);
                 }]
               }
             });
-        }
+          }
 
           // Remover o item processado do mapa
           previousItemsMap.delete(currentItem.item_id);
@@ -828,25 +828,16 @@ applyBindings(defaultBindings, __bva__);
     function attachCartEventListeners() {
       // 1. Ação de adicionar itens (ex.: quick-add em cards de produto)
       jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit, .product-card__quick-buy', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de adicionar item detectada. Disparando add_cart.');
-        }
         triggerViewCartEvent();
       });
 
       // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
       jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando remove_c.');
-        }
         triggerViewCartEvent();
       });
 
       // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
       jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando remove_c.');
-        }
         triggerViewCartEvent();
       });
 
@@ -941,11 +932,10 @@ applyBindings(defaultBindings, __bva__);
       })
 
       function currentCartPush(item_id, item_new_quantity) {
-        console.log('Entrou no currentCart Function')
         let cartPrice = 0;
         
         let viewCartObject = {
-          event: 'view_cart',
+          event: 'view_cart', // Dispara em alteração de qtde. drawer
           ecommerce: {
             'currency': {{cart.currency.iso_code | json}},
             'value': Number(cartPrice / 100 ),
@@ -1021,7 +1011,9 @@ applyBindings(defaultBindings, __bva__);
         dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
         dataLayer.push(dataLayerObject);
-    })
+
+        triggerViewCartEvent();
+      })
 
       // 6. Ação ao abrir o mini-cart via clique no header (link que abre o carrinho)
       jQuery(document).on('click', 'a[href="/cart"][data-no-instant].relative.tap-area', function(){
@@ -1029,9 +1021,9 @@ applyBindings(defaultBindings, __bva__);
       });
     }
 
-    // // ==========================================================================
-    // // Inicializa os event listeners quando o DOM estiver pronto
-    // // ==========================================================================
+    // ==========================================================================
+    // Inicializa os event listeners quando o DOM estiver pronto
+    // ==========================================================================
 
     jQuery(document).ready(function(){
       attachCartEventListeners();
