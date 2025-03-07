@@ -583,12 +583,12 @@ applyBindings(defaultBindings, __bva__);
 
         dataLayer.push(viewItem);
       
-        /* DATALAYER: add_to_cart
+        /* DATALAYER: add-to-cart
         --------------------------*/
         $(__bva__.cartTriggers).click(function(){
           var quantity = $('.quantity-selector__input').val()
-          var addToCart = {                    
-            'event': 'add_to_cart',
+          var addToCart = {     
+            'event'    : 'add_to_cart_1',
             'ecommerce': {
               'currency': 'BRL',
               'value': ({{ product.selected_or_first_available_variant.price }} * Number(quantity)) / 100,
@@ -609,7 +609,7 @@ applyBindings(defaultBindings, __bva__);
         });
 
     {% else %}
-        $(__bva__.cartTriggers).click(function(){
+      $(__bva__.cartTriggers).click(function(){
         const product_card = $(this).closest('.product-card')
         const currentUrl = window.location.pathname;
         let section = ''
@@ -622,16 +622,16 @@ applyBindings(defaultBindings, __bva__);
         }
 
         var addToCart = {                    
-          'event': 'add_to_cart',
+          'event': 'add_to_cart_2',
           'ecommerce': {
             'currency'        : "BRL",
-            'value': Number(product_card.attr('data-product-price')),
+            'value': Number(product_card.attr('data-product-price')) / 100,
             'items': [{
               'item_id'         : product_card.attr('data-item-id'),                
               'item_name'       : product_card.attr('data-product-name'),
               'item_category'   : product_card.attr('data-product-category'),
               'index'           : product_card.attr('data-index'),
-              'price'           : Number(product_card.attr('data-product-price')),
+              'price'           : Number(product_card.attr('data-product-price')) / 100,
               'quantity'        : 1,
               'item_variant'    : product_card.attr('data-product-variant'),
             }]
@@ -687,7 +687,7 @@ applyBindings(defaultBindings, __bva__);
             dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
             dataLayer.push({
-              event: 'add_to_cart',
+              event: 'add_to_cart_3',
               ecommerce: {
                 currency: current.currency,
                 value: quantityAdded * currentItem.price, // Valor adicionado
@@ -721,7 +721,7 @@ applyBindings(defaultBindings, __bva__);
           dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
           dataLayer.push({
-            event: 'add_to_cart',
+            event: 'add_to_cart_4',
             ecommerce: {
               currency: current.currency,
               value: currentItem.quantity * currentItem.price, 
@@ -827,7 +827,7 @@ applyBindings(defaultBindings, __bva__);
 
     function attachCartEventListeners() {
       // 1. Ação de adicionar itens (ex.: quick-add em cards de produto)
-      jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit, .product-card__quick-buy', function(){
+      jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit', function(){
         triggerViewCartEvent();
       });
 
@@ -856,7 +856,7 @@ applyBindings(defaultBindings, __bva__);
         const itemId = productContainer.data('item-id');
         const itemVariant = productContainer.data('item-variant');
         const itemName = productContainer.data('item-name');
-        const itemPrice = parseFloat(productContainer.data('item-price')) / 100;
+        const itemPrice = Number(productContainer.data('item-price')) / 100;
         const itemBrand = productContainer.data('item-brand');
         const itemCategory = productContainer.data('item-category');
         const itemLastQuantity = parseInt(productContainer.data('item-quantity'), 10);
@@ -881,7 +881,7 @@ applyBindings(defaultBindings, __bva__);
 
         if (quantityDifference > 0) {
           const dataLayerObject = {
-            event: 'add_to_cart',
+            event: 'add_to_cart_5',
             ecommerce: {
               currency: '{{ cart.currency.iso_code }}',
               value: quantityDifference * itemPrice,
@@ -900,9 +900,10 @@ applyBindings(defaultBindings, __bva__);
           dataLayer.push(dataLayerObject);
 
           dataLayer.push({ ecommerce: null });
-          currentCartPush(itemId, itemNewQuantity);
+          // currentCartPush(itemId, itemNewQuantity);
+          triggerViewCartEvent()
 
-        } else {
+        } else if(quantityDifference < 0) {
           const dataLayerObject = {
             event: 'remove_from_cart', // Evento de remover do carrinho
             ecommerce: {
@@ -924,7 +925,8 @@ applyBindings(defaultBindings, __bva__);
           dataLayer.push(dataLayerObject);
 
           dataLayer.push({ ecommerce: null }); // Clean Prevent Items
-          currentCartPush(itemId, itemNewQuantity);
+          // currentCartPush(itemId, itemNewQuantity);
+          triggerViewCartEvent()
           }
 
         // Atualiza o data-item-quantity no productContainer para a próxima alteração
