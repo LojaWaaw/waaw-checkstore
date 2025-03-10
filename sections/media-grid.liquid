@@ -45,7 +45,25 @@ LIQUID
 <div {% render 'section-properties', narrow: section.settings.reduce_width %}>
   <media-grid class="media-grid">
     {%- for block in section.blocks -%}
-      <a {% if block.settings.link_url != blank %}href="{{ block.settings.link_url }}"{% endif %} class="media-grid__item shadow group" reveal-js style="--media-grid-column-span: {{ block.settings.desktop_column_span }}; --media-grid-row-span: {{ block.settings.desktop_row_span }}" {{ block.shopify_attributes }}>
+      
+      {% assign url_image = block.settings.image %}
+      {% capture clean_text %}
+        {% if block.settings.title != blank or block.settings.link_text != blank %}
+          {{ block.settings.title }} | {{ block.settings.link_text }}
+        {% endif %}
+      {% endcapture %}
+      
+      <a {% if block.settings.link_url != blank %}href="{{ block.settings.link_url }}"{% endif %} class="media-grid__item shadow group DL__banner-container" reveal-js style="--media-grid-column-span: {{ block.settings.desktop_column_span }}; --media-grid-row-span: {{ block.settings.desktop_row_span }}" {{ block.shopify_attributes }}
+        data-type="{{ block.settings.type_slide }}"
+        data-img-url="{{ url_image |  image_url |  prepend: 'https:'  }}"
+        data-text="{{ clean_text | strip_html | strip_newlines | replace: '\n', '' | replace: '  ', ' ' | strip }}"
+        data-index="{{ forloop.index0 }}"
+        {% if block.settings.button_link contains 'collections' %}
+          data-url-link="{{ block.settings.link_url |  prepend: 'https://www.waaw.com.br' }}" 
+        {% else %}  
+          data-url-link="{{ block.settings.link_url }}" 
+        {% endif %}          
+      >
         {%- capture style -%}
           --content-over-media-overlay: {{ block.settings.overlay_color.rgb }} / {{ block.settings.overlay_opacity | divided_by: 100.0 }};
 
@@ -54,12 +72,19 @@ LIQUID
           {%- endif -%}
         {%- endcapture -%}
 
-        <div id="media-grid-{{ block.id }}" {% render 'surface', class: 'content-over-media rounded', background: block.settings.background, background_gradient: block.settings.background_gradient, text_color: block.settings.text_color %}>
+
+
+        <div id="media-grid-{{ block.id }}" {% render 'surface', class: 'content-over-media rounded DL__banner--details', background: block.settings.background, background_gradient: block.settings.background_gradient, text_color: block.settings.text_color %}
+         
+        >
           {%- case block.type -%}
             {%- when 'image' -%}
               {%- if block.settings.image -%}
                 {%- capture sizes -%}(max-width: 699px) 100vw, min({{ 390 | times: block.settings.desktop_column_span }}px, {{ 25 | times: block.settings.desktop_column_span }}vw){%- endcapture -%}
-                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400', class: 'content-over-media__media zoom-image' -}}
+                {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400', class: 'content-over-media__media zoom-image dataLayer__banner' -}}
+                <div aria-hidden="true" hidden class="hidden DL__banner--details">
+
+                </div>
               {%- endif -%}
 
             {%- when 'video' -%}
@@ -122,6 +147,11 @@ LIQUID
       "type": "image",
       "name": "Image",
       "settings": [
+        {
+          "type": "text",
+          "id": "type_slide",
+          "label": "Type of slide/banner for GA"
+        },
         {
           "type": "image_picker",
           "id": "image",

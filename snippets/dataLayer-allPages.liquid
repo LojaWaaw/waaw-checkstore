@@ -384,10 +384,6 @@ applyBindings(defaultBindings, __bva__);
 
     dataLayer.push(logState);
 
-    if(__bva__.debug) {
-      console.log('logstate: ',logState)
-    }
-
     /*DATALAYER: Homepage
     --------------------------- */
 
@@ -407,10 +403,10 @@ applyBindings(defaultBindings, __bva__);
           const productsElements = section.querySelectorAll('.product-card');
 
           const items = Array.from(productsElements).map((productElement, index) => {
-            const productId = productElement.getAttribute('data-product-id');
-            const variantId = productElement.getAttribute('data-variant-id');
+            const productId = productElement.getAttribute('data-item-id');
+            const variantId = productElement.getAttribute('data-product-variant');
             const productName = productElement.querySelector('.product-card__title')?.textContent.trim() || 'Produto sem nome';
-            const productPrice = productElement.querySelector('.price-item')?.textContent.replace(/[^\d,]/g, '').replace(',', '.') || '0.00';
+            const productPrice = productElement.getAttribute('data-product-price');
             const productBrand = productElement.getAttribute('data-brand') || '';
             const productCategory = productElement.getAttribute('data-category') || '';
             
@@ -427,6 +423,8 @@ applyBindings(defaultBindings, __bva__);
           });
 
           if (items.length) {
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'view_item_list',
               'ecommerce': {
@@ -434,10 +432,6 @@ applyBindings(defaultBindings, __bva__);
                 'items': items
               }
             });
-
-            if (__bva__.debug) {
-              console.log(`[dataLayer] Visualizou lista "${collectionTitle}" com ${items.length} itens.`);
-            }
           }
 
           // Capturar clique nos produtos
@@ -448,16 +442,14 @@ applyBindings(defaultBindings, __bva__);
               const selectedItem = items[index];
 
               if (selectedItem) {
+                dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
                 dataLayer.push({
                   'event': 'select_item',
                   'ecommerce': {
                     'items': [selectedItem]
                   }
                 });
-
-                if (__bva__.debug) {
-                  console.log(`[dataLayer] Produto clicado na lista "${collectionTitle}":`, selectedItem);
-                }
               }
             });
           });
@@ -505,28 +497,28 @@ applyBindings(defaultBindings, __bva__);
         'items': [
           {% for product in collection.products %}
             {
-              'item_id'         : "{{product.id | json}}",                  
-              'item_variant'    : {{product.selected_variant.title | json}},             
-              'item_name'       : {{product.title | json}},
-              'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
-              'item_brand'      : {{product.vendor | json}},
-              'item_category'   : {{product.type | json}},
+              'item_id'         : "{{ product.id | json }}",                  
+              'item_variant'    : {{ product.selected_or_first_available_variant.id | json }},             
+              'item_name'       : {{ product.title | json }},
+              'price'           : {{ product.price | money_without_currency | replace: ',', '.' | json }},
+              'item_brand'      : {{ product.vendor | json }},
+              'item_category'   : {{ product.type | json }},
               'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
               'item_list_name'  : "Category: {{collection.title }}",
-              'imageURL'        : "https:{{product.featured_image.src|img_url:'grande'}}", 
+              'imageURL'        : "https:{{product.featured_image.src | img_url:'grande' }}", 
               'productURL'      : '{{shop.secure_url}}{{product.url}}',
-              'sku'             : {{product.selected_variant.sku | json}},
+              'sku'             : {{product.selected_or_first_available_variant.sku | json}},
               'index'           : index++
             },
           {% endfor %}
         ]
       };  
+      dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
       dataLayer.push({
         'event'           : 'view_item_list',
         ecommerce
       });
-
-      console.log('ecommerce', ecommerce)
       
       var emarsys = {
         'content_id'      : '{{collection.id | json}}',
@@ -534,6 +526,7 @@ applyBindings(defaultBindings, __bva__);
         'content_category': {{collection.type | json}},
         'content_url'     : '{{ shop.url | append: collection.url }}',
       };
+
       dataLayer.push({
         'event': 'cs_view_category',
         emarsys,
@@ -551,6 +544,8 @@ applyBindings(defaultBindings, __bva__);
           const selectedItem = ecommerce.items.find(item => item.item_id == productId);
 
           if (selectedItem) {
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'select_item',
               'ecommerce': {
@@ -572,7 +567,7 @@ applyBindings(defaultBindings, __bva__);
           'event': 'view_item',
           'ecommerce': {
             'currency': 'BRL',
-            'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+            'value': {{ product.selected_or_first_available_variant.price }} / 100,
             items: [{
               'item_id'         : {{ product.id | json }},
               'item_name'       : '{{ product.title }}',
@@ -580,38 +575,41 @@ applyBindings(defaultBindings, __bva__);
               'index'           : 0,
               'item_category'   : {{ product.type | json }},
               'item_variant'    : {{ product.selected_or_first_available_variant.id | json}},
-              'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+              'price'           : {{ product.selected_or_first_available_variant.price }} / 100,
             }]
           }
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
         dataLayer.push(viewItem);
       
-        /* DATALAYER: add_to_cart
+        /* DATALAYER: add-to-cart
         --------------------------*/
         $(__bva__.cartTriggers).click(function(){
           var quantity = $('.quantity-selector__input').val()
-          var addToCart = {                    
-            'event': 'add_to_cart',
+          var addToCart = {     
+            'event'    : 'add_to_cart_1',
             'ecommerce': {
               'currency': 'BRL',
-              'value': Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+              'value': ({{ product.selected_or_first_available_variant.price }} * Number(quantity)) / 100,
               items: [{
                 'item_id'         : '{{ product.id | json }}',
                 'item_name'       : '{{ product.title }}',
                 'index'           : 0,
                 'item_category'   : {{ product.type | json }},
-                'price'           : Number({{product.price | money_without_currency | replace: ',', '.' | json}}),
+                'price'           : {{ product.selected_or_first_available_variant.price }} / 100,
                 'quantity'        : Number(quantity),
                 'item_variant'    : {{ product.selected_or_first_available_variant.id | json }}
               }]
             }
           };
+          dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
           dataLayer.push(addToCart);
         });
 
     {% else %}
-        $(__bva__.cartTriggers).click(function(){
+      $(__bva__.cartTriggers).click(function(){
         const product_card = $(this).closest('.product-card')
         const currentUrl = window.location.pathname;
         let section = ''
@@ -624,21 +622,22 @@ applyBindings(defaultBindings, __bva__);
         }
 
         var addToCart = {                    
-          'event': 'add_to_cart',
+          'event': 'add_to_cart_2',
           'ecommerce': {
             'currency'        : "BRL",
-            'value': Number(product_card.attr('data-product-price')),
+            'value': Number(product_card.attr('data-product-price')) / 100,
             'items': [{
               'item_id'         : product_card.attr('data-item-id'),                
               'item_name'       : product_card.attr('data-product-name'),
               'item_category'   : product_card.attr('data-product-category'),
               'index'           : product_card.attr('data-index'),
-              'price'           : Number(product_card.attr('data-product-price')),
+              'price'           : Number(product_card.attr('data-product-price')) / 100,
               'quantity'        : 1,
               'item_variant'    : product_card.attr('data-product-variant'),
             }]
           }
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
         dataLayer.push(addToCart);
       })
@@ -660,6 +659,8 @@ applyBindings(defaultBindings, __bva__);
           'quantity'        : {{line_item.quantity | json}},
         },{% endfor %}],
       };
+      
+      dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
       dataLayer.push({
         'event': 'view_cart',
@@ -683,8 +684,10 @@ applyBindings(defaultBindings, __bva__);
           // Verificar mudanças de quantidade
           if (currentItem.quantity > previousItem.quantity) {
             const quantityAdded = currentItem.quantity - previousItem.quantity;
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
-              event: 'add_to_cart',
+              event: 'add_to_cart_3',
               ecommerce: {
                 currency: current.currency,
                 value: quantityAdded * currentItem.price, // Valor adicionado
@@ -696,6 +699,8 @@ applyBindings(defaultBindings, __bva__);
             });
           } else if (currentItem.quantity < previousItem.quantity) {
             const quantityRemoved = previousItem.quantity - currentItem.quantity;
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               event: 'remove_from_cart',
               ecommerce: {
@@ -707,14 +712,16 @@ applyBindings(defaultBindings, __bva__);
                 }]
               }
             });
-        }
+          }
 
           // Remover o item processado do mapa
           previousItemsMap.delete(currentItem.item_id);
         } else {
           // Item novo adicionado
+          dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
           dataLayer.push({
-            event: 'add_to_cart',
+            event: 'add_to_cart_4',
             ecommerce: {
               currency: current.currency,
               value: currentItem.quantity * currentItem.price, 
@@ -726,6 +733,8 @@ applyBindings(defaultBindings, __bva__);
 
       // Itens restantes no mapa foram removidos
       previousItemsMap.forEach(removedItem => {
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
         dataLayer.push({
           event: 'remove_from_cart',
           ecommerce: {
@@ -742,14 +751,14 @@ applyBindings(defaultBindings, __bva__);
         'currency': {{cart.currency.iso_code | json}},
         'value': Number({{cart.total_price | divided_by: 100.0 | json}}),
         'items':[{% for line_item in cart.items %}{
-          'item_id'         : "{{line_item.product.id | json}}",                  
-          'item_name'       : {{line_item.product.title | json}},
-          'currency'        : {{cart.currency.iso_code | json}},           
-          'item_brand'      : {{line_item.product.vendor | json}},
-          'item_category'   : {{line_item.product.type | json}},
-          'price'           : Number({{line_item.product.price | money_without_currency | replace: ',', '.' | json}}),
-          'quantity'        : {{line_item.quantity | json}},
-          'item_variant'    : {{ line_item.product.selected_or_first_available_variant.id | json}},
+          'item_id'         : "{{line_item.product.id | json }}",                  
+          'item_name'       : {{ line_item.product.title | json }},
+          'currency'        : {{cart.currency.iso_code | json }},           
+          'item_brand'      : {{ line_item.product.vendor | json }},
+          'item_category'   : {{ line_item.product.type | json }},
+          'price'           : {{ line_item.product.selected_or_first_available_variant.price }} / 100,
+          'quantity'        : {{ line_item.quantity | json}},
+          'item_variant'    : {{ line_item.product.selected_or_first_available_variant.id | json }},
         },{% endfor %}],
       };
 
@@ -796,7 +805,8 @@ applyBindings(defaultBindings, __bva__);
             };
 
             // compareCartStates(previousEcommerceState, ecommerceData)
-           
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'view_cart',
               'ecommerce': ecommerceData
@@ -817,141 +827,154 @@ applyBindings(defaultBindings, __bva__);
 
     function attachCartEventListeners() {
       // 1. Ação de adicionar itens (ex.: quick-add em cards de produto)
-      jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit, .product-card__quick-buy', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de adicionar item detectada. Disparando add_cart.');
-        }
+      jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit', function(){
         triggerViewCartEvent();
       });
 
       // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
       jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando remove_c.');
-        }
         triggerViewCartEvent();
       });
 
       // 2. Ação de remover itens (botões de remover do mini-cart e da página de carrinho)
       jQuery(document).on('click', '.cart-drawer [data-action="remove"], .cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"]', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Ação de remover item detectada. Disparando remove_c.');
-        }
         triggerViewCartEvent();
       });
 
       // 3. Alteração direta na quantidade (inputs de quantidade no mini-cart)
       jQuery(document).on('change', '.cart-drawer input.quantity-input', function() {
-        if (__bva__.debug) {
-            console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via .cart-drawer).');
-        }
 
         const changedElement = jQuery(this);
         const productContainer = changedElement.closest('[data-item-id]');
 
         if (!productContainer.length) {
-            console.error('[datalayer_cart_fix] Elemento pai com atributos data-* não encontrado.');
-            return;
+          console.error('[datalayer_cart_fix] Elemento pai com atributos data-* não encontrado.');
+          return;
         }
 
         // Extraia os dados dos atributos data-*.
         const itemId = productContainer.data('item-id');
         const itemVariant = productContainer.data('item-variant');
         const itemName = productContainer.data('item-name');
-        const itemPrice = parseFloat(productContainer.data('item-price')) / 100;
+        const itemPrice = Number(productContainer.data('item-price')) / 100;
         const itemBrand = productContainer.data('item-brand');
         const itemCategory = productContainer.data('item-category');
         const itemLastQuantity = parseInt(productContainer.data('item-quantity'), 10);
         const itemIndex = parseInt(productContainer.data('item-index'), 10);
 
-        // --- Obtendo o novo valor CORRETAMENTE (e robusto) ---
-        // 1. Tentar .val() (jQuery - geralmente funciona)
+        // 1. Tentar .val() 
         let itemNewQuantity = parseInt(changedElement.val(), 10);
 
-        // 2. Se .val() retornar NaN (não um número), tentar acessar a propriedade .value diretamente (para custom elements)
+        // 2. Se .val() retornar NaN, tentar acessar a propriedade .value diretamente (para custom elements)
         if (isNaN(itemNewQuantity)) {
-            itemNewQuantity = parseInt(changedElement[0].value, 10); // Acessa o elemento DOM *real*
+          itemNewQuantity = parseInt(changedElement[0].value, 10); // Acessa o elemento DOM *real*
         }
 
         // 3. Se AINDA for NaN, algo está muito errado. Registrar erro e usar um valor padrão (0) para evitar quebrar o dataLayer.
         if (isNaN(itemNewQuantity)) {
-            console.error('[datalayer_cart_fix] Não foi possível obter o novo valor da quantidade. Usando 0 como padrão.');
-            itemNewQuantity = 0; // Valor padrão
+          console.error('[datalayer_cart_fix] Não foi possível obter o novo valor da quantidade. Usando 0 como padrão.');
+          itemNewQuantity = 0; 
         }
 
         // --- Cálculo da diferença e decisão de evento ---
         const quantityDifference = itemNewQuantity - itemLastQuantity;
 
         if (quantityDifference > 0) {
-            // Adicionou ao carrinho
-            if(__bva__.debug) {
-            console.log('[datalayer_cart_fix] Disparando add_to_cart.');
-        }
-            const dataLayerObject = {
-                event: 'add_to_cart', // Evento de adicionar ao carrinho
-                ecommerce: {
-                    currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
-                    value: quantityDifference * itemPrice,
-                    items: [{
-                        item_id: itemId,
-                        item_variant: itemVariant,
-                        item_name: itemName,
-                        price: itemPrice,
-                        item_category: itemCategory,
-                        quantity: quantityDifference, // Quantidade ADICIONADA
-                        index: itemIndex
-                    }]
-                }
-            };
-            dataLayer.push(dataLayerObject);
-
-
-        } else {
-            // Removeu do carrinho
-            if(__bva__.debug) {
-                console.log('[datalayer_cart_fix] Disparando remove_from_cart.');
+          const dataLayerObject = {
+            event: 'add_to_cart_5',
+            ecommerce: {
+              currency: '{{ cart.currency.iso_code }}',
+              value: quantityDifference * itemPrice,
+              items: [{
+                item_id: itemId,
+                item_variant: itemVariant,
+                item_name: itemName,
+                price: itemPrice,
+                item_category: itemCategory,
+                quantity: quantityDifference,
+                index: itemIndex
+              }]
             }
-            const dataLayerObject = {
-                event: 'remove_from_cart', // Evento de remover do carrinho
-                ecommerce: {
-                    currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
-                    value: Math.abs(quantityDifference) * itemPrice, // Valor absoluto da diferença
-                    items: [{
-                        item_id: itemId,
-                        item_variant: itemVariant,
-                        item_name: itemName,
-                        price: itemPrice,
-                        item_category: itemCategory,
-                        quantity: Math.abs(quantityDifference), // Quantidade REMOVIDA (valor absoluto)
-                        index: itemIndex
-                    }]
-                }
-            };
-            dataLayer.push(dataLayerObject);
-        }
+          };
+          dataLayer.push({ ecommerce: null });
+          dataLayer.push(dataLayerObject);
+
+          dataLayer.push({ ecommerce: null });
+          // currentCartPush(itemId, itemNewQuantity);
+          triggerViewCartEvent()
+
+        } else if(quantityDifference < 0) {
+          const dataLayerObject = {
+            event: 'remove_from_cart', // Evento de remover do carrinho
+            ecommerce: {
+              currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
+              value: Math.abs(quantityDifference) * itemPrice, // Valor absoluto da diferença
+              items: [{
+                item_id: itemId,
+                item_variant: itemVariant,
+                item_name: itemName,
+                price: itemPrice,
+                item_category: itemCategory,
+                quantity: Math.abs(quantityDifference), // Quantidade REMOVIDA (valor absoluto)
+                index: itemIndex
+              }]
+            }
+          };
+
+          dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+          dataLayer.push(dataLayerObject);
+
+          dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+          // currentCartPush(itemId, itemNewQuantity);
+          triggerViewCartEvent()
+          }
 
         // Atualiza o data-item-quantity no productContainer para a próxima alteração
         productContainer.data('item-quantity', itemNewQuantity);
+      })
 
-    });
+      function currentCartPush(item_id, item_new_quantity) {
+        let cartPrice = 0;
+        
+        let viewCartObject = {
+          event: 'view_cart', // Dispara em alteração de qtde. drawer
+          ecommerce: {
+            'currency': {{cart.currency.iso_code | json}},
+            'value': Number(cartPrice / 100 ),
+            items:[
+              {% for line_item in cart.items %}
+                {
+                  'item_id'       : "{{ line_item.product.id | json }}",         
+                  'item_name'     : {{ line_item.product.title | json }},
+                  'item_category' : {{ line_item.product.type | json }},
+                  'price'         : Number({{ line_item.product.price | money_without_currency | replace: ',', '.' | json }}),
+                  'quantity'      : Number({{ line_item.product.id }}) == item_id ? item_new_quantity : {{ line_item.quantity | json }},
+                },
+                {% endfor %}
+              ],
+          }
+        }
+
+        for ( let i=0; i<viewCartObject.ecommerce.items.length; i++ ) {
+          cartPrice += Number(viewCartObject.ecommerce.items[i]['price']) * Number(viewCartObject.ecommerce.items[i]['quantity']);
+        }
+
+        viewCartObject.ecommerce.value = cartPrice;
+        console.log('view cart obj.', viewCartObject);
+
+        dataLayer.push(viewCartObject)
+      }
       
      
       {% if template contains 'cart' %}
         // 4. Alteração direta na quantidade (inputs dentro de <line-item-quantity> na página /cart)
         jQuery(document).on('change', 'line-item-quantity input.quantity-input', function(){
-          if(__bva__.debug) {
-            console.log('[datalayer_cart_fix] Alteração de quantidade detectada (via line-item-quantity). Disparando view_cart.');
-          }
           triggerViewCartEvent();
         });
       {% endif %}
 
       // 5. Ação de remoção via link dentro do <line-item-quantity> (elemento "Remover")
       jQuery(document).on('click', 'line-item-quantity a.link[href*="quantity=0"], .cart-drawer__remove-link', function(event){
-        if(__bva__.debug) {
-            console.log('[datalayer_cart_fix] Remoção de item detectada. Disparando cart_remove.');
-        }
-
         const clickedElement = jQuery(this);
 
         const productContainer = clickedElement.closest('[data-item-id]');
@@ -987,31 +1010,28 @@ applyBindings(defaultBindings, __bva__);
             }]
           }
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
         dataLayer.push(dataLayerObject);
-    })
+
+        triggerViewCartEvent();
+      })
 
       // 6. Ação ao abrir o mini-cart via clique no header (link que abre o carrinho)
       jQuery(document).on('click', 'a[href="/cart"][data-no-instant].relative.tap-area', function(){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Clique no header do carrinho detectado. Disparando view_cart.');
-        }
         triggerViewCartEvent();
       });
     }
 
-    // // ==========================================================================
-    // // Inicializa os event listeners quando o DOM estiver pronto
-    // // ==========================================================================
+    // ==========================================================================
+    // Inicializa os event listeners quando o DOM estiver pronto
+    // ==========================================================================
 
     jQuery(document).ready(function(){
       attachCartEventListeners();
 
       // Se estiver na página /cart, dispara o evento view_cart ao carregar a página
       if(window.location.pathname.indexOf('/cart') !== -1){
-        if(__bva__.debug) {
-          console.log('[datalayer_cart_fix] Página /cart detectada. Disparando view_cart no carregamento.');
-        } 
         triggerViewCartEvent();
       }
     });
@@ -1040,6 +1060,8 @@ applyBindings(defaultBindings, __bva__);
           };
 
           if (item.item_name) {
+            dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
             dataLayer.push({
               'event': 'cs_select_item',
               item,
@@ -1278,6 +1300,44 @@ applyBindings(defaultBindings, __bva__);
       /** DATALAYER: Banners viewed **/
 
       const trackVisibleBanners = () => {
+          // non-slider banners
+          const bannerContainers = document.querySelectorAll('.DL__banner-container');
+
+          bannerContainers.forEach((bannerContainer) => {
+              if (!bannerContainer.classList.contains('ga-viewed') && 
+                  isElementVisible(bannerContainer)) { // Só dispara se estiver visível na viewport
+
+                  bannerContainer.classList.add('ga-viewed'); // Marca como visualizado
+
+                  const eventBannerType = bannerContainer.getAttribute('data-type');
+                  const eventBannerImgUrl = bannerContainer.getAttribute('data-img-url');
+                  const eventBannerText = bannerContainer.getAttribute('data-text');
+                  const eventBannerLink = bannerContainer.getAttribute('data-url-link');
+                  const eventBannerIndex = bannerContainer.getAttribute('data-index');
+
+                  const promotionData = {
+                      'event': 'view_promotion',
+                      'banner_position': eventBannerIndex,
+                      'banner_type': eventBannerType,
+                      'banner_image_url': eventBannerImgUrl,
+                      'banner_text': eventBannerText,
+                      'banner_link_url': eventBannerLink
+                  };
+                  
+                  dataLayer.push(promotionData);
+
+                  bannerContainer.addEventListener('click', () => {
+                      const clickEvent = { ...promotionData, event: 'select_promotion' };
+                      dataLayer.push(clickEvent);
+
+                      if (window.__bva__.debug) {
+                          console.log('select_promotion:', clickEvent);
+                      }
+                  });
+              }
+          });
+
+        // Slider Banners
         document.querySelectorAll('.slideshow__slide').forEach((slide) => {
           if (slide.classList.contains('is-selected') && 
               !slide.classList.contains('ga-viewed') && 
@@ -1302,12 +1362,8 @@ applyBindings(defaultBindings, __bva__);
               'banner_text': eventSlideText,
               'banner_link_url': eventSlideLink
             };
-
+            
             dataLayer.push(promotionData);
-
-            if (window.__bva__.debug) {
-              console.log('view_promotion:', promotionData);
-            }
 
             slide.addEventListener('click', () => {
               const clickEvent = { ...promotionData, event: 'select_promotion' };
@@ -1344,6 +1400,8 @@ applyBindings(defaultBindings, __bva__);
             'item_list_name' : `Search: ${ __bva__.searchTermQuery}`
           },{% endfor %}],
         };
+        dataLayer.push({ ecommerce: null }); // Clean Prevent Items
+
         dataLayer.push({
           'pageType'   : "Search",
           'event'      : "view_item_list",
@@ -1351,15 +1409,6 @@ applyBindings(defaultBindings, __bva__);
           'item_list_name'  : `Search: ${ __bva__.searchTermQuery}`,
           ecommerce
         }); 
-
-        if (__bva__.debug){ 
-          console.log("Evento sendo enviado ao dataLayer:", {
-            'pageType': "Search",
-            'search_term': __bva__.searchTermQuery,
-            'event': "cs_search",
-            'ecommerce': ecommerce
-          });
-        }
       }
       // For predctive search, added in 'theme.js.liquid' on function _doPredictiveSearch
 

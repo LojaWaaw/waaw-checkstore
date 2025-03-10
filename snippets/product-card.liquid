@@ -52,7 +52,7 @@ Supported variables
   data-item-id="{{ product.id }}"
   data-product-name="{{ product.title }}"
   data-product-variant = "{{ product.selected_or_first_available_variant.id }}"
-  data-product-price = '{{ product.selected_or_first_available_variant.price | money_without_currency | replace: ',', '.'}}'
+  data-product-price = '{{ product.selected_or_first_available_variant.price }}'
   data-product-brand = " {{ product.vendor }}"
   data-index = "{{ loop_index }}"
   data-product-category = "{{ product.type }}"
