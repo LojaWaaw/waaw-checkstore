@@ -38,6 +38,19 @@
           {% endif %}
         </variant-sku>
 
+      {% when 'exclusive_product_alert' %}
+        {% if product.metafields.custom.produtos_exclusivo %}
+          <p 
+            style="
+              background-color: {{ block.settings.exclusive_products_bg }};
+              color: {{ block.settings.exclusive_products_color }};
+              border-radius: var(--rounded-button);
+              padding: .25rem;
+              {% if block.settings.text_align_center == true %}text-align: center {% endif %}
+              "
+          >
+            {{ block.settings.exclusive_products_text | replace: '[partner]', product.metafields.custom.partner_vendor }}</p>
+        {% endif %}
       {%- when 'price' -%}
         <div class="product-info__price">
           <div class="rating-with-text">

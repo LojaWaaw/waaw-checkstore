@@ -22,6 +22,7 @@ Supported variables
 
 {%- assign variant_picker_block = section.blocks | where: 'type', 'variant_picker' | first -%}
 
+
 {%- form 'product', product, is: 'product-form', id: form_id -%}
   <input type="hidden" {% if variant_picker_block != blank %}disabled{% endif %} name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
@@ -32,7 +33,11 @@ Supported variables
     {%- if product.template_suffix contains 'pre-order' -%}
       {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
     {%- else -%}
-      {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}
+      {% if product.metafields.custom.produtos_exclusivo %}
+        {%- capture button_content -%}{{ settings.exclusive_products_button_text |  replace: '[partner]', product.metafields.custom.partner_vendor }}{%- endcapture -%}
+      {% else %}
+        {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}
+      {% endif %}
     {%- endif -%}
   {%- else -%}
     {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
@@ -62,31 +67,38 @@ Supported variables
       </gift-card-recipient>
     {%- endif -%}
 
-    <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}" template="{{ product.template_suffix | escape }}" form="{{ form_id }}">
+    {% if product.metafields.custom.produtos_exclusivo %}
       {% if product.available %}
-        {%- render 'button', content: button_content, type: 'submit', size: button_size, disabled: button_disabled, secondary: show_payment_button, subdued: button_disabled, background: atc_button_background, text_color: atc_button_text_color -%}
+        {%- render 'button', href: product.metafields.custom.partner_url,  content: button_content, size: button_size, background: atc_button_background, text_color: atc_button_text_color -%}
       {% endif %}
-      <div class="gw-button-widget-container"></div>
+    {% else %}
+      <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}" template="{{ product.template_suffix | escape }}" form="{{ form_id }}">
+        {% if product.available %}
+          {%- render 'button', content: button_content, type: 'submit', size: button_size, disabled: button_disabled, secondary: show_payment_button, subdued: button_disabled, background: atc_button_background, text_color: atc_button_text_color -%}
+        {% endif %}
+        <div class="gw-button-widget-container"></div>
 
-      {%- if show_payment_button -%}
-        {{- form | payment_button -}}
+        {%- if show_payment_button -%}
+          {{- form | payment_button -}}
 
-        <style>
-          #shopify-section-{{ section.id }} .shopify-payment-button {
-          {%- unless product.selected_or_first_available_variant.available -%}
-            display: none;
-          {%- endunless -%}
+          <style>
+            #shopify-section-{{ section.id }} .shopify-payment-button {
+            {%- unless product.selected_or_first_available_variant.available -%}
+              display: none;
+            {%- endunless -%}
 
-          {%- if payment_button_background != blank and payment_button_background != 'rgba(0,0,0,0)' -%}
-            --button-background: {{ payment_button_background.rgb }};
-          {%- endif -%}
+            {%- if payment_button_background != blank and payment_button_background != 'rgba(0,0,0,0)' -%}
+              --button-background: {{ payment_button_background.rgb }};
+            {%- endif -%}
 
-          {%- if payment_button_text_color != blank and payment_button_text_color != 'rgba(0,0,0,0)' -%}
-            --button-text-color: {{ payment_button_text_color.rgb }};
-          {%- endif -%}
-          }
-        </style>
-      {%- endif -%}
-    </buy-buttons>
+            {%- if payment_button_text_color != blank and payment_button_text_color != 'rgba(0,0,0,0)' -%}
+              --button-text-color: {{ payment_button_text_color.rgb }};
+            {%- endif -%}
+            }
+          </style>
+        {%- endif -%}
+      </buy-buttons>
+    {% endif %}
+
   </div>
 {%- endform -%}
