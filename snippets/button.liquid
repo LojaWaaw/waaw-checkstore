@@ -99,7 +99,7 @@ Supported variables
 {%- endcapture -%}
 
 {%- if href != blank -%}
-  <a {{ attributes }} {{ block.shopify_attributes }}>
+<a {{ attributes }} {{ block.shopify_attributes }} {% if href contains 'waaw.com.br' %} target="_self" {% else %} target="_blank" noopener noreferrer {% endif %} >
     {{- button_content -}}
   </a>
 {%- else -%}

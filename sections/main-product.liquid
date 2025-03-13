@@ -215,6 +215,39 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       "limit": 1
     },
     {
+      "type": "exclusive_product_alert",
+      "name": "Exclusive Product Alert",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "exclusive_products_text",
+          "label": "Exclusive Product Text",
+          "info": "Use this field to define the exclusive product text. Use [partner] to display the name of partner store.",
+          "default": "Esse é um produto exclusivo da [partner]."
+        },
+        {
+          "type": "color",
+          "id": "exclusive_products_color",
+          "label": "Exclusive Product Text Color",
+          "default": "#000"
+        },
+        {
+          "type": "color",
+          "id": "exclusive_products_bg",
+          "label": "Exclusive Product Background Color",
+          "default": "#fff"
+        },
+        {
+          "type": "checkbox",
+          "id": "text_align_center",
+          "label": "Centralize Text",
+          "default": false
+        }
+
+      ]
+    },
+    {
       "type": "badges",
       "name": "Badges",
       "limit": 1,

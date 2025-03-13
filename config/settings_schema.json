@@ -864,6 +864,18 @@
     ]
   },
   {
+    "name": "Exclusive Product",
+    "settings": [
+      {
+        "type": "text",
+        "id": "exclusive_products_button_text",
+        "label": "Exclusive Product Button Text",
+        "info": "Use this field to define the exclusive product button text. Use [partner] to display the name of partner store.",
+        "default": "Comprar na [partner]"
+      }
+    ]
+  },
+  {
     "name": "Social media",
     "settings": [
       {
