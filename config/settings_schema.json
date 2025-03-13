@@ -774,7 +774,24 @@
           }
         ],
         "default": "start"
-      }
+      },
+      {
+        "type": "text",
+        "id": "await_release_badge_text",
+        "label": "Await Release Product Badge Text"
+      },
+      {
+        "type": "color",
+        "id": "await_release_badge_bg",
+        "label": "Await Release Badge Background Color",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "await_release_badge_color",
+        "label": "Await Release Badge Text Color",
+        "default": "#ffffff"
+      },
     ]
   },
   {
