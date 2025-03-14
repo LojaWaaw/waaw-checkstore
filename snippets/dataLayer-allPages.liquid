@@ -447,6 +447,9 @@ applyBindings(defaultBindings, __bva__);
                 dataLayer.push({
                   'event': 'select_item',
                   'ecommerce': {
+                    'currency': "{{ shop.currency.iso_code }}" || "BRL",
+                    'item_list_id': '',
+                    'item_list_name': '',
                     'items': [selectedItem]
                   }
                 });
@@ -549,6 +552,9 @@ applyBindings(defaultBindings, __bva__);
             dataLayer.push({
               'event': 'select_item',
               'ecommerce': {
+                'currency': "{{ shop.currency.iso_code }}" || "BRL",
+                'item_list_id': '',
+                'item_list_name': '',
                 'items': [selectedItem]
               }
             });
@@ -588,7 +594,7 @@ applyBindings(defaultBindings, __bva__);
         $(__bva__.cartTriggers).click(function(){
           var quantity = $('.quantity-selector__input').val()
           var addToCart = {     
-            'event'    : 'add_to_cart_1',
+            'event'    : 'add_to_cart',
             'ecommerce': {
               'currency': 'BRL',
               'value': ({{ product.selected_or_first_available_variant.price }} * Number(quantity)) / 100,
@@ -622,7 +628,7 @@ applyBindings(defaultBindings, __bva__);
         }
 
         var addToCart = {                    
-          'event': 'add_to_cart_2',
+          'event': 'add_to_cart',
           'ecommerce': {
             'currency'        : "BRL",
             'value': Number(product_card.attr('data-product-price')) / 100,
@@ -687,7 +693,7 @@ applyBindings(defaultBindings, __bva__);
             dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
             dataLayer.push({
-              event: 'add_to_cart_3',
+              event: 'add_to_cart',
               ecommerce: {
                 currency: current.currency,
                 value: quantityAdded * currentItem.price, // Valor adicionado
@@ -721,7 +727,7 @@ applyBindings(defaultBindings, __bva__);
           dataLayer.push({ ecommerce: null }); // Clean Prevent Items
 
           dataLayer.push({
-            event: 'add_to_cart_4',
+            event: 'add_to_cart',
             ecommerce: {
               currency: current.currency,
               value: currentItem.quantity * currentItem.price, 
@@ -881,7 +887,7 @@ applyBindings(defaultBindings, __bva__);
 
         if (quantityDifference > 0) {
           const dataLayerObject = {
-            event: 'add_to_cart_5',
+            event: 'add_to_cart',
             ecommerce: {
               currency: '{{ cart.currency.iso_code }}',
               value: quantityDifference * itemPrice,
