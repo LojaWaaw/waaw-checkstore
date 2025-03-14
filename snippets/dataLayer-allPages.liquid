@@ -67,6 +67,19 @@ isElementVisible = function(element) {
   return isVisible && isPartiallyVisible;
 }
 
+function formatarItemListId(itemListName) {
+  // Remove acentos e converte para minúsculas
+  let formattedId = itemListName.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+  // Substitui espaços e caracteres especiais por underscore
+  formattedId = formattedId.replace(/[^a-z0-9]+/g, "_");
+
+  // Remove underscores duplicados e no início/fim
+  formattedId = formattedId.replace(/^_|_$/g, '');
+
+  return formattedId;
+}
+
 /* =====================
 | DYNAMIC DEPENDENCIES |
 --------------------- */
@@ -428,6 +441,7 @@ applyBindings(defaultBindings, __bva__);
             dataLayer.push({
               'event': 'view_item_list',
               'ecommerce': {
+                'currency': "{{ shop.currency.iso_code }}" || "BRL",
                 'item_list_name': collectionTitle,
                 'items': items
               }
@@ -448,8 +462,8 @@ applyBindings(defaultBindings, __bva__);
                   'event': 'select_item',
                   'ecommerce': {
                     'currency': "{{ shop.currency.iso_code }}" || "BRL",
-                    'item_list_id': '',
-                    'item_list_name': '',
+                    'item_list_id': formatarItemListId(selectedItem.item_list_name),
+                    'item_list_name': selectedItem.item_list_name,
                     'items': [selectedItem]
                   }
                 });
@@ -496,7 +510,7 @@ applyBindings(defaultBindings, __bva__);
       var ecommerce = {
         'currency': '{{ shop.currency }}',
         'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
-        'item_list_name'  : "Category: {{collection.title }}",
+        'item_list_name'  : "Category: {{ collection.title }}",
         'items': [
           {% for product in collection.products %}
             {
@@ -551,10 +565,11 @@ applyBindings(defaultBindings, __bva__);
 
             dataLayer.push({
               'event': 'select_item',
+
               'ecommerce': {
                 'currency': "{{ shop.currency.iso_code }}" || "BRL",
-                'item_list_id': '',
-                'item_list_name': '',
+                'item_list_id': selectedItem.item_list_id,
+                'item_list_name': selectedItem.item_list_name,
                 'items': [selectedItem]
               }
             });
@@ -597,7 +612,7 @@ applyBindings(defaultBindings, __bva__);
             'event'    : 'add_to_cart',
             'ecommerce': {
               'currency': 'BRL',
-              'value': ({{ product.selected_or_first_available_variant.price }} * Number(quantity)) / 100,
+              'value': parseFloat((({{ product.selected_or_first_available_variant.price }} * Number(quantity)) / 100).toFixed(2)),
               items: [{
                 'item_id'         : '{{ product.id | json }}',
                 'item_name'       : '{{ product.title }}',
@@ -631,7 +646,7 @@ applyBindings(defaultBindings, __bva__);
           'event': 'add_to_cart',
           'ecommerce': {
             'currency'        : "BRL",
-            'value': Number(product_card.attr('data-product-price')) / 100,
+            'value': parseFloat((Number(product_card.attr('data-product-price')) / 100).toFixed(2)),
             'items': [{
               'item_id'         : product_card.attr('data-item-id'),                
               'item_name'       : product_card.attr('data-product-name'),
@@ -656,7 +671,7 @@ applyBindings(defaultBindings, __bva__);
     $('#cart-icon-bubble').on('click', function(event) {
       var ecommerce = {
         'currency': {{cart.currency.iso_code | json}},
-        'value': Number({{cart.total_price | divided_by: 100.0 | json}}),
+        'value': parseFloat((Number({{cart.total_price }}) / 100 ).toFixed(2)),
         'items':[{% for line_item in cart.items %}{
           'item_id'         : "{{line_item.product.id | json}}",                  
           'item_name'       : {{line_item.product.title | json}},
@@ -696,7 +711,7 @@ applyBindings(defaultBindings, __bva__);
               event: 'add_to_cart',
               ecommerce: {
                 currency: current.currency,
-                value: quantityAdded * currentItem.price, // Valor adicionado
+                value: parseFloat((quantityAdded * currentItem.price).toFixed(2)), // Valor adicionado
                 items: [{
                   ...currentItem,
                   quantity: quantityAdded
@@ -711,7 +726,7 @@ applyBindings(defaultBindings, __bva__);
               event: 'remove_from_cart',
               ecommerce: {
                 currency: current.currency,
-                value: quantityRemoved * currentItem.price, // Valor removido
+                value: parseFloat((quantityRemoved * currentItem.price).toFixed(2)), // Valor removido
                 items: [{
                   ...currentItem,
                   quantity: quantityRemoved
@@ -730,7 +745,7 @@ applyBindings(defaultBindings, __bva__);
             event: 'add_to_cart',
             ecommerce: {
               currency: current.currency,
-              value: currentItem.quantity * currentItem.price, 
+              value: parseFloat((currentItem.quantity * currentItem.price).toFixed(2)), 
               items: [currentItem]
             }
           });
@@ -745,7 +760,7 @@ applyBindings(defaultBindings, __bva__);
           event: 'remove_from_cart',
           ecommerce: {
             currency: current.currency,
-            value: removedItem.quantity * removedItem.price, // Valor total do item removido
+            value: parseFloat((removedItem.quantity * removedItem.price).toFixed(2)), // Valor total do item removido
             items: [removedItem]
           }
         });
@@ -755,7 +770,7 @@ applyBindings(defaultBindings, __bva__);
     {% if template contains 'cart' %}
       var ecommerce = {
         'currency': {{cart.currency.iso_code | json}},
-        'value': Number({{cart.total_price | divided_by: 100.0 | json}}),
+        'value': parseFloat((Number({{cart.total_price }}) / 100).toFixed(2)),
         'items':[{% for line_item in cart.items %}{
           'item_id'         : "{{line_item.product.id | json }}",                  
           'item_name'       : {{ line_item.product.title | json }},
@@ -790,10 +805,9 @@ applyBindings(defaultBindings, __bva__);
             return response.json();
           })
           .then(function(cart) {
-            // Constrói o objeto ecommerce utilizando o preço unitário e, se disponível, o preço original (sem desconto)
             var ecommerceData = {
               'currency': cart.currency || 'BRL',
-              'value': Number(cart.total_price / 100), // valor total do carrinho
+              'value': parseFloat((Number(cart.total_price) / 100).toFixed(2)), // valor total do carrinho
               'items': cart.items.map(function(item, cart_index) {
                 // Se existir "original_price", ele representa o valor unitário sem desconto.
                 var unitPrice = item.original_price ? Number(item.original_price / 100) : Number(item.price / 100);
@@ -833,7 +847,7 @@ applyBindings(defaultBindings, __bva__);
 
     function attachCartEventListeners() {
       // 1. Ação de adicionar itens (ex.: quick-add em cards de produto)
-      jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit', function(){
+      jQuery(document).on('click', 'form[action^="/cart/add"] [type=submit], .product-form__submit, .product-card__quick-buy', function(){
         triggerViewCartEvent();
       });
 
@@ -890,7 +904,7 @@ applyBindings(defaultBindings, __bva__);
             event: 'add_to_cart',
             ecommerce: {
               currency: '{{ cart.currency.iso_code }}',
-              value: quantityDifference * itemPrice,
+              value: parseFloat((quantityDifference * itemPrice).toFixed(2)),
               items: [{
                 item_id: itemId,
                 item_variant: itemVariant,
@@ -914,7 +928,7 @@ applyBindings(defaultBindings, __bva__);
             event: 'remove_from_cart', // Evento de remover do carrinho
             ecommerce: {
               currency: '{{cart.currency.iso_code}}', // Ajuste se necessário
-              value: Math.abs(quantityDifference) * itemPrice, // Valor absoluto da diferença
+              value: parseFloat((Math.abs(quantityDifference) * itemPrice).toFixed(2)), // Valor absoluto da diferença
               items: [{
                 item_id: itemId,
                 item_variant: itemVariant,
@@ -946,7 +960,7 @@ applyBindings(defaultBindings, __bva__);
           event: 'view_cart', // Dispara em alteração de qtde. drawer
           ecommerce: {
             'currency': {{cart.currency.iso_code | json}},
-            'value': Number(cartPrice / 100 ),
+            'value': parseFloat(Number(cartPrice / 100 ).toFixed(2)),
             items:[
               {% for line_item in cart.items %}
                 {
@@ -962,7 +976,7 @@ applyBindings(defaultBindings, __bva__);
         }
 
         for ( let i=0; i<viewCartObject.ecommerce.items.length; i++ ) {
-          cartPrice += Number(viewCartObject.ecommerce.items[i]['price']) * Number(viewCartObject.ecommerce.items[i]['quantity']);
+          cartPrice += parseFloat((Number(viewCartObject.ecommerce.items[i]['price']) * Number(viewCartObject.ecommerce.items[i]['quantity'])).toFixed(2));
         }
 
         viewCartObject.ecommerce.value = cartPrice;
@@ -1004,7 +1018,7 @@ applyBindings(defaultBindings, __bva__);
           event: 'remove_from_cart',
           ecommerce: {
             currency: '{{cart.currency.iso_code}}',
-            value: itemQuantity * itemPrice,
+            value: parseFloat((itemQuantity * itemPrice).toFixed(2)),
             items: [{
               item_id: itemId,
               item_variant: itemVariant,
@@ -1410,6 +1424,7 @@ applyBindings(defaultBindings, __bva__);
 
         dataLayer.push({
           'pageType'   : "Search",
+          'currency': "{{ shop.currency.iso_code }}" || "BRL",
           'event'      : "view_item_list",
           'item_list_id': "search_result",
           'item_list_name'  : `Search: ${ __bva__.searchTermQuery}`,
