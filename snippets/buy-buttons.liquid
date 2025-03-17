@@ -29,20 +29,22 @@ Supported variables
   {%- assign button_disabled = false -%}
   {%- assign button_size = button_size | default: 'xl' -%}
 
-  {%- if product.selected_or_first_available_variant.available -%}
-    {%- if product.template_suffix contains 'pre-order' -%}
-      {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
-    {%- else -%}
-      {% if product.metafields.custom.produtos_exclusivo %}
-        {%- capture button_content -%}{{ settings.exclusive_products_button_text |  replace: '[partner]', product.metafields.custom.partner_vendor }}{%- endcapture -%}
-      {% else %}
+  {% comment %} MESMO SE NAO TIVER ESTOQUE {% endcomment %}
+
+  {% if product.metafields.custom.produtos_exclusivo %}
+    {%- capture button_content -%}{{ settings.exclusive_products_button_text |  replace: '[partner]', product.metafields.custom.partner_vendor }}{%- endcapture -%}
+  {% else %}
+    {%- if product.selected_or_first_available_variant.available -%}
+      {%- if product.template_suffix contains 'pre-order' -%}
+        {%- capture button_content -%}{{ 'product.general.pre_order_button' | t }}{%- endcapture -%}
+      {%- else -%}
         {%- capture button_content -%}{{ 'product.general.add_to_cart_button' | t }}{%- endcapture -%}
-      {% endif %}
+      {%- endif -%}
+    {%- else -%}
+      {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
+      {%- assign button_disabled = true -%}
     {%- endif -%}
-  {%- else -%}
-    {%- capture button_content -%}{{ 'product.general.sold_out_button' | t }}{%- endcapture -%}
-    {%- assign button_disabled = true -%}
-  {%- endif -%}
+  {% endif %}
 
   <div class="v-stack gap-4">
     {%- if product.gift_card? and show_gift_card_recipient -%}
@@ -68,9 +70,7 @@ Supported variables
     {%- endif -%}
 
     {% if product.metafields.custom.produtos_exclusivo %}
-      {% if product.available %}
         {%- render 'button', href: product.metafields.custom.partner_url,  content: button_content, size: button_size, background: atc_button_background, text_color: atc_button_text_color -%}
-      {% endif %}
     {% else %}
       <buy-buttons class="buy-buttons {% if show_payment_button %}buy-buttons--multiple{% endif %}" template="{{ product.template_suffix | escape }}" form="{{ form_id }}">
         {% if product.available %}
