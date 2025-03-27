@@ -1332,8 +1332,12 @@ applyBindings(defaultBindings, __bva__);
                   const eventBannerType = bannerContainer.getAttribute('data-type');
                   const eventBannerImgUrl = bannerContainer.getAttribute('data-img-url');
                   const eventBannerText = bannerContainer.getAttribute('data-text');
-                  const eventBannerLink = bannerContainer.getAttribute('data-url-link');
+                  let eventBannerLink = bannerContainer.getAttribute('data-url-link');
                   const eventBannerIndex = bannerContainer.getAttribute('data-index');
+
+                  if (eventBannerLink && eventBannerLink[0] == '/') {
+                    eventBannerLink = 'https://www.waaw.com.br' + eventBannerLink.trim()
+                  }
 
                   const promotionData = {
                       'event': 'view_promotion',
