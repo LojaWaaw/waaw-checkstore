@@ -29,7 +29,7 @@
         "image_8myqhV": {
           "type": "image",
           "settings": {
-            "type_slide": "",
+            "type_slide": "main_banner_home",
             "image": "shopify:\/\/shop_images\/01.2800x800-banner-principal-waaw-hyperboom_b8c390a9-fdfd-4d92-aaab-89172a13a8ff.jpg",
             "mobile_image": "shopify:\/\/shop_images\/02.1200x1600-banner-principal-waaw-hyperboom_a5dcfdb3-b624-4052-9de7-9f3c470d15fb.jpg",
             "content_max_width": 780,
@@ -52,7 +52,7 @@
         "image_AfGUqt": {
           "type": "image",
           "settings": {
-            "type_slide": "",
+            "type_slide": "main_banner_home",
             "image": "shopify:\/\/shop_images\/05.2800x800-banner-principal-waaw-boom-200_0799c27d-b842-45b0-b3fc-f420b106e6fd.jpg",
             "mobile_image": "shopify:\/\/shop_images\/06.1200x1600-banner-principal-waaw-boom-200_5d4beb1d-060a-41ba-95a1-b0437c2144f9.jpg",
             "content_max_width": 780,
@@ -75,7 +75,7 @@
         "image_yXaXpR": {
           "type": "image",
           "settings": {
-            "type_slide": "",
+            "type_slide": "main_banner_home",
             "image": "shopify:\/\/shop_images\/03.2800x800-banner-principal-waaw-mob-500_386490bd-5a5d-48cd-b851-ca6519093f4a.jpg",
             "mobile_image": "shopify:\/\/shop_images\/04.1200x1600-banner-principal-waaw-mob-500_d44a6650-94cd-426b-a3b9-c38efa8101ca.jpg",
             "content_max_width": 780,
@@ -186,7 +186,7 @@
         "image_hdaD8C": {
           "type": "image",
           "settings": {
-            "type_slide": "",
+            "type_slide": "media-grid",
             "image": "shopify:\/\/shop_images\/01.1500x1523-banner-categorias-infinite-200_f5fa9b64-a447-4504-8dbb-10bde3699110.jpg",
             "title": "",
             "heading_tag": "h4",
@@ -209,7 +209,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-2": {
           "type": "image",
           "settings": {
-            "type_slide": "",
+            "type_slide": "media-grid",
             "image": "shopify:\/\/shop_images\/02.700x583-banner-categorias-fones-de-ouvido_cca356af-efaf-4e24-8921-558c3c499820.jpg",
             "title": "",
             "heading_tag": "h4",
@@ -232,7 +232,7 @@
         "template--15950778237103__563409fc-7ba0-4299-b2d2-61b1fe553205-1689270418604b3a3c-0": {
           "type": "image",
           "settings": {
-            "type_slide": "",
+            "type_slide": "media-grid",
             "image": "shopify:\/\/shop_images\/02.700x583-banner-categorias-caixas-de-som_fc07a7cb-ee8e-477b-a98e-57ce16686a13.jpg",
             "title": "",
             "heading_tag": "h4",

@@ -55,6 +55,15 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "exclusive_product_alert_NhwhG8": {
+          "type": "exclusive_product_alert",
+          "settings": {
+            "exclusive_products_text": "Esse é um produto exclusivo da [partner].",
+            "exclusive_products_color": "#000000",
+            "exclusive_products_bg": "#e0e621",
+            "text_align_center": true
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -107,6 +116,7 @@
         "price",
         "payment_terms",
         "quantity_selector",
+        "exclusive_product_alert_NhwhG8",
         "buy_buttons",
         "heading_gWFBUq",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
@@ -396,6 +406,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/VIB-100EW-01-min.png",
             "title": "",
             "heading_tag": "h4",
@@ -418,6 +429,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/desc_fone-de-ouvido-estereo-vib-100ew_11-min.png",
             "title": "",
             "heading_tag": "h4",
@@ -440,6 +452,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/VIB-100EW-03-min.png",
             "title": "",
             "heading_tag": "h4",
