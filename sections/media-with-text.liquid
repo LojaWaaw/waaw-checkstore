@@ -43,8 +43,30 @@ LIQUID
 <div {% render 'section-properties' %}>
   <media-with-text class="media-with-text {% if section.settings.spacing == 'none' %}{% if section.settings.full_width %}full-bleed{% else %}rounded{% endif %}{% endif %}">
     {%- for block in section.blocks -%}
+      
+      {% assign url_image = block.settings.image %}
+      {% capture clean_text %}
+        {% if block.settings.title != blank or block.settings.link_text != blank or block.settings.content %}
+          {{ block.settings.title }} | {{ block.settings.link_text }} | {{ block.settings.content }}
+        {% endif %}
+      {% endcapture %}
+
       <div id="block-{{ section.id }}-{{ block.id }}" class="media-with-text__item" {{ block.shopify_attributes }}>
-        <div class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %}" reveal-on-scroll="true">
+        <div class="media-with-text__media {% unless section.settings.spacing == 'none' %}rounded{% endunless %} DL__banner-container"
+         reveal-on-scroll="true"
+         data-type="{{ block.settings.type_slide }}"
+         data-img-url="{{ url_image |  image_url |  prepend: 'https:'  }}"
+         data-text="{{ clean_text | strip_html | strip_newlines | replace: '\n', '' | replace: '  ', ' ' | strip }}"
+         data-url-link="{{ block.settings.link_url }}"
+         data-index="{{ forloop.index0 }}"
+         >
+         {% comment %} 
+         const eventBannerType = bannerContainer.getAttribute('data-type');
+         const eventBannerImgUrl = bannerContainer.getAttribute('data-img-url'
+         const eventBannerText = bannerContainer.getAttribute('data-text');
+         let eventBannerLink = bannerContainer.getAttribute('data-url-link');
+         const eventBannerIndex = bannerContainer.getAttribute('data-index');
+          {% endcomment %}
           {%- if block.type == 'image' -%}
             {%- if block.settings.image != blank -%}
               {%- assign width_ratio = 100.0 | divided_by: block.settings.media_width -%}
@@ -182,6 +204,11 @@ LIQUID
           "id": "image",
           "label": "Image",
           "info": "1500 x 1500px .jpg recommended"
+        },
+        {
+          "type": "text",
+          "id": "type_slide",
+          "label": "Type of slide/banner for GA"
         },
         {
           "type": "range",
@@ -647,6 +674,11 @@ LIQUID
           "id": "video",
           "label": "Video",
           "info": "Replaces external video if both are set. For best visual results and avoid platform branding, we recommend uploading a MP4 file."
+        },
+        {
+          "type": "text",
+          "id": "type_slide",
+          "label": "Type of slide/banner for GA"
         },
         {
           "type": "video_url",

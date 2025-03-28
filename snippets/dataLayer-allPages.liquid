@@ -428,7 +428,7 @@ applyBindings(defaultBindings, __bva__);
               'item_id': productId,
               'item_variant': variantId,
               'item_name': productName,
-              'price': parseFloat(productPrice),
+              'price': (parseFloat(productPrice) / 100).toFixed(2),
               'item_brand': productBrand,
               'item_category': productCategory,
               'item_list_name': collectionTitle
@@ -517,7 +517,7 @@ applyBindings(defaultBindings, __bva__);
               'item_id'         : "{{ product.id | json }}",                  
               'item_variant'    : {{ product.selected_or_first_available_variant.id | json }},             
               'item_name'       : {{ product.title | json }},
-              'price'           : {{ product.price | money_without_currency | replace: ',', '.' | json }},
+              'price'           : parseFloat({{ product.price }} / 100).toFixed(2),
               'item_brand'      : {{ product.vendor | json }},
               'item_category'   : {{ product.type | json }},
               'item_list_id'    : "{{ collection.handle | prepend: 'category_' |  downcase }}",
@@ -1071,7 +1071,7 @@ applyBindings(defaultBindings, __bva__);
             'item_id'         : String(product.id),
             'item_variant'    : product.variants[0].id,
             'item_name'       : product.title,
-            'price'           : Number(product.variants[0].price),
+            'price'           : parseFloat(product.variants[0].price / 100).toFixed(2),
             'item_brand'      : product.vendor,
             'item_category'   : product.product_type,
             'description'     : product.body_html.trim(),
@@ -1332,8 +1332,12 @@ applyBindings(defaultBindings, __bva__);
                   const eventBannerType = bannerContainer.getAttribute('data-type');
                   const eventBannerImgUrl = bannerContainer.getAttribute('data-img-url');
                   const eventBannerText = bannerContainer.getAttribute('data-text');
-                  const eventBannerLink = bannerContainer.getAttribute('data-url-link');
+                  let eventBannerLink = bannerContainer.getAttribute('data-url-link');
                   const eventBannerIndex = bannerContainer.getAttribute('data-index');
+
+                  if (eventBannerLink && eventBannerLink[0] == '/') {
+                    eventBannerLink = 'https://www.waaw.com.br' + eventBannerLink.trim()
+                  }
 
                   const promotionData = {
                       'event': 'view_promotion',
