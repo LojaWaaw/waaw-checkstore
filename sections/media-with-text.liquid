@@ -60,13 +60,6 @@ LIQUID
          data-url-link="{{ block.settings.link_url }}"
          data-index="{{ forloop.index0 }}"
          >
-         {% comment %} 
-         const eventBannerType = bannerContainer.getAttribute('data-type');
-         const eventBannerImgUrl = bannerContainer.getAttribute('data-img-url'
-         const eventBannerText = bannerContainer.getAttribute('data-text');
-         let eventBannerLink = bannerContainer.getAttribute('data-url-link');
-         const eventBannerIndex = bannerContainer.getAttribute('data-index');
-          {% endcomment %}
           {%- if block.type == 'image' -%}
             {%- if block.settings.image != blank -%}
               {%- assign width_ratio = 100.0 | divided_by: block.settings.media_width -%}
@@ -74,7 +67,7 @@ LIQUID
 
               {%- capture sizes -%}(max-width: 999px) 100vw, min({{ maximum_image_width | ceil }}px, {{ block.settings.media_width }}vw){% endcapture %}
 
-              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' -}}
+              {{- block.settings.image | image_url: width: block.settings.image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600' |  link_to: block.settings.link_url -}}
             {%- else -%}
               {{- 'image' | placeholder_svg_tag: 'aspect-short placeholder' -}}
             {%- endif -%}
@@ -143,8 +136,17 @@ LIQUID
             {{- block.settings.content -}}
 
             {%- if block.settings.link_text != blank -%}
-              {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'xl', background: block.settings.button_background, text_color: block.settings.button_text_color -%}
+              <div class="media-with-text-item__btn"
+                data-type="{{ block.settings.type_slide }}"
+                data-img-url="{{ url_image |  image_url |  prepend: 'https:'  }}"
+                data-text="{{ clean_text | strip_html | strip_newlines | replace: '\n', '' | replace: '  ', ' ' | strip }}"
+                data-url-link="{{ block.settings.link_url }}"
+                data-index="{{ forloop.index0 }}"
+              >
+                {%- render 'button', href: block.settings.link_url, content: block.settings.link_text, size: 'xl', background: block.settings.button_background, text_color: block.settings.button_text_color -%}
+              </div>
             {%- endif -%}
+
           </div>
         </div>
       </div>
