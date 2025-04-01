@@ -93,7 +93,7 @@ __bva__ = {
 };
 
 customBindings = {
-  cartTriggers: ['form[action="/cart/add"] [type="submit"], .product-form__submit, .product-card__quick-buy'],
+  cartTriggers: ['form[action="/cart/add"] [type="submit"], .product-form__submit'], // removed .product-card__quick-buy
   viewCart: ['cart-drawer.show-close-cursor, .sb-cart'],
   removeCartTrigger: ['cart-remove-button, .cart-notification-remove, button[name="minus"], .quantity__button[name="minus"], .line-item input.quantity-input'],
   cartVisableSelector: ['cart-drawer.show-close-cursor, .sb-cart'],
@@ -687,7 +687,6 @@ applyBindings(defaultBindings, __bva__);
         'event': 'view_cart',
         ecommerce
       });
-
     })
 
     // Função para comparar o novo estado com o anterior
@@ -794,7 +793,7 @@ applyBindings(defaultBindings, __bva__);
 
     {% endif %}
 
-    function triggerViewCartEvent() {
+    function triggerViewCartEvent(e) {
       // Aguarda 500ms para que a atualização do carrinho seja concluída (caso seja uma chamada AJAX)
       setTimeout(function(){
         fetch('/cart.js')
@@ -831,7 +830,6 @@ applyBindings(defaultBindings, __bva__);
               'event': 'view_cart',
               'ecommerce': ecommerceData
             });
-            
           })
           .catch(function(error) {
             if(__bva__.debug) {
@@ -839,6 +837,7 @@ applyBindings(defaultBindings, __bva__);
             }
           });
       }, 500);
+      e.stopPropagation();
     }
 
     // ==========================================================================
@@ -982,7 +981,7 @@ applyBindings(defaultBindings, __bva__);
         viewCartObject.ecommerce.value = cartPrice;
         console.log('view cart obj.', viewCartObject);
 
-        dataLayer.push(viewCartObject)
+        dataLayer.push(viewCartObject);
       }
       
      
@@ -1320,12 +1319,47 @@ applyBindings(defaultBindings, __bva__);
       /** DATALAYER: Banners viewed **/
 
       const trackVisibleBanners = () => {
-          // non-slider banners
-          const bannerContainers = document.querySelectorAll('.DL__banner-container');
+        // non-slider banners
+        const bannerContainers = document.querySelectorAll('.DL__banner-container');
+
+        // Specific logic for media-grid-items sections;
+        const mediaGridItems = document.querySelectorAll('.media-with-text__item');
+        mediaGridItems.forEach((mediaGridItem) => {
+
+          const BtnContainer = mediaGridItem.querySelector('.media-with-text-item__btn');
+          const eventBannerType = BtnContainer.getAttribute('data-type');
+          const eventBannerImgUrl = BtnContainer.getAttribute('data-img-url');
+          const eventBannerText = BtnContainer.getAttribute('data-text');
+          let eventBannerLink = BtnContainer.getAttribute('data-url-link');
+          const eventBannerIndex = BtnContainer.getAttribute('data-index');
+          const bannerBtn = BtnContainer.querySelector('.button');
+
+          if (eventBannerLink && eventBannerLink[0] == '/') {
+            eventBannerLink = 'https://www.waaw.com.br' + eventBannerLink.trim()
+          }
+
+          const promotionData = {
+            'event': 'select_promotion',
+            'banner_position': eventBannerIndex,
+            'banner_type': eventBannerType,
+            'banner_image_url': eventBannerImgUrl,
+            'banner_text': eventBannerText,
+            'banner_link_url': eventBannerLink
+          };
+
+          bannerBtn.addEventListener('click', (e) => {
+            e.stopImmediatePropagation();
+            dataLayer.push(promotionData);
+          });
+        })
+
+        // END Media grid items logic;
+
+        // Others non-carrossel items;
 
           bannerContainers.forEach((bannerContainer) => {
               if (!bannerContainer.classList.contains('ga-viewed') && 
-                  isElementVisible(bannerContainer)) { // Só dispara se estiver visível na viewport
+                isElementVisible(bannerContainer)) { // Só dispara se estiver visível na viewport
 
                   bannerContainer.classList.add('ga-viewed'); // Marca como visualizado
 
@@ -1353,10 +1387,6 @@ applyBindings(defaultBindings, __bva__);
                   bannerContainer.addEventListener('click', () => {
                       const clickEvent = { ...promotionData, event: 'select_promotion' };
                       dataLayer.push(clickEvent);
-
-                      if (window.__bva__.debug) {
-                          console.log('select_promotion:', clickEvent);
-                      }
                   });
               }
           });
@@ -1392,10 +1422,6 @@ applyBindings(defaultBindings, __bva__);
             slide.addEventListener('click', () => {
               const clickEvent = { ...promotionData, event: 'select_promotion' };
               dataLayer.push(clickEvent);
-
-              if (window.__bva__.debug) {
-                console.log('select_promotion:', clickEvent);
-              }
             });
           }
         });
