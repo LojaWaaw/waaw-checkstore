@@ -142,14 +142,13 @@
       "block_order": [
         "play_Ywgz4f"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=0xylBPn1XW4",
-        "poster": "shopify:\/\/shop_images\/hyper.png",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=5_d5D4KhwcE",
+        "poster": "shopify:\/\/shop_images\/banner_f9f922b6-2a17-45ba-a66e-1c6c2ebde084.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
