@@ -524,6 +524,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/01.1400x1200-banner-destaque-lancamento-hyperboom-1000_f731a7a4-97c3-4a31-8f4c-c52d312ba1cb.jpg",
+            "type_slide": "product_banner",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
