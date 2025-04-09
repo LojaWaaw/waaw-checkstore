@@ -34,6 +34,7 @@
     "heading_apparition": "split_fade",
     "product_color_display": "swatch",
     "product_info_alignment": "start",
+    "await_release_badge_text": "Em breve",
     "cart_type": "drawer",
     "cart_icon": "shopping_basket",
     "cart_show_free_shipping_threshold": true,

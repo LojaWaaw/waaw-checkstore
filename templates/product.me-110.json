@@ -142,14 +142,13 @@
       "block_order": [
         "play_Ywgz4f"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=0xylBPn1XW4",
-        "poster": "shopify:\/\/shop_images\/hyper.png",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=mPbgrqzyUak",
+        "poster": "shopify:\/\/shop_images\/banner.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -871,7 +870,7 @@
         "template--15963751579823__72335e0e-e77a-44f4-87d0-c279cb2fd451-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7899831327249_-_HYPERBOOM_1000_-_06.png",
+            "image": "shopify:\/\/shop_images\/7899831332700_-_ME_110_-_06.png",
             "image_rotation_degrees": 4,
             "external_video_url": "",
             "subheading": "",

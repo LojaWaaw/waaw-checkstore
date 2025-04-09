@@ -16,7 +16,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify:\/\/collections\/all",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -524,6 +524,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/01.1400x1200-banner-destaque-lancamento-hyperboom-1000_f731a7a4-97c3-4a31-8f4c-c52d312ba1cb.jpg",
+            "type_slide": "media-grid",
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -559,7 +560,7 @@
         "template--15963751350447__901cf5c6-524e-4c15-a997-0dcfab0e5c7c-image-1": {
           "type": "image",
           "settings": {
-            "type_slide": "",
+            "type_slide": "media-grid",
             "image": "shopify:\/\/shop_images\/banner-waaw-bg.jpg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
@@ -757,7 +758,7 @@
         "template--15963751350447__3eeb7804-8889-479a-a643-3fc7d2f522b6-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02.1400x800-banner-newsletter-waaw-v2_43cd307f-8135-4f5a-a727-982fdbad2781.jpg",
+            "image": "shopify:\/\/shop_images\/01.Banners-site-waaw-news_fa9bf7f9-dd18-4c49-b411-d1d322d3a7db.jpg",
             "item_icon_width": 1,
             "column_size": "1.5",
             "title": "",
