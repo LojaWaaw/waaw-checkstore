@@ -134,6 +134,29 @@
         "text_color": ""
       }
     },
+    "video_c9mpqy": {
+      "type": "video",
+      "blocks": {
+        "play_QVWziB": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_QVWziB"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=nlltzZYFVUA",
+        "poster": "shopify:\/\/shop_images\/capa-video-shopify-mob500.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 59
+      }
+    },
     "image_with_text_overlay_GKMMnr": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -187,7 +210,7 @@
         "image_VtU46y": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40061_5b85add2-7fd0-4663-be2f-801d211348f0.png",
+            "image": "shopify:\/\/shop_images\/hands_free-mob500.png",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -223,7 +246,7 @@
         "image_wT973T": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40070_9ee9278a-7d40-4046-a43f-4b6e67b8af5c.png",
+            "image": "shopify:\/\/shop_images\/conectividade-mob-mob500.png",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -384,8 +407,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Frame_40084_a7b50995-880f-466b-8346-dc35fec056db.png",
-        "mobile_image": "shopify:\/\/shop_images\/Frame_40085_2c782acf-6eff-47d4-8e12-cbf0aa2f4a53.png",
+        "image": "shopify:\/\/shop_images\/cancelamento_de_ruido-mob500.png",
+        "mobile_image": "shopify:\/\/shop_images\/cancelamento_de_ruido-mob500-mobile.png",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-center-end sm:text-end",
         "text_color": "#000000",
@@ -449,7 +472,7 @@
         "item_A7qJCA": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Frame_40089_e8a49c44-48c8-47d6-9f53-fd07da3e2373.png",
+            "image": "shopify:\/\/shop_images\/ipx4-mob500.png",
             "image_rotation_degrees": 1.5,
             "external_video_url": "",
             "subheading": "",
@@ -1204,6 +1227,7 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
+    "video_c9mpqy",
     "image_with_text_overlay_GKMMnr",
     "media_with_text_cNpLDV",
     "media_with_text_7NBmRM",

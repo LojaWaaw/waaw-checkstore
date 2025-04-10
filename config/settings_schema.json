@@ -791,7 +791,7 @@
         "id": "await_release_badge_color",
         "label": "Await Release Badge Text Color",
         "default": "#ffffff"
-      },
+      }
     ]
   },
   {
