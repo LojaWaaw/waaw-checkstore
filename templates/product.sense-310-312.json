@@ -82,10 +82,6 @@
             "text": "<ul><li>Design <strong>over–ear<\/strong>;<\/li><li><strong>Bluetooth V5.1<\/strong>;<\/li><li>Entrada auxiliar<strong> P2;<\/strong><\/li><li>Compatível com <strong>assistente de voz<\/strong>;<\/li><li>Função <strong>hands free<\/strong>;<\/li><li>Até <strong>30 horas de reprodução <\/strong>com uma única recarga<strong>;<\/strong><\/li><li><strong>Cancelamento de ruído ANC <\/strong>mantém os ruídos externos afastados<strong>;<\/strong><\/li><\/ul>"
           }
         },
-        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8": {
-          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -110,7 +106,6 @@
         "buy_buttons",
         "heading_C38VDJ",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
-        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -142,14 +137,13 @@
       "block_order": [
         "play_Ywgz4f"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=0xylBPn1XW4",
-        "poster": "shopify:\/\/shop_images\/hyper.png",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=sOVRxkuKL4E",
+        "poster": "shopify:\/\/shop_images\/capa-sense-310-video.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 30
@@ -380,6 +374,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/cancelamento_de_ruido-sense_310.webp",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -405,6 +400,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_40070.png",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -429,6 +425,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/img_sense_310_2.webp",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -453,6 +450,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/img_sense_310_3.webp",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -477,6 +475,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/dobravel-sense_310.webp",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -574,6 +573,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/mosaico-sense_310_3_841505cc-b5bb-4ef0-a223-b486632c1378.webp",
             "title": "",
             "heading_tag": "h4",
@@ -596,6 +596,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/mosaico-sense_310_1.webp",
             "title": "",
             "heading_tag": "h4",
@@ -618,6 +619,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/mosaico-sense_310_2_c084af9c-5cde-4d50-ae25-5ba07239be51.webp",
             "title": "",
             "heading_tag": "h4",
