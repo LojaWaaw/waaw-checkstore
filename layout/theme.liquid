@@ -194,29 +194,46 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <!-- init  hide cookies on cart -->
     <script>
       document.addEventListener('DOMContentLoaded', () => {
-        const widgetElement = document.querySelector("#adopt-controller-button");
-        const cartDrawer = document.querySelector('cart-drawer');
+        let widgetElement = document.querySelector("#adopt-controller-button");
+        let cartDrawer = document.querySelector('cart-drawer');
+        let cartObserver;
 
-        if (!widgetElement || !cartDrawer) {
-          return;
-        }
+        const checkAndObserve = () => {
+          widgetElement = document.querySelector("#adopt-controller-button");
+          cartDrawer = document.querySelector('cart-drawer');
 
-        const observer = new MutationObserver((mutationsList, observer) => {
-          mutationsList.forEach(mutation => {
-            if (mutation.type === 'attributes' && mutation.attributeName === 'open') {
-              if (cartDrawer.hasAttribute('open')) {
-                widgetElement.classList.remove('adopt-c-dRvrkH');
-                widgetElement.style.zIndex = "2147483645";
-              } else {
-                widgetElement.classList.add('adopt-c-dRvrkH');
-                widgetElement.style.zIndex = "";
-              }
+          if (widgetElement && cartDrawer) {
+            if (cartObserver) {
+              cartObserver.disconnect();
             }
-          });
-        });
-        observer.observe(cartDrawer, { attributes: true });
-      });
 
+            cartObserver = new MutationObserver((mutationsList, observer) => {
+              mutationsList.forEach(mutation => {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'open') {
+                  if (cartDrawer.hasAttribute('open')) {
+                    widgetElement.classList.remove('adopt-c-dRvrkH');
+                    widgetElement.style.zIndex = "2147483645";
+                  } else {
+                    widgetElement.classList.add('adopt-c-dRvrkH');
+                    widgetElement.style.zIndex = "";
+                  }
+                }
+              });
+            });
+
+            cartObserver.observe(cartDrawer, { attributes: true });
+            domObserver.disconnect();
+          }
+        };
+
+        const domObserver = new MutationObserver((mutationsList, observer) => {
+          checkAndObserve();
+        });
+
+        domObserver.observe(document.body, { childList: true, subtree: true });
+
+        checkAndObserve();
+      });
     </script>
     <!-- end hide cookies on cart -->
   </body>
