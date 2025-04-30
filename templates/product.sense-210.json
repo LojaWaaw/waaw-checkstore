@@ -20,7 +20,7 @@
           "type": "text",
           "settings": {
             "highlight": false,
-            "text": "<p>O headphone WAAW SENSE 200 não te deixa na mão. Com conexão Bluetooth para horas de música sem fio, você ainda tem o cabo P2 para nunca ficar sem música mesmo com a bateria descarregada. Tenha seu #momentoWAAW com liberdade e conforto!<\/p>"
+            "text": "<p>O headphone WAAW SENSE 210 não te deixa na mão. Com conexão Bluetooth para horas de música sem fio, você ainda tem o cabo P2 para nunca ficar sem música mesmo com a bateria descarregada. Tenha seu #momentoWAAW com liberdade e conforto!<\/p>"
           }
         },
         "separator": {
@@ -82,10 +82,6 @@
             "text": "<ul><li>Conexão <strong>multipontos<\/strong>;<\/li><li><strong>25 horas<\/strong> de reprodução;<\/li><li>Compatível com <strong>assistentes de voz;<\/strong><\/li><li><strong>OVER EAR<\/strong> ideal para uso prolongado;<\/li><li>Conectividade com <strong>entrada auxiliar P2<\/strong>;<\/li><li><strong>HANDS FREE<\/strong> mãos livres nas chamadas;<\/li><li><strong>Conforto WAAW<\/strong> design leve e confortável.<\/li><\/ul>"
           }
         },
-        "62956669-151f-44d3-b98f-3ca17bcae0e4": {
-          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -110,7 +106,6 @@
         "buy_buttons",
         "heading_9JNHJb",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
-        "62956669-151f-44d3-b98f-3ca17bcae0e4",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -142,6 +137,29 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "video_ByhCQi": {
+      "type": "video",
+      "blocks": {
+        "play_nRjt3x": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_nRjt3x"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=7I6phMUAMNQ",
+        "poster": "shopify:\/\/shop_images\/capa-sense-210-video.png",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "image_with_text_overlay_9FJVRj": {
@@ -425,6 +443,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/sense-210-dobravel_8ff18bdf-ccbd-4403-9d53-a82402ba0fb6.png",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -518,6 +537,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/sense-210-03_e90afc3b-5c45-46d3-bfc0-7750aeb280fd.png",
             "title": "",
             "heading_tag": "h2",
@@ -540,6 +560,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/sense-210-01_57a80be3-abf8-4b5a-9014-98bd946ad816.png",
             "title": "",
             "heading_tag": "h4",
@@ -562,6 +583,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/sense-210-02_fbd27adb-c304-4d38-88fd-41c2f0549a89.png",
             "title": "",
             "heading_tag": "h2",
@@ -1018,6 +1040,7 @@
   "order": [
     "main",
     "3e1a8b69-7217-4431-9836-f7b25dc653ff",
+    "video_ByhCQi",
     "image_with_text_overlay_9FJVRj",
     "image_with_text_overlay_bX3hGY",
     "tabs_q8QKd7",

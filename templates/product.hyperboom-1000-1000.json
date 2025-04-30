@@ -82,10 +82,6 @@
             "text": "<ul><li><strong>Até 12 horas<\/strong> de reprodução;<\/li><li><strong>Bluetooth V5.4<\/strong>;<\/li><li>Conectividade com <strong>entrada aux IN;<\/strong><\/li><li>Classificação <strong>IPX7 a prova D'água<\/strong>;<\/li><li><strong>Alça<\/strong> de transporte;<\/li><li>Conecte até <strong>100 caixas<\/strong> HYPERBOOM 1000 simultaneamente no <strong>Modo Broadcast<\/strong>;<\/li><\/ul>"
           }
         },
-        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8": {
-          "type": "shopify:\/\/apps\/selleasy\/blocks\/lb-upsell-fbt-block\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-          "settings": {}
-        },
         "baf0ba4d-5b79-491e-a527-0a186f62eca4": {
           "type": "associated_products",
           "settings": {
@@ -110,7 +106,6 @@
         "buy_buttons",
         "heading_C38VDJ",
         "9fa0844a-2eed-4050-832a-fa2b710383ec",
-        "ec206dff-c4b5-464a-b9ff-cce25d2df9a8",
         "baf0ba4d-5b79-491e-a527-0a186f62eca4"
       ],
       "settings": {
@@ -147,7 +142,7 @@
         "allow_transparent_header": false,
         "autoplay": false,
         "video_size": "auto",
-        "external_video_url": "https:\/\/www.youtube.com\/watch?v=HkBZ0mitJXE",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=JC82hTUrRtA",
         "poster": "shopify:\/\/shop_images\/hyper.png",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
@@ -263,6 +258,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_40061.webp",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-start text-start",
@@ -288,6 +284,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_40070.png",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -312,6 +309,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/broadcast_9a0cc59c-20dd-4fde-abbe-35720588f4f3.png",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-start text-start",
@@ -539,6 +537,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Frame_40103.webp",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -591,6 +590,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/HyperBoom_Blast_1_1.gif",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
@@ -666,6 +666,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/hyperboom-driver_55fe25b0-59e5-4f9d-9ebb-9e4dcedb3eb2.png",
+            "type_slide": "",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
@@ -751,6 +752,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-1": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/Frame_40067_be8ca015-9286-4a85-b044-e94af3e185f9.png",
             "title": "",
             "heading_tag": "h4",
@@ -773,6 +775,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-2": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/Frame_40069_7fb4997c-7b5a-47e6-8645-9bbf19c75b07.webp",
             "title": "",
             "heading_tag": "h4",
@@ -795,6 +798,7 @@
         "template--15963751579823__18777de6-f6ea-4982-9e0f-eccf5d18bae5-image-3": {
           "type": "image",
           "settings": {
+            "type_slide": "",
             "image": "shopify:\/\/shop_images\/Frame_40068.webp",
             "title": "",
             "heading_tag": "h4",

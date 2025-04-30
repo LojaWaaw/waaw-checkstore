@@ -11,6 +11,21 @@
       --footer-block-list-justify-content: space-between;
     }
   }
+
+  .footer__support-contacts {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .block {
+    transition: 0.3s ease-in-out;
+  }
+
+  .block:hover {
+    opacity: 0.6;
+  }
+
 </style>
 {%- endif -%}
 
@@ -77,17 +92,21 @@ JAVASCRIPT
                         <p class="bold">{{ block.settings.title | escape }}</p>
                       {%- endif -%}
   
-                      <div class="h-stack wrap gap-2">
+                      <div class="h-stack wrap gap-2 footer__support-contacts">
                         {%- if block.settings.phone != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
-                            {% render 'icon' with 'picto-phone', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.phone }}
-                          </div>
+                          <a class="block" href="https://api.whatsapp.com/send?phone=554130127282&text=Ol%C3%A1%20equipe%20Waaw!%20Preciso%20de%20atendimento" rel="nofollow" target="_blank">
+                            <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
+                              {% render 'icon' with 'picto-phone', width: block.settings.icon_width, height: block.settings.icon_width %} {{ block.settings.phone }}
+                            </div>
+                          </a>
                         {%- endif -%}
 
                         {%- if block.settings.email != blank -%}
-                          <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
+                          <a href="mailto: ajuda@waaw.com.br" class="block">
+                            <div class="w-full prose text-subdued h-stack gap-2 icon-contact-grid">
                             {% render 'icon' with 'picto-envelope', width: block.settings.icon_width, height: block.settings.icon_width %}{{ block.settings.email }}
                           </div>
+                          </a>
                         {%- endif -%}
 
                         {%- if block.settings.service_time != blank -%}

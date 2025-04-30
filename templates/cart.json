@@ -12,13 +12,11 @@
         },
         "cart_note": {
           "type": "cart_note",
-          "settings": {
-          }
+          "settings": {}
         },
         "checkout_button": {
           "type": "checkout_button",
-          "settings": {
-          }
+          "settings": {}
         },
         "eb3cea8c-ed57-4616-8a22-d0e802345194": {
           "type": "offer",

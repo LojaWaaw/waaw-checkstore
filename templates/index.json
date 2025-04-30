@@ -7,7 +7,6 @@
           "type": "image",
           "settings": {
             "type_slide": "main_banner_home",
-
             "image": "shopify:\/\/shop_images\/07.2800x800-banner-principal-waaw-pix.jpg",
             "mobile_image": "shopify:\/\/shop_images\/08.1200x1600-banner-principal-waaw-pix.jpg",
             "content_max_width": 780,
@@ -31,7 +30,6 @@
           "type": "image",
           "settings": {
             "type_slide": "main_banner_home",
-
             "image": "shopify:\/\/shop_images\/01.2800x800-banner-principal-waaw-hyperboom_b8c390a9-fdfd-4d92-aaab-89172a13a8ff.jpg",
             "mobile_image": "shopify:\/\/shop_images\/02.1200x1600-banner-principal-waaw-hyperboom_a5dcfdb3-b624-4052-9de7-9f3c470d15fb.jpg",
             "content_max_width": 780,
@@ -55,7 +53,6 @@
           "type": "image",
           "settings": {
             "type_slide": "main_banner_home",
-
             "image": "shopify:\/\/shop_images\/05.2800x800-banner-principal-waaw-boom-200_0799c27d-b842-45b0-b3fc-f420b106e6fd.jpg",
             "mobile_image": "shopify:\/\/shop_images\/06.1200x1600-banner-principal-waaw-boom-200_5d4beb1d-060a-41ba-95a1-b0437c2144f9.jpg",
             "content_max_width": 780,
@@ -79,7 +76,6 @@
           "type": "image",
           "settings": {
             "type_slide": "main_banner_home",
-
             "image": "shopify:\/\/shop_images\/03.2800x800-banner-principal-waaw-mob-500_386490bd-5a5d-48cd-b851-ca6519093f4a.jpg",
             "mobile_image": "shopify:\/\/shop_images\/04.1200x1600-banner-principal-waaw-mob-500_d44a6650-94cd-426b-a3b9-c38efa8101ca.jpg",
             "content_max_width": 780,
@@ -191,7 +187,6 @@
           "type": "image",
           "settings": {
             "type_slide": "media-grid",
-
             "image": "shopify:\/\/shop_images\/01.1500x1523-banner-categorias-infinite-200_f5fa9b64-a447-4504-8dbb-10bde3699110.jpg",
             "title": "",
             "heading_tag": "h4",
@@ -215,7 +210,6 @@
           "type": "image",
           "settings": {
             "type_slide": "media-grid",
-
             "image": "shopify:\/\/shop_images\/02.700x583-banner-categorias-fones-de-ouvido_cca356af-efaf-4e24-8921-558c3c499820.jpg",
             "title": "",
             "heading_tag": "h4",
@@ -239,7 +233,6 @@
           "type": "image",
           "settings": {
             "type_slide": "media-grid",
-
             "image": "shopify:\/\/shop_images\/02.700x583-banner-categorias-caixas-de-som_fc07a7cb-ee8e-477b-a98e-57ce16686a13.jpg",
             "title": "",
             "heading_tag": "h4",
@@ -532,7 +525,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/01.1400x1200-banner-destaque-lancamento-hyperboom-1000_f731a7a4-97c3-4a31-8f4c-c52d312ba1cb.jpg",
             "type_slide": "media-grid",
-
             "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
@@ -569,7 +561,6 @@
           "type": "image",
           "settings": {
             "type_slide": "media-grid",
-
             "image": "shopify:\/\/shop_images\/banner-waaw-bg.jpg",
             "content_max_width": 700,
             "mobile_text_position": "place-self-center text-center",
@@ -700,7 +691,6 @@
         "fee73b17-6699-4797-a9b9-2607cba29836"
       ],
       "disabled": true,
-
       "settings": {
         "multicolumn_carousel": false,
         "full_width": false,
@@ -977,7 +967,6 @@
     "fe17a1e4-42dc-485f-a993-97816c3ac84b",
     "9ed2683d-0f72-46b3-8471-cdd7ece52232",
     "featured_collection_7nKnqp",
-
     "3eeb7804-8889-479a-a643-3fc7d2f522b6",
     "59298897-710d-4e7a-8287-4d650730155a",
     "5707dfc9-797a-4b73-b0c7-a8da84710061",
